@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a2020d-91e9-7a67-948e-7d7ca32ed2e5",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330773,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"not_supported\", \"passage\": 1, \"reason\": \"The source emphasizes the importance of slow-wave sleep (SWS) for memory consolidation, contradicting the claim that REM sleep is the main stage.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 319,
+  "completion_tokens": 51,
+  "total_tokens": 370,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.21
+}

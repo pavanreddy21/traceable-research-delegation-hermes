@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201dd-f7e1-776a-a36f-4985c0a076f3",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327653,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Fetch the PNAS study to add a mechanistic/empirical finding on sleep versus wake after declarative learning.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W2053308210\"}}",
+    "reasoning_content": "We have two sources. Maybe fetch the 2007 PNAS study for a third finding.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1603,
+  "completion_tokens": 69,
+  "total_tokens": 1672,
+  "prompt_tokens_details": {
+   "cached_tokens": 1024
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 20
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.2
+}

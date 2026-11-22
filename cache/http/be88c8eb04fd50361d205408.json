@@ -1,0 +1,3411 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 87355,
+   "db_response_time_ms": 225,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (sleep after learning declarative memory) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (sleep after learning declarative memory) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "sleep after learning declarative memory",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:sleep after learning declarative memory,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W1549063615",
+    "doi": "https://doi.org/10.3389/fpsyg.2015.00622",
+    "title": "Sleep smart\u2014optimizing sleep for declarative learning and memory",
+    "display_name": "Sleep smart\u2014optimizing sleep for declarative learning and memory",
+    "publication_year": 2015,
+    "cited_by_count": 108,
+    "abstract_inverted_index": {
+     "The": [
+      0,
+      48
+     ],
+     "last": [
+      1
+     ],
+     "decade": [
+      2
+     ],
+     "has": [
+      3,
+      34
+     ],
+     "witnessed": [
+      4
+     ],
+     "a": [
+      5
+     ],
+     "spurt": [
+      6
+     ],
+     "of": [
+      7,
+      42,
+      70,
+      87,
+      100,
+      114,
+      125,
+      166,
+      176,
+      189
+     ],
+     "new": [
+      8,
+      115
+     ],
+     "publications": [
+      9
+     ],
+     "documenting": [
+      10
+     ],
+     "sleep's": [
+      11,
+      190
+     ],
+     "essential": [
+      12
+     ],
+     "contribution": [
+      13
+     ],
+     "to": [
+      14,
+      18,
+      65,
+      75,
+      84,
+      95,
+      183
+     ],
+     "the": [
+      15,
+      23,
+      35,
+      40,
+      60,
+      66,
+      71,
+      76,
+      85,
+      88,
+      93,
+      96,
+      101,
+      112,
+      123,
+      133,
+      160,
+      167,
+      185
+     ],
+     "brains": [
+      16
+     ],
+     "ability": [
+      17
+     ],
+     "form": [
+      19
+     ],
+     "lasting": [
+      20
+     ],
+     "memories.": [
+      21
+     ],
+     "For": [
+      22
+     ],
+     "declarative": [
+      24
+     ],
+     "memory": [
+      25,
+      72,
+      90
+     ],
+     "domain,": [
+      26
+     ],
+     "slow": [
+      27
+     ],
+     "wave": [
+      28
+     ],
+     "sleep": [
+      29,
+      32,
+      58,
+      109,
+      129,
+      170
+     ],
+     "(the": [
+      30
+     ],
+     "deepest": [
+      31
+     ],
+     "stage)": [
+      33
+     ],
+     "greatest": [
+      36
+     ],
+     "beneficial": [
+      37,
+      191
+     ],
+     "effect": [
+      38,
+      192
+     ],
+     "on": [
+      39,
+      122,
+      169,
+      193
+     ],
+     "consolidation": [
+      41,
+      79
+     ],
+     "memories": [
+      43,
+      53,
+      116
+     ],
+     "acquired": [
+      44
+     ],
+     "during": [
+      45,
+      56,
+      128,
+      153
+     ],
+     "preceding": [
+      46
+     ],
+     "wakefulness.": [
+      47
+     ],
+     "finding": [
+      49
+     ],
+     "that": [
+      50,
+      62,
+      147
+     ],
+     "newly": [
+      51
+     ],
+     "encoded": [
+      52
+     ],
+     "become": [
+      54
+     ],
+     "reactivated": [
+      55
+     ],
+     "subsequent": [
+      57,
+      154
+     ],
+     "fostered": [
+      59
+     ],
+     "idea": [
+      61
+     ],
+     "reactivation": [
+      63,
+      82
+     ],
+     "leads": [
+      64,
+      83
+     ],
+     "strengthening": [
+      67
+     ],
+     "and": [
+      68,
+      163,
+      171,
+      173,
+      195
+     ],
+     "transformation": [
+      69
+     ],
+     "trace.": [
+      73
+     ],
+     "According": [
+      74
+     ],
+     "active": [
+      77
+     ],
+     "system": [
+      78
+     ],
+     "account,": [
+      80
+     ],
+     "trace": [
+      81
+     ],
+     "redistribution": [
+      86
+     ],
+     "transient": [
+      89
+     ],
+     "representations": [
+      91
+     ],
+     "from": [
+      92,
+      104
+     ],
+     "hippocampus": [
+      94
+     ],
+     "long-lasting": [
+      97
+     ],
+     "knowledge": [
+      98
+     ],
+     "networks": [
+      99
+     ],
+     "cortex.": [
+      102
+     ],
+     "Apart": [
+      103
+     ],
+     "consolidating": [
+      105
+     ],
+     "previously": [
+      106
+     ],
+     "learned": [
+      107
+     ],
+     "information,": [
+      108
+     ],
+     "also": [
+      110
+     ],
+     "facilitates": [
+      111
+     ],
+     "encoding": [
+      113
+     ],
+     "after": [
+      117
+     ],
+     "sleep,": [
+      118
+     ],
+     "which": [
+      119
+     ],
+     "probably": [
+      120
+     ],
+     "relies": [
+      121
+     ],
+     "renormalization": [
+      124
+     ],
+     "synaptic": [
+      126,
+      134,
+      145,
+      151
+     ],
+     "weights": [
+      127,
+      146
+     ],
+     "as": [
+      130
+     ],
+     "suggested": [
+      131
+     ],
+     "by": [
+      132,
+      150
+     ],
+     "homeostasis": [
+      135
+     ],
+     "theory.": [
+      136
+     ],
+     "During": [
+      137
+     ],
+     "wakefulness": [
+      138
+     ],
+     "overshooting": [
+      139
+     ],
+     "potentiation": [
+      140
+     ],
+     "causes": [
+      141
+     ],
+     "an": [
+      142
+     ],
+     "imbalance": [
+      143
+     ],
+     "in": [
+      144
+     ],
+     "is": [
+      148
+     ],
+     "countered": [
+      149
+     ],
+     "downscaling": [
+      152
+     ],
+     "sleep.": [
+      155
+     ],
+     "This": [
+      156
+     ],
+     "review": [
+      157
+     ],
+     "briefly": [
+      158
+     ],
+     "introduces": [
+      159
+     ],
+     "basic": [
+      161
+     ],
+     "concepts": [
+      162
+     ],
+     "central": [
+      164
+     ],
+     "findings": [
+      165
+     ],
+     "research": [
+      168
+     ],
+     "memory,": [
+      172
+     ],
+     "discusses": [
+      174
+     ],
+     "implications": [
+      175
+     ],
+     "this": [
+      177
+     ],
+     "lab-based": [
+      178
+     ],
+     "work": [
+      179
+     ],
+     "for": [
+      180
+     ],
+     "everyday": [
+      181
+     ],
+     "applications": [
+      182
+     ],
+     "make": [
+      184
+     ],
+     "best": [
+      186
+     ],
+     "possible": [
+      187
+     ],
+     "use": [
+      188
+     ],
+     "learning": [
+      194
+     ],
+     "memory.": [
+      196
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5012687917",
+       "display_name": "Gordon B. Feld",
+       "orcid": "https://orcid.org/0000-0002-1238-9493",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1238-9493"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I8087733",
+        "display_name": "University of T\u00fcbingen",
+        "ror": "https://ror.org/03a1kwz48",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I8087733"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Gordon B. Feld",
+      "raw_affiliation_strings": [
+       "Institute for Medical Psychology and Behavioral Neurobiology, University of T\u00fcbingen T\u00fcbingen, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute for Medical Psychology and Behavioral Neurobiology, University of T\u00fcbingen T\u00fcbingen, Germany",
+        "institution_ids": [
+         "https://openalex.org/I8087733"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5084080568",
+       "display_name": "Susanne Diekelmann",
+       "orcid": "https://orcid.org/0000-0001-9579-7486",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9579-7486"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I8087733",
+        "display_name": "University of T\u00fcbingen",
+        "ror": "https://ror.org/03a1kwz48",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I8087733"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Susanne Diekelmann",
+      "raw_affiliation_strings": [
+       "Institute for Medical Psychology and Behavioral Neurobiology, University of T\u00fcbingen T\u00fcbingen, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute for Medical Psychology and Behavioral Neurobiology, University of T\u00fcbingen T\u00fcbingen, Germany",
+        "institution_ids": [
+         "https://openalex.org/I8087733"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2015.00622",
+     "doi": "https://doi.org/10.3389/fpsyg.2015.00622",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2015.00622",
+     "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2015.00622/pdf",
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2141490089",
+    "doi": "https://doi.org/10.1101/lm.132106",
+    "title": "Sleep after learning aids memory recall",
+    "display_name": "Sleep after learning aids memory recall",
+    "publication_year": 2006,
+    "cited_by_count": 554,
+    "abstract_inverted_index": {
+     "In": [
+      0,
+      14,
+      45
+     ],
+     "recent": [
+      1
+     ],
+     "years,": [
+      2
+     ],
+     "the": [
+      3
+     ],
+     "effect": [
+      4,
+      40,
+      92
+     ],
+     "of": [
+      5,
+      23,
+      71,
+      74,
+      76,
+      82,
+      101
+     ],
+     "sleep": [
+      6,
+      35,
+      65
+     ],
+     "on": [
+      7,
+      20,
+      41,
+      93
+     ],
+     "memory": [
+      8,
+      61
+     ],
+     "consolidation": [
+      9
+     ],
+     "has": [
+      10,
+      37,
+      89
+     ],
+     "received": [
+      11
+     ],
+     "considerable": [
+      12
+     ],
+     "attention.": [
+      13
+     ],
+     "humans,": [
+      15
+     ],
+     "these": [
+      16
+     ],
+     "studies": [
+      17
+     ],
+     "concentrated": [
+      18
+     ],
+     "mainly": [
+      19
+     ],
+     "procedural": [
+      21
+     ],
+     "types": [
+      22
+     ],
+     "memory,": [
+      24,
+      94
+     ],
+     "which": [
+      25,
+      95
+     ],
+     "are": [
+      26
+     ],
+     "considered": [
+      27
+     ],
+     "to": [
+      28,
+      54
+     ],
+     "be": [
+      29,
+      111
+     ],
+     "hippocampus-independent.": [
+      30
+     ],
+     "Here,": [
+      31
+     ],
+     "we": [
+      32,
+      48
+     ],
+     "show": [
+      33,
+      58
+     ],
+     "that": [
+      34,
+      59
+     ],
+     "also": [
+      36
+     ],
+     "a": [
+      38,
+      68,
+      90,
+      99,
+      115
+     ],
+     "persisting": [
+      39
+     ],
+     "hippocampus-dependent": [
+      42
+     ],
+     "declarative": [
+      43,
+      60
+     ],
+     "memory.": [
+      44
+     ],
+     "two": [
+      46
+     ],
+     "experiments,": [
+      47
+     ],
+     "examined": [
+      49
+     ],
+     "high": [
+      50
+     ],
+     "school": [
+      51
+     ],
+     "students'": [
+      52
+     ],
+     "ability": [
+      53
+     ],
+     "remember": [
+      55
+     ],
+     "vocabulary.": [
+      56
+     ],
+     "We": [
+      57
+     ],
+     "is": [
+      62
+     ],
+     "enhanced": [
+      63
+     ],
+     "when": [
+      64
+     ],
+     "follows": [
+      66
+     ],
+     "within": [
+      67
+     ],
+     "few": [
+      69
+     ],
+     "hours": [
+      70
+     ],
+     "learning,": [
+      72
+     ],
+     "independent": [
+      73
+     ],
+     "time": [
+      75
+     ],
+     "day,": [
+      77
+     ],
+     "and": [
+      78
+     ],
+     "with": [
+      79
+     ],
+     "equal": [
+      80
+     ],
+     "amounts": [
+      81
+     ],
+     "interference": [
+      83
+     ],
+     "during": [
+      84,
+      107
+     ],
+     "retention": [
+      85
+     ],
+     "intervals.": [
+      86
+     ],
+     "Sleep": [
+      87
+     ],
+     "deprivation": [
+      88
+     ],
+     "detrimental": [
+      91
+     ],
+     "was": [
+      96
+     ],
+     "significant": [
+      97
+     ],
+     "after": [
+      98
+     ],
+     "night": [
+      100
+     ],
+     "recovery": [
+      102
+     ],
+     "sleep.": [
+      103
+     ],
+     "Thus,": [
+      104
+     ],
+     "fatigue": [
+      105
+     ],
+     "accumulating": [
+      106
+     ],
+     "wake": [
+      108
+     ],
+     "intervals": [
+      109
+     ],
+     "could": [
+      110
+     ],
+     "ruled": [
+      112
+     ],
+     "out": [
+      113
+     ],
+     "as": [
+      114
+     ],
+     "confound.": [
+      116
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5112758934",
+       "display_name": "Steffen Gais",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I9341345",
+        "display_name": "University of L\u00fcbeck",
+        "ror": "https://ror.org/00t3r8h32",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I9341345"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Steffen Gais",
+      "raw_affiliation_strings": [
+       "Department of Neuroendocrinology, University of L\u00fcbeck, 23538 L\u00fcbeck, Germany. gais@kfg.uni-luebeck.de",
+       "Department of Neuroendocrinology University of L\u00fcbeck 23538 L\u00fcbeck Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neuroendocrinology, University of L\u00fcbeck, 23538 L\u00fcbeck, Germany. gais@kfg.uni-luebeck.de",
+        "institution_ids": [
+         "https://openalex.org/I9341345"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Neuroendocrinology University of L\u00fcbeck 23538 L\u00fcbeck Germany",
+        "institution_ids": [
+         "https://openalex.org/I9341345"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": null,
+       "display_name": "Brian Lucas",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I9341345",
+        "display_name": "University of L\u00fcbeck",
+        "ror": "https://ror.org/00t3r8h32",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I9341345"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Brian Lucas",
+      "raw_affiliation_strings": [
+       "Department of Neuroendocrinology, University of L\u00fcbeck, 23538 L\u00fcbeck, Germany",
+       "Department of Neuroendocrinology University of L\u00fcbeck  L\u00fcbeck Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neuroendocrinology, University of L\u00fcbeck, 23538 L\u00fcbeck, Germany",
+        "institution_ids": [
+         "https://openalex.org/I9341345"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Neuroendocrinology University of L\u00fcbeck  L\u00fcbeck Germany",
+        "institution_ids": [
+         "https://openalex.org/I9341345"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5036040037",
+       "display_name": "Jan Born",
+       "orcid": "https://orcid.org/0000-0002-1847-6248",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1847-6248"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I9341345",
+        "display_name": "University of L\u00fcbeck",
+        "ror": "https://ror.org/00t3r8h32",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I9341345"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jan Born",
+      "raw_affiliation_strings": [
+       "Department of Neuroendocrinology, University of L\u00fcbeck, 23538 L\u00fcbeck, Germany",
+       "Department of Neuroendocrinology University of L\u00fcbeck  L\u00fcbeck Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neuroendocrinology, University of L\u00fcbeck, 23538 L\u00fcbeck, Germany",
+        "institution_ids": [
+         "https://openalex.org/I9341345"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Neuroendocrinology University of L\u00fcbeck  L\u00fcbeck Germany",
+        "institution_ids": [
+         "https://openalex.org/I9341345"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1101/lm.132106",
+     "doi": "https://doi.org/10.1101/lm.132106",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1101/lm.132106",
+     "pdf_url": "http://learnmem.cshlp.org/content/13/3/259.full.pdf",
+     "source": {
+      "id": "https://openalex.org/S73374563",
+      "display_name": "Learning & Memory",
+      "issn_l": "1072-0502",
+      "issn": [
+       "1072-0502",
+       "1549-5485"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [
+       "dongbi-c",
+       "doyens",
+       "jufo-2",
+       "ki-jl-2",
+       "medline",
+       "norway-2",
+       "poland-140",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310315909",
+      "host_organization_name": "Cold Spring Harbor Laboratory Press",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310315909"
+      ],
+      "host_organization_lineage_names": [
+       "Cold Spring Harbor Laboratory Press"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Learning &amp; Memory",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2053308210",
+    "doi": "https://doi.org/10.1073/pnas.0705454104",
+    "title": "Sleep transforms the cerebral trace of declarative memories",
+    "display_name": "Sleep transforms the cerebral trace of declarative memories",
+    "publication_year": 2007,
+    "cited_by_count": 485,
+    "abstract_inverted_index": {
+     "After": [
+      0
+     ],
+     "encoding,": [
+      1
+     ],
+     "memory": [
+      2,
+      118
+     ],
+     "traces": [
+      3
+     ],
+     "are": [
+      4
+     ],
+     "initially": [
+      5
+     ],
+     "fragile": [
+      6
+     ],
+     "and": [
+      7,
+      66,
+      91,
+      135
+     ],
+     "have": [
+      8
+     ],
+     "to": [
+      9,
+      12,
+      44,
+      53,
+      77,
+      88,
+      158
+     ],
+     "be": [
+      10
+     ],
+     "reinforced": [
+      11
+     ],
+     "become": [
+      13
+     ],
+     "permanent.": [
+      14
+     ],
+     "The": [
+      15
+     ],
+     "initial": [
+      16
+     ],
+     "steps": [
+      17
+     ],
+     "of": [
+      18,
+      42,
+      94,
+      109,
+      164
+     ],
+     "this": [
+      19,
+      31
+     ],
+     "process": [
+      20
+     ],
+     "occur": [
+      21
+     ],
+     "at": [
+      22
+     ],
+     "a": [
+      23,
+      39,
+      79,
+      89,
+      128,
+      167
+     ],
+     "cellular": [
+      24
+     ],
+     "level": [
+      25
+     ],
+     "within": [
+      26,
+      38
+     ],
+     "minutes": [
+      27
+     ],
+     "or": [
+      28
+     ],
+     "hours.": [
+      29
+     ],
+     "Besides": [
+      30
+     ],
+     "rapid": [
+      32
+     ],
+     "synaptic": [
+      33
+     ],
+     "consolidation,": [
+      34
+     ],
+     "systems": [
+      35,
+      84,
+      168
+     ],
+     "consolidation": [
+      36,
+      85
+     ],
+     "occurs": [
+      37
+     ],
+     "time": [
+      40
+     ],
+     "frame": [
+      41
+     ],
+     "days": [
+      43
+     ],
+     "years.": [
+      45
+     ],
+     "For": [
+      46
+     ],
+     "declarative": [
+      47
+     ],
+     "memory,": [
+      48
+     ],
+     "the": [
+      49,
+      64,
+      67,
+      123,
+      133,
+      136,
+      144,
+      162
+     ],
+     "latter": [
+      50
+     ],
+     "is": [
+      51
+     ],
+     "presumed": [
+      52
+     ],
+     "rely": [
+      54
+     ],
+     "on": [
+      55,
+      166
+     ],
+     "an": [
+      56
+     ],
+     "interaction": [
+      57
+     ],
+     "between": [
+      58,
+      132
+     ],
+     "different": [
+      59
+     ],
+     "brain": [
+      60
+     ],
+     "regions,": [
+      61
+     ],
+     "in": [
+      62,
+      161
+     ],
+     "particular": [
+      63
+     ],
+     "hippocampus": [
+      65,
+      134
+     ],
+     "medial": [
+      68
+     ],
+     "prefrontal": [
+      69
+     ],
+     "cortex": [
+      70
+     ],
+     "(mPFC).": [
+      71
+     ],
+     "Specifically,": [
+      72
+     ],
+     "sleep": [
+      73,
+      103,
+      126,
+      156
+     ],
+     "has": [
+      74
+     ],
+     "been": [
+      75
+     ],
+     "proposed": [
+      76
+     ],
+     "provide": [
+      78
+     ],
+     "setting": [
+      80
+     ],
+     "that": [
+      81,
+      101,
+      155
+     ],
+     "supports": [
+      82
+     ],
+     "such": [
+      83
+     ],
+     "processes,": [
+      86
+     ],
+     "leading": [
+      87
+     ],
+     "transfer": [
+      90
+     ],
+     "perhaps": [
+      92
+     ],
+     "transformation": [
+      93
+     ],
+     "memories.": [
+      95
+     ],
+     "Using": [
+      96
+     ],
+     "functional": [
+      97,
+      130
+     ],
+     "MRI,": [
+      98
+     ],
+     "we": [
+      99
+     ],
+     "show": [
+      100
+     ],
+     "postlearning": [
+      102
+     ],
+     "enhances": [
+      104
+     ],
+     "hippocampal": [
+      105
+     ],
+     "responses": [
+      106
+     ],
+     "during": [
+      107,
+      120
+     ],
+     "recall": [
+      108
+     ],
+     "word": [
+      110
+     ],
+     "pairs": [
+      111
+     ],
+     "48": [
+      112
+     ],
+     "h": [
+      113
+     ],
+     "after": [
+      114,
+      140
+     ],
+     "learning,": [
+      115,
+      141
+     ],
+     "indicating": [
+      116
+     ],
+     "intrahippocampal": [
+      117
+     ],
+     "processing": [
+      119
+     ],
+     "sleep.": [
+      121
+     ],
+     "At": [
+      122
+     ],
+     "same": [
+      124
+     ],
+     "time,": [
+      125
+     ],
+     "induces": [
+      127
+     ],
+     "memory-related": [
+      129
+     ],
+     "connectivity": [
+      131
+     ],
+     "mPFC.": [
+      137
+     ],
+     "Six": [
+      138
+     ],
+     "months": [
+      139
+     ],
+     "memories": [
+      142,
+      165
+     ],
+     "activated": [
+      143
+     ],
+     "mPFC": [
+      145
+     ],
+     "more": [
+      146
+     ],
+     "strongly": [
+      147
+     ],
+     "when": [
+      148
+     ],
+     "they": [
+      149
+     ],
+     "were": [
+      150
+     ],
+     "encoded": [
+      151
+     ],
+     "before": [
+      152
+     ],
+     "sleep,": [
+      153
+     ],
+     "showing": [
+      154
+     ],
+     "leads": [
+      157
+     ],
+     "long-lasting": [
+      159
+     ],
+     "changes": [
+      160
+     ],
+     "representation": [
+      163
+     ],
+     "level.": [
+      169
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5112758934",
+       "display_name": "Steffen Gais",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I157674565",
+        "display_name": "University of Li\u00e8ge",
+        "ror": "https://ror.org/00afp2z80",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Steffen Gais",
+      "raw_affiliation_strings": [
+       "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5083658031",
+       "display_name": "Genevi\u00e8ve Albouy",
+       "orcid": "https://orcid.org/0000-0002-5437-023X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5437-023X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I157674565",
+        "display_name": "University of Li\u00e8ge",
+        "ror": "https://ror.org/00afp2z80",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Genevi\u00e8ve Albouy",
+      "raw_affiliation_strings": [
+       "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5087178525",
+       "display_name": "M\u00e9lanie Boly",
+       "orcid": "https://orcid.org/0000-0001-9584-0907",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9584-0907"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I157674565",
+        "display_name": "University of Li\u00e8ge",
+        "ror": "https://ror.org/00afp2z80",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "M\u00e9lanie Boly",
+      "raw_affiliation_strings": [
+       "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5049301968",
+       "display_name": "Thien Thanh Dang\u2010Vu",
+       "orcid": "https://orcid.org/0000-0002-7235-2721",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7235-2721"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I157674565",
+        "display_name": "University of Li\u00e8ge",
+        "ror": "https://ror.org/00afp2z80",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Thien Thanh Dang-Vu",
+      "raw_affiliation_strings": [
+       "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5018470387",
+       "display_name": "Annabelle Darsaud",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I157674565",
+        "display_name": "University of Li\u00e8ge",
+        "ror": "https://ror.org/00afp2z80",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Annabelle Darsaud",
+      "raw_affiliation_strings": [
+       "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5066489976",
+       "display_name": "Martin Desseilles",
+       "orcid": "https://orcid.org/0000-0003-4748-3401",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4748-3401"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I157674565",
+        "display_name": "University of Li\u00e8ge",
+        "ror": "https://ror.org/00afp2z80",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Martin Desseilles",
+      "raw_affiliation_strings": [
+       "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5079322162",
+       "display_name": "G\u00e9raldine Rauchs",
+       "orcid": "https://orcid.org/0000-0001-7128-2189",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7128-2189"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I157674565",
+        "display_name": "University of Li\u00e8ge",
+        "ror": "https://ror.org/00afp2z80",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "G\u00e9raldine Rauchs",
+      "raw_affiliation_strings": [
+       "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5089232791",
+       "display_name": "Manuel Schabus",
+       "orcid": "https://orcid.org/0000-0001-5899-8772",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5899-8772"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I157674565",
+        "display_name": "University of Li\u00e8ge",
+        "ror": "https://ror.org/00afp2z80",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Manuel Schabus",
+      "raw_affiliation_strings": [
+       "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5024356048",
+       "display_name": "Virginie Sterpenich",
+       "orcid": "https://orcid.org/0000-0002-2125-833X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2125-833X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I157674565",
+        "display_name": "University of Li\u00e8ge",
+        "ror": "https://ror.org/00afp2z80",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Virginie Sterpenich",
+      "raw_affiliation_strings": [
+       "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5004542274",
+       "display_name": "Gilles Vandewalle",
+       "orcid": "https://orcid.org/0000-0003-2483-2752",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2483-2752"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I157674565",
+        "display_name": "University of Li\u00e8ge",
+        "ror": "https://ror.org/00afp2z80",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Gilles Vandewalle",
+      "raw_affiliation_strings": [
+       "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5019430989",
+       "display_name": "Pierre Maquet",
+       "orcid": "https://orcid.org/0000-0003-3106-3357",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3106-3357"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I157674565",
+        "display_name": "University of Li\u00e8ge",
+        "ror": "https://ror.org/00afp2z80",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Pierre Maquet",
+      "raw_affiliation_strings": [
+       "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5091780864",
+       "display_name": "Philippe Peigneux",
+       "orcid": "https://orcid.org/0000-0003-4745-1434",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4745-1434"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I157674565",
+        "display_name": "University of Li\u00e8ge",
+        "ror": "https://ror.org/00afp2z80",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Philippe Peigneux",
+      "raw_affiliation_strings": [
+       "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I157674565"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1073/pnas.0705454104",
+     "doi": "https://doi.org/10.1073/pnas.0705454104",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1073/pnas.0705454104",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+       "0027-8424",
+       "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-a",
+       "doyens",
+       "erih-plus",
+       "jufo-3",
+       "ki-jl-3",
+       "medline",
+       "norway-2",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+       "National Academy of Sciences"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Proceedings of the National Academy of Sciences",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2010171248",
+    "doi": "https://doi.org/10.1073/pnas.1414000112",
+    "title": "Timely sleep facilitates declarative memory consolidation in infants",
+    "display_name": "Timely sleep facilitates declarative memory consolidation in infants",
+    "publication_year": 2015,
+    "cited_by_count": 187,
+    "abstract_inverted_index": {
+     "Human": [
+      0
+     ],
+     "infants": [
+      1,
+      64,
+      83,
+      104,
+      115
+     ],
+     "devote": [
+      2
+     ],
+     "the": [
+      3,
+      16,
+      90,
+      94,
+      98,
+      106,
+      117,
+      122,
+      136,
+      142
+     ],
+     "majority": [
+      4
+     ],
+     "of": [
+      5,
+      18,
+      103,
+      114,
+      133,
+      138,
+      145
+     ],
+     "their": [
+      6
+     ],
+     "time": [
+      7
+     ],
+     "to": [
+      8,
+      126
+     ],
+     "sleeping.": [
+      9
+     ],
+     "However,": [
+      10
+     ],
+     "very": [
+      11
+     ],
+     "little": [
+      12
+     ],
+     "is": [
+      13,
+      121
+     ],
+     "known": [
+      14
+     ],
+     "about": [
+      15
+     ],
+     "role": [
+      17,
+      132
+     ],
+     "sleep": [
+      19,
+      134
+     ],
+     "in": [
+      20,
+      48,
+      65,
+      105,
+      116,
+      135,
+      141
+     ],
+     "early": [
+      21
+     ],
+     "memory": [
+      22,
+      32,
+      101
+     ],
+     "processing.": [
+      23
+     ],
+     "Here": [
+      24
+     ],
+     "we": [
+      25
+     ],
+     "test": [
+      26
+     ],
+     "6-": [
+      27
+     ],
+     "and": [
+      28,
+      42
+     ],
+     "12-mo-old": [
+      29
+     ],
+     "infants'": [
+      30
+     ],
+     "declarative": [
+      31,
+      139
+     ],
+     "for": [
+      33,
+      129
+     ],
+     "novel": [
+      34
+     ],
+     "actions": [
+      35,
+      92
+     ],
+     "after": [
+      36,
+      61,
+      79,
+      87,
+      97
+     ],
+     "a": [
+      37,
+      49,
+      66
+     ],
+     "4-h": [
+      38
+     ],
+     "[Experiment": [
+      39
+     ],
+     "(Exp.)": [
+      40
+     ],
+     "1]": [
+      41
+     ],
+     "24-h": [
+      43,
+      99
+     ],
+     "delay": [
+      44
+     ],
+     "(Exp.": [
+      45
+     ],
+     "2).": [
+      46
+     ],
+     "Infants": [
+      47
+     ],
+     "nap": [
+      50,
+      55,
+      107
+     ],
+     "condition": [
+      51,
+      68,
+      108
+     ],
+     "took": [
+      52
+     ],
+     "an": [
+      53,
+      130
+     ],
+     "extended": [
+      54
+     ],
+     "(\u226530": [
+      56
+     ],
+     "min)": [
+      57
+     ],
+     "within": [
+      58
+     ],
+     "4": [
+      59
+     ],
+     "h": [
+      60
+     ],
+     "learning,": [
+      62
+     ],
+     "whereas": [
+      63
+     ],
+     "no-nap": [
+      67,
+      118
+     ],
+     "did": [
+      69
+     ],
+     "not.": [
+      70
+     ],
+     "A": [
+      71
+     ],
+     "comparison": [
+      72
+     ],
+     "with": [
+      73
+     ],
+     "age-matched": [
+      74
+     ],
+     "control": [
+      75
+     ],
+     "groups": [
+      76
+     ],
+     "revealed": [
+      77
+     ],
+     "that": [
+      78,
+      113
+     ],
+     "both": [
+      80
+     ],
+     "delays,": [
+      81
+     ],
+     "only": [
+      82
+     ],
+     "who": [
+      84
+     ],
+     "had": [
+      85
+     ],
+     "napped": [
+      86
+     ],
+     "learning": [
+      88
+     ],
+     "remembered": [
+      89
+     ],
+     "target": [
+      91
+     ],
+     "at": [
+      93
+     ],
+     "test.": [
+      95
+     ],
+     "Additionally,": [
+      96
+     ],
+     "delay,": [
+      100
+     ],
+     "performance": [
+      102
+     ],
+     "was": [
+      109
+     ],
+     "significantly": [
+      110
+     ],
+     "higher": [
+      111
+     ],
+     "than": [
+      112
+     ],
+     "condition.": [
+      119
+     ],
+     "This": [
+      120
+     ],
+     "first": [
+      123,
+      143
+     ],
+     "experimental": [
+      124
+     ],
+     "evidence": [
+      125
+     ],
+     "our": [
+      127
+     ],
+     "knowledge": [
+      128
+     ],
+     "enhancing": [
+      131
+     ],
+     "consolidation": [
+      137
+     ],
+     "memories": [
+      140
+     ],
+     "year": [
+      144
+     ],
+     "life.": [
+      146
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5037052155",
+       "display_name": "Sabine Seehagen",
+       "orcid": "https://orcid.org/0000-0001-6749-0604",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6749-0604"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I904495901",
+        "display_name": "Ruhr University Bochum",
+        "ror": "https://ror.org/04tsk2644",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I904495901"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Sabine Seehagen",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Ruhr-Universit\u00e4t Bochum, 44787 Bochum, Germany; and"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Ruhr-Universit\u00e4t Bochum, 44787 Bochum, Germany; and",
+        "institution_ids": [
+         "https://openalex.org/I904495901"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5030614884",
+       "display_name": "Carolin Konrad",
+       "orcid": "https://orcid.org/0000-0003-3569-0702",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3569-0702"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I904495901",
+        "display_name": "Ruhr University Bochum",
+        "ror": "https://ror.org/04tsk2644",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I904495901"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Carolin Konrad",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Ruhr-Universit\u00e4t Bochum, 44787 Bochum, Germany; and"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Ruhr-Universit\u00e4t Bochum, 44787 Bochum, Germany; and",
+        "institution_ids": [
+         "https://openalex.org/I904495901"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5019264080",
+       "display_name": "Jane S. Herbert",
+       "orcid": "https://orcid.org/0000-0002-8762-4531",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8762-4531"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I91136226",
+        "display_name": "University of Sheffield",
+        "ror": "https://ror.org/05krs5044",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I91136226"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jane S. Herbert",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of Sheffield, Sheffield S10 2TN, United Kingdom",
+       "bDepartment of Psychology, University of Sheffield, Sheffield S10 2TN, United Kingdom"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of Sheffield, Sheffield S10 2TN, United Kingdom",
+        "institution_ids": [
+         "https://openalex.org/I91136226"
+        ]
+       },
+       {
+        "raw_affiliation_string": "bDepartment of Psychology, University of Sheffield, Sheffield S10 2TN, United Kingdom",
+        "institution_ids": [
+         "https://openalex.org/I91136226"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5012074178",
+       "display_name": "Silvia Schneider",
+       "orcid": "https://orcid.org/0000-0003-0698-8411",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0698-8411"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I904495901",
+        "display_name": "Ruhr University Bochum",
+        "ror": "https://ror.org/04tsk2644",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I904495901"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Silvia Schneider",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Ruhr-Universit\u00e4t Bochum, 44787 Bochum, Germany; and"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Ruhr-Universit\u00e4t Bochum, 44787 Bochum, Germany; and",
+        "institution_ids": [
+         "https://openalex.org/I904495901"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1073/pnas.1414000112",
+     "doi": "https://doi.org/10.1073/pnas.1414000112",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1073/pnas.1414000112",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+       "0027-8424",
+       "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-a",
+       "doyens",
+       "erih-plus",
+       "jufo-3",
+       "ki-jl-3",
+       "medline",
+       "norway-2",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+       "National Academy of Sciences"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Proceedings of the National Academy of Sciences",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4235412360",
+    "doi": "https://doi.org/10.1037/bul0000348",
+    "title": "Sleep deprivation and memory: Meta-analytic reviews of studies on sleep deprivation before and after learning.",
+    "display_name": "Sleep deprivation and memory: Meta-analytic reviews of studies on sleep deprivation before and after learning.",
+    "publication_year": 2021,
+    "cited_by_count": 137,
+    "abstract_inverted_index": {
+     "Research": [
+      0
+     ],
+     "suggests": [
+      1
+     ],
+     "that": [
+      2,
+      45
+     ],
+     "sleep": [
+      3,
+      51,
+      62,
+      80,
+      107,
+      134
+     ],
+     "deprivation": [
+      4,
+      52,
+      66,
+      73,
+      81,
+      103,
+      135
+     ],
+     "both": [
+      5,
+      160
+     ],
+     "before": [
+      6,
+      68,
+      136
+     ],
+     "and": [
+      7,
+      43,
+      70
+     ],
+     "after": [
+      8,
+      75,
+      82,
+      102,
+      105
+     ],
+     "encoding": [
+      9
+     ],
+     "has": [
+      10
+     ],
+     "a": [
+      11
+     ],
+     "detrimental": [
+      12
+     ],
+     "effect": [
+      13,
+      183
+     ],
+     "on": [
+      14,
+      53,
+      84
+     ],
+     "memory": [
+      15,
+      54,
+      85,
+      120,
+      129
+     ],
+     "for": [
+      16,
+      65,
+      72,
+      151
+     ],
+     "newly": [
+      17
+     ],
+     "learned": [
+      18
+     ],
+     "material.": [
+      19
+     ],
+     "However,": [
+      20
+     ],
+     "there": [
+      21
+     ],
+     "is": [
+      22
+     ],
+     "as": [
+      23
+     ],
+     "yet": [
+      24
+     ],
+     "no": [
+      25
+     ],
+     "quantitative": [
+      26
+     ],
+     "analyses": [
+      27
+     ],
+     "of": [
+      28,
+      31,
+      38,
+      48,
+      61,
+      79,
+      133,
+      169
+     ],
+     "the": [
+      29,
+      109,
+      170,
+      181
+     ],
+     "size": [
+      30
+     ],
+     "these": [
+      32
+     ],
+     "effects.": [
+      33
+     ],
+     "We": [
+      34
+     ],
+     "conducted": [
+      35
+     ],
+     "two": [
+      36
+     ],
+     "meta-analyses": [
+      37
+     ],
+     "studies": [
+      39
+     ],
+     "published": [
+      40
+     ],
+     "between": [
+      41
+     ],
+     "1970": [
+      42
+     ],
+     "2020": [
+      44
+     ],
+     "investigated": [
+      46
+     ],
+     "effects": [
+      47,
+      114,
+      126
+     ],
+     "total,": [
+      49
+     ],
+     "acute": [
+      50
+     ],
+     "(i.e.,": [
+      55
+     ],
+     "at": [
+      56
+     ],
+     "least": [
+      57
+     ],
+     "one": [
+      58,
+      64,
+      71
+     ],
+     "full": [
+      59
+     ],
+     "night": [
+      60
+     ],
+     "deprivation):": [
+      63
+     ],
+     "occurring": [
+      67,
+      74
+     ],
+     "learning": [
+      69,
+      83,
+      137
+     ],
+     "learning.": [
+      76
+     ],
+     "The": [
+      77,
+      131
+     ],
+     "impact": [
+      78,
+      132
+     ],
+     "was": [
+      86,
+      138,
+      164
+     ],
+     "associated": [
+      87,
+      139
+     ],
+     "with": [
+      88,
+      111,
+      140
+     ],
+     "Hedges'": [
+      89,
+      141
+     ],
+     "g": [
+      90,
+      142
+     ],
+     "=": [
+      91,
+      143
+     ],
+     "0.277,": [
+      92
+     ],
+     "95%": [
+      93,
+      145
+     ],
+     "CI": [
+      94,
+      146
+     ],
+     "[0.177,": [
+      95
+     ],
+     "0.377].": [
+      96
+     ],
+     "Whether": [
+      97
+     ],
+     "testing": [
+      98
+     ],
+     "took": [
+      99
+     ],
+     "place": [
+      100
+     ],
+     "immediately": [
+      101
+     ],
+     "or": [
+      104
+     ],
+     "recovery": [
+      106
+     ],
+     "moderated": [
+      108
+     ],
+     "effect,": [
+      110
+     ],
+     "significantly": [
+      112,
+      124
+     ],
+     "larger": [
+      113,
+      125
+     ],
+     "observed": [
+      115
+     ],
+     "in": [
+      116,
+      159,
+      167
+     ],
+     "immediate": [
+      117
+     ],
+     "tests.": [
+      118
+     ],
+     "Procedural": [
+      119
+     ],
+     "tasks": [
+      121
+     ],
+     "also": [
+      122
+     ],
+     "showed": [
+      123
+     ],
+     "than": [
+      127
+     ],
+     "declarative": [
+      128
+     ],
+     "tasks.": [
+      130
+     ],
+     "0.621,": [
+      144
+     ],
+     "[0.473,": [
+      147
+     ],
+     "0.769].": [
+      148
+     ],
+     "Egger's": [
+      149
+     ],
+     "tests": [
+      150
+     ],
+     "funnel": [
+      152
+     ],
+     "plot": [
+      153
+     ],
+     "asymmetry": [
+      154
+     ],
+     "suggested": [
+      155
+     ],
+     "significant": [
+      156
+     ],
+     "publication": [
+      157
+     ],
+     "bias": [
+      158
+     ],
+     "meta-analyses.": [
+      161
+     ],
+     "Statistical": [
+      162
+     ],
+     "power": [
+      163
+     ],
+     "very": [
+      165
+     ],
+     "low": [
+      166
+     ],
+     "most": [
+      168
+     ],
+     "analyzed": [
+      171
+     ],
+     "studies.": [
+      172
+     ],
+     "Highly": [
+      173
+     ],
+     "powered,": [
+      174
+     ],
+     "preregistered": [
+      175
+     ],
+     "replications": [
+      176
+     ],
+     "are": [
+      177
+     ],
+     "needed": [
+      178
+     ],
+     "to": [
+      179
+     ],
+     "estimate": [
+      180
+     ],
+     "underlying": [
+      182
+     ],
+     "sizes": [
+      184
+     ],
+     "more": [
+      185
+     ],
+     "precisely.": [
+      186
+     ],
+     "(PsycInfo": [
+      187
+     ],
+     "Database": [
+      188
+     ],
+     "Record": [
+      189
+     ],
+     "(c)": [
+      190
+     ],
+     "2022": [
+      191
+     ],
+     "APA,": [
+      192
+     ],
+     "all": [
+      193
+     ],
+     "rights": [
+      194
+     ],
+     "reserved).": [
+      195
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5070772958",
+       "display_name": "Chloe Rhianne Newbury",
+       "orcid": "https://orcid.org/0000-0003-3515-5566",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3515-5566"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I124357947",
+        "display_name": "University of London",
+        "ror": "https://ror.org/04cw6st05",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I124357947"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I184558857",
+        "display_name": "Royal Holloway University of London",
+        "ror": "https://ror.org/04g2vpn86",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I124357947",
+         "https://openalex.org/I184558857"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Chloe R. Newbury",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Royal Holloway, University of London"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-3515-5566",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Royal Holloway, University of London",
+        "institution_ids": [
+         "https://openalex.org/I124357947",
+         "https://openalex.org/I184558857"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5053921655",
+       "display_name": "Rebecca Crowley",
+       "orcid": "https://orcid.org/0000-0002-8629-8690",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8629-8690"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I124357947",
+        "display_name": "University of London",
+        "ror": "https://ror.org/04cw6st05",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I124357947"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I184558857",
+        "display_name": "Royal Holloway University of London",
+        "ror": "https://ror.org/04g2vpn86",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I124357947",
+         "https://openalex.org/I184558857"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Rebecca Crowley",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Royal Holloway, University of London"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-8629-8690",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Royal Holloway, University of London",
+        "institution_ids": [
+         "https://openalex.org/I124357947",
+         "https://openalex.org/I184558857"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5009937383",
+       "display_name": "Kathleen Rastle",
+       "orcid": "https://orcid.org/0000-0002-3070-7555",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3070-7555"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I124357947",
+        "display_name": "University of London",
+        "ror": "https://ror.org/04cw6st05",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I124357947"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I184558857",
+        "display_name": "Royal Holloway University of London",
+        "ror": "https://ror.org/04g2vpn86",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I124357947",
+         "https://openalex.org/I184558857"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Kathleen Rastle",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Royal Holloway, University of London"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-3070-7555",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Royal Holloway, University of London",
+        "institution_ids": [
+         "https://openalex.org/I124357947",
+         "https://openalex.org/I184558857"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5060802196",
+       "display_name": "Jakke Tamminen",
+       "orcid": "https://orcid.org/0000-0003-1929-3598",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1929-3598"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I124357947",
+        "display_name": "University of London",
+        "ror": "https://ror.org/04cw6st05",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I124357947"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I184558857",
+        "display_name": "Royal Holloway University of London",
+        "ror": "https://ror.org/04g2vpn86",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I124357947",
+         "https://openalex.org/I184558857"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Jakke Tamminen",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Royal Holloway, University of London"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-1929-3598",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Royal Holloway, University of London",
+        "institution_ids": [
+         "https://openalex.org/I124357947",
+         "https://openalex.org/I184558857"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1037/bul0000348",
+     "doi": "https://doi.org/10.1037/bul0000348",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1037/bul0000348",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S75627607",
+      "display_name": "Psychological Bulletin",
+      "issn_l": "0033-2909",
+      "issn": [
+       "0033-2909",
+       "1939-1455"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-a-star",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-a",
+       "erih-plus",
+       "jufo-3",
+       "ki-jl-2",
+       "medline",
+       "norway-2",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320262",
+      "host_organization_name": "American Psychological Association",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320262"
+      ],
+      "host_organization_lineage_names": [
+       "American Psychological Association"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Psychological Bulletin",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

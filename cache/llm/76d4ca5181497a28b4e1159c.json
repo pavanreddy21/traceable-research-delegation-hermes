@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201dd-6b72-76de-97ae-287c094f18c5",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327617,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Fetch the computational/mechanistic paper on spindles and slow oscillations for a second specific claim.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W2949898304\"}}",
+    "reasoning_content": "Now fetch W2949898304.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1402,
+  "completion_tokens": 56,
+  "total_tokens": 1458,
+  "prompt_tokens_details": {
+   "cached_tokens": 1024
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 9
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.24
+}

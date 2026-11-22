@@ -1,0 +1,506 @@
+{
+ "status": 200,
+ "json": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      10,
+      27
+     ]
+    ],
+    "date-time": "2026-10-27T00:01:55Z",
+    "timestamp": 1793059315127,
+    "version": "4.5.0"
+   },
+   "reference-count": 24,
+   "publisher": "Springer Science and Business Media LLC",
+   "issue": "4",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2021,
+        5,
+        11
+       ]
+      ],
+      "date-time": "2021-05-11T00:00:00Z",
+      "timestamp": 1620691200000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2021,
+        5,
+        11
+       ]
+      ],
+      "date-time": "2021-05-11T00:00:00Z",
+      "timestamp": 1620691200000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "link.springer.com"
+    ],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Med.Sci.Educ."
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2021,
+      8
+     ]
+    ]
+   },
+   "abstract": "<jats:title>Abstract</jats:title><jats:p>It is generally assumed by students that learning takes place during repeated episodes of rereading and rote memorization of course materials. Over the past few decades, however, research has increasingly indicated that the said notion can and should be enhanced with learning paradigms such as retrieval practice (RP). RP occurs when students practice retrieving their consolidated semantic memories by informally testing themselves. This strategy results in the re-encoding and re-consolidation of existing semantic memories, thus strengthening their schemas. The purpose of this quasi-experimental design was to assess the effects of the implementation of RP on student performance on the final exam in a large, undergraduate Gross Anatomy course. It was hypothesized that student participation in RP during class would improve their performance on the final exam in the course. The participants (<jats:italic>N</jats:italic>\u2009=\u2009248) were mainly in Life Sciences, Kinesiology, and Physical Education programs. They answered RP questions using TopHat\u00a9, an online educational software platform. The results of this study indicated that student performance on the final exam was enhanced when students engaged in RP. It was concluded that the use of RP effectively enhances learning and long-term retention of semantic memory. In addition to the traditional testing \u2018of\u2019 learning, teachers are encouraged to implement testing, in the form of RP, in their classrooms \u2018for\u2019 learning.</jats:p>",
+   "DOI": "10.1007/s40670-021-01298-8",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      11
+     ]
+    ],
+    "date-time": "2021-05-11T22:02:50Z",
+    "timestamp": 1620770570000
+   },
+   "page": "1305-1310",
+   "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 8,
+   "title": [
+    "Retrieval Practice for Improving Long-Term Retention in Anatomical Education: A Quasi-Experimental Study"
+   ],
+   "prefix": "10.1007",
+   "volume": "31",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-6473-8747",
+     "authenticated-orcid": false,
+     "given": "Mohammad B.",
+     "family": "Azzam",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Ronald A.",
+     "family": "Easteal",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "297",
+   "published-online": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      11
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "1298_CR1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/09658210802647009",
+     "author": "JD Karpicke",
+     "year": "2009",
+     "unstructured": "Karpicke JD, Butler AC, Roediger HL. Metacognitive strategies in student learning: do students practise retrieval when they study on their own? Memory. 2009. https://doi.org/10.1080/09658210802647009.",
+     "journal-title": "Memory"
+    },
+    {
+     "key": "1298_CR2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3758/mc.36.2.438",
+     "author": "SK Carpenter",
+     "year": "2008",
+     "unstructured": "Carpenter SK, Pashler H, Wixted JT, Vul E. The effects of tests on learning and forgetting. Mem Cogn. 2008. https://doi.org/10.3758/mc.36.2.438.",
+     "journal-title": "Mem Cogn"
+    },
+    {
+     "key": "1298_CR3",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.1152408",
+     "author": "JD Karpicke",
+     "year": "2008",
+     "unstructured": "Karpicke JD, Roediger HL. The critical importance of retrieval for learning. Science. 2008. https://doi.org/10.1126/science.1152408.",
+     "journal-title": "Science"
+    },
+    {
+     "key": "1298_CR4",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2307/1423016",
+     "author": "T Kuo",
+     "year": "1996",
+     "unstructured": "Kuo T, Hirshman E. Investigations of the testing effect. Am J Psychol. 1996. https://doi.org/10.2307/1423016.",
+     "journal-title": "Am J Psychol"
+    },
+    {
+     "key": "1298_CR5",
+     "doi-asserted-by": "publisher",
+     "first-page": "249",
+     "DOI": "10.1111/j.1467-9280.2006.01693.x",
+     "volume": "17",
+     "author": "HL Roediger",
+     "year": "2006",
+     "unstructured": "Roediger HL, Karpicke JD. Test-enhanced learning: taking memory tests improves long-term retention. Psychol Sci. 2006;17:249\u201355.",
+     "journal-title": "Psychol Sci"
+    },
+    {
+     "key": "1298_CR6",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1027/1618-3169.56.4.252",
+     "author": "TC Toppino",
+     "year": "2009",
+     "unstructured": "Toppino TC, Cohen MS. The testing effect and the retention interval. J Exp Psychol. 2009. https://doi.org/10.1027/1618-3169.56.4.252.",
+     "journal-title": "J Exp Psychol"
+    },
+    {
+     "key": "1298_CR7",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/0965821024400041",
+     "author": "M Wheeler",
+     "year": "2003",
+     "unstructured": "Wheeler M, Ewers M, Buonanno J. Different rates of forgetting following study versus test trials. Memory. 2003. https://doi.org/10.1080/0965821024400041.",
+     "journal-title": "Memory"
+    },
+    {
+     "key": "1298_CR8",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Dharani K. The Biology of Thought: a neuronal mechanism in the generation of thought \u2013 a new molecular model. Academic Press.\u00a02014.",
+     "DOI": "10.1016/B978-0-12-800900-0.00007-5"
+    },
+    {
+     "key": "1298_CR9",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.heares.2009.03.012",
+     "author": "BE Stein",
+     "year": "2009",
+     "unstructured": "Stein BE, Stanford TR, Rowland BA. The neural basis of multisensory integration in the midbrain: its organization and maturation. Heat Res. 2009. https://doi.org/10.1016/j.heares.2009.03.012.",
+     "journal-title": "Heat Res"
+    },
+    {
+     "key": "1298_CR10",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3389/fpsyg.2010.00175",
+     "author": "IG Sligte",
+     "year": "2010",
+     "unstructured": "Sligte IG. Detailed sensory memory, sloppy working memory. Front Psychol. 2010. https://doi.org/10.3389/fpsyg.2010.00175.",
+     "journal-title": "Front Psychol"
+    },
+    {
+     "key": "1298_CR11",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.tics.2013.06.006",
+     "author": "SJ Luck",
+     "year": "2013",
+     "unstructured": "Luck SJ, Vogel EK. Visual working memory capacity: from psychophysics and neurobiology to individual differences. Trends Cogn Sci. 2013. https://doi.org/10.1016/j.tics.2013.06.006.",
+     "journal-title": "Trends Cogn Sci"
+    },
+    {
+     "key": "1298_CR12",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.tics.2017.04.006",
+     "author": "JLC Lee",
+     "year": "2017",
+     "unstructured": "Lee JLC, Nader K, Schiller D. An update on memory reconsolidation updating. Trends Cogn Sci. 2017. https://doi.org/10.1016/j.tics.2017.04.006.",
+     "journal-title": "Trends Cogn Sci"
+    },
+    {
+     "key": "1298_CR13",
+     "unstructured": "McDermott KB, Roediger HL. Memory (encoding, storage, retrieval). In: Biswas-Diener R, Diener E, editors. Noba textbook series: Psychology. Illinois: DEF publishers.\u00a02020."
+    },
+    {
+     "key": "1298_CR14",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/nrn1607",
+     "author": "P Frankland",
+     "year": "2005",
+     "unstructured": "Frankland P, Bontempi B. The organization of recent and remote memories. Nat Rev Neurosci. 2005. https://doi.org/10.1038/nrn1607.",
+     "journal-title": "Nat Rev Neurosci"
+    },
+    {
+     "key": "1298_CR15",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.1104495108",
+     "author": "D Moncada",
+     "year": "2011",
+     "unstructured": "Moncada D, Ballarini F, Martinez MC, Frey JU, Viola H. Identification of transmitter systems and learning tag molecules involved in behavioural tagging during memory formation. Proc Natl Acad Sci USA. 2011. https://doi.org/10.1073/pnas.1104495108.",
+     "journal-title": "Proc Natl Acad Sci USA"
+    },
+    {
+     "key": "1298_CR16",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.1199327",
+     "author": "JD Karpicke",
+     "year": "2011",
+     "unstructured": "Karpicke JD, Blunt JR. Retrieval practice produces more learning than elaborative studying with concept mapping. Science. 2011. https://doi.org/10.1126/science.1199327.",
+     "journal-title": "Science"
+    },
+    {
+     "key": "1298_CR17",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/ase.1668",
+     "author": "JL Dobson",
+     "year": "2017",
+     "unstructured": "Dobson JL, Perez J, Linderholm T. Distributed retrieval practice promotes superior recall of anatomy information. Anat Sci Educ. 2017. https://doi.org/10.1002/ase.1668.",
+     "journal-title": "Anat Sci Educ"
+    },
+    {
+     "key": "1298_CR18",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-2923.2009.03518.x",
+     "author": "DP Larsen",
+     "year": "2009",
+     "unstructured": "Larsen DP, Butler AC, Roediger HL. Repeated testing improves long-term retention relative to repeated study: a randomized controlled trial. Med Educ. 2009. https://doi.org/10.1111/j.1365-2923.2009.03518.x.",
+     "journal-title": "Med Educ"
+    },
+    {
+     "key": "1298_CR19",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/0278-7393.31.1.3",
+     "author": "H Pashler",
+     "year": "2005",
+     "unstructured": "Pashler H, Cepeda NJ, Wixted JT, Rohrer D. When does feedback facilitate learning of words? J Exp Psychol Learn Mem Cogn. 2005. https://doi.org/10.1037/0278-7393.31.1.3.",
+     "journal-title": "J Exp Psychol Learn Mem Cogn"
+    },
+    {
+     "key": "1298_CR20",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/09658211.2014.889710",
+     "author": "CA Rowland",
+     "year": "2015",
+     "unstructured": "Rowland CA, DeLosh EL. Mnemonic benefits of retrieval practice at short retention intervals. Memory. 2015. https://doi.org/10.1080/09658211.2014.889710.",
+     "journal-title": "Memory"
+    },
+    {
+     "key": "1298_CR21",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.4324/9781315004914",
+     "volume-title": "Assessing student learning in higher education",
+     "author": "G Brown",
+     "year": "2013",
+     "unstructured": "Brown G, Bull J, Pendlebury M. Assessing student learning in higher education. London: Routledge.\u00a02013."
+    },
+    {
+     "key": "1298_CR22",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev-psych-113011-143823",
+     "author": "RA Bjork",
+     "year": "2013",
+     "unstructured": "Bjork RA, Dunlosky J, Kornell N. Self-regulated learning: beliefs, techniques, and illusions. Annu Rev Psychol. 2013. https://doi.org/10.1146/annurev-psych-113011-143823.",
+     "journal-title": "Annu Rev Psychol"
+    },
+    {
+     "key": "1298_CR23",
+     "doi-asserted-by": "publisher",
+     "first-page": "437",
+     "DOI": "10.1016/j.jml.2009.01.004",
+     "volume": "60",
+     "author": "MA Pyc",
+     "year": "2009",
+     "unstructured": "Pyc MA, Rawson KA. Testing the retrieval effort hypothesis: does greater difficulty recalling information lead to higher levels of memory? J Mem Lang. 2009;60:437\u201347.",
+     "journal-title": "J Mem Lang"
+    },
+    {
+     "key": "1298_CR24",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.4159/9780674028999",
+     "volume-title": "The process of education",
+     "author": "JS Bruner",
+     "year": "1960",
+     "unstructured": "Bruner JS. The process of education. Cambridge: Harvard University Press.\u00a01960."
+    }
+   ],
+   "container-title": [
+    "Medical Science Educator"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://link.springer.com/content/pdf/10.1007/s40670-021-01298-8.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://link.springer.com/article/10.1007/s40670-021-01298-8/fulltext.html",
+     "content-type": "text/html",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://link.springer.com/content/pdf/10.1007/s40670-021-01298-8.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      8,
+      30
+     ]
+    ],
+    "date-time": "2024-08-30T17:39:54Z",
+    "timestamp": 1725039594000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://link.springer.com/10.1007/s40670-021-01298-8"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      11
+     ]
+    ]
+   },
+   "references-count": 24,
+   "journal-issue": {
+    "issue": "4",
+    "published-print": {
+     "date-parts": [
+      [
+       2021,
+       8
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "1298"
+   ],
+   "URL": "https://doi.org/10.1007/s40670-021-01298-8",
+   "relation": {},
+   "ISSN": [
+    "2156-8650"
+   ],
+   "issn-type": [
+    {
+     "value": "2156-8650",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      11
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "23 April 2021",
+     "order": 1,
+     "name": "accepted",
+     "label": "Accepted",
+     "group": {
+      "name": "ArticleHistory",
+      "label": "Article History"
+     }
+    },
+    {
+     "value": "11 May 2021",
+     "order": 2,
+     "name": "first_online",
+     "label": "First Online",
+     "group": {
+      "name": "ArticleHistory",
+      "label": "Article History"
+     }
+    },
+    {
+     "order": 1,
+     "name": "Ethics",
+     "group": {
+      "name": "EthicsHeading",
+      "label": "Declarations"
+     }
+    },
+    {
+     "value": "This study was approved by the Health Sciences and Affiliated Teaching Hospitals Research Ethics Board (HSREB) at Queen\u2019s University (Ethics approval number: 6016151; DBMS-044-15).",
+     "order": 2,
+     "name": "Ethics",
+     "group": {
+      "name": "EthicsHeading",
+      "label": "Ethics Approval"
+     }
+    },
+    {
+     "value": "Informed consent was obtained from all individual participants included in this study.",
+     "order": 3,
+     "name": "Ethics",
+     "group": {
+      "name": "EthicsHeading",
+      "label": "Consent to Participate"
+     }
+    },
+    {
+     "value": "Informed consent was obtained from all individual participants included in this study.",
+     "order": 4,
+     "name": "Ethics",
+     "group": {
+      "name": "EthicsHeading",
+      "label": "Consent for Publication"
+     }
+    },
+    {
+     "value": "The authors declare no competing interests.",
+     "order": 5,
+     "name": "Ethics",
+     "group": {
+      "name": "EthicsHeading",
+      "label": "Conflict of Interest"
+     }
+    }
+   ]
+  }
+ }
+}

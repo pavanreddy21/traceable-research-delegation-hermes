@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a2020a-750a-779a-8a41-880a4264cdd6",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330569,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"not_supported\", \"passage\": 1, \"reason\": \"The source says taking more notes can be beneficial and that verbatim transcription is detrimental, not that a larger volume of notes is harmful.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 320,
+  "completion_tokens": 49,
+  "total_tokens": 369,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.22
+}

@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20203-21f4-7850-92f7-a53f10b98700",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330089,
+ "model": "zai-org/GLM-5.3-Flash",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"not_supported\", \"passage\": 2, \"reason\": \"Passage 2 directly contradicts the claim, stating that across all three experiments there was no evidence of retrieval practice affecting delayed test performance on problem-solving skills.\"}",
+    "reasoning_content": "The claim: \"Retrieval practice reliably improved delayed mathematical problem-solving across all three experiments.\"\n\nThe source passages say: \"across the three experiments, we found no evidence of retrieval practice affecting results during an enhanced delayed test. Therefore, there may be no retrieval practice effect on acquiring problem-solving skills from worked examples.\"\n\nThis directly contradicts the claim. The claim says retrieval practice improved delayed problem-solving across all three experiments, but the source says there was no evidence of a retrieval practice effect across the three experiments.\n\nSo verdict: not_supported. The best passage is [2], which contradicts the claim.\n\nReply with JSON only.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 286,
+  "completion_tokens": 181,
+  "total_tokens": 467,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 128
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.21
+}

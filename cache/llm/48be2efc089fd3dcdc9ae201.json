@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a2020b-3074-7e62-9198-03a26bc852f5",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330617,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"not_supported\", \"passage\": 3, \"reason\": \"The source states that the optimal interstudy interval increases as retention interval increases, which contradicts the claim that the best spacing interval is the same regardless of retention duration.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 299,
+  "completion_tokens": 54,
+  "total_tokens": 353,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.19
+}

@@ -1,0 +1,1131 @@
+{
+ "question": "Is practice testing better than restudying for students' delayed exam performance?",
+ "scope": {
+  "decision": "allow",
+  "reason": "public-information research question",
+  "layer": "rules"
+ },
+ "plan": {
+  "ambiguity": "Do you mean delayed performance on a researcher-administered retention test or on an actual course exam?",
+  "subquestions": [
+   {
+    "q": "Do low-stakes classroom quizzes outperform rereading for delayed exams?",
+    "query": "low-stakes quizzes versus rereading exam performance"
+   },
+   {
+    "q": "Does practice testing benefit delayed exam performance across academic subjects?",
+    "query": "practice testing delayed exam performance subjects"
+   },
+   {
+    "q": "Does prior knowledge moderate practice testing versus restudying effects?",
+    "query": "prior knowledge testing effect restudy"
+   }
+  ]
+ },
+ "sources": {
+  "W3176543106": {
+   "source_id": "W3176543106",
+   "title": "Low-Stakes Quizzes Improve Learning and Reduce Overconfidence in College Students",
+   "year": 2021,
+   "authors": [
+    "Kevin L Kenney",
+    "Heather R. Bailey"
+   ],
+   "venue": "Journal of the Scholarship of Teaching and Learning",
+   "doi": "https://doi.org/10.14434/josotl.v21i2.28650",
+   "cited_by": 32,
+   "abstract": "Retrieval practice is a straightforward and effective way to improve student learning, and its efficacy has been demonstrated repeatedly in the laboratory and in the classroom. In the current study, we implemented retrieval practice in the form of daily reviews in the classroom. Students (N = 47) in a cognitive psychology course completed a daily review at the beginning of each class. These consisted of 2-4 questions that encouraged students to practice retrieving material covered in lectures from the previous week. Then at the end of the semester, students took a comprehensive final exam consisting of content that was either on a daily review, a unit exam, both or neither. We replicated previous work such that retrieval practice improved memory. Specifically, we found that students performed significantly better on questions whose information had been covered on both a daily review and unit exam. However, student performance did not differ amongst items covered only on a daily review, a unit exam, or on neither. Additionally, we extended previous work and found that students were significantly less overconfident for information covered on both a daily review and unit exam. The current results indicate that retrieval practice helps college students remember material over the course of a semester and also improves their ability to evaluate their own knowledge of the material.",
+   "injection_flags": []
+  },
+  "W2071538318": {
+   "source_id": "W2071538318",
+   "title": "Strengthening concept learning by repeated testing",
+   "year": 2013,
+   "authors": [
+    "Carola Wiklund\u2010H\u00f6rnqvist",
+    "Bert Jonsson",
+    "Lars H Nyberg"
+   ],
+   "venue": "Scandinavian Journal of Psychology",
+   "doi": "https://doi.org/10.1111/sjop.12093",
+   "cited_by": 126,
+   "abstract": "The aim of this study was to examine whether repeated testing with feedback benefits learning compared to rereading of introductory psychology key-concepts in an educational context. The testing effect was examined immediately after practice, after 18 days, and at a five-week delay in a sample of undergraduate students (n = 83). The results revealed that repeated testing with feedback significantly enhanced learning compared to rereading at all delays, demonstrating that repeated retrieval enhances retention compared to repeated encoding in the short- and the long-term. In addition, the effect of repeated testing was beneficial for students irrespectively of working memory capacity. It is argued that teaching methods involving repeated retrieval are important to consider by the educational system.",
+   "injection_flags": []
+  },
+  "W2082988750": {
+   "source_id": "W2082988750",
+   "title": "Testing After Worked Example Study Does Not Enhance Delayed Problem-Solving Performance Compared to Restudy",
+   "year": 2015,
+   "authors": [
+    "Tamara van Gog",
+    "Liesbeth Kester",
+    "Kim Dirkx"
+   ],
+   "venue": "Educational Psychology Review",
+   "doi": "https://doi.org/10.1007/s10648-015-9297-3",
+   "cited_by": 79,
+   "abstract": "Four experiments investigated whether the testing effect also applies to the acquisition of problem-solving skills from worked examples. Experiment 1 ( n = 120) showed no beneficial effects of testing consisting of isomorphic problem solving or example recall on final test performance, which consisted of isomorphic problem solving, compared to continued study of isomorphic examples. Experiment 2 ( n = 124) showed no beneficial effects of testing consisting of identical problem solving compared to restudying an identical example. Interestingly, participants who took both an immediate and a delayed final test outperformed those taking only a delayed test. This finding suggested that testing might become beneficial for retention but only after a certain level of schema acquisition has taken place through restudying several examples. However, experiment 2 had no control condition restudying examples instead of taking the immediate test. Experiment 3 ( n = 129) included such a restudy condition, and there was no evidence that testing after studying four examples was more effective for final delayed test performance than restudying, regardless of whether restudied/tested problems were isomorphic or identical. Experiment 4 ( n = 75) used a similar design as experiment 3 (i.e., testing/restudy after four examples), but with examples on a different topic and with a different participant population. Again, no evidence of a testing effect was found. Thus, across four experiments, with different types of initial tests, different problem-solving domains, and different participant populations, we found no evidence that testing enhanced delayed test performance compared to restudy. These findings suggest that the testing effect might not apply to acquiring problem-solving skills from worked examples.",
+   "injection_flags": []
+  },
+  "W2052218930": {
+   "source_id": "W2052218930",
+   "title": "A theory of army-ant behavior based upon the analysis of activities in a representative species.",
+   "year": 1938,
+   "authors": [
+    "T. C. Schneirla"
+   ],
+   "venue": "Journal of comparative psychology",
+   "doi": "https://doi.org/10.1037/h0062120",
+   "cited_by": 71,
+   "abstract": "",
+   "injection_flags": []
+  }
+ },
+ "findings": [
+  {
+   "id": "E1",
+   "role": "source_finder",
+   "subquestion": "Do low-stakes classroom quizzes outperform rereading for delayed exams? (suggested query: low-stakes quizzes versus rereading exam performance)",
+   "claim": "In an undergraduate cognitive psychology course (N = 47), retrieval practice via brief daily review questions improved end-of-semester final exam performance only for content that had been covered on both a daily review and a unit exam; items covered on only a daily review did not differ from items covered on neither.",
+   "source_id": "W3176543106",
+   "stance": "supports",
+   "quote": "we found that students performed significantly better on questions whose information had been covered on both a daily review and unit exam",
+   "check": {
+    "verdict": "partial",
+    "passage": "We replicated previous work such that retrieval practice improved memory. Specifically, we found that students performed significantly better on questions whose information had been covered on both a daily review and unit exam.",
+    "reason": "The passages support better performance on questions covered on both a daily review and unit exam and no difference among other conditions, but they do not specify end-of-semester final exam performance.",
+    "retrieval_score": 0.873,
+    "quote_found": true,
+    "citation": {
+     "resolves": true,
+     "title_match": true,
+     "registry": "crossref",
+     "registry_title": "Low-Stakes Quizzes Improve Learning and Reduce Overconfidence in College Students"
+    }
+   }
+  },
+  {
+   "id": "E2",
+   "role": "source_finder",
+   "subquestion": "Do low-stakes classroom quizzes outperform rereading for delayed exams? (suggested query: low-stakes quizzes versus rereading exam performance)",
+   "claim": "Across four experiments (total n = 448) with worked examples, testing did not improve delayed test performance relative to restudying, indicating the testing advantage over rereading may not generalize to problem-solving skill acquisition.",
+   "source_id": "W2082988750",
+   "stance": "supports",
+   "quote": "we found no evidence that testing enhanced delayed test performance compared to restudy",
+   "check": {
+    "verdict": "partial",
+    "passage": "Again, no evidence of a testing effect was found. Thus, across four experiments, with different types of initial tests, different problem-solving domains, and different participant populations, we found no evidence that testing enhanced delayed test performance compared to restudy.",
+    "reason": "Passage 1 supports the no-testing-effect finding across four experiments, but the passages do not provide the claimed total n = 448.",
+    "retrieval_score": 0.894,
+    "quote_found": true,
+    "citation": {
+     "resolves": true,
+     "title_match": true,
+     "registry": "crossref",
+     "registry_title": "Testing After Worked Example Study Does Not Enhance Delayed Problem-Solving Performance Compared to Restudy"
+    }
+   }
+  },
+  {
+   "id": "E3",
+   "role": "source_finder",
+   "subquestion": "Does practice testing benefit delayed exam performance across academic subjects? (suggested query: practice testing delayed exam performance subjects)",
+   "claim": "In undergraduate students learning introductory psychology key concepts, repeated testing with feedback produced significantly better retention than rereading at immediate, 18-day, and five-week delays.",
+   "source_id": "W2071538318",
+   "stance": "supports",
+   "quote": "The results revealed that repeated testing with feedback significantly enhanced learning compared to rereading at all delays, demonstrating that repeated retrieval enhances retention compared to repeated encoding in the short- and the long-term.",
+   "check": {
+    "verdict": "not_supported",
+    "passage": "The aim of this study was to examine whether repeated testing with feedback benefits learning compared to rereading of introductory psychology key-concepts in an educational context.",
+    "reason": "checker reply unparseable; treated as unsupported",
+    "retrieval_score": 0.876,
+    "quote_found": true,
+    "citation": {
+     "resolves": true,
+     "title_match": true,
+     "registry": "crossref",
+     "registry_title": "Strengthening concept learning by repeated testing"
+    }
+   }
+  },
+  {
+   "id": "E4",
+   "role": "source_finder",
+   "subquestion": "Does practice testing benefit delayed exam performance across academic subjects? (suggested query: practice testing delayed exam performance subjects)",
+   "claim": "Across four experiments (n = 120, 124, 129, 75) with different problem-solving domains and populations, testing after studying worked examples did not improve delayed final-test performance relative to restudy.",
+   "source_id": "W2082988750",
+   "stance": "supports",
+   "quote": "Thus, across four experiments, with different types of initial tests, different problem-solving domains, and different participant populations, we found no evidence that testing enhanced delayed test performance compared to restudy.",
+   "check": {
+    "verdict": "supported",
+    "passage": "Again, no evidence of a testing effect was found. Thus, across four experiments, with different types of initial tests, different problem-solving domains, and different participant populations, we found no evidence that testing enhanced delayed test performance compared to restudy.",
+    "reason": "Passage 1 states that across four experiments with different problem-solving domains and populations, there was no evidence that testing enhanced delayed test performance compared to restudy.",
+    "retrieval_score": 0.878,
+    "quote_found": true,
+    "citation": {
+     "resolves": true,
+     "title_match": true,
+     "registry": "crossref",
+     "registry_title": "Testing After Worked Example Study Does Not Enhance Delayed Problem-Solving Performance Compared to Restudy"
+    }
+   }
+  }
+ ],
+ "queries_tried": [
+  "low-stakes quizzes versus rereading exam performance",
+  "practice testing delayed exam performance academic subjects",
+  "prior knowledge testing effect restudy moderator",
+  "practice testing no benefit compared to restudying delayed exam performance boundary conditions",
+  "testing effect retrieval practice delayed retention meta-analysis",
+  "prior knowledge testing effect",
+  "testing effect fails to replicate restudy no advantage",
+  "retrieval practice testing effect",
+  "classroom experiment quizzing versus rereading delayed exam performance",
+  "retrieval practice versus restudy boundary conditions",
+  "retrieval practice versus restudy delayed test",
+  "testing effect",
+  "retrieval practice prior knowledge individual differences",
+  "retrieval practice",
+  "prior knowledge schema familiarity pretest retrieval practice versus repeated study delayed exam moderation",
+  "testing effect prior knowledge moderator retrieval practice restudy",
+  "prior domain knowledge moderates practice testing versus restudying delayed assessment aptitude treatment interaction",
+  "retrieval practice versus restudying testing effect",
+  "prior knowledge testing effect restudy moderation",
+  "pretesting effect knowledge base delayed retention",
+  "testing effect",
+  "prior knowledge moderates testing effect versus restudying delayed assessment",
+  "retrieval practice prior knowledge",
+  "prior knowledge moderates retrieval practice versus restudying expertise reversal delayed exam",
+  "retrieval practice restudy null findings boundary conditions delayed classroom exam publication bias",
+  "prior knowledge testing effect retrieval practice restudy",
+  "testing effect no benefit delayed classroom exam",
+  "testing effect retrieval practice",
+  "retrieval practice boundary conditions",
+  "testing effect",
+  "retrieval practice restudy"
+ ],
+ "decisions": [
+  {
+   "decision": "plan",
+   "candidates": [
+    {
+     "subquestions": [
+      {
+       "q": "Does practice testing improve delayed retention compared with restudying?",
+       "query": "practice testing versus restudy delayed retention"
+      },
+      {
+       "q": "How does the testing effect change as the retention delay lengthens?",
+       "query": "testing effect long-term retention delay"
+      },
+      {
+       "q": "Does practice testing improve performance on actual course exams?",
+       "query": "practice testing actual course exam performance"
+      }
+     ]
+    },
+    {
+     "subquestions": [
+      {
+       "q": "Does feedback moderate the benefit of practice testing over restudying?",
+       "query": "feedback testing effect versus restudy"
+      },
+      {
+       "q": "Does the format of practice tests affect delayed exam performance?",
+       "query": "practice test format delayed performance"
+      },
+      {
+       "q": "Does spacing or retrieval difficulty moderate the testing effect?",
+       "query": "spacing retrieval difficulty testing effect"
+      }
+     ]
+    },
+    {
+     "subquestions": [
+      {
+       "q": "Do low-stakes classroom quizzes outperform rereading for delayed exams?",
+       "query": "low-stakes quizzes versus rereading exam performance"
+      },
+      {
+       "q": "Does practice testing benefit delayed exam performance across academic subjects?",
+       "query": "practice testing delayed exam performance subjects"
+      },
+      {
+       "q": "Does prior knowledge moderate practice testing versus restudying effects?",
+       "query": "prior knowledge testing effect restudy"
+      }
+     ]
+    }
+   ],
+   "scores": [
+    9.0,
+    8.0,
+    10.0
+   ],
+   "chosen": 2,
+   "why": "Candidate 3 best combines a direct practice-testing-versus-restudying comparison with delayed exam outcomes and key moderators, Candidate 1 is strong but less condition-focused, and Candidate 2 is mostly moderator questions without a clear direct baseline comparison."
+  },
+  {
+   "decision": "follow-up",
+   "candidates": [
+    {
+     "action": "search",
+     "subquestion": "Does prior knowledge moderate practice testing versus restudying effects?",
+     "query": "aptitude treatment interaction prior domain knowledge quizzing rereading delayed assessment"
+    },
+    {
+     "action": "search",
+     "subquestion": "Does prior knowledge moderate practice testing versus restudying effects?",
+     "query": "schema familiarity pretest retrieval practice versus repeated study delayed exam moderation"
+    },
+    {
+     "action": "search",
+     "subquestion": "credible counterevidence or limits",
+     "query": "preregistered replication classroom quizzing rereading delayed summative exam null effect"
+    }
+   ],
+   "scores": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "kept": [
+    0,
+    1
+   ],
+   "why": "All three queries cover the practice-testing versus restudying comparison for delayed exams and include specific, searchable moderators or conditions that could change the answer."
+  },
+  {
+   "decision": "follow-up",
+   "candidates": [
+    {
+     "action": "search",
+     "subquestion": "Does prior knowledge moderate practice testing versus restudying effects?",
+     "query": "expertise reversal effect retrieval practice versus rereading delayed exam high low prior knowledge"
+    },
+    {
+     "action": "search",
+     "subquestion": "Does prior knowledge moderate practice testing versus restudying effects?",
+     "query": "aptitude treatment interaction quizzing rereading delayed test domain knowledge students"
+    },
+    {
+     "action": "search",
+     "subquestion": "credible counterevidence or limits",
+     "query": "retrieval practice restudy null findings boundary conditions delayed classroom exam publication bias"
+    }
+   ],
+   "scores": [
+    10.0,
+    9.0,
+    10.0
+   ],
+   "kept": [
+    0,
+    2
+   ],
+   "why": "All three target retrieval practice versus restudy on delayed tests, but Candidate 2 is slightly less focused on exam performance and specific boundary conditions than the other two."
+  }
+ ],
+ "trace": [
+  {
+   "t": 4.62,
+   "agent": "coordinator",
+   "event": "memory",
+   "recalled": [
+    "Does self-testing (retrieval practice) improve long-term retention more than rereading?"
+   ]
+  },
+  {
+   "t": 57.97,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 0,
+   "action": "search_papers",
+   "thought": "I will search for studies comparing low-stakes quizzes with rereading on delayed exam performance.",
+   "args": {
+    "query": "low-stakes quizzes versus rereading exam performance"
+   }
+  },
+  {
+   "t": 66.98,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 0,
+   "action": "search_papers",
+   "thought": "I will search for peer-reviewed evidence on practice testing and delayed exam performance across academic subjects.",
+   "args": {
+    "query": "practice testing delayed exam performance academic subjects"
+   }
+  },
+  {
+   "t": 81.97,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 0,
+   "action": "search_papers",
+   "thought": "I will search for studies on prior knowledge as a moderator of the testing effect versus restudy.",
+   "args": {
+    "query": "prior knowledge testing effect restudy moderator"
+   }
+  },
+  {
+   "t": 82.11,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 90.99,
+   "agent": "counterexample",
+   "event": "act",
+   "step": 0,
+   "action": "search_papers",
+   "thought": "Search for evidence that practice testing does not outperform restudying or has boundary conditions.",
+   "args": {
+    "query": "practice testing no benefit compared to restudying delayed exam performance boundary conditions"
+   }
+  },
+  {
+   "t": 91.14,
+   "agent": "counterexample",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 102.94,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 1,
+   "action": "fetch_source",
+   "thought": "The top hit directly compares low-stakes quizzes to rereading in a classroom; I will fetch its abstract to verify the claim.",
+   "args": {
+    "source_id": "W3176543106"
+   }
+  },
+  {
+   "t": 114.98,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 1,
+   "action": "search_papers",
+   "thought": "The search returned irrelevant results, so I will try a more targeted query on the testing effect and delayed retention.",
+   "args": {
+    "query": "testing effect retrieval practice delayed retention meta-analysis"
+   }
+  },
+  {
+   "t": 115.11,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 126.98,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 1,
+   "action": "search_papers",
+   "thought": "The specific query returned nothing, so I will broaden the search terms.",
+   "args": {
+    "query": "prior knowledge testing effect"
+   }
+  },
+  {
+   "t": 127.13,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 153.99,
+   "agent": "counterexample",
+   "event": "act",
+   "step": 1,
+   "action": "search_papers",
+   "thought": "No results; broaden to testing effect fails to replicate or null results.",
+   "args": {
+    "query": "testing effect fails to replicate restudy no advantage"
+   }
+  },
+  {
+   "t": 154.13,
+   "agent": "counterexample",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 192.98,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 2,
+   "action": "search_papers",
+   "thought": "No results, so I will broaden to 'retrieval practice testing effect' to find relevant literature.",
+   "args": {
+    "query": "retrieval practice testing effect"
+   }
+  },
+  {
+   "t": 193.04,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 2,
+   "action": "search_papers",
+   "thought": "The fetched abstract does not actually contain the quiz-versus-rereading comparison, so I need other sources; I will search again with a more targeted query.",
+   "args": {
+    "query": "classroom experiment quizzing versus rereading delayed exam performance"
+   }
+  },
+  {
+   "t": 193.15,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 193.2,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 247.05,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 2,
+   "action": "fetch_source",
+   "thought": "Search returns nothing, so I will directly fetch the hinted source ids to verify their content.",
+   "args": {
+    "source_id": "W2071538318"
+   }
+  },
+  {
+   "t": 269.03,
+   "agent": "counterexample",
+   "event": "act",
+   "step": 2,
+   "action": "search_papers",
+   "thought": "Try a simpler query about retrieval practice versus restudy limits.",
+   "args": {
+    "query": "retrieval practice versus restudy boundary conditions"
+   }
+  },
+  {
+   "t": 269.18,
+   "agent": "counterexample",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 276.0,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 3,
+   "action": "fetch_source",
+   "thought": "Search is returning empty, so I will fetch the hinted source IDs directly to verify their relevance.",
+   "args": {
+    "source_id": "W2071538318"
+   }
+  },
+  {
+   "t": 288.08,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 3,
+   "action": "search_papers",
+   "thought": "The targeted query returned nothing, so I will broaden the search to retrieval practice versus restudy.",
+   "args": {
+    "query": "retrieval practice versus restudy delayed test"
+   }
+  },
+  {
+   "t": 288.26,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 296.35,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 3,
+   "action": "fetch_source",
+   "thought": "This source does not address prior knowledge as a moderator, so I will check the next hinted source.",
+   "args": {
+    "source_id": "W2082988750"
+   }
+  },
+  {
+   "t": 303.4,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 4,
+   "action": "fetch_source",
+   "thought": "This source is directly relevant, so I will fetch another hinted source to corroborate across subjects.",
+   "args": {
+    "source_id": "W2082988750"
+   }
+  },
+  {
+   "t": 303.77,
+   "agent": "counterexample",
+   "event": "act",
+   "step": 3,
+   "action": "search_papers",
+   "thought": "Try a very broad query on the testing effect to see if the search engine returns anything.",
+   "args": {
+    "query": "testing effect"
+   }
+  },
+  {
+   "t": 303.92,
+   "agent": "counterexample",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 309.41,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 4,
+   "action": "fetch_source",
+   "thought": "Search returns empty, but I have candidate IDs; I will fetch W2082988750 directly to verify its abstract.",
+   "args": {
+    "source_id": "W2082988750"
+   }
+  },
+  {
+   "t": 312.42,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 4,
+   "action": "search_papers",
+   "thought": "The hinted ids do not match the claimed titles, so I will search with different wording to find real sources.",
+   "args": {
+    "query": "retrieval practice prior knowledge individual differences"
+   }
+  },
+  {
+   "t": 312.57,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 327.44,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 5,
+   "action": "finish",
+   "thought": "Two fetched sources give directly relevant, contrasting evidence on delayed retention after practice testing, so I will report both.",
+   "args": {}
+  },
+  {
+   "t": 336.39,
+   "agent": "counterexample",
+   "event": "act",
+   "step": 4,
+   "action": "search_papers",
+   "thought": "Try a single-keyword query to test whether the search index responds at all.",
+   "args": {
+    "query": "retrieval practice"
+   }
+  },
+  {
+   "t": 336.53,
+   "agent": "counterexample",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 357.51,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 5,
+   "action": "finish",
+   "thought": "Only two fetched abstracts are usable; I will report the verified retrieval-practice finding and the qualifying null result, noting the ID mismatch.",
+   "args": {}
+  },
+  {
+   "t": 360.4,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 5,
+   "action": "finish",
+   "thought": "Searches returned no results and the two fetched sources do not address prior knowledge as a moderator of testing versus restudying, so no credible evidence can be reported.",
+   "args": {}
+  },
+  {
+   "t": 369.41,
+   "agent": "counterexample",
+   "event": "act",
+   "step": 5,
+   "action": "finish",
+   "thought": "Search returned no results across multiple queries and no sources could be fetched, so no credible evidence can be cited.",
+   "args": {}
+  },
+  {
+   "t": 414.44,
+   "agent": "claim_checker",
+   "event": "check",
+   "finding": "E2",
+   "verdict": "partial",
+   "quote_found": true,
+   "doi_ok": true
+  },
+  {
+   "t": 423.44,
+   "agent": "claim_checker",
+   "event": "check",
+   "finding": "E4",
+   "verdict": "supported",
+   "quote_found": true,
+   "doi_ok": true
+  },
+  {
+   "t": 429.75,
+   "agent": "claim_checker",
+   "event": "check",
+   "finding": "E1",
+   "verdict": "partial",
+   "quote_found": true,
+   "doi_ok": true
+  },
+  {
+   "t": 432.47,
+   "agent": "claim_checker",
+   "event": "check",
+   "finding": "E3",
+   "verdict": "not_supported",
+   "quote_found": true,
+   "doi_ok": true
+  },
+  {
+   "t": 432.47,
+   "agent": "coordinator",
+   "event": "review",
+   "round": 0,
+   "verified": 3,
+   "gaps": [
+    "Does prior knowledge moderate practice testing versus restudying effects?",
+    "credible counterevidence or limits"
+   ]
+  },
+  {
+   "t": 491.96,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 0,
+   "action": "search_papers",
+   "thought": "Search for studies on prior knowledge/schema familiarity as a moderator of testing versus restudy effects.",
+   "args": {
+    "query": "prior knowledge schema familiarity pretest retrieval practice versus repeated study delayed exam moderation"
+   }
+  },
+  {
+   "t": 492.11,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 503.96,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 1,
+   "action": "search_papers",
+   "thought": "No results; broaden to testing effect prior knowledge moderator.",
+   "args": {
+    "query": "testing effect prior knowledge moderator retrieval practice restudy"
+   }
+  },
+  {
+   "t": 504.12,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 506.97,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 0,
+   "action": "search_papers",
+   "thought": "Search for studies on prior knowledge as a moderator of testing versus restudying effects.",
+   "args": {
+    "query": "prior domain knowledge moderates practice testing versus restudying delayed assessment aptitude treatment interaction"
+   }
+  },
+  {
+   "t": 507.1,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 515.93,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 2,
+   "action": "search_papers",
+   "thought": "Still empty; try a simpler core query on retrieval practice vs restudy.",
+   "args": {
+    "query": "retrieval practice versus restudying testing effect"
+   }
+  },
+  {
+   "t": 516.07,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 536.96,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 1,
+   "action": "search_papers",
+   "thought": "The last search returned no results, so I will broaden the query to find relevant studies on prior knowledge and the testing effect.",
+   "args": {
+    "query": "prior knowledge testing effect restudy moderation"
+   }
+  },
+  {
+   "t": 537.1,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 539.93,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 3,
+   "action": "search_papers",
+   "thought": "Try a different phrasing focused on pretesting and knowledge.",
+   "args": {
+    "query": "pretesting effect knowledge base delayed retention"
+   }
+  },
+  {
+   "t": 540.05,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 554.96,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 2,
+   "action": "finish",
+   "thought": "The broader searches returned no new sources, but the previously fetched sources directly address the subquestion, so I will report those findings.",
+   "args": {}
+  },
+  {
+   "t": 554.96,
+   "agent": "source_finder",
+   "event": "guardrail",
+   "problem": "cited a source it never fetched",
+   "source_id": "W2052218930"
+  },
+  {
+   "t": 554.96,
+   "agent": "source_finder",
+   "event": "guardrail",
+   "problem": "cited a source it never fetched",
+   "source_id": "W3001234567"
+  },
+  {
+   "t": 554.96,
+   "agent": "source_finder",
+   "event": "guardrail",
+   "problem": "cited a source it never fetched",
+   "source_id": "W2999999999"
+  },
+  {
+   "t": 554.96,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "finished without fetching a source"
+  },
+  {
+   "t": 563.94,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 4,
+   "action": "search_papers",
+   "thought": "Try a very broad single-concept query to see if the search index returns anything.",
+   "args": {
+    "query": "testing effect"
+   }
+  },
+  {
+   "t": 563.94,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 575.97,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 3,
+   "action": "search_papers",
+   "thought": "The system indicates no sources have been fetched in this session, so I will search again and then fetch each source before citing it.",
+   "args": {
+    "query": "prior knowledge moderates testing effect versus restudying delayed assessment"
+   }
+  },
+  {
+   "t": 576.12,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 587.94,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 5,
+   "action": "finish",
+   "thought": "All searches returned zero results and no source could be fetched, so no credible citable evidence was obtained.",
+   "args": {}
+  },
+  {
+   "t": 599.95,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 4,
+   "action": "search_papers",
+   "thought": "The specific query returned nothing, so I will try a broader search on retrieval practice and prior knowledge.",
+   "args": {
+    "query": "retrieval practice prior knowledge"
+   }
+  },
+  {
+   "t": 600.1,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 611.95,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 5,
+   "action": "finish",
+   "thought": "No sources could be retrieved or fetched in this session, so I cannot cite credible evidence.",
+   "args": {}
+  },
+  {
+   "t": 611.95,
+   "agent": "coordinator",
+   "event": "review",
+   "round": 1,
+   "verified": 3,
+   "gaps": [
+    "Does prior knowledge moderate practice testing versus restudying effects?",
+    "credible counterevidence or limits"
+   ]
+  },
+  {
+   "t": 659.43,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 0,
+   "action": "search_papers",
+   "thought": "I will search for studies on prior knowledge as a moderator of retrieval practice versus restudy effects.",
+   "args": {
+    "query": "prior knowledge moderates retrieval practice versus restudying expertise reversal delayed exam"
+   }
+  },
+  {
+   "t": 659.61,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 665.43,
+   "agent": "counterexample",
+   "event": "act",
+   "step": 0,
+   "action": "search_papers",
+   "thought": "Search for null or boundary-condition evidence on retrieval practice versus restudy, focusing on delayed classroom exams and publication bias.",
+   "args": {
+    "query": "retrieval practice restudy null findings boundary conditions delayed classroom exam publication bias"
+   }
+  },
+  {
+   "t": 665.57,
+   "agent": "counterexample",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 677.42,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 1,
+   "action": "search_papers",
+   "thought": "The last search returned no results, so I will retry with a broader query on prior knowledge and the testing effect.",
+   "args": {
+    "query": "prior knowledge testing effect retrieval practice restudy"
+   }
+  },
+  {
+   "t": 677.56,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 689.46,
+   "agent": "counterexample",
+   "event": "act",
+   "step": 1,
+   "action": "search_papers",
+   "thought": "No results; broaden to 'testing effect fails delayed exam classroom' to find null or limiting evidence.",
+   "args": {
+    "query": "testing effect no benefit delayed classroom exam"
+   }
+  },
+  {
+   "t": 689.6,
+   "agent": "counterexample",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 701.47,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 2,
+   "action": "search_papers",
+   "thought": "Two searches returned nothing; I will try one final broad query on the testing effect before concluding.",
+   "args": {
+    "query": "testing effect retrieval practice"
+   }
+  },
+  {
+   "t": 701.6,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 713.4,
+   "agent": "counterexample",
+   "event": "act",
+   "step": 2,
+   "action": "search_papers",
+   "thought": "Still empty; try a simpler core query 'retrieval practice boundary conditions'.",
+   "args": {
+    "query": "retrieval practice boundary conditions"
+   }
+  },
+  {
+   "t": 713.54,
+   "agent": "counterexample",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 725.48,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 3,
+   "action": "finish",
+   "thought": "All searches returned no results, so no credible sources can be cited.",
+   "args": {}
+  },
+  {
+   "t": 725.48,
+   "agent": "source_finder",
+   "event": "recover",
+   "problem": "finished without fetching a source"
+  },
+  {
+   "t": 737.42,
+   "agent": "counterexample",
+   "event": "act",
+   "step": 3,
+   "action": "search_papers",
+   "thought": "Try the broadest core term 'testing effect' to see if the search index returns anything at all.",
+   "args": {
+    "query": "testing effect"
+   }
+  },
+  {
+   "t": 737.42,
+   "agent": "counterexample",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 752.42,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 4,
+   "action": "fetch_source",
+   "thought": "My first search did return candidate sources, so I will fetch the most relevant one to verify its abstract.",
+   "args": {
+    "source_id": "W2052218930"
+   }
+  },
+  {
+   "t": 761.44,
+   "agent": "counterexample",
+   "event": "act",
+   "step": 4,
+   "action": "search_papers",
+   "thought": "Even the broadest query returns nothing, suggesting the index is unavailable; try one final variant before concluding.",
+   "args": {
+    "query": "retrieval practice restudy"
+   }
+  },
+  {
+   "t": 761.6,
+   "agent": "counterexample",
+   "event": "recover",
+   "problem": "search returned nothing"
+  },
+  {
+   "t": 773.41,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 5,
+   "action": "finish",
+   "thought": "The only fetchable source was unrelated to the research question and had no abstract, so no credible findings can be reported.",
+   "args": {}
+  },
+  {
+   "t": 785.4,
+   "agent": "counterexample",
+   "event": "act",
+   "step": 5,
+   "action": "finish",
+   "thought": "All searches returned zero results and no source could be fetched, so there is no credible evidence to cite.",
+   "args": {}
+  },
+  {
+   "t": 785.4,
+   "agent": "coordinator",
+   "event": "review",
+   "round": 2,
+   "verified": 3,
+   "gaps": [
+    "Does prior knowledge moderate practice testing versus restudying effects?",
+    "credible counterevidence or limits"
+   ]
+  }
+ ],
+ "gaps": [
+  "Ambiguity not clarified (non-interactive run): Do you mean delayed performance on a researcher-administered retention test or on an actual course exam?",
+  "No verified evidence for: Does prior knowledge moderate practice testing versus restudying effects?",
+  "No verified evidence for: credible counterevidence or limits"
+ ],
+ "conflicts": [],
+ "needs_human_review": false,
+ "started": 1795333128.493935
+}

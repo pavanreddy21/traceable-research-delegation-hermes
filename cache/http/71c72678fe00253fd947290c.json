@@ -1,0 +1,3410 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 25492,
+   "db_response_time_ms": 220,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (practice testing delayed exam performance academic subjects) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (practice testing delayed exam performance academic subjects) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "practice testing delayed exam performance academic subjects",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:practice testing delayed exam performance academic subjects,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4412832220",
+    "doi": "https://doi.org/10.55667/10.55667/ijede.2025.v40.i1.1371",
+    "title": "Procrastination and Online Exam Proctoring: Exam Anxiety and Exam Performance",
+    "display_name": "Procrastination and Online Exam Proctoring: Exam Anxiety and Exam Performance",
+    "publication_year": 2025,
+    "cited_by_count": 3,
+    "abstract_inverted_index": {
+     "This": [
+      0
+     ],
+     "study": [
+      1
+     ],
+     "investigates": [
+      2
+     ],
+     "academic": [
+      3,
+      62
+     ],
+     "procrastination": [
+      4,
+      27,
+      36,
+      63,
+      76,
+      125,
+      158,
+      171,
+      190,
+      205,
+      222
+     ],
+     "in": [
+      5,
+      28,
+      39,
+      67,
+      81
+     ],
+     "online": [
+      6,
+      29,
+      40,
+      52,
+      68,
+      82,
+      96,
+      100
+     ],
+     "exam": [
+      7,
+      30,
+      48,
+      79,
+      97,
+      102,
+      104
+     ],
+     "proctoring": [
+      8,
+      83
+     ],
+     "environments,": [
+      9
+     ],
+     "drawing": [
+      10
+     ],
+     "on": [
+      11,
+      19,
+      37
+     ],
+     "responses": [
+      12
+     ],
+     "from": [
+      13
+     ],
+     "321": [
+      14,
+      140
+     ],
+     "undergraduate": [
+      15
+     ],
+     "students.": [
+      16
+     ],
+     "It": [
+      17
+     ],
+     "focuses": [
+      18
+     ],
+     "three": [
+      20
+     ],
+     "key": [
+      21
+     ],
+     "constructs:": [
+      22
+     ],
+     "(1)": [
+      23,
+      57
+     ],
+     "the": [
+      24,
+      33,
+      45
+     ],
+     "role": [
+      25
+     ],
+     "of": [
+      26,
+      35
+     ],
+     "proctoring;": [
+      31
+     ],
+     "(2)": [
+      32,
+      71
+     ],
+     "impact": [
+      34
+     ],
+     "performance": [
+      38,
+      66,
+      105,
+      116,
+      174,
+      255
+     ],
+     "proctored": [
+      41,
+      69
+     ],
+     "exams;": [
+      42,
+      70
+     ],
+     "and": [
+      43,
+      51,
+      64,
+      77,
+      85
+     ],
+     "(3)": [
+      44,
+      86
+     ],
+     "relationship": [
+      46
+     ],
+     "between": [
+      47,
+      61,
+      75
+     ],
+     "anxiety,": [
+      49,
+      103
+     ],
+     "procrastination,": [
+      50,
+      99,
+      248
+     ],
+     "proctoring.": [
+      53
+     ],
+     "The": [
+      54
+     ],
+     "findings": [
+      55
+     ],
+     "reveal:": [
+      56
+     ],
+     "a": [
+      58,
+      72
+     ],
+     "strong": [
+      59
+     ],
+     "link": [
+      60
+     ],
+     "poor": [
+      65
+     ],
+     "significant": [
+      73
+     ],
+     "correlation": [
+      74
+     ],
+     "increased": [
+      78
+     ],
+     "anxiety": [
+      80
+     ],
+     "environments;": [
+      84
+     ],
+     "that": [
+      87
+     ],
+     "students": [
+      88
+     ],
+     "who": [
+      89
+     ],
+     "procrastinate": [
+      90
+     ],
+     "have": [
+      91
+     ],
+     "less": [
+      92
+     ],
+     "favorable": [
+      93
+     ],
+     "attitudes": [
+      94
+     ],
+     "toward": [
+      95
+     ],
+     "proctoring.Keywords:": [
+      98
+     ],
+     "proctoring,": [
+      101
+     ],
+     "Procrastination": [
+      106
+     ],
+     "et": [
+      107,
+      115,
+      191,
+      206,
+      223
+     ],
+     "surveillance": [
+      108,
+      131,
+      161,
+      193,
+      230,
+      241,
+      249
+     ],
+     "des": [
+      109,
+      137,
+      162,
+      212
+     ],
+     "examens": [
+      110,
+      163,
+      176,
+      213,
+      257
+     ],
+     "en": [
+      111,
+      133,
+      164,
+      178,
+      194,
+      214,
+      227,
+      231,
+      250
+     ],
+     "ligne": [
+      112,
+      165,
+      179,
+      215,
+      232
+     ],
+     ":": [
+      113,
+      120,
+      152,
+      199,
+      247
+     ],
+     "anxi\u00e9t\u00e9": [
+      114,
+      252
+     ],
+     "relatives": [
+      117
+     ],
+     "aux": [
+      118,
+      175,
+      187,
+      253,
+      256
+     ],
+     "examensR\u00e9sum\u00e9": [
+      119
+     ],
+     "Cette": [
+      121
+     ],
+     "\u00e9tude": [
+      122
+     ],
+     "explore": [
+      123
+     ],
+     "la": [
+      124,
+      157,
+      160,
+      170,
+      173,
+      189,
+      192,
+      240
+     ],
+     "acad\u00e9mique": [
+      126
+     ],
+     "dans": [
+      127,
+      159,
+      209
+     ],
+     "les": [
+      128,
+      244
+     ],
+     "contextes": [
+      129
+     ],
+     "de": [
+      130,
+      139,
+      142,
+      156,
+      169,
+      225,
+      229
+     ],
+     "d\u2019examens": [
+      132
+     ],
+     "ligne,": [
+      134,
+      251
+     ],
+     "\u00e0": [
+      135
+     ],
+     "partir": [
+      136
+     ],
+     "r\u00e9ponses": [
+      138
+     ],
+     "\u00e9tudiants": [
+      141,
+      245
+     ],
+     "premier": [
+      143
+     ],
+     "cycle.": [
+      144
+     ],
+     "Elle": [
+      145
+     ],
+     "se": [
+      146
+     ],
+     "concentre": [
+      147
+     ],
+     "sur": [
+      148,
+      172
+     ],
+     "trois": [
+      149
+     ],
+     "axes": [
+      150
+     ],
+     "principaux": [
+      151
+     ],
+     "1)": [
+      153,
+      200
+     ],
+     "le": [
+      154,
+      182,
+      210
+     ],
+     "r\u00f4le": [
+      155
+     ],
+     ";": [
+      166,
+      180,
+      233
+     ],
+     "2)": [
+      167,
+      217
+     ],
+     "l\u2019impact": [
+      168
+     ],
+     "surveill\u00e9s": [
+      177
+     ],
+     "3)": [
+      181,
+      234
+     ],
+     "lien": [
+      183
+     ],
+     "entre": [
+      184,
+      204,
+      221
+     ],
+     "l\u2019anxi\u00e9t\u00e9": [
+      185,
+      226
+     ],
+     "li\u00e9e": [
+      186
+     ],
+     "examens,": [
+      188,
+      254
+     ],
+     "ligne.": [
+      195
+     ],
+     "Les": [
+      196
+     ],
+     "r\u00e9sultats": [
+      197
+     ],
+     "montrent": [
+      198
+     ],
+     "une": [
+      201,
+      218,
+      235
+     ],
+     "forte": [
+      202
+     ],
+     "corr\u00e9lation": [
+      203
+     ],
+     "faibles": [
+      207
+     ],
+     "performances": [
+      208
+     ],
+     "cadre": [
+      211
+     ],
+     "surveill\u00e9s;": [
+      216
+     ],
+     "association": [
+      219
+     ],
+     "significative": [
+      220
+     ],
+     "hausse": [
+      224
+     ],
+     "contexte": [
+      228
+     ],
+     "attitude": [
+      236
+     ],
+     "plus": [
+      237
+     ],
+     "n\u00e9gative": [
+      238
+     ],
+     "envers": [
+      239
+     ],
+     "num\u00e9rique": [
+      242
+     ],
+     "chez": [
+      243
+     ],
+     "procrastinateurs.Mots-cl\u00e9s": [
+      246
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5011399203",
+       "display_name": "Daniel Woldeab",
+       "orcid": "https://orcid.org/0000-0002-8267-7570",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8267-7570"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99069390",
+        "display_name": "Metropolitan State University",
+        "ror": "https://ror.org/056rp9e47",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I91221267",
+         "https://openalex.org/I99069390"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Daniel Woldeab",
+      "raw_affiliation_strings": [
+       "Metropolitan State University"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-8267-7570",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Metropolitan State University",
+        "institution_ids": [
+         "https://openalex.org/I99069390"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5087625495",
+       "display_name": "Thomas Brothen",
+       "orcid": "https://orcid.org/0000-0001-8794-4036",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8794-4036"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I130238516",
+        "display_name": "University of Minnesota",
+        "ror": "https://ror.org/017zqws13",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I130238516"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Thomas Brothen",
+      "raw_affiliation_strings": [
+       "University of Minnesota"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Minnesota",
+        "institution_ids": [
+         "https://openalex.org/I130238516"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5045628855",
+       "display_name": "Andreea Barbu",
+       "orcid": "https://orcid.org/0000-0003-3119-8753",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3119-8753"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Andreea Barbu",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.55667/10.55667/ijede.2025.v40.i1.1371",
+     "doi": "https://doi.org/10.55667/10.55667/ijede.2025.v40.i1.1371",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.55667/10.55667/ijede.2025.v40.i1.1371",
+     "pdf_url": "https://www.ijede.ca/index.php/jde/article/download/1371/1935",
+     "source": {
+      "id": "https://openalex.org/S2764708921",
+      "display_name": "International journal of e-learning & distance education",
+      "issn_l": "0830-0445",
+      "issn": [
+       "0830-0445",
+       "1916-6818",
+       "2292-8588"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "jufo-1",
+       "norway-1",
+       "poland-20"
+      ],
+      "host_organization": "https://openalex.org/P4310312978",
+      "host_organization_name": "Athabasca University Press",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310312978"
+      ],
+      "host_organization_lineage_names": [
+       "Athabasca University Press"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "International Journal of E-Learning &amp; Distance Education / Revue internationale du e-learning et la formation \u00e0 distance",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W7128767405",
+    "doi": "https://doi.org/10.26717/bjstr.2026.64.010060",
+    "title": "Sleep and Academic Performance: Measuring the Impact of Sleep on Exam Performance Among Medical Students",
+    "display_name": "Sleep and Academic Performance: Measuring the Impact of Sleep on Exam Performance Among Medical Students",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "The": [
+      0
+     ],
+     "effect": [
+      1
+     ],
+     "of": [
+      2,
+      16,
+      22,
+      25
+     ],
+     "sleep": [
+      3,
+      17
+     ],
+     "pattern": [
+      4,
+      46
+     ],
+     "on": [
+      5
+     ],
+     "academic": [
+      6,
+      23
+     ],
+     "performance": [
+      7
+     ],
+     "has": [
+      8
+     ],
+     "previously": [
+      9
+     ],
+     "been": [
+      10
+     ],
+     "studied,": [
+      11
+     ],
+     "which": [
+      12
+     ],
+     "included": [
+      13
+     ],
+     "the": [
+      14,
+      36
+     ],
+     "associations": [
+      15
+     ],
+     "patterns": [
+      18
+     ],
+     "with": [
+      19
+     ],
+     "multiple": [
+      20
+     ],
+     "measures": [
+      21
+     ],
+     "achievement": [
+      24
+     ],
+     "undergraduate": [
+      26
+     ],
+     "university": [
+      27,
+      39
+     ],
+     "students.": [
+      28,
+      53
+     ],
+     "Medical": [
+      29
+     ],
+     "students": [
+      30
+     ],
+     "are": [
+      31
+     ],
+     "known": [
+      32
+     ],
+     "to": [
+      33,
+      51
+     ],
+     "be": [
+      34,
+      48
+     ],
+     "among": [
+      35
+     ],
+     "highest": [
+      37
+     ],
+     "achieving": [
+      38
+     ],
+     "students;": [
+      40
+     ],
+     "thus,": [
+      41
+     ],
+     "their": [
+      42
+     ],
+     "sleeping": [
+      43
+     ],
+     "hours": [
+      44
+     ],
+     "and": [
+      45
+     ],
+     "could": [
+      47
+     ],
+     "different": [
+      49
+     ],
+     "compared": [
+      50
+     ],
+     "other": [
+      52
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5125924117",
+       "display_name": "Srwa Khalid",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I3151615967",
+        "display_name": "University of Kurdistan Hewler",
+        "ror": "https://ror.org/00268wk31",
+        "country_code": "IQ",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I3151615967"
+        ]
+       }
+      ],
+      "countries": [
+       "IQ"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Srwa Khalid",
+      "raw_affiliation_strings": [
+       "As. Professor & Consultant Obs & Gyn, University Kurdistan Hewler \u2013 School of Medicine, Iraq"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "As. Professor & Consultant Obs & Gyn, University Kurdistan Hewler \u2013 School of Medicine, Iraq",
+        "institution_ids": [
+         "https://openalex.org/I3151615967"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.26717/bjstr.2026.64.010060",
+     "doi": "https://doi.org/10.26717/bjstr.2026.64.010060",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.26717/bjstr.2026.64.010060",
+     "pdf_url": "https://biomedres.us/pdfs/BJSTR.MS.ID.010060.pdf",
+     "source": {
+      "id": "https://openalex.org/S2764638019",
+      "display_name": "Biomedical Journal of Scientific & Technical Research",
+      "issn_l": "2574-1241",
+      "issn": [
+       "2574-1241"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core"
+      ],
+      "host_organization": "https://openalex.org/P4322697582",
+      "host_organization_name": "Biomedical Research Network",
+      "host_organization_lineage": [
+       "https://openalex.org/P4322697582"
+      ],
+      "host_organization_lineage_names": [
+       "Biomedical Research Network"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Biomedical Journal of Scientific &amp; Technical Research",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4381685290",
+    "doi": "https://doi.org/10.7759/cureus.40809",
+    "title": "Multivariate Modeling of Student Performance on NBME Subject Exams",
+    "display_name": "Multivariate Modeling of Student Performance on NBME Subject Exams",
+    "publication_year": 2023,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "Aim": [
+      0
+     ],
+     "This": [
+      1
+     ],
+     "study": [
+      2
+     ],
+     "sought": [
+      3
+     ],
+     "to": [
+      4,
+      10,
+      18,
+      81,
+      105,
+      169,
+      197,
+      201,
+      205,
+      214
+     ],
+     "determine": [
+      5,
+      206
+     ],
+     "whether": [
+      6
+     ],
+     "it": [
+      7
+     ],
+     "was": [
+      8
+     ],
+     "possible": [
+      9
+     ],
+     "develop": [
+      11
+     ],
+     "statistical": [
+      12,
+      152
+     ],
+     "models": [
+      13,
+      71,
+      134,
+      150,
+      166,
+      200
+     ],
+     "which": [
+      14
+     ],
+     "could": [
+      15
+     ],
+     "be": [
+      16
+     ],
+     "used": [
+      17
+     ],
+     "accurately": [
+      19
+     ],
+     "correlate": [
+      20
+     ],
+     "student": [
+      21,
+      82,
+      180
+     ],
+     "performance": [
+      22,
+      37,
+      79
+     ],
+     "on": [
+      23,
+      28,
+      76,
+      84,
+      154,
+      174,
+      187
+     ],
+     "clinical": [
+      24,
+      66,
+      176
+     ],
+     "subject": [
+      25,
+      67,
+      87,
+      189
+     ],
+     "exams": [
+      26
+     ],
+     "based": [
+      27,
+      75,
+      186
+     ],
+     "their": [
+      29,
+      208
+     ],
+     "National": [
+      30
+     ],
+     "Board": [
+      31
+     ],
+     "of": [
+      32,
+      102,
+      123,
+      129
+     ],
+     "Medical": [
+      33
+     ],
+     "Examiner": [
+      34
+     ],
+     "(NBME)": [
+      35
+     ],
+     "self-assessment": [
+      36,
+      78,
+      104
+     ],
+     "and": [
+      38,
+      95,
+      112,
+      132,
+      138,
+      213
+     ],
+     "other": [
+      39
+     ],
+     "variables,": [
+      40
+     ],
+     "described": [
+      41
+     ],
+     "below,": [
+      42
+     ],
+     "as": [
+      43
+     ],
+     "such": [
+      44
+     ],
+     "tools": [
+      45
+     ],
+     "are": [
+      46
+     ],
+     "not": [
+      47
+     ],
+     "currently": [
+      48
+     ],
+     "available.": [
+      49
+     ],
+     "Methods": [
+      50
+     ],
+     "Students": [
+      51
+     ],
+     "at": [
+      52
+     ],
+     "a": [
+      53
+     ],
+     "large": [
+      54
+     ],
+     "public": [
+      55
+     ],
+     "medical": [
+      56
+     ],
+     "school": [
+      57
+     ],
+     "were": [
+      58,
+      72
+     ],
+     "provided": [
+      59
+     ],
+     "fee": [
+      60
+     ],
+     "vouchers": [
+      61
+     ],
+     "for": [
+      62,
+      99,
+      221
+     ],
+     "NBME": [
+      63
+     ],
+     "self-assessments": [
+      64
+     ],
+     "before": [
+      65
+     ],
+     "exams.": [
+      68
+     ],
+     "Multivariate": [
+      69
+     ],
+     "regression": [
+      70
+     ],
+     "then": [
+      73
+     ],
+     "developed": [
+      74
+     ],
+     "how": [
+      77
+     ],
+     "correlated": [
+      80
+     ],
+     "success": [
+      83
+     ],
+     "the": [
+      85,
+      100,
+      103,
+      106,
+      113,
+      121,
+      155,
+      175,
+      188
+     ],
+     "subsequent": [
+      86
+     ],
+     "exam": [
+      88,
+      190
+     ],
+     "(Medicine,": [
+      89
+     ],
+     "Surgery,": [
+      90
+     ],
+     "Family": [
+      91
+     ],
+     "Medicine,": [
+      92
+     ],
+     "Obstetrics-Gynecology,": [
+      93
+     ],
+     "Pediatrics,": [
+      94
+     ],
+     "Psychiatry)": [
+      96
+     ],
+     "while": [
+      97
+     ],
+     "controlling": [
+      98,
+      220
+     ],
+     "proximity": [
+      101
+     ],
+     "exam,": [
+      107
+     ],
+     "USMLE": [
+      108
+     ],
+     "Step": [
+      109
+     ],
+     "1": [
+      110
+     ],
+     "score,": [
+      111
+     ],
+     "academic": [
+      114
+     ],
+     "quarter.": [
+      115
+     ],
+     "Results": [
+      116
+     ],
+     "The": [
+      117,
+      126,
+      160,
+      193
+     ],
+     "variables": [
+      118,
+      131
+     ],
+     "analyzed": [
+      119
+     ],
+     "satisfied": [
+      120
+     ],
+     "requirements": [
+      122
+     ],
+     "linear": [
+      124
+     ],
+     "regression.": [
+      125
+     ],
+     "correlation": [
+      127,
+      161
+     ],
+     "strength": [
+      128
+     ],
+     "individual": [
+      130
+     ],
+     "overall": [
+      133
+     ],
+     "varied": [
+      135
+     ],
+     "by": [
+      136,
+      219
+     ],
+     "discipline": [
+      137
+     ],
+     "outcome": [
+      139
+     ],
+     "(equated": [
+      140
+     ],
+     "percent": [
+      141
+     ],
+     "correct": [
+      142
+     ],
+     "or": [
+      143
+     ],
+     "percentile,": [
+      144
+     ],
+     "Model": [
+      145
+     ],
+     "R2": [
+      146
+     ],
+     "Range:": [
+      147
+     ],
+     "0.1799-0.4915).": [
+      148
+     ],
+     "All": [
+      149
+     ],
+     "showed": [
+      151
+     ],
+     "significance": [
+      153
+     ],
+     "Omnibus": [
+      156
+     ],
+     "F-test": [
+      157
+     ],
+     "(p<0.001).": [
+      158
+     ],
+     "Conclusion": [
+      159
+     ],
+     "coefficients": [
+      162
+     ],
+     "demonstrate": [
+      163
+     ],
+     "that": [
+      164
+     ],
+     "these": [
+      165,
+      199
+     ],
+     "have": [
+      167
+     ],
+     "weak": [
+      168
+     ],
+     "moderate": [
+      170
+     ],
+     "predictive": [
+      171
+     ],
+     "value,": [
+      172
+     ],
+     "dependent": [
+      173
+     ],
+     "subject,": [
+      177
+     ],
+     "in": [
+      178,
+      191
+     ],
+     "predicting": [
+      179
+     ],
+     "performance;": [
+      181
+     ],
+     "however,": [
+      182
+     ],
+     "this": [
+      183
+     ],
+     "varies": [
+      184
+     ],
+     "widely": [
+      185
+     ],
+     "question.": [
+      192
+     ],
+     "next": [
+      194
+     ],
+     "step": [
+      195
+     ],
+     "is": [
+      196
+     ],
+     "utilize": [
+      198
+     ],
+     "identify": [
+      202
+     ],
+     "struggling": [
+      203
+     ],
+     "students": [
+      204
+     ],
+     "if": [
+      207
+     ],
+     "use": [
+      209
+     ],
+     "reduces": [
+      210
+     ],
+     "failure": [
+      211
+     ],
+     "rates": [
+      212
+     ],
+     "further": [
+      215
+     ],
+     "improve": [
+      216
+     ],
+     "model": [
+      217
+     ],
+     "accuracy": [
+      218
+     ],
+     "additional": [
+      222
+     ],
+     "variables.": [
+      223
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5029643810",
+       "display_name": "Seth McKenzie Alexander",
+       "orcid": "https://orcid.org/0000-0002-2706-2696",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2706-2696"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I114027177",
+        "display_name": "University of North Carolina at Chapel Hill",
+        "ror": "https://ror.org/0130frc33",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I136199984",
+        "display_name": "Harvard University",
+        "ror": "https://ror.org/03vek6s52",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I136199984"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Seth M Alexander",
+      "raw_affiliation_strings": [
+       "Education, Harvard Graduate School of Education, Cambridge, USA",
+       "Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       ". Anesthesiology, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       ". Emergency Medicine, University of North Carolina at Chapel Hill",
+       ". Family Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       ". Pathology and Laboratory Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       "School of Medicine, Chapel Hill, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Education, Harvard Graduate School of Education, Cambridge, USA",
+        "institution_ids": [
+         "https://openalex.org/I136199984"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Anesthesiology, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Emergency Medicine, University of North Carolina at Chapel Hill",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Family Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Pathology and Laboratory Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": "School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5043583528",
+       "display_name": "Christina Shenvi",
+       "orcid": "https://orcid.org/0000-0003-2944-8581",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2944-8581"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I114027177",
+        "display_name": "University of North Carolina at Chapel Hill",
+        "ror": "https://ror.org/0130frc33",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I136199984",
+        "display_name": "Harvard University",
+        "ror": "https://ror.org/03vek6s52",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I136199984"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Christina  L Shenvi",
+      "raw_affiliation_strings": [
+       "Emergency Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       ". Anesthesiology, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       ". Education, Harvard Graduate School of Education, Cambridge, USA",
+       ". Emergency Medicine, University of North Carolina at Chapel Hill",
+       ". Family Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       ". Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       ". Pathology and Laboratory Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       "School of Medicine, Chapel Hill, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Emergency Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Anesthesiology, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Education, Harvard Graduate School of Education, Cambridge, USA",
+        "institution_ids": [
+         "https://openalex.org/I136199984"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Emergency Medicine, University of North Carolina at Chapel Hill",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Family Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Pathology and Laboratory Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": "School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5088341126",
+       "display_name": "Kimberley R. Nichols",
+       "orcid": "https://orcid.org/0000-0002-9513-9579",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9513-9579"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I114027177",
+        "display_name": "University of North Carolina at Chapel Hill",
+        "ror": "https://ror.org/0130frc33",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I136199984",
+        "display_name": "Harvard University",
+        "ror": "https://ror.org/03vek6s52",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I136199984"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Kimberley R Nichols",
+      "raw_affiliation_strings": [
+       "Anesthesiology, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       ". Education, Harvard Graduate School of Education, Cambridge, USA",
+       ". Emergency Medicine, University of North Carolina at Chapel Hill",
+       ". Family Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       ". Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       ". Pathology and Laboratory Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       "School of Medicine, Chapel Hill, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Anesthesiology, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Education, Harvard Graduate School of Education, Cambridge, USA",
+        "institution_ids": [
+         "https://openalex.org/I136199984"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Emergency Medicine, University of North Carolina at Chapel Hill",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Family Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Pathology and Laboratory Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": "School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5051396047",
+       "display_name": "Georgette A. Dent",
+       "orcid": "https://orcid.org/0009-0007-8944-0350",
+       "observed_orcids": [
+        "https://orcid.org/0009-0007-8944-0350"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I114027177",
+        "display_name": "University of North Carolina at Chapel Hill",
+        "ror": "https://ror.org/0130frc33",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I136199984",
+        "display_name": "Harvard University",
+        "ror": "https://ror.org/03vek6s52",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I136199984"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Georgette Dent",
+      "raw_affiliation_strings": [
+       "Pathology and Laboratory Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       ". Anesthesiology, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       ". Education, Harvard Graduate School of Education, Cambridge, USA",
+       ". Emergency Medicine, University of North Carolina at Chapel Hill",
+       ". Family Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       ". Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       "School of Medicine, Chapel Hill, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Pathology and Laboratory Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Anesthesiology, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Education, Harvard Graduate School of Education, Cambridge, USA",
+        "institution_ids": [
+         "https://openalex.org/I136199984"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Emergency Medicine, University of North Carolina at Chapel Hill",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Family Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": "School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": null,
+       "display_name": "Kelly L Smith",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I114027177",
+        "display_name": "University of North Carolina at Chapel Hill",
+        "ror": "https://ror.org/0130frc33",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I136199984",
+        "display_name": "Harvard University",
+        "ror": "https://ror.org/03vek6s52",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I136199984"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Kelly L Smith",
+      "raw_affiliation_strings": [
+       "Family Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       ". Anesthesiology, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       ". Education, Harvard Graduate School of Education, Cambridge, USA",
+       ". Emergency Medicine, University of North Carolina at Chapel Hill",
+       ". Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       ". Pathology and Laboratory Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+       "School of Medicine, Chapel Hill, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Family Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Anesthesiology, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Education, Harvard Graduate School of Education, Cambridge, USA",
+        "institution_ids": [
+         "https://openalex.org/I136199984"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Emergency Medicine, University of North Carolina at Chapel Hill",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": ". Pathology and Laboratory Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       },
+       {
+        "raw_affiliation_string": "School of Medicine, Chapel Hill, USA",
+        "institution_ids": [
+         "https://openalex.org/I114027177"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.7759/cureus.40809",
+     "doi": "https://doi.org/10.7759/cureus.40809",
+     "is_oa": true,
+     "landing_page_url": "http://dx.doi.org/10.7759/cureus.40809",
+     "pdf_url": "https://www.cureus.com/articles/161381-multivariate-modeling-of-student-performance-on-nbme-subject-exams.pdf",
+     "source": {
+      "id": "https://openalex.org/S2738950867",
+      "display_name": "Cureus",
+      "issn_l": "2168-8184",
+      "issn": [
+       "2168-8184"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "poland-20",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310316779",
+      "host_organization_name": "Cureus, Inc.",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310316779"
+      ],
+      "host_organization_lineage_names": [
+       "Cureus, Inc."
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Cureus",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4414666540",
+    "doi": "https://doi.org/10.12975/rastmd.20251332",
+    "title": "An investigation into the effects of breath coaching-based breath exercise practices on stage and exam performance",
+    "display_name": "An investigation into the effects of breath coaching-based breath exercise practices on stage and exam performance",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "An": [
+      0
+     ],
+     "examination": [
+      1
+     ],
+     "of": [
+      2,
+      21,
+      35,
+      83,
+      129,
+      145,
+      165,
+      180,
+      223,
+      240,
+      288,
+      305
+     ],
+     "the": [
+      3,
+      33,
+      55,
+      64,
+      81,
+      113,
+      130,
+      142,
+      163,
+      175,
+      181,
+      221,
+      232,
+      241,
+      252,
+      256,
+      289,
+      303
+     ],
+     "high": [
+      4
+     ],
+     "school": [
+      5
+     ],
+     "and": [
+      6,
+      24,
+      60,
+      98,
+      110,
+      191,
+      207,
+      228,
+      259,
+      268,
+      282
+     ],
+     "undergraduate": [
+      7
+     ],
+     "curricula": [
+      8,
+      34
+     ],
+     "in": [
+      9,
+      124,
+      148,
+      265
+     ],
+     "conservatory": [
+      10
+     ],
+     "education": [
+      11
+     ],
+     "reveals": [
+      12
+     ],
+     "that": [
+      13,
+      39,
+      87,
+      101,
+      133,
+      294
+     ],
+     "breathing": [
+      14,
+      41,
+      266
+     ],
+     "exercises": [
+      15,
+      42,
+      89,
+      146,
+      267
+     ],
+     "are": [
+      16,
+      136,
+      200
+     ],
+     "primarily": [
+      17
+     ],
+     "incorporated": [
+      18
+     ],
+     "as": [
+      19,
+      76,
+      255,
+      278
+     ],
+     "part": [
+      20
+     ],
+     "wind": [
+      22
+     ],
+     "instrument": [
+      23
+     ],
+     "vocal": [
+      25
+     ],
+     "instruction.": [
+      26
+     ],
+     "There": [
+      27
+     ],
+     "is": [
+      28,
+      61,
+      172
+     ],
+     "no": [
+      29,
+      299
+     ],
+     "course": [
+      30
+     ],
+     "content": [
+      31
+     ],
+     "within": [
+      32,
+      80
+     ],
+     "Turkish": [
+      36,
+      204
+     ],
+     "state": [
+      37,
+      205
+     ],
+     "conservatories": [
+      38,
+      206
+     ],
+     "applies": [
+      40
+     ],
+     "for": [
+      43,
+      167,
+      247
+     ],
+     "stage": [
+      44,
+      140
+     ],
+     "anxiety": [
+      45,
+      109
+     ],
+     "or": [
+      46,
+      199
+     ],
+     "general": [
+      47
+     ],
+     "well-being.": [
+      48
+     ],
+     "Breath": [
+      49
+     ],
+     "coaching": [
+      50,
+      150
+     ],
+     "has": [
+      51,
+      70,
+      154
+     ],
+     "become": [
+      52
+     ],
+     "formalized": [
+      53
+     ],
+     "through": [
+      54
+     ],
+     "International": [
+      56
+     ],
+     "Coaching": [
+      57
+     ],
+     "Federation": [
+      58
+     ],
+     "(ICF)": [
+      59
+     ],
+     "approved": [
+      62
+     ],
+     "by": [
+      63,
+      231
+     ],
+     "Vocational": [
+      65
+     ],
+     "Qualifications": [
+      66
+     ],
+     "Authority": [
+      67
+     ],
+     "(MYK).": [
+      68
+     ],
+     "It": [
+      69
+     ],
+     "also": [
+      71
+     ],
+     "started": [
+      72
+     ],
+     "to": [
+      73,
+      93,
+      115,
+      209
+     ],
+     "be": [
+      74,
+      91
+     ],
+     "used": [
+      75
+     ],
+     "a": [
+      77,
+      122,
+      212,
+      216,
+      279,
+      283,
+      286,
+      313
+     ],
+     "therapeutic": [
+      78
+     ],
+     "method": [
+      79
+     ],
+     "discipline": [
+      82
+     ],
+     "psychology.": [
+      84
+     ],
+     "The": [
+      85,
+      170,
+      235,
+      271
+     ],
+     "fact": [
+      86
+     ],
+     "these": [
+      88
+     ],
+     "can": [
+      90
+     ],
+     "applied": [
+      92
+     ],
+     "individuals": [
+      94,
+      120,
+      194
+     ],
+     "across": [
+      95
+     ],
+     "all": [
+      96
+     ],
+     "professions": [
+      97
+     ],
+     "student": [
+      99
+     ],
+     "populations\u2014and": [
+      100
+     ],
+     "users": [
+      102
+     ],
+     "have": [
+      103,
+      196
+     ],
+     "reported": [
+      104
+     ],
+     "positive": [
+      105,
+      315
+     ],
+     "effects": [
+      106
+     ],
+     "especially": [
+      107
+     ],
+     "concerning": [
+      108
+     ],
+     "well-being\u2014has": [
+      111
+     ],
+     "generated": [
+      112
+     ],
+     "need": [
+      114
+     ],
+     "examine": [
+      116
+     ],
+     "their": [
+      117
+     ],
+     "impact": [
+      118,
+      144
+     ],
+     "on": [
+      119,
+      139,
+      151,
+      220,
+      226,
+      302,
+      317
+     ],
+     "pursuing": [
+      121
+     ],
+     "career": [
+      123
+     ],
+     "performing": [
+      125
+     ],
+     "arts.": [
+      126
+     ],
+     "A": [
+      127
+     ],
+     "review": [
+      128
+     ],
+     "literature": [
+      131
+     ],
+     "shows": [
+      132
+     ],
+     "while": [
+      134
+     ],
+     "there": [
+      135
+     ],
+     "descriptive": [
+      137
+     ],
+     "studies": [
+      138
+     ],
+     "anxiety,": [
+      141
+     ],
+     "potential": [
+      143
+     ],
+     "recommended": [
+      147
+     ],
+     "breath": [
+      149,
+      257,
+      295
+     ],
+     "musicians\u2019": [
+      152
+     ],
+     "performance": [
+      153
+     ],
+     "not": [
+      155
+     ],
+     "yet": [
+      156
+     ],
+     "been": [
+      157
+     ],
+     "scientifically": [
+      158
+     ],
+     "studied.": [
+      159
+     ],
+     "This": [
+      160
+     ],
+     "gap": [
+      161
+     ],
+     "constitutes": [
+      162
+     ],
+     "point": [
+      164
+     ],
+     "departure": [
+      166
+     ],
+     "this": [
+      168
+     ],
+     "research.": [
+      169
+     ],
+     "study": [
+      171,
+      177
+     ],
+     "designed": [
+      173
+     ],
+     "using": [
+      174,
+      188
+     ],
+     "case": [
+      176
+     ],
+     "method,": [
+      178
+     ],
+     "one": [
+      179,
+      239
+     ],
+     "qualitative": [
+      182
+     ],
+     "research": [
+      183
+     ],
+     "methods.": [
+      184
+     ],
+     "Participants": [
+      185
+     ],
+     "were": [
+      186
+     ],
+     "selected": [
+      187
+     ],
+     "purposive": [
+      189
+     ],
+     "sampling": [
+      190
+     ],
+     "include": [
+      192
+     ],
+     "22": [
+      193
+     ],
+     "who": [
+      195
+     ],
+     "graduated": [
+      197
+     ],
+     "from": [
+      198
+     ],
+     "currently": [
+      201
+     ],
+     "studying": [
+      202
+     ],
+     "at": [
+      203
+     ],
+     "continue": [
+      208
+     ],
+     "perform.": [
+      210
+     ],
+     "As": [
+      211,
+      285
+     ],
+     "data": [
+      213,
+      248,
+      272
+     ],
+     "collection": [
+      214,
+      273
+     ],
+     "tool,": [
+      215
+     ],
+     "scale": [
+      217
+     ],
+     "titled": [
+      218
+     ],
+     "\u201cOpinions": [
+      219
+     ],
+     "Effects": [
+      222
+     ],
+     "Breathing": [
+      224
+     ],
+     "Exercises": [
+      225
+     ],
+     "Stage": [
+      227
+     ],
+     "Exam": [
+      229
+     ],
+     "Performance\u201d\u2014developed": [
+      230
+     ],
+     "researcher\u2014was": [
+      233
+     ],
+     "used.": [
+      234
+     ],
+     "Wilcoxon": [
+      236
+     ],
+     "signed-rank": [
+      237
+     ],
+     "test,": [
+      238
+     ],
+     "nonparametric": [
+      242
+     ],
+     "statistical": [
+      243
+     ],
+     "tests,": [
+      244
+     ],
+     "was": [
+      245,
+      275,
+      292
+     ],
+     "employed": [
+      246
+     ],
+     "analysis.": [
+      249
+     ],
+     "In": [
+      250
+     ],
+     "practice,": [
+      251
+     ],
+     "researcher": [
+      253
+     ],
+     "served": [
+      254
+     ],
+     "coach": [
+      258
+     ],
+     "provided": [
+      260
+     ],
+     "participants": [
+      261
+     ],
+     "with": [
+      262
+     ],
+     "online": [
+      263
+     ],
+     "training": [
+      264
+     ],
+     "respiratory": [
+      269
+     ],
+     "physiology.": [
+      270
+     ],
+     "tool": [
+      274
+     ],
+     "administered": [
+      276
+     ],
+     "both": [
+      277
+     ],
+     "pre-": [
+      280
+     ],
+     "test": [
+      281
+     ],
+     "post-test.": [
+      284
+     ],
+     "result": [
+      287
+     ],
+     "study,": [
+      290
+     ],
+     "it": [
+      291
+     ],
+     "found": [
+      293
+     ],
+     "coaching-based": [
+      296
+     ],
+     "practices": [
+      297
+     ],
+     "had": [
+      298,
+      312
+     ],
+     "significant": [
+      300,
+      314
+     ],
+     "effect": [
+      301,
+      316
+     ],
+     "number": [
+      304
+     ],
+     "breaths": [
+      306
+     ],
+     "taken": [
+      307
+     ],
+     "per": [
+      308
+     ],
+     "minute": [
+      309
+     ],
+     "(p>.05)": [
+      310
+     ],
+     "but": [
+      311
+     ],
+     "breath-holding": [
+      318
+     ],
+     "duration": [
+      319
+     ],
+     "(p": [
+      320
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5014518129",
+       "display_name": "G\u00f6k\u00e7e Sarvan",
+       "orcid": "https://orcid.org/0000-0001-5079-6041",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5079-6041"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I51826884",
+        "display_name": "Kocaeli \u00dcniversitesi",
+        "ror": "https://ror.org/0411seq30",
+        "country_code": "TR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I51826884"
+        ]
+       }
+      ],
+      "countries": [
+       "TR"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "G\u00f6k\u00e7e Sarvan",
+      "raw_affiliation_strings": [
+       "Kocaeli University"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-5079-6041",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Kocaeli University",
+        "institution_ids": [
+         "https://openalex.org/I51826884"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.12975/rastmd.20251332",
+     "doi": "https://doi.org/10.12975/rastmd.20251332",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.12975/rastmd.20251332",
+     "pdf_url": "https://dergipark.org.tr/en/download/article-file/4594238",
+     "source": {
+      "id": "https://openalex.org/S4210194713",
+      "display_name": "rast m\u00fczikoloji dergisi",
+      "issn_l": "2147-7361",
+      "issn": [
+       "2147-7361",
+       "2147-7531"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [
+       "erih-plus",
+       "poland-20",
+       "russia-white-list-4",
+       "tr-dizin"
+      ],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Rast M\u00fczikoloji Dergisi",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4388101135",
+    "doi": "https://doi.org/10.3390/healthcare11212855",
+    "title": "Performance of ChatGPT on Registered Nurse License Exam in Taiwan: A Descriptive Study",
+    "display_name": "Performance of ChatGPT on Registered Nurse License Exam in Taiwan: A Descriptive Study",
+    "publication_year": 2023,
+    "cited_by_count": 57,
+    "abstract_inverted_index": {
+     "(1)": [
+      0
+     ],
+     "Background:": [
+      1
+     ],
+     "AI": [
+      2
+     ],
+     "(artificial": [
+      3
+     ],
+     "intelligence)": [
+      4
+     ],
+     "chatbots": [
+      5
+     ],
+     "have": [
+      6,
+      154
+     ],
+     "been": [
+      7
+     ],
+     "widely": [
+      8
+     ],
+     "applied.": [
+      9
+     ],
+     "ChatGPT": [
+      10,
+      44,
+      64,
+      98,
+      128,
+      152,
+      171
+     ],
+     "could": [
+      11,
+      137
+     ],
+     "enhance": [
+      12
+     ],
+     "individual": [
+      13
+     ],
+     "learning": [
+      14
+     ],
+     "capabilities": [
+      15
+     ],
+     "and": [
+      16,
+      20,
+      74,
+      79,
+      93,
+      116,
+      124,
+      147,
+      180,
+      187
+     ],
+     "clinical": [
+      17
+     ],
+     "reasoning": [
+      18
+     ],
+     "skills": [
+      19
+     ],
+     "facilitate": [
+      21
+     ],
+     "students\u2019": [
+      22
+     ],
+     "understanding": [
+      23
+     ],
+     "of": [
+      24,
+      43,
+      63,
+      81,
+      85,
+      106,
+      163,
+      185
+     ],
+     "complex": [
+      25
+     ],
+     "concepts": [
+      26
+     ],
+     "in": [
+      27,
+      38,
+      45,
+      72,
+      121
+     ],
+     "healthcare": [
+      28
+     ],
+     "education.": [
+      29,
+      40
+     ],
+     "There": [
+      30
+     ],
+     "is": [
+      31,
+      167
+     ],
+     "currently": [
+      32
+     ],
+     "less": [
+      33
+     ],
+     "emphasis": [
+      34
+     ],
+     "on": [
+      35,
+      65
+     ],
+     "its": [
+      36,
+      164,
+      178
+     ],
+     "application": [
+      37,
+      42
+     ],
+     "nursing": [
+      39,
+      46,
+      160,
+      174
+     ],
+     "The": [
+      41,
+      83,
+      103
+     ],
+     "education": [
+      47,
+      161
+     ],
+     "needs": [
+      48
+     ],
+     "to": [
+      49,
+      59,
+      75,
+      112,
+      139,
+      157,
+      169,
+      176
+     ],
+     "be": [
+      50
+     ],
+     "verified.": [
+      51
+     ],
+     "(2)": [
+      52
+     ],
+     "Methods:": [
+      53
+     ],
+     "A": [
+      54
+     ],
+     "descriptive": [
+      55
+     ],
+     "study": [
+      56
+     ],
+     "was": [
+      57,
+      109
+     ],
+     "used": [
+      58
+     ],
+     "analyze": [
+      60
+     ],
+     "the": [
+      61,
+      66,
+      77,
+      119,
+      155
+     ],
+     "scores": [
+      62
+     ],
+     "registered": [
+      67
+     ],
+     "nurse": [
+      68
+     ],
+     "license": [
+      69
+     ],
+     "exam": [
+      70
+     ],
+     "(RNLE)": [
+      71
+     ],
+     "2022~2023,": [
+      73
+     ],
+     "explore": [
+      76
+     ],
+     "response": [
+      78
+     ],
+     "explanations": [
+      80
+     ],
+     "ChatGPT.": [
+      82
+     ],
+     "process": [
+      84
+     ],
+     "data": [
+      86
+     ],
+     "measurement": [
+      87
+     ],
+     "encompassed": [
+      88
+     ],
+     "input": [
+      89
+     ],
+     "sourcing,": [
+      90
+     ],
+     "encoding": [
+      91
+     ],
+     "methods,": [
+      92
+     ],
+     "statistical": [
+      94
+     ],
+     "analysis.": [
+      95
+     ],
+     "(3)": [
+      96
+     ],
+     "Results:": [
+      97
+     ],
+     "promptly": [
+      99
+     ],
+     "responded": [
+      100
+     ],
+     "within": [
+      101
+     ],
+     "seconds.": [
+      102
+     ],
+     "average": [
+      104
+     ],
+     "score": [
+      105
+     ],
+     "four": [
+      107
+     ],
+     "exams": [
+      108
+     ],
+     "around": [
+      110
+     ],
+     "51.6": [
+      111
+     ],
+     "63.75": [
+      113
+     ],
+     "by": [
+      114
+     ],
+     "ChatGPT,": [
+      115
+     ],
+     "it": [
+      117,
+      136
+     ],
+     "passed": [
+      118
+     ],
+     "RNLE": [
+      120
+     ],
+     "2022": [
+      122
+     ],
+     "1st": [
+      123
+     ],
+     "2023": [
+      125
+     ],
+     "2nd.": [
+      126
+     ],
+     "However,": [
+      127
+     ],
+     "may": [
+      129,
+      153
+     ],
+     "generate": [
+      130
+     ],
+     "misleading": [
+      131
+     ],
+     "or": [
+      132,
+      135,
+      142
+     ],
+     "inaccurate": [
+      133
+     ],
+     "explanations,": [
+      134
+     ],
+     "lead": [
+      138
+     ],
+     "hallucination;": [
+      140
+     ],
+     "confusion": [
+      141
+     ],
+     "misunderstanding": [
+      143
+     ],
+     "about": [
+      144
+     ],
+     "complicated": [
+      145
+     ],
+     "scenarios;": [
+      146
+     ],
+     "languages": [
+      148
+     ],
+     "bias.": [
+      149
+     ],
+     "(4)": [
+      150
+     ],
+     "Conclusions:": [
+      151
+     ],
+     "potential": [
+      156
+     ],
+     "assist": [
+      158
+     ],
+     "with": [
+      159
+     ],
+     "because": [
+      162
+     ],
+     "advantages.": [
+      165
+     ],
+     "It": [
+      166
+     ],
+     "recommended": [
+      168
+     ],
+     "integrate": [
+      170
+     ],
+     "into": [
+      172
+     ],
+     "different": [
+      173
+     ],
+     "courses,": [
+      175
+     ],
+     "assess": [
+      177
+     ],
+     "limitations": [
+      179
+     ],
+     "effectiveness": [
+      181
+     ],
+     "through": [
+      182
+     ],
+     "a": [
+      183
+     ],
+     "variety": [
+      184
+     ],
+     "tools": [
+      186
+     ],
+     "methods.": [
+      188
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5034697476",
+       "display_name": "Hui\u2010Man Huang",
+       "orcid": "https://orcid.org/0000-0003-4378-176X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4378-176X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I189772984",
+        "display_name": "Tzu Chi University",
+        "ror": "https://ror.org/04ss1bw11",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I189772984"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Huiman Huang",
+      "raw_affiliation_strings": [
+       "Tzu Chi University of Science and Technology ;",
+       "School of Nursing, College of Nursing, Tzu Chi University of Science and Technology, Hualien 970302, Taiwan"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-4378-176X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Tzu Chi University of Science and Technology ;",
+        "institution_ids": [
+         "https://openalex.org/I189772984"
+        ]
+       },
+       {
+        "raw_affiliation_string": "School of Nursing, College of Nursing, Tzu Chi University of Science and Technology, Hualien 970302, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I189772984"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3390/healthcare11212855",
+     "doi": "https://doi.org/10.3390/healthcare11212855",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3390/healthcare11212855",
+     "pdf_url": "https://www.mdpi.com/2227-9032/11/21/2855/pdf?version=1698740999",
+     "source": {
+      "id": "https://openalex.org/S4210214101",
+      "display_name": "Healthcare",
+      "issn_l": "2227-9032",
+      "issn": [
+       "2227-9032"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "poland-40",
+       "russia-white-list-3",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310310987",
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310310987"
+      ],
+      "host_organization_lineage_names": [
+       "Multidisciplinary Digital Publishing Institute"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Healthcare",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

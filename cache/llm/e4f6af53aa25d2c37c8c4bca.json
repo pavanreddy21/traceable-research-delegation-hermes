@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201af-bf8f-7c75-b885-d60a9774b120",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795324624,
+ "model": "google/gemma-4-12B-it",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "```json\n{\"verdict\": \"not_supported\", \"passage\": 1, \"reason\": \"The source states there were 317 experiments and 839 assessments, which is the inverse of the numbers provided in the claim.\"}\n```",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 322,
+  "completion_tokens": 55,
+  "total_tokens": 377,
+  "prompt_tokens_details": {
+   "cached_tokens": 16
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.24
+}

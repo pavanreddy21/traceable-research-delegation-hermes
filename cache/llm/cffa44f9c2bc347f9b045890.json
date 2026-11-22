@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a2024a-9ba1-7357-81f4-e2039fef5a3e",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795334773,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\":\"Try a simpler query focused on longhand versus laptop note-taking to surface any available source.\",\"action\":\"search_papers\",\"args\":{\"query\":\"longhand laptop notes\"}}",
+    "reasoning_content": "Search returns empty. Maybe try \"longhand laptop notes\".",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 2137,
+  "completion_tokens": 52,
+  "total_tokens": 2189,
+  "prompt_tokens_details": {
+   "cached_tokens": 2048
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 13
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.21
+}

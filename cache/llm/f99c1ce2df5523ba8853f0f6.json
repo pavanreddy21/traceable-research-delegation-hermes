@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201d6-58ed-7191-879c-06a1b4939c1e",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327154,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Fetch the 2018 college randomized trial to see whether it found null effects.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W2793065899\"}}",
+    "reasoning_content": "Good source. Now fetch the 2018 college trial and maybe the rural adolescent girls one.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1656,
+  "completion_tokens": 63,
+  "total_tokens": 1719,
+  "prompt_tokens_details": {
+   "cached_tokens": 1024
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 20
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.25
+}

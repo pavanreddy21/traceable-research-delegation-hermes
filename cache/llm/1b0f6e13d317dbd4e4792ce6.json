@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201dd-3c69-76d4-8539-8bc7f4d494e9",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327605,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Fetch the meta-analytic review to get a quantitative claim on sleep deprivation after learning.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W4235412360\"}}",
+    "reasoning_content": "Now fetch the meta-analysis W4235412360.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1215,
+  "completion_tokens": 56,
+  "total_tokens": 1271,
+  "prompt_tokens_details": {
+   "cached_tokens": 768
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 12
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.2
+}

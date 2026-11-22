@@ -1,0 +1,3656 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 1433,
+   "db_response_time_ms": 202,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (acute exercise executive function persistence 30 minutes after exercise meta-analysis) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (acute exercise executive function persistence 30 minutes after exercise meta-analysis) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "acute exercise executive function persistence 30 minutes after exercise meta-analysis",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:acute exercise executive function persistence 30 minutes after exercise meta-analysis,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W1558715850",
+    "doi": "https://doi.org/10.1016/j.jshs.2014.09.002",
+    "title": "The strength model of self-control revisited: Linking acute and chronic effects of exercise on executive functions",
+    "display_name": "The strength model of self-control revisited: Linking acute and chronic effects of exercise on executive functions",
+    "publication_year": 2014,
+    "cited_by_count": 170,
+    "abstract_inverted_index": {
+     "Since": [
+      0
+     ],
+     "the": [
+      1,
+      10,
+      61,
+      74,
+      80,
+      92,
+      114
+     ],
+     "1960's,": [
+      2
+     ],
+     "hundreds": [
+      3
+     ],
+     "of": [
+      4,
+      12,
+      25,
+      53,
+      73,
+      83,
+      116,
+      131
+     ],
+     "articles": [
+      5
+     ],
+     "have": [
+      6,
+      27,
+      39
+     ],
+     "been": [
+      7,
+      28,
+      40
+     ],
+     "published": [
+      8
+     ],
+     "on": [
+      9,
+      14,
+      19,
+      121
+     ],
+     "effects": [
+      11,
+      26,
+      45,
+      115
+     ],
+     "exercise": [
+      13,
+      101,
+      120,
+      132
+     ],
+     "cognition": [
+      15
+     ],
+     "and": [
+      16,
+      88,
+      112,
+      118
+     ],
+     "more": [
+      17,
+      150
+     ],
+     "recently": [
+      18
+     ],
+     "executive": [
+      20,
+      127
+     ],
+     "functions.": [
+      21,
+      128
+     ],
+     "A": [
+      22,
+      129,
+      141
+     ],
+     "large": [
+      23
+     ],
+     "variety": [
+      24
+     ],
+     "observed:": [
+      29
+     ],
+     "acute": [
+      30,
+      117
+     ],
+     "or": [
+      31,
+      34,
+      126
+     ],
+     "long-lasting,": [
+      32
+     ],
+     "facilitating": [
+      33
+     ],
+     "debilitating.": [
+      35
+     ],
+     "Several": [
+      36
+     ],
+     "theoretical": [
+      37
+     ],
+     "frameworks": [
+      38
+     ],
+     "proposed": [
+      41
+     ],
+     "to": [
+      42,
+      78,
+      96,
+      100
+     ],
+     "explain": [
+      43,
+      111
+     ],
+     "these": [
+      44,
+      54
+     ],
+     "with": [
+      46
+     ],
+     "plausible": [
+      47
+     ],
+     "mechanisms.": [
+      48
+     ],
+     "However,": [
+      49
+     ],
+     "as": [
+      50,
+      133
+     ],
+     "yet": [
+      51
+     ],
+     "none": [
+      52
+     ],
+     "models": [
+      55
+     ],
+     "has": [
+      56
+     ],
+     "succeeded": [
+      57
+     ],
+     "in": [
+      58,
+      63,
+      91,
+      94
+     ],
+     "unifying": [
+      59
+     ],
+     "all": [
+      60,
+      69
+     ],
+     "observations": [
+      62
+     ],
+     "a": [
+      64,
+      106,
+      134
+     ],
+     "single": [
+      65
+     ],
+     "framework": [
+      66,
+      108
+     ],
+     "that": [
+      67,
+      109
+     ],
+     "subsumes": [
+      68
+     ],
+     "effects.": [
+      70
+     ],
+     "The": [
+      71
+     ],
+     "aim": [
+      72
+     ],
+     "present": [
+      75
+     ],
+     "review": [
+      76
+     ],
+     "is": [
+      77,
+      147
+     ],
+     "revisit": [
+      79
+     ],
+     "strength": [
+      81
+     ],
+     "model": [
+      82,
+      104
+     ],
+     "self-control": [
+      84,
+      135
+     ],
+     "initiated": [
+      85
+     ],
+     "by": [
+      86
+     ],
+     "Baumeister": [
+      87
+     ],
+     "his": [
+      89
+     ],
+     "colleagues": [
+      90
+     ],
+     "1990's": [
+      93
+     ],
+     "order": [
+      95
+     ],
+     "extend": [
+      97
+     ],
+     "its": [
+      98
+     ],
+     "assumptions": [
+      99
+     ],
+     "psychology.": [
+      102
+     ],
+     "This": [
+      103
+     ],
+     "provides": [
+      105
+     ],
+     "heuristic": [
+      107
+     ],
+     "can": [
+      110
+     ],
+     "predict": [
+      113
+     ],
+     "chronic": [
+      119
+     ],
+     "effortful": [
+      122
+     ],
+     "tasks": [
+      123
+     ],
+     "tapping": [
+      124
+     ],
+     "self-regulation": [
+      125
+     ],
+     "reconsideration": [
+      130
+     ],
+     "task": [
+      136
+     ],
+     "results": [
+      137
+     ],
+     "from": [
+      138
+     ],
+     "this": [
+      139
+     ],
+     "perspective.": [
+      140
+     ],
+     "new": [
+      142
+     ],
+     "avenue": [
+      143
+     ],
+     "for": [
+      144
+     ],
+     "future": [
+      145
+     ],
+     "research": [
+      146
+     ],
+     "delineated": [
+      148
+     ],
+     "besides": [
+      149
+     ],
+     "traditional": [
+      151
+     ],
+     "approaches.": [
+      152
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5003027174",
+       "display_name": "Michel Francis Audiffren",
+       "orcid": "https://orcid.org/0000-0002-2488-8089",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2488-8089"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1294671590",
+        "display_name": "Centre National de la Recherche Scientifique",
+        "ror": "https://ror.org/02feahw73",
+        "country_code": "FR",
+        "type": "government",
+        "lineage": [
+         "https://openalex.org/I1294671590"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I32881790",
+        "display_name": "Universit\u00e9 de Poitiers",
+        "ror": "https://ror.org/04xhy8q59",
+        "country_code": "FR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I32881790"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210108291",
+        "display_name": "Centre de Recherches sur la Cognition et l'Apprentissage",
+        "ror": "https://ror.org/01sdp1y98",
+        "country_code": "FR",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I110017253",
+         "https://openalex.org/I1294671590",
+         "https://openalex.org/I32881790",
+         "https://openalex.org/I4210096427",
+         "https://openalex.org/I4210108291"
+        ]
+       }
+      ],
+      "countries": [
+       "FR"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Michel Audiffren",
+      "raw_affiliation_strings": [
+       "Research Institute on Cognition and Learning (UMR CNRS 7295), University of Poitiers, Poitiers 86000, France",
+       "Axe 2 (2011-2016) : \u00ab March\u00e9s, Cultures de consommation, Autonomie et Migrations \u00bb (MSHS Poitiers) (MSHS Poitiers. B\u00e2timent A5. 5, rue Th\u00e9odore Lefebvre. TSA 21103. 86073 Poitiers Cedex 9 - France)",
+       "CeRCA [Poitiers, Tours] - Centre de recherches sur la cognition et l'apprentissage [UMR 7295] (99, avenue du Recteur Pineau 86000 Poitiers et 116 Boulevard B\u00e9ranger 37000 Tours - France)"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Research Institute on Cognition and Learning (UMR CNRS 7295), University of Poitiers, Poitiers 86000, France",
+        "institution_ids": [
+         "https://openalex.org/I1294671590",
+         "https://openalex.org/I32881790",
+         "https://openalex.org/I4210108291"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Axe 2 (2011-2016) : \u00ab March\u00e9s, Cultures de consommation, Autonomie et Migrations \u00bb (MSHS Poitiers) (MSHS Poitiers. B\u00e2timent A5. 5, rue Th\u00e9odore Lefebvre. TSA 21103. 86073 Poitiers Cedex 9 - France)",
+        "institution_ids": []
+       },
+       {
+        "raw_affiliation_string": "CeRCA [Poitiers, Tours] - Centre de recherches sur la cognition et l'apprentissage [UMR 7295] (99, avenue du Recteur Pineau 86000 Poitiers et 116 Boulevard B\u00e9ranger 37000 Tours - France)",
+        "institution_ids": [
+         "https://openalex.org/I4210108291"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5103095066",
+       "display_name": "Nathalie Andr\u00e9",
+       "orcid": "https://orcid.org/0000-0003-0132-3154",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0132-3154"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1294671590",
+        "display_name": "Centre National de la Recherche Scientifique",
+        "ror": "https://ror.org/02feahw73",
+        "country_code": "FR",
+        "type": "government",
+        "lineage": [
+         "https://openalex.org/I1294671590"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I32881790",
+        "display_name": "Universit\u00e9 de Poitiers",
+        "ror": "https://ror.org/04xhy8q59",
+        "country_code": "FR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I32881790"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210108291",
+        "display_name": "Centre de Recherches sur la Cognition et l'Apprentissage",
+        "ror": "https://ror.org/01sdp1y98",
+        "country_code": "FR",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I110017253",
+         "https://openalex.org/I1294671590",
+         "https://openalex.org/I32881790",
+         "https://openalex.org/I4210096427",
+         "https://openalex.org/I4210108291"
+        ]
+       }
+      ],
+      "countries": [
+       "FR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Nathalie Andr\u00e9",
+      "raw_affiliation_strings": [
+       "Research Institute on Cognition and Learning (UMR CNRS 7295), University of Poitiers, Poitiers 86000, France",
+       "Axe 2 (2011-2016) : \u00ab March\u00e9s, Cultures de consommation, Autonomie et Migrations \u00bb (MSHS Poitiers) (MSHS Poitiers. B\u00e2timent A5. 5, rue Th\u00e9odore Lefebvre. TSA 21103. 86073 Poitiers Cedex 9 - France)",
+       "CeRCA [Poitiers, Tours] - Centre de recherches sur la cognition et l'apprentissage [UMR 7295] (99, avenue du Recteur Pineau 86000 Poitiers et 116 Boulevard B\u00e9ranger 37000 Tours - France)"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Research Institute on Cognition and Learning (UMR CNRS 7295), University of Poitiers, Poitiers 86000, France",
+        "institution_ids": [
+         "https://openalex.org/I1294671590",
+         "https://openalex.org/I32881790",
+         "https://openalex.org/I4210108291"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Axe 2 (2011-2016) : \u00ab March\u00e9s, Cultures de consommation, Autonomie et Migrations \u00bb (MSHS Poitiers) (MSHS Poitiers. B\u00e2timent A5. 5, rue Th\u00e9odore Lefebvre. TSA 21103. 86073 Poitiers Cedex 9 - France)",
+        "institution_ids": []
+       },
+       {
+        "raw_affiliation_string": "CeRCA [Poitiers, Tours] - Centre de recherches sur la cognition et l'apprentissage [UMR 7295] (99, avenue du Recteur Pineau 86000 Poitiers et 116 Boulevard B\u00e9ranger 37000 Tours - France)",
+        "institution_ids": [
+         "https://openalex.org/I4210108291"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1016/j.jshs.2014.09.002",
+     "doi": "https://doi.org/10.1016/j.jshs.2014.09.002",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1016/j.jshs.2014.09.002",
+     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2095254614001185/pdf",
+     "source": {
+      "id": "https://openalex.org/S2485047394",
+      "display_name": "Journal of sport and health science/Journal of Sport and Health Science",
+      "issn_l": "2213-2961",
+      "issn": [
+       "2213-2961",
+       "2095-2546"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "dongbi-a",
+       "doyens",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "oarl",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+       "Elsevier BV"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Sport and Health Science",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3169435892",
+    "doi": "https://doi.org/10.3389/fpsyg.2021.660845",
+    "title": "The Differential Impact of Acute Exercise and Mindfulness Meditation on Executive Functioning and Psycho-Emotional Well-Being in Children and Youth With ADHD",
+    "display_name": "The Differential Impact of Acute Exercise and Mindfulness Meditation on Executive Functioning and Psycho-Emotional Well-Being in Children and Youth With ADHD",
+    "publication_year": 2021,
+    "cited_by_count": 79,
+    "abstract_inverted_index": {
+     "This": [
+      0,
+      103
+     ],
+     "study": [
+      1
+     ],
+     "investigated": [
+      2
+     ],
+     "how": [
+      3,
+      109
+     ],
+     "acute": [
+      4,
+      110
+     ],
+     "exercise": [
+      5,
+      111
+     ],
+     "and": [
+      6,
+      12,
+      18,
+      43,
+      50,
+      61,
+      91,
+      112,
+      121,
+      126
+     ],
+     "mindfulness": [
+      7,
+      41,
+      113
+     ],
+     "meditation": [
+      8,
+      69,
+      114
+     ],
+     "impacts": [
+      9
+     ],
+     "executive": [
+      10,
+      54,
+      74,
+      120
+     ],
+     "functioning": [
+      11,
+      55,
+      75,
+      123
+     ],
+     "psycho-emotional": [
+      13,
+      62,
+      122
+     ],
+     "well-being": [
+      14,
+      63
+     ],
+     "in": [
+      15
+     ],
+     "16": [
+      16
+     ],
+     "children": [
+      17,
+      125
+     ],
+     "youth": [
+      19,
+      127
+     ],
+     "with": [
+      20,
+      128
+     ],
+     "ADHD": [
+      21
+     ],
+     "aged": [
+      22
+     ],
+     "10\u201314": [
+      23
+     ],
+     "(male": [
+      24
+     ],
+     "=": [
+      25,
+      28,
+      85,
+      101
+     ],
+     "11;": [
+      26
+     ],
+     "White": [
+      27
+     ],
+     "80%).": [
+      29
+     ],
+     "Participants": [
+      30
+     ],
+     "completed": [
+      31
+     ],
+     "three": [
+      32
+     ],
+     "interventions:": [
+      33
+     ],
+     "10": [
+      34,
+      38,
+      44
+     ],
+     "min": [
+      35,
+      39,
+      45
+     ],
+     "of": [
+      36,
+      40,
+      46,
+      119
+     ],
+     "exercise,": [
+      37
+     ],
+     "meditation,": [
+      42
+     ],
+     "reading": [
+      47
+     ],
+     "(control).": [
+      48
+     ],
+     "Before": [
+      49
+     ],
+     "after": [
+      51
+     ],
+     "each": [
+      52
+     ],
+     "intervention,": [
+      53
+     ],
+     "(inhibitory": [
+      56
+     ],
+     "control,": [
+      57
+     ],
+     "working": [
+      58
+     ],
+     "memory,": [
+      59
+     ],
+     "task-switching)": [
+      60
+     ],
+     "(mood,": [
+      64
+     ],
+     "self-efficacy)": [
+      65
+     ],
+     "were": [
+      66
+     ],
+     "assessed.": [
+      67
+     ],
+     "Mindfulness": [
+      68
+     ],
+     "increased": [
+      70
+     ],
+     "performance": [
+      71
+     ],
+     "on": [
+      72
+     ],
+     "all": [
+      73
+     ],
+     "tasks": [
+      76
+     ],
+     "whereas": [
+      77,
+      93
+     ],
+     "the": [
+      78,
+      94
+     ],
+     "other": [
+      79,
+      95
+     ],
+     "interventions": [
+      80,
+      96
+     ],
+     "did": [
+      81,
+      97
+     ],
+     "not": [
+      82,
+      98
+     ],
+     "(": [
+      83,
+      99
+     ],
+     "d": [
+      84,
+      100
+     ],
+     "0.55\u20130.86).": [
+      86
+     ],
+     "Exercise": [
+      87
+     ],
+     "enhanced": [
+      88
+     ],
+     "positive": [
+      89
+     ],
+     "mood": [
+      90
+     ],
+     "self-efficacy": [
+      92
+     ],
+     "0.22\u20130.35).": [
+      102
+     ],
+     "work": [
+      104
+     ],
+     "provides": [
+      105
+     ],
+     "preliminary": [
+      106
+     ],
+     "evidence": [
+      107
+     ],
+     "for": [
+      108
+     ],
+     "can": [
+      115
+     ],
+     "support": [
+      116
+     ],
+     "differential": [
+      117
+     ],
+     "aspects": [
+      118
+     ],
+     "among": [
+      124
+     ],
+     "ADHD.": [
+      129
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5014571545",
+       "display_name": "Hannah Bigelow",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I125749732",
+        "display_name": "Western University",
+        "ror": "https://ror.org/02grkyz14",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I125749732"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Hannah Bigelow",
+      "raw_affiliation_strings": [
+       "Faculty of Education, Western University, London, ON, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Education, Western University, London, ON, Canada",
+        "institution_ids": [
+         "https://openalex.org/I125749732"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5064265464",
+       "display_name": "Marcus Gottlieb",
+       "orcid": "https://orcid.org/0000-0003-2769-9766",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2769-9766"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I125749732",
+        "display_name": "Western University",
+        "ror": "https://ror.org/02grkyz14",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I125749732"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Marcus D. Gottlieb",
+      "raw_affiliation_strings": [
+       "Faculty of Education, Western University, London, ON, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Education, Western University, London, ON, Canada",
+        "institution_ids": [
+         "https://openalex.org/I125749732"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5053756006",
+       "display_name": "Michelle Ogrodnik",
+       "orcid": "https://orcid.org/0000-0002-9259-9422",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9259-9422"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I98251732",
+        "display_name": "McMaster University",
+        "ror": "https://ror.org/02fa3aq29",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I98251732"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Michelle Ogrodnik",
+      "raw_affiliation_strings": [
+       "Department of Kinesiology, Faculty of Science, McMaster University, Hamilton, ON, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Kinesiology, Faculty of Science, McMaster University, Hamilton, ON, Canada",
+        "institution_ids": [
+         "https://openalex.org/I98251732"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5021244874",
+       "display_name": "Jeffrey D. Graham",
+       "orcid": "https://orcid.org/0000-0002-6728-2597",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6728-2597"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I39470171",
+        "display_name": "Ontario Tech University",
+        "ror": "https://ror.org/016zre027",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I39470171"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jeffrey D. Graham",
+      "raw_affiliation_strings": [
+       "Faculty of Health Sciences, Ontario Tech University, Oshawa, ON, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Health Sciences, Ontario Tech University, Oshawa, ON, Canada",
+        "institution_ids": [
+         "https://openalex.org/I39470171"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5000981251",
+       "display_name": "Barbara Fenesi",
+       "orcid": "https://orcid.org/0000-0003-2670-4551",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2670-4551"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I125749732",
+        "display_name": "Western University",
+        "ror": "https://ror.org/02grkyz14",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I125749732"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Barbara Fenesi",
+      "raw_affiliation_strings": [
+       "Faculty of Education, Western University, London, ON, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Education, Western University, London, ON, Canada",
+        "institution_ids": [
+         "https://openalex.org/I125749732"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2021.660845",
+     "doi": "https://doi.org/10.3389/fpsyg.2021.660845",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2021.660845",
+     "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2021.660845/pdf",
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2020514668",
+    "doi": "https://doi.org/10.1016/j.jshs.2014.09.003",
+    "title": "Exercise and children's cognition: The role of exercise characteristics and a place for metacognition",
+    "display_name": "Exercise and children's cognition: The role of exercise characteristics and a place for metacognition",
+    "publication_year": 2014,
+    "cited_by_count": 542,
+    "abstract_inverted_index": {
+     "Definitive": [
+      0
+     ],
+     "conclusions": [
+      1
+     ],
+     "concerning": [
+      2
+     ],
+     "the": [
+      3,
+      31,
+      54
+     ],
+     "impact": [
+      4
+     ],
+     "of": [
+      5,
+      17,
+      25,
+      33,
+      36,
+      56,
+      58,
+      68,
+      72,
+      85,
+      91
+     ],
+     "exercise": [
+      6,
+      37,
+      45
+     ],
+     "interventions": [
+      7,
+      38,
+      46,
+      69
+     ],
+     "on": [
+      8,
+      39,
+      53,
+      78
+     ],
+     "children's": [
+      9,
+      40,
+      73,
+      92
+     ],
+     "mental": [
+      10,
+      64
+     ],
+     "functioning": [
+      11
+     ],
+     "are": [
+      12,
+      81,
+      97
+     ],
+     "difficult": [
+      13
+     ],
+     "to": [
+      14,
+      29
+     ],
+     "ascertain": [
+      15
+     ],
+     "because": [
+      16
+     ],
+     "procedural": [
+      18
+     ],
+     "differences": [
+      19
+     ],
+     "among": [
+      20
+     ],
+     "studies.": [
+      21
+     ],
+     "A": [
+      22
+     ],
+     "narrative": [
+      23
+     ],
+     "review": [
+      24
+     ],
+     "studies": [
+      26
+     ],
+     "was": [
+      27
+     ],
+     "conducted": [
+      28
+     ],
+     "evaluate": [
+      30
+     ],
+     "role": [
+      32,
+      84
+     ],
+     "two": [
+      34
+     ],
+     "types": [
+      35,
+      67
+     ],
+     "cognition.": [
+      41
+     ],
+     "Acute": [
+      42
+     ],
+     "and": [
+      43,
+      88,
+      94
+     ],
+     "chronic": [
+      44
+     ],
+     "were": [
+      47
+     ],
+     "classified": [
+      48
+     ],
+     "as": [
+      49
+     ],
+     "quantitative": [
+      50
+     ],
+     "or": [
+      51
+     ],
+     "qualitative": [
+      52
+     ],
+     "basis": [
+      55
+     ],
+     "manipulations": [
+      57
+     ],
+     "task": [
+      59
+     ],
+     "complexity": [
+      60
+     ],
+     "and,": [
+      61
+     ],
+     "by": [
+      62
+     ],
+     "inference,": [
+      63
+     ],
+     "engagement.": [
+      65
+     ],
+     "Both": [
+      66
+     ],
+     "enhance": [
+      70
+     ],
+     "aspects": [
+      71
+     ],
+     "cognition;": [
+      74
+     ],
+     "however,": [
+      75
+     ],
+     "their": [
+      76,
+      89
+     ],
+     "effects": [
+      77
+     ],
+     "metacognitive": [
+      79,
+      86
+     ],
+     "processes": [
+      80,
+      87
+     ],
+     "unknown.": [
+      82
+     ],
+     "The": [
+      83
+     ],
+     "regulation": [
+      90
+     ],
+     "behavior": [
+      93
+     ],
+     "academic": [
+      95
+     ],
+     "performance": [
+      96
+     ],
+     "highlighted.": [
+      98
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5030534634",
+       "display_name": "Phillip D. Tomporowski",
+       "orcid": "https://orcid.org/0000-0002-6915-1013",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6915-1013"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165733156",
+        "display_name": "University of Georgia",
+        "ror": "https://ror.org/00te3t702",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165733156"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Phillip D. Tomporowski",
+      "raw_affiliation_strings": [
+       "Department of Kinesiology, University of Georgia, Athens, GA 30602, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Kinesiology, University of Georgia, Athens, GA 30602, USA",
+        "institution_ids": [
+         "https://openalex.org/I165733156"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5022907621",
+       "display_name": "Bryan A. McCullick",
+       "orcid": "https://orcid.org/0000-0002-2960-8066",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2960-8066"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165733156",
+        "display_name": "University of Georgia",
+        "ror": "https://ror.org/00te3t702",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165733156"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Bryan McCullick",
+      "raw_affiliation_strings": [
+       "Department of Kinesiology, University of Georgia, Athens, GA 30602, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Kinesiology, University of Georgia, Athens, GA 30602, USA",
+        "institution_ids": [
+         "https://openalex.org/I165733156"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5030654294",
+       "display_name": "Daniel M. Pendleton",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165733156",
+        "display_name": "University of Georgia",
+        "ror": "https://ror.org/00te3t702",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165733156"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Daniel M. Pendleton",
+      "raw_affiliation_strings": [
+       "Department of Kinesiology, University of Georgia, Athens, GA 30602, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Kinesiology, University of Georgia, Athens, GA 30602, USA",
+        "institution_ids": [
+         "https://openalex.org/I165733156"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5003385744",
+       "display_name": "Caterina Pesce",
+       "orcid": "https://orcid.org/0000-0002-4245-3898",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4245-3898"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Caterina Pesce",
+      "raw_affiliation_strings": [
+       "Department of Human Motion and Sport Science, Italian University Sport and Movement, Rome, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Human Motion and Sport Science, Italian University Sport and Movement, Rome, Italy",
+        "institution_ids": []
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1016/j.jshs.2014.09.003",
+     "doi": "https://doi.org/10.1016/j.jshs.2014.09.003",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1016/j.jshs.2014.09.003",
+     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2095254614001203/pdf",
+     "source": {
+      "id": "https://openalex.org/S2485047394",
+      "display_name": "Journal of sport and health science/Journal of Sport and Health Science",
+      "issn_l": "2213-2961",
+      "issn": [
+       "2213-2961",
+       "2095-2546"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "dongbi-a",
+       "doyens",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "oarl",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+       "Elsevier BV"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Sport and Health Science",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3186404081",
+    "doi": null,
+    "title": "Exercise and executive function in older adults: exploring the mechanisms",
+    "display_name": "Exercise and executive function in older adults: exploring the mechanisms",
+    "publication_year": 2019,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "Exercise": [
+      0
+     ],
+     "is": [
+      1,
+      104,
+      116
+     ],
+     "beneficial": [
+      2
+     ],
+     "to": [
+      3,
+      7,
+      18,
+      34,
+      38,
+      51,
+      128,
+      134,
+      295,
+      376,
+      394,
+      418,
+      464,
+      473,
+      479
+     ],
+     "cognitive": [
+      4
+     ],
+     "performance": [
+      5
+     ],
+     "and": [
+      6,
+      50,
+      69,
+      109,
+      123,
+      131,
+      138,
+      148,
+      159,
+      199,
+      205,
+      212,
+      221,
+      234,
+      262,
+      288,
+      303,
+      328,
+      337,
+      350,
+      396,
+      431,
+      448
+     ],
+     "executive": [
+      8
+     ],
+     "function": [
+      9
+     ],
+     "(EF)": [
+      10
+     ],
+     "in": [
+      11,
+      47,
+      73,
+      80,
+      98,
+      140,
+      153,
+      161,
+      301,
+      305,
+      310,
+      344,
+      347,
+      352,
+      363,
+      367,
+      371,
+      381,
+      388,
+      398,
+      442,
+      450,
+      470,
+      484
+     ],
+     "particular,": [
+      12
+     ],
+     "however": [
+      13,
+      369
+     ],
+     "the": [
+      14,
+      36,
+      56,
+      70,
+      154,
+      180,
+      263,
+      270,
+      281,
+      297,
+      324,
+      333,
+      443,
+      471
+     ],
+     "underlying": [
+      15
+     ],
+     "mechanisms": [
+      16,
+      152,
+      440
+     ],
+     "as": [
+      17,
+      62,
+      151,
+      167,
+      239,
+      416,
+      424,
+      459
+     ],
+     "how": [
+      19
+     ],
+     "exercise": [
+      20,
+      44,
+      114,
+      130,
+      158,
+      208,
+      227,
+      250,
+      415,
+      447
+     ],
+     "yields": [
+      21
+     ],
+     "these": [
+      22,
+      481
+     ],
+     "benefits": [
+      23,
+      413
+     ],
+     "are": [
+      24,
+      132,
+      477
+     ],
+     "not": [
+      25
+     ],
+     "clear.": [
+      26
+     ],
+     "The": [
+      27,
+      249
+     ],
+     "overall": [
+      28,
+      357
+     ],
+     "purpose": [
+      29
+     ],
+     "of": [
+      30,
+      43,
+      55,
+      58,
+      87,
+      156,
+      186,
+      189,
+      267,
+      283,
+      323,
+      359,
+      428,
+      439,
+      445
+     ],
+     "this": [
+      31,
+      81
+     ],
+     "study": [
+      32
+     ],
+     "was": [
+      33,
+      315,
+      355,
+      401
+     ],
+     "identify": [
+      35
+     ],
+     "extent": [
+      37
+     ],
+     "which": [
+      39
+     ],
+     "a": [
+      40,
+      85,
+      168,
+      202,
+      206,
+      223,
+      230,
+      242,
+      460,
+      485
+     ],
+     "single": [
+      41
+     ],
+     "bout": [
+      42
+     ],
+     "affects": [
+      45
+     ],
+     "EF": [
+      46,
+      97,
+      108,
+      139,
+      160,
+      193,
+      236,
+      364,
+      449
+     ],
+     "older": [
+      48,
+      141,
+      162,
+      175,
+      451
+     ],
+     "adults": [
+      49,
+      163,
+      176
+     ],
+     "gain": [
+      52
+     ],
+     "an": [
+      53,
+      93,
+      187
+     ],
+     "understanding": [
+      54
+     ],
+     "role": [
+      57
+     ],
+     "biological": [
+      59
+     ],
+     "factors": [
+      60
+     ],
+     "such": [
+      61,
+      144
+     ],
+     "vagal": [
+      63,
+      102,
+      111,
+      136,
+      165,
+      318,
+      339,
+      409,
+      422,
+      457
+     ],
+     "tone,": [
+      64,
+      84
+     ],
+     "brain-derived": [
+      65
+     ],
+     "neurotrophic": [
+      66
+     ],
+     "factor": [
+      67
+     ],
+     "(BDNF),": [
+      68
+     ],
+     "hemodynamic": [
+      71
+     ],
+     "response": [
+      72,
+      472
+     ],
+     "neural": [
+      74,
+      77,
+      124,
+      149,
+      289,
+      306,
+      348,
+      389,
+      399,
+      432
+     ],
+     "tissues": [
+      75
+     ],
+     "(i.e.": [
+      76
+     ],
+     "activation": [
+      78,
+      125,
+      150,
+      307,
+      390,
+      400
+     ],
+     "patterns)": [
+      79
+     ],
+     "relationship.": [
+      82
+     ],
+     "Vagal": [
+      83
+     ],
+     "measure": [
+      86
+     ],
+     "parasympathetic": [
+      88
+     ],
+     "nervous": [
+      89
+     ],
+     "system": [
+      90
+     ],
+     "activity,": [
+      91
+     ],
+     "shares": [
+      92
+     ],
+     "intimate": [
+      94
+     ],
+     "relationship": [
+      95,
+      155,
+      444
+     ],
+     "with": [
+      96,
+      106,
+      118,
+      164,
+      308,
+      403,
+      407,
+      420
+     ],
+     "adults;": [
+      99
+     ],
+     "higher": [
+      100,
+      408
+     ],
+     "resting": [
+      101,
+      190
+     ],
+     "tone": [
+      103,
+      112,
+      137,
+      166,
+      319,
+      340,
+      410,
+      423,
+      458
+     ],
+     "associated": [
+      105,
+      117,
+      402
+     ],
+     "better": [
+      107
+     ],
+     "increased": [
+      110
+     ],
+     "following": [
+      113,
+      373,
+      377,
+      391
+     ],
+     "training": [
+      115
+     ],
+     "improved": [
+      119
+     ],
+     "EF.": [
+      120,
+      311,
+      353,
+      404
+     ],
+     "Interestingly,": [
+      121,
+      405
+     ],
+     "BDNF": [
+      122,
+      147,
+      302,
+      372
+     ],
+     "patterns": [
+      126
+     ],
+     "respond": [
+      127
+     ],
+     "acute": [
+      129,
+      157,
+      446
+     ],
+     "related": [
+      133
+     ],
+     "both": [
+      135
+     ],
+     "adults.": [
+      142,
+      452
+     ],
+     "As": [
+      143
+     ],
+     "we": [
+      145,
+      455
+     ],
+     "investigated": [
+      146
+     ],
+     "potential": [
+      169
+     ],
+     "moderator.": [
+      170
+     ],
+     "Participants": [
+      171
+     ],
+     "were": [
+      172,
+      214,
+      293,
+      385
+     ],
+     "sixteen": [
+      173
+     ],
+     "healthy,": [
+      174
+     ],
+     "(M=72.3": [
+      177
+     ],
+     "years)": [
+      178
+     ],
+     "from": [
+      179,
+      414
+     ],
+     "community.": [
+      181
+     ],
+     "Day": [
+      182
+     ],
+     "one": [
+      183
+     ],
+     "testing": [
+      184,
+      194,
+      237
+     ],
+     "consisted": [
+      185,
+      266
+     ],
+     "assessment": [
+      188
+     ],
+     "heart": [
+      191
+     ],
+     "rate,": [
+      192
+     ],
+     "(inhibitory": [
+      195
+     ],
+     "control,": [
+      196
+     ],
+     "set": [
+      197,
+      382
+     ],
+     "shifting,": [
+      198
+     ],
+     "working": [
+      200
+     ],
+     "memory),": [
+      201
+     ],
+     "blood": [
+      203,
+      225,
+      232
+     ],
+     "draw,": [
+      204,
+      226,
+      233
+     ],
+     "submaximal": [
+      207
+     ],
+     "test.": [
+      209
+     ],
+     "Days": [
+      210
+     ],
+     "two": [
+      211
+     ],
+     "three": [
+      213
+     ],
+     "counterbalanced": [
+      215
+     ],
+     "for": [
+      216,
+      259,
+      272,
+      466
+     ],
+     "condition": [
+      217,
+      251,
+      265,
+      284,
+      360
+     ],
+     "(exercise": [
+      218
+     ],
+     "or": [
+      219,
+      228,
+      365
+     ],
+     "rest)": [
+      220
+     ],
+     "included": [
+      222,
+      252
+     ],
+     "pre-condition": [
+      224
+     ],
+     "rest,": [
+      229,
+      378,
+      395
+     ],
+     "post-condition": [
+      231,
+      235
+     ],
+     "(same": [
+      238
+     ],
+     "baseline)": [
+      240
+     ],
+     "during": [
+      241
+     ],
+     "functional": [
+      243
+     ],
+     "magnetic": [
+      244
+     ],
+     "resonance": [
+      245
+     ],
+     "imaging": [
+      246
+     ],
+     "(fMRI)": [
+      247
+     ],
+     "scan.": [
+      248
+     ],
+     "cycling": [
+      253
+     ],
+     "at": [
+      254,
+      275
+     ],
+     "55-65%": [
+      255
+     ],
+     "Heart": [
+      256
+     ],
+     "Rate": [
+      257
+     ],
+     "Reserve": [
+      258
+     ],
+     "30": [
+      260,
+      273
+     ],
+     "minutes": [
+      261,
+      274
+     ],
+     "rest": [
+      264
+     ],
+     "sitting": [
+      268
+     ],
+     "on": [
+      269,
+      285,
+      317,
+      342,
+      361
+     ],
+     "bike": [
+      271
+     ],
+     "rest.": [
+      276
+     ],
+     "Paired": [
+      277
+     ],
+     "samples": [
+      278,
+      330
+     ],
+     "t-tests": [
+      279,
+      331
+     ],
+     "assessed": [
+      280,
+      332,
+      425
+     ],
+     "effects": [
+      282
+     ],
+     "EF,": [
+      286,
+      429
+     ],
+     "BDNF,": [
+      287,
+      345,
+      368,
+      430
+     ],
+     "activation.": [
+      290,
+      433
+     ],
+     "Linear": [
+      291
+     ],
+     "regressions": [
+      292
+     ],
+     "used": [
+      294
+     ],
+     "assess": [
+      296
+     ],
+     "relationships": [
+      298,
+      483
+     ],
+     "between": [
+      299,
+      335
+     ],
+     "change": [
+      300,
+      304,
+      309,
+      343,
+      346,
+      351,
+      362,
+      366,
+      370,
+      380,
+      397
+     ],
+     "A": [
+      312
+     ],
+     "median": [
+      313
+     ],
+     "split": [
+      314
+     ],
+     "performed": [
+      316
+     ],
+     "(root": [
+      320
+     ],
+     "mean": [
+      321
+     ],
+     "square": [
+      322
+     ],
+     "successive": [
+      325
+     ],
+     "differences;": [
+      326
+     ],
+     "RMSSD)": [
+      327
+     ],
+     "independent": [
+      329
+     ],
+     "difference": [
+      334
+     ],
+     "high": [
+      336
+     ],
+     "low": [
+      338
+     ],
+     "groups": [
+      341
+     ],
+     "activation,": [
+      349
+     ],
+     "There": [
+      354,
+      384
+     ],
+     "no": [
+      356
+     ],
+     "effect": [
+      358
+     ],
+     "exercise,": [
+      374,
+      392
+     ],
+     "relative": [
+      375
+     ],
+     "predicted": [
+      379
+     ],
+     "shifting.": [
+      383
+     ],
+     "significant": [
+      386
+     ],
+     "differences": [
+      387
+     ],
+     "compared": [
+      393,
+      417
+     ],
+     "those": [
+      406,
+      419
+     ],
+     "had": [
+      411
+     ],
+     "greater": [
+      412
+     ],
+     "lower": [
+      421
+     ],
+     "using": [
+      426
+     ],
+     "measures": [
+      427
+     ],
+     "These": [
+      434
+     ],
+     "findings": [
+      435
+     ],
+     "provide": [
+      436
+     ],
+     "initial": [
+      437
+     ],
+     "evidence": [
+      438
+     ],
+     "involved": [
+      441
+     ],
+     "Of": [
+      453
+     ],
+     "importance,": [
+      454
+     ],
+     "identified": [
+      456
+     ],
+     "moderator": [
+      461
+     ],
+     "that": [
+      462
+     ],
+     "helps": [
+      463
+     ],
+     "account": [
+      465
+     ],
+     "some": [
+      467
+     ],
+     "individual": [
+      468
+     ],
+     "variability": [
+      469
+     ],
+     "exercise.": [
+      474
+     ],
+     "Larger": [
+      475
+     ],
+     "studies": [
+      476
+     ],
+     "needed": [
+      478
+     ],
+     "test": [
+      480
+     ],
+     "preliminary": [
+      482
+     ],
+     "moderated-mediation": [
+      486
+     ],
+     "model.": [
+      487
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5110623560",
+       "display_name": "Alexis B. Slutsky",
+       "orcid": "https://orcid.org/0000-0001-6905-0266",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6905-0266"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Alexis B. Slutsky",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ],
+    "primary_location": {
+     "id": "pmh:oai:libres.uncg.edu/26624",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "http://libres.uncg.edu/ir/uncg/f/Slutsky_uncg_0154D_12734.pdf",
+     "pdf_url": "http://libres.uncg.edu/ir/uncg/f/Slutsky_uncg_0154D_12734.pdf",
+     "source": {
+      "id": "https://openalex.org/S4306401856",
+      "display_name": "NC Digital Online Collection of Knowledge and Scholarship (The University of North Carolina at Greensboro)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I169335092",
+      "host_organization_name": "University of North Carolina at Greensboro",
+      "host_organization_lineage": [
+       "https://openalex.org/I169335092"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": null,
+     "raw_type": null
+    }
+   },
+   {
+    "id": "https://openalex.org/W4390496522",
+    "doi": "https://doi.org/10.1371/journal.pone.0296273",
+    "title": "Effects of physical exercise on executive functions of individuals with schizophrenia spectrum disorders: Protocol for a systematic review and meta-analysis",
+    "display_name": "Effects of physical exercise on executive functions of individuals with schizophrenia spectrum disorders: Protocol for a systematic review and meta-analysis",
+    "publication_year": 2024,
+    "cited_by_count": 8,
+    "abstract_inverted_index": {
+     "INTRODUCTION:": [
+      0
+     ],
+     "Executive": [
+      1
+     ],
+     "functions": [
+      2,
+      20,
+      79
+     ],
+     "are": [
+      3,
+      32
+     ],
+     "commonly": [
+      4
+     ],
+     "impaired": [
+      5
+     ],
+     "in": [
+      6,
+      40,
+      107
+     ],
+     "individuals": [
+      7
+     ],
+     "with": [
+      8,
+      82,
+      168,
+      198
+     ],
+     "schizophrenia": [
+      9,
+      41,
+      83,
+      199
+     ],
+     "spectrum": [
+      10,
+      84,
+      200
+     ],
+     "disorders.": [
+      11,
+      85
+     ],
+     "Physical": [
+      12
+     ],
+     "exercise": [
+      13,
+      38,
+      73
+     ],
+     "has": [
+      14
+     ],
+     "the": [
+      15,
+      69,
+      108,
+      134,
+      148,
+      157,
+      207
+     ],
+     "potential": [
+      16,
+      203
+     ],
+     "for": [
+      17,
+      175,
+      188,
+      196
+     ],
+     "improving": [
+      18
+     ],
+     "executive": [
+      19,
+      55,
+      78
+     ],
+     "and": [
+      21,
+      45,
+      53,
+      63,
+      76,
+      104,
+      114,
+      159,
+      211
+     ],
+     "can": [
+      22
+     ],
+     "be": [
+      23,
+      66,
+      98,
+      120,
+      131,
+      145,
+      154,
+      173,
+      186
+     ],
+     "easily": [
+      24
+     ],
+     "implemented": [
+      25
+     ],
+     "as": [
+      26,
+      122
+     ],
+     "a": [
+      27
+     ],
+     "therapeutic": [
+      28
+     ],
+     "method.": [
+      29,
+      150
+     ],
+     "However,": [
+      30
+     ],
+     "there": [
+      31
+     ],
+     "only": [
+      33
+     ],
+     "few": [
+      34
+     ],
+     "systematic": [
+      35,
+      61
+     ],
+     "reviews": [
+      36
+     ],
+     "of": [
+      37,
+      49,
+      59,
+      71,
+      80,
+      102,
+      110,
+      128,
+      140,
+      182,
+      209,
+      214
+     ],
+     "effects": [
+      39,
+      50,
+      70,
+      162
+     ],
+     "including": [
+      42
+     ],
+     "cognitive": [
+      43,
+      212
+     ],
+     "outcomes,": [
+      44
+     ],
+     "no": [
+      46
+     ],
+     "meta-analytical": [
+      47
+     ],
+     "syntheses": [
+      48
+     ],
+     "on": [
+      51,
+      74
+     ],
+     "\"cool\"": [
+      52,
+      75
+     ],
+     "\"hot\"": [
+      54,
+      77
+     ],
+     "functions.": [
+      56
+     ],
+     "The": [
+      57,
+      126,
+      138,
+      151,
+      180
+     ],
+     "purpose": [
+      58
+     ],
+     "this": [
+      60,
+      183,
+      215
+     ],
+     "review": [
+      62,
+      184
+     ],
+     "meta-analysis": [
+      64
+     ],
+     "will": [
+      65,
+      97,
+      119,
+      130,
+      144,
+      153,
+      172
+     ],
+     "to": [
+      67,
+      192,
+      206
+     ],
+     "determine": [
+      68
+     ],
+     "physical": [
+      72
+     ],
+     "adults": [
+      81,
+      197
+     ],
+     "METHODS": [
+      86
+     ],
+     "AND": [
+      87
+     ],
+     "ANALYSIS:": [
+      88
+     ],
+     "This": [
+      89
+     ],
+     "protocol": [
+      90
+     ],
+     "was": [
+      91
+     ],
+     "guided": [
+      92
+     ],
+     "by": [
+      93
+     ],
+     "PRISMA-P": [
+      94
+     ],
+     "guidelines.": [
+      95
+     ],
+     "Studies": [
+      96
+     ],
+     "searched": [
+      99
+     ],
+     "using": [
+      100,
+      133,
+      147,
+      156
+     ],
+     "combinations": [
+      101
+     ],
+     "keywords": [
+      103
+     ],
+     "medical": [
+      105
+     ],
+     "terms": [
+      106
+     ],
+     "Web": [
+      109
+     ],
+     "Science,": [
+      111
+     ],
+     "PubMed,": [
+      112
+     ],
+     "Scopus,": [
+      113
+     ],
+     "EBSCO": [
+      115
+     ],
+     "databases.": [
+      116
+     ],
+     "Inclusion": [
+      117
+     ],
+     "criteria": [
+      118
+     ],
+     "determined": [
+      121
+     ],
+     "per": [
+      123
+     ],
+     "PICOS": [
+      124
+     ],
+     "approach.": [
+      125
+     ],
+     "risk": [
+      127
+     ],
+     "bias": [
+      129
+     ],
+     "assessed": [
+      132,
+      146
+     ],
+     "Cochrane": [
+      135
+     ],
+     "RoB2": [
+      136
+     ],
+     "tool.": [
+      137
+     ],
+     "certainty": [
+      139
+     ],
+     "evidence": [
+      141
+     ],
+     "(per": [
+      142
+     ],
+     "outcome)": [
+      143
+     ],
+     "GRADE": [
+      149
+     ],
+     "meta-analyses": [
+      152
+     ],
+     "performed": [
+      155
+     ],
+     "DerSimonian": [
+      158
+     ],
+     "Laird": [
+      160
+     ],
+     "random": [
+      161
+     ],
+     "model.": [
+      163
+     ],
+     "Effect": [
+      164
+     ],
+     "sizes": [
+      165
+     ],
+     "(Hedges'": [
+      166
+     ],
+     "g)": [
+      167
+     ],
+     "95%": [
+      169
+     ],
+     "confidence": [
+      170
+     ],
+     "intervals": [
+      171
+     ],
+     "calculated": [
+      174
+     ],
+     "each": [
+      176
+     ],
+     "main": [
+      177
+     ],
+     "outcome.": [
+      178
+     ],
+     "CONCLUSIONS:": [
+      179
+     ],
+     "results": [
+      181
+     ],
+     "may": [
+      185
+     ],
+     "useful": [
+      187
+     ],
+     "mental": [
+      189
+     ],
+     "health": [
+      190
+     ],
+     "professionals": [
+      191
+     ],
+     "design": [
+      193
+     ],
+     "treatment": [
+      194
+     ],
+     "plans": [
+      195
+     ],
+     "disorders,": [
+      201
+     ],
+     "offering": [
+      202
+     ],
+     "benefits": [
+      204
+     ],
+     "related": [
+      205
+     ],
+     "quality": [
+      208
+     ],
+     "life": [
+      210
+     ],
+     "abilities": [
+      213
+     ],
+     "population.": [
+      216
+     ],
+     "PROSPERO": [
+      217
+     ],
+     "REGISTRATION": [
+      218
+     ],
+     "NUMBER:": [
+      219
+     ],
+     "CRD42023392295.": [
+      220
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5015639059",
+       "display_name": "Nuria P\u00e9rez-Romero",
+       "orcid": "https://orcid.org/0000-0003-2070-5422",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2070-5422"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I13897259",
+        "display_name": "Universidad Andr\u00e9s Bello",
+        "ror": "https://ror.org/01qq57711",
+        "country_code": "CL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I13897259"
+        ]
+       }
+      ],
+      "countries": [
+       "CL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Nuria P\u00e9rez-Romero",
+      "raw_affiliation_strings": [
+       "Exercise and Rehabilitation Sciences Institute, Postgraduate, Faculty of Rehabilitation Sciences, Universidad Andres Bello, Santiago de Chile, Chile"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Exercise and Rehabilitation Sciences Institute, Postgraduate, Faculty of Rehabilitation Sciences, Universidad Andres Bello, Santiago de Chile, Chile",
+        "institution_ids": [
+         "https://openalex.org/I13897259"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5067161833",
+       "display_name": "Christian Campos\u2010Jara",
+       "orcid": "https://orcid.org/0000-0002-0298-837X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0298-837X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I13897259",
+        "display_name": "Universidad Andr\u00e9s Bello",
+        "ror": "https://ror.org/01qq57711",
+        "country_code": "CL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I13897259"
+        ]
+       }
+      ],
+      "countries": [
+       "CL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       }
+      ],
+      "raw_author_name": "Christian Campos-Jara",
+      "raw_affiliation_strings": [
+       "Exercise and Rehabilitation Sciences Institute, Faculty of Rehabilitation Sciences, Universidad Andres Bello, Santiago de Chile, Santiago, Chile"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Exercise and Rehabilitation Sciences Institute, Faculty of Rehabilitation Sciences, Universidad Andres Bello, Santiago de Chile, Santiago, Chile",
+        "institution_ids": [
+         "https://openalex.org/I13897259"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5003385744",
+       "display_name": "Caterina Pesce",
+       "orcid": "https://orcid.org/0000-0002-4245-3898",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4245-3898"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I210167222",
+        "display_name": "Foro Italico University of Rome",
+        "ror": "https://ror.org/03j4zvd18",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I210167222"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Caterina Pesce",
+      "raw_affiliation_strings": [
+       "Department of Movement, Human and Health Sciences, University of Rome \"Foro Italico\", Rome, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Movement, Human and Health Sciences, University of Rome \"Foro Italico\", Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I210167222"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5101945667",
+       "display_name": "Sergio Araya-Sierralta",
+       "orcid": "https://orcid.org/0000-0001-7324-6640",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7324-6640"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I201487725",
+        "display_name": "University of Atacama",
+        "ror": "https://ror.org/022yres73",
+        "country_code": "CL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I201487725"
+        ]
+       }
+      ],
+      "countries": [
+       "CL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Sergio Araya Sierralta",
+      "raw_affiliation_strings": [
+       "Departamento de Educaci\u00f3n F\u00edsica, Universidad de Atacama, Copiap\u00f3, Chile"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Departamento de Educaci\u00f3n F\u00edsica, Universidad de Atacama, Copiap\u00f3, Chile",
+        "institution_ids": [
+         "https://openalex.org/I201487725"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5006136900",
+       "display_name": "Enrique Cerda-Vega",
+       "orcid": "https://orcid.org/0000-0003-0813-3695",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0813-3695"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I13897259",
+        "display_name": "Universidad Andr\u00e9s Bello",
+        "ror": "https://ror.org/01qq57711",
+        "country_code": "CL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I13897259"
+        ]
+       }
+      ],
+      "countries": [
+       "CL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       }
+      ],
+      "raw_author_name": "Enrique Cerda-Vega",
+      "raw_affiliation_strings": [
+       "Exercise and Rehabilitation Sciences Institute, Faculty of Rehabilitation Sciences, Universidad Andres Bello, Santiago de Chile, Santiago, Chile"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Exercise and Rehabilitation Sciences Institute, Faculty of Rehabilitation Sciences, Universidad Andres Bello, Santiago de Chile, Santiago, Chile",
+        "institution_ids": [
+         "https://openalex.org/I13897259"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5060660446",
+       "display_name": "Rodrigo Ram\u00edrez\u2010Campillo",
+       "orcid": "https://orcid.org/0000-0003-2035-3279",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2035-3279"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I13897259",
+        "display_name": "Universidad Andr\u00e9s Bello",
+        "ror": "https://ror.org/01qq57711",
+        "country_code": "CL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I13897259"
+        ]
+       }
+      ],
+      "countries": [
+       "CL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Rodrigo Ramirez-Campillo",
+      "raw_affiliation_strings": [
+       "Exercise and Rehabilitation Sciences Institute, School of Physical Therapy, Faculty of Rehabilitation Sciences, Universidad Andres Bello, Santiago de Chile, Santiago, Chile"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Exercise and Rehabilitation Sciences Institute, School of Physical Therapy, Faculty of Rehabilitation Sciences, Universidad Andres Bello, Santiago de Chile, Santiago, Chile",
+        "institution_ids": [
+         "https://openalex.org/I13897259"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5085780471",
+       "display_name": "Rodrigo Campos-Jara",
+       "orcid": "https://orcid.org/0000-0003-3844-9543",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3844-9543"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       }
+      ],
+      "raw_author_name": "Rodrigo Campos-Jara",
+      "raw_affiliation_strings": [
+       "Hospital Mauricio Heyermann, Servicio de Psiquiatr\u00eda, Angol, Chile"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Hospital Mauricio Heyermann, Servicio de Psiquiatr\u00eda, Angol, Chile",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5052238728",
+       "display_name": "Cristian Mart\u00ednez\u2010Salazar",
+       "orcid": "https://orcid.org/0000-0002-9216-1826",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9216-1826"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I11944219",
+        "display_name": "Universidad de La Frontera",
+        "ror": "https://ror.org/04v0snf24",
+        "country_code": "CL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I11944219"
+        ]
+       }
+      ],
+      "countries": [
+       "CL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       }
+      ],
+      "raw_author_name": "Cristian Mart\u00ednez-Salazar",
+      "raw_affiliation_strings": [
+       "Department of Physical Education, Sports, and Recreation, Pedagogy in Physical Education, School of Education and Social Sciences and Humanities, Universidad de La Frontera, Temuco, Chile"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Education, Sports, and Recreation, Pedagogy in Physical Education, School of Education and Social Sciences and Humanities, Universidad de La Frontera, Temuco, Chile",
+        "institution_ids": [
+         "https://openalex.org/I11944219"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5090326184",
+       "display_name": "Cristi\u00e1n Arellano-Roco",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I10457146",
+        "display_name": "Universidad de Santiago de Chile",
+        "ror": "https://ror.org/02ma57s91",
+        "country_code": "CL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I10457146"
+        ]
+       }
+      ],
+      "countries": [
+       "CL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Cristi\u00e1n Arellano-Roco",
+      "raw_affiliation_strings": [
+       "Laboratorio de Neuromecanica Aplicada, Escuela de kinesiolog\u00eda, Facultad de Ciencias M\u00e9dicas, Universidad de Santiago de Chile, Santiago, Chile"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Laboratorio de Neuromecanica Aplicada, Escuela de kinesiolog\u00eda, Facultad de Ciencias M\u00e9dicas, Universidad de Santiago de Chile, Santiago, Chile",
+        "institution_ids": [
+         "https://openalex.org/I10457146"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5071757046",
+       "display_name": "Falonn Contreras-Osorio",
+       "orcid": "https://orcid.org/0000-0002-7161-0071",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7161-0071"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I13897259",
+        "display_name": "Universidad Andr\u00e9s Bello",
+        "ror": "https://ror.org/01qq57711",
+        "country_code": "CL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I13897259"
+        ]
+       }
+      ],
+      "countries": [
+       "CL"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Falonn Contreras-Osorio",
+      "raw_affiliation_strings": [
+       "Exercise and Rehabilitation Sciences Institute, Faculty of Rehabilitation Sciences, Universidad Andres Bello, Santiago de Chile, Santiago, Chile"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-7161-0071",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Exercise and Rehabilitation Sciences Institute, Faculty of Rehabilitation Sciences, Universidad Andres Bello, Santiago de Chile, Santiago, Chile",
+        "institution_ids": [
+         "https://openalex.org/I13897259"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1371/journal.pone.0296273",
+     "doi": "https://doi.org/10.1371/journal.pone.0296273",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1371/journal.pone.0296273",
+     "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0296273&type=printable",
+     "source": {
+      "id": "https://openalex.org/S202381698",
+      "display_name": "PLoS ONE",
+      "issn_l": "1932-6203",
+      "issn": [
+       "1932-6203"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "dongbi-c",
+       "doyens",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310315706",
+      "host_organization_name": "Public Library of Science",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310315706"
+      ],
+      "host_organization_lineage_names": [
+       "Public Library of Science"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "PLOS ONE",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

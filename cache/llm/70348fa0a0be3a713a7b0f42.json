@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20208-a050-77df-b68f-4ae94a8bd29f",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330449,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"not_supported\", \"passage\": 1, \"reason\": \"The passages discuss cognitive control and task-switching performance in heavy media multitaskers, not academic grades or a causal effect on college students' grades.\"}",
+    "reasoning_content": "We need answer JSON only. Need evaluate claim: \"The experiments showed that heavy media multitasking causes lower academic grades in college students.\" Source passages about cognitive control in media multitaskers 2009. Passages mention heavy media multitaskers worse task-switching, susceptible interference, associated with info processing. No academic grades, no causation, no college students explicitly? Need verdict not_supported. Passage maybe 1? Reason: passages discuss cognitive control/task-switching, not academic grades or causal effect. Need JSON only. Ensure passage number maybe 1? Since no passage supports claim. Could use passage 1 as closest but reason says doesn't mention grades. The schema requires passage number. Use 1. Verdict not_supported. One sentence.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 307,
+  "completion_tokens": 207,
+  "total_tokens": 514,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 155
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.23
+}

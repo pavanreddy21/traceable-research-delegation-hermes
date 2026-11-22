@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20205-8385-704a-abf0-fd83c7674a1b",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330245,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 states the review found 839 assessments of distributed practice in 317 experiments.\"}",
+    "reasoning_content": "We need answer JSON only. Need evaluate claim: \"The review analyzed 839 assessments of distributed practice drawn from 317 experiments.\" Passage [1] exactly: \"This review found 839 assessments of distributed practice in 317 experiments located in 184 articles.\" Claim says analyzed 839 assessments drawn from 317 experiments. Supported. Need passage number 1 reason one sentence. JSON only.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 318,
+  "completion_tokens": 118,
+  "total_tokens": 436,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 79
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.25
+}

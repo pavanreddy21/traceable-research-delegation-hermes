@@ -1,0 +1,3295 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 1848,
+   "db_response_time_ms": 106,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (open-note versus closed-note test handwritten typed lecture notes) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (open-note versus closed-note test handwritten typed lecture notes) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "open-note versus closed-note test handwritten typed lecture notes",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:open-note versus closed-note test handwritten typed lecture notes,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4364321849",
+    "doi": "https://doi.org/10.47611/jsrhs.v11i4.3148",
+    "title": "Impact of Note-Taking Mediums on Memory Recognition",
+    "display_name": "Impact of Note-Taking Mediums on Memory Recognition",
+    "publication_year": 2022,
+    "cited_by_count": 4,
+    "abstract_inverted_index": {
+     "Note-taking": [
+      0
+     ],
+     "has": [
+      1
+     ],
+     "been": [
+      2
+     ],
+     "the": [
+      3,
+      17,
+      29,
+      45,
+      63,
+      70,
+      78,
+      88,
+      98,
+      118,
+      131,
+      155,
+      166,
+      172,
+      177
+     ],
+     "key": [
+      4,
+      46
+     ],
+     "mechanism": [
+      5
+     ],
+     "for": [
+      6
+     ],
+     "information": [
+      7
+     ],
+     "keeping": [
+      8
+     ],
+     "and": [
+      9,
+      39,
+      74,
+      91,
+      111,
+      141
+     ],
+     "an": [
+      10,
+      139
+     ],
+     "integral": [
+      11
+     ],
+     "part": [
+      12
+     ],
+     "of": [
+      13,
+      19,
+      44,
+      77,
+      84,
+      97,
+      117,
+      121,
+      136,
+      176
+     ],
+     "academic": [
+      14
+     ],
+     "success.": [
+      15
+     ],
+     "Given": [
+      16
+     ],
+     "benefits": [
+      18
+     ],
+     "note-taking": [
+      20,
+      57,
+      122,
+      169
+     ],
+     "in": [
+      21,
+      67,
+      93
+     ],
+     "learning,": [
+      22
+     ],
+     "it": [
+      23
+     ],
+     "is": [
+      24
+     ],
+     "very": [
+      25
+     ],
+     "important": [
+      26
+     ],
+     "to": [
+      27,
+      50,
+      69,
+      107,
+      114
+     ],
+     "identify": [
+      28
+     ],
+     "most": [
+      30,
+      167
+     ],
+     "effective": [
+      31
+     ],
+     "technique.": [
+      32
+     ],
+     "Past": [
+      33
+     ],
+     "research": [
+      34
+     ],
+     "conducted": [
+      35,
+      153
+     ],
+     "on": [
+      36
+     ],
+     "college": [
+      37
+     ],
+     "students": [
+      38
+     ],
+     "adults": [
+      40
+     ],
+     "have": [
+      41
+     ],
+     "underlined": [
+      42
+     ],
+     "some": [
+      43
+     ],
+     "methods": [
+      47
+     ],
+     "commonly": [
+      48
+     ],
+     "used": [
+      49
+     ],
+     "take": [
+      51
+     ],
+     "down": [
+      52
+     ],
+     "notes,": [
+      53
+     ],
+     "such": [
+      54
+     ],
+     "as": [
+      55
+     ],
+     "digital": [
+      56,
+      75
+     ],
+     "or": [
+      58,
+      125
+     ],
+     "hand": [
+      59
+     ],
+     "written": [
+      60
+     ],
+     "note-taking,": [
+      61
+     ],
+     "but": [
+      62
+     ],
+     "conclusions": [
+      64
+     ],
+     "are": [
+      65
+     ],
+     "insufficient": [
+      66
+     ],
+     "reference": [
+      68
+     ],
+     "wider": [
+      71
+     ],
+     "age": [
+      72
+     ],
+     "group": [
+      73
+     ],
+     "redesign": [
+      76
+     ],
+     "learning": [
+      79
+     ],
+     "system.": [
+      80
+     ],
+     "A": [
+      81,
+      147
+     ],
+     "sample": [
+      82
+     ],
+     "size": [
+      83
+     ],
+     "33": [
+      85
+     ],
+     "students,": [
+      86
+     ],
+     "between": [
+      87
+     ],
+     "ages": [
+      89
+     ],
+     "13-18": [
+      90
+     ],
+     "enrolled": [
+      92
+     ],
+     "at": [
+      94,
+      101,
+      128
+     ],
+     "least": [
+      95
+     ],
+     "two": [
+      96
+     ],
+     "advanced": [
+      99
+     ],
+     "courses": [
+      100
+     ],
+     "a": [
+      102,
+      109,
+      133,
+      142
+     ],
+     "high": [
+      103
+     ],
+     "school,": [
+      104
+     ],
+     "were": [
+      105,
+      145
+     ],
+     "selected": [
+      106
+     ],
+     "watch": [
+      108
+     ],
+     "video": [
+      110
+     ],
+     "randomly": [
+      112
+     ],
+     "assigned": [
+      113
+     ],
+     "use": [
+      115
+     ],
+     "one": [
+      116,
+      148
+     ],
+     "three": [
+      119
+     ],
+     "options": [
+      120
+     ],
+     "mediums\u2014typing,": [
+      123
+     ],
+     "handwriting": [
+      124
+     ],
+     "no-note": [
+      126
+     ],
+     "taking": [
+      127
+     ],
+     "all.": [
+      129
+     ],
+     "After": [
+      130
+     ],
+     "video,": [
+      132
+     ],
+     "distractor": [
+      134
+     ],
+     "task": [
+      135
+     ],
+     "multiplication": [
+      137
+     ],
+     "problems,": [
+      138
+     ],
+     "assessment,": [
+      140
+     ],
+     "post-experimental": [
+      143
+     ],
+     "survey": [
+      144
+     ],
+     "administered.": [
+      146
+     ],
+     "way": [
+      149
+     ],
+     "ANOVA": [
+      150
+     ],
+     "test": [
+      151
+     ],
+     "was": [
+      152,
+      165
+     ],
+     "using": [
+      154
+     ],
+     "students\u2019": [
+      156
+     ],
+     "assessment": [
+      157
+     ],
+     "scores.": [
+      158
+     ],
+     "The": [
+      159
+     ],
+     "results": [
+      160
+     ],
+     "revealed": [
+      161
+     ],
+     "that": [
+      162
+     ],
+     "typing": [
+      163
+     ],
+     "notes": [
+      164
+     ],
+     "efficient": [
+      168
+     ],
+     "medium,": [
+      170
+     ],
+     "with": [
+      171
+     ],
+     "highest": [
+      173
+     ],
+     "memory": [
+      174
+     ],
+     "retention": [
+      175
+     ],
+     "material.": [
+      178
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5078709144",
+       "display_name": "Tamanna Khurana",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210099704",
+        "display_name": "Mentor",
+        "ror": "https://ror.org/016grqh48",
+        "country_code": "GB",
+        "type": "nonprofit",
+        "lineage": [
+         "https://openalex.org/I4210099704"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Tamanna Khurana",
+      "raw_affiliation_strings": [
+       "Mentor High School)"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Mentor High School)",
+        "institution_ids": [
+         "https://openalex.org/I4210099704"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5040824904",
+       "display_name": "Jonathan Frishman",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210099704",
+        "display_name": "Mentor",
+        "ror": "https://ror.org/016grqh48",
+        "country_code": "GB",
+        "type": "nonprofit",
+        "lineage": [
+         "https://openalex.org/I4210099704"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jonathan Frishman",
+      "raw_affiliation_strings": [
+       "Mentor High School"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Mentor High School",
+        "institution_ids": [
+         "https://openalex.org/I4210099704"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.47611/jsrhs.v11i4.3148",
+     "doi": "https://doi.org/10.47611/jsrhs.v11i4.3148",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.47611/jsrhs.v11i4.3148",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S2765069361",
+      "display_name": "Journal of Student Research",
+      "issn_l": "2167-1907",
+      "issn": [
+       "2167-1907"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core"
+      ],
+      "host_organization": "https://openalex.org/P4363603803",
+      "host_organization_name": "rScroll",
+      "host_organization_lineage": [
+       "https://openalex.org/P4363603803"
+      ],
+      "host_organization_lineage_names": [
+       "rScroll"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-sa",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Student Research",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4386637111",
+    "doi": "https://doi.org/10.18552/joaw.v13i1.838",
+    "title": "Written notes and listening comprehension: A correlation study",
+    "display_name": "Written notes and listening comprehension: A correlation study",
+    "publication_year": 2023,
+    "cited_by_count": 2,
+    "abstract_inverted_index": {
+     "Notetaking": [
+      0
+     ],
+     "is": [
+      1
+     ],
+     "a": [
+      2,
+      12,
+      39,
+      48,
+      160
+     ],
+     "crucial": [
+      3
+     ],
+     "aspect": [
+      4
+     ],
+     "of": [
+      5,
+      16,
+      50,
+      84,
+      99
+     ],
+     "learning": [
+      6
+     ],
+     "in": [
+      7,
+      26,
+      58,
+      70,
+      103,
+      124,
+      155
+     ],
+     "academic": [
+      8,
+      17,
+      34,
+      51,
+      157
+     ],
+     "contexts,": [
+      9
+     ],
+     "but": [
+      10
+     ],
+     "as": [
+      11,
+      30,
+      38,
+      47
+     ],
+     "relatively": [
+      13
+     ],
+     "casual": [
+      14
+     ],
+     "form": [
+      15,
+      49
+     ],
+     "writing,": [
+      18
+     ],
+     "it": [
+      19
+     ],
+     "seldom": [
+      20
+     ],
+     "receives": [
+      21
+     ],
+     "pedagogic": [
+      22,
+      148
+     ],
+     "or": [
+      23
+     ],
+     "research": [
+      24,
+      43
+     ],
+     "attention": [
+      25
+     ],
+     "the": [
+      27,
+      78,
+      94
+     ],
+     "literature.": [
+      28
+     ],
+     "Therefore,": [
+      29
+     ],
+     "more": [
+      31
+     ],
+     "students": [
+      32,
+      56,
+      153
+     ],
+     "study": [
+      33,
+      80
+     ],
+     "content": [
+      35
+     ],
+     "through": [
+      36
+     ],
+     "English": [
+      37
+     ],
+     "second": [
+      40
+     ],
+     "language": [
+      41
+     ],
+     "(L2),": [
+      42
+     ],
+     "on": [
+      44,
+      162
+     ],
+     "student": [
+      45
+     ],
+     "notetaking": [
+      46
+     ],
+     "writing": [
+      52
+     ],
+     "deserves": [
+      53
+     ],
+     "attention.": [
+      54
+     ],
+     "What": [
+      55
+     ],
+     "write": [
+      57,
+      168
+     ],
+     "their": [
+      59
+     ],
+     "notes": [
+      60,
+      85,
+      125
+     ],
+     "and": [
+      61,
+      72,
+      86,
+      101,
+      112,
+      120,
+      135,
+      152,
+      167
+     ],
+     "how": [
+      62,
+      163
+     ],
+     "they": [
+      63
+     ],
+     "do": [
+      64,
+      126
+     ],
+     "so": [
+      65
+     ],
+     "can": [
+      66
+     ],
+     "play": [
+      67
+     ],
+     "important": [
+      68
+     ],
+     "roles": [
+      69
+     ],
+     "comprehension": [
+      71,
+      89
+     ],
+     "learning.": [
+      73
+     ],
+     "To": [
+      74
+     ],
+     "address": [
+      75
+     ],
+     "this": [
+      76
+     ],
+     "gap,": [
+      77
+     ],
+     "present": [
+      79
+     ],
+     "examines": [
+      81
+     ],
+     "102": [
+      82
+     ],
+     "sets": [
+      83
+     ],
+     "corresponding": [
+      87
+     ],
+     "listening": [
+      88
+     ],
+     "test": [
+      90,
+      130,
+      142
+     ],
+     "scores": [
+      91
+     ],
+     "to": [
+      92,
+      141,
+      165
+     ],
+     "determine": [
+      93
+     ],
+     "relationships": [
+      95
+     ],
+     "between": [
+      96
+     ],
+     "four": [
+      97
+     ],
+     "factors": [
+      98
+     ],
+     "quantity": [
+      100
+     ],
+     "quality": [
+      102
+     ],
+     "students\u2019": [
+      104
+     ],
+     "hand-written": [
+      105
+     ],
+     "notes;": [
+      106
+     ],
+     "namely,": [
+      107
+     ],
+     "notations,": [
+      108
+     ],
+     "words,": [
+      109
+     ],
+     "information": [
+      110,
+      133
+     ],
+     "units,": [
+      111
+     ],
+     "efficiency": [
+      113,
+      137
+     ],
+     "ratio.": [
+      114
+     ],
+     "Results": [
+      115
+     ],
+     "indicate": [
+      116
+     ],
+     "that": [
+      117
+     ],
+     "total": [
+      118,
+      121
+     ],
+     "notations": [
+      119
+     ],
+     "words": [
+      122
+     ],
+     "written": [
+      123
+     ],
+     "not": [
+      127
+     ],
+     "impact": [
+      128
+     ],
+     "overall": [
+      129
+     ],
+     "scores,": [
+      131
+     ],
+     "while": [
+      132
+     ],
+     "units": [
+      134
+     ],
+     "higher": [
+      136
+     ],
+     "ratios": [
+      138
+     ],
+     "positively": [
+      139
+     ],
+     "correlate": [
+      140
+     ],
+     "scores.": [
+      143
+     ],
+     "The": [
+      144
+     ],
+     "paper": [
+      145
+     ],
+     "closes": [
+      146
+     ],
+     "with": [
+      147,
+      159
+     ],
+     "advice": [
+      149
+     ],
+     "for": [
+      150
+     ],
+     "teachers": [
+      151
+     ],
+     "operating": [
+      154
+     ],
+     "L2": [
+      156
+     ],
+     "contexts": [
+      158
+     ],
+     "focus": [
+      161
+     ],
+     "best": [
+      164
+     ],
+     "conceptualise": [
+      166
+     ],
+     "notes.": [
+      169
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5050195429",
+       "display_name": "Joseph P. Siegel",
+       "orcid": "https://orcid.org/0000-0001-7420-3263",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7420-3263"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I161593684",
+        "display_name": "Stockholm University",
+        "ror": "https://ror.org/05f0yaq80",
+        "country_code": "SE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I161593684"
+        ]
+       }
+      ],
+      "countries": [
+       "SE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Joseph Siegel",
+      "raw_affiliation_strings": [
+       "Stockholm University"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-7420-3263",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Stockholm University",
+        "institution_ids": [
+         "https://openalex.org/I161593684"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.18552/joaw.v13i1.838",
+     "doi": "https://doi.org/10.18552/joaw.v13i1.838",
+     "is_oa": true,
+     "landing_page_url": "http://dx.doi.org/10.18552/joaw.v13i1.838",
+     "pdf_url": "https://publications.coventry.ac.uk/index.php/joaw/article/download/838/983",
+     "source": {
+      "id": "https://openalex.org/S2764949034",
+      "display_name": "Journal of Academic Writing",
+      "issn_l": "2225-8973",
+      "issn": [
+       "2225-8973"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310311821",
+      "host_organization_name": "Coventry University",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310311821"
+      ],
+      "host_organization_lineage_names": [
+       "Coventry University"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Academic Writing",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W7166727810",
+    "doi": "https://doi.org/10.1103/sdnj-cjst",
+    "title": "Testing the validity of embedding-based similarity and clustering for handwritten physics solutions",
+    "display_name": "Testing the validity of embedding-based similarity and clustering for handwritten physics solutions",
+    "publication_year": 2026,
+    "cited_by_count": 1,
+    "abstract_inverted_index": {
+     "Text": [
+      0
+     ],
+     "embeddings": [
+      1,
+      141,
+      174
+     ],
+     "are": [
+      2
+     ],
+     "increasingly": [
+      3
+     ],
+     "used": [
+      4
+     ],
+     "in": [
+      5,
+      41
+     ],
+     "physics": [
+      6,
+      183
+     ],
+     "education": [
+      7
+     ],
+     "research": [
+      8
+     ],
+     "to": [
+      9,
+      117,
+      140
+     ],
+     "organize,": [
+      10
+     ],
+     "compare,": [
+      11
+     ],
+     "and": [
+      12,
+      35,
+      86,
+      96,
+      106,
+      120,
+      171,
+      179
+     ],
+     "cluster": [
+      13
+     ],
+     "large": [
+      14
+     ],
+     "collections": [
+      15
+     ],
+     "of": [
+      16,
+      59,
+      182,
+      202
+     ],
+     "written": [
+      17
+     ],
+     "text.": [
+      18
+     ],
+     "Their": [
+      19
+     ],
+     "appeal": [
+      20
+     ],
+     "is": [
+      21,
+      47,
+      154
+     ],
+     "clear:": [
+      22
+     ],
+     "once": [
+      23
+     ],
+     "student": [
+      24
+     ],
+     "responses": [
+      25
+     ],
+     "have": [
+      26
+     ],
+     "been": [
+      27
+     ],
+     "mapped": [
+      28
+     ],
+     "into": [
+      29,
+      82
+     ],
+     "a": [
+      30,
+      76,
+      112,
+      131
+     ],
+     "vector": [
+      31
+     ],
+     "space,": [
+      32
+     ],
+     "similarity": [
+      33,
+      95,
+      110,
+      152
+     ],
+     "comparisons": [
+      34
+     ],
+     "clustering": [
+      36,
+      107
+     ],
+     "become": [
+      37
+     ],
+     "computationally": [
+      38
+     ],
+     "inexpensive.": [
+      39
+     ],
+     "However,": [
+      40
+     ],
+     "assessment": [
+      42,
+      200
+     ],
+     "contexts,": [
+      43
+     ],
+     "the": [
+      44,
+      57,
+      60,
+      121,
+      199
+     ],
+     "relevant": [
+      45
+     ],
+     "question": [
+      46
+     ],
+     "not": [
+      48,
+      127,
+      188
+     ],
+     "merely": [
+      49
+     ],
+     "whether": [
+      50,
+      56
+     ],
+     "clusters": [
+      51,
+      99,
+      123
+     ],
+     "can": [
+      52,
+      175
+     ],
+     "be": [
+      53,
+      138
+     ],
+     "produced": [
+      54
+     ],
+     "but": [
+      55,
+      114,
+      126,
+      185
+     ],
+     "geometry": [
+      58,
+      153
+     ],
+     "embedding": [
+      61,
+      90,
+      94,
+      109
+     ],
+     "space": [
+      62
+     ],
+     "preserves": [
+      63
+     ],
+     "grading-relevant": [
+      64
+     ],
+     "distinctions.": [
+      65
+     ],
+     "We": [
+      66,
+      92
+     ],
+     "tested": [
+      67
+     ],
+     "this": [
+      68,
+      136
+     ],
+     "premise": [
+      69
+     ],
+     "using": [
+      70,
+      88
+     ],
+     "992": [
+      71
+     ],
+     "handwritten": [
+      72
+     ],
+     "student-problem": [
+      73
+     ],
+     "solutions": [
+      74
+     ],
+     "from": [
+      75
+     ],
+     "high-stakes": [
+      77
+     ],
+     "engineering": [
+      78
+     ],
+     "thermodynamics": [
+      79
+     ],
+     "exam,": [
+      80
+     ],
+     "transcribed": [
+      81
+     ],
+     "five": [
+      83
+     ],
+     "textual": [
+      84
+     ],
+     "representations": [
+      85
+     ],
+     "embedded": [
+      87
+     ],
+     "nine": [
+      89
+     ],
+     "mechanisms.": [
+      91
+     ],
+     "compared": [
+      93
+     ],
+     "embedding-based": [
+      97
+     ],
+     "hierarchical": [
+      98
+     ],
+     "against": [
+      100,
+      198
+     ],
+     "human-assigned": [
+      101
+     ],
+     "scores.": [
+      102
+     ],
+     "Across": [
+      103
+     ],
+     "models,": [
+      104
+     ],
+     "representations,": [
+      105
+     ],
+     "choices,": [
+      108
+     ],
+     "showed": [
+      111
+     ],
+     "consistent": [
+      113
+     ],
+     "modest": [
+      115
+     ],
+     "relationship": [
+      116
+     ],
+     "score": [
+      118
+     ],
+     "similarity,": [
+      119
+     ],
+     "resulting": [
+      122
+     ],
+     "were": [
+      124
+     ],
+     "score-enriched": [
+      125
+     ],
+     "score-equivalent.": [
+      128
+     ],
+     "Experiments": [
+      129
+     ],
+     "with": [
+      130
+     ],
+     "synthetic": [
+      132
+     ],
+     "dataset": [
+      133
+     ],
+     "suggest": [
+      134,
+      167
+     ],
+     "that": [
+      135,
+      149,
+      168
+     ],
+     "may": [
+      137
+     ],
+     "due": [
+      139
+     ],
+     "behaving": [
+      142
+     ],
+     "like": [
+      143
+     ],
+     "novices": [
+      144
+     ],
+     "when": [
+      145
+     ],
+     "categorizing": [
+      146
+     ],
+     "physics-problem": [
+      147
+     ],
+     "solutions;": [
+      148
+     ],
+     "is,": [
+      150
+     ],
+     "their": [
+      151
+     ],
+     "strongly": [
+      155
+     ],
+     "influenced": [
+      156
+     ],
+     "by": [
+      157
+     ],
+     "surface": [
+      158
+     ],
+     "features": [
+      159
+     ],
+     "rather": [
+      160
+     ],
+     "than": [
+      161
+     ],
+     "conceptual,": [
+      162
+     ],
+     "semantic": [
+      163
+     ],
+     "structure.": [
+      164
+     ],
+     "These": [
+      165
+     ],
+     "findings": [
+      166
+     ],
+     "rubric-blind": [
+      169
+     ],
+     "transcription": [
+      170
+     ],
+     "out-of-the-box,": [
+      172
+     ],
+     "state-of-the-art": [
+      173
+     ],
+     "support": [
+      176
+     ],
+     "exploratory": [
+      177
+     ],
+     "organization": [
+      178
+     ],
+     "human-in-the-loop": [
+      180
+     ],
+     "review": [
+      181
+     ],
+     "solutions,": [
+      184
+     ],
+     "they": [
+      186
+     ],
+     "do": [
+      187
+     ],
+     "provide": [
+      189
+     ],
+     "an": [
+      190
+     ],
+     "unsupervised": [
+      191
+     ],
+     "basis": [
+      192
+     ],
+     "for": [
+      193
+     ],
+     "grading": [
+      194
+     ],
+     "without": [
+      195
+     ],
+     "external": [
+      196
+     ],
+     "validation": [
+      197
+     ],
+     "construct": [
+      201
+     ],
+     "interest.": [
+      203
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5139650336",
+       "display_name": "Maike Tauschhuber",
+       "orcid": "https://orcid.org/0009-0002-1815-4051",
+       "observed_orcids": [
+        "https://orcid.org/0009-0002-1815-4051"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I35440088",
+        "display_name": "ETH Zurich",
+        "ror": "https://ror.org/05a28rw58",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I2799323385",
+         "https://openalex.org/I35440088"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Maike Tauschhuber",
+      "raw_affiliation_strings": [
+       "Department of Information Technology and Electrical Engineering, ETH Zurich, 8092 Zurich, Switzerland"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0002-1815-4051",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Information Technology and Electrical Engineering, ETH Zurich, 8092 Zurich, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I35440088"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5048855408",
+       "display_name": "Gerd Kortemeyer",
+       "orcid": "https://orcid.org/0000-0001-6643-9428",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6643-9428"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I35440088",
+        "display_name": "ETH Zurich",
+        "ror": "https://ror.org/05a28rw58",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I2799323385",
+         "https://openalex.org/I35440088"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Gerd Kortemeyer",
+      "raw_affiliation_strings": [
+       "Rectorate and AI Center, ETH Zurich, 8092 Zurich, Switzerland"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-6643-9428",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Rectorate and AI Center, ETH Zurich, 8092 Zurich, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I35440088"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1103/sdnj-cjst",
+     "doi": "https://doi.org/10.1103/sdnj-cjst",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1103/sdnj-cjst",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4210190682",
+      "display_name": "Physical Review Physics Education Research",
+      "issn_l": "2469-9896",
+      "issn": [
+       "2469-9896"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "jufo-2",
+       "norway-1",
+       "oarl",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+       "American Physical Society"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Physical Review Physics Education Research",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3166106588",
+    "doi": null,
+    "title": "Take Note: Teaching Law Students to Be Responsible Stewards of Technology",
+    "display_name": "Take Note: Teaching Law Students to Be Responsible Stewards of Technology",
+    "publication_year": 2021,
+    "cited_by_count": 7,
+    "abstract_inverted_index": {
+     "The": [
+      0
+     ],
+     "modern": [
+      1,
+      71
+     ],
+     "lawyer": [
+      2
+     ],
+     "cannot": [
+      3
+     ],
+     "practice": [
+      4
+     ],
+     "without": [
+      5
+     ],
+     "some": [
+      6,
+      174,
+      187,
+      249
+     ],
+     "deployment": [
+      7,
+      355
+     ],
+     "of": [
+      8,
+      19,
+      31,
+      68,
+      112,
+      116,
+      124,
+      150,
+      245,
+      345,
+      356,
+      361
+     ],
+     "technology;": [
+      9
+     ],
+     "practical": [
+      10
+     ],
+     "and": [
+      11,
+      59,
+      86,
+      89,
+      121,
+      145,
+      155,
+      162,
+      182,
+      226,
+      240,
+      248,
+      327
+     ],
+     "ethical": [
+      12
+     ],
+     "obligations": [
+      13,
+      27,
+      156
+     ],
+     "have": [
+      14,
+      190,
+      269,
+      318
+     ],
+     "made": [
+      15
+     ],
+     "technological": [
+      16,
+      143
+     ],
+     "proficiency": [
+      17
+     ],
+     "part": [
+      18
+     ],
+     "what": [
+      20,
+      32
+     ],
+     "it": [
+      21,
+      288
+     ],
+     "means": [
+      22,
+      339
+     ],
+     "to": [
+      23,
+      76,
+      79,
+      97,
+      108,
+      131,
+      134,
+      159,
+      192,
+      252,
+      321
+     ],
+     "be": [
+      24,
+      301
+     ],
+     "practice-ready.": [
+      25
+     ],
+     "These": [
+      26,
+      153
+     ],
+     "complicate": [
+      28
+     ],
+     "the": [
+      29,
+      113,
+      148,
+      243,
+      253,
+      308
+     ],
+     "question": [
+      30
+     ],
+     "constitutes": [
+      33
+     ],
+     "best": [
+      34,
+      200,
+      325
+     ],
+     "practices": [
+      35,
+      201,
+      326
+     ],
+     "in": [
+      36,
+      55,
+      167,
+      178,
+      255,
+      335
+     ],
+     "law": [
+      37,
+      40,
+      183,
+      281,
+      309,
+      316,
+      336
+     ],
+     "school.": [
+      38,
+      337
+     ],
+     "Today\u2019s": [
+      39
+     ],
+     "schools": [
+      41,
+      317
+     ],
+     "are": [
+      42,
+      47,
+      74,
+      105,
+      334
+     ],
+     "filled": [
+      43
+     ],
+     "with": [
+      44,
+      65,
+      141
+     ],
+     "students": [
+      45,
+      104,
+      133,
+      212,
+      323,
+      341
+     ],
+     "who": [
+      46,
+      50,
+      61
+     ],
+     "digital": [
+      48
+     ],
+     "natives": [
+      49
+     ],
+     "don\u2019t": [
+      51
+     ],
+     "necessarily": [
+      52
+     ],
+     "leverage": [
+      53
+     ],
+     "technology": [
+      54,
+      78,
+      96,
+      110,
+      181,
+      247,
+      277,
+      306,
+      331,
+      357
+     ],
+     "maximally": [
+      56
+     ],
+     "efficient": [
+      57
+     ],
+     "ways,": [
+      58
+     ],
+     "faculty": [
+      60
+     ],
+     "span": [
+      62
+     ],
+     "multiple": [
+      63
+     ],
+     "generations,": [
+      64
+     ],
+     "varying": [
+      66
+     ],
+     "amounts": [
+      67
+     ],
+     "skepticism": [
+      69
+     ],
+     "about": [
+      70,
+      119,
+      180,
+      228,
+      242,
+      330
+     ],
+     "technology.": [
+      72
+     ],
+     "Students": [
+      73
+     ],
+     "expected": [
+      75
+     ],
+     "use": [
+      77,
+      95
+     ],
+     "read,": [
+      80
+     ],
+     "prepare": [
+      81,
+      132
+     ],
+     "for": [
+      82,
+      88,
+      202,
+      280,
+      292,
+      305
+     ],
+     "class,": [
+      83
+     ],
+     "take": [
+      84,
+      90
+     ],
+     "notes,": [
+      85
+     ],
+     "study": [
+      87
+     ],
+     "final": [
+      91
+     ],
+     "exams.": [
+      92
+     ],
+     "Professors": [
+      93
+     ],
+     "might": [
+      94
+     ],
+     "teach": [
+      98
+     ],
+     "or": [
+      99
+     ],
+     "assess": [
+      100
+     ],
+     "student": [
+      101,
+      184,
+      282
+     ],
+     "work,": [
+      102
+     ],
+     "but": [
+      103,
+      204
+     ],
+     "often": [
+      106
+     ],
+     "asked": [
+      107
+     ],
+     "leave": [
+      109,
+      211
+     ],
+     "out": [
+      111
+     ],
+     "classroom": [
+      114
+     ],
+     "because": [
+      115
+     ],
+     "professor": [
+      117
+     ],
+     "expectations": [
+      118
+     ],
+     "distraction": [
+      120
+     ],
+     "notetaking.": [
+      122
+     ],
+     "All": [
+      123
+     ],
+     "this": [
+      125,
+      217
+     ],
+     "is": [
+      126,
+      139,
+      170,
+      278,
+      289
+     ],
+     "happening": [
+      127
+     ],
+     "as": [
+      128,
+      358
+     ],
+     "we": [
+      129,
+      189,
+      298
+     ],
+     "attempt": [
+      130
+     ],
+     "enter": [
+      135
+     ],
+     "a": [
+      136,
+      221,
+      319,
+      342,
+      359
+     ],
+     "profession": [
+      137
+     ],
+     "that": [
+      138,
+      173,
+      268,
+      275,
+      315
+     ],
+     "infused": [
+      140
+     ],
+     "both": [
+      142
+     ],
+     "capabilities": [
+      144,
+      154
+     ],
+     "obligations,": [
+      146
+     ],
+     "including": [
+      147
+     ],
+     "rules": [
+      149
+     ],
+     "professional": [
+      151,
+      294,
+      363
+     ],
+     "conduct.": [
+      152
+     ],
+     "will": [
+      157
+     ],
+     "continue": [
+      158
+     ],
+     "evolve,": [
+      160
+     ],
+     "grow,": [
+      161
+     ],
+     "change": [
+      163
+     ],
+     "alongside": [
+      164
+     ],
+     "companion": [
+      165
+     ],
+     "changes": [
+      166,
+      251
+     ],
+     "technologies.": [
+      168
+     ],
+     "It": [
+      169
+     ],
+     "no": [
+      171
+     ],
+     "wonder": [
+      172
+     ],
+     "mixed": [
+      175,
+      195
+     ],
+     "messages": [
+      176,
+      196
+     ],
+     "emerge": [
+      177
+     ],
+     "discussions": [
+      179,
+      258
+     ],
+     "learning.": [
+      185,
+      283
+     ],
+     "In": [
+      186,
+      216,
+      296
+     ],
+     "cases,": [
+      188
+     ],
+     "attempted": [
+      191
+     ],
+     "clarify": [
+      193
+     ],
+     "these": [
+      194,
+      206,
+      257
+     ],
+     "using": [
+      197
+     ],
+     "research": [
+      198,
+      239
+     ],
+     "regarding": [
+      199
+     ],
+     "learning,": [
+      203
+     ],
+     "even": [
+      205
+     ],
+     "good": [
+      207,
+      328
+     ],
+     "faith": [
+      208
+     ],
+     "attempts": [
+      209
+     ],
+     "can": [
+      210
+     ],
+     "feeling": [
+      213
+     ],
+     "somewhat": [
+      214
+     ],
+     "muddled.": [
+      215
+     ],
+     "article,": [
+      218
+     ],
+     "I": [
+      219,
+      223,
+      272,
+      285
+     ],
+     "revisit": [
+      220
+     ],
+     "topic": [
+      222
+     ],
+     "first": [
+      224
+     ],
+     "studied": [
+      225
+     ],
+     "wrote": [
+      227
+     ],
+     "ten": [
+      229
+     ],
+     "years": [
+      230
+     ],
+     "ago.": [
+      231
+     ],
+     "Since": [
+      232
+     ],
+     "then,": [
+      233
+     ],
+     "there": [
+      234
+     ],
+     "has": [
+      235,
+      262
+     ],
+     "been": [
+      236,
+      264
+     ],
+     "much": [
+      237
+     ],
+     "more": [
+      238,
+      303
+     ],
+     "discussion": [
+      241
+     ],
+     "issue": [
+      244
+     ],
+     "legal": [
+      246
+     ],
+     "significant": [
+      250
+     ],
+     "environment": [
+      254
+     ],
+     "which": [
+      256
+     ],
+     "occur.": [
+      259
+     ],
+     "My": [
+      260
+     ],
+     "position": [
+      261
+     ],
+     "only": [
+      263
+     ],
+     "fortified": [
+      265
+     ],
+     "by": [
+      266
+     ],
+     "developments": [
+      267
+     ],
+     "occurred": [
+      270
+     ],
+     "since.": [
+      271
+     ],
+     "remain": [
+      273
+     ],
+     "convinced": [
+      274
+     ],
+     "banning": [
+      276
+     ],
+     "bad": [
+      279,
+      291
+     ],
+     "Now,": [
+      284
+     ],
+     "am": [
+      286
+     ],
+     "sure": [
+      287
+     ],
+     "also": [
+      290,
+      352
+     ],
+     "their": [
+      293,
+      348,
+      362
+     ],
+     "development.": [
+      295,
+      364
+     ],
+     "fact,": [
+      297
+     ],
+     "should": [
+      299
+     ],
+     "arguably": [
+      300
+     ],
+     "inviting": [
+      302
+     ],
+     "opportunities": [
+      304
+     ],
+     "into": [
+      307
+     ],
+     "school": [
+      310
+     ],
+     "curriculum.": [
+      311
+     ],
+     "This": [
+      312,
+      338
+     ],
+     "article": [
+      313
+     ],
+     "asserts": [
+      314
+     ],
+     "duty": [
+      320
+     ],
+     "help": [
+      322
+     ],
+     "develop": [
+      324
+     ],
+     "habits": [
+      329
+     ],
+     "while": [
+      332,
+      351
+     ],
+     "they": [
+      333
+     ],
+     "granting": [
+      340
+     ],
+     "certain": [
+      343
+     ],
+     "degree": [
+      344
+     ],
+     "autonomy": [
+      346
+     ],
+     "over": [
+      347
+     ],
+     "own": [
+      349
+     ],
+     "learning": [
+      350
+     ],
+     "encouraging": [
+      353
+     ],
+     "thoughtful": [
+      354
+     ],
+     "matter": [
+      360
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5083187073",
+       "display_name": "Kristen E. Murray",
+       "orcid": "https://orcid.org/0009-0000-4387-7003",
+       "observed_orcids": [
+        "https://orcid.org/0009-0000-4387-7003"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I84392919",
+        "display_name": "Temple University",
+        "ror": "https://ror.org/00kx1jb78",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I84392919"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Kristen E. Murray",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ],
+    "primary_location": {
+     "id": "pmh:oai:scholarship.law.edu:lawreview-3585",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://scholarship.law.edu/lawreview/vol70/iss2/7",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4377196759",
+      "display_name": "Scholarship at Catholic Law (Catholic University of America)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I84470341",
+      "host_organization_name": "Catholic University of America",
+      "host_organization_lineage": [
+       "https://openalex.org/I84470341"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "Catholic University Law Review",
+     "raw_type": "text"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4413385308",
+    "doi": "https://doi.org/10.1186/s40862-025-00347-8",
+    "title": "Cornell note-taking strategy instruction for Gen Z: enhancing EFL students\u2019 reading comprehension",
+    "display_name": "Cornell note-taking strategy instruction for Gen Z: enhancing EFL students\u2019 reading comprehension",
+    "publication_year": 2025,
+    "cited_by_count": 16,
+    "abstract_inverted_index": {
+     "In": [
+      0
+     ],
+     "this": [
+      1,
+      75,
+      234
+     ],
+     "technological": [
+      2,
+      14
+     ],
+     "and": [
+      3,
+      31,
+      58,
+      71,
+      115,
+      126,
+      200,
+      213,
+      219
+     ],
+     "AI": [
+      4
+     ],
+     "era,": [
+      5
+     ],
+     "Generation": [
+      6
+     ],
+     "Z": [
+      7,
+      92
+     ],
+     "spends": [
+      8
+     ],
+     "more": [
+      9,
+      42
+     ],
+     "time": [
+      10,
+      199
+     ],
+     "reading": [
+      11,
+      88,
+      121,
+      246
+     ],
+     "texts": [
+      12
+     ],
+     "on": [
+      13,
+      35
+     ],
+     "devices,": [
+      15
+     ],
+     "prefers": [
+      16
+     ],
+     "bullet": [
+      17
+     ],
+     "points": [
+      18
+     ],
+     "over": [
+      19,
+      189
+     ],
+     "lengthy,": [
+      20
+     ],
+     "complex": [
+      21
+     ],
+     "material": [
+      22
+     ],
+     "(Bano": [
+      23
+     ],
+     "et": [
+      24
+     ],
+     "al.,": [
+      25
+     ],
+     "in": [
+      26,
+      107,
+      143,
+      186,
+      210,
+      236
+     ],
+     "JEED": [
+      27
+     ],
+     "5": [
+      28
+     ],
+     "42\u201359,": [
+      29
+     ],
+     "2018),": [
+      30
+     ],
+     "is": [
+      32
+     ],
+     "increasingly": [
+      33
+     ],
+     "dependent": [
+      34
+     ],
+     "AI-driven": [
+      36
+     ],
+     "tools,": [
+      37
+     ],
+     "which": [
+      38,
+      81,
+      221
+     ],
+     "has": [
+      39
+     ],
+     "made": [
+      40
+     ],
+     "them": [
+      41,
+      66
+     ],
+     "reluctant": [
+      43
+     ],
+     "to": [
+      44,
+      53,
+      80,
+      134,
+      160
+     ],
+     "read": [
+      45
+     ],
+     "independently.": [
+      46
+     ],
+     "The": [
+      47,
+      169,
+      202,
+      239
+     ],
+     "Cornell": [
+      48,
+      83,
+      112,
+      166,
+      174,
+      203,
+      249
+     ],
+     "note-taking": [
+      49,
+      84,
+      167,
+      175,
+      180,
+      204,
+      250
+     ],
+     "method": [
+      50,
+      85,
+      235
+     ],
+     "encourages": [
+      51
+     ],
+     "students": [
+      52,
+      93,
+      101
+     ],
+     "organize": [
+      54
+     ],
+     "information,": [
+      55
+     ],
+     "generate": [
+      56
+     ],
+     "questions,": [
+      57
+     ],
+     "summarize": [
+      59
+     ],
+     "ideas": [
+      60
+     ],
+     "using": [
+      61,
+      233,
+      247
+     ],
+     "their": [
+      62,
+      68,
+      162,
+      223
+     ],
+     "own": [
+      63
+     ],
+     "words,": [
+      64
+     ],
+     "helping": [
+      65
+     ],
+     "develop": [
+      67
+     ],
+     "metacognitive": [
+      69
+     ],
+     "abilities": [
+      70
+     ],
+     "critical": [
+      72
+     ],
+     "thinking.": [
+      73
+     ],
+     "Therefore,": [
+      74
+     ],
+     "study": [
+      76
+     ],
+     "examines": [
+      77
+     ],
+     "the": [
+      78,
+      82,
+      87,
+      108,
+      144,
+      155,
+      158,
+      165,
+      173,
+      178,
+      237,
+      242,
+      248
+     ],
+     "extent": [
+      79
+     ],
+     "improves": [
+      86
+     ],
+     "comprehension": [
+      89,
+      122
+     ],
+     "of": [
+      90,
+      157,
+      164,
+      216,
+      244
+     ],
+     "Gen": [
+      91
+     ],
+     "when": [
+      94
+     ],
+     "engaging": [
+      95
+     ],
+     "with": [
+      96,
+      182
+     ],
+     "longer": [
+      97
+     ],
+     "academic": [
+      98
+     ],
+     "texts.": [
+      99
+     ],
+     "Seventy-seven": [
+      100
+     ],
+     "divided": [
+      102
+     ],
+     "into": [
+      103
+     ],
+     "two": [
+      104,
+      145
+     ],
+     "groups": [
+      105
+     ],
+     "participated": [
+      106
+     ],
+     "15-week": [
+      109
+     ],
+     "study:": [
+      110
+     ],
+     "a": [
+      111,
+      116,
+      127,
+      183
+     ],
+     "note": [
+      113,
+      118
+     ],
+     "group": [
+      114,
+      176,
+      205
+     ],
+     "Personal": [
+      117
+     ],
+     "group.": [
+      119,
+      201
+     ],
+     "Two": [
+      120
+     ],
+     "tests": [
+      123
+     ],
+     "were": [
+      124,
+      138
+     ],
+     "administered,": [
+      125
+     ],
+     "repeated": [
+      128
+     ],
+     "measures": [
+      129
+     ],
+     "two-way": [
+      130
+     ],
+     "ANOVA": [
+      131
+     ],
+     "was": [
+      132,
+      151,
+      195
+     ],
+     "conducted": [
+      133
+     ],
+     "identify": [
+      135
+     ],
+     "whether": [
+      136
+     ],
+     "there": [
+      137
+     ],
+     "any": [
+      139
+     ],
+     "statistically": [
+      140
+     ],
+     "significant": [
+      141,
+      184,
+      192
+     ],
+     "differences": [
+      142
+     ],
+     "groups\u2019": [
+      146
+     ],
+     "test": [
+      147,
+      187
+     ],
+     "scores.": [
+      148
+     ],
+     "A": [
+      149,
+      191,
+      226
+     ],
+     "questionnaire": [
+      150
+     ],
+     "also": [
+      152,
+      196,
+      206,
+      228
+     ],
+     "administered": [
+      153
+     ],
+     "at": [
+      154
+     ],
+     "end": [
+      156
+     ],
+     "intervention": [
+      159
+     ],
+     "assess": [
+      161
+     ],
+     "perceptions": [
+      163
+     ],
+     "method.": [
+      168
+     ],
+     "results": [
+      170
+     ],
+     "revealed": [
+      171
+     ],
+     "that": [
+      172
+     ],
+     "outperformed": [
+      177
+     ],
+     "personal": [
+      179
+     ],
+     "group,": [
+      181
+     ],
+     "difference": [
+      185
+     ],
+     "scores": [
+      188
+     ],
+     "time.": [
+      190
+     ],
+     "interaction": [
+      193
+     ],
+     "effect": [
+      194
+     ],
+     "observed": [
+      197
+     ],
+     "between": [
+      198
+     ],
+     "exhibited": [
+      207
+     ],
+     "higher": [
+      208
+     ],
+     "confidence": [
+      209
+     ],
+     "class": [
+      211
+     ],
+     "engagement": [
+      212
+     ],
+     "better": [
+      214
+     ],
+     "retention": [
+      215
+     ],
+     "English": [
+      217
+     ],
+     "content": [
+      218
+     ],
+     "expressions,": [
+      220
+     ],
+     "benefited": [
+      222
+     ],
+     "exam": [
+      224
+     ],
+     "preparation.": [
+      225
+     ],
+     "majority": [
+      227
+     ],
+     "held": [
+      229
+     ],
+     "positive": [
+      230
+     ],
+     "attitudes": [
+      231
+     ],
+     "toward": [
+      232
+     ],
+     "future.": [
+      238
+     ],
+     "findings": [
+      240
+     ],
+     "highlight": [
+      241
+     ],
+     "value": [
+      243
+     ],
+     "teaching": [
+      245
+     ],
+     "strategy.": [
+      251
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5009283405",
+       "display_name": "Jiyoung Seo",
+       "orcid": "https://orcid.org/0000-0002-0940-7654",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0940-7654",
+        "https://orcid.org/0000-0002-6285-3872",
+        "https://orcid.org/0009-0006-0944-7986"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I110273157",
+        "display_name": "Kookmin University",
+        "ror": "https://ror.org/0049erg63",
+        "country_code": "KR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I110273157"
+        ]
+       }
+      ],
+      "countries": [
+       "KR"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Ji-Young Seo",
+      "raw_affiliation_strings": [
+       "Kookmin University, Seoul, South Korea"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Kookmin University, Seoul, South Korea",
+        "institution_ids": [
+         "https://openalex.org/I110273157"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1186/s40862-025-00347-8",
+     "doi": "https://doi.org/10.1186/s40862-025-00347-8",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1186/s40862-025-00347-8",
+     "pdf_url": "https://sfleducation.springeropen.com/counter/pdf/10.1186/s40862-025-00347-8",
+     "source": {
+      "id": "https://openalex.org/S3034690390",
+      "display_name": "Asian-Pacific Journal of Second and Foreign Language Education",
+      "issn_l": "2363-5169",
+      "issn": [
+       "2363-5169"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "jufo-1",
+       "norway-1",
+       "poland-20",
+       "russia-white-list-1"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319900",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer Science+Business Media",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Asian-Pacific Journal of Second and Foreign Language Education",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

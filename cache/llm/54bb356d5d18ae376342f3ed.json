@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201de-55cd-773a-be39-c8bc5bdd41ae",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327677,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Fetch a third source on overnight procedural gains in children vs adults to add a specific developmental claim.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W1806129265\"}}",
+    "reasoning_content": "I have two sources. Both are relevant. The first is a challenge/nuance: sleep and quiet rest equivalent for procedural memory over 30 min. The second supports sleep-dependent procedural consolidation correlating with EEG.\n\nI could add a third source, e.g., W1806129265 (children and adults) or W2278064701. Let me fetch one more to give a supporting claim about overnight gain in adults. Actually two findings is fine, but a third strengthens. Let me fetch W1806129265.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1830,
+  "completion_tokens": 153,
+  "total_tokens": 1983,
+  "prompt_tokens_details": {
+   "cached_tokens": 1280
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 107
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.24
+}

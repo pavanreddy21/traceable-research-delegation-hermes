@@ -1,0 +1,4501 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 11617,
+   "db_response_time_ms": 123,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (acute aerobic exercise cognitive performance delayed assessment) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (acute aerobic exercise cognitive performance delayed assessment) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "acute aerobic exercise cognitive performance delayed assessment",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:acute aerobic exercise cognitive performance delayed assessment,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4297000632",
+    "doi": "https://doi.org/10.3389/fnbeh.2022.957677",
+    "title": "The effects of acute high-intensity aerobic exercise on cognitive performance: A structured narrative review",
+    "display_name": "The effects of acute high-intensity aerobic exercise on cognitive performance: A structured narrative review",
+    "publication_year": 2022,
+    "cited_by_count": 101,
+    "abstract_inverted_index": {
+     "It": [
+      0
+     ],
+     "is": [
+      1,
+      94
+     ],
+     "well": [
+      2,
+      25
+     ],
+     "established": [
+      3
+     ],
+     "that": [
+      4,
+      50,
+      62,
+      139,
+      166
+     ],
+     "acute": [
+      5,
+      15,
+      173
+     ],
+     "moderate-intensity": [
+      6
+     ],
+     "exercise": [
+      7,
+      18,
+      67,
+      102,
+      132
+     ],
+     "improves": [
+      8
+     ],
+     "cognitive": [
+      9,
+      20,
+      53,
+      69,
+      78,
+      92,
+      105,
+      128,
+      168,
+      189
+     ],
+     "performance.": [
+      10
+     ],
+     "However,": [
+      11
+     ],
+     "the": [
+      12,
+      32,
+      35,
+      63,
+      75,
+      85,
+      115,
+      125
+     ],
+     "effects": [
+      13,
+      64,
+      119
+     ],
+     "of": [
+      14,
+      65,
+      77,
+      127,
+      160
+     ],
+     "high-intensity": [
+      16,
+      41,
+      58,
+      66,
+      101,
+      174
+     ],
+     "aerobic": [
+      17,
+      42
+     ],
+     "on": [
+      19,
+      40,
+      68
+     ],
+     "performance": [
+      21,
+      54,
+      70,
+      93,
+      169
+     ],
+     "have": [
+      22
+     ],
+     "not": [
+      23
+     ],
+     "been": [
+      24
+     ],
+     "characterized.": [
+      26
+     ],
+     "In": [
+      27,
+      90
+     ],
+     "this": [
+      28
+     ],
+     "review,": [
+      29
+     ],
+     "we": [
+      30,
+      137
+     ],
+     "summarize": [
+      31
+     ],
+     "literature": [
+      33
+     ],
+     "investigating": [
+      34
+     ],
+     "exercise-cognition": [
+      36
+     ],
+     "interaction,": [
+      37
+     ],
+     "especially": [
+      38
+     ],
+     "focusing": [
+      39
+     ],
+     "exercise.": [
+      43,
+      59,
+      175
+     ],
+     "We": [
+      44,
+      60
+     ],
+     "discuss": [
+      45
+     ],
+     "methodological": [
+      46
+     ],
+     "and": [
+      47,
+      84,
+      106,
+      111,
+      134,
+      157,
+      184,
+      190
+     ],
+     "physiological": [
+      48,
+      107,
+      191
+     ],
+     "factors": [
+      49,
+      162
+     ],
+     "potentially": [
+      51
+     ],
+     "mediate": [
+      52
+     ],
+     "in": [
+      55,
+      143,
+      170
+     ],
+     "response": [
+      56,
+      171
+     ],
+     "to": [
+      57,
+      97,
+      172,
+      195
+     ],
+     "propose": [
+      61
+     ],
+     "are": [
+      71,
+      109,
+      163,
+      193
+     ],
+     "primarily": [
+      72
+     ],
+     "affected": [
+      73,
+      123
+     ],
+     "by": [
+      74,
+      124,
+      154
+     ],
+     "timing": [
+      76
+     ],
+     "task": [
+      79
+     ],
+     "(during": [
+      80
+     ],
+     "vs.": [
+      81
+     ],
+     "after": [
+      82,
+      88
+     ],
+     "exercise,": [
+      83
+     ],
+     "time": [
+      86
+     ],
+     "delay": [
+      87
+     ],
+     "exercise).": [
+      89
+     ],
+     "particular,": [
+      91
+     ],
+     "more": [
+      95
+     ],
+     "likely": [
+      96
+     ],
+     "be": [
+      98,
+      122,
+      196
+     ],
+     "impaired": [
+      99
+     ],
+     "during": [
+      100
+     ],
+     "when": [
+      103
+     ],
+     "both": [
+      104
+     ],
+     "demands": [
+      108,
+      192
+     ],
+     "high": [
+      110,
+      188
+     ],
+     "completed": [
+      112,
+      197
+     ],
+     "simultaneously": [
+      113
+     ],
+     "(i.e.,": [
+      114
+     ],
+     "dual-task": [
+      116
+     ],
+     "paradigm).": [
+      117
+     ],
+     "The": [
+      118,
+      176
+     ],
+     "may": [
+      120
+     ],
+     "also": [
+      121
+     ],
+     "type": [
+      126
+     ],
+     "task,": [
+      129
+     ],
+     "physical": [
+      130
+     ],
+     "fitness,": [
+      131
+     ],
+     "mode/duration,": [
+      133
+     ],
+     "age.": [
+      135
+     ],
+     "Second,": [
+      136
+     ],
+     "suggest": [
+      138
+     ],
+     "interactions": [
+      140
+     ],
+     "between": [
+      141
+     ],
+     "changes": [
+      142
+     ],
+     "regional": [
+      144
+     ],
+     "cerebral": [
+      145,
+      149,
+      151
+     ],
+     "blood": [
+      146
+     ],
+     "flow": [
+      147
+     ],
+     "(CBF),": [
+      148
+     ],
+     "oxygenation,": [
+      150
+     ],
+     "metabolism,": [
+      152
+     ],
+     "neuromodulation": [
+      153
+     ],
+     "neurotransmitters/neurotrophic": [
+      155
+     ],
+     "factors,": [
+      156
+     ],
+     "a": [
+      158
+     ],
+     "variety": [
+      159
+     ],
+     "psychological": [
+      161
+     ],
+     "promising": [
+      164
+     ],
+     "candidates": [
+      165
+     ],
+     "determine": [
+      167
+     ],
+     "present": [
+      177
+     ],
+     "review": [
+      178
+     ],
+     "has": [
+      179
+     ],
+     "implications": [
+      180
+     ],
+     "for": [
+      181
+     ],
+     "recreational,": [
+      182
+     ],
+     "sporting,": [
+      183
+     ],
+     "occupational": [
+      185
+     ],
+     "activities": [
+      186
+     ],
+     "where": [
+      187
+     ],
+     "required": [
+      194
+     ],
+     "concurrently.": [
+      198
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5048065835",
+       "display_name": "Mizuki Sudo",
+       "orcid": "https://orcid.org/0000-0002-1140-0558",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1140-0558"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210105537",
+        "display_name": "Meiji Yasuda Life Foundation of Health and Welfare",
+        "ror": "https://ror.org/01fc5yc54",
+        "country_code": "JP",
+        "type": "other",
+        "lineage": [
+         "https://openalex.org/I4210105537"
+        ]
+       }
+      ],
+      "countries": [
+       "JP"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Mizuki Sudo",
+      "raw_affiliation_strings": [
+       "Physical Fitness Research Institute, Meiji Yasuda Life Foundation of Health and Welfare, Tokyo, Japan",
+       "Physical Fitness Research Institute, Meiji Yasuda Life Foundation of Health and Welfare, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Physical Fitness Research Institute, Meiji Yasuda Life Foundation of Health and Welfare, Tokyo, Japan",
+        "institution_ids": [
+         "https://openalex.org/I4210105537"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Physical Fitness Research Institute, Meiji Yasuda Life Foundation of Health and Welfare, Japan",
+        "institution_ids": [
+         "https://openalex.org/I4210105537"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5068602608",
+       "display_name": "Joseph T. Costello",
+       "orcid": "https://orcid.org/0000-0001-9510-7932",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9510-7932"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I63072094",
+        "display_name": "University of Portsmouth",
+        "ror": "https://ror.org/03ykbk197",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I63072094"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Joseph T. Costello",
+      "raw_affiliation_strings": [
+       "Extreme Environments Laboratory, School of Sport, Health and Exercise Science, University of Portsmouth, Portsmouth, United Kingdom",
+       "Extreme Environments Laboratory, School of Sport, Health and Exercise Science, University of Portsmouth, United Kingdom"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Extreme Environments Laboratory, School of Sport, Health and Exercise Science, University of Portsmouth, Portsmouth, United Kingdom",
+        "institution_ids": [
+         "https://openalex.org/I63072094"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Extreme Environments Laboratory, School of Sport, Health and Exercise Science, University of Portsmouth, United Kingdom",
+        "institution_ids": [
+         "https://openalex.org/I63072094"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5021312705",
+       "display_name": "Terry McMorris",
+       "orcid": "https://orcid.org/0000-0002-1615-2565",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1615-2565"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I104658917",
+        "display_name": "University of Chichester",
+        "ror": "https://ror.org/029tw2407",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I104658917"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I63072094",
+        "display_name": "University of Portsmouth",
+        "ror": "https://ror.org/03ykbk197",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I63072094"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Terry McMorris",
+      "raw_affiliation_strings": [
+       "Extreme Environments Laboratory, School of Sport, Health and Exercise Science, University of Portsmouth, Portsmouth, United Kingdom",
+       "Institute of Sport, University of Chichester, Chichester, United Kingdom",
+       "Extreme Environments Laboratory, School of Sport, Health and Exercise Science, University of Portsmouth, United Kingdom",
+       "Institute of Sport, University of Chichester, United Kingdom"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Extreme Environments Laboratory, School of Sport, Health and Exercise Science, University of Portsmouth, Portsmouth, United Kingdom",
+        "institution_ids": [
+         "https://openalex.org/I63072094"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Institute of Sport, University of Chichester, Chichester, United Kingdom",
+        "institution_ids": [
+         "https://openalex.org/I104658917"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Extreme Environments Laboratory, School of Sport, Health and Exercise Science, University of Portsmouth, United Kingdom",
+        "institution_ids": [
+         "https://openalex.org/I63072094"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Institute of Sport, University of Chichester, United Kingdom",
+        "institution_ids": [
+         "https://openalex.org/I104658917"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5089369776",
+       "display_name": "Soichi Ando",
+       "orcid": "https://orcid.org/0000-0003-0896-7008",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0896-7008"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I20529979",
+        "display_name": "University of Electro-Communications",
+        "ror": "https://ror.org/02x73b849",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I20529979"
+        ]
+       }
+      ],
+      "countries": [
+       "JP"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Soichi Ando",
+      "raw_affiliation_strings": [
+       "Graduate School of Informatics and Engineering, The University of Electro-Communications, Chofu, Japan",
+       "Graduate School of Informatics and Engineering, The University of Electro-Communications, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Graduate School of Informatics and Engineering, The University of Electro-Communications, Chofu, Japan",
+        "institution_ids": [
+         "https://openalex.org/I20529979"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Graduate School of Informatics and Engineering, The University of Electro-Communications, Japan",
+        "institution_ids": [
+         "https://openalex.org/I20529979"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fnbeh.2022.957677",
+     "doi": "https://doi.org/10.3389/fnbeh.2022.957677",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fnbeh.2022.957677",
+     "pdf_url": "https://www.frontiersin.org/articles/10.3389/fnbeh.2022.957677/pdf",
+     "source": {
+      "id": "https://openalex.org/S76576941",
+      "display_name": "Frontiers in Behavioral Neuroscience",
+      "issn_l": "1662-5153",
+      "issn": [
+       "1662-5153"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Behavioral Neuroscience",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4200159789",
+    "doi": "https://doi.org/10.3389/fpsyg.2021.653158",
+    "title": "A Review of Cognitive Changes During Acute Aerobic Exercise",
+    "display_name": "A Review of Cognitive Changes During Acute Aerobic Exercise",
+    "publication_year": 2021,
+    "cited_by_count": 84,
+    "abstract_inverted_index": {
+     "A": [
+      0
+     ],
+     "growing": [
+      1
+     ],
+     "body": [
+      2
+     ],
+     "of": [
+      3,
+      9,
+      22,
+      42,
+      51,
+      126,
+      154,
+      198,
+      219,
+      238
+     ],
+     "work": [
+      4,
+      267
+     ],
+     "has": [
+      5,
+      25,
+      59,
+      64
+     ],
+     "investigated": [
+      6
+     ],
+     "the": [
+      7,
+      48,
+      94,
+      158
+     ],
+     "effects": [
+      8,
+      164,
+      173,
+      208
+     ],
+     "acute,": [
+      10
+     ],
+     "or": [
+      11,
+      123,
+      241
+     ],
+     "single": [
+      12
+     ],
+     "bouts": [
+      13
+     ],
+     "of,": [
+      14
+     ],
+     "aerobic": [
+      15
+     ],
+     "exercise": [
+      16,
+      121,
+      155,
+      180,
+      220,
+      244
+     ],
+     "on": [
+      17,
+      28,
+      35,
+      84,
+      165,
+      174,
+      209,
+      222
+     ],
+     "cognitive": [
+      18,
+      36,
+      112,
+      149,
+      169,
+      232
+     ],
+     "function.": [
+      19
+     ],
+     "However,": [
+      20,
+      97
+     ],
+     "review": [
+      21,
+      44
+     ],
+     "this": [
+      23,
+      43,
+      52,
+      269
+     ],
+     "research": [
+      24
+     ],
+     "largely": [
+      26,
+      247
+     ],
+     "focused": [
+      27
+     ],
+     "changes": [
+      29,
+      37
+     ],
+     "following": [
+      30
+     ],
+     "exercise,": [
+      31,
+      89
+     ],
+     "with": [
+      32,
+      90,
+      205
+     ],
+     "less": [
+      33
+     ],
+     "focus": [
+      34
+     ],
+     "during": [
+      38,
+      88,
+      216
+     ],
+     "exercise.": [
+      39,
+      217
+     ],
+     "The": [
+      40
+     ],
+     "purpose": [
+      41
+     ],
+     "is": [
+      45,
+      70,
+      79
+     ],
+     "to": [
+      46,
+      54,
+      189,
+      252
+     ],
+     "discuss": [
+      47
+     ],
+     "critical": [
+      49
+     ],
+     "characteristics": [
+      50
+     ],
+     "literature": [
+      53
+     ],
+     "date,": [
+      55
+     ],
+     "including:": [
+      56
+     ],
+     "(1)": [
+      57
+     ],
+     "what": [
+      58,
+      63,
+      69
+     ],
+     "been": [
+      60,
+      65
+     ],
+     "done,": [
+      61
+     ],
+     "(2)": [
+      62
+     ],
+     "found,": [
+      66
+     ],
+     "and": [
+      67,
+      111,
+      129,
+      147,
+      152,
+      168,
+      202,
+      225,
+      229,
+      263
+     ],
+     "(3)": [
+      68
+     ],
+     "next.": [
+      71
+     ],
+     "Furthermore,": [
+      72
+     ],
+     "previous": [
+      73
+     ],
+     "meta-analytic": [
+      74
+     ],
+     "reviews": [
+      75,
+      99
+     ],
+     "have": [
+      76
+     ],
+     "demonstrated": [
+      77
+     ],
+     "there": [
+      78
+     ],
+     "a": [
+      80
+     ],
+     "small": [
+      81
+     ],
+     "positive": [
+      82
+     ],
+     "effect": [
+      83
+     ],
+     "cognition": [
+      85
+     ],
+     "when": [
+      86,
+      254
+     ],
+     "measured": [
+      87
+     ],
+     "executive": [
+      91,
+      101,
+      146,
+      159
+     ],
+     "functions": [
+      92,
+      102
+     ],
+     "showing": [
+      93
+     ],
+     "largest": [
+      95
+     ],
+     "effects.": [
+      96
+     ],
+     "these": [
+      98
+     ],
+     "group": [
+      100
+     ],
+     "together.": [
+      103
+     ],
+     "Here": [
+      104
+     ],
+     "we": [
+      105,
+      161
+     ],
+     "explore": [
+      106,
+      236
+     ],
+     "how": [
+      107
+     ],
+     "inhibition,": [
+      108
+     ],
+     "working": [
+      109,
+      166
+     ],
+     "memory": [
+      110,
+      167
+     ],
+     "flexibility": [
+      113,
+      170
+     ],
+     "are": [
+      114,
+      176,
+      213,
+      227
+     ],
+     "individually": [
+      115
+     ],
+     "impacted": [
+      116
+     ],
+     "by": [
+      117,
+      145,
+      231
+     ],
+     "factors": [
+      118,
+      251
+     ],
+     "such": [
+      119
+     ],
+     "as": [
+      120,
+      258,
+      260
+     ],
+     "intensity": [
+      122,
+      151,
+      179,
+      185,
+      191
+     ],
+     "duration.": [
+      124
+     ],
+     "Searches": [
+      125
+     ],
+     "electronic": [
+      127
+     ],
+     "databases": [
+      128
+     ],
+     "reference": [
+      130
+     ],
+     "lists": [
+      131
+     ],
+     "from": [
+      132
+     ],
+     "relevant": [
+      133
+     ],
+     "studies": [
+      134,
+      138
+     ],
+     "resulted": [
+      135
+     ],
+     "in": [
+      136,
+      268
+     ],
+     "73": [
+      137
+     ],
+     "meeting": [
+      139
+     ],
+     "inclusion": [
+      140
+     ],
+     "criteria.": [
+      141
+     ],
+     "Studies": [
+      142,
+      234
+     ],
+     "were": [
+      143
+     ],
+     "grouped": [
+      144
+     ],
+     "non-executive": [
+      148,
+      196
+     ],
+     "domains,": [
+      150
+     ],
+     "duration": [
+      153,
+      221
+     ],
+     "bouts.": [
+      156
+     ],
+     "Within": [
+      157
+     ],
+     "domain,": [
+      160
+     ],
+     "found": [
+      162
+     ],
+     "that": [
+      163
+     ],
+     "remain": [
+      171,
+      246
+     ],
+     "mixed,": [
+      172
+     ],
+     "inhibition": [
+      175
+     ],
+     "clearer.": [
+      177
+     ],
+     "Moderate": [
+      178,
+      188
+     ],
+     "improves": [
+      181,
+      192
+     ],
+     "response": [
+      182,
+      193,
+      223
+     ],
+     "time,": [
+      183
+     ],
+     "vigorous": [
+      184,
+      190
+     ],
+     "impairs": [
+      186
+     ],
+     "accuracy.": [
+      187,
+      210
+     ],
+     "time": [
+      194,
+      224
+     ],
+     "across": [
+      195
+     ],
+     "domains": [
+      197
+     ],
+     "attention,": [
+      199
+     ],
+     "motor": [
+      200
+     ],
+     "speed": [
+      201
+     ],
+     "information": [
+      203
+     ],
+     "processing,": [
+      204
+     ],
+     "no": [
+      206
+     ],
+     "significant": [
+      207
+     ],
+     "Memory": [
+      211
+     ],
+     "processes": [
+      212
+     ],
+     "consistently": [
+      214
+     ],
+     "improved": [
+      215
+     ],
+     "Effects": [
+      218
+     ],
+     "accuracy": [
+      226
+     ],
+     "nuanced": [
+      228
+     ],
+     "vary": [
+      230
+     ],
+     "domain.": [
+      233
+     ],
+     "typically": [
+      235
+     ],
+     "durations": [
+      237,
+      245
+     ],
+     "45": [
+      239
+     ],
+     "min": [
+      240
+     ],
+     "less,": [
+      242
+     ],
+     "extended": [
+      243
+     ],
+     "unexplored.": [
+      248
+     ],
+     "We": [
+      249
+     ],
+     "highlight": [
+      250
+     ],
+     "consider": [
+      253
+     ],
+     "assessing": [
+      255
+     ],
+     "exercise-cognition": [
+      256
+     ],
+     "relationships,": [
+      257
+     ],
+     "well": [
+      259
+     ],
+     "current": [
+      261
+     ],
+     "gaps": [
+      262
+     ],
+     "future": [
+      264
+     ],
+     "directions": [
+      265
+     ],
+     "for": [
+      266
+     ],
+     "field.": [
+      270
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5026500826",
+       "display_name": "Julie A. Cantelon",
+       "orcid": "https://orcid.org/0000-0002-8374-670X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8374-670X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I121934306",
+        "display_name": "Tufts University",
+        "ror": "https://ror.org/05wvpxv85",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I121934306"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2799998900",
+        "display_name": "Combat Capabilities Development Command Soldier Center",
+        "ror": "https://ror.org/00qa9vw67",
+        "country_code": "US",
+        "type": "government",
+        "lineage": [
+         "https://openalex.org/I1304082316",
+         "https://openalex.org/I1330347796",
+         "https://openalex.org/I2799998900",
+         "https://openalex.org/I2802705668",
+         "https://openalex.org/I4210154437"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Julie A. Cantelon",
+      "raw_affiliation_strings": [
+       "Center for Applied Brain and Cognitive Sciences, Tufts University, Medford, MA, United States",
+       "Department of Psychology, Tufts University, Medford, MA, United States",
+       "U.S. Army Combat Capabilities Development Command Soldier Center, Natick, MA, United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Applied Brain and Cognitive Sciences, Tufts University, Medford, MA, United States",
+        "institution_ids": [
+         "https://openalex.org/I121934306"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, Tufts University, Medford, MA, United States",
+        "institution_ids": [
+         "https://openalex.org/I121934306"
+        ]
+       },
+       {
+        "raw_affiliation_string": "U.S. Army Combat Capabilities Development Command Soldier Center, Natick, MA, United States",
+        "institution_ids": [
+         "https://openalex.org/I2799998900"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5004705418",
+       "display_name": "Grace E. Giles",
+       "orcid": "https://orcid.org/0000-0003-1340-1703",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1340-1703"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I121934306",
+        "display_name": "Tufts University",
+        "ror": "https://ror.org/05wvpxv85",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I121934306"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2799998900",
+        "display_name": "Combat Capabilities Development Command Soldier Center",
+        "ror": "https://ror.org/00qa9vw67",
+        "country_code": "US",
+        "type": "government",
+        "lineage": [
+         "https://openalex.org/I1304082316",
+         "https://openalex.org/I1330347796",
+         "https://openalex.org/I2799998900",
+         "https://openalex.org/I2802705668",
+         "https://openalex.org/I4210154437"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Grace E. Giles",
+      "raw_affiliation_strings": [
+       "Center for Applied Brain and Cognitive Sciences, Tufts University, Medford, MA, United States",
+       "U.S. Army Combat Capabilities Development Command Soldier Center, Natick, MA, United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Applied Brain and Cognitive Sciences, Tufts University, Medford, MA, United States",
+        "institution_ids": [
+         "https://openalex.org/I121934306"
+        ]
+       },
+       {
+        "raw_affiliation_string": "U.S. Army Combat Capabilities Development Command Soldier Center, Natick, MA, United States",
+        "institution_ids": [
+         "https://openalex.org/I2799998900"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2021.653158",
+     "doi": "https://doi.org/10.3389/fpsyg.2021.653158",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2021.653158",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2802088201",
+    "doi": "https://doi.org/10.1515/hukin-2017-0134",
+    "title": "The Effects of Aerobic Exercise and Gaming on Cognitive Performance",
+    "display_name": "The Effects of Aerobic Exercise and Gaming on Cognitive Performance",
+    "publication_year": 2018,
+    "cited_by_count": 17,
+    "abstract_inverted_index": {
+     "The": [
+      0,
+      36,
+      187
+     ],
+     "purpose": [
+      1
+     ],
+     "of": [
+      2,
+      10,
+      19,
+      26,
+      55,
+      117,
+      146,
+      182,
+      194
+     ],
+     "our": [
+      3,
+      183
+     ],
+     "study": [
+      4,
+      37
+     ],
+     "was": [
+      5,
+      38,
+      72,
+      89
+     ],
+     "to": [
+      6,
+      53
+     ],
+     "investigate": [
+      7
+     ],
+     "the": [
+      8,
+      17,
+      24,
+      79,
+      110,
+      114,
+      133,
+      144,
+      154,
+      161,
+      178,
+      191,
+      205,
+      210,
+      217
+     ],
+     "effects": [
+      9,
+      193,
+      214
+     ],
+     "video": [
+      11,
+      59,
+      92
+     ],
+     "gaming,": [
+      12,
+      60,
+      93
+     ],
+     "aerobic": [
+      13
+     ],
+     "exercise": [
+      14,
+      206
+     ],
+     "(biking),": [
+      15
+     ],
+     "and": [
+      16,
+      33,
+      64,
+      66,
+      75,
+      82,
+      97,
+      103,
+      166,
+      198
+     ],
+     "combination": [
+      18
+     ],
+     "these": [
+      20
+     ],
+     "two": [
+      21
+     ],
+     "activities": [
+      22
+     ],
+     "on": [
+      23
+     ],
+     "domains": [
+      25
+     ],
+     "cognitive": [
+      27,
+      118,
+      130,
+      184,
+      213
+     ],
+     "performance:": [
+      28
+     ],
+     "selective": [
+      29,
+      101
+     ],
+     "attention,": [
+      30
+     ],
+     "processing": [
+      31,
+      104
+     ],
+     "speed,": [
+      32
+     ],
+     "executive": [
+      34,
+      120,
+      179
+     ],
+     "functioning.": [
+      35
+     ],
+     "a": [
+      39,
+      67,
+      195
+     ],
+     "randomized": [
+      40,
+      52
+     ],
+     "clinical": [
+      41
+     ],
+     "trial": [
+      42
+     ],
+     "with": [
+      43
+     ],
+     "40": [
+      44
+     ],
+     "subjects": [
+      45
+     ],
+     "(mean": [
+      46
+     ],
+     "age": [
+      47
+     ],
+     "23.7": [
+      48
+     ],
+     "\u00b1": [
+      49
+     ],
+     "1.8": [
+      50
+     ],
+     "years)": [
+      51
+     ],
+     "one": [
+      54
+     ],
+     "four": [
+      56
+     ],
+     "thirty-minute": [
+      57
+     ],
+     "conditions:": [
+      58
+     ],
+     "biking,": [
+      61,
+      65,
+      94
+     ],
+     "simultaneous": [
+      62,
+      95
+     ],
+     "gaming": [
+      63,
+      96,
+      167
+     ],
+     "control": [
+      68,
+      134
+     ],
+     "condition.": [
+      69,
+      135
+     ],
+     "Cognitive": [
+      70
+     ],
+     "performance": [
+      71,
+      131,
+      185
+     ],
+     "measured": [
+      73
+     ],
+     "pre": [
+      74
+     ],
+     "post": [
+      76
+     ],
+     "condition": [
+      77,
+      112
+     ],
+     "using": [
+      78
+     ],
+     "Stroop": [
+      80
+     ],
+     "test": [
+      81
+     ],
+     "Trails": [
+      83
+     ],
+     "B": [
+      84
+     ],
+     "test.": [
+      85
+     ],
+     "A": [
+      86
+     ],
+     "mixed": [
+      87
+     ],
+     "design": [
+      88
+     ],
+     "utilized.": [
+      90
+     ],
+     "While": [
+      91
+     ],
+     "biking": [
+      98,
+      165
+     ],
+     "conditions": [
+      99
+     ],
+     "improved": [
+      100,
+      113
+     ],
+     "attention": [
+      102
+     ],
+     "speed": [
+      105
+     ],
+     "(p": [
+      106,
+      122
+     ],
+     "<": [
+      107,
+      123
+     ],
+     "0.05),": [
+      108
+     ],
+     "only": [
+      109
+     ],
+     "bike": [
+      111
+     ],
+     "highest": [
+      115
+     ],
+     "order": [
+      116
+     ],
+     "performance,": [
+      119
+     ],
+     "function": [
+      121,
+      180
+     ],
+     "0.01).": [
+      124
+     ],
+     "There": [
+      125
+     ],
+     "were": [
+      126
+     ],
+     "no": [
+      127
+     ],
+     "changes": [
+      128
+     ],
+     "in": [
+      129,
+      153
+     ],
+     "for": [
+      132,
+      157
+     ],
+     "Previous": [
+      136
+     ],
+     "studies": [
+      137
+     ],
+     "have": [
+      138,
+      169
+     ],
+     "shown": [
+      139
+     ],
+     "that": [
+      140,
+      190,
+      202
+     ],
+     "if": [
+      141
+     ],
+     "tasks": [
+      142
+     ],
+     "approach": [
+      143
+     ],
+     "limits": [
+      145
+     ],
+     "attentional": [
+      147,
+      171
+     ],
+     "capacity": [
+      148,
+      172
+     ],
+     "there": [
+      149
+     ],
+     "is": [
+      150
+     ],
+     "an": [
+      151
+     ],
+     "increase": [
+      152
+     ],
+     "overall": [
+      155
+     ],
+     "chance": [
+      156
+     ],
+     "errors,": [
+      158
+     ],
+     "known": [
+      159
+     ],
+     "as": [
+      160
+     ],
+     "dual-task": [
+      162
+     ],
+     "deficit.": [
+      163
+     ],
+     "Simultaneous": [
+      164
+     ],
+     "may": [
+      168,
+      208
+     ],
+     "surpassed": [
+      170
+     ],
+     "limits,": [
+      173
+     ],
+     "ultimately": [
+      174
+     ],
+     "increasing": [
+      175
+     ],
+     "errors": [
+      176
+     ],
+     "during": [
+      177
+     ],
+     "tests": [
+      181
+     ],
+     "battery.": [
+      186
+     ],
+     "results": [
+      188
+     ],
+     "suggest": [
+      189
+     ],
+     "fatiguing": [
+      192
+     ],
+     "combined": [
+      196
+     ],
+     "physically": [
+      197
+     ],
+     "mentally": [
+      199
+     ],
+     "challenging": [
+      200
+     ],
+     "task": [
+      201
+     ],
+     "extends": [
+      203
+     ],
+     "after": [
+      204
+     ],
+     "cessation": [
+      207
+     ],
+     "overcome": [
+      209
+     ],
+     "eventual": [
+      211
+     ],
+     "beneficial": [
+      212
+     ],
+     "derived": [
+      215
+     ],
+     "from": [
+      216
+     ],
+     "physical": [
+      218
+     ],
+     "exercise.": [
+      219
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5029707589",
+       "display_name": "Peter C. Douris",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210104314",
+        "display_name": "New York Institute of Technology",
+        "ror": "https://ror.org/01bghzb51",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210104314"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Peter C. Douris",
+      "raw_affiliation_strings": [
+       "Department of Physical Therapy , New York Institute of Technology , Old Westbury , New York , USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Therapy , New York Institute of Technology , Old Westbury , New York , USA",
+        "institution_ids": [
+         "https://openalex.org/I4210104314"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5060545710",
+       "display_name": "John P. Handrakis",
+       "orcid": "https://orcid.org/0000-0001-6919-7356",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6919-7356"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210104314",
+        "display_name": "New York Institute of Technology",
+        "ror": "https://ror.org/01bghzb51",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210104314"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "John P. Handrakis",
+      "raw_affiliation_strings": [
+       "Department of Physical Therapy , New York Institute of Technology , Old Westbury , New York , USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Therapy , New York Institute of Technology , Old Westbury , New York , USA",
+        "institution_ids": [
+         "https://openalex.org/I4210104314"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5088289788",
+       "display_name": "Demitra Apergis",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210104314",
+        "display_name": "New York Institute of Technology",
+        "ror": "https://ror.org/01bghzb51",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210104314"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Demitra Apergis",
+      "raw_affiliation_strings": [
+       "Department of Physical Therapy , New York Institute of Technology , Old Westbury , New York , USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Therapy , New York Institute of Technology , Old Westbury , New York , USA",
+        "institution_ids": [
+         "https://openalex.org/I4210104314"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5082429976",
+       "display_name": "Robert B. Mangus",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210104314",
+        "display_name": "New York Institute of Technology",
+        "ror": "https://ror.org/01bghzb51",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210104314"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Robert B. Mangus",
+      "raw_affiliation_strings": [
+       "Department of Physical Therapy , New York Institute of Technology , Old Westbury , New York , USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Therapy , New York Institute of Technology , Old Westbury , New York , USA",
+        "institution_ids": [
+         "https://openalex.org/I4210104314"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": null,
+       "display_name": "Rima Patel",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210104314",
+        "display_name": "New York Institute of Technology",
+        "ror": "https://ror.org/01bghzb51",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210104314"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Rima Patel",
+      "raw_affiliation_strings": [
+       "Department of Physical Therapy , New York Institute of Technology , Old Westbury , New York , USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Therapy , New York Institute of Technology , Old Westbury , New York , USA",
+        "institution_ids": [
+         "https://openalex.org/I4210104314"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5073485487",
+       "display_name": "Jessica Limtao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210104314",
+        "display_name": "New York Institute of Technology",
+        "ror": "https://ror.org/01bghzb51",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210104314"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jessica Limtao",
+      "raw_affiliation_strings": [
+       "Department of Physical Therapy , New York Institute of Technology , Old Westbury , New York , USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Therapy , New York Institute of Technology , Old Westbury , New York , USA",
+        "institution_ids": [
+         "https://openalex.org/I4210104314"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": null,
+       "display_name": "Svetlana Platonova",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210104314",
+        "display_name": "New York Institute of Technology",
+        "ror": "https://ror.org/01bghzb51",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210104314"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Svetlana Platonova",
+      "raw_affiliation_strings": [
+       "Department of Physical Therapy , New York Institute of Technology , Old Westbury , New York , USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Therapy , New York Institute of Technology , Old Westbury , New York , USA",
+        "institution_ids": [
+         "https://openalex.org/I4210104314"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5068047694",
+       "display_name": "Aladino Gregorio",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210104314",
+        "display_name": "New York Institute of Technology",
+        "ror": "https://ror.org/01bghzb51",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210104314"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Aladino Gregorio",
+      "raw_affiliation_strings": [
+       "Department of Physical Therapy , New York Institute of Technology , Old Westbury , New York , USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Therapy , New York Institute of Technology , Old Westbury , New York , USA",
+        "institution_ids": [
+         "https://openalex.org/I4210104314"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5082226933",
+       "display_name": "Elliot Luty",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210104314",
+        "display_name": "New York Institute of Technology",
+        "ror": "https://ror.org/01bghzb51",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210104314"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Elliot Luty",
+      "raw_affiliation_strings": [
+       "Department of Physical Therapy , New York Institute of Technology , Old Westbury , New York , USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Therapy , New York Institute of Technology , Old Westbury , New York , USA",
+        "institution_ids": [
+         "https://openalex.org/I4210104314"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1515/hukin-2017-0134",
+     "doi": "https://doi.org/10.1515/hukin-2017-0134",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1515/hukin-2017-0134",
+     "pdf_url": "https://content.sciendo.com/downloadpdf/journals/hukin/61/1/article-p73.pdf",
+     "source": {
+      "id": "https://openalex.org/S128560994",
+      "display_name": "Journal of Human Kinetics",
+      "issn_l": "1640-5544",
+      "issn": [
+       "1640-5544",
+       "1899-7562"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-c",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320322",
+      "host_organization_name": "De Gruyter Open",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320322",
+       "https://openalex.org/P4310313990"
+      ],
+      "host_organization_lineage_names": [
+       "De Gruyter Open",
+       "De Gruyter"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc",
+     "license_id": "https://openalex.org/licenses/cc-by-nc",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Human Kinetics",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2293391519",
+    "doi": "https://doi.org/10.1123/japa.2015-0097",
+    "title": "An Acute Bout of Exercise Improves the Cognitive Performance of Older Adults",
+    "display_name": "An Acute Bout of Exercise Improves the Cognitive Performance of Older Adults",
+    "publication_year": 2016,
+    "cited_by_count": 83,
+    "abstract_inverted_index": {
+     "There": [
+      0
+     ],
+     "is": [
+      1,
+      14,
+      25
+     ],
+     "evidence": [
+      2
+     ],
+     "that": [
+      3,
+      106,
+      123
+     ],
+     "an": [
+      4,
+      124
+     ],
+     "acute": [
+      5,
+      125
+     ],
+     "bout": [
+      6,
+      126
+     ],
+     "of": [
+      7,
+      23,
+      40,
+      72,
+      86,
+      90,
+      111,
+      127,
+      141
+     ],
+     "exercise": [
+      8,
+      24,
+      66,
+      107,
+      128
+     ],
+     "confers": [
+      9
+     ],
+     "cognitive": [
+      10,
+      28,
+      38,
+      131
+     ],
+     "benefits,": [
+      11
+     ],
+     "but": [
+      12
+     ],
+     "it": [
+      13
+     ],
+     "largely": [
+      15
+     ],
+     "unknown": [
+      16
+     ],
+     "what": [
+      17
+     ],
+     "the": [
+      18,
+      37,
+      45,
+      92,
+      96,
+      109,
+      112,
+      136
+     ],
+     "optimal": [
+      19
+     ],
+     "mode": [
+      20,
+      87
+     ],
+     "and": [
+      21,
+      26,
+      51,
+      54,
+      60,
+      70,
+      79
+     ],
+     "duration": [
+      22,
+      89
+     ],
+     "how": [
+      27
+     ],
+     "performance": [
+      29,
+      39,
+      110,
+      132
+     ],
+     "changes": [
+      30
+     ],
+     "over": [
+      31
+     ],
+     "time": [
+      32
+     ],
+     "after": [
+      33,
+      57,
+      80
+     ],
+     "exercise.": [
+      34,
+      81
+     ],
+     "We": [
+      35,
+      82,
+      102
+     ],
+     "compared": [
+      36
+     ],
+     "31": [
+      41
+     ],
+     "older": [
+      42,
+      142
+     ],
+     "adults": [
+      43
+     ],
+     "using": [
+      44
+     ],
+     "Stroop": [
+      46,
+      97,
+      113,
+      116
+     ],
+     "test": [
+      47
+     ],
+     "before,": [
+      48,
+      77
+     ],
+     "immediately": [
+      49,
+      100
+     ],
+     "after,": [
+      50
+     ],
+     "at": [
+      52
+     ],
+     "30": [
+      53,
+      61
+     ],
+     "60": [
+      55
+     ],
+     "min": [
+      56,
+      62
+     ],
+     "a": [
+      58
+     ],
+     "10": [
+      59
+     ],
+     "aerobic": [
+      63
+     ],
+     "or": [
+      64,
+      88,
+      115
+     ],
+     "resistance": [
+      65
+     ],
+     "session.": [
+      67
+     ],
+     "Heart": [
+      68
+     ],
+     "rate": [
+      69
+     ],
+     "feelings": [
+      71
+     ],
+     "arousal": [
+      73
+     ],
+     "were": [
+      74
+     ],
+     "also": [
+      75
+     ],
+     "measured": [
+      76
+     ],
+     "during,": [
+      78
+     ],
+     "found": [
+      83
+     ],
+     "that,": [
+      84
+     ],
+     "independent": [
+      85
+     ],
+     "exercise,": [
+      91
+     ],
+     "participants": [
+      93
+     ],
+     "improved": [
+      94
+     ],
+     "in": [
+      95,
+      134
+     ],
+     "Inhibition": [
+      98
+     ],
+     "task": [
+      99
+     ],
+     "postexercise.": [
+      101
+     ],
+     "did": [
+      103
+     ],
+     "not": [
+      104
+     ],
+     "find": [
+      105
+     ],
+     "influenced": [
+      108
+     ],
+     "Color": [
+      114
+     ],
+     "Word": [
+      117
+     ],
+     "Interference": [
+      118
+     ],
+     "tasks.": [
+      119
+     ],
+     "Our": [
+      120
+     ],
+     "findings": [
+      121
+     ],
+     "suggest": [
+      122
+     ],
+     "can": [
+      129
+     ],
+     "improve": [
+      130
+     ],
+     "and,": [
+      133
+     ],
+     "particular,": [
+      135
+     ],
+     "more": [
+      137
+     ],
+     "complex": [
+      138
+     ],
+     "executive": [
+      139
+     ],
+     "functioning": [
+      140
+     ],
+     "adults.": [
+      143
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5036943109",
+       "display_name": "Liam G Johnson",
+       "orcid": "https://orcid.org/0000-0002-4916-049X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4916-049X"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Liam Johnson",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5047454264",
+       "display_name": "Patricia K. Addamo",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Patricia K. Addamo",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5025815177",
+       "display_name": "Isaac Selva Raj",
+       "orcid": "https://orcid.org/0000-0002-8448-9936",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8448-9936"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Isaac Selva Raj",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5014045351",
+       "display_name": "Erika Borkoles",
+       "orcid": "https://orcid.org/0000-0002-7807-8890",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7807-8890"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Erika Borkoles",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5064060067",
+       "display_name": "Victoria L. Wyckelsma",
+       "orcid": "https://orcid.org/0000-0001-6921-4638",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6921-4638"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Victoria Wyckelsma",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5050776389",
+       "display_name": "Elizabeth Cyarto",
+       "orcid": "https://orcid.org/0000-0001-9327-1763",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9327-1763"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Elizabeth Cyarto",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5019897192",
+       "display_name": "Remco C. J. Polman",
+       "orcid": "https://orcid.org/0000-0003-2951-0904",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2951-0904"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Remco C. Polman",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1123/japa.2015-0097",
+     "doi": "https://doi.org/10.1123/japa.2015-0097",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1123/japa.2015-0097",
+     "pdf_url": "https://journals.humankinetics.com/downloadpdf/journals/japa/24/4/article-p591.pdf",
+     "source": {
+      "id": "https://openalex.org/S49185410",
+      "display_name": "Journal of Aging and Physical Activity",
+      "issn_l": "1063-8652",
+      "issn": [
+       "1063-8652",
+       "1543-267X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-d",
+       "doyens",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310322142",
+      "host_organization_name": "Human Kinetics",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310322142"
+      ],
+      "host_organization_lineage_names": [
+       "Human Kinetics"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Aging and Physical Activity",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2005355670",
+    "doi": "https://doi.org/10.1001/archneurol.2009.307",
+    "title": "Effects of Aerobic Exercise on Mild Cognitive Impairment: A Controlled Trial",
+    "display_name": "Effects of Aerobic Exercise on Mild Cognitive Impairment: A Controlled Trial",
+    "publication_year": 2010,
+    "cited_by_count": 1425,
+    "abstract_inverted_index": {
+     "OBJECTIVES:": [
+      0
+     ],
+     "To": [
+      1
+     ],
+     "examine": [
+      2
+     ],
+     "the": [
+      3,
+      27,
+      94,
+      128,
+      148,
+      265
+     ],
+     "effects": [
+      4,
+      228
+     ],
+     "of": [
+      5,
+      29,
+      34,
+      96,
+      104,
+      140,
+      205,
+      222,
+      258,
+      273,
+      287,
+      327
+     ],
+     "aerobic": [
+      6,
+      83,
+      90,
+      224,
+      251,
+      282,
+      353
+     ],
+     "exercise": [
+      7,
+      84,
+      225,
+      252,
+      283
+     ],
+     "on": [
+      8,
+      187,
+      229,
+      255,
+      298
+     ],
+     "cognition": [
+      9
+     ],
+     "and": [
+      10,
+      25,
+      146,
+      151,
+      156,
+      169,
+      177,
+      199,
+      214,
+      217,
+      233,
+      236,
+      245,
+      268,
+      276,
+      292,
+      348
+     ],
+     "other": [
+      11
+     ],
+     "biomarkers": [
+      12
+     ],
+     "associated": [
+      13
+     ],
+     "with": [
+      14,
+      21,
+      58
+     ],
+     "Alzheimer": [
+      15
+     ],
+     "disease": [
+      16
+     ],
+     "pathology": [
+      17
+     ],
+     "for": [
+      18,
+      108,
+      115,
+      175,
+      311,
+      321
+     ],
+     "older": [
+      19,
+      322
+     ],
+     "adults": [
+      20,
+      55
+     ],
+     "mild": [
+      22,
+      60
+     ],
+     "cognitive": [
+      23,
+      61,
+      178,
+      328,
+      339
+     ],
+     "impairment,": [
+      24
+     ],
+     "assess": [
+      26
+     ],
+     "role": [
+      28
+     ],
+     "sex": [
+      30,
+      336
+     ],
+     "as": [
+      31
+     ],
+     "a": [
+      32,
+      81,
+      97,
+      294,
+      312,
+      335
+     ],
+     "predictor": [
+      33
+     ],
+     "response.": [
+      35
+     ],
+     "DESIGN:": [
+      36
+     ],
+     "Six-month,": [
+      37
+     ],
+     "randomized,": [
+      38
+     ],
+     "controlled,": [
+      39
+     ],
+     "clinical": [
+      40,
+      50
+     ],
+     "trial.": [
+      41
+     ],
+     "SETTING:": [
+      42
+     ],
+     "Veterans": [
+      43
+     ],
+     "Affairs": [
+      44
+     ],
+     "Puget": [
+      45
+     ],
+     "Sound": [
+      46
+     ],
+     "Health": [
+      47
+     ],
+     "Care": [
+      48
+     ],
+     "System": [
+      49
+     ],
+     "research": [
+      51
+     ],
+     "unit.": [
+      52
+     ],
+     "PARTICIPANTS:": [
+      53
+     ],
+     "Thirty-three": [
+      54
+     ],
+     "(17": [
+      56
+     ],
+     "women)": [
+      57
+     ],
+     "amnestic": [
+      59
+     ],
+     "impairment": [
+      62
+     ],
+     "ranging": [
+      63
+     ],
+     "in": [
+      64,
+      242,
+      338,
+      346
+     ],
+     "age": [
+      65
+     ],
+     "from": [
+      66
+     ],
+     "55": [
+      67
+     ],
+     "to": [
+      68,
+      80,
+      102,
+      110,
+      127,
+      343,
+      352
+     ],
+     "85": [
+      69
+     ],
+     "years": [
+      70
+     ],
+     "(mean": [
+      71
+     ],
+     "age,": [
+      72
+     ],
+     "70": [
+      73
+     ],
+     "years).": [
+      74
+     ],
+     "Intervention": [
+      75
+     ],
+     "Participants": [
+      76
+     ],
+     "were": [
+      77,
+      154,
+      180
+     ],
+     "randomized": [
+      78
+     ],
+     "either": [
+      79
+     ],
+     "high-intensity": [
+      82,
+      223
+     ],
+     "or": [
+      85,
+      137
+     ],
+     "stretching": [
+      86,
+      124
+     ],
+     "control": [
+      87,
+      119,
+      319
+     ],
+     "group.": [
+      88
+     ],
+     "The": [
+      89,
+      118
+     ],
+     "group": [
+      91,
+      120
+     ],
+     "exercised": [
+      92
+     ],
+     "under": [
+      93
+     ],
+     "supervision": [
+      95
+     ],
+     "fitness": [
+      98,
+      244
+     ],
+     "trainer": [
+      99
+     ],
+     "at": [
+      100,
+      136,
+      324
+     ],
+     "75%": [
+      101
+     ],
+     "85%": [
+      103
+     ],
+     "heart": [
+      105,
+      134,
+      142
+     ],
+     "rate": [
+      106,
+      135,
+      143
+     ],
+     "reserve": [
+      107
+     ],
+     "45": [
+      109
+     ],
+     "60": [
+      111
+     ],
+     "min/d,": [
+      112
+     ],
+     "4": [
+      113
+     ],
+     "d/wk": [
+      114
+     ],
+     "6": [
+      116
+     ],
+     "months.": [
+      117
+     ],
+     "carried": [
+      121
+     ],
+     "out": [
+      122
+     ],
+     "supervised": [
+      123
+     ],
+     "activities": [
+      125
+     ],
+     "according": [
+      126
+     ],
+     "same": [
+      129
+     ],
+     "schedule": [
+      130
+     ],
+     "but": [
+      131
+     ],
+     "maintained": [
+      132
+     ],
+     "their": [
+      133,
+      141
+     ],
+     "below": [
+      138
+     ],
+     "50%": [
+      139
+     ],
+     "reserve.": [
+      144
+     ],
+     "Before": [
+      145
+     ],
+     "after": [
+      147
+     ],
+     "study,": [
+      149
+     ],
+     "glucometabolic": [
+      150,
+      347
+     ],
+     "treadmill": [
+      152
+     ],
+     "tests": [
+      153,
+      179,
+      257
+     ],
+     "performed": [
+      155
+     ],
+     "fat": [
+      157,
+      247
+     ],
+     "distribution": [
+      158
+     ],
+     "was": [
+      159,
+      173
+     ],
+     "assessed": [
+      160
+     ],
+     "using": [
+      161,
+      307
+     ],
+     "dual-energy": [
+      162
+     ],
+     "x-ray": [
+      163
+     ],
+     "absorptiometry.": [
+      164
+     ],
+     "At": [
+      165
+     ],
+     "baseline,": [
+      166
+     ],
+     "month": [
+      167,
+      170
+     ],
+     "3,": [
+      168
+     ],
+     "6,": [
+      171
+     ],
+     "blood": [
+      172
+     ],
+     "collected": [
+      174
+     ],
+     "assay": [
+      176
+     ],
+     "administered.": [
+      181
+     ],
+     "MAIN": [
+      182
+     ],
+     "OUTCOME": [
+      183
+     ],
+     "MEASURES:": [
+      184
+     ],
+     "Performance": [
+      185
+     ],
+     "measures": [
+      186
+     ],
+     "Symbol-Digit": [
+      188
+     ],
+     "Modalities,": [
+      189
+     ],
+     "Verbal": [
+      190
+     ],
+     "Fluency,": [
+      191
+     ],
+     "Stroop,": [
+      192
+     ],
+     "Trails": [
+      193,
+      299
+     ],
+     "B,": [
+      194
+     ],
+     "Task": [
+      195
+     ],
+     "Switching,": [
+      196
+     ],
+     "Story": [
+      197
+     ],
+     "Recall,": [
+      198
+     ],
+     "List": [
+      200
+     ],
+     "Learning.": [
+      201
+     ],
+     "Fasting": [
+      202
+     ],
+     "plasma": [
+      203,
+      271,
+      285
+     ],
+     "levels": [
+      204,
+      272,
+      286
+     ],
+     "insulin,": [
+      206,
+      274
+     ],
+     "cortisol,": [
+      207,
+      275
+     ],
+     "brain-derived": [
+      208,
+      277
+     ],
+     "neurotrophic": [
+      209,
+      278
+     ],
+     "factor,": [
+      210
+     ],
+     "insulinlike": [
+      211,
+      288
+     ],
+     "growth": [
+      212,
+      289
+     ],
+     "factor-I,": [
+      213
+     ],
+     "beta-amyloids": [
+      215
+     ],
+     "40": [
+      216
+     ],
+     "42.": [
+      218
+     ],
+     "RESULTS:": [
+      219
+     ],
+     "Six": [
+      220
+     ],
+     "months": [
+      221
+     ],
+     "had": [
+      226,
+      293
+     ],
+     "sex-specific": [
+      227
+     ],
+     "cognition,": [
+      230
+     ],
+     "glucose": [
+      231,
+      262
+     ],
+     "metabolism,": [
+      232
+     ],
+     "hypothalamic-pituitary-adrenal": [
+      234,
+      349
+     ],
+     "axis": [
+      235,
+      350
+     ],
+     "trophic": [
+      237
+     ],
+     "activity": [
+      238
+     ],
+     "despite": [
+      239
+     ],
+     "comparable": [
+      240
+     ],
+     "gains": [
+      241
+     ],
+     "cardiorespiratory": [
+      243
+     ],
+     "body": [
+      246
+     ],
+     "reduction.": [
+      248
+     ],
+     "For": [
+      249,
+      280
+     ],
+     "women,": [
+      250
+     ],
+     "improved": [
+      253
+     ],
+     "performance": [
+      254
+     ],
+     "multiple": [
+      256
+     ],
+     "executive": [
+      259,
+      318
+     ],
+     "function,": [
+      260
+     ],
+     "increased": [
+      261,
+      284
+     ],
+     "disposal": [
+      263
+     ],
+     "during": [
+      264
+     ],
+     "metabolic": [
+      266
+     ],
+     "clamp,": [
+      267
+     ],
+     "reduced": [
+      269
+     ],
+     "fasting": [
+      270
+     ],
+     "factor.": [
+      279
+     ],
+     "men,": [
+      281
+     ],
+     "factor": [
+      290
+     ],
+     "I": [
+      291
+     ],
+     "favorable": [
+      295
+     ],
+     "effect": [
+      296
+     ],
+     "only": [
+      297
+     ],
+     "B": [
+      300
+     ],
+     "performance.": [
+      301
+     ],
+     "CONCLUSIONS:": [
+      302
+     ],
+     "This": [
+      303
+     ],
+     "study": [
+      304
+     ],
+     "provides": [
+      305
+     ],
+     "support,": [
+      306
+     ],
+     "rigorous": [
+      308
+     ],
+     "controlled": [
+      309
+     ],
+     "methodology,": [
+      310
+     ],
+     "potent": [
+      313
+     ],
+     "nonpharmacologic": [
+      314
+     ],
+     "intervention": [
+      315
+     ],
+     "that": [
+      316,
+      334
+     ],
+     "improves": [
+      317
+     ],
+     "processes": [
+      320
+     ],
+     "women": [
+      323
+     ],
+     "high": [
+      325
+     ],
+     "risk": [
+      326
+     ],
+     "decline.": [
+      329
+     ],
+     "Moreover,": [
+      330
+     ],
+     "our": [
+      331
+     ],
+     "results": [
+      332
+     ],
+     "suggest": [
+      333
+     ],
+     "bias": [
+      337
+     ],
+     "response": [
+      340
+     ],
+     "may": [
+      341
+     ],
+     "relate": [
+      342
+     ],
+     "sex-based": [
+      344
+     ],
+     "differences": [
+      345
+     ],
+     "responses": [
+      351
+     ],
+     "exercise.": [
+      354
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5051182952",
+       "display_name": "Laura D. Baker",
+       "orcid": "https://orcid.org/0000-0002-6217-7384",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6217-7384"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I201448701",
+        "display_name": "University of Washington",
+        "ror": "https://ror.org/00cvxb145",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I201448701"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Laura D. Baker",
+      "raw_affiliation_strings": [
+       "Departments of Psychiatry and BehavioralScience, University of Washington School of Medicine,Seattle, Washington, USA. ldbaker@uw.edu"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Departments of Psychiatry and BehavioralScience, University of Washington School of Medicine,Seattle, Washington, USA. ldbaker@uw.edu",
+        "institution_ids": [
+         "https://openalex.org/I201448701"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5052059739",
+       "display_name": "Laura Lewis Frank",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I170632171",
+        "display_name": "Washington State University Spokane",
+        "ror": "https://ror.org/04vfs5h36",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I170632171",
+         "https://openalex.org/I72951846"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I201448701",
+        "display_name": "University of Washington",
+        "ror": "https://ror.org/00cvxb145",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I201448701"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Laura L. Frank",
+      "raw_affiliation_strings": [
+       "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+       "Washington State University, Spokane"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+        "institution_ids": [
+         "https://openalex.org/I201448701"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Washington State University, Spokane",
+        "institution_ids": [
+         "https://openalex.org/I170632171"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5011038806",
+       "display_name": "Karen E. Foster\u2010Schubert",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I201448701",
+        "display_name": "University of Washington",
+        "ror": "https://ror.org/00cvxb145",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I201448701"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210089486",
+        "display_name": "Fred Hutch Cancer Center",
+        "ror": "https://ror.org/007ps6h72",
+        "country_code": "US",
+        "type": "nonprofit",
+        "lineage": [
+         "https://openalex.org/I4210089486"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Karen Foster-Schubert",
+      "raw_affiliation_strings": [
+       "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+       "Fred Hutchinson Cancer Research Center"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+        "institution_ids": [
+         "https://openalex.org/I201448701"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Fred Hutchinson Cancer Research Center",
+        "institution_ids": [
+         "https://openalex.org/I4210089486"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5080100460",
+       "display_name": "Pattie S. Green",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I201448701",
+        "display_name": "University of Washington",
+        "ror": "https://ror.org/00cvxb145",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I201448701"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210094549",
+        "display_name": "VA Puget Sound Health Care System",
+        "ror": "https://ror.org/00ky3az31",
+        "country_code": "US",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I1322918889",
+         "https://openalex.org/I2799886695",
+         "https://openalex.org/I4210094549",
+         "https://openalex.org/I4210138024"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Pattie S. Green",
+      "raw_affiliation_strings": [
+       "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+       "VA Puget Sound Health Care System"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+        "institution_ids": [
+         "https://openalex.org/I201448701"
+        ]
+       },
+       {
+        "raw_affiliation_string": "VA Puget Sound Health Care System",
+        "institution_ids": [
+         "https://openalex.org/I4210094549"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5059786842",
+       "display_name": "Charles W. Wilkinson",
+       "orcid": "https://orcid.org/0000-0002-5390-0294",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5390-0294"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I201448701",
+        "display_name": "University of Washington",
+        "ror": "https://ror.org/00cvxb145",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I201448701"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Charles W. Wilkinson",
+      "raw_affiliation_strings": [
+       "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+       "Mental Illness Res., Educ.,/Clin. C"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+        "institution_ids": [
+         "https://openalex.org/I201448701"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Mental Illness Res., Educ.,/Clin. C",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5091732432",
+       "display_name": "Anne McTiernan",
+       "orcid": "https://orcid.org/0000-0002-4922-9506",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4922-9506"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I201448701",
+        "display_name": "University of Washington",
+        "ror": "https://ror.org/00cvxb145",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I201448701"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210089486",
+        "display_name": "Fred Hutch Cancer Center",
+        "ror": "https://ror.org/007ps6h72",
+        "country_code": "US",
+        "type": "nonprofit",
+        "lineage": [
+         "https://openalex.org/I4210089486"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Anne McTiernan",
+      "raw_affiliation_strings": [
+       "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+       "Fred Hutchinson Cancer Research Center"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+        "institution_ids": [
+         "https://openalex.org/I201448701"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Fred Hutchinson Cancer Research Center",
+        "institution_ids": [
+         "https://openalex.org/I4210089486"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5071161054",
+       "display_name": "Stephen R. Plymate",
+       "orcid": "https://orcid.org/0000-0002-7597-6943",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7597-6943"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I201448701",
+        "display_name": "University of Washington",
+        "ror": "https://ror.org/00cvxb145",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I201448701"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Stephen R. Plymate",
+      "raw_affiliation_strings": [
+       "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+       "Mental Illness Res., Educ.,/Clin. C"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+        "institution_ids": [
+         "https://openalex.org/I201448701"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Mental Illness Res., Educ.,/Clin. C",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5024267389",
+       "display_name": "Mark A. Fishel",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I201448701",
+        "display_name": "University of Washington",
+        "ror": "https://ror.org/00cvxb145",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I201448701"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210088792",
+        "display_name": "United States Army",
+        "ror": "https://ror.org/00afsp483",
+        "country_code": "US",
+        "type": "government",
+        "lineage": [
+         "https://openalex.org/I1304082316",
+         "https://openalex.org/I1330347796",
+         "https://openalex.org/I4210088792"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Mark A. Fishel",
+      "raw_affiliation_strings": [
+       "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+       "United States Army"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+        "institution_ids": [
+         "https://openalex.org/I201448701"
+        ]
+       },
+       {
+        "raw_affiliation_string": "United States Army",
+        "institution_ids": [
+         "https://openalex.org/I4210088792"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5112938510",
+       "display_name": "G. Stennis Watson",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I201448701",
+        "display_name": "University of Washington",
+        "ror": "https://ror.org/00cvxb145",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I201448701"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "G. Stennis Watson",
+      "raw_affiliation_strings": [
+       "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+       "Mental Illness Res., Educ.,/Clin. C"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+        "institution_ids": [
+         "https://openalex.org/I201448701"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Mental Illness Res., Educ.,/Clin. C",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5044893402",
+       "display_name": "Brenna Cholerton",
+       "orcid": "https://orcid.org/0000-0002-2139-987X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2139-987X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I201448701",
+        "display_name": "University of Washington",
+        "ror": "https://ror.org/00cvxb145",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I201448701"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Brenna A. Cholerton",
+      "raw_affiliation_strings": [
+       "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+       "Mental Illness Res., Educ.,/Clin. C"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+        "institution_ids": [
+         "https://openalex.org/I201448701"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Mental Illness Res., Educ.,/Clin. C",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5086545386",
+       "display_name": "Glen E. Duncan",
+       "orcid": "https://orcid.org/0000-0001-6909-1869",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6909-1869"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I201448701",
+        "display_name": "University of Washington",
+        "ror": "https://ror.org/00cvxb145",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I201448701"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Glen E. Duncan",
+      "raw_affiliation_strings": [
+       "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+       "University of Washington"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+        "institution_ids": [
+         "https://openalex.org/I201448701"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Washington",
+        "institution_ids": [
+         "https://openalex.org/I201448701"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5015366699",
+       "display_name": "Pankaj D Mehta",
+       "orcid": "https://orcid.org/0000-0003-1290-5897",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1290-5897"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I201448701",
+        "display_name": "University of Washington",
+        "ror": "https://ror.org/00cvxb145",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I201448701"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Pankaj D. Mehta",
+      "raw_affiliation_strings": [
+       "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+       "New York State Institute for Basic Research in Developmental Disabilities"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+        "institution_ids": [
+         "https://openalex.org/I201448701"
+        ]
+       },
+       {
+        "raw_affiliation_string": "New York State Institute for Basic Research in Developmental Disabilities",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5019308143",
+       "display_name": "Suzanne Craft",
+       "orcid": "https://orcid.org/0000-0003-0591-8657",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0591-8657"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I201448701",
+        "display_name": "University of Washington",
+        "ror": "https://ror.org/00cvxb145",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I201448701"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Suzanne Craft",
+      "raw_affiliation_strings": [
+       "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+       "Mental Illness Res., Educ.,/Clin. C"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Departments of Psychiatry and Behavioral Science (Drs Baker, Frank, Wilkinson, Watson, Cholerton, and Craft), Medicine (Drs Foster-Schubert, Green, McTiernan, and Plymate), and Neurology (Dr Fishel), University of Washington School of Medicine, Seattle, Washington; School of Public Health, Department of Epidemiology, Nutritional Sciences Program, University of Washington, Seattle, Washington (Dr Duncan); Geriatric Research, Education, and Clinical Center (Drs Baker, Wilkinson, Plymate, Fishel, Watson, Cholerton, and Craft), and Research and Development, Veterans Affairs Puget Sound Health Care System, Seattle, Washington (Dr Green); Cancer Prevention Research Program, Fred Hutchinson Cancer Research Center, Seattle, Washington (Drs Foster-Schubert and McTiernan); Department of Nutrition and Exercise Metabolism, Washington State University, Spokane, Washington (Dr Frank); Department of Medicine, Landstuhl Regional Medical Center, Landstuhl, Germany (Dr Fishel); and Department of Immunol",
+        "institution_ids": [
+         "https://openalex.org/I201448701"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Mental Illness Res., Educ.,/Clin. C",
+        "institution_ids": []
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1001/archneurol.2009.307",
+     "doi": "https://doi.org/10.1001/archneurol.2009.307",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1001/archneurol.2009.307",
+     "pdf_url": "https://jamanetwork.com/journals/jamaneurology/articlepdf/799013/noc90059_71_79.pdf",
+     "source": {
+      "id": "https://openalex.org/S4210230857",
+      "display_name": "Archives of Neurology",
+      "issn_l": "0003-9942",
+      "issn": [
+       "0003-9942",
+       "1538-3687"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core"
+      ],
+      "host_organization": "https://openalex.org/P4310320259",
+      "host_organization_name": "American Medical Association",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320259"
+      ],
+      "host_organization_lineage_names": [
+       "American Medical Association"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Archives of Neurology",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

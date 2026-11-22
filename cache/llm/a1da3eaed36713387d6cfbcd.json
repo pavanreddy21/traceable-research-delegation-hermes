@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20235-cc2b-7b34-a95b-85a4a6ddc19c",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795333409,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"This source is directly relevant, so I will fetch another hinted source to corroborate across subjects.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W2082988750\"}}",
+    "reasoning_content": "This is relevant. Let me fetch other hinted sources.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1449,
+  "completion_tokens": 58,
+  "total_tokens": 1507,
+  "prompt_tokens_details": {
+   "cached_tokens": 1024
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 12
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 22.21
+}

@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201dc-ded4-75de-9701-5f28986e5ed5",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327581,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Fetch the most directly relevant sources on sleep and procedural memory consolidation to extract specific claims.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W3161707120\"}}",
+    "reasoning_content": "Let me fetch the most relevant sources. W3161707120 is a key one (challenges sleep-specific). W1806129265 children/adults. W2131973169 EEG sigma. Let me fetch a few.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1028,
+  "completion_tokens": 91,
+  "total_tokens": 1119,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 47
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.25
+}

@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20233-9038-77fd-8a91-8d7fbad1a653",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795333263,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"No results; broaden to testing effect fails to replicate or null results.\", \"action\": \"search_papers\", \"args\": {\"query\": \"testing effect fails to replicate restudy no advantage\"}}",
+    "reasoning_content": "Let me try broader queries.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 459,
+  "completion_tokens": 52,
+  "total_tokens": 511,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 7
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 19.24
+}

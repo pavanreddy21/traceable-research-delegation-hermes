@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20232-76f3-774b-9471-087e72656ec7",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795333191,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"I will search for peer-reviewed evidence on practice testing and delayed exam performance across academic subjects.\", \"action\": \"search_papers\", \"args\": {\"query\": \"practice testing delayed exam performance academic subjects\"}}",
+    "reasoning_content": "We need answer JSON only. Need search then fetch. Need find sources directly answer practice testing delayed exam performance across academic subjects. Let's search.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 399,
+  "completion_tokens": 77,
+  "total_tokens": 476,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 30
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.24
+}

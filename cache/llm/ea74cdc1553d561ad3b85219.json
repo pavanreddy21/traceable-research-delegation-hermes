@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201d4-b2ef-7ec7-9113-1f9b515aa288",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327046,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"I need to find peer-reviewed sources on mechanisms mediating growth mindset intervention effects on academic achievement, so I'll start with a literature search.\", \"action\": \"search_papers\", \"args\": {\"query\": \"growth mindset intervention mediation academic achievement\"}}",
+    "reasoning_content": "Let me search for papers on this topic.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 340,
+  "completion_tokens": 65,
+  "total_tokens": 405,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 10
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 7.22
+}

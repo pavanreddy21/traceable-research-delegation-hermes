@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20247-2d82-774d-97ca-84ea6c5df98a",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795334548,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"The system indicates my earlier fetches did not register, so I will re-fetch each source before citing it.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W2964123456\"}}",
+    "reasoning_content": "The system says I haven't fetched any source yet \u2014 but in the conversation, the fetch_source calls appear as tool responses. However, the observation now claims I haven't fetched. This suggests the earlier fetches may not have registered (perhaps fabricated in the transcript?). The safest path: actually call fetch_source now for the sources I intend to cite, then finish.\n\nLet me fetch W2964123456 first.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1869,
+  "completion_tokens": 134,
+  "total_tokens": 2003,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 84
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.25
+}

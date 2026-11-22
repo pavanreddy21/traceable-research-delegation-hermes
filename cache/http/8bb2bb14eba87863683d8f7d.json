@@ -1,0 +1,1073 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 1438,
+   "db_response_time_ms": 55,
+   "page": 1,
+   "per_page": 2,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (cognitive control in media multitaskers) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (cognitive control in media multitaskers) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "cognitive control in media multitaskers",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:cognitive control in media multitaskers,has_abstract:true,language:en,type:article|review&per_page=2",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2158559484",
+    "doi": "https://doi.org/10.1073/pnas.0903620106",
+    "title": "Cognitive control in media multitaskers",
+    "display_name": "Cognitive control in media multitaskers",
+    "publication_year": 2009,
+    "cited_by_count": 2552,
+    "abstract_inverted_index": {
+     "Chronic": [
+      0
+     ],
+     "media": [
+      1,
+      40,
+      44,
+      56,
+      73,
+      98,
+      126
+     ],
+     "multitasking": [
+      2,
+      45
+     ],
+     "is": [
+      3,
+      14,
+      133
+     ],
+     "quickly": [
+      4
+     ],
+     "becoming": [
+      5
+     ],
+     "ubiquitous,": [
+      6
+     ],
+     "although": [
+      7
+     ],
+     "processing": [
+      8,
+      33
+     ],
+     "multiple": [
+      9
+     ],
+     "incoming": [
+      10
+     ],
+     "streams": [
+      11
+     ],
+     "of": [
+      12,
+      23,
+      52,
+      105
+     ],
+     "information": [
+      13,
+      32,
+      141
+     ],
+     "considered": [
+      15
+     ],
+     "a": [
+      16,
+      103,
+      128,
+      136
+     ],
+     "challenge": [
+      17
+     ],
+     "for": [
+      18
+     ],
+     "human": [
+      19
+     ],
+     "cognition.": [
+      20
+     ],
+     "A": [
+      21,
+      42
+     ],
+     "series": [
+      22
+     ],
+     "experiments": [
+      24
+     ],
+     "addressed": [
+      25
+     ],
+     "whether": [
+      26
+     ],
+     "there": [
+      27
+     ],
+     "are": [
+      28,
+      75
+     ],
+     "systematic": [
+      29
+     ],
+     "differences": [
+      30
+     ],
+     "in": [
+      31,
+      88
+     ],
+     "styles": [
+      34
+     ],
+     "between": [
+      35
+     ],
+     "chronically": [
+      36
+     ],
+     "heavy": [
+      37,
+      53,
+      72,
+      97
+     ],
+     "and": [
+      38,
+      54,
+      84
+     ],
+     "light": [
+      39,
+      55
+     ],
+     "multitaskers.": [
+      41,
+      57
+     ],
+     "trait": [
+      43
+     ],
+     "index": [
+      46
+     ],
+     "was": [
+      47
+     ],
+     "developed": [
+      48
+     ],
+     "to": [
+      49,
+      78,
+      92,
+      110,
+      113,
+      139
+     ],
+     "identify": [
+      50
+     ],
+     "groups": [
+      51,
+      60
+     ],
+     "These": [
+      58,
+      122
+     ],
+     "two": [
+      59
+     ],
+     "were": [
+      61
+     ],
+     "then": [
+      62
+     ],
+     "compared": [
+      63
+     ],
+     "along": [
+      64
+     ],
+     "established": [
+      65
+     ],
+     "cognitive": [
+      66
+     ],
+     "control": [
+      67
+     ],
+     "dimensions.": [
+      68
+     ],
+     "Results": [
+      69
+     ],
+     "showed": [
+      70
+     ],
+     "that": [
+      71,
+      96,
+      125
+     ],
+     "multitaskers": [
+      74,
+      99
+     ],
+     "more": [
+      76
+     ],
+     "susceptible": [
+      77
+     ],
+     "interference": [
+      79,
+      116
+     ],
+     "from": [
+      80,
+      85,
+      117
+     ],
+     "irrelevant": [
+      81,
+      86,
+      119
+     ],
+     "environmental": [
+      82
+     ],
+     "stimuli": [
+      83
+     ],
+     "representations": [
+      87
+     ],
+     "memory.": [
+      89
+     ],
+     "This": [
+      90
+     ],
+     "led": [
+      91
+     ],
+     "the": [
+      93,
+      118
+     ],
+     "surprising": [
+      94
+     ],
+     "result": [
+      95
+     ],
+     "performed": [
+      100
+     ],
+     "worse": [
+      101
+     ],
+     "on": [
+      102
+     ],
+     "test": [
+      104
+     ],
+     "task-switching": [
+      106
+     ],
+     "ability,": [
+      107
+     ],
+     "likely": [
+      108
+     ],
+     "due": [
+      109
+     ],
+     "reduced": [
+      111
+     ],
+     "ability": [
+      112
+     ],
+     "filter": [
+      114
+     ],
+     "out": [
+      115
+     ],
+     "task": [
+      120
+     ],
+     "set.": [
+      121
+     ],
+     "results": [
+      123
+     ],
+     "demonstrate": [
+      124
+     ],
+     "multitasking,": [
+      127
+     ],
+     "rapidly": [
+      129
+     ],
+     "growing": [
+      130
+     ],
+     "societal": [
+      131
+     ],
+     "trend,": [
+      132
+     ],
+     "associated": [
+      134
+     ],
+     "with": [
+      135
+     ],
+     "distinct": [
+      137
+     ],
+     "approach": [
+      138
+     ],
+     "fundamental": [
+      140
+     ],
+     "processing.": [
+      142
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5057428224",
+       "display_name": "Eyal Ophir",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Eyal Ophir",
+      "raw_affiliation_strings": [
+       "Symbolic Systems Program and"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Symbolic Systems Program and",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5103836157",
+       "display_name": "Clifford Nass",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I97018004",
+        "display_name": "Stanford University",
+        "ror": "https://ror.org/00f54p054",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I97018004"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Clifford Nass",
+      "raw_affiliation_strings": [
+       "Department of Communication, 450 Serra Mall, Building 120, Stanford University, Stanford, CA 94305-2050; and"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Communication, 450 Serra Mall, Building 120, Stanford University, Stanford, CA 94305-2050; and",
+        "institution_ids": [
+         "https://openalex.org/I97018004"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5019507128",
+       "display_name": "Anthony D. Wagner",
+       "orcid": "https://orcid.org/0000-0003-0624-4543",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0624-4543"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I97018004",
+        "display_name": "Stanford University",
+        "ror": "https://ror.org/00f54p054",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I97018004"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Anthony D. Wagner",
+      "raw_affiliation_strings": [
+       "Department of Psychology and Neurosciences Program, Jordan Hall, Building 420, Stanford University, Stanford, CA 94305-2130",
+       "Stanford University, Stanford, CA 94305-2130"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology and Neurosciences Program, Jordan Hall, Building 420, Stanford University, Stanford, CA 94305-2130",
+        "institution_ids": [
+         "https://openalex.org/I97018004"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Stanford University, Stanford, CA 94305-2130",
+        "institution_ids": [
+         "https://openalex.org/I97018004"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1073/pnas.0903620106",
+     "doi": "https://doi.org/10.1073/pnas.0903620106",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1073/pnas.0903620106",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+       "0027-8424",
+       "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-a",
+       "doyens",
+       "erih-plus",
+       "jufo-3",
+       "ki-jl-3",
+       "medline",
+       "norway-2",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+       "National Academy of Sciences"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Proceedings of the National Academy of Sciences",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3157962720",
+    "doi": "https://doi.org/10.5817/cp2021-2-7",
+    "title": "\u201cCognitive control in media multitaskers\u201d ten years on: A meta-analysis",
+    "display_name": "\u201cCognitive control in media multitaskers\u201d ten years on: A meta-analysis",
+    "publication_year": 2021,
+    "cited_by_count": 76,
+    "abstract_inverted_index": {
+     "In": [
+      0
+     ],
+     "the": [
+      1,
+      26,
+      56,
+      59,
+      64,
+      81,
+      88,
+      102,
+      113,
+      131
+     ],
+     "decade": [
+      2
+     ],
+     "since": [
+      3
+     ],
+     "Ophir,": [
+      4
+     ],
+     "Nass,": [
+      5
+     ],
+     "and": [
+      6,
+      20,
+      41,
+      48,
+      69,
+      96,
+      124,
+      127
+     ],
+     "Wagner\u2019s": [
+      7
+     ],
+     "(2009)": [
+      8
+     ],
+     "seminal": [
+      9
+     ],
+     "study": [
+      10,
+      28
+     ],
+     "numerous": [
+      11
+     ],
+     "researchers": [
+      12
+     ],
+     "have": [
+      13
+     ],
+     "investigated": [
+      14
+     ],
+     "possible": [
+      15
+     ],
+     "associations": [
+      16
+     ],
+     "between": [
+      17,
+      121
+     ],
+     "media": [
+      18,
+      147
+     ],
+     "multitasking": [
+      19
+     ],
+     "cognitive": [
+      21,
+      42,
+      70
+     ],
+     "control.": [
+      22
+     ],
+     "Extending": [
+      23
+     ],
+     "recent": [
+      24
+     ],
+     "reviews,": [
+      25
+     ],
+     "present": [
+      27
+     ],
+     "provides": [
+      29
+     ],
+     "a": [
+      30,
+      45
+     ],
+     "synthesis": [
+      31
+     ],
+     "of": [
+      32,
+      63,
+      115
+     ],
+     "extant": [
+      33
+     ],
+     "research": [
+      34,
+      108
+     ],
+     "into": [
+      35
+     ],
+     "this": [
+      36
+     ],
+     "association": [
+      37,
+      76
+     ],
+     "across": [
+      38,
+      66
+     ],
+     "measurement": [
+      39,
+      67,
+      82,
+      122
+     ],
+     "approachs": [
+      40
+     ],
+     "functions.": [
+      43
+     ],
+     "Following": [
+      44
+     ],
+     "systematic": [
+      46
+     ],
+     "search": [
+      47
+     ],
+     "selection": [
+      49
+     ],
+     "process,": [
+      50
+     ],
+     "118": [
+      51
+     ],
+     "assessments": [
+      52
+     ],
+     "were": [
+      53
+     ],
+     "included": [
+      54
+     ],
+     "in": [
+      55,
+      98,
+      117,
+      146
+     ],
+     "meta-analysis.": [
+      57
+     ],
+     "Overall,": [
+      58,
+      130
+     ],
+     "pooled": [
+      60
+     ],
+     "effect": [
+      61
+     ],
+     "size": [
+      62
+     ],
+     "association,": [
+      65
+     ],
+     "approaches": [
+      68
+     ],
+     "control": [
+      71,
+      145
+     ],
+     "functions,": [
+      72
+     ],
+     "is": [
+      73,
+      77,
+      105
+     ],
+     "small.": [
+      74
+     ],
+     "This": [
+      75
+     ],
+     "moderated": [
+      78
+     ],
+     "both": [
+      79
+     ],
+     "by": [
+      80,
+      87
+     ],
+     "approach": [
+      83
+     ],
+     "as": [
+      84,
+      86
+     ],
+     "well": [
+      85
+     ],
+     "outcome": [
+      89
+     ],
+     "variables": [
+      90
+     ],
+     "targeted.": [
+      91
+     ],
+     "These": [
+      92
+     ],
+     "differences": [
+      93,
+      120
+     ],
+     "are": [
+      94,
+      139
+     ],
+     "tested": [
+      95
+     ],
+     "explained": [
+      97
+     ],
+     "detail.": [
+      99
+     ],
+     "Building": [
+      100
+     ],
+     "on": [
+      101
+     ],
+     "findings,": [
+      103
+     ],
+     "it": [
+      104
+     ],
+     "recommended": [
+      106
+     ],
+     "that": [
+      107
+     ],
+     "be": [
+      109
+     ],
+     "conducted": [
+      110
+     ],
+     "to": [
+      111,
+      142
+     ],
+     "determine": [
+      112
+     ],
+     "sources": [
+      114
+     ],
+     "heterogeneity": [
+      116
+     ],
+     "outcomes,": [
+      118
+     ],
+     "understand": [
+      119
+     ],
+     "approaches,": [
+      123
+     ],
+     "address": [
+      125
+     ],
+     "causality": [
+      126
+     ],
+     "theoretical": [
+      128
+     ],
+     "mechanisms.": [
+      129
+     ],
+     "review": [
+      132
+     ],
+     "suggests": [
+      133
+     ],
+     "that,": [
+      134
+     ],
+     "ten": [
+      135
+     ],
+     "years": [
+      136
+     ],
+     "on,": [
+      137
+     ],
+     "we": [
+      138
+     ],
+     "no": [
+      140
+     ],
+     "closer": [
+      141
+     ],
+     "understanding": [
+      143
+     ],
+     "\u2018cognitive": [
+      144
+     ],
+     "multitaskers.\u2019": [
+      148
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5072119215",
+       "display_name": "Douglas A. Parry",
+       "orcid": "https://orcid.org/0000-0002-6443-3425",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6443-3425"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I26092322",
+        "display_name": "Stellenbosch University",
+        "ror": "https://ror.org/05bk57929",
+        "country_code": "ZA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I26092322"
+        ]
+       }
+      ],
+      "countries": [
+       "ZA"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Douglas A. Parry",
+      "raw_affiliation_strings": [
+       "Stellenbosch University"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-6443-3425",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Stellenbosch University",
+        "institution_ids": [
+         "https://openalex.org/I26092322"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5051136285",
+       "display_name": "Daniel Roux",
+       "orcid": "https://orcid.org/0000-0001-9682-0377",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9682-0377"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I26092322",
+        "display_name": "Stellenbosch University",
+        "ror": "https://ror.org/05bk57929",
+        "country_code": "ZA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I26092322"
+        ]
+       }
+      ],
+      "countries": [
+       "ZA"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Daniel B. Le Roux",
+      "raw_affiliation_strings": [
+       "Stellenbosch University, Stellenbosch, Western Cape, South Africa"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Stellenbosch University, Stellenbosch, Western Cape, South Africa",
+        "institution_ids": [
+         "https://openalex.org/I26092322"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.5817/cp2021-2-7",
+     "doi": "https://doi.org/10.5817/cp2021-2-7",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.5817/cp2021-2-7",
+     "pdf_url": "https://cyberpsychology.eu/article/download/13303/11993",
+     "source": {
+      "id": "https://openalex.org/S4210231826",
+      "display_name": "Cyberpsychology Journal of Psychosocial Research on Cyberspace",
+      "issn_l": "1802-7962",
+      "issn": [
+       "1802-7962"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "ddh",
+       "doaj",
+       "dongbi-d",
+       "erih-plus",
+       "jufo-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310314295",
+      "host_organization_name": "Masaryk University",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310314295"
+      ],
+      "host_organization_lineage_names": [
+       "Masaryk University"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Cyberpsychology: Journal of Psychosocial Research on Cyberspace",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201ae-d4a3-730b-a98f-4e9daaacec60",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795324564,
+ "model": "google/gemma-4-12B-it",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "```json\n{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"The passage explicitly states that the ISI producing maximal retention increased as the retention interval increased.\"}\n```",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 318,
+  "completion_tokens": 41,
+  "total_tokens": 359,
+  "prompt_tokens_details": {
+   "cached_tokens": 16
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.3
+}

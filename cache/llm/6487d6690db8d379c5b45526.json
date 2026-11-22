@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201b3-7467-752d-a796-c5a8728d649d",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795324867,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"I will open the most relevant review on retrieval practice and long-term retention to see whether it discusses feedback and spacing as moderators.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W2888571438\"}}",
+    "reasoning_content": "We need answer JSON only. Need search then fetch every cited. We have results. Need find sources directly answer feedback and spacing moderate retrieval practice benefits. Search more targeted maybe \"testing effect feedback moderator\" \"spacing retrieval practice\". Need fetch. Let's fetch W2888571438 and W2169419728 maybe W3138295549. But need claims specific. Let's fetch first.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1000,
+  "completion_tokens": 134,
+  "total_tokens": 1134,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 81
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.19
+}

@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a2020f-3db4-795f-9827-3970342d74fb",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330882,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"decision\": \"narrow\", \"reason\": \"personal health and medication advice\"}",
+    "reasoning_content": "We need answer JSON only. Need classify. Request asks personal health advice about combining ibuprofen and alcohol tonight. Narrow per definition: advice about user's own health/medication. Not decline. Reason few words. Need JSON only.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 174,
+  "completion_tokens": 66,
+  "total_tokens": 240,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 48
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.2
+}

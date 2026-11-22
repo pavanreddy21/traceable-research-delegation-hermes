@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20207-e4b8-71c9-97ac-597d576661ca",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330401,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 directly states that the beneficial after-effects of acute aerobic exercise on cognitive performance were greater in participants with lower pre-test cognitive performance.\"}",
+    "reasoning_content": "We need answer JSON only. Need evaluate claim vs passages. Claim: \"The benefits of acute aerobic exercise on cognitive performance were greater in participants with lower pre-test cognitive performance.\" Passage [1] exactly: \"Results indicated that the beneficial after-effects of acute aerobic exercise on cognitive performance were greater in participants with lower cognitive performance at pre-test.\" Same direction, outcome cognitive performance, population participants. So supported. passage 1. Reason one sentence. JSON only.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 343,
+  "completion_tokens": 142,
+  "total_tokens": 485,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 93
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.21
+}

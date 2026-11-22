@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20201-ab14-759e-b7e2-d5ff33e49b37",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795329993,
+ "model": "zai-org/GLM-5.3-Flash",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 directly states that recent work has revealed the importance of slow-wave sleep (SWS) for memory consolidation, matching the claim's direction and content.\"}",
+    "reasoning_content": "The claim: \"Recent work has revealed the importance of slow-wave sleep for memory consolidation.\"\n\nPassage [1]: \"Whereas older research concentrated on the role of rapid-eye-movement (REM) sleep, recent work has revealed the importance of slow-wave sleep (SWS) for memory consolidation...\" This directly states the claim. Verdict: supported, passage 1.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 316,
+  "completion_tokens": 129,
+  "total_tokens": 445,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 76
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.24
+}

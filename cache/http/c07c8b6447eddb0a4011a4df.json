@@ -1,0 +1,2826 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 125533,
+   "db_response_time_ms": 253,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (testing effect delayed retention interval) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (testing effect delayed retention interval) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "testing effect delayed retention interval",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:testing effect delayed retention interval,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2800856060",
+    "doi": "https://doi.org/10.1037/xlm0000576",
+    "title": "Sleep reduces the testing effect\u2014But not after corrective feedback and prolonged retention interval.",
+    "display_name": "Sleep reduces the testing effect\u2014But not after corrective feedback and prolonged retention interval.",
+    "publication_year": 2019,
+    "cited_by_count": 37,
+    "abstract_inverted_index": {
+     "Retrieval": [
+      0
+     ],
+     "practice": [
+      1,
+      118,
+      125
+     ],
+     "relative": [
+      2
+     ],
+     "to": [
+      3,
+      88,
+      139
+     ],
+     "restudy": [
+      4,
+      115
+     ],
+     "of": [
+      5,
+      38,
+      42,
+      72,
+      109,
+      144,
+      171,
+      189,
+      198
+     ],
+     "learned": [
+      6
+     ],
+     "material": [
+      7
+     ],
+     "typically": [
+      8
+     ],
+     "attenuates": [
+      9
+     ],
+     "time-dependent": [
+      10
+     ],
+     "forgetting.": [
+      11
+     ],
+     "A": [
+      12
+     ],
+     "recent": [
+      13
+     ],
+     "study": [
+      14,
+      63
+     ],
+     "examining": [
+      15
+     ],
+     "this": [
+      16,
+      69
+     ],
+     "testing": [
+      17,
+      52,
+      76,
+      91,
+      175
+     ],
+     "effect": [
+      18,
+      53,
+      77,
+      176
+     ],
+     "across": [
+      19
+     ],
+     "12-h": [
+      20,
+      104,
+      183
+     ],
+     "delays": [
+      21,
+      105,
+      136,
+      184
+     ],
+     "filled": [
+      22
+     ],
+     "with": [
+      23,
+      119
+     ],
+     "nocturnal": [
+      24
+     ],
+     "sleep": [
+      25,
+      32,
+      55,
+      73,
+      110,
+      145,
+      172,
+      199
+     ],
+     "versus": [
+      26
+     ],
+     "daytime": [
+      27
+     ],
+     "wakefulness,": [
+      28
+     ],
+     "however,": [
+      29
+     ],
+     "showed": [
+      30,
+      107
+     ],
+     "that": [
+      31,
+      83,
+      159
+     ],
+     "directly": [
+      33,
+      146
+     ],
+     "following": [
+      34
+     ],
+     "encoding": [
+      35
+     ],
+     "benefited": [
+      36
+     ],
+     "recall": [
+      37,
+      112
+     ],
+     "restudied": [
+      39,
+      151
+     ],
+     "but": [
+      40,
+      121
+     ],
+     "not": [
+      41,
+      122
+     ],
+     "retrieval": [
+      43,
+      117,
+      124,
+      153
+     ],
+     "practiced": [
+      44,
+      154
+     ],
+     "items,": [
+      45
+     ],
+     "which": [
+      46,
+      192
+     ],
+     "reduced,": [
+      47
+     ],
+     "and": [
+      48,
+      95,
+      101,
+      106,
+      116,
+      130,
+      137,
+      152,
+      163,
+      185
+     ],
+     "even": [
+      49
+     ],
+     "eliminated,": [
+      50
+     ],
+     "the": [
+      51,
+      75,
+      90,
+      168,
+      174,
+      187,
+      201
+     ],
+     "after": [
+      54,
+      113,
+      123,
+      147,
+      182
+     ],
+     "(B\u00e4uml,": [
+      56
+     ],
+     "Holterman,": [
+      57
+     ],
+     "&": [
+      58
+     ],
+     "Abel,": [
+      59
+     ],
+     "2014).": [
+      60
+     ],
+     "The": [
+      61
+     ],
+     "present": [
+      62
+     ],
+     "investigated,": [
+      64
+     ],
+     "in": [
+      65,
+      186
+     ],
+     "4": [
+      66
+     ],
+     "experiments,": [
+      67
+     ],
+     "whether": [
+      68
+     ],
+     "modulating": [
+      70,
+      169
+     ],
+     "role": [
+      71,
+      170
+     ],
+     "for": [
+      74,
+      111,
+      173
+     ],
+     "is": [
+      78
+     ],
+     "influenced": [
+      79
+     ],
+     "by": [
+      80
+     ],
+     "two": [
+      81
+     ],
+     "factors": [
+      82
+     ],
+     "have": [
+      84
+     ],
+     "previously": [
+      85
+     ],
+     "been": [
+      86
+     ],
+     "shown": [
+      87
+     ],
+     "increase": [
+      89
+     ],
+     "effect:": [
+      92
+     ],
+     "corrective": [
+      93,
+      161,
+      190
+     ],
+     "feedback": [
+      94,
+      162
+     ],
+     "prolonged": [
+      96,
+      164
+     ],
+     "retention": [
+      97,
+      165
+     ],
+     "intervals.": [
+      98
+     ],
+     "Experiments": [
+      99,
+      128
+     ],
+     "1a": [
+      100
+     ],
+     "1b": [
+      102
+     ],
+     "applied": [
+      103,
+      132
+     ],
+     "benefits": [
+      108,
+      143
+     ],
+     "both": [
+      114,
+      150,
+      160
+     ],
+     "feedback,": [
+      120,
+      191
+     ],
+     "without": [
+      126
+     ],
+     "feedback.": [
+      127
+     ],
+     "2a": [
+      129
+     ],
+     "2b": [
+      131
+     ],
+     "24-h": [
+      133
+     ],
+     "or": [
+      134
+     ],
+     "7-day": [
+      135
+     ],
+     "failed": [
+      138
+     ],
+     "observe": [
+      140
+     ],
+     "any": [
+      141
+     ],
+     "long-lasting": [
+      142
+     ],
+     "encoding,": [
+      148
+     ],
+     "on": [
+      149,
+      200
+     ],
+     "items.": [
+      155
+     ],
+     "These": [
+      156
+     ],
+     "results": [
+      157
+     ],
+     "indicate": [
+      158
+     ],
+     "intervals": [
+      166
+     ],
+     "reduce": [
+      167
+     ],
+     "as": [
+      177
+     ],
+     "it": [
+      178
+     ],
+     "can": [
+      179
+     ],
+     "be": [
+      180
+     ],
+     "observed": [
+      181
+     ],
+     "absence": [
+      188
+     ],
+     "suggests": [
+      193
+     ],
+     "a": [
+      194
+     ],
+     "fairly": [
+      195
+     ],
+     "limited": [
+      196
+     ],
+     "influence": [
+      197
+     ],
+     "effect.": [
+      202
+     ],
+     "(PsycINFO": [
+      203
+     ],
+     "Database": [
+      204
+     ],
+     "Record": [
+      205
+     ],
+     "(c)": [
+      206
+     ],
+     "2019": [
+      207
+     ],
+     "APA,": [
+      208
+     ],
+     "all": [
+      209
+     ],
+     "rights": [
+      210
+     ],
+     "reserved).": [
+      211
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5025102205",
+       "display_name": "Magdalena Abel",
+       "orcid": "https://orcid.org/0000-0003-0107-3255",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0107-3255"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I60668342",
+        "display_name": "University of Regensburg",
+        "ror": "https://ror.org/01eezs655",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I60668342"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Magdalena Abel",
+      "raw_affiliation_strings": [
+       "Department of Experimental Psychology, Regensburg University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Experimental Psychology, Regensburg University",
+        "institution_ids": [
+         "https://openalex.org/I60668342"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5043365666",
+       "display_name": "Valerie Haller",
+       "orcid": "https://orcid.org/0009-0007-1599-7850",
+       "observed_orcids": [
+        "https://orcid.org/0009-0007-1599-7850"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I60668342",
+        "display_name": "University of Regensburg",
+        "ror": "https://ror.org/01eezs655",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I60668342"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Valerie Haller",
+      "raw_affiliation_strings": [
+       "Department of Experimental Psychology, Regensburg University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Experimental Psychology, Regensburg University",
+        "institution_ids": [
+         "https://openalex.org/I60668342"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5008220140",
+       "display_name": "Hanna K\u00f6ck",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I60668342",
+        "display_name": "University of Regensburg",
+        "ror": "https://ror.org/01eezs655",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I60668342"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Hanna K\u00f6ck",
+      "raw_affiliation_strings": [
+       "Department of Experimental Psychology, Regensburg University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Experimental Psychology, Regensburg University",
+        "institution_ids": [
+         "https://openalex.org/I60668342"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5070770339",
+       "display_name": "Sarah P\u00f6tschke",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I60668342",
+        "display_name": "University of Regensburg",
+        "ror": "https://ror.org/01eezs655",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I60668342"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Sarah P\u00f6tschke",
+      "raw_affiliation_strings": [
+       "Department of Experimental Psychology, Regensburg University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Experimental Psychology, Regensburg University",
+        "institution_ids": [
+         "https://openalex.org/I60668342"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5069396751",
+       "display_name": "Dominik Philip Johannes Heib",
+       "orcid": "https://orcid.org/0000-0002-7977-8557",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7977-8557"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I182212641",
+        "display_name": "University of Salzburg",
+        "ror": "https://ror.org/05gs8cd61",
+        "country_code": "AT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I182212641"
+        ]
+       }
+      ],
+      "countries": [
+       "AT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Dominik Heib",
+      "raw_affiliation_strings": [
+       "Center for Cognitive Neuroscience, University of Salzburg"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Cognitive Neuroscience, University of Salzburg",
+        "institution_ids": [
+         "https://openalex.org/I182212641"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5089232791",
+       "display_name": "Manuel Schabus",
+       "orcid": "https://orcid.org/0000-0001-5899-8772",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5899-8772"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I182212641",
+        "display_name": "University of Salzburg",
+        "ror": "https://ror.org/05gs8cd61",
+        "country_code": "AT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I182212641"
+        ]
+       }
+      ],
+      "countries": [
+       "AT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Manuel Schabus",
+      "raw_affiliation_strings": [
+       "Center for Cognitive Neuroscience, University of Salzburg"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-5899-8772",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Cognitive Neuroscience, University of Salzburg",
+        "institution_ids": [
+         "https://openalex.org/I182212641"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5025406618",
+       "display_name": "Karl\u2010Heinz T. B\u00e4uml",
+       "orcid": "https://orcid.org/0000-0002-4966-9288",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4966-9288"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I60668342",
+        "display_name": "University of Regensburg",
+        "ror": "https://ror.org/01eezs655",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I60668342"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Karl-Heinz T. B\u00e4uml",
+      "raw_affiliation_strings": [
+       "Department of Experimental Psychology, Regensburg University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Experimental Psychology, Regensburg University",
+        "institution_ids": [
+         "https://openalex.org/I60668342"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1037/xlm0000576",
+     "doi": "https://doi.org/10.1037/xlm0000576",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1037/xlm0000576",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S18666220",
+      "display_name": "Journal of Experimental Psychology Learning Memory and Cognition",
+      "issn_l": "0278-7393",
+      "issn": [
+       "0278-7393",
+       "1939-1285"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-a",
+       "anvur-class-a",
+       "cwts-core",
+       "dongbi-b",
+       "erih-plus",
+       "jufo-2",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320262",
+      "host_organization_name": "American Psychological Association",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320262"
+      ],
+      "host_organization_lineage_names": [
+       "American Psychological Association"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W1989870854",
+    "doi": "https://doi.org/10.1080/14640749408401128",
+    "title": "The Effect of Cue-Familiarity, Cue-Distinctiveness, and Retention Interval on Prospective Remembering",
+    "display_name": "The Effect of Cue-Familiarity, Cue-Distinctiveness, and Retention Interval on Prospective Remembering",
+    "publication_year": 1994,
+    "cited_by_count": 208,
+    "abstract_inverted_index": {
+     "Five": [
+      0
+     ],
+     "experiments": [
+      1
+     ],
+     "investigated": [
+      2
+     ],
+     "the": [
+      3,
+      29,
+      44,
+      47,
+      75,
+      86,
+      98,
+      106,
+      111,
+      166
+     ],
+     "effects": [
+      4
+     ],
+     "of": [
+      5,
+      54,
+      80,
+      85,
+      95
+     ],
+     "cue": [
+      6,
+      8,
+      30,
+      87
+     ],
+     "familiarity,": [
+      7
+     ],
+     "distinctiveness,": [
+      9
+     ],
+     "and": [
+      10,
+      35,
+      46,
+      71,
+      151
+     ],
+     "retention": [
+      11
+     ],
+     "interval": [
+      12
+     ],
+     "on": [
+      13
+     ],
+     "prospective": [
+      14,
+      23,
+      124,
+      162,
+      169
+     ],
+     "remembering.": [
+      15
+     ],
+     "Results": [
+      16
+     ],
+     "showed": [
+      17,
+      119
+     ],
+     "that": [
+      18,
+      77,
+      120
+     ],
+     "(1)": [
+      19
+     ],
+     "performance": [
+      20,
+      108
+     ],
+     "in": [
+      21,
+      97,
+      110,
+      137
+     ],
+     "a": [
+      22,
+      132,
+      138
+     ],
+     "memory": [
+      24
+     ],
+     "task": [
+      25,
+      48
+     ],
+     "is": [
+      26,
+      31,
+      38
+     ],
+     "facilitated": [
+      27
+     ],
+     "when": [
+      28,
+      59,
+      126
+     ],
+     "unfamiliar": [
+      32
+     ],
+     "and/or": [
+      33
+     ],
+     "distinctive;": [
+      34
+     ],
+     "(2)": [
+      36
+     ],
+     "it": [
+      37,
+      127
+     ],
+     "impaired": [
+      39
+     ],
+     "by": [
+      40
+     ],
+     "3-minutes'": [
+      41
+     ],
+     "delay": [
+      42,
+      121,
+      150
+     ],
+     "between": [
+      43
+     ],
+     "instructions": [
+      45
+     ],
+     "(Experiment": [
+      49,
+      67,
+      90,
+      101
+     ],
+     "1).": [
+      50
+     ],
+     "A": [
+      51
+     ],
+     "beneficial": [
+      52
+     ],
+     "effect": [
+      53
+     ],
+     "distinctiveness": [
+      55,
+      64
+     ],
+     "was": [
+      56,
+      65,
+      128
+     ],
+     "also": [
+      57
+     ],
+     "found": [
+      58,
+      158
+     ],
+     "perceptual": [
+      60
+     ],
+     "rather": [
+      61
+     ],
+     "than": [
+      62
+     ],
+     "semantic": [
+      63
+     ],
+     "tested": [
+      66
+     ],
+     "2).": [
+      68
+     ],
+     "Experiments": [
+      69
+     ],
+     "3": [
+      70
+     ],
+     "4": [
+      72
+     ],
+     "ruled": [
+      73
+     ],
+     "out": [
+      74
+     ],
+     "hypotheses": [
+      76
+     ],
+     "\"unfulfilled": [
+      78
+     ],
+     "expectancy\"": [
+      79
+     ],
+     "an": [
+      81,
+      142,
+      152
+     ],
+     "event": [
+      82
+     ],
+     "(i.e.": [
+      83
+     ],
+     "non-appearance": [
+      84
+     ],
+     "during": [
+      88
+     ],
+     "training)": [
+      89
+     ],
+     "3),": [
+      91
+     ],
+     "or": [
+      92,
+      141
+     ],
+     "some": [
+      93
+     ],
+     "sort": [
+      94
+     ],
+     "\"habituation\"": [
+      96
+     ],
+     "target": [
+      99
+     ],
+     "context": [
+      100
+     ],
+     "4),": [
+      102
+     ],
+     "may": [
+      103
+     ],
+     "have": [
+      104
+     ],
+     "caused": [
+      105
+     ],
+     "low": [
+      107
+     ],
+     "observed": [
+      109
+     ],
+     "delayed": [
+      112
+     ],
+     "conditions.": [
+      113
+     ],
+     "Finally,": [
+      114
+     ],
+     "results": [
+      115
+     ],
+     "from": [
+      116
+     ],
+     "Experiment": [
+      117
+     ],
+     "5": [
+      118
+     ],
+     "negatively": [
+      122
+     ],
+     "affected": [
+      123
+     ],
+     "remembering": [
+      125,
+      170
+     ],
+     "filled": [
+      129
+     ],
+     "with": [
+      130
+     ],
+     "either": [
+      131
+     ],
+     "demanding": [
+      133
+     ],
+     "interpolated": [
+      134
+     ],
+     "activity": [
+      135,
+      145,
+      155
+     ],
+     "(practice": [
+      136
+     ],
+     "STM": [
+      139
+     ],
+     "task)": [
+      140
+     ],
+     "undemanding": [
+      143,
+      153
+     ],
+     "motoric": [
+      144
+     ],
+     "(repetitive": [
+      146
+     ],
+     "hands": [
+      147
+     ],
+     "movements).": [
+      148
+     ],
+     "Unfilled": [
+      149
+     ],
+     "verbal": [
+      154
+     ],
+     "(counting)": [
+      156
+     ],
+     "were": [
+      157
+     ],
+     "not": [
+      159
+     ],
+     "to": [
+      160
+     ],
+     "affect": [
+      161
+     ],
+     "memory.": [
+      163
+     ],
+     "Implications": [
+      164
+     ],
+     "for": [
+      165
+     ],
+     "mechanisms": [
+      167
+     ],
+     "underlying": [
+      168
+     ],
+     "are": [
+      171
+     ],
+     "discussed.": [
+      172
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5044935726",
+       "display_name": "Maria Antonella Brandimonte",
+       "orcid": "https://orcid.org/0000-0002-2528-0008",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2528-0008"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I142444530",
+        "display_name": "University of Trieste",
+        "ror": "https://ror.org/02n742c10",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I142444530"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Maria A. Brandimonte",
+      "raw_affiliation_strings": [
+       "University of Trieste, Trieste, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Trieste, Trieste, Italy",
+        "institution_ids": [
+         "https://openalex.org/I142444530"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5034777652",
+       "display_name": "Maria Chiara Passolunghi",
+       "orcid": "https://orcid.org/0000-0001-6713-866X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6713-866X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I142444530",
+        "display_name": "University of Trieste",
+        "ror": "https://ror.org/02n742c10",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I142444530"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "M. Chiara Passolunghi",
+      "raw_affiliation_strings": [
+       "University of Trieste, Trieste, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Trieste, Trieste, Italy",
+        "institution_ids": [
+         "https://openalex.org/I142444530"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1080/14640749408401128",
+     "doi": "https://doi.org/10.1080/14640749408401128",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1080/14640749408401128",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4210181449",
+      "display_name": "The Quarterly Journal of Experimental Psychology Section A",
+      "issn_l": "0272-4987",
+      "issn": [
+       "0272-4987",
+       "1464-0740"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core"
+      ],
+      "host_organization": "https://openalex.org/P4310320017",
+      "host_organization_name": "SAGE Publishing",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320017"
+      ],
+      "host_organization_lineage_names": [
+       "SAGE Publishing"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "The Quarterly Journal of Experimental Psychology Section A",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4310089878",
+    "doi": "https://doi.org/10.1037/mac0000085",
+    "title": "The pretesting effect comes to full fruition after prolonged retention interval.",
+    "display_name": "The pretesting effect comes to full fruition after prolonged retention interval.",
+    "publication_year": 2024,
+    "cited_by_count": 17,
+    "abstract_inverted_index": {
+     "Taking": [
+      0
+     ],
+     "a": [
+      1,
+      14,
+      132
+     ],
+     "pretest": [
+      2
+     ],
+     "before": [
+      3
+     ],
+     "material": [
+      4,
+      12,
+      48,
+      68,
+      89,
+      99
+     ],
+     "is": [
+      5,
+      31
+     ],
+     "studied": [
+      6,
+      116
+     ],
+     "can": [
+      7
+     ],
+     "enhance": [
+      8
+     ],
+     "recall": [
+      9,
+      91
+     ],
+     "of": [
+      10,
+      27,
+      52,
+      72,
+      86,
+      92,
+      105,
+      111,
+      115,
+      148
+     ],
+     "that": [
+      11,
+      36,
+      100
+     ],
+     "on": [
+      13
+     ],
+     "subsequent": [
+      15
+     ],
+     "final": [
+      16,
+      39
+     ],
+     "test.": [
+      17,
+      40
+     ],
+     "In": [
+      18,
+      78
+     ],
+     "the": [
+      19,
+      25,
+      34,
+      38,
+      87,
+      93,
+      109
+     ],
+     "present": [
+      20
+     ],
+     "research,": [
+      21
+     ],
+     "we": [
+      22,
+      81
+     ],
+     "examined": [
+      23,
+      82
+     ],
+     "whether": [
+      24,
+      83
+     ],
+     "magnitude": [
+      26
+     ],
+     "this": [
+      28,
+      119
+     ],
+     "pretesting": [
+      29,
+      84,
+      112,
+      120
+     ],
+     "effect": [
+      30,
+      121
+     ],
+     "modulated": [
+      32
+     ],
+     "by": [
+      33
+     ],
+     "delay": [
+      35
+     ],
+     "precedes": [
+      37
+     ],
+     "Experiment": [
+      41,
+      57
+     ],
+     "1": [
+      42
+     ],
+     "employed": [
+      43,
+      59
+     ],
+     "paired": [
+      44
+     ],
+     "associates": [
+      45
+     ],
+     "as": [
+      46,
+      66
+     ],
+     "study": [
+      47,
+      67,
+      88
+     ],
+     "and": [
+      49,
+      69,
+      123
+     ],
+     "retention": [
+      50,
+      70,
+      114
+     ],
+     "intervals": [
+      51,
+      71
+     ],
+     "up": [
+      53,
+      73
+     ],
+     "to": [
+      54,
+      74,
+      97,
+      142
+     ],
+     "30": [
+      55
+     ],
+     "min;": [
+      56
+     ],
+     "2": [
+      58
+     ],
+     "an": [
+      60
+     ],
+     "educationally": [
+      61
+     ],
+     "more": [
+      62
+     ],
+     "relevant": [
+      63
+     ],
+     "prose": [
+      64
+     ],
+     "passage": [
+      65
+     ],
+     "one": [
+      75
+     ],
+     "whole": [
+      76
+     ],
+     "week.": [
+      77
+     ],
+     "both": [
+      79,
+      106
+     ],
+     "experiments,": [
+      80
+     ],
+     "some": [
+      85
+     ],
+     "improved": [
+      90
+     ],
+     "pretested": [
+      94
+     ],
+     "information": [
+      95,
+      139
+     ],
+     "relative": [
+      96
+     ],
+     "other": [
+      98
+     ],
+     "was": [
+      101
+     ],
+     "not": [
+      102
+     ],
+     "pretested.": [
+      103
+     ],
+     "Results": [
+      104
+     ],
+     "experiments": [
+      107
+     ],
+     "replicated": [
+      108
+     ],
+     "benefit": [
+      110
+     ],
+     "for": [
+      113
+     ],
+     "material.": [
+      117
+     ],
+     "Strikingly,": [
+      118
+     ],
+     "increased": [
+      122
+     ],
+     "roughly": [
+      124
+     ],
+     "doubled": [
+      125
+     ],
+     "with": [
+      126
+     ],
+     "increasing": [
+      127
+     ],
+     "delay.": [
+      128
+     ],
+     "Pretesting": [
+      129
+     ],
+     "could": [
+      130
+     ],
+     "play": [
+      131
+     ],
+     "significant": [
+      133
+     ],
+     "role": [
+      134
+     ],
+     "in": [
+      135
+     ],
+     "educational": [
+      136
+     ],
+     "settings": [
+      137
+     ],
+     "where": [
+      138
+     ],
+     "typically": [
+      140
+     ],
+     "needs": [
+      141
+     ],
+     "be": [
+      143
+     ],
+     "retained": [
+      144
+     ],
+     "over": [
+      145
+     ],
+     "longer": [
+      146
+     ],
+     "periods": [
+      147
+     ],
+     "time.": [
+      149
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5037579310",
+       "display_name": "Oliver Kliegl",
+       "orcid": "https://orcid.org/0000-0001-7730-4019",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7730-4019"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Oliver Kliegl",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5045183992",
+       "display_name": "Johannes Bartl",
+       "orcid": "https://orcid.org/0000-0003-1547-6450",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1547-6450"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Johannes Bartl",
+      "raw_affiliation_strings": [],
+      "raw_orcid": "https://orcid.org/0000-0003-1547-6450",
+      "affiliations": []
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5025406618",
+       "display_name": "Karl\u2010Heinz T. B\u00e4uml",
+       "orcid": "https://orcid.org/0000-0002-4966-9288",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4966-9288"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Karl-Heinz T. B\u00e4uml",
+      "raw_affiliation_strings": [],
+      "raw_orcid": "https://orcid.org/0000-0002-4966-9288",
+      "affiliations": []
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1037/mac0000085",
+     "doi": "https://doi.org/10.1037/mac0000085",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1037/mac0000085",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S2764634622",
+      "display_name": "Journal of Applied Research in Memory and Cognition",
+      "issn_l": "2211-3681",
+      "issn": [
+       "2211-3681",
+       "2211-369X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-b",
+       "erih-plus",
+       "jufo-1",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320262",
+      "host_organization_name": "American Psychological Association",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320262"
+      ],
+      "host_organization_lineage_names": [
+       "American Psychological Association"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Applied Research in Memory and Cognition",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2084574041",
+    "doi": "https://doi.org/10.1080/17470218.2011.638079",
+    "title": "Decomposing the interaction between retention interval and study/test practice: The role of retrievability",
+    "display_name": "Decomposing the interaction between retention interval and study/test practice: The role of retrievability",
+    "publication_year": 2012,
+    "cited_by_count": 54,
+    "abstract_inverted_index": {
+     "Even": [
+      0
+     ],
+     "without": [
+      1
+     ],
+     "feedback,": [
+      2
+     ],
+     "test": [
+      3,
+      41,
+      56,
+      94,
+      128,
+      146
+     ],
+     "practice": [
+      4,
+      74,
+      129,
+      173
+     ],
+     "enhances": [
+      5
+     ],
+     "delayed": [
+      6
+     ],
+     "performance": [
+      7,
+      156
+     ],
+     "compared": [
+      8
+     ],
+     "to": [
+      9,
+      176
+     ],
+     "study": [
+      10,
+      54,
+      89,
+      110,
+      126,
+      140
+     ],
+     "practice,": [
+      11
+     ],
+     "but": [
+      12,
+      116
+     ],
+     "the": [
+      13,
+      16,
+      24,
+      66,
+      80,
+      125,
+      161,
+      168,
+      177
+     ],
+     "size": [
+      14,
+      170
+     ],
+     "of": [
+      15,
+      26,
+      171,
+      180
+     ],
+     "effect": [
+      17,
+      169
+     ],
+     "is": [
+      18,
+      174
+     ],
+     "variable": [
+      19
+     ],
+     "across": [
+      20,
+      59
+     ],
+     "studies.": [
+      21
+     ],
+     "We": [
+      22
+     ],
+     "investigated": [
+      23
+     ],
+     "benefit": [
+      25,
+      90,
+      99,
+      111
+     ],
+     "testing,": [
+      27
+     ],
+     "separating": [
+      28
+     ],
+     "initially": [
+      29,
+      33,
+      134
+     ],
+     "retrievable": [
+      30,
+      77,
+      181
+     ],
+     "items": [
+      31,
+      48,
+      136
+     ],
+     "from": [
+      32
+     ],
+     "nonretrievable": [
+      34,
+      47,
+      104,
+      135,
+      183
+     ],
+     "items.": [
+      35,
+      184
+     ],
+     "In": [
+      36,
+      131
+     ],
+     "two": [
+      37,
+      162
+     ],
+     "experiments,": [
+      38
+     ],
+     "an": [
+      39,
+      92,
+      113,
+      144
+     ],
+     "initial": [
+      40
+     ],
+     "determined": [
+      42
+     ],
+     "item": [
+      43
+     ],
+     "retrievability.": [
+      44
+     ],
+     "Retrievable": [
+      45
+     ],
+     "or": [
+      46,
+      55,
+      147
+     ],
+     "were": [
+      49,
+      137
+     ],
+     "subsequently": [
+      50
+     ],
+     "presented": [
+      51
+     ],
+     "for": [
+      52,
+      91,
+      112
+     ],
+     "repeated": [
+      53
+     ],
+     "practice.": [
+      57
+     ],
+     "Collapsing": [
+      58
+     ],
+     "items,": [
+      60,
+      78,
+      105
+     ],
+     "in": [
+      61
+     ],
+     "Experiment": [
+      62,
+      132
+     ],
+     "1,": [
+      63
+     ],
+     "we": [
+      64
+     ],
+     "obtained": [
+      65
+     ],
+     "typical": [
+      67
+     ],
+     "cross-over": [
+      68,
+      81
+     ],
+     "interaction": [
+      69,
+      82
+     ],
+     "between": [
+      70,
+      124,
+      160
+     ],
+     "retention": [
+      71
+     ],
+     "interval": [
+      72
+     ],
+     "and": [
+      73,
+      95,
+      127,
+      152,
+      182
+     ],
+     "type.": [
+      75
+     ],
+     "For": [
+      76,
+      103
+     ],
+     "however,": [
+      79
+     ],
+     "was": [
+      83,
+      107,
+      121
+     ],
+     "quantitatively": [
+      84
+     ],
+     "different,": [
+      85
+     ],
+     "with": [
+      86
+     ],
+     "a": [
+      87,
+      96,
+      101,
+      108
+     ],
+     "small": [
+      88
+     ],
+     "immediate": [
+      93,
+      114,
+      145
+     ],
+     "larger": [
+      97
+     ],
+     "testing": [
+      98
+     ],
+     "after": [
+      100
+     ],
+     "delay.": [
+      102
+     ],
+     "there": [
+      106,
+      120
+     ],
+     "large": [
+      109
+     ],
+     "test,": [
+      115
+     ],
+     "one": [
+      117,
+      153
+     ],
+     "week": [
+      118,
+      154
+     ],
+     "later": [
+      119,
+      155
+     ],
+     "no": [
+      122
+     ],
+     "difference": [
+      123
+     ],
+     "conditions.": [
+      130,
+      163
+     ],
+     "2,": [
+      133
+     ],
+     "given": [
+      138
+     ],
+     "additional": [
+      139,
+      150
+     ],
+     "followed": [
+      141
+     ],
+     "by": [
+      142
+     ],
+     "either": [
+      143
+     ],
+     "even": [
+      148
+     ],
+     "more": [
+      149
+     ],
+     "study,": [
+      151
+     ],
+     "did": [
+      157
+     ],
+     "not": [
+      158
+     ],
+     "differ": [
+      159
+     ],
+     "These": [
+      164
+     ],
+     "results": [
+      165
+     ],
+     "indicate": [
+      166
+     ],
+     "that": [
+      167
+     ],
+     "study/test": [
+      172
+     ],
+     "due": [
+      175
+     ],
+     "relative": [
+      178
+     ],
+     "contribution": [
+      179
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": null,
+       "display_name": "Yoonhee Jang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Yoonhee Jang",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of California, San Diego, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California, San Diego, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5068581901",
+       "display_name": "John Timothy Wixted",
+       "orcid": "https://orcid.org/0000-0001-6282-5479",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6282-5479"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "John T. Wixted",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of California, San Diego, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California, San Diego, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5059172501",
+       "display_name": "Diane Pecher",
+       "orcid": "https://orcid.org/0000-0003-0976-6080",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0976-6080"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I913958620",
+        "display_name": "Erasmus University Rotterdam",
+        "ror": "https://ror.org/057w15z03",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I913958620"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Diane Pecher",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Erasmus University Rotterdam, Rotterdam, The Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Erasmus University Rotterdam, Rotterdam, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I913958620"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5047775766",
+       "display_name": "Ren\u00e9 Zeelenberg",
+       "orcid": "https://orcid.org/0000-0002-0745-3817",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0745-3817"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I913958620",
+        "display_name": "Erasmus University Rotterdam",
+        "ror": "https://ror.org/057w15z03",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I913958620"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Ren\u00e9 Zeelenberg",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Erasmus University Rotterdam, Rotterdam, The Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Erasmus University Rotterdam, Rotterdam, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I913958620"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5011001901",
+       "display_name": "David E. Huber",
+       "orcid": "https://orcid.org/0000-0002-7709-7993",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7709-7993"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "David E. Huber",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of California, San Diego, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California, San Diego, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1080/17470218.2011.638079",
+     "doi": "https://doi.org/10.1080/17470218.2011.638079",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1080/17470218.2011.638079",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S59062809",
+      "display_name": "Quarterly Journal of Experimental Psychology",
+      "issn_l": "0033-555X",
+      "issn": [
+       "0033-555X",
+       "1747-0218",
+       "1747-0226"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-a",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-c",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320017",
+      "host_organization_name": "SAGE Publishing",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320017"
+      ],
+      "host_organization_lineage_names": [
+       "SAGE Publishing"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Quarterly Journal of Experimental Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W1963790766",
+    "doi": "https://doi.org/10.2466/pms.1995.80.3.723",
+    "title": "Retention Intervals and Serial List Memory",
+    "display_name": "Retention Intervals and Serial List Memory",
+    "publication_year": 1995,
+    "cited_by_count": 19,
+    "abstract_inverted_index": {
+     "Pictorial": [
+      0
+     ],
+     "stimuli": [
+      1
+     ],
+     "were": [
+      2
+     ],
+     "presented": [
+      3
+     ],
+     "in": [
+      4,
+      39
+     ],
+     "serial": [
+      5
+     ],
+     "lists": [
+      6
+     ],
+     "and": [
+      7,
+      13,
+      23,
+      34,
+      78
+     ],
+     "tested": [
+      8
+     ],
+     "for": [
+      9,
+      50
+     ],
+     "recognition.": [
+      10,
+      86
+     ],
+     "11": [
+      11
+     ],
+     "men": [
+      12
+     ],
+     "9": [
+      14
+     ],
+     "women": [
+      15
+     ],
+     "participated": [
+      16
+     ],
+     "at": [
+      17
+     ],
+     "retention": [
+      18,
+      29,
+      72
+     ],
+     "intervals": [
+      19,
+      73
+     ],
+     "of": [
+      20,
+      28,
+      42,
+      53,
+      67
+     ],
+     "5,": [
+      21
+     ],
+     "15,": [
+      22
+     ],
+     "25": [
+      24
+     ],
+     "sec.": [
+      25
+     ],
+     "The": [
+      26
+     ],
+     "length": [
+      27
+     ],
+     "interval": [
+      30
+     ],
+     "interacted": [
+      31
+     ],
+     "with": [
+      32,
+      79
+     ],
+     "primacy": [
+      33,
+      61,
+      83
+     ],
+     "recency": [
+      35,
+      59,
+      75
+     ],
+     "effects": [
+      36
+     ],
+     "as": [
+      37
+     ],
+     "observed": [
+      38
+     ],
+     "earlier": [
+      40
+     ],
+     "studies": [
+      41
+     ],
+     "abstract": [
+      43
+     ],
+     "stimuli,": [
+      44
+     ],
+     "indicating": [
+      45
+     ],
+     "similar": [
+      46
+     ],
+     "basic": [
+      47
+     ],
+     "memory": [
+      48
+     ],
+     "functions": [
+      49
+     ],
+     "different": [
+      51
+     ],
+     "types": [
+      52
+     ],
+     "visual": [
+      54
+     ],
+     "stimuli.": [
+      55
+     ],
+     "A": [
+      56
+     ],
+     "shift": [
+      57
+     ],
+     "from": [
+      58
+     ],
+     "to": [
+      60
+     ],
+     "dominance": [
+      62
+     ],
+     "remained": [
+      63
+     ],
+     "despite": [
+      64
+     ],
+     "the": [
+      65
+     ],
+     "likelihood": [
+      66
+     ],
+     "verbal": [
+      68
+     ],
+     "rehearsal.": [
+      69
+     ],
+     "At": [
+      70
+     ],
+     "short": [
+      71
+     ],
+     "a": [
+      74,
+      82
+     ],
+     "effect": [
+      76,
+      84
+     ],
+     "predominated": [
+      77,
+      85
+     ],
+     "longer": [
+      80
+     ],
+     "delays": [
+      81
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5011877014",
+       "display_name": "Maria Stylianou Korsnes",
+       "orcid": "https://orcid.org/0000-0003-0774-5147",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0774-5147"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Maria Stylianou Korsnes",
+      "raw_affiliation_strings": [
+       "The National Hospital, Oslo"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "The National Hospital, Oslo",
+        "institution_ids": []
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.2466/pms.1995.80.3.723",
+     "doi": "https://doi.org/10.2466/pms.1995.80.3.723",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.2466/pms.1995.80.3.723",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S110965136",
+      "display_name": "Perceptual and Motor Skills",
+      "issn_l": "0031-5125",
+      "issn": [
+       "0031-5125",
+       "1558-688X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-c",
+       "jufo-1",
+       "medline",
+       "norway-1",
+       "poland-40",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320017",
+      "host_organization_name": "SAGE Publishing",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320017"
+      ],
+      "host_organization_lineage_names": [
+       "SAGE Publishing"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Perceptual and Motor Skills",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

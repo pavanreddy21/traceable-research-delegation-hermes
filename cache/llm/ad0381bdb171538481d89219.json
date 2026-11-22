@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201c5-a965-7d4f-8350-61ad6b12af05",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795326060,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"I need to search for meta-analyses on spaced vs massed practice and delayed recall.\", \"action\": \"search_papers\", \"args\": {\"query\": \"spaced practice delayed recall meta-analysis\"}}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 341,
+  "completion_tokens": 48,
+  "total_tokens": 389,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.2
+}

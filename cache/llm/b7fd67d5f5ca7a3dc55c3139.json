@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a2023c-b1e3-7158-81d4-6b5969176632",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795333861,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Try the broadest core term 'testing effect' to see if the search index returns anything at all.\", \"action\": \"search_papers\", \"args\": {\"query\": \"testing effect\"}}",
+    "reasoning_content": "Search returns nothing repeatedly. Try very broad \"testing effect\".",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 614,
+  "completion_tokens": 58,
+  "total_tokens": 672,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 13
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.22
+}

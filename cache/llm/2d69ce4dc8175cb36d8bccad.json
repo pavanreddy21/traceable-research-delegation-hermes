@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201b0-c9ad-72a0-9db7-2b93b382963b",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795324692,
+ "model": "google/gemma-4-12B-it",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "```json\n{\"verdict\": \"not_supported\", \"passage\": 2, \"reason\": \"The source states that background music has 'some small detrimental effects on memory' rather than improving it.\"}\n```",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 308,
+  "completion_tokens": 46,
+  "total_tokens": 354,
+  "prompt_tokens_details": {
+   "cached_tokens": 16
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.2
+}

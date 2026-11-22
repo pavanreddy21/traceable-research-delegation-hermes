@@ -1,0 +1,2429 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 551,
+   "db_response_time_ms": 122,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (cramming spacing long-term retention) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (cramming spacing long-term retention) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "cramming spacing long-term retention",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:cramming spacing long-term retention,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2069521020",
+    "doi": "https://doi.org/10.1002/acp.1747",
+    "title": "Spacing effects in real\u2010world classroom vocabulary learning",
+    "display_name": "Spacing effects in real\u2010world classroom vocabulary learning",
+    "publication_year": 2010,
+    "cited_by_count": 227,
+    "abstract_inverted_index": {
+     "As": [
+      0
+     ],
+     "a": [
+      1,
+      35,
+      50,
+      67
+     ],
+     "primary": [
+      2
+     ],
+     "goal,": [
+      3
+     ],
+     "educators": [
+      4
+     ],
+     "often": [
+      5,
+      58
+     ],
+     "strive": [
+      6
+     ],
+     "to": [
+      7,
+      66,
+      116,
+      129
+     ],
+     "maximize": [
+      8
+     ],
+     "the": [
+      9,
+      16,
+      32,
+      82,
+      123
+     ],
+     "amount": [
+      10
+     ],
+     "of": [
+      11,
+      47,
+      69
+     ],
+     "information": [
+      12
+     ],
+     "pupils": [
+      13
+     ],
+     "remember.": [
+      14
+     ],
+     "In": [
+      15
+     ],
+     "lab,": [
+      17
+     ],
+     "psychologists": [
+      18
+     ],
+     "have": [
+      19
+     ],
+     "found": [
+      20
+     ],
+     "efficient": [
+      21
+     ],
+     "memory": [
+      22,
+      36
+     ],
+     "strategies": [
+      23
+     ],
+     "for": [
+      24
+     ],
+     "retaining": [
+      25
+     ],
+     "school\u2010related": [
+      26
+     ],
+     "materials.": [
+      27
+     ],
+     "One": [
+      28
+     ],
+     "such": [
+      29
+     ],
+     "strategy": [
+      30
+     ],
+     "is": [
+      31,
+      42,
+      56
+     ],
+     "spacing": [
+      33,
+      83,
+      110,
+      124
+     ],
+     "effect,": [
+      34
+     ],
+     "advantage": [
+      37
+     ],
+     "that": [
+      38,
+      122
+     ],
+     "occurs": [
+      39
+     ],
+     "when": [
+      40
+     ],
+     "learning": [
+      41,
+      55,
+      131
+     ],
+     "distributed": [
+      43
+     ],
+     "across": [
+      44
+     ],
+     "time": [
+      45
+     ],
+     "instead": [
+      46
+     ],
+     "crammed": [
+      48
+     ],
+     "into": [
+      49
+     ],
+     "single": [
+      51
+     ],
+     "study": [
+      52,
+      80
+     ],
+     "session.": [
+      53
+     ],
+     "Spaced": [
+      54
+     ],
+     "not": [
+      57
+     ],
+     "explicitly": [
+      59
+     ],
+     "utilized": [
+      60
+     ],
+     "in": [
+      61,
+      71,
+      85,
+      132
+     ],
+     "actual": [
+      62
+     ],
+     "classrooms,": [
+      63
+     ],
+     "perhaps": [
+      64
+     ],
+     "due": [
+      65
+     ],
+     "paucity": [
+      68
+     ],
+     "research": [
+      70
+     ],
+     "applied": [
+      72,
+      133
+     ],
+     "settings": [
+      73,
+      134
+     ],
+     "and": [
+      74,
+      99,
+      135
+     ],
+     "with": [
+      75
+     ],
+     "school\u2010aged": [
+      76
+     ],
+     "children.": [
+      77,
+      137
+     ],
+     "The": [
+      78
+     ],
+     "current": [
+      79
+     ],
+     "examined": [
+      81
+     ],
+     "effect": [
+      84,
+      125
+     ],
+     "real\u2010world": [
+      86
+     ],
+     "fifth\u2010grade": [
+      87
+     ],
+     "classrooms.": [
+      88
+     ],
+     "We": [
+      89
+     ],
+     "taught": [
+      90
+     ],
+     "39": [
+      91
+     ],
+     "children": [
+      92
+     ],
+     "unfamiliar": [
+      93
+     ],
+     "English": [
+      94
+     ],
+     "words": [
+      95
+     ],
+     "using": [
+      96
+     ],
+     "both": [
+      97
+     ],
+     "massed": [
+      98,
+      117
+     ],
+     "spaced": [
+      100
+     ],
+     "learning.": [
+      101,
+      118
+     ],
+     "Five": [
+      102
+     ],
+     "weeks": [
+      103
+     ],
+     "later,": [
+      104
+     ],
+     "we": [
+      105
+     ],
+     "tested": [
+      106
+     ],
+     "vocabulary": [
+      107,
+      130
+     ],
+     "recall.": [
+      108
+     ],
+     "One\u2010week": [
+      109
+     ],
+     "produced": [
+      111
+     ],
+     "superior": [
+      112
+     ],
+     "long\u2010term": [
+      113
+     ],
+     "retention": [
+      114
+     ],
+     "compared": [
+      115
+     ],
+     "This": [
+      119
+     ],
+     "finding": [
+      120
+     ],
+     "demonstrates": [
+      121
+     ],
+     "can": [
+      126
+     ],
+     "be": [
+      127
+     ],
+     "generalized": [
+      128
+     ],
+     "middle\u2010school\u2010aged": [
+      136
+     ],
+     "Copyright": [
+      138
+     ],
+     "\u00a9": [
+      139
+     ],
+     "2010": [
+      140
+     ],
+     "John": [
+      141
+     ],
+     "Wiley": [
+      142
+     ],
+     "&": [
+      143
+     ],
+     "Sons,": [
+      144
+     ],
+     "Ltd.": [
+      145
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5089591224",
+       "display_name": "Hailey S. Sobel",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I5023651",
+        "display_name": "McGill University",
+        "ror": "https://ror.org/01pxwe438",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I5023651"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Hailey S. Sobel",
+      "raw_affiliation_strings": [
+       "School/Applied Child Psychology, McGill University, Montreal, Quebec, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School/Applied Child Psychology, McGill University, Montreal, Quebec, Canada",
+        "institution_ids": [
+         "https://openalex.org/I5023651"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5071554223",
+       "display_name": "Nicholas J. Cepeda",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I192455969",
+        "display_name": "York University",
+        "ror": "https://ror.org/05fq50484",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I192455969"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Nicholas J. Cepeda",
+      "raw_affiliation_strings": [
+       "Department of Psychology, York University, Toronto, Ontario, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, York University, Toronto, Ontario, Canada",
+        "institution_ids": [
+         "https://openalex.org/I192455969"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5003081283",
+       "display_name": "Irina V. Kapler",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I192455969",
+        "display_name": "York University",
+        "ror": "https://ror.org/05fq50484",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I192455969"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Irina V. Kapler",
+      "raw_affiliation_strings": [
+       "Department of Psychology, York University, Toronto, Ontario, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, York University, Toronto, Ontario, Canada",
+        "institution_ids": [
+         "https://openalex.org/I192455969"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1002/acp.1747",
+     "doi": "https://doi.org/10.1002/acp.1747",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1002/acp.1747",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S91386000",
+      "display_name": "Applied Cognitive Psychology",
+      "issn_l": "0888-4080",
+      "issn": [
+       "0888-4080",
+       "1099-0720"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-b",
+       "cwts-core",
+       "dongbi-c",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Applied Cognitive Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3010093472",
+    "doi": "https://doi.org/10.37546/jalttlt40.2-1",
+    "title": "The Effects of Three Spacing Methods on Students\u2019 Mid- to Long-term Retention of Lexis",
+    "display_name": "The Effects of Three Spacing Methods on Students\u2019 Mid- to Long-term Retention of Lexis",
+    "publication_year": 2016,
+    "cited_by_count": 3,
+    "abstract_inverted_index": {
+     "This": [
+      0
+     ],
+     "article": [
+      1
+     ],
+     "investigates": [
+      2
+     ],
+     "the": [
+      3,
+      26,
+      65,
+      84,
+      91,
+      94
+     ],
+     "effect": [
+      4
+     ],
+     "that": [
+      5,
+      64,
+      83,
+      119
+     ],
+     "six": [
+      6
+     ],
+     "different": [
+      7
+     ],
+     "lexical": [
+      8,
+      99
+     ],
+     "spacing": [
+      9
+     ],
+     "interval": [
+      10
+     ],
+     "schedules": [
+      11,
+      36,
+      69
+     ],
+     "had": [
+      12,
+      70
+     ],
+     "on": [
+      13,
+      20,
+      56,
+      74
+     ],
+     "Japanese": [
+      14
+     ],
+     "university": [
+      15
+     ],
+     "students\u2019": [
+      16,
+      108
+     ],
+     "retention": [
+      17,
+      109
+     ],
+     "of": [
+      18,
+      31,
+      97
+     ],
+     "lexis": [
+      19
+     ],
+     "a": [
+      21,
+      32,
+      46,
+      98
+     ],
+     "translation": [
+      22
+     ],
+     "test": [
+      23
+     ],
+     "completed": [
+      24
+     ],
+     "in": [
+      25
+     ],
+     "first": [
+      27
+     ],
+     "and": [
+      28,
+      52,
+      67,
+      101,
+      111,
+      121,
+      126,
+      132
+     ],
+     "last": [
+      29
+     ],
+     "lessons": [
+      30
+     ],
+     "15-lecture": [
+      33
+     ],
+     "course.": [
+      34
+     ],
+     "Two": [
+      35
+     ],
+     "used": [
+      37
+     ],
+     "an": [
+      38
+     ],
+     "expanded": [
+      39,
+      136
+     ],
+     "spaced": [
+      40,
+      48,
+      137,
+      140
+     ],
+     "retrieval": [
+      41,
+      49,
+      58,
+      103
+     ],
+     "(ESR)": [
+      42
+     ],
+     "technique,": [
+      43,
+      51
+     ],
+     "two": [
+      44,
+      53
+     ],
+     "employed": [
+      45
+     ],
+     "uniform": [
+      47,
+      139
+     ],
+     "(USR)": [
+      50
+     ],
+     "were": [
+      54
+     ],
+     "based": [
+      55
+     ],
+     "massed": [
+      57,
+      144
+     ],
+     "(MR)": [
+      59
+     ],
+     "methods.": [
+      60
+     ],
+     "It": [
+      61,
+      79
+     ],
+     "was": [
+      62
+     ],
+     "found": [
+      63
+     ],
+     "ESR": [
+      66,
+      125
+     ],
+     "USR": [
+      68,
+      127
+     ],
+     "greater": [
+      71
+     ],
+     "positive": [
+      72
+     ],
+     "effects": [
+      73
+     ],
+     "student": [
+      75
+     ],
+     "performance": [
+      76
+     ],
+     "than": [
+      77
+     ],
+     "MR.": [
+      78
+     ],
+     "is": [
+      80,
+      117
+     ],
+     "also": [
+      81
+     ],
+     "posited": [
+      82
+     ],
+     "challenging": [
+      85
+     ],
+     "learning": [
+      86,
+      113
+     ],
+     "conditions": [
+      87
+     ],
+     "created": [
+      88
+     ],
+     "by": [
+      89
+     ],
+     "expanding": [
+      90
+     ],
+     "intervals": [
+      92
+     ],
+     "between": [
+      93
+     ],
+     "initial": [
+      95
+     ],
+     "encoding": [
+      96
+     ],
+     "item": [
+      100
+     ],
+     "subsequent": [
+      102
+     ],
+     "attempts": [
+      104
+     ],
+     "can": [
+      105
+     ],
+     "positively": [
+      106
+     ],
+     "affect": [
+      107
+     ],
+     "rates": [
+      110
+     ],
+     "overall": [
+      112
+     ],
+     "experiences.": [
+      114
+     ],
+     "Consequently,": [
+      115
+     ],
+     "it": [
+      116
+     ],
+     "suggested": [
+      118
+     ],
+     "teachers": [
+      120
+     ],
+     "curriculum": [
+      122
+     ],
+     "developers": [
+      123
+     ],
+     "implement": [
+      124
+     ],
+     "techniques": [
+      128
+     ],
+     "more": [
+      129
+     ],
+     "when": [
+      130
+     ],
+     "planning": [
+      131
+     ],
+     "adapting": [
+      133
+     ],
+     "materials.": [
+      134
+     ],
+     "\u672c\u8ad6\u306f\u3001\u65e5\u672c\u306e\u5927\u5b66\u751f\u304c\u516815\u56de\u306e\u8b1b\u7fa9\u306e\u521d\u56de\u3068\u6700\u7d42\u56de\u306b\u884c\u3046\u8a33\u306e\u8a66\u9a13\u3067\u306e\u8a9e\u5f59\u5b9a\u7740\u529b\u306b\u30016\u3064\u306e\u7570\u306a\u308b\u8a9e\u5f59\u5206\u6563\u9593\u9694\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u304c\u3069\u306e\u3088\u3046\u306a\u52b9\u679c\u3092\u4e0e\u3048\u308b\u304b\u3092\u8abf\u67fb\u3057\u305f\u3082\u306e\u3067\u3042\u308b\u30022\u3064\u3067\u9593\u9694\u4f38\u5f35\u691c\u7d22\uff08ESR:": [
+      135
+     ],
+     "retrieval\uff09\u6cd5\u3092\u4f7f\u7528\u3057\u3001\u5225\u306e2\u3064\u3067\u5747\u4e00\u9593\u9694\u691c\u7d22(USR:": [
+      138
+     ],
+     "retrieval)": [
+      141,
+      145
+     ],
+     "\u6cd5\u3001\u6b8b\u308a\u306e2\u3064\u306f\u96c6\u4e2d\u691c\u7d22": [
+      142
+     ],
+     "(MR:": [
+      143
+     ],
+     "\u6cd5\u3092\u7528\u3044\u305f\u3002\u7d50\u679c\u3068\u3057\u3066ESR\u3068USR\u306f\u3001MR\u3088\u308a\u3082\u5b66\u751f\u306e\u6210\u7e3e\u306b\u3088\u308a\u826f\u3044\u5f71\u97ff\u3092\u4e0e\u3048\u305f\u3002\u307e\u305f\u3001\u8a9e\u5f59\u306e\u6700\u521d\u306e\u767a\u4fe1\u3068\u6b21\u306e\u691c\u7d22\u306e\u9593\u9694\u3092\u5ef6\u3070\u3059\u3068\u3044\u3046\u53b3\u3057\u3044\u5b66\u7fd2\u6761\u4ef6\u304c\u3001\u5b66\u751f\u306e\u8a9e\u5f59\u306e\u5b9a\u7740\u7387\u3068\u7dcf\u4f53\u7684\u306a\u5b66\u7fd2\u7d4c\u9a13\u306b\u826f\u3044\u5f71\u97ff\u3092\u4e0e\u3048\u308b\u3068\u4eee\u5b9a\u3055\u308c\u308b\u3002\u305d\u306e\u305f\u3081\u3001\u6559\u5e2b\u3084\u30ab\u30ea\u30ad\u30e5\u30e9\u30e0\u4f5c\u6210\u8005\u306f\u3001\u6559\u6750\u306e\u6559\u6388\u4e88\u5b9a\u3092\u4f5c\u6210\u3059\u308b\u969b\u3001\u3088\u308a\u591a\u304f\u306eESR\u3084USR\u6cd5\u3092\u53d6\u308a\u5165\u308c\u308b\u3088\u3046\u63a8\u5968\u3057\u305f\u3044\u3002": [
+      146
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5079862085",
+       "display_name": "James Bury",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I140293409",
+        "display_name": "Shumei University",
+        "ror": "https://ror.org/05aczzj13",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I140293409"
+        ]
+       }
+      ],
+      "countries": [
+       "JP"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "James Bury",
+      "raw_affiliation_strings": [
+       "Shumei University, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Shumei University, Japan",
+        "institution_ids": [
+         "https://openalex.org/I140293409"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.37546/jalttlt40.2-1",
+     "doi": "https://doi.org/10.37546/jalttlt40.2-1",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.37546/jalttlt40.2-1",
+     "pdf_url": "http://jalt-publications.org/sites/default/files/pdf-article/40.2_tlt-art1.pdf",
+     "source": {
+      "id": "https://openalex.org/S4210179685",
+      "display_name": "The Language Teacher",
+      "issn_l": "0289-7938",
+      "issn": [
+       "0289-7938",
+       "2761-0349"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "erih-plus",
+       "norway-1"
+      ],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "The Language Teacher",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2888571438",
+    "doi": "https://doi.org/10.1055/s-0038-1666983",
+    "title": "Planning Education for Long-Term Retention: The Cognitive Science and Implementation of Retrieval Practice",
+    "display_name": "Planning Education for Long-Term Retention: The Cognitive Science and Implementation of Retrieval Practice",
+    "publication_year": 2018,
+    "cited_by_count": 68,
+    "abstract_inverted_index": {
+     "Educational": [
+      0
+     ],
+     "systems": [
+      1
+     ],
+     "are": [
+      2,
+      48,
+      54,
+      62,
+      68
+     ],
+     "rarely": [
+      3
+     ],
+     "designed": [
+      4
+     ],
+     "for": [
+      5,
+      97,
+      150
+     ],
+     "long-term": [
+      6
+     ],
+     "retention": [
+      7,
+      28
+     ],
+     "of": [
+      8,
+      24,
+      40,
+      88,
+      93,
+      105,
+      137,
+      153
+     ],
+     "information.": [
+      9
+     ],
+     "Strong": [
+      10
+     ],
+     "evidence": [
+      11
+     ],
+     "has": [
+      12
+     ],
+     "emerged": [
+      13
+     ],
+     "from": [
+      14,
+      37,
+      127
+     ],
+     "cognitive": [
+      15
+     ],
+     "psychology": [
+      16
+     ],
+     "and": [
+      17,
+      43,
+      46,
+      64,
+      70,
+      102,
+      122
+     ],
+     "applied": [
+      18
+     ],
+     "education": [
+      19
+     ],
+     "studies": [
+      20
+     ],
+     "that": [
+      21,
+      61,
+      145
+     ],
+     "repeated": [
+      22,
+      31
+     ],
+     "retrieval": [
+      23,
+      75,
+      94,
+      106,
+      120,
+      131,
+      138
+     ],
+     "information": [
+      25,
+      149
+     ],
+     "significantly": [
+      26
+     ],
+     "improves": [
+      27
+     ],
+     "compared": [
+      29
+     ],
+     "to": [
+      30,
+      85,
+      99,
+      111,
+      118,
+      125,
+      129
+     ],
+     "studying.": [
+      32
+     ],
+     "This": [
+      33
+     ],
+     "effect": [
+      34
+     ],
+     "likely": [
+      35
+     ],
+     "emerges": [
+      36
+     ],
+     "the": [
+      38,
+      49,
+      135,
+      143
+     ],
+     "processes": [
+      39
+     ],
+     "memory": [
+      41
+     ],
+     "consolidation": [
+      42
+     ],
+     "reconsolidation.": [
+      44
+     ],
+     "Consolidation": [
+      45
+     ],
+     "reconsolidation": [
+      47
+     ],
+     "means": [
+      50
+     ],
+     "by": [
+      51
+     ],
+     "which": [
+      52
+     ],
+     "memories": [
+      53,
+      67
+     ],
+     "organized": [
+      55
+     ],
+     "into": [
+      56
+     ],
+     "associational": [
+      57
+     ],
+     "networks": [
+      58
+     ],
+     "or": [
+      59
+     ],
+     "schemas": [
+      60,
+      98,
+      110
+     ],
+     "created": [
+      63
+     ],
+     "recreated": [
+      65
+     ],
+     "as": [
+      66
+     ],
+     "formed": [
+      69
+     ],
+     "recalled.": [
+      71
+     ],
+     "As": [
+      72
+     ],
+     "educators": [
+      73,
+      140
+     ],
+     "implement": [
+      74
+     ],
+     "practice,": [
+      76,
+      139
+     ],
+     "they": [
+      77
+     ],
+     "should": [
+      78
+     ],
+     "consider": [
+      79
+     ],
+     "how": [
+      80
+     ],
+     "various": [
+      81
+     ],
+     "test": [
+      82
+     ],
+     "formats": [
+      83
+     ],
+     "lead": [
+      84,
+      124
+     ],
+     "different": [
+      86
+     ],
+     "degrees": [
+      87
+     ],
+     "schema": [
+      89
+     ],
+     "activation.": [
+      90
+     ],
+     "Repeated": [
+      91
+     ],
+     "acts": [
+      92
+     ],
+     "provide": [
+      95
+     ],
+     "opportunities": [
+      96
+     ],
+     "be": [
+      100,
+      112
+     ],
+     "updated": [
+      101
+     ],
+     "strengthened.": [
+      103
+     ],
+     "Spacing": [
+      104
+     ],
+     "allows": [
+      107
+     ],
+     "more": [
+      108
+     ],
+     "consolidated": [
+      109
+     ],
+     "reactivated.": [
+      113
+     ],
+     "Feedback": [
+      114
+     ],
+     "provides": [
+      115
+     ],
+     "metacognitive": [
+      116
+     ],
+     "monitoring": [
+      117
+     ],
+     "ensure": [
+      119
+     ],
+     "accuracy": [
+      121
+     ],
+     "can": [
+      123,
+      141
+     ],
+     "shifts": [
+      126
+     ],
+     "ineffective": [
+      128
+     ],
+     "effective": [
+      130
+     ],
+     "strategies.": [
+      132
+     ],
+     "By": [
+      133
+     ],
+     "using": [
+      134
+     ],
+     "principles": [
+      136
+     ],
+     "improve": [
+      142
+     ],
+     "likelihood": [
+      144
+     ],
+     "learners": [
+      146
+     ],
+     "will": [
+      147
+     ],
+     "retain": [
+      148
+     ],
+     "longer": [
+      151
+     ],
+     "periods": [
+      152
+     ],
+     "time.": [
+      154
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5052187797",
+       "display_name": "Douglas P. Larsen",
+       "orcid": "https://orcid.org/0000-0003-1392-0626",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1392-0626"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204465549",
+        "display_name": "Washington University in St. Louis",
+        "ror": "https://ror.org/01yc7t268",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Douglas Larsen",
+      "raw_affiliation_strings": [
+       "Department of Neurology, Washington University School of Medicine, Washington University in St. Louis, St. Louis, Missouri"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neurology, Washington University School of Medicine, Washington University in St. Louis, St. Louis, Missouri",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1055/s-0038-1666983",
+     "doi": "https://doi.org/10.1055/s-0038-1666983",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1055/s-0038-1666983",
+     "pdf_url": "http://www.thieme-connect.de/products/ejournals/pdf/10.1055/s-0038-1666983.pdf",
+     "source": {
+      "id": "https://openalex.org/S144243704",
+      "display_name": "Seminars in Neurology",
+      "issn_l": "0271-8235",
+      "issn": [
+       "0271-8235",
+       "1098-9021"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doyens",
+       "jufo-1",
+       "medline",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2"
+      ],
+      "host_organization": "https://openalex.org/P4310320000",
+      "host_organization_name": "Thieme Medical Publishers (Germany)",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320000"
+      ],
+      "host_organization_lineage_names": [
+       "Thieme Medical Publishers (Germany)"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Seminars in Neurology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W7215271704",
+    "doi": null,
+    "title": "THE SCIENCE BEHIND SPACED REPETITION FOR MEMORY RETENTION",
+    "display_name": "THE SCIENCE BEHIND SPACED REPETITION FOR MEMORY RETENTION",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "A": [
+      0
+     ],
+     "cognitive": [
+      1,
+      28
+     ],
+     "strategy": [
+      2
+     ],
+     "called": [
+      3
+     ],
+     "spaced": [
+      4
+     ],
+     "repetition": [
+      5,
+      52
+     ],
+     "involves": [
+      6,
+      122
+     ],
+     "going": [
+      7
+     ],
+     "over": [
+      8
+     ],
+     "knowledge": [
+      9,
+      73
+     ],
+     "at": [
+      10
+     ],
+     "progressively": [
+      11
+     ],
+     "longer": [
+      12
+     ],
+     "intervals": [
+      13,
+      103
+     ],
+     "in": [
+      14,
+      27,
+      109
+     ],
+     "order": [
+      15
+     ],
+     "to": [
+      16,
+      39,
+      76,
+      129
+     ],
+     "enhance": [
+      17
+     ],
+     "long-term": [
+      18
+     ],
+     "memory": [
+      19,
+      36,
+      65,
+      126
+     ],
+     "retention.": [
+      20
+     ],
+     "This": [
+      21,
+      79
+     ],
+     "approach,": [
+      22
+     ],
+     "which": [
+      23,
+      87,
+      121
+     ],
+     "has": [
+      24
+     ],
+     "its": [
+      25
+     ],
+     "roots": [
+      26
+     ],
+     "psychology": [
+      29
+     ],
+     "and": [
+      30
+     ],
+     "neuroscience,": [
+      31
+     ],
+     "uses": [
+      32
+     ],
+     "the": [
+      33,
+      41,
+      84
+     ],
+     "brain's": [
+      34
+     ],
+     "innate": [
+      35
+     ],
+     "consolidation": [
+      37
+     ],
+     "mechanism": [
+      38
+     ],
+     "reverse": [
+      40
+     ],
+     "forgetting": [
+      42
+     ],
+     "curve,": [
+      43
+     ],
+     "a": [
+      44,
+      97,
+      110
+     ],
+     "phenomena": [
+      45
+     ],
+     "that": [
+      46,
+      89
+     ],
+     "Hermann": [
+      47
+     ],
+     "Ebbinghaus": [
+      48
+     ],
+     "initially": [
+      49
+     ],
+     "noticed.": [
+      50
+     ],
+     "Spaced": [
+      51
+     ],
+     "is": [
+      53,
+      74,
+      81,
+      91,
+      115
+     ],
+     "more": [
+      54
+     ],
+     "effective": [
+      55
+     ],
+     "than": [
+      56,
+      106
+     ],
+     "conventional": [
+      57
+     ],
+     "study": [
+      58
+     ],
+     "techniques": [
+      59
+     ],
+     "like": [
+      60
+     ],
+     "cramming": [
+      61
+     ],
+     "because": [
+      62
+     ],
+     "it": [
+      63
+     ],
+     "improves": [
+      64
+     ],
+     "retention": [
+      66,
+      114
+     ],
+     "by": [
+      67,
+      118
+     ],
+     "strengthening": [
+      68
+     ],
+     "brain": [
+      69
+     ],
+     "pathways": [
+      70
+     ],
+     "right": [
+      71
+     ],
+     "before": [
+      72
+     ],
+     "likely": [
+      75
+     ],
+     "be": [
+      77
+     ],
+     "forgotten.": [
+      78
+     ],
+     "method": [
+      80
+     ],
+     "based": [
+      82
+     ],
+     "on": [
+      83
+     ],
+     "spacing": [
+      85
+     ],
+     "effect,": [
+      86
+     ],
+     "states": [
+      88
+     ],
+     "material": [
+      90
+     ],
+     "better": [
+      92
+     ],
+     "kept": [
+      93
+     ],
+     "when": [
+      94,
+      107
+     ],
+     "reviewed": [
+      95
+     ],
+     "across": [
+      96
+     ],
+     "number": [
+      98
+     ],
+     "of": [
+      99
+     ],
+     "sessions": [
+      100
+     ],
+     "with": [
+      101
+     ],
+     "increasing": [
+      102
+     ],
+     "between": [
+      104
+     ],
+     "reviews": [
+      105
+     ],
+     "studied": [
+      108
+     ],
+     "single": [
+      111
+     ],
+     "session.": [
+      112
+     ],
+     "Long-term": [
+      113
+     ],
+     "further": [
+      116
+     ],
+     "strengthened": [
+      117
+     ],
+     "active": [
+      119
+     ],
+     "recall,": [
+      120
+     ],
+     "accessing": [
+      123
+     ],
+     "information": [
+      124
+     ],
+     "from": [
+      125
+     ],
+     "as": [
+      127
+     ],
+     "opposed": [
+      128
+     ],
+     "passively": [
+      130
+     ],
+     "reviewing": [
+      131
+     ],
+     "it.": [
+      132
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5124947809",
+       "display_name": "Yokubjonova Dilnavozxon Serobjon Qizi",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Yokubjonova Dilnavozxon Serobjon qizi",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ],
+    "primary_location": {
+     "id": "pmh:oai:ojs2.www.internationaljournal.co.in:article/548",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://www.internationaljournal.co.in/index.php/jasass/article/view/548/789",
+     "pdf_url": "https://www.internationaljournal.co.in/index.php/jasass/article/download/548/789/1570",
+     "source": {
+      "id": "https://openalex.org/S7407065813",
+      "display_name": "Journal of Applied Science and Social Science",
+      "issn_l": "2229-3205",
+      "issn": [
+       "2229-3205",
+       "2229-3213"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "2229-3205",
+     "raw_type": "info:eu-repo/semantics/article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3022505330",
+    "doi": "https://doi.org/10.3389/fpsyg.2020.00811",
+    "title": "No Robust Effect of Distributed Practice on the Short- and Long-Term Retention of Mathematical Procedures",
+    "display_name": "No Robust Effect of Distributed Practice on the Short- and Long-Term Retention of Mathematical Procedures",
+    "publication_year": 2020,
+    "cited_by_count": 24,
+    "abstract_inverted_index": {
+     "We": [
+      0
+     ],
+     "investigated": [
+      1
+     ],
+     "the": [
+      2,
+      10,
+      14,
+      80,
+      96,
+      122
+     ],
+     "effect": [
+      3,
+      21,
+      84,
+      105
+     ],
+     "of": [
+      4,
+      16,
+      53,
+      85,
+      121,
+      127,
+      145
+     ],
+     "distributed": [
+      5,
+      86,
+      133
+     ],
+     "practice": [
+      6,
+      87,
+      134
+     ],
+     "and": [
+      7,
+      44,
+      88,
+      125,
+      139
+     ],
+     "more": [
+      8
+     ],
+     "specifically": [
+      9
+     ],
+     "\u201clag": [
+      11
+     ],
+     "effect\u201d": [
+      12
+     ],
+     "concerning": [
+      13
+     ],
+     "retention": [
+      15,
+      25
+     ],
+     "mathematical": [
+      17
+     ],
+     "procedures.": [
+      18
+     ],
+     "The": [
+      19,
+      61,
+      102
+     ],
+     "lag": [
+      20,
+      92
+     ],
+     "implies": [
+      22
+     ],
+     "that": [
+      23,
+      107,
+      132
+     ],
+     "longer": [
+      24,
+      29
+     ],
+     "intervals": [
+      26,
+      156
+     ],
+     "benefit": [
+      27
+     ],
+     "from": [
+      28
+     ],
+     "inter-study": [
+      30,
+      51,
+      155
+     ],
+     "intervals.": [
+      31
+     ],
+     "University": [
+      32
+     ],
+     "students": [
+      33
+     ],
+     "(N": [
+      34
+     ],
+     "=": [
+      35
+     ],
+     "235)": [
+      36
+     ],
+     "first": [
+      37
+     ],
+     "learned": [
+      38
+     ],
+     "how": [
+      39
+     ],
+     "to": [
+      40,
+      77,
+      158
+     ],
+     "solve": [
+      41
+     ],
+     "permutation": [
+      42
+     ],
+     "tasks": [
+      43
+     ],
+     "then": [
+      45
+     ],
+     "practiced": [
+      46,
+      153
+     ],
+     "this": [
+      47
+     ],
+     "procedure": [
+      48
+     ],
+     "with": [
+      49,
+      142,
+      154
+     ],
+     "an": [
+      50
+     ],
+     "interval": [
+      52
+     ],
+     "zero": [
+      54
+     ],
+     "(i.e.,": [
+      55
+     ],
+     "massed),": [
+      56
+     ],
+     "one,": [
+      57
+     ],
+     "or": [
+      58,
+      68
+     ],
+     "eleven": [
+      59
+     ],
+     "days.": [
+      60
+     ],
+     "final": [
+      62
+     ],
+     "test": [
+      63,
+      108
+     ],
+     "took": [
+      64
+     ],
+     "place": [
+      65
+     ],
+     "after": [
+      66,
+      112,
+      116
+     ],
+     "one": [
+      67,
+      117
+     ],
+     "five": [
+      69,
+      113
+     ],
+     "weeks.": [
+      70
+     ],
+     "All": [
+      71
+     ],
+     "conditions": [
+      72
+     ],
+     "were": [
+      73
+     ],
+     "manipulated": [
+      74
+     ],
+     "between-subjects.": [
+      75
+     ],
+     "Contrary": [
+      76
+     ],
+     "our": [
+      78
+     ],
+     "expectations,": [
+      79
+     ],
+     "analyses": [
+      81
+     ],
+     "revealed": [
+      82
+     ],
+     "no": [
+      83,
+      91
+     ],
+     "therewith": [
+      89
+     ],
+     "also": [
+      90
+     ],
+     "effect,": [
+      93
+     ],
+     "even": [
+      94,
+      146
+     ],
+     "though": [
+      95
+     ],
+     "sample": [
+      97
+     ],
+     "size": [
+      98
+     ],
+     "was": [
+      99,
+      106,
+      110
+     ],
+     "sufficiently": [
+      100
+     ],
+     "large.": [
+      101
+     ],
+     "only": [
+      103
+     ],
+     "significant": [
+      104
+     ],
+     "performance": [
+      109
+     ],
+     "poorer": [
+      111
+     ],
+     "weeks": [
+      114
+     ],
+     "than": [
+      115
+     ],
+     "week.": [
+      118
+     ],
+     "In": [
+      119
+     ],
+     "view": [
+      120
+     ],
+     "present": [
+      123
+     ],
+     "results": [
+      124
+     ],
+     "those": [
+      126
+     ],
+     "other": [
+      128
+     ],
+     "studies,": [
+      129
+     ],
+     "we": [
+      130
+     ],
+     "assume": [
+      131
+     ],
+     "works": [
+      135
+     ],
+     "differently": [
+      136
+     ],
+     "for": [
+      137
+     ],
+     "declarative": [
+      138
+     ],
+     "procedural": [
+      140,
+      150
+     ],
+     "knowledge,": [
+      141
+     ],
+     "less": [
+      143
+     ],
+     "robust": [
+      144
+     ],
+     "absent": [
+      147
+     ],
+     "effects": [
+      148
+     ],
+     "when": [
+      149
+     ],
+     "skills": [
+      151
+     ],
+     "are": [
+      152
+     ],
+     "compared": [
+      157
+     ],
+     "massed": [
+      159
+     ],
+     "practice.": [
+      160
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5062398272",
+       "display_name": "Mirjam Ebersbach",
+       "orcid": "https://orcid.org/0000-0003-3853-4924",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3853-4924"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I106157433",
+        "display_name": "University of Kassel",
+        "ror": "https://ror.org/04zc7p361",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I106157433"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Mirjam Ebersbach",
+      "raw_affiliation_strings": [
+       "Division of Developmental Psychology, Department of Psychology, University of Kassel, Kassel, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Division of Developmental Psychology, Department of Psychology, University of Kassel, Kassel, Germany",
+        "institution_ids": [
+         "https://openalex.org/I106157433"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5069656972",
+       "display_name": "Katharina Barzagar Nazari",
+       "orcid": "https://orcid.org/0000-0003-4909-272X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4909-272X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I106157433",
+        "display_name": "University of Kassel",
+        "ror": "https://ror.org/04zc7p361",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I106157433"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Katharina Barzagar Nazari",
+      "raw_affiliation_strings": [
+       "Division of Developmental Psychology, Department of Psychology, University of Kassel, Kassel, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Division of Developmental Psychology, Department of Psychology, University of Kassel, Kassel, Germany",
+        "institution_ids": [
+         "https://openalex.org/I106157433"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2020.00811",
+     "doi": "https://doi.org/10.3389/fpsyg.2020.00811",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2020.00811",
+     "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2020.00811/pdf",
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

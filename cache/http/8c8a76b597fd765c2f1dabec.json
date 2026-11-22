@@ -1,0 +1,1187 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 411,
+   "db_response_time_ms": 188,
+   "page": 1,
+   "per_page": 2,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (pen is mightier than the keyboard longhand laptop note taking) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (pen is mightier than the keyboard longhand laptop note taking) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "pen is mightier than the keyboard longhand laptop note taking",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:pen is mightier than the keyboard longhand laptop note taking,has_abstract:true,language:en,type:article|review&per_page=2",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2095632701",
+    "doi": "https://doi.org/10.1177/0956797614524581",
+    "title": "The Pen Is Mightier Than the Keyboard: Advantages of Longhand Over Laptop Note Taking",
+    "display_name": "The Pen Is Mightier Than the Keyboard: Advantages of Longhand Over Laptop Note Taking",
+    "publication_year": 2014,
+    "cited_by_count": 1667,
+    "abstract_inverted_index": {
+     "Taking": [
+      0
+     ],
+     "notes": [
+      1,
+      79,
+      91,
+      99
+     ],
+     "on": [
+      2,
+      33,
+      80,
+      84
+     ],
+     "laptops": [
+      3,
+      50,
+      81
+     ],
+     "rather": [
+      4,
+      111
+     ],
+     "than": [
+      5,
+      22,
+      87,
+      112
+     ],
+     "in": [
+      6,
+      67,
+      118
+     ],
+     "longhand": [
+      7,
+      23
+     ],
+     "is": [
+      8,
+      19,
+      122
+     ],
+     "increasingly": [
+      9
+     ],
+     "common.": [
+      10
+     ],
+     "Many": [
+      11
+     ],
+     "researchers": [
+      12
+     ],
+     "have": [
+      13,
+      30
+     ],
+     "suggested": [
+      14
+     ],
+     "that": [
+      15,
+      47,
+      75,
+      95
+     ],
+     "laptop": [
+      16,
+      103
+     ],
+     "note": [
+      17,
+      24,
+      104
+     ],
+     "taking": [
+      18,
+      25,
+      97
+     ],
+     "less": [
+      20
+     ],
+     "effective": [
+      21
+     ],
+     "for": [
+      26,
+      36
+     ],
+     "learning.": [
+      27,
+      125
+     ],
+     "Prior": [
+      28
+     ],
+     "studies": [
+      29
+     ],
+     "primarily": [
+      31
+     ],
+     "focused": [
+      32
+     ],
+     "students'": [
+      34
+     ],
+     "capacity": [
+      35
+     ],
+     "multitasking": [
+      37
+     ],
+     "and": [
+      38,
+      115
+     ],
+     "distraction": [
+      39
+     ],
+     "when": [
+      40,
+      49
+     ],
+     "using": [
+      41
+     ],
+     "laptops.": [
+      42
+     ],
+     "The": [
+      43
+     ],
+     "present": [
+      44
+     ],
+     "research": [
+      45
+     ],
+     "suggests": [
+      46
+     ],
+     "even": [
+      48
+     ],
+     "are": [
+      51
+     ],
+     "used": [
+      52
+     ],
+     "solely": [
+      53
+     ],
+     "to": [
+      54,
+      107,
+      124
+     ],
+     "take": [
+      55
+     ],
+     "notes,": [
+      56
+     ],
+     "they": [
+      57
+     ],
+     "may": [
+      58
+     ],
+     "still": [
+      59
+     ],
+     "be": [
+      60,
+      101
+     ],
+     "impairing": [
+      61
+     ],
+     "learning": [
+      62
+     ],
+     "because": [
+      63
+     ],
+     "their": [
+      64,
+      119
+     ],
+     "use": [
+      65
+     ],
+     "results": [
+      66
+     ],
+     "shallower": [
+      68
+     ],
+     "processing.": [
+      69
+     ],
+     "In": [
+      70
+     ],
+     "three": [
+      71
+     ],
+     "studies,": [
+      72
+     ],
+     "we": [
+      73
+     ],
+     "found": [
+      74
+     ],
+     "students": [
+      76,
+      88
+     ],
+     "who": [
+      77,
+      89
+     ],
+     "took": [
+      78,
+      90
+     ],
+     "performed": [
+      82
+     ],
+     "worse": [
+      83
+     ],
+     "conceptual": [
+      85
+     ],
+     "questions": [
+      86
+     ],
+     "longhand.": [
+      92
+     ],
+     "We": [
+      93
+     ],
+     "show": [
+      94
+     ],
+     "whereas": [
+      96
+     ],
+     "more": [
+      98
+     ],
+     "can": [
+      100
+     ],
+     "beneficial,": [
+      102
+     ],
+     "takers'": [
+      105
+     ],
+     "tendency": [
+      106
+     ],
+     "transcribe": [
+      108
+     ],
+     "lectures": [
+      109
+     ],
+     "verbatim": [
+      110
+     ],
+     "processing": [
+      113
+     ],
+     "information": [
+      114
+     ],
+     "reframing": [
+      116
+     ],
+     "it": [
+      117
+     ],
+     "own": [
+      120
+     ],
+     "words": [
+      121
+     ],
+     "detrimental": [
+      123
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5036058801",
+       "display_name": "Pam A. Mueller",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I20089843",
+        "display_name": "Princeton University",
+        "ror": "https://ror.org/00hx57361",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I20089843"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Pam A. Mueller",
+      "raw_affiliation_strings": [
+       "Princeton University",
+       "Princeton University#TAB#"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Princeton University",
+        "institution_ids": [
+         "https://openalex.org/I20089843"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Princeton University#TAB#",
+        "institution_ids": [
+         "https://openalex.org/I20089843"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5033148711",
+       "display_name": "Daniel M. Oppenheimer",
+       "orcid": "https://orcid.org/0000-0002-2363-4220",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2363-4220"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I161318765",
+        "display_name": "University of California, Los Angeles",
+        "ror": "https://ror.org/046rm7j60",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I161318765"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Daniel M. Oppenheimer",
+      "raw_affiliation_strings": [
+       "University of California, Los Angeles"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of California, Los Angeles",
+        "institution_ids": [
+         "https://openalex.org/I161318765"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1177/0956797614524581",
+     "doi": "https://doi.org/10.1177/0956797614524581",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1177/0956797614524581",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S58854535",
+      "display_name": "Psychological Science",
+      "issn_l": "0956-7976",
+      "issn": [
+       "0956-7976",
+       "1467-9280"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-a-star",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-a",
+       "erih-plus",
+       "fnege-2",
+       "ft50",
+       "jufo-3",
+       "ki-jl-3",
+       "medline",
+       "norway-2",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320017",
+      "host_organization_name": "SAGE Publishing",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320017"
+      ],
+      "host_organization_lineage_names": [
+       "SAGE Publishing"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Psychological Science",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2900101587",
+    "doi": "https://doi.org/10.24926/iip.v9i3.1392",
+    "title": "Laptop Versus Longhand Note Taking in a Professional Doctorate Course: Student Performance, Attitudes, and Behaviors",
+    "display_name": "Laptop Versus Longhand Note Taking in a Professional Doctorate Course: Student Performance, Attitudes, and Behaviors",
+    "publication_year": 2018,
+    "cited_by_count": 14,
+    "abstract_inverted_index": {
+     "OBJECTIVE:": [
+      0
+     ],
+     "To": [
+      1
+     ],
+     "determine": [
+      2
+     ],
+     "the": [
+      3,
+      29,
+      53,
+      71,
+      121,
+      125,
+      128,
+      141,
+      150,
+      183
+     ],
+     "relationship": [
+      4
+     ],
+     "between": [
+      5,
+      127,
+      149
+     ],
+     "longhand": [
+      6,
+      43,
+      84,
+      122,
+      142,
+      158
+     ],
+     "note": [
+      7,
+      11,
+      30,
+      85,
+      95,
+      159,
+      190,
+      229
+     ],
+     "taking": [
+      8,
+      12,
+      31,
+      96,
+      191,
+      230
+     ],
+     "versus": [
+      9
+     ],
+     "laptop": [
+      10
+     ],
+     "on": [
+      13,
+      62,
+      70,
+      130,
+      153
+     ],
+     "pharmacy": [
+      14
+     ],
+     "students'": [
+      15,
+      227
+     ],
+     "examination": [
+      16,
+      64,
+      73
+     ],
+     "performance": [
+      17,
+      77
+     ],
+     "and": [
+      18,
+      23,
+      83,
+      98,
+      100,
+      168
+     ],
+     "identify": [
+      19
+     ],
+     "differences": [
+      20,
+      126,
+      147
+     ],
+     "in": [
+      21,
+      120,
+      138,
+      166,
+      199,
+      212
+     ],
+     "attitudes": [
+      22,
+      97
+     ],
+     "behaviors": [
+      24
+     ],
+     "as": [
+      25,
+      75
+     ],
+     "it": [
+      26
+     ],
+     "relates": [
+      27
+     ],
+     "to": [
+      28,
+      41,
+      79,
+      106,
+      163,
+      171,
+      177,
+      182,
+      234
+     ],
+     "process.": [
+      32
+     ],
+     "METHODS:": [
+      33
+     ],
+     "A": [
+      34
+     ],
+     "small": [
+      35,
+      116
+     ],
+     "group": [
+      36
+     ],
+     "of": [
+      37,
+      52,
+      93,
+      118,
+      140,
+      185,
+      210,
+      215
+     ],
+     "students": [
+      38,
+      175,
+      211
+     ],
+     "consented": [
+      39
+     ],
+     "voluntarily": [
+      40
+     ],
+     "take": [
+      42
+     ],
+     "notes,": [
+      44
+     ],
+     "doing": [
+      45
+     ],
+     "away": [
+      46
+     ],
+     "with": [
+      47,
+      66,
+      157
+     ],
+     "their": [
+      48,
+      94,
+      179
+     ],
+     "laptops": [
+      49
+     ],
+     "during": [
+      50
+     ],
+     "portions": [
+      51
+     ],
+     "course": [
+      54
+     ],
+     "administered": [
+      55
+     ],
+     "by": [
+      56
+     ],
+     "study": [
+      57
+     ],
+     "investigators.": [
+      58
+     ],
+     "Analyses": [
+      59
+     ],
+     "were": [
+      60,
+      145
+     ],
+     "conducted": [
+      61
+     ],
+     "block": [
+      63
+     ],
+     "performance,": [
+      65
+     ],
+     "each": [
+      67
+     ],
+     "student's": [
+      68
+     ],
+     "score": [
+      69
+     ],
+     "first": [
+      72
+     ],
+     "serving": [
+      74
+     ],
+     "a": [
+      76,
+      88,
+      114
+     ],
+     "benchmark": [
+      78
+     ],
+     "assess": [
+      80
+     ],
+     "change.": [
+      81
+     ],
+     "Laptop": [
+      82
+     ],
+     "takers": [
+      86,
+      160
+     ],
+     "completed": [
+      87
+     ],
+     "survey": [
+      89,
+      155
+     ],
+     "regarding": [
+      90
+     ],
+     "various": [
+      91
+     ],
+     "aspects": [
+      92
+     ],
+     "behaviors,": [
+      99
+     ],
+     "also": [
+      101
+     ],
+     "included": [
+      102
+     ],
+     "open": [
+      103
+     ],
+     "text": [
+      104
+     ],
+     "comments": [
+      105
+     ],
+     "capture": [
+      107
+     ],
+     "qualitative": [
+      108
+     ],
+     "experiential": [
+      109
+     ],
+     "data.": [
+      110
+     ],
+     "RESULTS:": [
+      111
+     ],
+     "Based": [
+      112
+     ],
+     "upon": [
+      113
+     ],
+     "relatively": [
+      115
+     ],
+     "number": [
+      117
+     ],
+     "participants": [
+      119
+     ],
+     "cohort": [
+      123
+     ],
+     "(n=11),": [
+      124
+     ],
+     "groups": [
+      129,
+      152
+     ],
+     "subsequent": [
+      131
+     ],
+     "examinations": [
+      132
+     ],
+     "was": [
+      133
+     ],
+     "approximately": [
+      134
+     ],
+     "3.5": [
+      135
+     ],
+     "percentage": [
+      136
+     ],
+     "points": [
+      137
+     ],
+     "favor": [
+      139
+     ],
+     "note-takers.": [
+      143
+     ],
+     "There": [
+      144
+     ],
+     "significant": [
+      146
+     ],
+     "observed": [
+      148
+     ],
+     "two": [
+      151
+     ],
+     "several": [
+      154
+     ],
+     "items,": [
+      156
+     ],
+     "less": [
+      161
+     ],
+     "likely": [
+      162,
+      170
+     ],
+     "be": [
+      164
+     ],
+     "distracted": [
+      165
+     ],
+     "class": [
+      167
+     ],
+     "more": [
+      169,
+      194
+     ],
+     "agree": [
+      172
+     ],
+     "that": [
+      173
+     ],
+     "other": [
+      174
+     ],
+     "ask": [
+      176
+     ],
+     "review": [
+      178
+     ],
+     "notes": [
+      180
+     ],
+     "due": [
+      181
+     ],
+     "quality": [
+      184
+     ],
+     "those": [
+      186
+     ],
+     "notes.": [
+      187
+     ],
+     "CONCLUSIONS:": [
+      188
+     ],
+     "Longhand": [
+      189
+     ],
+     "might": [
+      192
+     ],
+     "facilitate": [
+      193
+     ],
+     "accurate": [
+      195
+     ],
+     "recall": [
+      196
+     ],
+     "or": [
+      197
+     ],
+     "retrieval": [
+      198
+     ],
+     "test": [
+      200,
+      205
+     ],
+     "situations,": [
+      201
+     ],
+     "thus": [
+      202
+     ],
+     "producing": [
+      203
+     ],
+     "improved": [
+      204,
+      236
+     ],
+     "scores": [
+      206
+     ],
+     "for": [
+      207
+     ],
+     "certain": [
+      208,
+      213
+     ],
+     "types": [
+      209,
+      214
+     ],
+     "courses;": [
+      216
+     ],
+     "however": [
+      217
+     ],
+     "additional": [
+      218
+     ],
+     "research": [
+      219
+     ],
+     "is": [
+      220
+     ],
+     "needed.": [
+      221
+     ],
+     "Faculty": [
+      222
+     ],
+     "may": [
+      223,
+      232
+     ],
+     "consider": [
+      224
+     ],
+     "whether": [
+      225
+     ],
+     "modifying": [
+      226
+     ],
+     "classroom": [
+      228
+     ],
+     "practices": [
+      231
+     ],
+     "contribute": [
+      233
+     ],
+     "an": [
+      235
+     ],
+     "learning": [
+      237
+     ],
+     "experience.": [
+      238
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5080638576",
+       "display_name": "Shane Paul Desselle",
+       "orcid": "https://orcid.org/0000-0002-5987-1391",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5987-1391"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I24624658",
+        "display_name": "Touro University California",
+        "ror": "https://ror.org/0556gk990",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I24624658"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Shane Paul Desselle",
+      "raw_affiliation_strings": [
+       "Touro University California, Vallejo, California"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Touro University California, Vallejo, California",
+        "institution_ids": [
+         "https://openalex.org/I24624658"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5054248685",
+       "display_name": "Patricia A. Shane",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I24624658",
+        "display_name": "Touro University California",
+        "ror": "https://ror.org/0556gk990",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I24624658"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Patricia Shane",
+      "raw_affiliation_strings": [
+       "Touro University California, Vallejo, California"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Touro University California, Vallejo, California",
+        "institution_ids": [
+         "https://openalex.org/I24624658"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.24926/iip.v9i3.1392",
+     "doi": "https://doi.org/10.24926/iip.v9i3.1392",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.24926/iip.v9i3.1392",
+     "pdf_url": "https://pubs.lib.umn.edu/index.php/innovations/article/download/1392/1336",
+     "source": {
+      "id": "https://openalex.org/S2764355200",
+      "display_name": "INNOVATIONS in pharmacy",
+      "issn_l": "2155-0417",
+      "issn": [
+       "2155-0417"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310316065",
+      "host_organization_name": "University of Minnesota Libraries Publishing",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310316065"
+      ],
+      "host_organization_lineage_names": [
+       "University of Minnesota Libraries Publishing"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc",
+     "license_id": "https://openalex.org/licenses/cc-by-nc",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "INNOVATIONS in pharmacy",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

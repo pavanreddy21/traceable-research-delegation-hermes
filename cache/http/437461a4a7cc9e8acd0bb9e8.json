@@ -1,0 +1,4550 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 45945,
+   "db_response_time_ms": 244,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (exercise intensity acute cognitive effects young adults) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (exercise intensity acute cognitive effects young adults) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "exercise intensity acute cognitive effects young adults",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:exercise intensity acute cognitive effects young adults,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2602807878",
+    "doi": "https://doi.org/10.3389/fpsyg.2017.00406",
+    "title": "Exercise Intensity-Dependent Effects on Cognitive Control Function during and after Acute Treadmill Running in Young Healthy Adults",
+    "display_name": "Exercise Intensity-Dependent Effects on Cognitive Control Function during and after Acute Treadmill Running in Young Healthy Adults",
+    "publication_year": 2017,
+    "cited_by_count": 70,
+    "abstract_inverted_index": {
+     "The": [
+      0,
+      74,
+      155
+     ],
+     "idea": [
+      1
+     ],
+     "that": [
+      2,
+      171
+     ],
+     "physical": [
+      3,
+      29,
+      40,
+      50,
+      180,
+      194
+     ],
+     "activity": [
+      4,
+      30,
+      41,
+      181
+     ],
+     "differentially": [
+      5
+     ],
+     "impacts": [
+      6
+     ],
+     "upon": [
+      7
+     ],
+     "performance": [
+      8,
+      63,
+      118
+     ],
+     "of": [
+      9,
+      39,
+      49,
+      117,
+      127,
+      187
+     ],
+     "various": [
+      10
+     ],
+     "cognitive": [
+      11,
+      188
+     ],
+     "tasks": [
+      12
+     ],
+     "has": [
+      13
+     ],
+     "recently": [
+      14
+     ],
+     "gained": [
+      15
+     ],
+     "increased": [
+      16
+     ],
+     "interest.": [
+      17
+     ],
+     "However,": [
+      18
+     ],
+     "our": [
+      19
+     ],
+     "current": [
+      20
+     ],
+     "knowledge": [
+      21
+     ],
+     "about": [
+      22
+     ],
+     "how": [
+      23,
+      35
+     ],
+     "cognition": [
+      24,
+      43
+     ],
+     "is": [
+      25,
+      31,
+      173,
+      191
+     ],
+     "altered": [
+      26
+     ],
+     "by": [
+      27
+     ],
+     "acute": [
+      28
+     ],
+     "incomplete.": [
+      32
+     ],
+     "To": [
+      33
+     ],
+     "measure": [
+      34,
+      104
+     ],
+     "different": [
+      36
+     ],
+     "intensity": [
+      37,
+      71,
+      90,
+      132,
+      147
+     ],
+     "levels": [
+      38
+     ],
+     "affect": [
+      42
+     ],
+     "during": [
+      44,
+      66,
+      124,
+      176
+     ],
+     "and": [
+      45,
+      69,
+      88,
+      106,
+      112,
+      148
+     ],
+     "after": [
+      46
+     ],
+     "1": [
+      47
+     ],
+     "bout": [
+      48,
+      126
+     ],
+     "activity,": [
+      51
+     ],
+     "30": [
+      52
+     ],
+     "healthy,": [
+      53
+     ],
+     "young": [
+      54
+     ],
+     "participants": [
+      55,
+      76
+     ],
+     "were": [
+      56,
+      77,
+      99
+     ],
+     "randomized": [
+      57,
+      79
+     ],
+     "to": [
+      58,
+      80,
+      130,
+      164
+     ],
+     "perform": [
+      59,
+      81
+     ],
+     "a": [
+      60,
+      102,
+      138,
+      183
+     ],
+     "not-X": [
+      61,
+      83,
+      122
+     ],
+     "continuous": [
+      62
+     ],
+     "test": [
+      64
+     ],
+     "(CPT)": [
+      65
+     ],
+     "low": [
+      67,
+      131
+     ],
+     "(LI)-": [
+      68
+     ],
+     "moderate": [
+      70,
+      128
+     ],
+     "(MI)": [
+      72
+     ],
+     "running.": [
+      73,
+      92,
+      133
+     ],
+     "same": [
+      75
+     ],
+     "subsequently": [
+      78
+     ],
+     "the": [
+      82,
+      121,
+      177
+     ],
+     "CPT": [
+      84,
+      123
+     ],
+     "post": [
+      85,
+      107,
+      159
+     ],
+     "LI,": [
+      86,
+      110
+     ],
+     "MI,": [
+      87,
+      111
+     ],
+     "high": [
+      89
+     ],
+     "(HI)": [
+      91
+     ],
+     "In": [
+      93
+     ],
+     "addition,": [
+      94
+     ],
+     "exercise": [
+      95
+     ],
+     "related": [
+      96
+     ],
+     "mood": [
+      97
+     ],
+     "changes": [
+      98
+     ],
+     "assessed": [
+      100
+     ],
+     "through": [
+      101
+     ],
+     "self-report": [
+      103
+     ],
+     "pre": [
+      105
+     ],
+     "running": [
+      108,
+      146,
+      161
+     ],
+     "at": [
+      109
+     ],
+     "HI.": [
+      113
+     ],
+     "Results": [
+      114
+     ],
+     "showed": [
+      115
+     ],
+     "worsening": [
+      116
+     ],
+     "accuracy": [
+      119,
+      152,
+      172
+     ],
+     "on": [
+      120
+     ],
+     "one": [
+      125
+     ],
+     "compared": [
+      129
+     ],
+     "Post": [
+      134
+     ],
+     "running,": [
+      135
+     ],
+     "there": [
+      136
+     ],
+     "was": [
+      137
+     ],
+     "linear": [
+      139
+     ],
+     "decrease": [
+      140
+     ],
+     "in": [
+      141,
+      151
+     ],
+     "reaction": [
+      142,
+      157
+     ],
+     "time": [
+      143
+     ],
+     "with": [
+      144
+     ],
+     "increasing": [
+      145
+     ],
+     "no": [
+      149
+     ],
+     "change": [
+      150
+     ],
+     "or": [
+      153
+     ],
+     "mood.": [
+      154
+     ],
+     "decreased": [
+      156
+     ],
+     "times": [
+      158
+     ],
+     "HI": [
+      160
+     ],
+     "recovered": [
+      162
+     ],
+     "back": [
+      163
+     ],
+     "baseline": [
+      165
+     ],
+     "within": [
+      166
+     ],
+     "20": [
+      167
+     ],
+     "min.": [
+      168
+     ],
+     "We": [
+      169
+     ],
+     "conclude": [
+      170
+     ],
+     "acutely": [
+      174
+     ],
+     "deteriorated": [
+      175
+     ],
+     "most": [
+      178
+     ],
+     "straining": [
+      179
+     ],
+     "while": [
+      182
+     ],
+     "transient": [
+      184
+     ],
+     "intensity-dependent": [
+      185
+     ],
+     "enhancement": [
+      186
+     ],
+     "control": [
+      189
+     ],
+     "function": [
+      190
+     ],
+     "present": [
+      192
+     ],
+     "following": [
+      193
+     ],
+     "activity.": [
+      195
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5039992148",
+       "display_name": "Martin Wohlwend",
+       "orcid": "https://orcid.org/0000-0001-9851-0364",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9851-0364"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204778367",
+        "display_name": "Norwegian University of Science and Technology",
+        "ror": "https://ror.org/05xg72x27",
+        "country_code": "NO",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204778367"
+        ]
+       }
+      ],
+      "countries": [
+       "NO"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Martin Wohlwend",
+      "raw_affiliation_strings": [
+       "Department of Circulation and Medical Imaging, Faculty of Medicine, Norwegian University of Science and Technology, Trondheim, Norway"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Circulation and Medical Imaging, Faculty of Medicine, Norwegian University of Science and Technology, Trondheim, Norway",
+        "institution_ids": [
+         "https://openalex.org/I204778367"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5042568991",
+       "display_name": "Alexander Olsen",
+       "orcid": "https://orcid.org/0000-0001-8691-3860",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8691-3860"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204778367",
+        "display_name": "Norwegian University of Science and Technology",
+        "ror": "https://ror.org/05xg72x27",
+        "country_code": "NO",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204778367"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210104358",
+        "display_name": "St Olav's University Hospital",
+        "ror": "https://ror.org/01a4hbq44",
+        "country_code": "NO",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210104358"
+        ]
+       }
+      ],
+      "countries": [
+       "NO"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Alexander Olsen",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Faculty of Social Sciences and Technology Management, Norwegian University of Science and TechnologyTrondheim, Norway; Department of Physical Medicine and Rehabilitation, St. Olavs Hospital, Trondheim University HospitalTrondheim, Norway",
+       "Department of Physical Medicine and Rehabilitation, St. Olavs Hospital, Trondheim University Hospital, Trondheim, Norway",
+       "Department of Psychology, Faculty of Social Sciences and Technology Management, Norwegian University of Science and Technology, Trondheim, Norway"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Faculty of Social Sciences and Technology Management, Norwegian University of Science and TechnologyTrondheim, Norway; Department of Physical Medicine and Rehabilitation, St. Olavs Hospital, Trondheim University HospitalTrondheim, Norway",
+        "institution_ids": [
+         "https://openalex.org/I204778367",
+         "https://openalex.org/I4210104358"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Physical Medicine and Rehabilitation, St. Olavs Hospital, Trondheim University Hospital, Trondheim, Norway",
+        "institution_ids": [
+         "https://openalex.org/I4210104358"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, Faculty of Social Sciences and Technology Management, Norwegian University of Science and Technology, Trondheim, Norway",
+        "institution_ids": [
+         "https://openalex.org/I204778367"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5059222630",
+       "display_name": "Asta Kristine Haberg",
+       "orcid": "https://orcid.org/0000-0002-9007-1202",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9007-1202"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204778367",
+        "display_name": "Norwegian University of Science and Technology",
+        "ror": "https://ror.org/05xg72x27",
+        "country_code": "NO",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204778367"
+        ]
+       }
+      ],
+      "countries": [
+       "NO"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Asta K. H\u00e5berg",
+      "raw_affiliation_strings": [
+       "Department of Neuroscience, Faculty of Medicine, Norwegian University of Science and Technology, Trondheim, Norway"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neuroscience, Faculty of Medicine, Norwegian University of Science and Technology, Trondheim, Norway",
+        "institution_ids": [
+         "https://openalex.org/I204778367"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5113945489",
+       "display_name": "Helen S. Palmer",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204778367",
+        "display_name": "Norwegian University of Science and Technology",
+        "ror": "https://ror.org/05xg72x27",
+        "country_code": "NO",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204778367"
+        ]
+       }
+      ],
+      "countries": [
+       "NO"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Helen S. Palmer",
+      "raw_affiliation_strings": [
+       "Department of Circulation and Medical Imaging, Faculty of Medicine, Norwegian University of Science and Technology, Trondheim, Norway"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Circulation and Medical Imaging, Faculty of Medicine, Norwegian University of Science and Technology, Trondheim, Norway",
+        "institution_ids": [
+         "https://openalex.org/I204778367"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2017.00406",
+     "doi": "https://doi.org/10.3389/fpsyg.2017.00406",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2017.00406",
+     "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2017.00406/pdf",
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4411436417",
+    "doi": "https://doi.org/10.1186/s12967-025-06685-y",
+    "title": "Acute effects of a single bout of high-intensity strength and endurance exercise on cognitive biomarkers in young adults and elderly men: a within-subjects crossover study",
+    "display_name": "Acute effects of a single bout of high-intensity strength and endurance exercise on cognitive biomarkers in young adults and elderly men: a within-subjects crossover study",
+    "publication_year": 2025,
+    "cited_by_count": 19,
+    "abstract_inverted_index": {
+     "BACKGROUND:": [
+      0
+     ],
+     "Although": [
+      1
+     ],
+     "evidence": [
+      2
+     ],
+     "for": [
+      3,
+      117,
+      149,
+      202,
+      282
+     ],
+     "exercise-induced": [
+      4,
+      150
+     ],
+     "changes": [
+      5,
+      122
+     ],
+     "in": [
+      6,
+      183,
+      273
+     ],
+     "neurocognitive": [
+      7,
+      32,
+      288
+     ],
+     "biomarkers": [
+      8,
+      33,
+      159,
+      245
+     ],
+     "is": [
+      9,
+      23
+     ],
+     "emerging,": [
+      10
+     ],
+     "research": [
+      11
+     ],
+     "examining": [
+      12
+     ],
+     "acute": [
+      13,
+      46
+     ],
+     "responses": [
+      14
+     ],
+     "to": [
+      15,
+      247,
+      266
+     ],
+     "different": [
+      16
+     ],
+     "exercise": [
+      17,
+      182,
+      229
+     ],
+     "regimes": [
+      18
+     ],
+     "across": [
+      19
+     ],
+     "sex": [
+      20,
+      130,
+      170
+     ],
+     "and": [
+      21,
+      40,
+      48,
+      72,
+      82,
+      92,
+      110,
+      115,
+      123,
+      131,
+      139,
+      163,
+      176,
+      209,
+      214,
+      231,
+      233,
+      287
+     ],
+     "age": [
+      22
+     ],
+     "lacking.": [
+      24
+     ],
+     "This": [
+      25,
+      261
+     ],
+     "study": [
+      26
+     ],
+     "investigated": [
+      27
+     ],
+     "serum": [
+      28,
+      174,
+      186,
+      212
+     ],
+     "concentrations": [
+      29
+     ],
+     "of": [
+      30,
+      65,
+      88,
+      129,
+      142,
+      157,
+      224,
+      244,
+      257,
+      270,
+      285
+     ],
+     "three": [
+      31
+     ],
+     "(i.e.,": [
+      34
+     ],
+     "Klotho,": [
+      35
+     ],
+     "brain-derived": [
+      36
+     ],
+     "neurotrophic": [
+      37
+     ],
+     "factor": [
+      38,
+      201
+     ],
+     "(BDNF),": [
+      39
+     ],
+     "glycosylphosphatidylinositol-specific": [
+      41
+     ],
+     "phospholipase": [
+      42
+     ],
+     "D1": [
+      43
+     ],
+     "(GPLD1))": [
+      44
+     ],
+     "after": [
+      45,
+      85,
+      113,
+      161,
+      181,
+      227
+     ],
+     "strength": [
+      47,
+      89
+     ],
+     "aerobic": [
+      49
+     ],
+     "exercise,": [
+      50
+     ],
+     "along": [
+      51
+     ],
+     "with": [
+      52
+     ],
+     "skeletal": [
+      53,
+      274
+     ],
+     "muscle": [
+      54
+     ],
+     "gene": [
+      55,
+      118,
+      222,
+      268
+     ],
+     "expression.": [
+      56
+     ],
+     "METHODS:": [
+      57
+     ],
+     "In": [
+      58
+     ],
+     "a": [
+      59,
+      102,
+      136,
+      199
+     ],
+     "within-subjects": [
+      60
+     ],
+     "crossover": [
+      61
+     ],
+     "design,": [
+      62
+     ],
+     "blood": [
+      63
+     ],
+     "samples": [
+      64
+     ],
+     "19": [
+      66
+     ],
+     "young": [
+      67,
+      70,
+      205
+     ],
+     "women,": [
+      68
+     ],
+     "20": [
+      69
+     ],
+     "men,": [
+      71
+     ],
+     "14": [
+      73
+     ],
+     "elderly": [
+      74,
+      219
+     ],
+     "men": [
+      75,
+      206
+     ],
+     "were": [
+      76,
+      99,
+      133,
+      147,
+      166,
+      189
+     ],
+     "taken": [
+      77,
+      100
+     ],
+     "before,": [
+      78,
+      107
+     ],
+     "immediately,": [
+      79
+     ],
+     "3": [
+      80,
+      108,
+      192
+     ],
+     "h": [
+      81,
+      84,
+      109,
+      112,
+      193
+     ],
+     "24": [
+      83,
+      111,
+      239
+     ],
+     "one": [
+      86,
+      255
+     ],
+     "bout": [
+      87,
+      256
+     ],
+     "training": [
+      90,
+      95
+     ],
+     "(ST)": [
+      91
+     ],
+     "high-intensity": [
+      93
+     ],
+     "interval": [
+      94
+     ],
+     "(HIIT).": [
+      96
+     ],
+     "Muscle": [
+      97,
+      221
+     ],
+     "biopsies": [
+      98
+     ],
+     "from": [
+      101
+     ],
+     "subgroup": [
+      103
+     ],
+     "(n": [
+      104
+     ],
+     "=": [
+      105
+     ],
+     "22)": [
+      106
+     ],
+     "ST": [
+      114,
+      162,
+      258
+     ],
+     "HIIT": [
+      116,
+      164
+     ],
+     "expression": [
+      119,
+      223,
+      235,
+      269
+     ],
+     "analyses.": [
+      120
+     ],
+     "Time": [
+      121
+     ],
+     "baseline": [
+      124,
+      203
+     ],
+     "levels,": [
+      125
+     ],
+     "including": [
+      126
+     ],
+     "the": [
+      127,
+      283
+     ],
+     "influence": [
+      128
+     ],
+     "age,": [
+      132
+     ],
+     "analyzed": [
+      134
+     ],
+     "using": [
+      135
+     ],
+     "multilevel": [
+      137
+     ],
+     "model": [
+      138
+     ],
+     "Welch's": [
+      140
+     ],
+     "analysis": [
+      141
+     ],
+     "variance,": [
+      143
+     ],
+     "respectively.": [
+      144
+     ],
+     "Biomarker": [
+      145
+     ],
+     "levels": [
+      146,
+      178,
+      188,
+      243
+     ],
+     "adjusted": [
+      148
+     ],
+     "plasma": [
+      151
+     ],
+     "volume": [
+      152
+     ],
+     "changes.": [
+      153
+     ],
+     "RESULTS:": [
+      154
+     ],
+     "Serum": [
+      155
+     ],
+     "concentration": [
+      156
+     ],
+     "all": [
+      158,
+      184
+     ],
+     "increased": [
+      160,
+      226,
+      253
+     ],
+     "but": [
+      165
+     ],
+     "not": [
+      167
+     ],
+     "affected": [
+      168
+     ],
+     "by": [
+      169,
+      254
+     ],
+     "or": [
+      171,
+      259
+     ],
+     "age.": [
+      172
+     ],
+     "While": [
+      173
+     ],
+     "Klotho": [
+      175,
+      213,
+      225
+     ],
+     "BDNF": [
+      177,
+      215,
+      232
+     ],
+     "peaked": [
+      179
+     ],
+     "immediately": [
+      180
+     ],
+     "groups,": [
+      185
+     ],
+     "GPLD1": [
+      187,
+      234
+     ],
+     "highest": [
+      190
+     ],
+     "at": [
+      191
+     ],
+     "(young": [
+      194
+     ],
+     "groups": [
+      195
+     ],
+     "only).": [
+      196
+     ],
+     "Age": [
+      197
+     ],
+     "was": [
+      198,
+      236
+     ],
+     "determining": [
+      200
+     ],
+     "measures;": [
+      204
+     ],
+     "had": [
+      207
+     ],
+     "higher": [
+      208
+     ],
+     "lower": [
+      210
+     ],
+     "resting": [
+      211
+     ],
+     "concentration,": [
+      216
+     ],
+     "respectively,": [
+      217
+     ],
+     "than": [
+      218
+     ],
+     "men.": [
+      220
+     ],
+     "both": [
+      228
+     ],
+     "modes,": [
+      230
+     ],
+     "reduced": [
+      237
+     ],
+     "within": [
+      238
+     ],
+     "h.": [
+      240
+     ],
+     "CONCLUSIONS:": [
+      241
+     ],
+     "Circulating": [
+      242
+     ],
+     "linked": [
+      246
+     ],
+     "brain": [
+      248
+     ],
+     "health": [
+      249
+     ],
+     "can": [
+      250
+     ],
+     "acutely": [
+      251
+     ],
+     "be": [
+      252,
+      264
+     ],
+     "HIIT.": [
+      260
+     ],
+     "increase": [
+      262
+     ],
+     "might": [
+      263
+     ],
+     "related": [
+      265
+     ],
+     "altered": [
+      267
+     ],
+     "these": [
+      271
+     ],
+     "proteins": [
+      272
+     ],
+     "muscle.": [
+      275
+     ],
+     "Ultimately,": [
+      276
+     ],
+     "this": [
+      277
+     ],
+     "could": [
+      278
+     ],
+     "have": [
+      279
+     ],
+     "beneficial": [
+      280
+     ],
+     "implications": [
+      281
+     ],
+     "management": [
+      284
+     ],
+     "mental": [
+      286
+     ],
+     "impairments.": [
+      289
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5043195299",
+       "display_name": "Carolin Haberstroh",
+       "orcid": "https://orcid.org/0000-0001-9363-2565",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9363-2565"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204778367",
+        "display_name": "Norwegian University of Science and Technology",
+        "ror": "https://ror.org/05xg72x27",
+        "country_code": "NO",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204778367"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210104358",
+        "display_name": "St Olav's University Hospital",
+        "ror": "https://ror.org/01a4hbq44",
+        "country_code": "NO",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210104358"
+        ]
+       }
+      ],
+      "countries": [
+       "NO"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Carolin Haberstroh Bekkos",
+      "raw_affiliation_strings": [
+       "Department of Mental Health, Faculty of Medicine and Health Sciences, Norwegian University of Science and Technology (NTNU), Trondheim, Norway. carolin.haberstroh@stolav.no",
+       "Department of Research and Development, Clinic of Substance Use and Addiction Medicine, St. Olavs Hospital, Trondheim University Hospital, Trondheim, Norway. carolin.haberstroh@stolav.no"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-9363-2565",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Mental Health, Faculty of Medicine and Health Sciences, Norwegian University of Science and Technology (NTNU), Trondheim, Norway. carolin.haberstroh@stolav.no",
+        "institution_ids": [
+         "https://openalex.org/I204778367"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Research and Development, Clinic of Substance Use and Addiction Medicine, St. Olavs Hospital, Trondheim University Hospital, Trondheim, Norway. carolin.haberstroh@stolav.no",
+        "institution_ids": [
+         "https://openalex.org/I4210104358"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5015158651",
+       "display_name": "Md Abu Jafar Sujan",
+       "orcid": "https://orcid.org/0000-0002-5505-3623",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5505-3623"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204778367",
+        "display_name": "Norwegian University of Science and Technology",
+        "ror": "https://ror.org/05xg72x27",
+        "country_code": "NO",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204778367"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210104358",
+        "display_name": "St Olav's University Hospital",
+        "ror": "https://ror.org/01a4hbq44",
+        "country_code": "NO",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210104358"
+        ]
+       }
+      ],
+      "countries": [
+       "NO"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Md Abu Jafar Sujan",
+      "raw_affiliation_strings": [
+       "Department of Circulation and Medical Imaging, Faculty of Medicine and Health Sciences, NTNU, Trondheim, Norway",
+       "Department of Women's Health, St. Olavs Hospital, Trondheim University Hospital, Trondheim, Norway"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Circulation and Medical Imaging, Faculty of Medicine and Health Sciences, NTNU, Trondheim, Norway",
+        "institution_ids": [
+         "https://openalex.org/I204778367"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Women's Health, St. Olavs Hospital, Trondheim University Hospital, Trondheim, Norway",
+        "institution_ids": [
+         "https://openalex.org/I4210104358"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5007157349",
+       "display_name": "Astrid Kamilla Stunes",
+       "orcid": "https://orcid.org/0000-0003-1074-5199",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1074-5199"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204778367",
+        "display_name": "Norwegian University of Science and Technology",
+        "ror": "https://ror.org/05xg72x27",
+        "country_code": "NO",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204778367"
+        ]
+       }
+      ],
+      "countries": [
+       "NO"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       }
+      ],
+      "raw_author_name": "Astrid Kamilla Stunes",
+      "raw_affiliation_strings": [
+       "Center for, Oral Health Services and Research, Mid-Norway (TkMidt), Trondheim, Norway",
+       "Department of Clinical and Molecular Medicine, Faculty of Medicine and Health Sciences, NTNU, Trondheim, Norway"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for, Oral Health Services and Research, Mid-Norway (TkMidt), Trondheim, Norway",
+        "institution_ids": []
+       },
+       {
+        "raw_affiliation_string": "Department of Clinical and Molecular Medicine, Faculty of Medicine and Health Sciences, NTNU, Trondheim, Norway",
+        "institution_ids": [
+         "https://openalex.org/I204778367"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5004833136",
+       "display_name": "Atefe R. Tari",
+       "orcid": "https://orcid.org/0000-0003-4385-5255",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4385-5255"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204778367",
+        "display_name": "Norwegian University of Science and Technology",
+        "ror": "https://ror.org/05xg72x27",
+        "country_code": "NO",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204778367"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210104358",
+        "display_name": "St Olav's University Hospital",
+        "ror": "https://ror.org/01a4hbq44",
+        "country_code": "NO",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210104358"
+        ]
+       }
+      ],
+      "countries": [
+       "NO"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       }
+      ],
+      "raw_author_name": "Atefe Rafiee Tari",
+      "raw_affiliation_strings": [
+       "Department of Circulation and Medical Imaging, Faculty of Medicine and Health Sciences, NTNU, Trondheim, Norway",
+       "Department of Neurology and Clinical Neurophysiology, St. Olavs Hospital, Trondheim University Hospital, Trondheim, Norway"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Circulation and Medical Imaging, Faculty of Medicine and Health Sciences, NTNU, Trondheim, Norway",
+        "institution_ids": [
+         "https://openalex.org/I204778367"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Neurology and Clinical Neurophysiology, St. Olavs Hospital, Trondheim University Hospital, Trondheim, Norway",
+        "institution_ids": [
+         "https://openalex.org/I4210104358"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5085425141",
+       "display_name": "Norun Aag\u00e5rd",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204778367",
+        "display_name": "Norwegian University of Science and Technology",
+        "ror": "https://ror.org/05xg72x27",
+        "country_code": "NO",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204778367"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210110565",
+        "display_name": "Myworkout (Norway)",
+        "ror": "https://ror.org/01tt6ct02",
+        "country_code": "NO",
+        "type": "company",
+        "lineage": [
+         "https://openalex.org/I4210110565"
+        ]
+       }
+      ],
+      "countries": [
+       "NO"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Norun Aag\u00e5rd",
+      "raw_affiliation_strings": [
+       "Department of Circulation and Medical Imaging, Faculty of Medicine and Health Sciences, NTNU, Trondheim, Norway",
+       "Myworkout, Medical Rehabilitation Clinic, Trondheim, Norway"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Circulation and Medical Imaging, Faculty of Medicine and Health Sciences, NTNU, Trondheim, Norway",
+        "institution_ids": [
+         "https://openalex.org/I204778367"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Myworkout, Medical Rehabilitation Clinic, Trondheim, Norway",
+        "institution_ids": [
+         "https://openalex.org/I4210110565"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5042975105",
+       "display_name": "Cathrine Langlie Brobakken",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204778367",
+        "display_name": "Norwegian University of Science and Technology",
+        "ror": "https://ror.org/05xg72x27",
+        "country_code": "NO",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204778367"
+        ]
+       }
+      ],
+      "countries": [
+       "NO"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Cathrine Langlie Brobakken",
+      "raw_affiliation_strings": [
+       "Department of Circulation and Medical Imaging, Faculty of Medicine and Health Sciences, NTNU, Trondheim, Norway"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Circulation and Medical Imaging, Faculty of Medicine and Health Sciences, NTNU, Trondheim, Norway",
+        "institution_ids": [
+         "https://openalex.org/I204778367"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5016732811",
+       "display_name": "Martin Siksj\u00f8 Brevig",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204778367",
+        "display_name": "Norwegian University of Science and Technology",
+        "ror": "https://ror.org/05xg72x27",
+        "country_code": "NO",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204778367"
+        ]
+       }
+      ],
+      "countries": [
+       "NO"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Martin Siksj\u00f8 Brevig",
+      "raw_affiliation_strings": [
+       "Department of Circulation and Medical Imaging, Faculty of Medicine and Health Sciences, NTNU, Trondheim, Norway"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Circulation and Medical Imaging, Faculty of Medicine and Health Sciences, NTNU, Trondheim, Norway",
+        "institution_ids": [
+         "https://openalex.org/I204778367"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5072464999",
+       "display_name": "Unni Syversen",
+       "orcid": "https://orcid.org/0000-0002-3607-7486",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3607-7486"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204778367",
+        "display_name": "Norwegian University of Science and Technology",
+        "ror": "https://ror.org/05xg72x27",
+        "country_code": "NO",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204778367"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210104358",
+        "display_name": "St Olav's University Hospital",
+        "ror": "https://ror.org/01a4hbq44",
+        "country_code": "NO",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210104358"
+        ]
+       }
+      ],
+      "countries": [
+       "NO"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       }
+      ],
+      "raw_author_name": "Unni Syversen",
+      "raw_affiliation_strings": [
+       "Department of Clinical and Molecular Medicine, Faculty of Medicine and Health Sciences, NTNU, Trondheim, Norway",
+       "Department of Endocrinology, St. Olavs Hospital, Trondheim University Hospital, Trondheim, Norway"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Clinical and Molecular Medicine, Faculty of Medicine and Health Sciences, NTNU, Trondheim, Norway",
+        "institution_ids": [
+         "https://openalex.org/I204778367"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Endocrinology, St. Olavs Hospital, Trondheim University Hospital, Trondheim, Norway",
+        "institution_ids": [
+         "https://openalex.org/I4210104358"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5025541198",
+       "display_name": "Eivind Wang",
+       "orcid": "https://orcid.org/0000-0002-6322-2159",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6322-2159"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I182204967",
+        "display_name": "Molde University College",
+        "ror": "https://ror.org/00kxjcd28",
+        "country_code": "NO",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I182204967"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210104358",
+        "display_name": "St Olav's University Hospital",
+        "ror": "https://ror.org/01a4hbq44",
+        "country_code": "NO",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210104358"
+        ]
+       }
+      ],
+      "countries": [
+       "NO"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       }
+      ],
+      "raw_author_name": "Eivind Wang",
+      "raw_affiliation_strings": [
+       "Department of Psychosis and Rehabilitation, Psychiatry Clinic, St. Olavs Hospital, Trondheim University Hospital, Trondheim, Norway",
+       "Faculty of Health Sciences and Social Care, Molde University College, Molde, Norway"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychosis and Rehabilitation, Psychiatry Clinic, St. Olavs Hospital, Trondheim University Hospital, Trondheim, Norway",
+        "institution_ids": [
+         "https://openalex.org/I4210104358"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Faculty of Health Sciences and Social Care, Molde University College, Molde, Norway",
+        "institution_ids": [
+         "https://openalex.org/I182204967"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5073184221",
+       "display_name": "Mats Peder Mosti",
+       "orcid": "https://orcid.org/0000-0001-9819-5747",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9819-5747"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210104358",
+        "display_name": "St Olav's University Hospital",
+        "ror": "https://ror.org/01a4hbq44",
+        "country_code": "NO",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210104358"
+        ]
+       }
+      ],
+      "countries": [
+       "NO"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/project-administration",
+        "display_name": "Project administration"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       }
+      ],
+      "raw_author_name": "Mats Peder Mosti",
+      "raw_affiliation_strings": [
+       "Department of Research and Development, Clinic of Substance Use and Addiction Medicine, St. Olavs Hospital, Trondheim University Hospital, Trondheim, Norway. mats.peder.mosti@stolav.no"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-9819-5747",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Research and Development, Clinic of Substance Use and Addiction Medicine, St. Olavs Hospital, Trondheim University Hospital, Trondheim, Norway. mats.peder.mosti@stolav.no",
+        "institution_ids": [
+         "https://openalex.org/I4210104358"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1186/s12967-025-06685-y",
+     "doi": "https://doi.org/10.1186/s12967-025-06685-y",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1186/s12967-025-06685-y",
+     "pdf_url": "https://translational-medicine.biomedcentral.com/counter/pdf/10.1186/s12967-025-06685-y",
+     "source": {
+      "id": "https://openalex.org/S142026636",
+      "display_name": "Journal of Translational Medicine",
+      "issn_l": "1479-5876",
+      "issn": [
+       "1479-5876"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "dongbi-d",
+       "doyens",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-2",
+       "oarl",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320256",
+      "host_organization_name": "BioMed Central",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320256",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "BioMed Central",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Translational Medicine",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2140014434",
+    "doi": "https://doi.org/10.7860/jcdr/2013/5855.3341",
+    "title": "The Acute Effects of a Single Bout of Moderate-intensity Aerobic Exercise on Cognitive Functions in Healthy Adult Males",
+    "display_name": "The Acute Effects of a Single Bout of Moderate-intensity Aerobic Exercise on Cognitive Functions in Healthy Adult Males",
+    "publication_year": 2013,
+    "cited_by_count": 100,
+    "abstract_inverted_index": {
+     "INTRODUCTION:": [
+      0
+     ],
+     "Single": [
+      1
+     ],
+     "acute": [
+      2,
+      32,
+      168
+     ],
+     "bouts": [
+      3
+     ],
+     "of": [
+      4,
+      17,
+      45,
+      75,
+      108,
+      130,
+      135,
+      161,
+      170,
+      185,
+      230,
+      241,
+      254,
+      308,
+      343,
+      358
+     ],
+     "moderately-intense": [
+      5
+     ],
+     "aerobic": [
+      6,
+      33,
+      36,
+      171,
+      346
+     ],
+     "exercise": [
+      7,
+      37,
+      122,
+      136,
+      144,
+      172,
+      347
+     ],
+     "like": [
+      8
+     ],
+     "walking": [
+      9
+     ],
+     "have": [
+      10,
+      24,
+      91
+     ],
+     "been": [
+      11,
+      69
+     ],
+     "found": [
+      12,
+      318
+     ],
+     "to": [
+      13,
+      54,
+      127,
+      165,
+      199,
+      251,
+      373
+     ],
+     "improve": [
+      14,
+      355
+     ],
+     "cognitive": [
+      15,
+      29,
+      148,
+      175,
+      201
+     ],
+     "control": [
+      16
+     ],
+     "attention": [
+      18
+     ],
+     "in": [
+      19,
+      28,
+      48,
+      64,
+      101,
+      116,
+      123,
+      177,
+      193,
+      276
+     ],
+     "children,": [
+      20
+     ],
+     "but": [
+      21,
+      50
+     ],
+     "some": [
+      22,
+      356
+     ],
+     "studies": [
+      23,
+      89,
+      111
+     ],
+     "reported": [
+      25,
+      70,
+      92,
+      112
+     ],
+     "no": [
+      26,
+      93,
+      113
+     ],
+     "improvement": [
+      27,
+      115,
+      272,
+      316
+     ],
+     "flexibility": [
+      30
+     ],
+     "following": [
+      31
+     ],
+     "exercise.": [
+      34
+     ],
+     "Submaximal": [
+      35
+     ],
+     "performed": [
+      38,
+      227
+     ],
+     "for": [
+      39,
+      319,
+      348,
+      362
+     ],
+     "60": [
+      40
+     ],
+     "minutes": [
+      41,
+      353
+     ],
+     "facilitated": [
+      42
+     ],
+     "specific": [
+      43
+     ],
+     "aspects": [
+      44,
+      357
+     ],
+     "information": [
+      46,
+      58
+     ],
+     "processing": [
+      47,
+      59
+     ],
+     "adults": [
+      49
+     ],
+     "extended": [
+      51
+     ],
+     "exercises": [
+      52
+     ],
+     "leading": [
+      53
+     ],
+     "dehydration": [
+      55
+     ],
+     "compromised": [
+      56
+     ],
+     "both": [
+      57
+     ],
+     "and": [
+      60,
+      82,
+      98,
+      103,
+      147,
+      196,
+      215,
+      257,
+      295,
+      311,
+      365,
+      367
+     ],
+     "memory": [
+      61
+     ],
+     "functions.": [
+      62
+     ],
+     "Improvement": [
+      63
+     ],
+     "executive": [
+      65
+     ],
+     "functions": [
+      66,
+      149
+     ],
+     "has": [
+      67
+     ],
+     "also": [
+      68
+     ],
+     "during": [
+      71
+     ],
+     "cycling": [
+      72,
+      231
+     ],
+     "at": [
+      73,
+      237
+     ],
+     "70%": [
+      74
+     ],
+     "Heart": [
+      76
+     ],
+     "Rate": [
+      77
+     ],
+     "Reserve": [
+      78
+     ],
+     "(HRR)": [
+      79
+     ],
+     "across": [
+      80,
+      173,
+      208
+     ],
+     "young": [
+      81,
+      179
+     ],
+     "older": [
+      83
+     ],
+     "age": [
+      84
+     ],
+     "groups.": [
+      85
+     ],
+     "However,": [
+      86
+     ],
+     "there": [
+      87,
+      269
+     ],
+     "are": [
+      88
+     ],
+     "which": [
+      90,
+      139
+     ],
+     "correlation": [
+      94
+     ],
+     "between": [
+      95
+     ],
+     "physical": [
+      96,
+      119
+     ],
+     "activity": [
+      97,
+      120
+     ],
+     "academic": [
+      99
+     ],
+     "performance": [
+      100
+     ],
+     "children": [
+      102
+     ],
+     "a": [
+      104,
+      218,
+      233
+     ],
+     "recent": [
+      105
+     ],
+     "systematic": [
+      106
+     ],
+     "review": [
+      107
+     ],
+     "30": [
+      109,
+      228,
+      352
+     ],
+     "relevant": [
+      110
+     ],
+     "significant": [
+      114,
+      271,
+      315
+     ],
+     "cognition": [
+      117
+     ],
+     "with": [
+      118
+     ],
+     "or": [
+      121
+     ],
+     "adults.": [
+      124
+     ],
+     "There": [
+      125
+     ],
+     "seems": [
+      126
+     ],
+     "be": [
+      128,
+      141
+     ],
+     "lack": [
+      129
+     ],
+     "consensus": [
+      131
+     ],
+     "on": [
+      132,
+      137,
+      232
+     ],
+     "the": [
+      133,
+      143,
+      167,
+      194,
+      209,
+      263,
+      277,
+      306,
+      328,
+      370,
+      375
+     ],
+     "effect": [
+      134
+     ],
+     "cognition,": [
+      138,
+      359
+     ],
+     "may": [
+      140
+     ],
+     "because": [
+      142
+     ],
+     "protocols": [
+      145
+     ],
+     "used": [
+      146
+     ],
+     "tested": [
+      150
+     ],
+     "by": [
+      151
+     ],
+     "different": [
+      152,
+      174
+     ],
+     "researchers": [
+      153
+     ],
+     "were": [
+      154,
+      245,
+      260
+     ],
+     "not": [
+      155
+     ],
+     "uniform.": [
+      156
+     ],
+     "AIM:": [
+      157
+     ],
+     "The": [
+      158
+     ],
+     "primary": [
+      159
+     ],
+     "aim": [
+      160
+     ],
+     "this": [
+      162
+     ],
+     "study": [
+      163,
+      195
+     ],
+     "was": [
+      164,
+      197,
+      270,
+      317,
+      324
+     ],
+     "investigate": [
+      166
+     ],
+     "effects": [
+      169
+     ],
+     "domains": [
+      176
+     ],
+     "healthy": [
+      178,
+      189
+     ],
+     "individuals.": [
+      180
+     ],
+     "METHODS:": [
+      181
+     ],
+     "A": [
+      182,
+      340
+     ],
+     "homogeneous": [
+      183
+     ],
+     "group": [
+      184
+     ],
+     "10": [
+      186
+     ],
+     "right": [
+      187
+     ],
+     "handed": [
+      188
+     ],
+     "adult": [
+      190
+     ],
+     "males": [
+      191
+     ],
+     "participated": [
+      192
+     ],
+     "subjected": [
+      198
+     ],
+     "8": [
+      200
+     ],
+     "function": [
+      202
+     ],
+     "tests": [
+      203,
+      206,
+      307
+     ],
+     "including": [
+      204
+     ],
+     "2": [
+      205
+     ],
+     "each": [
+      207
+     ],
+     "four": [
+      210
+     ],
+     "categories:": [
+      211
+     ],
+     "Memory,": [
+      212,
+      309
+     ],
+     "Reasoning,": [
+      213
+     ],
+     "Concentration": [
+      214
+     ],
+     "Planning": [
+      216,
+      312
+     ],
+     "using": [
+      217,
+      262
+     ],
+     "pre-validated": [
+      219
+     ],
+     "web": [
+      220
+     ],
+     "based": [
+      221
+     ],
+     "tool.": [
+      222
+     ],
+     "Following": [
+      223
+     ],
+     "baseline": [
+      224
+     ],
+     "testing,": [
+      225
+     ],
+     "subjects": [
+      226
+     ],
+     "minutes'": [
+      229
+     ],
+     "stationary": [
+      234
+     ],
+     "bicycle": [
+      235
+     ],
+     "ergometer": [
+      236
+     ],
+     "moderate": [
+      238,
+      344
+     ],
+     "intensity": [
+      239,
+      345
+     ],
+     "(60-70%": [
+      240
+     ],
+     "HRR).": [
+      242
+     ],
+     "Post-test": [
+      243
+     ],
+     "scores": [
+      244,
+      259
+     ],
+     "recorded": [
+      246
+     ],
+     "when": [
+      247
+     ],
+     "heart": [
+      248
+     ],
+     "rate": [
+      249
+     ],
+     "returned": [
+      250
+     ],
+     "within": [
+      252
+     ],
+     "10%": [
+      253
+     ],
+     "baseline.": [
+      255
+     ],
+     "Pre": [
+      256
+     ],
+     "post-test": [
+      258,
+      322
+     ],
+     "compared": [
+      261
+     ],
+     "paired": [
+      264
+     ],
+     "t-test.": [
+      265
+     ],
+     "RESULTS:": [
+      266
+     ],
+     "After": [
+      267
+     ],
+     "exercise,": [
+      268
+     ],
+     "(Mean": [
+      273
+     ],
+     "\u00b1": [
+      274,
+      283,
+      289,
+      293,
+      300,
+      304,
+      332,
+      336
+     ],
+     "SD)": [
+      275
+     ],
+     "Paired": [
+      278
+     ],
+     "Associates": [
+      279
+     ],
+     "(4.8\u00b11.0": [
+      280
+     ],
+     "Vs": [
+      281,
+      291,
+      302,
+      334
+     ],
+     "5.5": [
+      282
+     ],
+     "1.0),": [
+      284
+     ],
+     "Odd": [
+      285
+     ],
+     "One": [
+      286
+     ],
+     "Out": [
+      287
+     ],
+     "(10.5": [
+      288
+     ],
+     "3.0": [
+      290
+     ],
+     "13": [
+      292
+     ],
+     "3.1)": [
+      294
+     ],
+     "Spatial": [
+      296
+     ],
+     "Slider": [
+      297
+     ],
+     "test": [
+      298
+     ],
+     "(30.4": [
+      299
+     ],
+     "17.8": [
+      301
+     ],
+     "40.5": [
+      303
+     ],
+     "13.9),": [
+      305
+     ],
+     "Reasoning": [
+      310
+     ],
+     "respectively.": [
+      313
+     ],
+     "No": [
+      314
+     ],
+     "concentration.": [
+      320
+     ],
+     "Total": [
+      321
+     ],
+     "time": [
+      323,
+      330,
+      371
+     ],
+     "significantly": [
+      325
+     ],
+     "lower": [
+      326
+     ],
+     "than": [
+      327
+     ],
+     "pre-test": [
+      329
+     ],
+     "(23.5": [
+      331
+     ],
+     "2.55": [
+      333
+     ],
+     "21.2": [
+      335
+     ],
+     "1.48": [
+      337
+     ],
+     "minutes).": [
+      338
+     ],
+     "CONCLUSION:": [
+      339
+     ],
+     "single": [
+      341
+     ],
+     "bout": [
+      342
+     ],
+     "as": [
+      349,
+      351
+     ],
+     "less": [
+      350
+     ],
+     "can": [
+      354,
+      368
+     ],
+     "most": [
+      360
+     ],
+     "prominently": [
+      361
+     ],
+     "memory,": [
+      363
+     ],
+     "reasoning": [
+      364
+     ],
+     "planning": [
+      366
+     ],
+     "shorten": [
+      369
+     ],
+     "taken": [
+      372
+     ],
+     "complete": [
+      374
+     ],
+     "tests.": [
+      376
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5013220961",
+       "display_name": "Shankarappa Manjunatha",
+       "orcid": "https://orcid.org/0000-0002-5103-4804",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5103-4804"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I74885063",
+        "display_name": "Sharda University",
+        "ror": "https://ror.org/03b6ffh07",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I74885063"
+        ]
+       }
+      ],
+      "countries": [
+       "IN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "S. Manjunatha",
+      "raw_affiliation_strings": [
+       "Assistant Professor, Department of Physiology, School of Medical Sciences and Research Sharda University, Greater Noida, UP, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Assistant Professor, Department of Physiology, School of Medical Sciences and Research Sharda University, Greater Noida, UP, India",
+        "institution_ids": [
+         "https://openalex.org/I74885063"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.7860/jcdr/2013/5855.3341",
+     "doi": "https://doi.org/10.7860/jcdr/2013/5855.3341",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.7860/jcdr/2013/5855.3341",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S2737465529",
+      "display_name": "JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH",
+      "issn_l": "0973-709X",
+      "issn": [
+       "0973-709X",
+       "2249-782X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "poland-40"
+      ],
+      "host_organization": "https://openalex.org/P4310318655",
+      "host_organization_name": "JCDR Research and Publications Private Limited",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310318655"
+      ],
+      "host_organization_lineage_names": [
+       "JCDR Research and Publications Private Limited"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4288040913",
+    "doi": "https://doi.org/10.3390/ijerph19159106",
+    "title": "Effects of Acute Exercise on Cognitive Flexibility in Young Adults with Different Levels of Aerobic Fitness",
+    "display_name": "Effects of Acute Exercise on Cognitive Flexibility in Young Adults with Different Levels of Aerobic Fitness",
+    "publication_year": 2022,
+    "cited_by_count": 17,
+    "abstract_inverted_index": {
+     "This": [
+      0
+     ],
+     "study": [
+      1
+     ],
+     "aimed": [
+      2
+     ],
+     "to": [
+      3,
+      98,
+      173
+     ],
+     "evaluate": [
+      4
+     ],
+     "the": [
+      5,
+      46,
+      122,
+      132,
+      137,
+      149
+     ],
+     "effects": [
+      6
+     ],
+     "of": [
+      7,
+      26,
+      118,
+      151
+     ],
+     "high-intensity": [
+      8
+     ],
+     "interval": [
+      9
+     ],
+     "exercise": [
+      10,
+      15,
+      171
+     ],
+     "(HIIE)": [
+      11
+     ],
+     "and": [
+      12,
+      36,
+      71,
+      91,
+      136,
+      154,
+      169
+     ],
+     "moderate-intensity": [
+      13
+     ],
+     "continuous": [
+      14
+     ],
+     "(MICE)": [
+      16
+     ],
+     "on": [
+      17,
+      40,
+      45,
+      156
+     ],
+     "cognitive": [
+      18,
+      100,
+      157,
+      175
+     ],
+     "flexibility": [
+      19
+     ],
+     "in": [
+      20,
+      58,
+      77,
+      80,
+      116
+     ],
+     "young": [
+      21,
+      30,
+      106
+     ],
+     "adults": [
+      22,
+      31,
+      107,
+      160
+     ],
+     "with": [
+      23,
+      108
+     ],
+     "differing": [
+      24
+     ],
+     "levels": [
+      25
+     ],
+     "aerobic": [
+      27,
+      145
+     ],
+     "fitness.": [
+      28
+     ],
+     "Sixty-six": [
+      29
+     ],
+     "were": [
+      32
+     ],
+     "grouped": [
+      33
+     ],
+     "into": [
+      34
+     ],
+     "high-": [
+      35
+     ],
+     "low-fit": [
+      37
+     ],
+     "groups": [
+      38
+     ],
+     "based": [
+      39
+     ],
+     "their": [
+      41
+     ],
+     "final": [
+      42
+     ],
+     "running": [
+      43
+     ],
+     "distance": [
+      44
+     ],
+     "20": [
+      47,
+      64,
+      68,
+      123,
+      138
+     ],
+     "m": [
+      48
+     ],
+     "Progressive": [
+      49
+     ],
+     "Aerobic": [
+      50
+     ],
+     "Cardiovascular": [
+      51
+     ],
+     "Endurance": [
+      52
+     ],
+     "Run": [
+      53
+     ],
+     "(PACER)": [
+      54
+     ],
+     "test.": [
+      55
+     ],
+     "Individuals": [
+      56
+     ],
+     "participated": [
+      57
+     ],
+     "a": [
+      59,
+      63,
+      67,
+      72,
+      78,
+      81,
+      109
+     ],
+     "10": [
+      60,
+      133
+     ],
+     "min": [
+      61,
+      65,
+      69,
+      94,
+      124,
+      134,
+      139
+     ],
+     "HIIE,": [
+      62,
+      66,
+      125
+     ],
+     "MICE,": [
+      70
+     ],
+     "control": [
+      73
+     ],
+     "session": [
+      74
+     ],
+     "(reading": [
+      75
+     ],
+     "quietly": [
+      76
+     ],
+     "chair)": [
+      79
+     ],
+     "counterbalanced": [
+      82
+     ],
+     "order.": [
+      83
+     ],
+     "The": [
+      84,
+      102
+     ],
+     "more-odd": [
+      85
+     ],
+     "shifting": [
+      86
+     ],
+     "task": [
+      87
+     ],
+     "was": [
+      88
+     ],
+     "completed": [
+      89
+     ],
+     "before": [
+      90
+     ],
+     "approximately": [
+      92
+     ],
+     "5": [
+      93
+     ],
+     "after": [
+      95
+     ],
+     "each": [
+      96
+     ],
+     "intervention": [
+      97
+     ],
+     "assess": [
+      99
+     ],
+     "flexibility.": [
+      101,
+      158,
+      176
+     ],
+     "results": [
+      103
+     ],
+     "showed": [
+      104
+     ],
+     "that": [
+      105,
+      144
+     ],
+     "high": [
+      110
+     ],
+     "fitness": [
+      111,
+      146,
+      164
+     ],
+     "level": [
+      112,
+      165
+     ],
+     "gained": [
+      113
+     ],
+     "greater": [
+      114
+     ],
+     "benefits": [
+      115
+     ],
+     "terms": [
+      117
+     ],
+     "switch": [
+      119
+     ],
+     "cost": [
+      120
+     ],
+     "from": [
+      121,
+      131
+     ],
+     "while": [
+      126
+     ],
+     "low-fitness": [
+      127
+     ],
+     "participants": [
+      128
+     ],
+     "benefited": [
+      129
+     ],
+     "more": [
+      130
+     ],
+     "HIIE": [
+      135,
+      153
+     ],
+     "MICE.": [
+      140
+     ],
+     "These": [
+      141
+     ],
+     "findings": [
+      142
+     ],
+     "suggest": [
+      143
+     ],
+     "may": [
+      147
+     ],
+     "influence": [
+      148
+     ],
+     "effect": [
+      150
+     ],
+     "acute": [
+      152
+     ],
+     "MICE": [
+      155
+     ],
+     "Young": [
+      159
+     ],
+     "should": [
+      161
+     ],
+     "consider": [
+      162
+     ],
+     "individual": [
+      163
+     ],
+     "when": [
+      166
+     ],
+     "adopting": [
+      167
+     ],
+     "time-effective": [
+      168
+     ],
+     "appropriate": [
+      170
+     ],
+     "routines": [
+      172
+     ],
+     "improve": [
+      174
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5102487806",
+       "display_name": "Beibei Shi",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I108688024",
+        "display_name": "Qingdao University",
+        "ror": "https://ror.org/021cj6z65",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I108688024"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Beibei Shi",
+      "raw_affiliation_strings": [
+       "Department of Physical Education, Qingdao University, Qingdao 266071, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Education, Qingdao University, Qingdao 266071, China",
+        "institution_ids": [
+         "https://openalex.org/I108688024"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5060270879",
+       "display_name": "Hong Mou",
+       "orcid": "https://orcid.org/0000-0002-9398-1279",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9398-1279"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I108688024",
+        "display_name": "Qingdao University",
+        "ror": "https://ror.org/021cj6z65",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I108688024"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Hong Mou",
+      "raw_affiliation_strings": [
+       "Department of Physical Education, Qingdao University, Qingdao 266071, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Education, Qingdao University, Qingdao 266071, China",
+        "institution_ids": [
+         "https://openalex.org/I108688024"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5080916797",
+       "display_name": "Shudong Tian",
+       "orcid": "https://orcid.org/0009-0001-3472-6729",
+       "observed_orcids": [
+        "https://orcid.org/0009-0001-3472-6729"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I108688024",
+        "display_name": "Qingdao University",
+        "ror": "https://ror.org/021cj6z65",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I108688024"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Shudong Tian",
+      "raw_affiliation_strings": [
+       "Department of Physical Education, Qingdao University, Qingdao 266071, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Education, Qingdao University, Qingdao 266071, China",
+        "institution_ids": [
+         "https://openalex.org/I108688024"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5028658754",
+       "display_name": "Fanying Meng",
+       "orcid": "https://orcid.org/0009-0001-5293-2059",
+       "observed_orcids": [
+        "https://orcid.org/0009-0001-5293-2059"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I3018263800",
+        "display_name": "Huzhou Normal University",
+        "ror": "https://ror.org/04mvpxy20",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I3018263800"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Fanying Meng",
+      "raw_affiliation_strings": [
+       "Institute of Physical Education, Huzhou University, Huzhou 313000, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute of Physical Education, Huzhou University, Huzhou 313000, China",
+        "institution_ids": [
+         "https://openalex.org/I3018263800"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5067589590",
+       "display_name": "Fanghui Qiu",
+       "orcid": "https://orcid.org/0000-0002-7337-4228",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7337-4228"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I108688024",
+        "display_name": "Qingdao University",
+        "ror": "https://ror.org/021cj6z65",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I108688024"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Fanghui Qiu",
+      "raw_affiliation_strings": [
+       "Department of Physical Education, Qingdao University, Qingdao 266071, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-7337-4228",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Education, Qingdao University, Qingdao 266071, China",
+        "institution_ids": [
+         "https://openalex.org/I108688024"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3390/ijerph19159106",
+     "doi": "https://doi.org/10.3390/ijerph19159106",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3390/ijerph19159106",
+     "pdf_url": "https://www.mdpi.com/1660-4601/19/15/9106/pdf?version=1658837287",
+     "source": {
+      "id": "https://openalex.org/S15239247",
+      "display_name": "International Journal of Environmental Research and Public Health",
+      "issn_l": "1660-4601",
+      "issn": [
+       "1660-4601",
+       "1661-7827"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "erih-plus",
+       "medline",
+       "norway-1",
+       "poland-20",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310310987",
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310310987"
+      ],
+      "host_organization_lineage_names": [
+       "Multidisciplinary Digital Publishing Institute"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "International Journal of Environmental Research and Public Health",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4409740445",
+    "doi": "https://doi.org/10.22312/sdusbed.1492779",
+    "title": "The Acute Effects of Aerobic Exercise on Cognitive Functions \u0131n Young Adults",
+    "display_name": "The Acute Effects of Aerobic Exercise on Cognitive Functions \u0131n Young Adults",
+    "publication_year": 2025,
+    "cited_by_count": 1,
+    "abstract_inverted_index": {
+     "Objective:": [
+      0
+     ],
+     "The": [
+      1,
+      66,
+      125,
+      134,
+      174
+     ],
+     "acute": [
+      2,
+      17,
+      32,
+      254
+     ],
+     "effects": [
+      3,
+      18,
+      33,
+      202,
+      255
+     ],
+     "of": [
+      4,
+      19,
+      34,
+      70,
+      79,
+      106,
+      128,
+      147,
+      218,
+      241,
+      256
+     ],
+     "aerobic": [
+      5,
+      36,
+      227,
+      242,
+      257
+     ],
+     "exercise": [
+      6,
+      20,
+      37,
+      67,
+      194
+     ],
+     "on": [
+      7,
+      21,
+      38,
+      203,
+      259
+     ],
+     "cognitive": [
+      8,
+      22,
+      39,
+      204,
+      219,
+      260
+     ],
+     "function": [
+      9,
+      23
+     ],
+     "in": [
+      10,
+      41,
+      139,
+      180,
+      206,
+      215
+     ],
+     "young": [
+      11,
+      43,
+      50,
+      207
+     ],
+     "adults": [
+      12,
+      51
+     ],
+     "are": [
+      13,
+      247
+     ],
+     "well-established,": [
+      14
+     ],
+     "yet": [
+      15
+     ],
+     "the": [
+      16,
+      31,
+      90,
+      95,
+      101,
+      107,
+      117,
+      129,
+      216,
+      253
+     ],
+     "remain": [
+      24
+     ],
+     "incompletely": [
+      25
+     ],
+     "understood.": [
+      26
+     ],
+     "We": [
+      27,
+      88
+     ],
+     "aimed": [
+      28
+     ],
+     "to": [
+      29,
+      93,
+      115,
+      198,
+      249
+     ],
+     "investigate": [
+      30
+     ],
+     "1-session": [
+      35
+     ],
+     "functions": [
+      40
+     ],
+     "healthy": [
+      42,
+      49
+     ],
+     "adults.": [
+      44
+     ],
+     "This": [
+      45
+     ],
+     "study": [
+      46
+     ],
+     "involved": [
+      47
+     ],
+     "52": [
+      48
+     ],
+     "(24": [
+      52
+     ],
+     "males": [
+      53
+     ],
+     "and": [
+      54,
+      64,
+      82,
+      122,
+      149,
+      159,
+      170,
+      185,
+      189,
+      238
+     ],
+     "28": [
+      55
+     ],
+     "females)": [
+      56
+     ],
+     "studying": [
+      57
+     ],
+     "xxx": [
+      58,
+      60
+     ],
+     "Faculty": [
+      59
+     ],
+     "between": [
+      61
+     ],
+     "xxx.": [
+      62
+     ],
+     "Material": [
+      63
+     ],
+     "Method:": [
+      65
+     ],
+     "routine": [
+      68
+     ],
+     "consisted": [
+      69
+     ],
+     "a": [
+      71,
+      76,
+      85,
+      211
+     ],
+     "5-minute": [
+      72,
+      86
+     ],
+     "warm-up,": [
+      73
+     ],
+     "followed": [
+      74
+     ],
+     "by": [
+      75,
+      225
+     ],
+     "20-minute": [
+      77
+     ],
+     "period": [
+      78
+     ],
+     "increased": [
+      80
+     ],
+     "intensity,": [
+      81
+     ],
+     "concluded": [
+      83
+     ],
+     "with": [
+      84,
+      234
+     ],
+     "cool-down.": [
+      87
+     ],
+     "employed": [
+      89
+     ],
+     "Stroop": [
+      91
+     ],
+     "Test": [
+      92
+     ],
+     "evaluate": [
+      94
+     ],
+     "participants'": [
+      96,
+      118
+     ],
+     "attention": [
+      97
+     ],
+     "levels.": [
+      98
+     ],
+     "In": [
+      99
+     ],
+     "addition,": [
+      100
+     ],
+     "number": [
+      102,
+      146
+     ],
+     "sequence": [
+      103
+     ],
+     "(SD)": [
+      104
+     ],
+     "subtest": [
+      105
+     ],
+     "Wechsler": [
+      108
+     ],
+     "Memory": [
+      109
+     ],
+     "Scale-Generalized": [
+      110
+     ],
+     "Form": [
+      111
+     ],
+     "(WMS-G)": [
+      112
+     ],
+     "was": [
+      113,
+      131
+     ],
+     "used": [
+      114
+     ],
+     "assess": [
+      116
+     ],
+     "memory": [
+      119
+     ],
+     "level": [
+      120
+     ],
+     "pre-": [
+      121
+     ],
+     "post-exercise.": [
+      123
+     ],
+     "Results:": [
+      124
+     ],
+     "mean": [
+      126
+     ],
+     "age": [
+      127
+     ],
+     "participants": [
+      130
+     ],
+     "23.34\u00b11.13": [
+      132
+     ],
+     "years.": [
+      133
+     ],
+     "participant": [
+      135,
+      175
+     ],
+     "showed": [
+      136,
+      176
+     ],
+     "significant": [
+      137,
+      178
+     ],
+     "improvement": [
+      138,
+      179
+     ],
+     "stroop": [
+      140,
+      153,
+      155,
+      157,
+      160
+     ],
+     "test": [
+      141
+     ],
+     "times": [
+      142
+     ],
+     "but": [
+      143
+     ],
+     "not": [
+      144
+     ],
+     "for": [
+      145
+     ],
+     "correct": [
+      148
+     ],
+     "errors": [
+      150
+     ],
+     "(Stroop": [
+      151
+     ],
+     "1,": [
+      152
+     ],
+     "2,": [
+      154
+     ],
+     "3,": [
+      156
+     ],
+     "4,": [
+      158
+     ],
+     "5=": [
+      161
+     ],
+     "p<": [
+      162,
+      164,
+      166,
+      168,
+      171
+     ],
+     "0.0001,": [
+      163,
+      167,
+      169
+     ],
+     "0.008,": [
+      165
+     ],
+     "0.001,": [
+      172
+     ],
+     "respectively).": [
+      173
+     ],
+     "no": [
+      177
+     ],
+     "WMS-G": [
+      181,
+      186
+     ],
+     "values": [
+      182
+     ],
+     "(WMS-G": [
+      183
+     ],
+     "normal": [
+      184
+     ],
+     "reverse=": [
+      187
+     ],
+     "p>0.308": [
+      188
+     ],
+     "p": [
+      190
+     ],
+     ">0.329).": [
+      191
+     ],
+     "Conclusion:": [
+      192
+     ],
+     "Aerobic": [
+      193
+     ],
+     "has": [
+      195
+     ],
+     "been": [
+      196
+     ],
+     "found": [
+      197
+     ],
+     "potentially": [
+      199
+     ],
+     "have": [
+      200
+     ],
+     "beneficial": [
+      201
+     ],
+     "abilities": [
+      205
+     ],
+     "adults,": [
+      208
+     ],
+     "even": [
+      209
+     ],
+     "after": [
+      210
+     ],
+     "single": [
+      212
+     ],
+     "session.": [
+      213
+     ],
+     "Clinicians": [
+      214
+     ],
+     "field": [
+      217
+     ],
+     "rehabilitation": [
+      220,
+      230
+     ],
+     "may": [
+      221
+     ],
+     "enhance": [
+      222
+     ],
+     "treatment": [
+      223
+     ],
+     "outcomes": [
+      224
+     ],
+     "incorporating": [
+      226
+     ],
+     "activities": [
+      228
+     ],
+     "into": [
+      229
+     ],
+     "programmes.": [
+      231
+     ],
+     "Further": [
+      232
+     ],
+     "studies": [
+      233
+     ],
+     "large": [
+      235
+     ],
+     "sample": [
+      236
+     ],
+     "groups": [
+      237
+     ],
+     "different": [
+      239
+     ],
+     "types": [
+      240
+     ],
+     "exercises": [
+      243,
+      258
+     ],
+     "(swimming,": [
+      244
+     ],
+     "running,": [
+      245
+     ],
+     "etc.)": [
+      246
+     ],
+     "important": [
+      248
+     ],
+     "more": [
+      250
+     ],
+     "clearly": [
+      251
+     ],
+     "demonstrate": [
+      252
+     ],
+     "functions.": [
+      261
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5004504811",
+       "display_name": "Aziz Deng\u0131z",
+       "orcid": "https://orcid.org/0000-0003-3492-7448",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3492-7448"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I140912994",
+        "display_name": "Mu\u015f Alparslan University",
+        "ror": "https://ror.org/009axq942",
+        "country_code": "TR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I140912994"
+        ]
+       }
+      ],
+      "countries": [
+       "TR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Aziz Deng\u0131z",
+      "raw_affiliation_strings": [
+       "MUS ALPARSLAN UNIVERSITY"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-3492-7448",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "MUS ALPARSLAN UNIVERSITY",
+        "institution_ids": [
+         "https://openalex.org/I140912994"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5117280455",
+       "display_name": "Nermin Kart",
+       "orcid": "https://orcid.org/0000-0002-9858-8927",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9858-8927"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I80538482",
+        "display_name": "Harran University",
+        "ror": "https://ror.org/057qfs197",
+        "country_code": "TR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I80538482"
+        ]
+       }
+      ],
+      "countries": [
+       "TR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Nermin Kart",
+      "raw_affiliation_strings": [
+       "Harran \u00dcniversitesi"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-9858-8927",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Harran \u00dcniversitesi",
+        "institution_ids": [
+         "https://openalex.org/I80538482"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5003561637",
+       "display_name": "Emre Baskan",
+       "orcid": "https://orcid.org/0000-0001-7069-0658",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7069-0658"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I48843708",
+        "display_name": "Pamukkale University",
+        "ror": "https://ror.org/01etz1309",
+        "country_code": "TR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I48843708"
+        ]
+       }
+      ],
+      "countries": [
+       "TR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Emre Baskan",
+      "raw_affiliation_strings": [
+       "PAMUKKALE \u00dcN\u0130VERS\u0130TES\u0130"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-7069-0658",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "PAMUKKALE \u00dcN\u0130VERS\u0130TES\u0130",
+        "institution_ids": [
+         "https://openalex.org/I48843708"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5067005630",
+       "display_name": "G\u00fczin Kara \u00c7ak\u0131c\u0131",
+       "orcid": "https://orcid.org/0000-0002-8893-5235",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8893-5235"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I48843708",
+        "display_name": "Pamukkale University",
+        "ror": "https://ror.org/01etz1309",
+        "country_code": "TR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I48843708"
+        ]
+       }
+      ],
+      "countries": [
+       "TR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "G\u00fczin Kara \u00c7ak\u0131c\u0131",
+      "raw_affiliation_strings": [
+       "PAMUKKALE \u00dcN\u0130VERS\u0130TES\u0130"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-8893-5235",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "PAMUKKALE \u00dcN\u0130VERS\u0130TES\u0130",
+        "institution_ids": [
+         "https://openalex.org/I48843708"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5023740523",
+       "display_name": "\u00d6zden Baskan",
+       "orcid": "https://orcid.org/0000-0002-1549-4838",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1549-4838"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4387154963",
+        "display_name": "TC \u0130stanbul Rumeli \u00dcniversitesi",
+        "ror": "https://ror.org/05av6y173",
+        "country_code": "TR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4387154963"
+        ]
+       }
+      ],
+      "countries": [
+       "TR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "\u00d6zden Baskan",
+      "raw_affiliation_strings": [
+       "\u0130STANBUL RUMEL\u0130 \u00dcN\u0130VERS\u0130TES\u0130"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-1549-4838",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "\u0130STANBUL RUMEL\u0130 \u00dcN\u0130VERS\u0130TES\u0130",
+        "institution_ids": [
+         "https://openalex.org/I4387154963"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.22312/sdusbed.1492779",
+     "doi": "https://doi.org/10.22312/sdusbed.1492779",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.22312/sdusbed.1492779",
+     "pdf_url": "https://dergipark.org.tr/tr/download/article-file/3968232",
+     "source": {
+      "id": "https://openalex.org/S4387288947",
+      "display_name": "S\u00fcleyman Demirel \u00dcniversitesi Sa\u011fl\u0131k Bilimleri Dergisi",
+      "issn_l": "2146-1937",
+      "issn": [
+       "2146-1937",
+       "2146-247X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [
+       "tr-dizin"
+      ],
+      "host_organization": "https://openalex.org/P4310318380",
+      "host_organization_name": "S\u00fcleyman Demirel University",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310318380"
+      ],
+      "host_organization_lineage_names": [
+       "S\u00fcleyman Demirel University"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "S\u00fcleyman Demirel \u00dcniversitesi Sa\u011fl\u0131k Bilimleri Dergisi",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

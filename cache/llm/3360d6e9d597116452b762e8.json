@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a2023d-6d50-71ee-b827-9733bf442dd6",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795333909,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"All searches returned zero results and no source could be fetched, so there is no credible evidence to cite.\", \"action\": \"finish\", \"args\": {\"findings\": []}}",
+    "reasoning_content": "No sources fetched, so empty findings.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 771,
+  "completion_tokens": 51,
+  "total_tokens": 822,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 9
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.2
+}

@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a2020d-3434-7529-a56d-fabb9f27a391",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330749,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 3, \"reason\": \"Passage 3 explicitly states that a global analysis shows a null effect.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 295,
+  "completion_tokens": 35,
+  "total_tokens": 330,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 1.23
+}

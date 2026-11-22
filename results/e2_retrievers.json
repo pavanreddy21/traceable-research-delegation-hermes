@@ -1,0 +1,38 @@
+{
+ "tfidf": {
+  "hit@1": 0.688,
+  "hit@3": 0.844,
+  "mrr": 0.802,
+  "passages": 51
+ },
+ "sentence-transformers/all-MiniLM-L6-v2": {
+  "hit@1": 0.625,
+  "hit@3": 0.875,
+  "mrr": 0.759,
+  "passages": 51
+ },
+ "BAAI/bge-small-en-v1.5": {
+  "hit@1": 0.688,
+  "hit@3": 0.812,
+  "mrr": 0.784,
+  "passages": 51
+ },
+ "BAAI/bge-base-en-v1.5": {
+  "hit@1": 0.75,
+  "hit@3": 0.938,
+  "mrr": 0.834,
+  "passages": 51
+ },
+ "hybrid:BAAI/bge-small-en-v1.5": {
+  "hit@1": 0.688,
+  "hit@3": 0.906,
+  "mrr": 0.81,
+  "passages": 51
+ },
+ "hybrid:BAAI/bge-base-en-v1.5": {
+  "hit@1": 0.75,
+  "hit@3": 0.906,
+  "mrr": 0.845,
+  "passages": 51
+ }
+}

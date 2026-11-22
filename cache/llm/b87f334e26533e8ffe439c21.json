@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20239-21ee-79e8-8c91-3d60f6bcf1dd",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795333628,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\":\"No results; broaden to testing effect prior knowledge moderator.\",\"action\":\"search_papers\",\"args\":{\"query\":\"testing effect prior knowledge moderator retrieval practice restudy\"}}",
+    "reasoning_content": "Empty results. Try broader query.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 480,
+  "completion_tokens": 45,
+  "total_tokens": 525,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 8
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.22
+}

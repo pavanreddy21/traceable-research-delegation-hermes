@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20236-87aa-77fd-a103-526b1c70c3e1",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795333457,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Try a single-keyword query to test whether the search index responds at all.\", \"action\": \"search_papers\", \"args\": {\"query\": \"retrieval practice\"}}",
+    "reasoning_content": "The search tool returns nothing repeatedly. Maybe try different phrasing like \"retrieval practice\" alone.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 667,
+  "completion_tokens": 63,
+  "total_tokens": 730,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 21
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 7.2
+}

@@ -1,0 +1,3989 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 6658,
+   "db_response_time_ms": 153,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (spacing effect educational settings meta-analysis) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (spacing effect educational settings meta-analysis) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "spacing effect educational settings meta-analysis",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:spacing effect educational settings meta-analysis,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W3127242128",
+    "doi": "https://doi.org/10.1371/journal.pone.0246348",
+    "title": "Short birth spacing and its association with maternal educational status, contraceptive use, and duration of breastfeeding in Ethiopia. A systematic review and meta-analysis",
+    "display_name": "Short birth spacing and its association with maternal educational status, contraceptive use, and duration of breastfeeding in Ethiopia. A systematic review and meta-analysis",
+    "publication_year": 2021,
+    "cited_by_count": 55,
+    "abstract_inverted_index": {
+     "BACKGROUND:": [
+      0
+     ],
+     "Closely": [
+      1
+     ],
+     "spaced": [
+      2
+     ],
+     "birth": [
+      3,
+      20,
+      42,
+      55,
+      98,
+      138,
+      191,
+      241,
+      267,
+      284
+     ],
+     "increases": [
+      4
+     ],
+     "the": [
+      5,
+      16,
+      50,
+      94,
+      133,
+      141,
+      149,
+      255
+     ],
+     "risk": [
+      6
+     ],
+     "of": [
+      7,
+      18,
+      34,
+      53,
+      67,
+      96,
+      110,
+      136,
+      174,
+      189,
+      224,
+      249,
+      262,
+      272,
+      276
+     ],
+     "adverse": [
+      8
+     ],
+     "maternal": [
+      9
+     ],
+     "and": [
+      10,
+      32,
+      57,
+      65,
+      84,
+      100,
+      108,
+      140,
+      154,
+      163,
+      222,
+      274,
+      295
+     ],
+     "child": [
+      11
+     ],
+     "health": [
+      12
+     ],
+     "outcomes.": [
+      13
+     ],
+     "In": [
+      14
+     ],
+     "Ethiopia,": [
+      15
+     ],
+     "prevalence": [
+      17,
+      52,
+      95,
+      135,
+      188
+     ],
+     "short": [
+      19,
+      41,
+      54,
+      97,
+      137,
+      190,
+      240,
+      266,
+      283
+     ],
+     "spacing": [
+      21,
+      56,
+      99,
+      139,
+      192,
+      268
+     ],
+     "was": [
+      22,
+      129,
+      145,
+      195,
+      203,
+      252
+     ],
+     "highly": [
+      23
+     ],
+     "variable": [
+      24
+     ],
+     "across": [
+      25
+     ],
+     "studies.": [
+      26
+     ],
+     "Besides,": [
+      27
+     ],
+     "contraceptive": [
+      28,
+      61,
+      104,
+      296
+     ],
+     "use,": [
+      29,
+      62,
+      105
+     ],
+     "educational": [
+      30,
+      63,
+      106
+     ],
+     "status,": [
+      31,
+      64,
+      107
+     ],
+     "duration": [
+      33,
+      66,
+      109,
+      223
+     ],
+     "breastfeeding": [
+      35,
+      68,
+      111,
+      225,
+      273,
+      293
+     ],
+     "were": [
+      36,
+      87,
+      119,
+      157,
+      181,
+      278
+     ],
+     "frequently": [
+      37
+     ],
+     "mentioned": [
+      38
+     ],
+     "factors": [
+      39,
+      279
+     ],
+     "affecting": [
+      40
+     ],
+     "spacing.": [
+      43,
+      242,
+      285
+     ],
+     "Therefore,": [
+      44
+     ],
+     "this": [
+      45,
+      184
+     ],
+     "meta-analysis": [
+      46
+     ],
+     "aimed": [
+      47
+     ],
+     "to": [
+      48,
+      90,
+      131,
+      147,
+      159,
+      291
+     ],
+     "estimate": [
+      49,
+      132
+     ],
+     "pooled": [
+      51,
+      134,
+      187
+     ],
+     "its": [
+      58,
+      101
+     ],
+     "association": [
+      59,
+      102,
+      238
+     ],
+     "with": [
+      60,
+      103,
+      177,
+      239,
+      282
+     ],
+     "among": [
+      69,
+      112,
+      298
+     ],
+     "reproductive-age": [
+      70,
+      113
+     ],
+     "women": [
+      71,
+      114,
+      263,
+      299
+     ],
+     "in": [
+      72,
+      115,
+      183,
+      193,
+      269,
+      300
+     ],
+     "Ethiopia.": [
+      73,
+      116,
+      270,
+      301
+     ],
+     "METHODS:": [
+      74
+     ],
+     "International": [
+      75
+     ],
+     "databases:": [
+      76
+     ],
+     "Google": [
+      77
+     ],
+     "Scholar,": [
+      78
+     ],
+     "PubMed,": [
+      79
+     ],
+     "CINAHL,": [
+      80
+     ],
+     "Cochrane": [
+      81
+     ],
+     "library,": [
+      82
+     ],
+     "HINARI,": [
+      83
+     ],
+     "Global": [
+      85
+     ],
+     "Health": [
+      86,
+      257
+     ],
+     "searched": [
+      88
+     ],
+     "systematically": [
+      89
+     ],
+     "identify": [
+      91
+     ],
+     "articles": [
+      92,
+      176
+     ],
+     "reporting": [
+      93
+     ],
+     "The": [
+      117,
+      126,
+      186
+     ],
+     "data": [
+      118
+     ],
+     "analyzed": [
+      120
+     ],
+     "by": [
+      121,
+      254
+     ],
+     "STATA/SE": [
+      122
+     ],
+     "version-14": [
+      123
+     ],
+     "statistical": [
+      124
+     ],
+     "software.": [
+      125
+     ],
+     "random-effect": [
+      127
+     ],
+     "model": [
+      128
+     ],
+     "used": [
+      130,
+      146,
+      158
+     ],
+     "log": [
+      142
+     ],
+     "odds": [
+      143
+     ],
+     "ratio": [
+      144
+     ],
+     "determine": [
+      148
+     ],
+     "association.": [
+      150
+     ],
+     "Moreover,": [
+      151
+     ],
+     "egger's": [
+      152
+     ],
+     "test": [
+      153
+     ],
+     "I-squared": [
+      155
+     ],
+     "statistics": [
+      156
+     ],
+     "assess": [
+      160
+     ],
+     "publication": [
+      161
+     ],
+     "bias": [
+      162
+     ],
+     "heterogeneity": [
+      164,
+      202
+     ],
+     "respectively.": [
+      165
+     ],
+     "RESULTS:": [
+      166
+     ],
+     "After": [
+      167
+     ],
+     "reviewing": [
+      168
+     ],
+     "511": [
+      169
+     ],
+     "research": [
+      170
+     ],
+     "articles,": [
+      171
+     ],
+     "a": [
+      172,
+      236,
+      245
+     ],
+     "total": [
+      173
+     ],
+     "nine": [
+      175
+     ],
+     "5,682": [
+      178
+     ],
+     "study": [
+      179
+     ],
+     "participants": [
+      180
+     ],
+     "included": [
+      182
+     ],
+     "meta-analysis.": [
+      185
+     ],
+     "Ethiopia": [
+      194
+     ],
+     "46.9%": [
+      196
+     ],
+     "[95%": [
+      197
+     ],
+     "CI:": [
+      198,
+      219
+     ],
+     "(34.7,": [
+      199
+     ],
+     "59.1)].": [
+      200
+     ],
+     "Significant": [
+      201
+     ],
+     "observed": [
+      204
+     ],
+     "between": [
+      205
+     ],
+     "studies": [
+      206
+     ],
+     "(I2": [
+      207
+     ],
+     "=": [
+      208,
+      216,
+      230
+     ],
+     "98.4,": [
+      209
+     ],
+     "p": [
+      210
+     ],
+     "<0.001).": [
+      211
+     ],
+     "Not": [
+      212
+     ],
+     "using": [
+      213
+     ],
+     "contraceptives": [
+      214,
+      277
+     ],
+     "[OR": [
+      215,
+      229
+     ],
+     "3.87,": [
+      217
+     ],
+     "95%": [
+      218
+     ],
+     "(2.29,": [
+      220
+     ],
+     "6.53)]": [
+      221
+     ],
+     "<": [
+      226
+     ],
+     "24": [
+      227
+     ],
+     "months": [
+      228
+     ],
+     "16.9,": [
+      231
+     ],
+     "95%CI:": [
+      232
+     ],
+     "(2.69,": [
+      233
+     ],
+     "106.47)]": [
+      234
+     ],
+     "had": [
+      235
+     ],
+     "significant": [
+      237,
+      260
+     ],
+     "CONCLUSIONS:": [
+      243
+     ],
+     "Although": [
+      244
+     ],
+     "minimum": [
+      246
+     ],
+     "inter-pregnancy": [
+      247
+     ],
+     "interval": [
+      248
+     ],
+     "two": [
+      250
+     ],
+     "years": [
+      251
+     ],
+     "recommended": [
+      253
+     ],
+     "World": [
+      256
+     ],
+     "Organization": [
+      258
+     ],
+     "(WHO),": [
+      259
+     ],
+     "numbers": [
+      261
+     ],
+     "still": [
+      264
+     ],
+     "practiced": [
+      265
+     ],
+     "Duration": [
+      271
+     ],
+     "non-use": [
+      275
+     ],
+     "significantly": [
+      280
+     ],
+     "associated": [
+      281
+     ],
+     "So,": [
+      286
+     ],
+     "efforts": [
+      287
+     ],
+     "should": [
+      288
+     ],
+     "be": [
+      289
+     ],
+     "made": [
+      290
+     ],
+     "improve": [
+      292
+     ],
+     "practice": [
+      294
+     ],
+     "utilization": [
+      297
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5078284854",
+       "display_name": "Yitayish Damtie",
+       "orcid": "https://orcid.org/0000-0001-6783-6097",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6783-6097"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210114501",
+        "display_name": "Wollo University",
+        "ror": "https://ror.org/01ktt8y73",
+        "country_code": "ET",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210114501"
+        ]
+       }
+      ],
+      "countries": [
+       "ET"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/software",
+        "display_name": "Software"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       }
+      ],
+      "raw_author_name": "Yitayish Damtie",
+      "raw_affiliation_strings": [
+       "Department of Reproductive and Family Health, School of Public Health, College of Medicine and Health Sciences, Wollo University, Dessie, Ethiopia"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-6783-6097",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Reproductive and Family Health, School of Public Health, College of Medicine and Health Sciences, Wollo University, Dessie, Ethiopia",
+        "institution_ids": [
+         "https://openalex.org/I4210114501"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5009388112",
+       "display_name": "Bereket Kefale",
+       "orcid": "https://orcid.org/0000-0003-1795-9886",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1795-9886"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210114501",
+        "display_name": "Wollo University",
+        "ror": "https://ror.org/01ktt8y73",
+        "country_code": "ET",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210114501"
+        ]
+       }
+      ],
+      "countries": [
+       "ET"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       }
+      ],
+      "raw_author_name": "Bereket Kefale",
+      "raw_affiliation_strings": [
+       "Department of Reproductive and Family Health, School of Public Health, College of Medicine and Health Sciences, Wollo University, Dessie, Ethiopia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Reproductive and Family Health, School of Public Health, College of Medicine and Health Sciences, Wollo University, Dessie, Ethiopia",
+        "institution_ids": [
+         "https://openalex.org/I4210114501"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5033812349",
+       "display_name": "Melaku Yalew",
+       "orcid": "https://orcid.org/0000-0002-7314-2523",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7314-2523"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210114501",
+        "display_name": "Wollo University",
+        "ror": "https://ror.org/01ktt8y73",
+        "country_code": "ET",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210114501"
+        ]
+       }
+      ],
+      "countries": [
+       "ET"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       }
+      ],
+      "raw_author_name": "Melaku Yalew",
+      "raw_affiliation_strings": [
+       "Department of Reproductive and Family Health, School of Public Health, College of Medicine and Health Sciences, Wollo University, Dessie, Ethiopia"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-7314-2523",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Reproductive and Family Health, School of Public Health, College of Medicine and Health Sciences, Wollo University, Dessie, Ethiopia",
+        "institution_ids": [
+         "https://openalex.org/I4210114501"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5077323689",
+       "display_name": "Mastewal Arefaynie",
+       "orcid": "https://orcid.org/0000-0001-9525-0552",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9525-0552"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210114501",
+        "display_name": "Wollo University",
+        "ror": "https://ror.org/01ktt8y73",
+        "country_code": "ET",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210114501"
+        ]
+       }
+      ],
+      "countries": [
+       "ET"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/software",
+        "display_name": "Software"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Mastewal Arefaynie",
+      "raw_affiliation_strings": [
+       "Department of Reproductive and Family Health, School of Public Health, College of Medicine and Health Sciences, Wollo University, Dessie, Ethiopia"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-9525-0552",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Reproductive and Family Health, School of Public Health, College of Medicine and Health Sciences, Wollo University, Dessie, Ethiopia",
+        "institution_ids": [
+         "https://openalex.org/I4210114501"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5058477764",
+       "display_name": "Bezawit Adane",
+       "orcid": "https://orcid.org/0000-0002-0440-8826",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0440-8826"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210114501",
+        "display_name": "Wollo University",
+        "ror": "https://ror.org/01ktt8y73",
+        "country_code": "ET",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210114501"
+        ]
+       }
+      ],
+      "countries": [
+       "ET"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/software",
+        "display_name": "Software"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Bezawit Adane",
+      "raw_affiliation_strings": [
+       "Department of Epidemiology and Biostatistics, School of Public Health, College of Medicine and Health Sciences, Wollo University, Dessie, Ethiopia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Epidemiology and Biostatistics, School of Public Health, College of Medicine and Health Sciences, Wollo University, Dessie, Ethiopia",
+        "institution_ids": [
+         "https://openalex.org/I4210114501"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1371/journal.pone.0246348",
+     "doi": "https://doi.org/10.1371/journal.pone.0246348",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1371/journal.pone.0246348",
+     "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0246348&type=printable",
+     "source": {
+      "id": "https://openalex.org/S202381698",
+      "display_name": "PLoS ONE",
+      "issn_l": "1932-6203",
+      "issn": [
+       "1932-6203"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "dongbi-c",
+       "doyens",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310315706",
+      "host_organization_name": "Public Library of Science",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310315706"
+      ],
+      "host_organization_lineage_names": [
+       "Public Library of Science"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "PLOS ONE",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4205549332",
+    "doi": "https://doi.org/10.7759/cureus.21201",
+    "title": "Evidence of the Spacing Effect and Influences on Perceptions of Learning and Science Curricula",
+    "display_name": "Evidence of the Spacing Effect and Influences on Perceptions of Learning and Science Curricula",
+    "publication_year": 2022,
+    "cited_by_count": 57,
+    "abstract_inverted_index": {
+     "The": [
+      0
+     ],
+     "conventional": [
+      1
+     ],
+     "science": [
+      2,
+      41,
+      57,
+      107,
+      157
+     ],
+     "curricula": [
+      3
+     ],
+     "generally": [
+      4
+     ],
+     "favour": [
+      5
+     ],
+     "educational": [
+      6
+     ],
+     "practices": [
+      7
+     ],
+     "that": [
+      8,
+      76,
+      94,
+      130
+     ],
+     "yield": [
+      9
+     ],
+     "high": [
+      10
+     ],
+     "scores": [
+      11
+     ],
+     "on": [
+      12
+     ],
+     "immediate": [
+      13
+     ],
+     "examination,": [
+      14
+     ],
+     "though": [
+      15
+     ],
+     "it": [
+      16
+     ],
+     "may": [
+      17,
+      112,
+      134
+     ],
+     "not": [
+      18,
+      135
+     ],
+     "accurately": [
+      19
+     ],
+     "predict": [
+      20
+     ],
+     "students'": [
+      21
+     ],
+     "long-term": [
+      22,
+      118
+     ],
+     "academic": [
+      23
+     ],
+     "achievement.": [
+      24
+     ],
+     "In": [
+      25,
+      59
+     ],
+     "view": [
+      26
+     ],
+     "of": [
+      27,
+      37,
+      92,
+      103,
+      138
+     ],
+     "the": [
+      28,
+      35,
+      66,
+      101,
+      109
+     ],
+     "pre-exam": [
+      29
+     ],
+     "cramming": [
+      30
+     ],
+     "phenomenon,": [
+      31
+     ],
+     "this": [
+      32,
+      145
+     ],
+     "article": [
+      33,
+      146
+     ],
+     "shows": [
+      34
+     ],
+     "evidence": [
+      36
+     ],
+     "spacing": [
+      38,
+      61,
+      77,
+      110
+     ],
+     "effect": [
+      39,
+      111
+     ],
+     "in": [
+      40,
+      50,
+      56,
+      81,
+      106,
+      156
+     ],
+     "education": [
+      42
+     ],
+     "and": [
+      43,
+      53,
+      89,
+      121,
+      132
+     ],
+     "probes": [
+      44
+     ],
+     "into": [
+      45
+     ],
+     "its": [
+      46,
+      104,
+      142
+     ],
+     "theoretical": [
+      47
+     ],
+     "mechanisms,": [
+      48
+     ],
+     "effectiveness": [
+      49
+     ],
+     "experimental": [
+      51
+     ],
+     "settings,": [
+      52
+     ],
+     "current": [
+      54
+     ],
+     "applications": [
+      55
+     ],
+     "learning.": [
+      58
+     ],
+     "brief,": [
+      60
+     ],
+     "works": [
+      62
+     ],
+     "by": [
+      63,
+      85,
+      97
+     ],
+     "repeatedly": [
+      64
+     ],
+     "presenting": [
+      65
+     ],
+     "learning": [
+      67,
+      93
+     ],
+     "material": [
+      68
+     ],
+     "across": [
+      69
+     ],
+     "various": [
+      70
+     ],
+     "temporal": [
+      71
+     ],
+     "intervals.": [
+      72
+     ],
+     "This": [
+      73
+     ],
+     "paper": [
+      74
+     ],
+     "suggests": [
+      75
+     ],
+     "could": [
+      78
+     ],
+     "significantly": [
+      79
+     ],
+     "result": [
+      80
+     ],
+     "greater": [
+      82
+     ],
+     "memory": [
+      83
+     ],
+     "strength": [
+      84
+     ],
+     "alleviating": [
+      86
+     ],
+     "multiple": [
+      87
+     ],
+     "neurocognitive": [
+      88
+     ],
+     "behavioural": [
+      90
+     ],
+     "properties": [
+      91
+     ],
+     "are": [
+      95,
+      127
+     ],
+     "hampered": [
+      96
+     ],
+     "cramming.": [
+      98
+     ],
+     "Together": [
+      99
+     ],
+     "with": [
+      100
+     ],
+     "analysis": [
+      102
+     ],
+     "relevance": [
+      105
+     ],
+     "education,": [
+      108
+     ],
+     "further": [
+      113
+     ],
+     "provide": [
+      114
+     ],
+     "leverages": [
+      115
+     ],
+     "for": [
+      116
+     ],
+     "promoting": [
+      117
+     ],
+     "conceptual": [
+      119
+     ],
+     "understanding": [
+      120
+     ],
+     "reflective": [
+      122
+     ],
+     "skill": [
+      123
+     ],
+     "development.": [
+      124
+     ],
+     "However,": [
+      125
+     ],
+     "there": [
+      126
+     ],
+     "many": [
+      128
+     ],
+     "reasons": [
+      129
+     ],
+     "students": [
+      131
+     ],
+     "teachers": [
+      133
+     ],
+     "be": [
+      136
+     ],
+     "aware": [
+      137
+     ],
+     "or": [
+      139
+     ],
+     "fully": [
+      140
+     ],
+     "appreciate": [
+      141
+     ],
+     "benefits.": [
+      143
+     ],
+     "Finally,": [
+      144
+     ],
+     "discusses": [
+      147
+     ],
+     "systemic": [
+      148
+     ],
+     "barriers": [
+      149
+     ],
+     "to": [
+      150
+     ],
+     "why": [
+      151
+     ],
+     "spaced": [
+      152
+     ],
+     "repetition": [
+      153
+     ],
+     "is": [
+      154
+     ],
+     "underutilized": [
+      155
+     ],
+     "curricula.": [
+      158
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5091031867",
+       "display_name": "Xuechen Yuan",
+       "orcid": "https://orcid.org/0000-0003-4378-2287",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4378-2287"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I72541430",
+        "display_name": "Lakehead University",
+        "ror": "https://ror.org/023p7mg82",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I72541430"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Xuechen Yuan",
+      "raw_affiliation_strings": [
+       "Department of Education, Lakehead University, Thunder Bay, CAN"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Education, Lakehead University, Thunder Bay, CAN",
+        "institution_ids": [
+         "https://openalex.org/I72541430"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.7759/cureus.21201",
+     "doi": "https://doi.org/10.7759/cureus.21201",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.7759/cureus.21201",
+     "pdf_url": "https://assets.cureus.com/uploads/review_article/pdf/81442/20220115-27909-1hu1a04.pdf",
+     "source": {
+      "id": "https://openalex.org/S2738950867",
+      "display_name": "Cureus",
+      "issn_l": "2168-8184",
+      "issn": [
+       "2168-8184"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "poland-20",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310316779",
+      "host_organization_name": "Cureus, Inc.",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310316779"
+      ],
+      "host_organization_lineage_names": [
+       "Cureus, Inc."
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Cureus",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4394575079",
+    "doi": "https://doi.org/10.1111/caim.12605",
+    "title": "A meta\u2010analysis of creativity training in organizational settings",
+    "display_name": "A meta\u2010analysis of creativity training in organizational settings",
+    "publication_year": 2024,
+    "cited_by_count": 39,
+    "abstract_inverted_index": {
+     "Creativity": [
+      0
+     ],
+     "training": [
+      1,
+      76,
+      93,
+      111,
+      116,
+      164,
+      187
+     ],
+     "involves": [
+      2
+     ],
+     "instruction": [
+      3
+     ],
+     "to": [
+      4,
+      9,
+      53
+     ],
+     "improve": [
+      5
+     ],
+     "learners'": [
+      6
+     ],
+     "capability": [
+      7
+     ],
+     "related": [
+      8
+     ],
+     "the": [
+      10,
+      24,
+      65,
+      72
+     ],
+     "generation": [
+      11
+     ],
+     "of": [
+      12,
+      39,
+      99,
+      152
+     ],
+     "new": [
+      13
+     ],
+     "and": [
+      14,
+      57,
+      105,
+      110,
+      124,
+      207
+     ],
+     "useful": [
+      15
+     ],
+     "ideas.": [
+      16
+     ],
+     "Although": [
+      17
+     ],
+     "prior": [
+      18
+     ],
+     "meta\u2010analyses": [
+      19
+     ],
+     "have": [
+      20,
+      47
+     ],
+     "examined": [
+      21
+     ],
+     "training's": [
+      22
+     ],
+     "effectiveness,": [
+      23
+     ],
+     "studies": [
+      25,
+      59,
+      172
+     ],
+     "included": [
+      26
+     ],
+     "are": [
+      27,
+      36,
+      134
+     ],
+     "almost": [
+      28
+     ],
+     "solely": [
+      29
+     ],
+     "with": [
+      30,
+      156,
+      173,
+      192
+     ],
+     "children": [
+      31
+     ],
+     "or": [
+      32,
+      68,
+      84
+     ],
+     "many": [
+      33
+     ],
+     "organizational": [
+      34,
+      45,
+      69,
+      79,
+      190
+     ],
+     "samples": [
+      35
+     ],
+     "excluded.": [
+      37
+     ],
+     "Authors": [
+      38
+     ],
+     "notable": [
+      40
+     ],
+     "reviews": [
+      41
+     ],
+     "on": [
+      42
+     ],
+     "creativity": [
+      43,
+      75,
+      92,
+      186,
+      211
+     ],
+     "in": [
+      44,
+      78,
+      189
+     ],
+     "settings": [
+      46,
+      80,
+      191
+     ],
+     "noted": [
+      48
+     ],
+     "that": [
+      49,
+      115,
+      184
+     ],
+     "they": [
+      50
+     ],
+     "were": [
+      51,
+      147
+     ],
+     "unable": [
+      52
+     ],
+     "find": [
+      54
+     ],
+     "adequately": [
+      55
+     ],
+     "conducted": [
+      56
+     ],
+     "reported": [
+      58
+     ],
+     "using": [
+      60,
+      95
+     ],
+     "genuine": [
+      61
+     ],
+     "intervention": [
+      62
+     ],
+     "designs": [
+      63
+     ],
+     "at": [
+      64
+     ],
+     "individual,": [
+      66
+     ],
+     "team,": [
+      67
+     ],
+     "level,": [
+      70
+     ],
+     "raising": [
+      71
+     ],
+     "question:": [
+      73
+     ],
+     "is": [
+      74,
+      117,
+      199
+     ],
+     "research": [
+      77,
+      188,
+      206
+     ],
+     "lacking": [
+      81
+     ],
+     "rigor,": [
+      82
+     ],
+     "visibility,": [
+      83
+     ],
+     "just": [
+      85
+     ],
+     "lacking?": [
+      86
+     ],
+     "In": [
+      87
+     ],
+     "this": [
+      88
+     ],
+     "meta\u2010analysis,": [
+      89
+     ],
+     "we": [
+      90
+     ],
+     "examine": [
+      91
+     ],
+     "effectiveness": [
+      94
+     ],
+     "Kirkpatrick's": [
+      96
+     ],
+     "four": [
+      97
+     ],
+     "levels": [
+      98
+     ],
+     "evaluation": [
+      100
+     ],
+     "(reactions,": [
+      101
+     ],
+     "learning,": [
+      102
+     ],
+     "behavior,": [
+      103
+     ],
+     "results)": [
+      104
+     ],
+     "moderators": [
+      106
+     ],
+     "reflecting": [
+      107
+     ],
+     "study": [
+      108
+     ],
+     "rigor": [
+      109
+     ],
+     "delivery/content.": [
+      112
+     ],
+     "Results": [
+      113
+     ],
+     "indicate": [
+      114,
+      183
+     ],
+     "effective": [
+      118
+     ],
+     "overall": [
+      119
+     ],
+     "(": [
+      120,
+      128,
+      140,
+      166,
+      177
+     ],
+     "g": [
+      121,
+      129,
+      141,
+      167,
+      178
+     ],
+     "=": [
+      122,
+      130,
+      142,
+      168,
+      179
+     ],
+     "0.68)": [
+      123
+     ],
+     "for": [
+      125,
+      136,
+      150,
+      204,
+      210
+     ],
+     "learning": [
+      126
+     ],
+     "outcomes": [
+      127,
+      139,
+      194
+     ],
+     "0.73).": [
+      131
+     ],
+     "However,": [
+      132
+     ],
+     "effects": [
+      133
+     ],
+     "nonsignificant": [
+      135,
+      148
+     ],
+     "on\u2010the\u2010job": [
+      137
+     ],
+     "behavior/transfer": [
+      138
+     ],
+     "0.34).": [
+      143
+     ],
+     "All": [
+      144
+     ],
+     "moderator": [
+      145
+     ],
+     "analyses": [
+      146
+     ],
+     "except": [
+      149
+     ],
+     "timing": [
+      151
+     ],
+     "outcome": [
+      153
+     ],
+     "evaluation.": [
+      154
+     ],
+     "Studies": [
+      155
+     ],
+     "a": [
+      157,
+      161,
+      197
+     ],
+     "delayed": [
+      158
+     ],
+     "assessment": [
+      159,
+      176
+     ],
+     "showed": [
+      160
+     ],
+     "significantly": [
+      162
+     ],
+     "smaller": [
+      163
+     ],
+     "effect": [
+      165
+     ],
+     "0.40)": [
+      169
+     ],
+     "than": [
+      170
+     ],
+     "did": [
+      171
+     ],
+     "an": [
+      174
+     ],
+     "immediate": [
+      175
+     ],
+     "0.86).": [
+      180
+     ],
+     "These": [
+      181
+     ],
+     "results": [
+      182
+     ],
+     "rigorous": [
+      185
+     ],
+     "behavioral": [
+      193
+     ],
+     "measured": [
+      195
+     ],
+     "after": [
+      196
+     ],
+     "delay": [
+      198
+     ],
+     "lacking.": [
+      200
+     ],
+     "We": [
+      201
+     ],
+     "discuss": [
+      202
+     ],
+     "implications": [
+      203,
+      209
+     ],
+     "future": [
+      205
+     ],
+     "practical": [
+      208
+     ],
+     "training.": [
+      212
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": null,
+       "display_name": "Alexander S. McKay",
+       "orcid": "https://orcid.org/0000-0001-7410-2366",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7410-2366"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I184840846",
+        "display_name": "Virginia Commonwealth University",
+        "ror": "https://ror.org/02nkdxk79",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I184840846"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Alexander S. McKay",
+      "raw_affiliation_strings": [
+       "Department of Management and Entrepreneurship, School of Business, Virginia Commonwealth University, Richmond, VA, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-7410-2366",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Management and Entrepreneurship, School of Business, Virginia Commonwealth University, Richmond, VA, USA",
+        "institution_ids": [
+         "https://openalex.org/I184840846"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5038946785",
+       "display_name": "Roni Reiter\u2010Palmon",
+       "orcid": "https://orcid.org/0000-0001-8259-4516",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8259-4516"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I122266389",
+        "display_name": "University of Nebraska at Omaha",
+        "ror": "https://ror.org/04yrkc140",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I122266389"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Roni Reiter\u2010Palmon",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of Nebraska at Omaha, Omaha, NE, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-8259-4516",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of Nebraska at Omaha, Omaha, NE, USA",
+        "institution_ids": [
+         "https://openalex.org/I122266389"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5091828267",
+       "display_name": "Susan M. T. Coombes",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I184840846",
+        "display_name": "Virginia Commonwealth University",
+        "ror": "https://ror.org/02nkdxk79",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I184840846"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Susan M. T. Coombes",
+      "raw_affiliation_strings": [
+       "Department of Management and Entrepreneurship, School of Business, Virginia Commonwealth University, Richmond, VA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Management and Entrepreneurship, School of Business, Virginia Commonwealth University, Richmond, VA, USA",
+        "institution_ids": [
+         "https://openalex.org/I184840846"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5060655212",
+       "display_name": "Joseph E. Coombs",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I184840846",
+        "display_name": "Virginia Commonwealth University",
+        "ror": "https://ror.org/02nkdxk79",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I184840846"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Joseph E. Coombs",
+      "raw_affiliation_strings": [
+       "Department of Management and Entrepreneurship, School of Business, Virginia Commonwealth University, Richmond, VA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Management and Entrepreneurship, School of Business, Virginia Commonwealth University, Richmond, VA, USA",
+        "institution_ids": [
+         "https://openalex.org/I184840846"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1111/caim.12605",
+     "doi": "https://doi.org/10.1111/caim.12605",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1111/caim.12605",
+     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/caim.12605",
+     "source": {
+      "id": "https://openalex.org/S132285554",
+      "display_name": "Creativity and Innovation Management",
+      "issn_l": "0963-1690",
+      "issn": [
+       "0963-1690",
+       "1467-8691"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-b",
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "fnege-3",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Creativity and Innovation Management",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4386501474",
+    "doi": "https://doi.org/10.1111/aogs.14648",
+    "title": "Birth spacing and risk of adverse pregnancy and birth outcomes: A systematic review and dose\u2013response meta\u2010analysis",
+    "display_name": "Birth spacing and risk of adverse pregnancy and birth outcomes: A systematic review and dose\u2013response meta\u2010analysis",
+    "publication_year": 2023,
+    "cited_by_count": 89,
+    "abstract_inverted_index": {
+     "INTRODUCTION:": [
+      0
+     ],
+     "The": [
+      1
+     ],
+     "association": [
+      2,
+      37
+     ],
+     "between": [
+      3,
+      38,
+      96
+     ],
+     "extreme": [
+      4
+     ],
+     "birth": [
+      5,
+      21,
+      39,
+      54,
+      126,
+      165
+     ],
+     "spacing": [
+      6,
+      40,
+      127,
+      166
+     ],
+     "and": [
+      7,
+      12,
+      44,
+      47,
+      71,
+      105,
+      134,
+      155
+     ],
+     "adverse": [
+      8,
+      48,
+      53,
+      130
+     ],
+     "outcomes": [
+      9,
+      49
+     ],
+     "is": [
+      10,
+      15
+     ],
+     "controversial,": [
+      11
+     ],
+     "available": [
+      13
+     ],
+     "evidence": [
+      14
+     ],
+     "fragmented": [
+      16
+     ],
+     "into": [
+      17
+     ],
+     "different": [
+      18
+     ],
+     "classifications": [
+      19
+     ],
+     "of": [
+      20,
+      31,
+      107,
+      143
+     ],
+     "spacing.": [
+      22
+     ],
+     "MATERIAL": [
+      23
+     ],
+     "AND": [
+      24
+     ],
+     "METHODS:": [
+      25
+     ],
+     "We": [
+      26
+     ],
+     "conducted": [
+      27
+     ],
+     "a": [
+      28,
+      68
+     ],
+     "systematic": [
+      29
+     ],
+     "review": [
+      30
+     ],
+     "observational": [
+      32
+     ],
+     "studies": [
+      33
+     ],
+     "to": [
+      34
+     ],
+     "evaluate": [
+      35
+     ],
+     "the": [
+      36,
+      72,
+      138,
+      163
+     ],
+     "(i.e.,": [
+      41,
+      50
+     ],
+     "interpregnancy": [
+      42,
+      97,
+      141
+     ],
+     "interval": [
+      43,
+      98,
+      101,
+      142
+     ],
+     "interoutcome": [
+      45,
+      100
+     ],
+     "interval)": [
+      46
+     ],
+     "pregnancy": [
+      51,
+      103
+     ],
+     "complications,": [
+      52
+     ],
+     "outcomes).": [
+      55
+     ],
+     "Pooled": [
+      56
+     ],
+     "odds": [
+      57
+     ],
+     "ratios": [
+      58
+     ],
+     "(ORs)": [
+      59
+     ],
+     "with": [
+      60,
+      149,
+      159
+     ],
+     "95%": [
+      61
+     ],
+     "confidence": [
+      62
+     ],
+     "intervals": [
+      63
+     ],
+     "(CI)": [
+      64
+     ],
+     "were": [
+      65,
+      75
+     ],
+     "calculated": [
+      66
+     ],
+     "using": [
+      67,
+      77
+     ],
+     "random-effects": [
+      69
+     ],
+     "model,": [
+      70
+     ],
+     "dose-response": [
+      73
+     ],
+     "relationships": [
+      74
+     ],
+     "evaluated": [
+      76
+     ],
+     "generalized": [
+      78
+     ],
+     "least": [
+      79
+     ],
+     "squares": [
+      80
+     ],
+     "trend": [
+      81
+     ],
+     "estimation.": [
+      82
+     ],
+     "RESULTS:": [
+      83
+     ],
+     "=": [
+      84
+     ],
+     "0.008).": [
+      85
+     ],
+     "Based": [
+      86
+     ],
+     "on": [
+      87,
+      132
+     ],
+     "limited": [
+      88
+     ],
+     "evidence,": [
+      89
+     ],
+     "we": [
+      90
+     ],
+     "did": [
+      91
+     ],
+     "not": [
+      92
+     ],
+     "observe": [
+      93
+     ],
+     "significant": [
+      94
+     ],
+     "associations": [
+      95
+     ],
+     "or": [
+      99,
+      115
+     ],
+     "after": [
+      102
+     ],
+     "losses": [
+      104
+     ],
+     "risk": [
+      106
+     ],
+     "small": [
+      108
+     ],
+     "for": [
+      109,
+      152
+     ],
+     "gestational": [
+      110
+     ],
+     "age,": [
+      111
+     ],
+     "fetal": [
+      112
+     ],
+     "death,": [
+      113
+     ],
+     "miscarriage,": [
+      114
+     ],
+     "preeclampsia": [
+      116
+     ],
+     "(pooled": [
+      117
+     ],
+     "OR": [
+      118
+     ],
+     "range:": [
+      119
+     ],
+     "0.76-1.21;": [
+      120
+     ],
+     "p": [
+      121
+     ],
+     ">": [
+      122
+     ],
+     "0.05).": [
+      123
+     ],
+     "CONCLUSIONS:": [
+      124
+     ],
+     "Extreme": [
+      125
+     ],
+     "has": [
+      128
+     ],
+     "extensive": [
+      129
+     ],
+     "effects": [
+      131
+     ],
+     "maternal": [
+      133
+     ],
+     "infant": [
+      135
+     ],
+     "health.": [
+      136
+     ],
+     "In": [
+      137
+     ],
+     "general": [
+      139
+     ],
+     "population,": [
+      140
+     ],
+     "18-23": [
+      144
+     ],
+     "months": [
+      145
+     ],
+     "may": [
+      146,
+      167
+     ],
+     "be": [
+      147,
+      168
+     ],
+     "associated": [
+      148
+     ],
+     "potential": [
+      150
+     ],
+     "benefits": [
+      151
+     ],
+     "both": [
+      153
+     ],
+     "mothers": [
+      154
+     ],
+     "infants.": [
+      156
+     ],
+     "For": [
+      157
+     ],
+     "women": [
+      158
+     ],
+     "previous": [
+      160
+     ],
+     "preterm": [
+      161
+     ],
+     "birth,": [
+      162
+     ],
+     "optimal": [
+      164
+     ],
+     "9": [
+      169
+     ],
+     "months.": [
+      170
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5046555024",
+       "display_name": "Wanze Ni",
+       "orcid": "https://orcid.org/0000-0002-6384-3190",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6384-3190"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I159948400",
+        "display_name": "Jinan University",
+        "ror": "https://ror.org/02xe5ns62",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Wanze Ni",
+      "raw_affiliation_strings": [
+       "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-6384-3190",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China",
+        "institution_ids": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5091439774",
+       "display_name": "Xuping Gao",
+       "orcid": "https://orcid.org/0000-0003-3813-2036",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3813-2036"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I159948400",
+        "display_name": "Jinan University",
+        "ror": "https://ror.org/02xe5ns62",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Xuping Gao",
+      "raw_affiliation_strings": [
+       "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-3813-2036",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China",
+        "institution_ids": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5008059019",
+       "display_name": "Xin Bing Su",
+       "orcid": "https://orcid.org/0000-0003-0957-4628",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0957-4628"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I159948400",
+        "display_name": "Jinan University",
+        "ror": "https://ror.org/02xe5ns62",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Xin Su",
+      "raw_affiliation_strings": [
+       "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China",
+        "institution_ids": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5071808310",
+       "display_name": "Jun Cai",
+       "orcid": "https://orcid.org/0000-0003-2733-9373",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2733-9373"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I159948400",
+        "display_name": "Jinan University",
+        "ror": "https://ror.org/02xe5ns62",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jun Cai",
+      "raw_affiliation_strings": [
+       "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China",
+        "institution_ids": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5115593771",
+       "display_name": "Shiwen Zhang",
+       "orcid": "https://orcid.org/0009-0005-0943-9305",
+       "observed_orcids": [
+        "https://orcid.org/0009-0005-0943-9305"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I159948400",
+        "display_name": "Jinan University",
+        "ror": "https://ror.org/02xe5ns62",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Shiwen Zhang",
+      "raw_affiliation_strings": [
+       "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China",
+        "institution_ids": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5054678035",
+       "display_name": "Lu Zheng",
+       "orcid": "https://orcid.org/0009-0008-2035-6908",
+       "observed_orcids": [
+        "https://orcid.org/0009-0008-2035-6908"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I159948400",
+        "display_name": "Jinan University",
+        "ror": "https://ror.org/02xe5ns62",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Lu Zheng",
+      "raw_affiliation_strings": [
+       "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China",
+        "institution_ids": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5027593277",
+       "display_name": "Jiazi Liu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I159948400",
+        "display_name": "Jinan University",
+        "ror": "https://ror.org/02xe5ns62",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jiazi Liu",
+      "raw_affiliation_strings": [
+       "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China",
+        "institution_ids": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5100731181",
+       "display_name": "Yonghui Feng",
+       "orcid": "https://orcid.org/0000-0003-3145-6409",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3145-6409"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I159948400",
+        "display_name": "Jinan University",
+        "ror": "https://ror.org/02xe5ns62",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Yonghui Feng",
+      "raw_affiliation_strings": [
+       "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China",
+        "institution_ids": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5102010108",
+       "display_name": "Shiyun Chen",
+       "orcid": "https://orcid.org/0000-0003-3150-5354",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3150-5354"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I159948400",
+        "display_name": "Jinan University",
+        "ror": "https://ror.org/02xe5ns62",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Shiyun Chen",
+      "raw_affiliation_strings": [
+       "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China",
+        "institution_ids": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5101851368",
+       "display_name": "Junrong Ma",
+       "orcid": "https://orcid.org/0000-0002-7631-0166",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7631-0166"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I159948400",
+        "display_name": "Jinan University",
+        "ror": "https://ror.org/02xe5ns62",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Junrong Ma",
+      "raw_affiliation_strings": [
+       "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China",
+        "institution_ids": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5066427466",
+       "display_name": "Wenting Cao",
+       "orcid": "https://orcid.org/0000-0002-2060-3103",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2060-3103"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I79731167",
+        "display_name": "Hainan Medical University",
+        "ror": "https://ror.org/004eeze55",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I79731167"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Wenting Cao",
+      "raw_affiliation_strings": [
+       "Department of Medical Statistics & Epidemiology, International School of Public Health and One Health, Hainan Medical University, Haikou, Hainan, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Medical Statistics & Epidemiology, International School of Public Health and One Health, Hainan Medical University, Haikou, Hainan, China",
+        "institution_ids": [
+         "https://openalex.org/I79731167"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5069247137",
+       "display_name": "Fangfang Zeng",
+       "orcid": "https://orcid.org/0000-0001-8650-0927",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8650-0927"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I159948400",
+        "display_name": "Jinan University",
+        "ror": "https://ror.org/02xe5ns62",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Fangfang Zeng",
+      "raw_affiliation_strings": [
+       "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-8650-0927",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Public Health and Preventive Medicine, School of Medicine, Jinan University, Guangzhou, Guangdong, China",
+        "institution_ids": [
+         "https://openalex.org/I159948400"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1111/aogs.14648",
+     "doi": "https://doi.org/10.1111/aogs.14648",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1111/aogs.14648",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S192518766",
+      "display_name": "Acta Obstetricia Et Gynecologica Scandinavica",
+      "issn_l": "0001-6349",
+      "issn": [
+       "0001-6349",
+       "1600-0412"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "dongbi-c",
+       "doyens",
+       "jufo-2",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320449",
+      "host_organization_name": "Informa",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320449"
+      ],
+      "host_organization_lineage_names": [
+       "Informa"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Acta Obstetricia et Gynecologica Scandinavica",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2793603294",
+    "doi": "https://doi.org/10.1111/cogs.12602",
+    "title": "Evaluating the Theoretic Adequacy and Applied Potential of Computational Models of the Spacing Effect",
+    "display_name": "Evaluating the Theoretic Adequacy and Applied Potential of Computational Models of the Spacing Effect",
+    "publication_year": 2018,
+    "cited_by_count": 53,
+    "abstract_inverted_index": {
+     "The": [
+      0
+     ],
+     "spacing": [
+      1,
+      29,
+      54,
+      86,
+      118,
+      162,
+      186
+     ],
+     "effect": [
+      2,
+      30,
+      55,
+      119,
+      163,
+      187
+     ],
+     "is": [
+      3,
+      22,
+      36
+     ],
+     "among": [
+      4
+     ],
+     "the": [
+      5,
+      12,
+      42,
+      53,
+      57,
+      85,
+      92,
+      117,
+      121,
+      139,
+      148,
+      161,
+      168,
+      185,
+      194
+     ],
+     "most": [
+      6
+     ],
+     "widely": [
+      7
+     ],
+     "replicated": [
+      8
+     ],
+     "empirical": [
+      9
+     ],
+     "phenomena": [
+      10
+     ],
+     "in": [
+      11,
+      60
+     ],
+     "learning": [
+      13,
+      135
+     ],
+     "sciences,": [
+      14
+     ],
+     "and": [
+      15,
+      20,
+      34,
+      56,
+      75,
+      98,
+      136,
+      147,
+      173,
+      188,
+      196
+     ],
+     "its": [
+      16,
+      103
+     ],
+     "relevance": [
+      17
+     ],
+     "to": [
+      18,
+      32,
+      64,
+      90,
+      101,
+      110,
+      155,
+      191
+     ],
+     "education": [
+      19,
+      33
+     ],
+     "training": [
+      21,
+      35
+     ],
+     "readily": [
+      23
+     ],
+     "apparent.": [
+      24
+     ],
+     "Yet": [
+      25
+     ],
+     "successful": [
+      26
+     ],
+     "applications": [
+      27
+     ],
+     "of": [
+      28,
+      48,
+      84,
+      95,
+      116,
+      131,
+      134,
+      145,
+      151,
+      160,
+      171,
+      184
+     ],
+     "research": [
+      31,
+      63
+     ],
+     "rare.": [
+      37
+     ],
+     "Computational": [
+      38
+     ],
+     "modeling": [
+      39
+     ],
+     "can": [
+      40
+     ],
+     "provide": [
+      41
+     ],
+     "crucial": [
+      43
+     ],
+     "link": [
+      44
+     ],
+     "between": [
+      45
+     ],
+     "a": [
+      46,
+      96,
+      112,
+      156
+     ],
+     "century": [
+      47
+     ],
+     "accumulated": [
+      49
+     ],
+     "experimental": [
+      50
+     ],
+     "data": [
+      51
+     ],
+     "on": [
+      52
+     ],
+     "emerging": [
+      58
+     ],
+     "interest": [
+      59
+     ],
+     "using": [
+      61,
+      193
+     ],
+     "that": [
+      62,
+      164
+     ],
+     "enable": [
+      65
+     ],
+     "adaptive": [
+      66
+     ],
+     "instruction.": [
+      67
+     ],
+     "In": [
+      68
+     ],
+     "this": [
+      69
+     ],
+     "paper,": [
+      70
+     ],
+     "we": [
+      71
+     ],
+     "review": [
+      72
+     ],
+     "relevant": [
+      73
+     ],
+     "literature": [
+      74
+     ],
+     "identify": [
+      76
+     ],
+     "10": [
+      77
+     ],
+     "criteria": [
+      78,
+      109,
+      198
+     ],
+     "for": [
+      79
+     ],
+     "rigorously": [
+      80
+     ],
+     "evaluating": [
+      81,
+      91,
+      102
+     ],
+     "computational": [
+      82,
+      114,
+      158,
+      182
+     ],
+     "models": [
+      83,
+      133,
+      183
+     ],
+     "effect.": [
+      87
+     ],
+     "Five": [
+      88
+     ],
+     "relate": [
+      89,
+      100
+     ],
+     "theoretic": [
+      93,
+      172,
+      195
+     ],
+     "adequacy": [
+      94
+     ],
+     "model,": [
+      97
+     ],
+     "five": [
+      99
+     ],
+     "application": [
+      104
+     ],
+     "potential.": [
+      105
+     ],
+     "We": [
+      106,
+      176
+     ],
+     "use": [
+      107
+     ],
+     "these": [
+      108
+     ],
+     "evaluate": [
+      111
+     ],
+     "novel": [
+      113,
+      157
+     ],
+     "model": [
+      115
+     ],
+     "called": [
+      120
+     ],
+     "Predictive": [
+      122,
+      126
+     ],
+     "Performance": [
+      123,
+      127,
+      141
+     ],
+     "Equation": [
+      124,
+      128
+     ],
+     "(PPE).": [
+      125
+     ],
+     "combines": [
+      129
+     ],
+     "elements": [
+      130
+     ],
+     "earlier": [
+      132
+     ],
+     "memory": [
+      137
+     ],
+     "including": [
+      138
+     ],
+     "General": [
+      140
+     ],
+     "Equation,": [
+      142
+     ],
+     "Adaptive": [
+      143
+     ],
+     "Control": [
+      144
+     ],
+     "Thought-Rational,": [
+      146
+     ],
+     "New": [
+      149
+     ],
+     "Theory": [
+      150
+     ],
+     "Disuse,": [
+      152
+     ],
+     "giving": [
+      153
+     ],
+     "rise": [
+      154
+     ],
+     "account": [
+      159
+     ],
+     "performs": [
+      165
+     ],
+     "favorably": [
+      166
+     ],
+     "across": [
+      167
+     ],
+     "complete": [
+      169
+     ],
+     "sets": [
+      170
+     ],
+     "applied": [
+      174,
+      197
+     ],
+     "criteria.": [
+      175
+     ],
+     "implemented": [
+      177
+     ],
+     "two": [
+      178
+     ],
+     "other": [
+      179
+     ],
+     "previously": [
+      180
+     ],
+     "published": [
+      181
+     ],
+     "compare": [
+      189
+     ],
+     "them": [
+      190
+     ],
+     "PPE": [
+      192
+     ],
+     "as": [
+      199
+     ],
+     "guides.": [
+      200
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5103180899",
+       "display_name": "Matthew M. Walsh",
+       "orcid": "https://orcid.org/0000-0002-1457-3016",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1457-3016"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1309849503",
+        "display_name": "RAND Corporation",
+        "ror": "https://ror.org/00f2z7n96",
+        "country_code": "US",
+        "type": "nonprofit",
+        "lineage": [
+         "https://openalex.org/I1309849503"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Matthew M. Walsh",
+      "raw_affiliation_strings": [
+       "The RAND Corporation"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "The RAND Corporation",
+        "institution_ids": [
+         "https://openalex.org/I1309849503"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5072465067",
+       "display_name": "Kevin A. Gluck",
+       "orcid": "https://orcid.org/0000-0002-7969-0803",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7969-0803"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1280414376",
+        "display_name": "United States Air Force Research Laboratory",
+        "ror": "https://ror.org/02e2egq70",
+        "country_code": "US",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I1280414376",
+         "https://openalex.org/I1330347796",
+         "https://openalex.org/I4210102105",
+         "https://openalex.org/I4389425425"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2799950915",
+        "display_name": "Wright-Patterson Air Force Base",
+        "ror": "https://ror.org/0097e1k27",
+        "country_code": "US",
+        "type": "other",
+        "lineage": [
+         "https://openalex.org/I1330347796",
+         "https://openalex.org/I2799950915",
+         "https://openalex.org/I4210089612",
+         "https://openalex.org/I4210102105"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Kevin A. Gluck",
+      "raw_affiliation_strings": [
+       "Air Force Research Laboratory, Wright-Patterson Air Force Base"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Air Force Research Laboratory, Wright-Patterson Air Force Base",
+        "institution_ids": [
+         "https://openalex.org/I1280414376",
+         "https://openalex.org/I2799950915"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5047069548",
+       "display_name": "Glenn Gunzelmann",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1280414376",
+        "display_name": "United States Air Force Research Laboratory",
+        "ror": "https://ror.org/02e2egq70",
+        "country_code": "US",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I1280414376",
+         "https://openalex.org/I1330347796",
+         "https://openalex.org/I4210102105",
+         "https://openalex.org/I4389425425"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2799950915",
+        "display_name": "Wright-Patterson Air Force Base",
+        "ror": "https://ror.org/0097e1k27",
+        "country_code": "US",
+        "type": "other",
+        "lineage": [
+         "https://openalex.org/I1330347796",
+         "https://openalex.org/I2799950915",
+         "https://openalex.org/I4210089612",
+         "https://openalex.org/I4210102105"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Glenn Gunzelmann",
+      "raw_affiliation_strings": [
+       "Air Force Research Laboratory, Wright-Patterson Air Force Base"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Air Force Research Laboratory, Wright-Patterson Air Force Base",
+        "institution_ids": [
+         "https://openalex.org/I1280414376",
+         "https://openalex.org/I2799950915"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5019921383",
+       "display_name": "Tiffany S. Jastrzembski",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1280414376",
+        "display_name": "United States Air Force Research Laboratory",
+        "ror": "https://ror.org/02e2egq70",
+        "country_code": "US",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I1280414376",
+         "https://openalex.org/I1330347796",
+         "https://openalex.org/I4210102105",
+         "https://openalex.org/I4389425425"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2799950915",
+        "display_name": "Wright-Patterson Air Force Base",
+        "ror": "https://ror.org/0097e1k27",
+        "country_code": "US",
+        "type": "other",
+        "lineage": [
+         "https://openalex.org/I1330347796",
+         "https://openalex.org/I2799950915",
+         "https://openalex.org/I4210089612",
+         "https://openalex.org/I4210102105"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Tiffany Jastrzembski",
+      "raw_affiliation_strings": [
+       "Air Force Research Laboratory, Wright-Patterson Air Force Base"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Air Force Research Laboratory, Wright-Patterson Air Force Base",
+        "institution_ids": [
+         "https://openalex.org/I1280414376",
+         "https://openalex.org/I2799950915"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5010332027",
+       "display_name": "Michael Krusmark",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1280414376",
+        "display_name": "United States Air Force Research Laboratory",
+        "ror": "https://ror.org/02e2egq70",
+        "country_code": "US",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I1280414376",
+         "https://openalex.org/I1330347796",
+         "https://openalex.org/I4210102105",
+         "https://openalex.org/I4389425425"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2799950915",
+        "display_name": "Wright-Patterson Air Force Base",
+        "ror": "https://ror.org/0097e1k27",
+        "country_code": "US",
+        "type": "other",
+        "lineage": [
+         "https://openalex.org/I1330347796",
+         "https://openalex.org/I2799950915",
+         "https://openalex.org/I4210089612",
+         "https://openalex.org/I4210102105"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Michael Krusmark",
+      "raw_affiliation_strings": [
+       "Air Force Research Laboratory, Wright-Patterson Air Force Base",
+       "L-3 Communications, Wright-Patterson Air Force Base"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Air Force Research Laboratory, Wright-Patterson Air Force Base",
+        "institution_ids": [
+         "https://openalex.org/I1280414376",
+         "https://openalex.org/I2799950915"
+        ]
+       },
+       {
+        "raw_affiliation_string": "L-3 Communications, Wright-Patterson Air Force Base",
+        "institution_ids": [
+         "https://openalex.org/I2799950915"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1111/cogs.12602",
+     "doi": "https://doi.org/10.1111/cogs.12602",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1111/cogs.12602",
+     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cogs.12602",
+     "source": {
+      "id": "https://openalex.org/S78735424",
+      "display_name": "Cognitive Science",
+      "issn_l": "0364-0213",
+      "issn": [
+       "0364-0213",
+       "1551-6709"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-c",
+       "erih-plus",
+       "jufo-2",
+       "ki-jl-2",
+       "medline",
+       "norway-2",
+       "poland-100",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Cognitive Science",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

@@ -1,0 +1,693 @@
+{
+ "status": 200,
+ "json": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      11,
+      7
+     ]
+    ],
+    "date-time": "2026-11-07T10:58:22Z",
+    "timestamp": 1794049102113,
+    "version": "4.8.0"
+   },
+   "reference-count": 92,
+   "publisher": "JMIR Publications Inc.",
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "J Med Internet Res"
+   ],
+   "abstract": "<jats:sec>\n                    <jats:title>Background</jats:title>\n                    <jats:p>Spaced digital education applies digital tools to deliver educational content via multiple, repeated learning sessions separated by prespecified time intervals. Spaced digital education appears to promote acquisition and long-term retention of knowledge, skills, and change in clinical behavior.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Objective</jats:title>\n                    <jats:p>The aim of this review was to assess the effectiveness of spaced digital education in improving pre- and postregistration health care professionals\u2019 knowledge, skills, attitudes, satisfaction, and change in clinical behavior.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Methods</jats:title>\n                    <jats:p>This review followed Cochrane\u2019s methodology and PRISMA (Preferred Reporting Items of Systematic Reviews and Meta-Analyses) reporting guidelines. We searched MEDLINE, Embase, Web of Science, ERIC, PsycINFO, CINAHL, CENTRAL, and ProQuest Dissertation and Theses databases from January 1990 to February 2023. We included randomized controlled trials (RCTs), cluster RCTs, and quasi-RCTs comparing spaced digital education with nonspaced education, spaced nondigital education, traditional learning, or no intervention for pre- or postregistration health care professionals. Study selection, data extraction, study quality, and certainty of evidence were assessed by 2 independent reviewers. Meta-analyses were conducted using random effect models.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>We included 23 studies evaluating spaced online education (n=17, 74%) or spaced digital simulation (n=6, 26%) interventions. Most studies assessed 1 or 2 outcomes, including knowledge (n=15, 65%), skills (n=9, 39%), attitudes (n=8, 35%), clinical behavior change (n=8, 35%), and satisfaction (n=7, 30%). Most studies had an unclear or a high risk of bias (n=19, 83%). Spaced online education was superior to massed online education for postintervention knowledge (n=9, 39%; standardized mean difference [SMD] 0.32, 95% CI 0.13-0.51, I2=66%, moderate certainty of evidence). Spaced online education (n=3, 13%) was superior to massed online education (n=2, 9%) and no intervention (n=1, 4%; SMD 0.67, 95% CI 0.43-0.91, I2=5%, moderate certainty of evidence) for postintervention clinical behavior change. Spaced digital simulation was superior to massed simulation for postintervention surgical skills (n=2, 9%; SMD 1.15, 95% CI 0.34-1.96, I2=74%, low certainty of evidence). Spaced digital education positively impacted confidence and satisfaction with the intervention.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusions</jats:title>\n                    <jats:p>Spaced digital education is effective in improving knowledge, particularly in substantially improving surgical skills and promoting clinical behavior change in pre- and postregistration health care professionals. Our findings support the use of spaced digital education interventions in undergraduate and postgraduate health profession education.\n\nTrial Registration: PROSPERO CRD42021241969;</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Trial Registration</jats:title>\n                    <jats:p>PROSPERO CRD42021241969; https://www.crd.york.ac.uk/prospero/display_record.php?RecordID=241969</jats:p>\n                  </jats:sec>",
+   "DOI": "10.2196/57760",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2024,
+      8,
+      26
+     ]
+    ],
+    "date-time": "2024-08-26T17:15:04Z",
+    "timestamp": 1724692504000
+   },
+   "page": "e57760",
+   "source": "Crossref",
+   "is-referenced-by-count": 47,
+   "title": [
+    "Spaced Digital Education for Health Professionals: Systematic Review and Meta-Analysis"
+   ],
+   "prefix": "10.2196",
+   "volume": "26",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0003-3539-7207",
+     "authenticated-orcid": false,
+     "given": "Laura",
+     "family": "Martinengo",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-7282-9243",
+     "authenticated-orcid": false,
+     "given": "Matthew Song Peng",
+     "family": "Ng",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0009-0001-1171-643X",
+     "authenticated-orcid": false,
+     "given": "Tony De Rong",
+     "family": "Ng",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0009-0005-2553-3529",
+     "authenticated-orcid": false,
+     "given": "Yi-Ian",
+     "family": "Ang",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-6864-9867",
+     "authenticated-orcid": false,
+     "given": "Ahmad Ishqi",
+     "family": "Jabir",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-1750-0330",
+     "authenticated-orcid": false,
+     "given": "Bhone Myint",
+     "family": "Kyaw",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-8414-7664",
+     "authenticated-orcid": false,
+     "given": "Lorainne",
+     "family": "Tudor Car",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "1010",
+   "published-online": {
+    "date-parts": [
+     [
+      2024,
+      10,
+      10
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "ref1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1136/bmjgh-2022-009316"
+    },
+    {
+     "key": "ref2",
+     "unstructured": "Global strategy on human resources for health: workforce 2030World Health Organization20162023-07-01https://www.who.int/publications/i/item/9789241511131"
+    },
+    {
+     "key": "ref3",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3390/healthcare11131887"
+    },
+    {
+     "key": "ref4",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/s12960-022-00764-7"
+    },
+    {
+     "key": "ref5",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.ijnurstu.2019.103512"
+    },
+    {
+     "key": "ref6",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2196/12913"
+    },
+    {
+     "key": "ref7",
+     "unstructured": "Digital education for building health workforce capacityWorld Health Organization20202023-09-07https://apps.who.int/iris/bitstream/handle/10665/331524/9789240000476-eng.pdf?sequence=1&isAllowed=y"
+    },
+    {
+     "key": "ref8",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/chp.20041"
+    },
+    {
+     "key": "ref9",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1136/bmjopen-2017-016872"
+    },
+    {
+     "key": "ref10",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2196/15118"
+    },
+    {
+     "key": "ref11",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/14651858.CD011736.pub2"
+    },
+    {
+     "key": "ref12",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2196/13269"
+    },
+    {
+     "key": "ref13",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2196/12998"
+    },
+    {
+     "key": "ref14",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2196/12959"
+    },
+    {
+     "key": "ref15",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s10143-020-01378-0"
+    },
+    {
+     "key": "ref16",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00464-022-09593-0"
+    },
+    {
+     "key": "ref17",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2196/12937"
+    },
+    {
+     "key": "ref18",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2196/12895"
+    },
+    {
+     "key": "ref19",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1027/1618-3169.56.4.236"
+    },
+    {
+     "key": "ref20",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1467-9280.2008.02209.x"
+    },
+    {
+     "key": "ref21",
+     "author": "Ebbinghaus, H",
+     "year": "1913",
+     "journal-title": "Memory: A Contribution to Experimental Psychology"
+    },
+    {
+     "key": "ref22",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s44159-022-00089-1"
+    },
+    {
+     "key": "ref23",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/0033-2909.132.3.354"
+    },
+    {
+     "key": "ref24",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/medu.14025"
+    },
+    {
+     "key": "ref25",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jsurg.2015.03.012"
+    },
+    {
+     "key": "ref26",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/j.1365-2929.2006.02644.x"
+    },
+    {
+     "key": "ref27",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.resuscitation.2019.06.010"
+    },
+    {
+     "key": "ref28",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.resuscitation.2018.06.025"
+    },
+    {
+     "key": "ref29",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.amjsurg.2022.09.025"
+    },
+    {
+     "key": "ref30",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jacr.2022.03.010"
+    },
+    {
+     "key": "ref31",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/medu.13895"
+    },
+    {
+     "key": "ref32",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.resuscitation.2020.08.132"
+    },
+    {
+     "key": "ref33",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/aet2.10446"
+    },
+    {
+     "key": "ref34",
+     "unstructured": "HigginsJThomasJChandlerJCumpstonMLiTPageMCochrane Handbook for Systematic Reviews of Interventions version 6.3Cochrane20222023-07-20https://training.cochrane.org/handbook"
+    },
+    {
+     "key": "ref35",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1136/bmj.n160"
+    },
+    {
+     "key": "ref36",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2196/12912"
+    },
+    {
+     "key": "ref37",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2196/14231"
+    },
+    {
+     "key": "ref38",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2196/13868"
+    },
+    {
+     "key": "ref39",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2196/12994"
+    },
+    {
+     "key": "ref40",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2196/12997"
+    },
+    {
+     "key": "ref41",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2196/14676"
+    },
+    {
+     "key": "ref42",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2196/13165"
+    },
+    {
+     "key": "ref43",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2196/12967"
+    },
+    {
+     "key": "ref44",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2196/14984"
+    },
+    {
+     "key": "ref45",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2196/12968"
+    },
+    {
+     "key": "ref46",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2196/13000"
+    },
+    {
+     "key": "ref47",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2196/12945"
+    },
+    {
+     "key": "ref48",
+     "year": "2015",
+     "journal-title": "International Standard Classification of Education Fields of Education and Training 2013 (ISCED-F 2013)"
+    },
+    {
+     "key": "ref49",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.amepre.2010.07.016"
+    },
+    {
+     "key": "ref50",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s42256-020-00287-7"
+    },
+    {
+     "key": "ref51",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1136/bmjopen-2023-072254"
+    },
+    {
+     "key": "ref52",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1136/bmj.l4898"
+    },
+    {
+     "key": "ref53",
+     "unstructured": "HigginsJSavovi\u0107JPageMElbersRSterneJChapter 8: assessing risk of bias in a randomized trialCochrane Handbook for Systematic Reviews of Interventions version 6.520232024-07-31https://training.cochrane.org/handbook/current/chapter-08"
+    },
+    {
+     "key": "ref54",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/jrsm.1411"
+    },
+    {
+     "key": "ref55",
+     "unstructured": "Sch\u00fcnemannHHigginsJVistGGlasziouPAklESkoetzNGuyattGChapter 14: completing \u2018summary of findings\u2019 tables and grading the certainty of the evidenceCochrane Handbook for Systematic Reviews of Interventions version 6.520232024-09-16https://training.cochrane.org/handbook/current/chapter-14"
+    },
+    {
+     "key": "ref56",
+     "unstructured": "Cochrane RevManThe Cochrane Collaboration2024-09-16https://training.cochrane.org/online-learning/core-software/revman"
+    },
+    {
+     "key": "ref57",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1177/0962280216669183"
+    },
+    {
+     "key": "ref58",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/1471-2288-14-135"
+    },
+    {
+     "key": "ref59",
+     "unstructured": "HigginsJLiTDeeksJChapter 6: choosing effect measures and computing estimates of effectCochrane Handbook for Systematic Reviews of Interventions version 6.520232024-09-16https://training.cochrane.org/handbook/current/chapter-06"
+    },
+    {
+     "key": "ref60",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1097/00001888-199009000-00045"
+    },
+    {
+     "key": "ref61",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1097/CORR.0000000000001362"
+    },
+    {
+     "key": "ref62",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s40670-019-00772-8"
+    },
+    {
+     "key": "ref63",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.4300/JGME-D-14-00571.1"
+    },
+    {
+     "key": "ref64",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/aet2.10025"
+    },
+    {
+     "key": "ref65",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.juro.2009.02.024"
+    },
+    {
+     "key": "ref66",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.juro.2006.11.074"
+    },
+    {
+     "key": "ref67",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1161/CIRCOUTCOMES.113.000814"
+    },
+    {
+     "key": "ref68",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1097/MPG.0000000000003405"
+    },
+    {
+     "key": "ref69",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.amjsurg.2008.01.025"
+    },
+    {
+     "key": "ref70",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jsurg.2011.06.013"
+    },
+    {
+     "key": "ref71",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/chp.20113"
+    },
+    {
+     "key": "ref72",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1136/bmjqs-2011-000702"
+    },
+    {
+     "key": "ref73",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s10459-020-10020-z"
+    },
+    {
+     "key": "ref74",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/ans.12166"
+    },
+    {
+     "key": "ref75",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2196/12669"
+    },
+    {
+     "key": "ref76",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41598-021-82419-6"
+    },
+    {
+     "key": "ref77",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/eat.23766"
+    },
+    {
+     "key": "ref78",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.arthro.2020.05.040"
+    },
+    {
+     "issue": "2",
+     "key": "ref79",
+     "first-page": "1168",
+     "volume": "15",
+     "author": "Kocyigit, H",
+     "year": "2022",
+     "journal-title": "Int J Caring Sci"
+    },
+    {
+     "key": "ref80",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.ijgo.2014.07.015"
+    },
+    {
+     "key": "ref81",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/s12913-020-05450-9"
+    },
+    {
+     "key": "ref82",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/15424065.2023.2244364"
+    },
+    {
+     "key": "ref83",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/0142159X.2023.2218537"
+    },
+    {
+     "key": "ref84",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1001/jamanetworkopen.2022.23113"
+    },
+    {
+     "key": "ref85",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1096/fba.2021-00124"
+    },
+    {
+     "key": "ref86",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1001/jama.2021.16312"
+    },
+    {
+     "key": "ref87",
+     "unstructured": "Medical school year two questionnaire 2022 all schools summary reportAssociation of American Medical Colleges2024-01-02https://www.aamc.org/data-reports/students-residents/report/year-two-questionnaire-y2q"
+    },
+    {
+     "key": "ref88",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1097/ACM.0000000000001597"
+    },
+    {
+     "key": "ref89",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s10648-012-9205-z"
+    },
+    {
+     "key": "ref90",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/ca.23916"
+    },
+    {
+     "key": "ref91",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1111/medu.14848"
+    },
+    {
+     "key": "ref92",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1136/bmjopen-2022-068740"
+    }
+   ],
+   "container-title": [
+    "Journal of Medical Internet Research"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://www.jmir.org/2024/1/e57760",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2026,
+      6,
+      30
+     ]
+    ],
+    "date-time": "2026-06-30T17:48:45Z",
+    "timestamp": 1782841725000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://www.jmir.org/2024/1/e57760"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2024,
+      10,
+      10
+     ]
+    ]
+   },
+   "references-count": 92,
+   "URL": "https://doi.org/10.2196/57760",
+   "relation": {
+    "has-preprint": [
+     {
+      "id-type": "doi",
+      "id": "10.2196/preprints.57760",
+      "asserted-by": "object"
+     }
+    ]
+   },
+   "ISSN": [
+    "1438-8871"
+   ],
+   "issn-type": [
+    {
+     "value": "1438-8871",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2024,
+      10,
+      10
+     ]
+    ]
+   }
+  }
+ }
+}

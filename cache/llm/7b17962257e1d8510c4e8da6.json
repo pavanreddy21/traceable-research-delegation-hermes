@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201dd-9a3d-7d21-8788-25445fadca05",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327629,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Fetch a second source examining sleep-specific EEG correlates of procedural consolidation to get a supporting claim.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W2131973169\"}}",
+    "reasoning_content": "This source suggests sleep and quiet rest equivalent \u2014 nuance. Let me fetch another source that supports sleep benefit, e.g., W2131973169 or W1806129265.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1457,
+  "completion_tokens": 82,
+  "total_tokens": 1539,
+  "prompt_tokens_details": {
+   "cached_tokens": 1024
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 37
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.21
+}

@@ -1,0 +1,4362 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 94,
+   "db_response_time_ms": 189,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (manual digital note capture review phase recall experiment handwriting laptop notes review) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (manual digital note capture review phase recall experiment handwriting laptop notes review) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "manual digital note capture review phase recall experiment handwriting laptop notes review",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:manual digital note capture review phase recall experiment handwriting laptop notes review,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4407869955",
+    "doi": "https://doi.org/10.3390/life15030345",
+    "title": "The Neuroscience Behind Writing: Handwriting vs. Typing\u2014Who Wins the Battle?",
+    "display_name": "The Neuroscience Behind Writing: Handwriting vs. Typing\u2014Who Wins the Battle?",
+    "publication_year": 2025,
+    "cited_by_count": 63,
+    "abstract_inverted_index": {
+     "BACKGROUND:": [
+      0
+     ],
+     "The": [
+      1
+     ],
+     "advent": [
+      2
+     ],
+     "of": [
+      3,
+      10,
+      19,
+      40,
+      97,
+      121,
+      125,
+      154
+     ],
+     "digital": [
+      4
+     ],
+     "technology": [
+      5,
+      155
+     ],
+     "has": [
+      6,
+      14
+     ],
+     "significantly": [
+      7
+     ],
+     "altered": [
+      8
+     ],
+     "ways": [
+      9
+     ],
+     "writing.": [
+      11
+     ],
+     "While": [
+      12
+     ],
+     "typing": [
+      13,
+      76,
+      122
+     ],
+     "become": [
+      15
+     ],
+     "the": [
+      16,
+      48,
+      56,
+      119,
+      148,
+      152,
+      163
+     ],
+     "dominant": [
+      17
+     ],
+     "mode": [
+      18
+     ],
+     "written": [
+      20
+     ],
+     "communication,": [
+      21
+     ],
+     "handwriting": [
+      22,
+      52,
+      74,
+      129,
+      167
+     ],
+     "remains": [
+      23,
+      130
+     ],
+     "a": [
+      24,
+      38,
+      94
+     ],
+     "fundamental": [
+      25
+     ],
+     "human": [
+      26
+     ],
+     "skill,": [
+      27
+     ],
+     "and": [
+      28,
+      53,
+      59,
+      75,
+      87,
+      104,
+      127,
+      136,
+      158,
+      168,
+      178,
+      188
+     ],
+     "its": [
+      29
+     ],
+     "profound": [
+      30
+     ],
+     "impact": [
+      31
+     ],
+     "on": [
+      32
+     ],
+     "cognitive": [
+      33,
+      58,
+      89,
+      105,
+      116,
+      159,
+      180
+     ],
+     "processes": [
+      34
+     ],
+     "continues": [
+      35
+     ],
+     "to": [
+      36,
+      147,
+      184
+     ],
+     "be": [
+      37
+     ],
+     "topic": [
+      39
+     ],
+     "intense": [
+      41
+     ],
+     "scientific": [
+      42
+     ],
+     "scrutiny.": [
+      43
+     ],
+     "METHODS:": [
+      44
+     ],
+     "This": [
+      45,
+      144
+     ],
+     "paper": [
+      46
+     ],
+     "investigates": [
+      47
+     ],
+     "neural": [
+      49,
+      110,
+      164
+     ],
+     "mechanisms": [
+      50
+     ],
+     "underlying": [
+      51
+     ],
+     "typing,": [
+      54,
+      169
+     ],
+     "exploring": [
+      55
+     ],
+     "distinct": [
+      57
+     ],
+     "neurological": [
+      60
+     ],
+     "benefits": [
+      61
+     ],
+     "associated": [
+      62,
+      81
+     ],
+     "with": [
+      63,
+      82
+     ],
+     "each.": [
+      64
+     ],
+     "By": [
+      65,
+      161
+     ],
+     "synthesizing": [
+      66
+     ],
+     "findings": [
+      67
+     ],
+     "from": [
+      68
+     ],
+     "neuroimaging": [
+      69
+     ],
+     "studies,": [
+      70
+     ],
+     "we": [
+      71,
+      170
+     ],
+     "explore": [
+      72
+     ],
+     "how": [
+      73
+     ],
+     "differentially": [
+      77
+     ],
+     "activate": [
+      78
+     ],
+     "brain": [
+      79,
+      98
+     ],
+     "regions": [
+      80,
+      99
+     ],
+     "motor": [
+      83
+     ],
+     "control,": [
+      84
+     ],
+     "sensory": [
+      85
+     ],
+     "perception,": [
+      86
+     ],
+     "higher-order": [
+      88
+     ],
+     "functions.": [
+      90
+     ],
+     "RESULTS:": [
+      91
+     ],
+     "Handwriting": [
+      92
+     ],
+     "activates": [
+      93
+     ],
+     "broader": [
+      95
+     ],
+     "network": [
+      96
+     ],
+     "involved": [
+      100
+     ],
+     "in": [
+      101,
+      113,
+      123,
+      140,
+      156,
+      182
+     ],
+     "motor,": [
+      102
+     ],
+     "sensory,": [
+      103
+     ],
+     "processing.": [
+      106
+     ],
+     "Typing": [
+      107
+     ],
+     "engages": [
+      108
+     ],
+     "fewer": [
+      109
+     ],
+     "circuits,": [
+      111
+     ],
+     "resulting": [
+      112
+     ],
+     "more": [
+      114
+     ],
+     "passive": [
+      115
+     ],
+     "engagement.": [
+      117
+     ],
+     "Despite": [
+      118
+     ],
+     "advantages": [
+      120
+     ],
+     "terms": [
+      124
+     ],
+     "speed": [
+      126
+     ],
+     "convenience,": [
+      128
+     ],
+     "an": [
+      131
+     ],
+     "important": [
+      132
+     ],
+     "tool": [
+      133
+     ],
+     "for": [
+      134
+     ],
+     "learning": [
+      135,
+      176
+     ],
+     "memory": [
+      137
+     ],
+     "retention,": [
+      138
+     ],
+     "particularly": [
+      139
+     ],
+     "educational": [
+      141
+     ],
+     "contexts.": [
+      142
+     ],
+     "CONCLUSIONS:": [
+      143
+     ],
+     "review": [
+      145
+     ],
+     "contributes": [
+      146
+     ],
+     "ongoing": [
+      149
+     ],
+     "debate": [
+      150
+     ],
+     "about": [
+      151
+     ],
+     "role": [
+      153
+     ],
+     "education": [
+      157
+     ],
+     "development.": [
+      160
+     ],
+     "understanding": [
+      162
+     ],
+     "differences": [
+      165
+     ],
+     "between": [
+      166
+     ],
+     "can": [
+      171
+     ],
+     "gain": [
+      172
+     ],
+     "insights": [
+      173
+     ],
+     "into": [
+      174
+     ],
+     "optimal": [
+      175
+     ],
+     "strategies": [
+      177
+     ],
+     "potential": [
+      179
+     ],
+     "advantages,": [
+      181
+     ],
+     "order": [
+      183
+     ],
+     "optimize": [
+      185
+     ],
+     "educational,": [
+      186
+     ],
+     "cognitive,": [
+      187
+     ],
+     "psychological": [
+      189
+     ],
+     "methodologies.": [
+      190
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5101656202",
+       "display_name": "Giuseppe Marano",
+       "orcid": "https://orcid.org/0000-0001-7058-4927",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7058-4927"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I103320735",
+        "display_name": "Universit\u00e0 Cattolica del Sacro Cuore",
+        "ror": "https://ror.org/03h7r5v07",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2802557943",
+        "display_name": "Agostino Gemelli University Polyclinic",
+        "ror": "https://ror.org/00rg70c39",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I2802557943"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210153126",
+        "display_name": "Istituti di Ricovero e Cura a Carattere Scientifico",
+        "ror": "https://ror.org/04tfzc498",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Giuseppe Marano",
+      "raw_affiliation_strings": [
+       "Accademia di Psicologia e Espressione Della Scrittura, 00168 Rome, Italy",
+       "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+       "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Accademia di Psicologia e Espressione Della Scrittura, 00168 Rome, Italy",
+        "institution_ids": []
+       },
+       {
+        "raw_affiliation_string": "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I2802557943",
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5061144089",
+       "display_name": "Georgios Demetrios Kotzalidis",
+       "orcid": "https://orcid.org/0000-0002-0281-6324",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0281-6324"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I103320735",
+        "display_name": "Universit\u00e0 Cattolica del Sacro Cuore",
+        "ror": "https://ror.org/03h7r5v07",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2802557943",
+        "display_name": "Agostino Gemelli University Polyclinic",
+        "ror": "https://ror.org/00rg70c39",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I2802557943"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210153126",
+        "display_name": "Istituti di Ricovero e Cura a Carattere Scientifico",
+        "ror": "https://ror.org/04tfzc498",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       }
+      ],
+      "raw_author_name": "Georgios D. Kotzalidis",
+      "raw_affiliation_strings": [
+       "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+       "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-0281-6324",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I2802557943",
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5008924398",
+       "display_name": "Francesco Maria Lisci",
+       "orcid": "https://orcid.org/0000-0002-3314-142X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3314-142X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I103320735",
+        "display_name": "Universit\u00e0 Cattolica del Sacro Cuore",
+        "ror": "https://ror.org/03h7r5v07",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2802557943",
+        "display_name": "Agostino Gemelli University Polyclinic",
+        "ror": "https://ror.org/00rg70c39",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I2802557943"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210153126",
+        "display_name": "Istituti di Ricovero e Cura a Carattere Scientifico",
+        "ror": "https://ror.org/04tfzc498",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       }
+      ],
+      "raw_author_name": "Francesco Maria Lisci",
+      "raw_affiliation_strings": [
+       "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+       "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-3314-142X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I2802557943",
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5099071697",
+       "display_name": "Maria Benedetta Anesini",
+       "orcid": "https://orcid.org/0009-0005-5839-1301",
+       "observed_orcids": [
+        "https://orcid.org/0009-0005-5839-1301"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I103320735",
+        "display_name": "Universit\u00e0 Cattolica del Sacro Cuore",
+        "ror": "https://ror.org/03h7r5v07",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2802557943",
+        "display_name": "Agostino Gemelli University Polyclinic",
+        "ror": "https://ror.org/00rg70c39",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I2802557943"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210153126",
+        "display_name": "Istituti di Ricovero e Cura a Carattere Scientifico",
+        "ror": "https://ror.org/04tfzc498",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       }
+      ],
+      "raw_author_name": "Maria Benedetta Anesini",
+      "raw_affiliation_strings": [
+       "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+       "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0005-5839-1301",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I2802557943",
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5102022586",
+       "display_name": "Sara Rossi",
+       "orcid": "https://orcid.org/0009-0008-7569-6125",
+       "observed_orcids": [
+        "https://orcid.org/0009-0008-7569-6125"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I103320735",
+        "display_name": "Universit\u00e0 Cattolica del Sacro Cuore",
+        "ror": "https://ror.org/03h7r5v07",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2802557943",
+        "display_name": "Agostino Gemelli University Polyclinic",
+        "ror": "https://ror.org/00rg70c39",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I2802557943"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210153126",
+        "display_name": "Istituti di Ricovero e Cura a Carattere Scientifico",
+        "ror": "https://ror.org/04tfzc498",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       }
+      ],
+      "raw_author_name": "Sara Rossi",
+      "raw_affiliation_strings": [
+       "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+       "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I2802557943",
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5099254214",
+       "display_name": "Sara Barbonetti",
+       "orcid": "https://orcid.org/0009-0005-8221-2721",
+       "observed_orcids": [
+        "https://orcid.org/0009-0005-8221-2721"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I103320735",
+        "display_name": "Universit\u00e0 Cattolica del Sacro Cuore",
+        "ror": "https://ror.org/03h7r5v07",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2802557943",
+        "display_name": "Agostino Gemelli University Polyclinic",
+        "ror": "https://ror.org/00rg70c39",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I2802557943"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210153126",
+        "display_name": "Istituti di Ricovero e Cura a Carattere Scientifico",
+        "ror": "https://ror.org/04tfzc498",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       }
+      ],
+      "raw_author_name": "Sara Barbonetti",
+      "raw_affiliation_strings": [
+       "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+       "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0005-8221-2721",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I2802557943",
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5116393710",
+       "display_name": "Andrea Cangini",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I2800886546",
+        "display_name": "Luigi Einaudi Foundation",
+        "ror": "https://ror.org/00nkq8a05",
+        "country_code": "IT",
+        "type": "nonprofit",
+        "lineage": [
+         "https://openalex.org/I2800886546"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       }
+      ],
+      "raw_author_name": "Andrea Cangini",
+      "raw_affiliation_strings": [
+       "Fondazione Luigi Einaudi, 00193 Rome, Italy",
+       "Osservatorio Carta, Penna & Digitale, 00193 Rome, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Fondazione Luigi Einaudi, 00193 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I2800886546"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Osservatorio Carta, Penna & Digitale, 00193 Rome, Italy",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5116393711",
+       "display_name": "Alice Ronsisvalle",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       }
+      ],
+      "raw_author_name": "Alice Ronsisvalle",
+      "raw_affiliation_strings": [
+       "Accademia di Psicologia e Espressione Della Scrittura, 00168 Rome, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Accademia di Psicologia e Espressione Della Scrittura, 00168 Rome, Italy",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5116393712",
+       "display_name": "Laura Artuso",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       }
+      ],
+      "raw_author_name": "Laura Artuso",
+      "raw_affiliation_strings": [
+       "Accademia di Psicologia e Espressione Della Scrittura, 00168 Rome, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Accademia di Psicologia e Espressione Della Scrittura, 00168 Rome, Italy",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5080802806",
+       "display_name": "Cecilia Falsini",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I103320735",
+        "display_name": "Universit\u00e0 Cattolica del Sacro Cuore",
+        "ror": "https://ror.org/03h7r5v07",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2802557943",
+        "display_name": "Agostino Gemelli University Polyclinic",
+        "ror": "https://ror.org/00rg70c39",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I2802557943"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210153126",
+        "display_name": "Istituti di Ricovero e Cura a Carattere Scientifico",
+        "ror": "https://ror.org/04tfzc498",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       }
+      ],
+      "raw_author_name": "Cecilia Falsini",
+      "raw_affiliation_strings": [
+       "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+       "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I2802557943",
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5102716031",
+       "display_name": "Romina Caso",
+       "orcid": "https://orcid.org/0009-0002-6861-0166",
+       "observed_orcids": [
+        "https://orcid.org/0009-0002-6861-0166"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I103320735",
+        "display_name": "Universit\u00e0 Cattolica del Sacro Cuore",
+        "ror": "https://ror.org/03h7r5v07",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2802557943",
+        "display_name": "Agostino Gemelli University Polyclinic",
+        "ror": "https://ror.org/00rg70c39",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I2802557943"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210153126",
+        "display_name": "Istituti di Ricovero e Cura a Carattere Scientifico",
+        "ror": "https://ror.org/04tfzc498",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       }
+      ],
+      "raw_author_name": "Romina Caso",
+      "raw_affiliation_strings": [
+       "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+       "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I2802557943",
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5099254207",
+       "display_name": "Giuseppe Mandracchia",
+       "orcid": "https://orcid.org/0009-0002-2017-0819",
+       "observed_orcids": [
+        "https://orcid.org/0009-0002-2017-0819"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I103320735",
+        "display_name": "Universit\u00e0 Cattolica del Sacro Cuore",
+        "ror": "https://ror.org/03h7r5v07",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2802557943",
+        "display_name": "Agostino Gemelli University Polyclinic",
+        "ror": "https://ror.org/00rg70c39",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I2802557943"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210153126",
+        "display_name": "Istituti di Ricovero e Cura a Carattere Scientifico",
+        "ror": "https://ror.org/04tfzc498",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       }
+      ],
+      "raw_author_name": "Giuseppe Mandracchia",
+      "raw_affiliation_strings": [
+       "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+       "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I2802557943",
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5066460755",
+       "display_name": "Caterina Brisi",
+       "orcid": "https://orcid.org/0000-0002-0491-5051",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0491-5051"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I103320735",
+        "display_name": "Universit\u00e0 Cattolica del Sacro Cuore",
+        "ror": "https://ror.org/03h7r5v07",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2802557943",
+        "display_name": "Agostino Gemelli University Polyclinic",
+        "ror": "https://ror.org/00rg70c39",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I2802557943"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210153126",
+        "display_name": "Istituti di Ricovero e Cura a Carattere Scientifico",
+        "ror": "https://ror.org/04tfzc498",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       }
+      ],
+      "raw_author_name": "Caterina Brisi",
+      "raw_affiliation_strings": [
+       "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+       "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I2802557943",
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5065545413",
+       "display_name": "Gianandrea Traversi",
+       "orcid": "https://orcid.org/0000-0002-6558-2932",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6558-2932"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I2802557943",
+        "display_name": "Agostino Gemelli University Polyclinic",
+        "ror": "https://ror.org/00rg70c39",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I2802557943"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       }
+      ],
+      "raw_author_name": "Gianandrea Traversi",
+      "raw_affiliation_strings": [
+       "Unit of Medical Genetics, Department of Laboratory Medicine, Ospedale Isola Tiberina-Gemelli Isola, 00186 Rome, Italy"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-6558-2932",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Unit of Medical Genetics, Department of Laboratory Medicine, Ospedale Isola Tiberina-Gemelli Isola, 00186 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I2802557943"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5102963196",
+       "display_name": "Osvaldo Mazza",
+       "orcid": "https://orcid.org/0000-0002-1850-2864",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1850-2864"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210123352",
+        "display_name": "Bambino Ges\u00f9 Children's Hospital",
+        "ror": "https://ror.org/02sy42d13",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210123352",
+         "https://openalex.org/I4210153126"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4405269604",
+        "display_name": "Fondazione Bambino Ges\u00f9",
+        "ror": "https://ror.org/04pk2mc24",
+        "country_code": "IT",
+        "type": "nonprofit",
+        "lineage": [
+         "https://openalex.org/I4405269604"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       }
+      ],
+      "raw_author_name": "Osvaldo Mazza",
+      "raw_affiliation_strings": [
+       "Spine Surgery Department, Bambino Ges\u00f9 Children\u2019s Hospital IRCCS, 00168 Rome, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Spine Surgery Department, Bambino Ges\u00f9 Children\u2019s Hospital IRCCS, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I4210123352",
+         "https://openalex.org/I4405269604"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5025658524",
+       "display_name": "Roberto Pola",
+       "orcid": "https://orcid.org/0000-0001-5224-2931",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5224-2931"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I103320735",
+        "display_name": "Universit\u00e0 Cattolica del Sacro Cuore",
+        "ror": "https://ror.org/03h7r5v07",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2802557943",
+        "display_name": "Agostino Gemelli University Polyclinic",
+        "ror": "https://ror.org/00rg70c39",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I2802557943"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210153126",
+        "display_name": "Istituti di Ricovero e Cura a Carattere Scientifico",
+        "ror": "https://ror.org/04tfzc498",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       }
+      ],
+      "raw_author_name": "Roberto Pola",
+      "raw_affiliation_strings": [
+       "Section of Internal Medicine and Thromboembolic Diseases, Department of Internal Medicine, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-5224-2931",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Section of Internal Medicine and Thromboembolic Diseases, Department of Internal Medicine, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I103320735",
+         "https://openalex.org/I2802557943",
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5054982285",
+       "display_name": "Gabriele Sani",
+       "orcid": "https://orcid.org/0000-0002-9767-8752",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9767-8752"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I103320735",
+        "display_name": "Universit\u00e0 Cattolica del Sacro Cuore",
+        "ror": "https://ror.org/03h7r5v07",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2802557943",
+        "display_name": "Agostino Gemelli University Polyclinic",
+        "ror": "https://ror.org/00rg70c39",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I2802557943"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210153126",
+        "display_name": "Istituti di Ricovero e Cura a Carattere Scientifico",
+        "ror": "https://ror.org/04tfzc498",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       }
+      ],
+      "raw_author_name": "Gabriele Sani",
+      "raw_affiliation_strings": [
+       "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+       "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-9767-8752",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I2802557943",
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5042269980",
+       "display_name": "Eugenio Maria Mercuri",
+       "orcid": "https://orcid.org/0000-0002-9851-5365",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9851-5365"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I103320735",
+        "display_name": "Universit\u00e0 Cattolica del Sacro Cuore",
+        "ror": "https://ror.org/03h7r5v07",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I103320735"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       }
+      ],
+      "raw_author_name": "Eugenio Maria Mercuri",
+      "raw_affiliation_strings": [
+       "Department Women Children and Public Health, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department Women Children and Public Health, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I103320735"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5004777507",
+       "display_name": "Eleonora Gaetani",
+       "orcid": "https://orcid.org/0000-0002-7808-1491",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7808-1491"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I103320735",
+        "display_name": "Universit\u00e0 Cattolica del Sacro Cuore",
+        "ror": "https://ror.org/03h7r5v07",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2802557943",
+        "display_name": "Agostino Gemelli University Polyclinic",
+        "ror": "https://ror.org/00rg70c39",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I2802557943"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210112462",
+        "display_name": "Ospedale Cristo Re",
+        "ror": "https://ror.org/01dgc8k02",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210112462"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       }
+      ],
+      "raw_author_name": "Eleonora Gaetani",
+      "raw_affiliation_strings": [
+       "Department of Translational Medicine and Surgery, Fondazione Policlinico Universitario AgostinoGemelli IRCCS Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+       "Unit of Internal Medicine, Cristo Re Hospital, 00167 Rome, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Translational Medicine and Surgery, Fondazione Policlinico Universitario AgostinoGemelli IRCCS Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I103320735",
+         "https://openalex.org/I2802557943"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Unit of Internal Medicine, Cristo Re Hospital, 00167 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I4210112462"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5055892687",
+       "display_name": "Marianna Mazza",
+       "orcid": "https://orcid.org/0000-0002-3007-8162",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3007-8162"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I103320735",
+        "display_name": "Universit\u00e0 Cattolica del Sacro Cuore",
+        "ror": "https://ror.org/03h7r5v07",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2802557943",
+        "display_name": "Agostino Gemelli University Polyclinic",
+        "ror": "https://ror.org/00rg70c39",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I2802557943"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210153126",
+        "display_name": "Istituti di Ricovero e Cura a Carattere Scientifico",
+        "ror": "https://ror.org/04tfzc498",
+        "country_code": "IT",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Marianna Mazza",
+      "raw_affiliation_strings": [
+       "Accademia di Psicologia e Espressione Della Scrittura, 00168 Rome, Italy",
+       "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+       "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-3007-8162",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Accademia di Psicologia e Espressione Della Scrittura, 00168 Rome, Italy",
+        "institution_ids": []
+       },
+       {
+        "raw_affiliation_string": "Department of Neurosciences, Universit\u00e0 Cattolica del Sacro Cuore, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I103320735"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Unit of Psychiatry, Fondazione Policlinico Universitario AgostinoGemelli IRCCS, 00168 Rome, Italy",
+        "institution_ids": [
+         "https://openalex.org/I2802557943",
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3390/life15030345",
+     "doi": "https://doi.org/10.3390/life15030345",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3390/life15030345",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4210200765",
+      "display_name": "Life",
+      "issn_l": "2075-1729",
+      "issn": [
+       "2075-1729"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310310987",
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310310987"
+      ],
+      "host_organization_lineage_names": [
+       "Multidisciplinary Digital Publishing Institute"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Life",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W7213923705",
+    "doi": "https://doi.org/10.1016/j.chbr.2026.101326",
+    "title": "A scoping review of the negative effects of digital technology on cognition",
+    "display_name": "A scoping review of the negative effects of digital technology on cognition",
+    "publication_year": 2026,
+    "cited_by_count": 11,
+    "abstract_inverted_index": {
+     "The": [
+      0,
+      80,
+      202
+     ],
+     "rapid": [
+      1
+     ],
+     "integration": [
+      2
+     ],
+     "of": [
+      3,
+      41,
+      83,
+      111,
+      134,
+      176,
+      219
+     ],
+     "digital": [
+      4,
+      42,
+      189,
+      210
+     ],
+     "technology": [
+      5,
+      43
+     ],
+     "into": [
+      6
+     ],
+     "daily": [
+      7
+     ],
+     "life": [
+      8
+     ],
+     "has": [
+      9
+     ],
+     "prompted": [
+      10
+     ],
+     "sustained": [
+      11
+     ],
+     "concern": [
+      12
+     ],
+     "regarding": [
+      13
+     ],
+     "its": [
+      14
+     ],
+     "impact": [
+      15
+     ],
+     "on": [
+      16,
+      45,
+      99,
+      116,
+      127
+     ],
+     "human": [
+      17
+     ],
+     "cognition.": [
+      18,
+      46,
+      136,
+      222
+     ],
+     "To": [
+      19
+     ],
+     "characterize": [
+      20
+     ],
+     "documented": [
+      21,
+      38
+     ],
+     "negative": [
+      22,
+      39
+     ],
+     "effects": [
+      23,
+      40
+     ],
+     "and": [
+      24,
+      51,
+      62,
+      77,
+      95,
+      153,
+      163
+     ],
+     "the": [
+      25,
+      37,
+      70,
+      96,
+      109,
+      174,
+      184,
+      216
+     ],
+     "conditions": [
+      26
+     ],
+     "under": [
+      27
+     ],
+     "which": [
+      28
+     ],
+     "they": [
+      29
+     ],
+     "arise,": [
+      30
+     ],
+     "we": [
+      31,
+      55
+     ],
+     "conducted": [
+      32
+     ],
+     "a": [
+      33,
+      48,
+      131
+     ],
+     "scoping": [
+      34
+     ],
+     "review": [
+      35
+     ],
+     "isolating": [
+      36
+     ],
+     "use": [
+      44
+     ],
+     "Using": [
+      47
+     ],
+     "hybrid": [
+      49
+     ],
+     "automated": [
+      50
+     ],
+     "manual": [
+      52
+     ],
+     "search": [
+      53
+     ],
+     "strategy,": [
+      54
+     ],
+     "identified": [
+      56
+     ],
+     "foundational": [
+      57
+     ],
+     "seed": [
+      58
+     ],
+     "papers": [
+      59,
+      85
+     ],
+     "via": [
+      60,
+      69
+     ],
+     "Scopus": [
+      61
+     ],
+     "executed": [
+      63
+     ],
+     "an": [
+      64,
+      106,
+      206
+     ],
+     "algorithmic": [
+      65
+     ],
+     "citation": [
+      66
+     ],
+     "snowballing": [
+      67
+     ],
+     "process": [
+      68
+     ],
+     "OpenAlex": [
+      71
+     ],
+     "API": [
+      72
+     ],
+     "to": [
+      73,
+      122
+     ],
+     "capture": [
+      74
+     ],
+     "relevant": [
+      75
+     ],
+     "empirical": [
+      76
+     ],
+     "non-empirical": [
+      78
+     ],
+     "literature.": [
+      79
+     ],
+     "resulting": [
+      81
+     ],
+     "synthesis": [
+      82
+     ],
+     "937": [
+      84
+     ],
+     "(584": [
+      86
+     ],
+     "empirical,": [
+      87
+     ],
+     "353": [
+      88
+     ],
+     "non-empirical)": [
+      89
+     ],
+     "spans": [
+      90
+     ],
+     "legacy": [
+      91
+     ],
+     "screens,": [
+      92
+     ],
+     "multitasking,": [
+      93
+     ],
+     "smartphones,": [
+      94
+     ],
+     "nascent": [
+      97
+     ],
+     "work": [
+      98
+     ],
+     "generative": [
+      100
+     ],
+     "artificial": [
+      101
+     ],
+     "intelligence": [
+      102
+     ],
+     "(AI).": [
+      103
+     ],
+     "Evidence": [
+      104
+     ],
+     "suggests": [
+      105,
+      205
+     ],
+     "evolution": [
+      107
+     ],
+     "in": [
+      108
+     ],
+     "nature": [
+      110
+     ],
+     "cognitive": [
+      112,
+      142,
+      168,
+      194
+     ],
+     "risk:": [
+      113
+     ],
+     "while": [
+      114
+     ],
+     "research": [
+      115
+     ],
+     "earlier": [
+      117
+     ],
+     "technologies": [
+      118
+     ],
+     "predominantly": [
+      119
+     ],
+     "describes": [
+      120
+     ],
+     "disruptions": [
+      121
+     ],
+     "resource": [
+      123
+     ],
+     "allocation,": [
+      124
+     ],
+     "early": [
+      125
+     ],
+     "findings": [
+      126
+     ],
+     "AI": [
+      128
+     ],
+     "point": [
+      129
+     ],
+     "toward": [
+      130
+     ],
+     "hypothesized": [
+      132
+     ],
+     "erosion": [
+      133
+     ],
+     "higher-order": [
+      135
+     ],
+     "We": [
+      137
+     ],
+     "analyze": [
+      138
+     ],
+     "these": [
+      139
+     ],
+     "risks": [
+      140,
+      198
+     ],
+     "across": [
+      141
+     ],
+     "domains": [
+      143
+     ],
+     "through": [
+      144
+     ],
+     "four": [
+      145
+     ],
+     "mechanisms:": [
+      146
+     ],
+     "functional": [
+      147
+     ],
+     "interference,": [
+      148
+     ],
+     "neurochemical": [
+      149
+     ],
+     "dysregulation,": [
+      150
+     ],
+     "structural": [
+      151
+     ],
+     "neuroplasticity,": [
+      152
+     ],
+     "psychosocial": [
+      154
+     ],
+     "displacement.": [
+      155
+     ],
+     "Effects": [
+      156
+     ],
+     "are": [
+      157
+     ],
+     "frequently": [
+      158
+     ],
+     "moderated": [
+      159
+     ],
+     "by": [
+      160,
+      173
+     ],
+     "socioeconomic": [
+      161
+     ],
+     "status": [
+      162
+     ],
+     "environmental": [
+      164
+     ],
+     "factors,": [
+      165
+     ],
+     "suggesting": [
+      166
+     ],
+     "that": [
+      167
+     ],
+     "decline": [
+      169
+     ],
+     "is": [
+      170
+     ],
+     "often": [
+      171
+     ],
+     "mediated": [
+      172
+     ],
+     "displacement": [
+      175
+     ],
+     "activities": [
+      177
+     ],
+     "rather": [
+      178
+     ],
+     "than": [
+      179
+     ],
+     "direct": [
+      180
+     ],
+     "technological": [
+      181
+     ],
+     "toxicity.": [
+      182
+     ],
+     "Finally,": [
+      183
+     ],
+     "paper": [
+      185
+     ],
+     "examines": [
+      186
+     ],
+     "how": [
+      187
+     ],
+     "habitual": [
+      188
+     ],
+     "offloading": [
+      190
+     ],
+     "could": [
+      191
+     ],
+     "theoretically": [
+      192
+     ],
+     "deplete": [
+      193
+     ],
+     "reserve,": [
+      195
+     ],
+     "creating": [
+      196
+     ],
+     "downstream": [
+      197
+     ],
+     "for": [
+      199
+     ],
+     "long-term": [
+      200,
+      220
+     ],
+     "health.": [
+      201
+     ],
+     "collective": [
+      203
+     ],
+     "evidence": [
+      204
+     ],
+     "efficiency-atrophy": [
+      207
+     ],
+     "paradox,": [
+      208
+     ],
+     "where": [
+      209
+     ],
+     "tools": [
+      211
+     ],
+     "optimize": [
+      212
+     ],
+     "short-term": [
+      213
+     ],
+     "performance": [
+      214
+     ],
+     "at": [
+      215
+     ],
+     "potential": [
+      217
+     ],
+     "expense": [
+      218
+     ],
+     "unassisted": [
+      221
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5128837824",
+       "display_name": "Ur\u0161ka \u017dnidari\u010d",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I153976015",
+        "display_name": "University of Ljubljana",
+        "ror": "https://ror.org/05njb9z20",
+        "country_code": "SI",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I153976015"
+        ]
+       }
+      ],
+      "countries": [
+       "SI"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Ur\u0161ka \u017dnidari\u010d",
+      "raw_affiliation_strings": [
+       "University of Ljubljana, Faculty of Computer and Information Science, Ve\u010dna pot 113, Ljubljana, 1000, Slovenia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Ljubljana, Faculty of Computer and Information Science, Ve\u010dna pot 113, Ljubljana, 1000, Slovenia",
+        "institution_ids": [
+         "https://openalex.org/I153976015"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5077660248",
+       "display_name": "Erik \u0160trumbelj",
+       "orcid": "https://orcid.org/0000-0001-6071-0491",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6071-0491"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I153976015",
+        "display_name": "University of Ljubljana",
+        "ror": "https://ror.org/05njb9z20",
+        "country_code": "SI",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I153976015"
+        ]
+       }
+      ],
+      "countries": [
+       "SI"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/visualization",
+        "display_name": "Visualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Erik \u0160trumbelj",
+      "raw_affiliation_strings": [
+       "University of Ljubljana, Faculty of Computer and Information Science, Ve\u010dna pot 113, Ljubljana, 1000, Slovenia"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-6071-0491",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Ljubljana, Faculty of Computer and Information Science, Ve\u010dna pot 113, Ljubljana, 1000, Slovenia",
+        "institution_ids": [
+         "https://openalex.org/I153976015"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5082970512",
+       "display_name": "Octavian Mihai Machidon",
+       "orcid": "https://orcid.org/0000-0003-3133-1008",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3133-1008"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I153976015",
+        "display_name": "University of Ljubljana",
+        "ror": "https://ror.org/05njb9z20",
+        "country_code": "SI",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I153976015"
+        ]
+       }
+      ],
+      "countries": [
+       "SI"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Octavian Machidon",
+      "raw_affiliation_strings": [
+       "University of Ljubljana, Faculty of Computer and Information Science, Ve\u010dna pot 113, Ljubljana, 1000, Slovenia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Ljubljana, Faculty of Computer and Information Science, Ve\u010dna pot 113, Ljubljana, 1000, Slovenia",
+        "institution_ids": [
+         "https://openalex.org/I153976015"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1016/j.chbr.2026.101326",
+     "doi": "https://doi.org/10.1016/j.chbr.2026.101326",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1016/j.chbr.2026.101326",
+     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2451958826004008/pdf",
+     "source": {
+      "id": "https://openalex.org/S4210198611",
+      "display_name": "Computers in Human Behavior Reports",
+      "issn_l": "2451-9588",
+      "issn": [
+       "2451-9588"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "jufo-1",
+       "norway-1",
+       "poland-20",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+       "Elsevier BV"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Computers in Human Behavior Reports",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3203042431",
+    "doi": "https://doi.org/10.63744/xtvta9enfug6",
+    "title": "Hands-On Reading: An Experiment in Slow Digital Reading",
+    "display_name": "Hands-On Reading: An Experiment in Slow Digital Reading",
+    "publication_year": 2021,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "This": [
+      0
+     ],
+     "paper": [
+      1,
+      100
+     ],
+     "offers": [
+      2
+     ],
+     "a": [
+      3,
+      13,
+      78,
+      82,
+      90,
+      94,
+      112
+     ],
+     "case": [
+      4
+     ],
+     "study": [
+      5
+     ],
+     "of": [
+      6,
+      9,
+      31,
+      107,
+      114,
+      120,
+      133
+     ],
+     "the": [
+      7,
+      18,
+      32,
+      63,
+      103,
+      124,
+      131,
+      143
+     ],
+     "development": [
+      8
+     ],
+     "Hands-On": [
+      10
+     ],
+     "Reading": [
+      11,
+      41
+     ],
+     "(https://hands-on-reading.atnu.ncl.ac.uk/login),": [
+      12
+     ],
+     "web": [
+      14
+     ],
+     "app": [
+      15,
+      26,
+      109
+     ],
+     "that": [
+      16
+     ],
+     "explores": [
+      17
+     ],
+     "interconnections": [
+      19
+     ],
+     "between": [
+      20,
+      51
+     ],
+     "digital": [
+      21,
+      79,
+      95,
+      144
+     ],
+     "reading": [
+      22,
+      87,
+      135
+     ],
+     "and": [
+      23,
+      40,
+      54,
+      105,
+      117,
+      136
+     ],
+     "writing.": [
+      24
+     ],
+     "The": [
+      25
+     ],
+     "was": [
+      27,
+      58
+     ],
+     "created": [
+      28
+     ],
+     "as": [
+      29,
+      98
+     ],
+     "part": [
+      30
+     ],
+     "AHRC-funded": [
+      33
+     ],
+     "project": [
+      34,
+      64
+     ],
+     "Manuscripts": [
+      35
+     ],
+     "after": [
+      36
+     ],
+     "Print": [
+      37
+     ],
+     "c.1450-1550:": [
+      38
+     ],
+     "Producing": [
+      39
+     ],
+     "Books": [
+      42
+     ],
+     "during": [
+      43
+     ],
+     "Technological": [
+      44
+     ],
+     "Change,": [
+      45
+     ],
+     "which": [
+      46
+     ],
+     "ran": [
+      47
+     ],
+     "at": [
+      48
+     ],
+     "Newcastle": [
+      49
+     ],
+     "University": [
+      50
+     ],
+     "February": [
+      52
+     ],
+     "2019": [
+      53
+     ],
+     "July": [
+      55
+     ],
+     "2020.": [
+      56
+     ],
+     "It": [
+      57
+     ],
+     "initially": [
+      59
+     ],
+     "designed": [
+      60
+     ],
+     "to": [
+      61,
+      65,
+      86,
+      89,
+      123,
+      130,
+      142
+     ],
+     "enable": [
+      62
+     ],
+     "ask": [
+      66
+     ],
+     "two": [
+      67
+     ],
+     "crucial": [
+      68
+     ],
+     "questions:": [
+      69
+     ],
+     "why": [
+      70
+     ],
+     "does": [
+      71
+     ],
+     "handwriting": [
+      72
+     ],
+     "have": [
+      73
+     ],
+     "an": [
+      74
+     ],
+     "enduring": [
+      75
+     ],
+     "relevance": [
+      76,
+      122
+     ],
+     "in": [
+      77,
+      128
+     ],
+     "age;": [
+      80
+     ],
+     "can": [
+      81,
+      139
+     ],
+     "more": [
+      83
+     ],
+     "hands-on": [
+      84
+     ],
+     "approach": [
+      85
+     ],
+     "lead": [
+      88
+     ],
+     "deeper": [
+      91
+     ],
+     "engagement": [
+      92
+     ],
+     "with": [
+      93
+     ],
+     "text?": [
+      96
+     ],
+     "However,": [
+      97
+     ],
+     "this": [
+      99,
+      108
+     ],
+     "will": [
+      101
+     ],
+     "show,": [
+      102
+     ],
+     "creation": [
+      104
+     ],
+     "testing": [
+      106
+     ],
+     "also": [
+      110
+     ],
+     "raised": [
+      111
+     ],
+     "number": [
+      113
+     ],
+     "conceptual": [
+      115
+     ],
+     "issues": [
+      116
+     ],
+     "technical": [
+      118
+     ],
+     "challenges": [
+      119
+     ],
+     "broader": [
+      121
+     ],
+     "DH": [
+      125
+     ],
+     "community,": [
+      126
+     ],
+     "relating": [
+      127
+     ],
+     "particular": [
+      129
+     ],
+     "question": [
+      132
+     ],
+     "whether": [
+      134
+     ],
+     "writing": [
+      137
+     ],
+     "practices": [
+      138
+     ],
+     "be": [
+      140
+     ],
+     "translated": [
+      141
+     ],
+     "world.": [
+      145
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5062940303",
+       "display_name": "Aditi Nafde",
+       "orcid": "https://orcid.org/0000-0002-0782-8826",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0782-8826"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I84884186",
+        "display_name": "Newcastle University",
+        "ror": "https://ror.org/01kj2bm70",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I84884186"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Aditi Nafde",
+      "raw_affiliation_strings": [
+       "Newcastle University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Newcastle University",
+        "institution_ids": [
+         "https://openalex.org/I84884186"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": null,
+       "display_name": "Matt Coneys Wainwright",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Matt Coneys Wainwright",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5048414954",
+       "display_name": "Kate Court",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Kate Court",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": null,
+       "display_name": "Fiona Galston",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Fiona Galston",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": null,
+       "display_name": "James Cummings",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "James Cummings",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5064006813",
+       "display_name": "Tiago Sousa Garcia",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Tiago Sousa Garcia",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.63744/xtvta9enfug6",
+     "doi": "https://doi.org/10.63744/xtvta9enfug6",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.63744/xtvta9enfug6",
+     "pdf_url": "https://dhq-static.digitalhumanities.org/pdf/000558.pdf",
+     "source": {
+      "id": "https://openalex.org/S166472302",
+      "display_name": "Digital humanities quarterly",
+      "issn_l": "1938-4122",
+      "issn": [
+       "1938-4122"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "ddh",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310318535",
+      "host_organization_name": "Alliance of Digital Humanities Organizations",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310318535"
+      ],
+      "host_organization_lineage_names": [
+       "Alliance of Digital Humanities Organizations"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Digital Humanities Quarterly",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4399073794",
+    "doi": "https://doi.org/10.1109/access.2024.3406631",
+    "title": "A TinyDL Model for Gesture-Based Air Handwriting Arabic Numbers and Simple Arabic Letters Recognition",
+    "display_name": "A TinyDL Model for Gesture-Based Air Handwriting Arabic Numbers and Simple Arabic Letters Recognition",
+    "publication_year": 2024,
+    "cited_by_count": 44,
+    "abstract_inverted_index": {
+     "The": [
+      0
+     ],
+     "application": [
+      1
+     ],
+     "of": [
+      2,
+      28,
+      51,
+      89,
+      103,
+      118,
+      125,
+      133,
+      138,
+      167,
+      178
+     ],
+     "tiny": [
+      3,
+      69
+     ],
+     "machine": [
+      4
+     ],
+     "learning": [
+      5,
+      71
+     ],
+     "(TinyML)": [
+      6
+     ],
+     "in": [
+      7,
+      21,
+      34,
+      105,
+      120,
+      142,
+      170,
+      180
+     ],
+     "human-computer": [
+      8
+     ],
+     "interaction": [
+      9,
+      183
+     ],
+     "is": [
+      10
+     ],
+     "revolutionizing": [
+      11
+     ],
+     "gesture": [
+      12,
+      106,
+      123,
+      172
+     ],
+     "recognition": [
+      13,
+      27,
+      50,
+      173
+     ],
+     "technologies.": [
+      14
+     ],
+     "However,": [
+      15
+     ],
+     "there": [
+      16
+     ],
+     "remains": [
+      17
+     ],
+     "a": [
+      18,
+      67,
+      76,
+      155
+     ],
+     "significant": [
+      19
+     ],
+     "gap": [
+      20,
+      43
+     ],
+     "the": [
+      22,
+      25,
+      48,
+      62,
+      87,
+      90,
+      96,
+      100,
+      136,
+      144,
+      165,
+      176,
+      182
+     ],
+     "literature": [
+      23
+     ],
+     "regarding": [
+      24
+     ],
+     "effective": [
+      26
+     ],
+     "complex": [
+      29
+     ],
+     "scripts,": [
+      30
+     ],
+     "such": [
+      31
+     ],
+     "as": [
+      32
+     ],
+     "Arabic,": [
+      33
+     ],
+     "real-time": [
+      35
+     ],
+     "applications.": [
+      36
+     ],
+     "This": [
+      37,
+      130
+     ],
+     "research": [
+      38,
+      162
+     ],
+     "aims": [
+      39
+     ],
+     "to": [
+      40,
+      85,
+      164
+     ],
+     "bridge": [
+      41
+     ],
+     "this": [
+      42
+     ],
+     "by": [
+      44,
+      112,
+      148
+     ],
+     "leveraging": [
+      45
+     ],
+     "TinyML": [
+      46,
+      97,
+      168,
+      179
+     ],
+     "for": [
+      47,
+      95
+     ],
+     "accurate": [
+      49
+     ],
+     "Arabic": [
+      52,
+      91,
+      126,
+      149
+     ],
+     "numbers": [
+      53
+     ],
+     "and": [
+      54,
+      93,
+      128,
+      157,
+      186
+     ],
+     "simple": [
+      55
+     ],
+     "letters": [
+      56
+     ],
+     "through": [
+      57
+     ],
+     "gesture-based": [
+      58
+     ],
+     "air": [
+      59
+     ],
+     "handwriting.": [
+      60
+     ],
+     "For": [
+      61
+     ],
+     "first": [
+      63
+     ],
+     "time,": [
+      64
+     ],
+     "we": [
+      65
+     ],
+     "introduce": [
+      66
+     ],
+     "novel": [
+      68
+     ],
+     "deep": [
+      70
+     ],
+     "(TinyDL)": [
+      72
+     ],
+     "model": [
+      73,
+      109,
+      141
+     ],
+     "that": [
+      74
+     ],
+     "utilizes": [
+      75
+     ],
+     "lightweight": [
+      77
+     ],
+     "convolutional": [
+      78
+     ],
+     "neural": [
+      79
+     ],
+     "network": [
+      80
+     ],
+     "(CNN)": [
+      81
+     ],
+     "architecture": [
+      82
+     ],
+     "specifically": [
+      83
+     ],
+     "designed": [
+      84
+     ],
+     "handle": [
+      86
+     ],
+     "intricacies": [
+      88
+     ],
+     "script": [
+      92,
+      150
+     ],
+     "adaptable": [
+      94
+     ],
+     "domain.": [
+      98
+     ],
+     "Despite": [
+      99
+     ],
+     "widespread": [
+      101
+     ],
+     "use": [
+      102
+     ],
+     "CNNs": [
+      104
+     ],
+     "recognition,": [
+      107,
+      151
+     ],
+     "our": [
+      108,
+      139,
+      161
+     ],
+     "stands": [
+      110
+     ],
+     "out": [
+      111
+     ],
+     "achieving": [
+      113
+     ],
+     "an": [
+      114
+     ],
+     "exceptional": [
+      115
+     ],
+     "accuracy": [
+      116,
+      134
+     ],
+     "rate": [
+      117
+     ],
+     "97.5%": [
+      119
+     ],
+     "decoding": [
+      121
+     ],
+     "2D": [
+      122
+     ],
+     "inputs": [
+      124
+     ],
+     "numerals": [
+      127
+     ],
+     "letters.": [
+      129
+     ],
+     "high": [
+      131
+     ],
+     "level": [
+      132
+     ],
+     "demonstrates": [
+      135
+     ],
+     "effectiveness": [
+      137
+     ],
+     "TinyDL": [
+      140
+     ],
+     "addressing": [
+      143
+     ],
+     "unique": [
+      145
+     ],
+     "challenges": [
+      146
+     ],
+     "posed": [
+      147
+     ],
+     "thereby": [
+      152
+     ],
+     "making": [
+      153
+     ],
+     "it": [
+      154
+     ],
+     "user-friendly": [
+      156
+     ],
+     "accessible": [
+      158
+     ],
+     "solution.": [
+      159
+     ],
+     "Moreover,": [
+      160
+     ],
+     "contributes": [
+      163
+     ],
+     "advancement": [
+      166
+     ],
+     "applications": [
+      169
+     ],
+     "real-world": [
+      171
+     ],
+     "apps,": [
+      174
+     ],
+     "showcasing": [
+      175
+     ],
+     "potential": [
+      177
+     ],
+     "transforming": [
+      181
+     ],
+     "between": [
+      184
+     ],
+     "humans": [
+      185
+     ],
+     "digital": [
+      187
+     ],
+     "devices.": [
+      188
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5098907775",
+       "display_name": "Ismail Lamaakal",
+       "orcid": "https://orcid.org/0009-0009-6532-2573",
+       "observed_orcids": [
+        "https://orcid.org/0009-0009-6532-2573"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210108110",
+        "display_name": "Mohamed I University",
+        "ror": "https://ror.org/01ejxf797",
+        "country_code": "MA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210108110"
+        ]
+       }
+      ],
+      "countries": [
+       "MA"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Ismail Lamaakal",
+      "raw_affiliation_strings": [
+       "Multidisciplinary Faculty of Nador, University Mohammed Premier, Oujda, Morocco"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0009-6532-2573",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Multidisciplinary Faculty of Nador, University Mohammed Premier, Oujda, Morocco",
+        "institution_ids": [
+         "https://openalex.org/I4210108110"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5077012960",
+       "display_name": "Ibrahim Ouahbi",
+       "orcid": "https://orcid.org/0000-0002-0552-9275",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0552-9275"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210108110",
+        "display_name": "Mohamed I University",
+        "ror": "https://ror.org/01ejxf797",
+        "country_code": "MA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210108110"
+        ]
+       }
+      ],
+      "countries": [
+       "MA"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Ibrahim Ouahbi",
+      "raw_affiliation_strings": [
+       "Multidisciplinary Faculty of Nador, University Mohammed Premier, Oujda, Morocco"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-0552-9275",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Multidisciplinary Faculty of Nador, University Mohammed Premier, Oujda, Morocco",
+        "institution_ids": [
+         "https://openalex.org/I4210108110"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5001534531",
+       "display_name": "Khalid El Makkaoui",
+       "orcid": "https://orcid.org/0000-0002-9569-9162",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9569-9162"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210108110",
+        "display_name": "Mohamed I University",
+        "ror": "https://ror.org/01ejxf797",
+        "country_code": "MA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210108110"
+        ]
+       }
+      ],
+      "countries": [
+       "MA"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Khalid El Makkaoui",
+      "raw_affiliation_strings": [
+       "Multidisciplinary Faculty of Nador, University Mohammed Premier, Oujda, Morocco"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-9569-9162",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Multidisciplinary Faculty of Nador, University Mohammed Premier, Oujda, Morocco",
+        "institution_ids": [
+         "https://openalex.org/I4210108110"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5014120892",
+       "display_name": "Yassine Maleh",
+       "orcid": "https://orcid.org/0000-0003-4704-5364",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4704-5364"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210119856",
+        "display_name": "Universit\u00e9 Sultan Moulay Slimane",
+        "ror": "https://ror.org/02m8tb249",
+        "country_code": "MA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210119856"
+        ]
+       }
+      ],
+      "countries": [
+       "MA"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Yassine Maleh",
+      "raw_affiliation_strings": [
+       "Laboratory LaSTI, ENSAK, Sultan Moulay Slimane University, Khouribga, Morocco"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-4704-5364",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Laboratory LaSTI, ENSAK, Sultan Moulay Slimane University, Khouribga, Morocco",
+        "institution_ids": [
+         "https://openalex.org/I4210119856"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5029857334",
+       "display_name": "Pawe\u0142 P\u0142awiak",
+       "orcid": "https://orcid.org/0000-0002-4317-2801",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4317-2801"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I24881138",
+        "display_name": "Cracow University of Technology",
+        "ror": "https://ror.org/00pdej676",
+        "country_code": "PL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I24881138"
+        ]
+       }
+      ],
+      "countries": [
+       "PL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Pawe\u0142 P\u0142awiak",
+      "raw_affiliation_strings": [
+       "Department of Computer Science, Faculty of Computer Science and Telecommunications, Cracow University of Technology, Krakow, Poland",
+       "Department of Computer Science, Faculty of Computer Science and Telecommunications, Cracow University of Technology, Warszawska 24, Krakow, Poland"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-4317-2801",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Computer Science, Faculty of Computer Science and Telecommunications, Cracow University of Technology, Krakow, Poland",
+        "institution_ids": [
+         "https://openalex.org/I24881138"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Computer Science, Faculty of Computer Science and Telecommunications, Cracow University of Technology, Warszawska 24, Krakow, Poland",
+        "institution_ids": [
+         "https://openalex.org/I24881138"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5034388930",
+       "display_name": "Fahad Alblehai",
+       "orcid": "https://orcid.org/0000-0001-6478-8667",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6478-8667"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I28022161",
+        "display_name": "King Saud University",
+        "ror": "https://ror.org/02f81g417",
+        "country_code": "SA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I28022161"
+        ]
+       }
+      ],
+      "countries": [
+       "SA"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Fahad Alblehai",
+      "raw_affiliation_strings": [
+       "Computer Science Department, Community College, King Saud University, Riyadh, Saudi Arabia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Computer Science Department, Community College, King Saud University, Riyadh, Saudi Arabia",
+        "institution_ids": [
+         "https://openalex.org/I28022161"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1109/access.2024.3406631",
+     "doi": "https://doi.org/10.1109/access.2024.3406631",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1109/access.2024.3406631",
+     "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10540139.pdf",
+     "source": {
+      "id": "https://openalex.org/S2485537415",
+      "display_name": "IEEE Access",
+      "issn_l": "2169-3536",
+      "issn": [
+       "2169-3536"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "oarl",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319808",
+      "host_organization_name": "Institute of Electrical and Electronics Engineers",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319808"
+      ],
+      "host_organization_lineage_names": [
+       "Institute of Electrical and Electronics Engineers"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "IEEE Access",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3004069180",
+    "doi": null,
+    "title": "Can Tangible Robots Support Children in Learning Handwriting",
+    "display_name": "Can Tangible Robots Support Children in Learning Handwriting",
+    "publication_year": 2020,
+    "cited_by_count": 4,
+    "abstract_inverted_index": {
+     "A": [
+      0
+     ],
+     "large": [
+      1
+     ],
+     "body": [
+      2
+     ],
+     "of": [
+      3,
+      27,
+      44,
+      88
+     ],
+     "research": [
+      4
+     ],
+     "suggests": [
+      5
+     ],
+     "that": [
+      6
+     ],
+     "robots": [
+      7,
+      29
+     ],
+     "could": [
+      8
+     ],
+     "indeed": [
+      9
+     ],
+     "be": [
+      10
+     ],
+     "useful": [
+      11
+     ],
+     "for": [
+      12
+     ],
+     "supporting": [
+      13
+     ],
+     "children": [
+      14,
+      34,
+      52,
+      55
+     ],
+     "in": [
+      15,
+      30
+     ],
+     "learning": [
+      16
+     ],
+     "handwriting.": [
+      17
+     ],
+     "However,": [
+      18
+     ],
+     "few": [
+      19
+     ],
+     "studies": [
+      20
+     ],
+     "have": [
+      21,
+      71
+     ],
+     "investigated": [
+      22
+     ],
+     "the": [
+      23,
+      42,
+      78,
+      82
+     ],
+     "role": [
+      24
+     ],
+     "and": [
+      25,
+      53,
+      58,
+      65,
+      81
+     ],
+     "use": [
+      26
+     ],
+     "tangible": [
+      28
+     ],
+     "teaching": [
+      31
+     ],
+     "handwriting": [
+      32
+     ],
+     "to": [
+      33,
+      76,
+      86
+     ],
+     "with": [
+      35,
+      56
+     ],
+     "attention": [
+      36,
+      57
+     ],
+     "and/or": [
+      37
+     ],
+     "visuo-motor": [
+      38
+     ],
+     "coordination": [
+      39,
+      60
+     ],
+     "difficulties.": [
+      40
+     ],
+     "Over": [
+      41
+     ],
+     "course": [
+      43
+     ],
+     "multiple": [
+      45
+     ],
+     "iterations,": [
+      46
+     ],
+     "globally": [
+      47
+     ],
+     "involving": [
+      48
+     ],
+     "17": [
+      49
+     ],
+     "typically": [
+      50
+     ],
+     "developed": [
+      51
+     ],
+     "12": [
+      54
+     ],
+     "visio-motor": [
+      59
+     ],
+     "issues": [
+      61
+     ],
+     "within": [
+      62
+     ],
+     "one": [
+      63
+     ],
+     "school": [
+      64
+     ],
+     "two": [
+      66
+     ],
+     "different": [
+      67
+     ],
+     "therapy": [
+      68
+     ],
+     "centres,": [
+      69
+     ],
+     "we": [
+      70
+     ],
+     "designed": [
+      72
+     ],
+     "a": [
+      73
+     ],
+     "robotic": [
+      74
+     ],
+     "activity": [
+      75
+     ],
+     "teach": [
+      77
+     ],
+     "grapheme": [
+      79
+     ],
+     "(shape)": [
+      80
+     ],
+     "ductus": [
+      83
+     ],
+     "(the": [
+      84
+     ],
+     "way": [
+      85
+     ],
+     "draw)": [
+      87
+     ],
+     "cursive": [
+      89
+     ],
+     "letters.": [
+      90
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5089148668",
+       "display_name": "Arzu G\u00fcneysu \u00d6zg\u00fcr",
+       "orcid": "https://orcid.org/0000-0003-2282-9939",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2282-9939"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Arzu G\u00fcneysu \u00d6zg\u00fcr",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5039847272",
+       "display_name": "Barbara Bruno",
+       "orcid": "https://orcid.org/0000-0003-0953-7173",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0953-7173"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Barbara Bruno",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5006636188",
+       "display_name": "Thibault Asselborn",
+       "orcid": "https://orcid.org/0000-0001-9879-5048",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9879-5048"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Thibault Asselborn",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5083821830",
+       "display_name": "Pierre Dillenbourg",
+       "orcid": "https://orcid.org/0000-0001-9455-5119",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9455-5119"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Pierre Dillenbourg",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ],
+    "primary_location": {
+     "id": "pmh:oai:infoscience.epfl.ch:275608",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://ercim-news.ercim.eu/en120/special/can-tangible-robots-support-children-in-learning-handwriting",
+     "pdf_url": "https://ercim-news.ercim.eu/images/stories/EN120/EN120-web.pdf",
+     "source": {
+      "id": "https://openalex.org/S4306400487",
+      "display_name": "Infoscience (Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I5124864",
+      "host_organization_name": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+      "host_organization_lineage": [
+       "https://openalex.org/I5124864"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "",
+     "raw_type": "research article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

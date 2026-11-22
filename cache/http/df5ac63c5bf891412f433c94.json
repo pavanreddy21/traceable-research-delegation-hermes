@@ -1,0 +1,5708 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 788,
+   "db_response_time_ms": 188,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (sleep dependent memory consolidation absent in older adults no benefit age boundary) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (sleep dependent memory consolidation absent in older adults no benefit age boundary) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "sleep dependent memory consolidation absent in older adults no benefit age boundary",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:sleep dependent memory consolidation absent in older adults no benefit age boundary,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W3161707120",
+    "doi": "https://doi.org/10.1101/lm.053330.120",
+    "title": "\u2018Sleep-dependent\u2019 memory consolidation? Brief periods of post-training rest and sleep provide an equivalent benefit for both declarative and procedural memory",
+    "display_name": "\u2018Sleep-dependent\u2019 memory consolidation? Brief periods of post-training rest and sleep provide an equivalent benefit for both declarative and procedural memory",
+    "publication_year": 2021,
+    "cited_by_count": 51,
+    "abstract_inverted_index": {
+     "Sleep": [
+      0
+     ],
+     "following": [
+      1
+     ],
+     "learning": [
+      2,
+      147
+     ],
+     "facilitates": [
+      3
+     ],
+     "the": [
+      4,
+      19,
+      28,
+      48,
+      53,
+      63,
+      134,
+      145,
+      161,
+      169,
+      173,
+      199
+     ],
+     "consolidation": [
+      5,
+      64,
+      200,
+      213
+     ],
+     "of": [
+      6,
+      21,
+      55,
+      65,
+      86,
+      183,
+      201,
+      232
+     ],
+     "memories.": [
+      7
+     ],
+     "This": [
+      8
+     ],
+     "effect": [
+      9
+     ],
+     "has": [
+      10
+     ],
+     "often": [
+      11
+     ],
+     "been": [
+      12
+     ],
+     "attributed": [
+      13
+     ],
+     "to": [
+      14,
+      157,
+      191,
+      197
+     ],
+     "sleep-specific": [
+      15
+     ],
+     "factors,": [
+      16
+     ],
+     "such": [
+      17
+     ],
+     "as": [
+      18
+     ],
+     "presence": [
+      20
+     ],
+     "sleep": [
+      22,
+      73,
+      151,
+      192,
+      220
+     ],
+     "spindles": [
+      23
+     ],
+     "or": [
+      24,
+      125,
+      221
+     ],
+     "slow": [
+      25
+     ],
+     "waves": [
+      26
+     ],
+     "in": [
+      27,
+      108
+     ],
+     "electroencephalogram": [
+      29
+     ],
+     "(EEG).": [
+      30
+     ],
+     "However,": [
+      31
+     ],
+     "recent": [
+      32
+     ],
+     "studies": [
+      33
+     ],
+     "suggest": [
+      34,
+      187
+     ],
+     "that": [
+      35,
+      72,
+      188
+     ],
+     "simply": [
+      36
+     ],
+     "resting": [
+      37
+     ],
+     "quietly": [
+      38,
+      116
+     ],
+     "while": [
+      39
+     ],
+     "awake": [
+      40
+     ],
+     "could": [
+      41
+     ],
+     "confer": [
+      42
+     ],
+     "a": [
+      43,
+      84,
+      91,
+      94,
+      100,
+      127,
+      225
+     ],
+     "similar": [
+      44
+     ],
+     "memory": [
+      45,
+      81,
+      96,
+      143,
+      165,
+      212
+     ],
+     "benefit.": [
+      46
+     ],
+     "In": [
+      47
+     ],
+     "current": [
+      49
+     ],
+     "study,": [
+      50
+     ],
+     "we": [
+      51
+     ],
+     "examined": [
+      52
+     ],
+     "effects": [
+      54
+     ],
+     "sleep,": [
+      56
+     ],
+     "quiet": [
+      57,
+      76,
+      153
+     ],
+     "rest,": [
+      58,
+      223
+     ],
+     "and": [
+      59,
+      67,
+      74,
+      93,
+      152,
+      163,
+      229
+     ],
+     "active": [
+      60,
+      87
+     ],
+     "wakefulness": [
+      61
+     ],
+     "on": [
+      62,
+      141,
+      160
+     ],
+     "declarative": [
+      66,
+      92,
+      162
+     ],
+     "procedural": [
+      68,
+      95,
+      164
+     ],
+     "memory.": [
+      69
+     ],
+     "We": [
+      70
+     ],
+     "hypothesized": [
+      71
+     ],
+     "eyes-closed": [
+      75
+     ],
+     "rest": [
+      77,
+      154,
+      178
+     ],
+     "would": [
+      78
+     ],
+     "both": [
+      79,
+      155
+     ],
+     "benefit": [
+      80
+     ],
+     "compared": [
+      82
+     ],
+     "with": [
+      83,
+      104,
+      118
+     ],
+     "period": [
+      85,
+      103
+     ],
+     "wakefulness.": [
+      88
+     ],
+     "After": [
+      89
+     ],
+     "completing": [
+      90
+     ],
+     "task,": [
+      97
+     ],
+     "participants": [
+      98,
+      137
+     ],
+     "began": [
+      99
+     ],
+     "30-min": [
+      101
+     ],
+     "retention": [
+      102,
+      135,
+      208
+     ],
+     "PSG": [
+      105
+     ],
+     "(polysomnographic)": [
+      106
+     ],
+     "monitoring,": [
+      107
+     ],
+     "which": [
+      109
+     ],
+     "they": [
+      110
+     ],
+     "either": [
+      111,
+      219
+     ],
+     "slept": [
+      112
+     ],
+     "(n": [
+      113,
+      122,
+      130
+     ],
+     "=": [
+      114,
+      123,
+      131
+     ],
+     "24),": [
+      115
+     ],
+     "rested": [
+      117
+     ],
+     "their": [
+      119,
+      142
+     ],
+     "eyes": [
+      120
+     ],
+     "closed": [
+      121
+     ],
+     "22),": [
+      124
+     ],
+     "completed": [
+      126
+     ],
+     "distractor": [
+      128,
+      170
+     ],
+     "task": [
+      129
+     ],
+     "29).": [
+      132
+     ],
+     "Following": [
+      133
+     ],
+     "period,": [
+      136
+     ],
+     "were": [
+      138,
+      179
+     ],
+     "again": [
+      139
+     ],
+     "tested": [
+      140
+     ],
+     "for": [
+      144
+     ],
+     "two": [
+      146
+     ],
+     "tasks.": [
+      148
+     ],
+     "As": [
+      149
+     ],
+     "hypothesized,": [
+      150
+     ],
+     "led": [
+      156
+     ],
+     "better": [
+      158
+     ],
+     "performance": [
+      159,
+      174
+     ],
+     "tasks": [
+      166
+     ],
+     "than": [
+      167
+     ],
+     "did": [
+      168
+     ],
+     "task.": [
+      171
+     ],
+     "Moreover,": [
+      172
+     ],
+     "advantages": [
+      175
+     ],
+     "conferred": [
+      176
+     ],
+     "by": [
+      177
+     ],
+     "indistinguishable": [
+      180
+     ],
+     "from": [
+      181
+     ],
+     "those": [
+      182
+     ],
+     "sleep.": [
+      184
+     ],
+     "These": [
+      185
+     ],
+     "data": [
+      186
+     ],
+     "neurobiology": [
+      189
+     ],
+     "specific": [
+      190
+     ],
+     "might": [
+      193
+     ],
+     "not": [
+      194
+     ],
+     "be": [
+      195
+     ],
+     "necessary": [
+      196
+     ],
+     "induce": [
+      198
+     ],
+     "memory,": [
+      202
+     ],
+     "at": [
+      203
+     ],
+     "least": [
+      204
+     ],
+     "across": [
+      205
+     ],
+     "very": [
+      206
+     ],
+     "short": [
+      207
+     ],
+     "intervals.": [
+      209
+     ],
+     "Instead,": [
+      210
+     ],
+     "offline": [
+      211
+     ],
+     "may": [
+      214
+     ],
+     "function": [
+      215
+     ],
+     "opportunistically,": [
+      216
+     ],
+     "occurring": [
+      217
+     ],
+     "during": [
+      218
+     ],
+     "stimulus-free": [
+      222
+     ],
+     "provided": [
+      224
+     ],
+     "favorable": [
+      226
+     ],
+     "neurobiological": [
+      227
+     ],
+     "milieu": [
+      228
+     ],
+     "sufficient": [
+      230
+     ],
+     "reduction": [
+      231
+     ],
+     "new": [
+      233
+     ],
+     "encoding.": [
+      234
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5075695395",
+       "display_name": "Serene Y. Wang",
+       "orcid": "https://orcid.org/0000-0001-9354-0206",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9354-0206"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I86115722",
+        "display_name": "Furman University",
+        "ror": "https://ror.org/04ytb9n23",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86115722"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Serene Y. Wang",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Furman University, Greenville, South Carolina 29609, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Furman University, Greenville, South Carolina 29609, USA",
+        "institution_ids": [
+         "https://openalex.org/I86115722"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5082606113",
+       "display_name": "Kirsten C. Baker",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I86115722",
+        "display_name": "Furman University",
+        "ror": "https://ror.org/04ytb9n23",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86115722"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Kirsten C. Baker",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Furman University, Greenville, South Carolina 29609, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Furman University, Greenville, South Carolina 29609, USA",
+        "institution_ids": [
+         "https://openalex.org/I86115722"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5045374386",
+       "display_name": "Jessica L. Culbreth",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I86115722",
+        "display_name": "Furman University",
+        "ror": "https://ror.org/04ytb9n23",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86115722"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jessica L. Culbreth",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Furman University, Greenville, South Carolina 29609, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Furman University, Greenville, South Carolina 29609, USA",
+        "institution_ids": [
+         "https://openalex.org/I86115722"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5072347962",
+       "display_name": "Olivia Tracy",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I86115722",
+        "display_name": "Furman University",
+        "ror": "https://ror.org/04ytb9n23",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86115722"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Olivia Tracy",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Furman University, Greenville, South Carolina 29609, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Furman University, Greenville, South Carolina 29609, USA",
+        "institution_ids": [
+         "https://openalex.org/I86115722"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5065784400",
+       "display_name": "Madison Arora",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I86115722",
+        "display_name": "Furman University",
+        "ror": "https://ror.org/04ytb9n23",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86115722"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Madison Arora",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Furman University, Greenville, South Carolina 29609, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Furman University, Greenville, South Carolina 29609, USA",
+        "institution_ids": [
+         "https://openalex.org/I86115722"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5083432994",
+       "display_name": "Tingtong Liu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I86115722",
+        "display_name": "Furman University",
+        "ror": "https://ror.org/04ytb9n23",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86115722"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Tingtong Liu",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Furman University, Greenville, South Carolina 29609, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Furman University, Greenville, South Carolina 29609, USA",
+        "institution_ids": [
+         "https://openalex.org/I86115722"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5054302857",
+       "display_name": "Sydney Morris",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I86115722",
+        "display_name": "Furman University",
+        "ror": "https://ror.org/04ytb9n23",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86115722"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Sydney Morris",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Furman University, Greenville, South Carolina 29609, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Furman University, Greenville, South Carolina 29609, USA",
+        "institution_ids": [
+         "https://openalex.org/I86115722"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5070385513",
+       "display_name": "Megan B. Collins",
+       "orcid": "https://orcid.org/0009-0002-4126-4777",
+       "observed_orcids": [
+        "https://orcid.org/0009-0002-4126-4777"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I86115722",
+        "display_name": "Furman University",
+        "ror": "https://ror.org/04ytb9n23",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86115722"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Megan B. Collins",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Furman University, Greenville, South Carolina 29609, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Furman University, Greenville, South Carolina 29609, USA",
+        "institution_ids": [
+         "https://openalex.org/I86115722"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5058257453",
+       "display_name": "Erin J. Wamsley",
+       "orcid": "https://orcid.org/0000-0003-4465-3890",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4465-3890"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I86115722",
+        "display_name": "Furman University",
+        "ror": "https://ror.org/04ytb9n23",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86115722"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Erin J. Wamsley",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Furman University, Greenville, South Carolina 29609, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-4465-3890",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Furman University, Greenville, South Carolina 29609, USA",
+        "institution_ids": [
+         "https://openalex.org/I86115722"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1101/lm.053330.120",
+     "doi": "https://doi.org/10.1101/lm.053330.120",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1101/lm.053330.120",
+     "pdf_url": "http://learnmem.cshlp.org/content/28/6/195.full.pdf",
+     "source": {
+      "id": "https://openalex.org/S73374563",
+      "display_name": "Learning & Memory",
+      "issn_l": "1072-0502",
+      "issn": [
+       "1072-0502",
+       "1549-5485"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [
+       "dongbi-c",
+       "doyens",
+       "jufo-2",
+       "ki-jl-2",
+       "medline",
+       "norway-2",
+       "poland-140",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310315909",
+      "host_organization_name": "Cold Spring Harbor Laboratory Press",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310315909"
+      ],
+      "host_organization_lineage_names": [
+       "Cold Spring Harbor Laboratory Press"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc",
+     "license_id": "https://openalex.org/licenses/cc-by-nc",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Learning &amp; Memory",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2996940524",
+    "doi": "https://doi.org/10.1016/j.neuroimage.2019.116490",
+    "title": "Memory quality modulates the effect of aging on memory consolidation during sleep: Reduced maintenance but intact gain",
+    "display_name": "Memory quality modulates the effect of aging on memory consolidation during sleep: Reduced maintenance but intact gain",
+    "publication_year": 2019,
+    "cited_by_count": 44,
+    "abstract_inverted_index": {
+     "Successful": [
+      0
+     ],
+     "consolidation": [
+      1,
+      87,
+      187,
+      303
+     ],
+     "of": [
+      2,
+      10,
+      26,
+      43,
+      49,
+      59,
+      120,
+      133,
+      143,
+      153,
+      160,
+      185,
+      206,
+      240,
+      324
+     ],
+     "associative": [
+      3,
+      67
+     ],
+     "memories": [
+      4,
+      68,
+      163
+     ],
+     "relies": [
+      5
+     ],
+     "on": [
+      6,
+      112,
+      145
+     ],
+     "the": [
+      7,
+      24,
+      30,
+      37,
+      41,
+      44,
+      50,
+      60,
+      73,
+      117,
+      131,
+      140,
+      225,
+      256,
+      267,
+      295,
+      305,
+      311
+     ],
+     "coordinated": [
+      8
+     ],
+     "interplay": [
+      9
+     ],
+     "slow": [
+      11,
+      241
+     ],
+     "oscillations": [
+      12,
+      242
+     ],
+     "and": [
+      13,
+      46,
+      52,
+      65,
+      82,
+      101,
+      172,
+      194,
+      212,
+      236,
+      246,
+      274,
+      315
+     ],
+     "sleep": [
+      14,
+      192,
+      210,
+      227,
+      287
+     ],
+     "spindles": [
+      15,
+      248
+     ],
+     "during": [
+      16,
+      69,
+      90
+     ],
+     "non-rapid": [
+      17
+     ],
+     "eye": [
+      18
+     ],
+     "movement": [
+      19
+     ],
+     "(NREM)": [
+      20
+     ],
+     "sleep.": [
+      21,
+      71
+     ],
+     "This": [
+      22
+     ],
+     "enables": [
+      23
+     ],
+     "transfer": [
+      25
+     ],
+     "labile": [
+      27
+     ],
+     "information": [
+      28
+     ],
+     "from": [
+      29,
+      188
+     ],
+     "hippocampus": [
+      31,
+      51
+     ],
+     "to": [
+      32,
+      80,
+      181,
+      203,
+      319
+     ],
+     "permanent": [
+      33
+     ],
+     "memory": [
+      34,
+      86,
+      109,
+      123,
+      137,
+      146,
+      158,
+      186,
+      280,
+      328
+     ],
+     "stores": [
+      35
+     ],
+     "in": [
+      36,
+      136,
+      209,
+      266,
+      285,
+      301,
+      304,
+      327
+     ],
+     "neocortex.": [
+      38
+     ],
+     "During": [
+      39
+     ],
+     "senescence,": [
+      40
+     ],
+     "decline": [
+      42
+     ],
+     "structural": [
+      45,
+      173,
+      289
+     ],
+     "functional": [
+      47
+     ],
+     "integrity": [
+      48,
+      291
+     ],
+     "neocortical": [
+      53
+     ],
+     "regions": [
+      54
+     ],
+     "is": [
+      55,
+      77,
+      88
+     ],
+     "paralleled": [
+      56
+     ],
+     "by": [
+      57,
+      167,
+      230,
+      262
+     ],
+     "changes": [
+      58
+     ],
+     "physiological": [
+      61
+     ],
+     "events": [
+      62
+     ],
+     "that": [
+      63,
+      127,
+      215
+     ],
+     "stabilize": [
+      64
+     ],
+     "enhance": [
+      66
+     ],
+     "NREM": [
+      70,
+      191
+     ],
+     "However,": [
+      72,
+      282
+     ],
+     "currently": [
+      74
+     ],
+     "available": [
+      75
+     ],
+     "evidence": [
+      76
+     ],
+     "inconclusive": [
+      78
+     ],
+     "as": [
+      79,
+      253,
+      255,
+      294
+     ],
+     "whether": [
+      81
+     ],
+     "under": [
+      83
+     ],
+     "which": [
+      84
+     ],
+     "circumstances": [
+      85
+     ],
+     "impacted": [
+      89
+     ],
+     "aging.": [
+      91
+     ],
+     "To": [
+      92
+     ],
+     "approach": [
+      93
+     ],
+     "this": [
+      94
+     ],
+     "question,": [
+      95
+     ],
+     "30": [
+      96
+     ],
+     "younger": [
+      97
+     ],
+     "adults": [
+      98,
+      104
+     ],
+     "(19-28": [
+      99
+     ],
+     "years)": [
+      100,
+      106
+     ],
+     "36": [
+      102
+     ],
+     "older": [
+      103
+     ],
+     "(63-74": [
+      105
+     ],
+     "completed": [
+      107
+     ],
+     "a": [
+      108,
+      237,
+      321
+     ],
+     "task": [
+      110
+     ],
+     "based": [
+      111
+     ],
+     "scene-word": [
+      113
+     ],
+     "associations.": [
+      114
+     ],
+     "By": [
+      115
+     ],
+     "tracing": [
+      116
+     ],
+     "encoding": [
+      118,
+      155
+     ],
+     "quality": [
+      119
+     ],
+     "participants'": [
+      121
+     ],
+     "individual": [
+      122
+     ],
+     "associations,": [
+      124
+     ],
+     "we": [
+      125
+     ],
+     "demonstrate": [
+      126
+     ],
+     "previous": [
+      128
+     ],
+     "learning": [
+      129
+     ],
+     "determines": [
+      130
+     ],
+     "extent": [
+      132
+     ],
+     "age-related": [
+      134
+     ],
+     "impairments": [
+      135
+     ],
+     "consolidation.": [
+      138,
+      329
+     ],
+     "Specifically,": [
+      139
+     ],
+     "detrimental": [
+      141
+     ],
+     "effects": [
+      142
+     ],
+     "aging": [
+      144
+     ],
+     "maintenance": [
+      147
+     ],
+     "were": [
+      148,
+      179,
+      276
+     ],
+     "greatest": [
+      149
+     ],
+     "for": [
+      150,
+      218,
+      313
+     ],
+     "mnemonic": [
+      151
+     ],
+     "contents": [
+      152
+     ],
+     "intermediate": [
+      154
+     ],
+     "quality,": [
+      156
+     ],
+     "whereas": [
+      157
+     ],
+     "gain": [
+      159
+     ],
+     "poorly": [
+      161
+     ],
+     "encoded": [
+      162
+     ],
+     "did": [
+      164
+     ],
+     "not": [
+      165
+     ],
+     "differ": [
+      166
+     ],
+     "age.": [
+      168,
+      220
+     ],
+     "Ambulatory": [
+      169
+     ],
+     "polysomnography": [
+      170
+     ],
+     "(PSG)": [
+      171
+     ],
+     "magnetic": [
+      174
+     ],
+     "resonance": [
+      175
+     ],
+     "imaging": [
+      176
+     ],
+     "(MRI)": [
+      177
+     ],
+     "data": [
+      178
+     ],
+     "acquired": [
+      180
+     ],
+     "extract": [
+      182
+     ],
+     "potential": [
+      183
+     ],
+     "predictors": [
+      184
+     ],
+     "each": [
+      189
+     ],
+     "participant's": [
+      190
+     ],
+     "physiology": [
+      193,
+      211
+     ],
+     "brain": [
+      195,
+      213,
+      258,
+      290
+     ],
+     "structure.": [
+      196
+     ],
+     "Partial": [
+      197
+     ],
+     "Least": [
+      198
+     ],
+     "Squares": [
+      199
+     ],
+     "Correlation": [
+      200
+     ],
+     "was": [
+      201
+     ],
+     "used": [
+      202
+     ],
+     "identify": [
+      204
+     ],
+     "profiles": [
+      205
+     ],
+     "interdependent": [
+      207
+     ],
+     "alterations": [
+      208
+     ],
+     "structure": [
+      214,
+      259
+     ],
+     "are": [
+      216
+     ],
+     "characteristic": [
+      217
+     ],
+     "increasing": [
+      219
+     ],
+     "Across": [
+      221
+     ],
+     "age": [
+      222,
+      299,
+      325
+     ],
+     "groups,": [
+      223
+     ],
+     "both": [
+      224
+     ],
+     "'aged'": [
+      226,
+      257
+     ],
+     "profile,": [
+      228,
+      260
+     ],
+     "defined": [
+      229
+     ],
+     "decreased": [
+      231
+     ],
+     "slow-wave": [
+      232
+     ],
+     "activity": [
+      233
+     ],
+     "(0.5-4.5": [
+      234
+     ],
+     "\u200bHz),": [
+      235,
+      244,
+      252
+     ],
+     "reduced": [
+      238,
+      279
+     ],
+     "presence": [
+      239
+     ],
+     "(0.5-1": [
+      243
+     ],
+     "slow,": [
+      245
+     ],
+     "fast": [
+      247
+     ],
+     "(9-12.5": [
+      249
+     ],
+     "\u200bHz;": [
+      250
+     ],
+     "12.5-16": [
+      251
+     ],
+     "well": [
+      254
+     ],
+     "characterized": [
+      261
+     ],
+     "gray": [
+      263
+     ],
+     "matter": [
+      264
+     ],
+     "reductions": [
+      265
+     ],
+     "medial": [
+      268
+     ],
+     "prefrontal": [
+      269
+     ],
+     "cortex,": [
+      270,
+      273
+     ],
+     "thalamus,": [
+      271
+     ],
+     "entorhinal": [
+      272
+     ],
+     "hippocampus,": [
+      275
+     ],
+     "associated": [
+      277
+     ],
+     "with": [
+      278
+     ],
+     "maintenance.": [
+      281
+     ],
+     "inter-individual": [
+      283
+     ],
+     "differences": [
+      284,
+      300,
+      326
+     ],
+     "neither": [
+      286
+     ],
+     "nor": [
+      288
+     ],
+     "alone": [
+      292
+     ],
+     "qualified": [
+      293
+     ],
+     "driving": [
+      296
+     ],
+     "force": [
+      297
+     ],
+     "behind": [
+      298
+     ],
+     "sleep-dependent": [
+      302
+     ],
+     "present": [
+      306
+     ],
+     "study.": [
+      307
+     ],
+     "Our": [
+      308
+     ],
+     "results": [
+      309
+     ],
+     "underscore": [
+      310
+     ],
+     "need": [
+      312
+     ],
+     "novel": [
+      314
+     ],
+     "age-fair": [
+      316
+     ],
+     "analytic": [
+      317
+     ],
+     "tools": [
+      318
+     ],
+     "provide": [
+      320
+     ],
+     "mechanistic": [
+      322
+     ],
+     "understanding": [
+      323
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5026078349",
+       "display_name": "Beate E. Muehlroth",
+       "orcid": "https://orcid.org/0000-0002-1064-4841",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1064-4841"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210120221",
+        "display_name": "Max Planck Institute for Human Development",
+        "ror": "https://ror.org/02pp7px91",
+        "country_code": "DE",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I149899117",
+         "https://openalex.org/I4210120221"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Beate E. Muehlroth",
+      "raw_affiliation_strings": [
+       "Center for Lifespan Psychology, Max Planck Institute for Human Development, Lentzeallee 94, 14195, Berlin, Germany. Electronic address: muehlroth@mpib-berlin.mpg.de",
+       "Center for Lifespan Psychology, Max Planck Institute for Human Development, Lentzeallee 94, 14195, Berlin, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Lifespan Psychology, Max Planck Institute for Human Development, Lentzeallee 94, 14195, Berlin, Germany. Electronic address: muehlroth@mpib-berlin.mpg.de",
+        "institution_ids": [
+         "https://openalex.org/I4210120221"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Center for Lifespan Psychology, Max Planck Institute for Human Development, Lentzeallee 94, 14195, Berlin, Germany",
+        "institution_ids": [
+         "https://openalex.org/I4210120221"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5041437727",
+       "display_name": "Myriam C. Sander",
+       "orcid": "https://orcid.org/0000-0001-8387-9855",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8387-9855"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210120221",
+        "display_name": "Max Planck Institute for Human Development",
+        "ror": "https://ror.org/02pp7px91",
+        "country_code": "DE",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I149899117",
+         "https://openalex.org/I4210120221"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Myriam C. Sander",
+      "raw_affiliation_strings": [
+       "Center for Lifespan Psychology, Max Planck Institute for Human Development, Lentzeallee 94, 14195, Berlin, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Lifespan Psychology, Max Planck Institute for Human Development, Lentzeallee 94, 14195, Berlin, Germany",
+        "institution_ids": [
+         "https://openalex.org/I4210120221"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5056597989",
+       "display_name": "Yana Fandakova",
+       "orcid": "https://orcid.org/0000-0003-3747-0359",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3747-0359"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210120221",
+        "display_name": "Max Planck Institute for Human Development",
+        "ror": "https://ror.org/02pp7px91",
+        "country_code": "DE",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I149899117",
+         "https://openalex.org/I4210120221"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Yana Fandakova",
+      "raw_affiliation_strings": [
+       "Center for Lifespan Psychology, Max Planck Institute for Human Development, Lentzeallee 94, 14195, Berlin, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Lifespan Psychology, Max Planck Institute for Human Development, Lentzeallee 94, 14195, Berlin, Germany",
+        "institution_ids": [
+         "https://openalex.org/I4210120221"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5030709306",
+       "display_name": "Thomas Hiroshi Grandy",
+       "orcid": "https://orcid.org/0000-0002-3574-6975",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3574-6975"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210120221",
+        "display_name": "Max Planck Institute for Human Development",
+        "ror": "https://ror.org/02pp7px91",
+        "country_code": "DE",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I149899117",
+         "https://openalex.org/I4210120221"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Thomas H. Grandy",
+      "raw_affiliation_strings": [
+       "Center for Lifespan Psychology, Max Planck Institute for Human Development, Lentzeallee 94, 14195, Berlin, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Lifespan Psychology, Max Planck Institute for Human Development, Lentzeallee 94, 14195, Berlin, Germany",
+        "institution_ids": [
+         "https://openalex.org/I4210120221"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5035398717",
+       "display_name": "Bj\u00f6rn Rasch",
+       "orcid": "https://orcid.org/0000-0001-7607-3415",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7607-3415"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I154338468",
+        "display_name": "University of Fribourg",
+        "ror": "https://ror.org/022fs9h90",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I154338468"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Bj\u00f6rn Rasch",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of Fribourg, Rue P.-A.-de-Faucigny 2, 1701, Fribourg, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of Fribourg, Rue P.-A.-de-Faucigny 2, 1701, Fribourg, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I154338468"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5043354351",
+       "display_name": "Yee Lee Shing",
+       "orcid": "https://orcid.org/0000-0001-8922-7292",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8922-7292"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I114090438",
+        "display_name": "Goethe University Frankfurt",
+        "ror": "https://ror.org/04cvxnb49",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I114090438"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Yee Lee Shing",
+      "raw_affiliation_strings": [
+       "Department of Developmental Psychology, Goethe University Frankfurt, Theodor-W.-Adorno-Platz 6, 60629, Frankfurt Am Main, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Developmental Psychology, Goethe University Frankfurt, Theodor-W.-Adorno-Platz 6, 60629, Frankfurt Am Main, Germany",
+        "institution_ids": [
+         "https://openalex.org/I114090438"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5028523550",
+       "display_name": "Markus Werkle\u2010Bergner",
+       "orcid": "https://orcid.org/0000-0002-6399-9996",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6399-9996"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210120221",
+        "display_name": "Max Planck Institute for Human Development",
+        "ror": "https://ror.org/02pp7px91",
+        "country_code": "DE",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I149899117",
+         "https://openalex.org/I4210120221"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Markus Werkle-Bergner",
+      "raw_affiliation_strings": [
+       "Center for Lifespan Psychology, Max Planck Institute for Human Development, Lentzeallee 94, 14195, Berlin, Germany. Electronic address: werkle@mpib-berlin.mpg.de",
+       "Center for Lifespan Psychology, Max Planck Institute for Human Development, Lentzeallee 94, 14195, Berlin, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Lifespan Psychology, Max Planck Institute for Human Development, Lentzeallee 94, 14195, Berlin, Germany. Electronic address: werkle@mpib-berlin.mpg.de",
+        "institution_ids": [
+         "https://openalex.org/I4210120221"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Center for Lifespan Psychology, Max Planck Institute for Human Development, Lentzeallee 94, 14195, Berlin, Germany",
+        "institution_ids": [
+         "https://openalex.org/I4210120221"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1016/j.neuroimage.2019.116490",
+     "doi": "https://doi.org/10.1016/j.neuroimage.2019.116490",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1016/j.neuroimage.2019.116490",
+     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S105381191931081X/pdf",
+     "source": {
+      "id": "https://openalex.org/S103225281",
+      "display_name": "NeuroImage",
+      "issn_l": "1053-8119",
+      "issn": [
+       "1053-8119",
+       "1095-9572"
+      ],
+      "is_oa": false,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "dongbi-a",
+       "doyens",
+       "jufo-3",
+       "ki-jl-1",
+       "medline",
+       "norway-2",
+       "oarl",
+       "poland-140",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+       "Elsevier BV"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "NeuroImage",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3042001556",
+    "doi": "https://doi.org/10.1016/j.nlm.2020.107273",
+    "title": "Sleep-related memory consolidation in the psychosis spectrum phenotype",
+    "display_name": "Sleep-related memory consolidation in the psychosis spectrum phenotype",
+    "publication_year": 2020,
+    "cited_by_count": 8,
+    "abstract_inverted_index": {
+     "Sleep": [
+      0
+     ],
+     "and": [
+      1,
+      18,
+      55,
+      65,
+      79,
+      85,
+      100,
+      113,
+      137,
+      155
+     ],
+     "memory": [
+      2,
+      16,
+      110,
+      115,
+      151,
+      158,
+      233
+     ],
+     "processing": [
+      3,
+      17
+     ],
+     "impairments": [
+      4
+     ],
+     "range": [
+      5
+     ],
+     "from": [
+      6,
+      142,
+      237
+     ],
+     "mild": [
+      7
+     ],
+     "to": [
+      8,
+      181
+     ],
+     "severe": [
+      9
+     ],
+     "in": [
+      10,
+      102,
+      146,
+      150,
+      179,
+      203,
+      213,
+      225
+     ],
+     "the": [
+      11,
+      40,
+      103,
+      185,
+      187,
+      195,
+      197,
+      245
+     ],
+     "psychosis": [
+      12,
+      41,
+      54,
+      78
+     ],
+     "spectrum.": [
+      13,
+      42
+     ],
+     "Relationships": [
+      14
+     ],
+     "between": [
+      15,
+      161
+     ],
+     "sleep": [
+      19,
+      128,
+      178,
+      189,
+      219,
+      224,
+      238
+     ],
+     "characteristics": [
+      20
+     ],
+     "have": [
+      21
+     ],
+     "been": [
+      22
+     ],
+     "described": [
+      23
+     ],
+     "for": [
+      24,
+      53,
+      77,
+      105,
+      163,
+      174,
+      221
+     ],
+     "schizophrenia,": [
+      25
+     ],
+     "including": [
+      26
+     ],
+     "unaffected": [
+      27
+     ],
+     "first-degree": [
+      28
+     ],
+     "relatives,": [
+      29
+     ],
+     "but": [
+      30
+     ],
+     "they": [
+      31
+     ],
+     "are": [
+      32
+     ],
+     "less": [
+      33
+     ],
+     "clear": [
+      34
+     ],
+     "across": [
+      35
+     ],
+     "other": [
+      36
+     ],
+     "high-risk": [
+      37,
+      48,
+      204,
+      226
+     ],
+     "groups": [
+      38,
+      93,
+      162
+     ],
+     "within": [
+      39
+     ],
+     "In": [
+      43,
+      206
+     ],
+     "this": [
+      44
+     ],
+     "study,": [
+      45
+     ],
+     "we": [
+      46
+     ],
+     "investigated": [
+      47
+     ],
+     "individuals": [
+      49,
+      227
+     ],
+     "with": [
+      50,
+      72,
+      217,
+      228
+     ],
+     "accumulated": [
+      51
+     ],
+     "risk-factors": [
+      52
+     ],
+     "subthreshold": [
+      56,
+      80,
+      229
+     ],
+     "symptoms.": [
+      57,
+      231
+     ],
+     "Out": [
+      58
+     ],
+     "of": [
+      59,
+      126,
+      134,
+      153,
+      244
+     ],
+     "1898": [
+      60
+     ],
+     "screened": [
+      61
+     ],
+     "individuals,": [
+      62
+     ],
+     "44": [
+      63
+     ],
+     "age-": [
+      64
+     ],
+     "sex-matched": [
+      66
+     ],
+     "participants": [
+      67
+     ],
+     "were": [
+      68,
+      98,
+      159
+     ],
+     "sub-grouped": [
+      69
+     ],
+     "into": [
+      70
+     ],
+     "those": [
+      71,
+      86
+     ],
+     "substantial": [
+      73
+     ],
+     "environmental": [
+      74
+     ],
+     "risk": [
+      75
+     ],
+     "factors": [
+      76
+     ],
+     "psychotic": [
+      81,
+      230
+     ],
+     "symptoms": [
+      82
+     ],
+     "(high-risk": [
+      83
+     ],
+     "group)": [
+      84
+     ],
+     "without": [
+      87
+     ],
+     "these": [
+      88
+     ],
+     "phenotypes": [
+      89
+     ],
+     "(low-risk": [
+      90
+     ],
+     "controls).": [
+      91
+     ],
+     "Four": [
+      92
+     ],
+     "(high/low": [
+      94
+     ],
+     "risk,": [
+      95
+     ],
+     "morning/evening": [
+      96
+     ],
+     "training)": [
+      97
+     ],
+     "trained": [
+      99
+     ],
+     "tested": [
+      101
+     ],
+     "laboratory": [
+      104
+     ],
+     "sustained": [
+      106,
+      147
+     ],
+     "attention,": [
+      107
+     ],
+     "motor": [
+      108,
+      156,
+      182,
+      214
+     ],
+     "skill": [
+      109,
+      157,
+      183,
+      215
+     ],
+     "(finger-tapping": [
+      111
+     ],
+     "task)": [
+      112,
+      118
+     ],
+     "declarative": [
+      114,
+      154
+     ],
+     "(word-pair": [
+      116
+     ],
+     "learning": [
+      117
+     ],
+     "immediately": [
+      119
+     ],
+     "after": [
+      120,
+      123,
+      139
+     ],
+     "training,": [
+      121
+     ],
+     "again": [
+      122,
+      138
+     ],
+     "a": [
+      124,
+      132,
+      169,
+      211
+     ],
+     "night": [
+      125
+     ],
+     "EEG-recorded": [
+      127
+     ],
+     "at": [
+      129
+     ],
+     "home": [
+      130
+     ],
+     "or": [
+      131,
+      149,
+      241
+     ],
+     "period": [
+      133,
+      166
+     ],
+     "daytime": [
+      135
+     ],
+     "wakefulness,": [
+      136
+     ],
+     "24": [
+      140
+     ],
+     "h": [
+      141
+     ],
+     "training.": [
+      143
+     ],
+     "No": [
+      144
+     ],
+     "differences": [
+      145
+     ],
+     "attention": [
+      148
+     ],
+     "consolidation": [
+      152,
+      239
+     ],
+     "found": [
+      160,
+      173
+     ],
+     "any": [
+      164
+     ],
+     "time": [
+      165
+     ],
+     "tested.": [
+      167
+     ],
+     "However,": [
+      168
+     ],
+     "group": [
+      170
+     ],
+     "difference": [
+      171
+     ],
+     "was": [
+      172
+     ],
+     "rapid-eye": [
+      175
+     ],
+     "movement": [
+      176
+     ],
+     "(REM)": [
+      177
+     ],
+     "relation": [
+      180
+     ],
+     "memory:": [
+      184
+     ],
+     "longer": [
+      186,
+      192,
+      222
+     ],
+     "total": [
+      188
+     ],
+     "time,": [
+      190
+     ],
+     "particularly": [
+      191
+     ],
+     "REM": [
+      193,
+      223
+     ],
+     "sleep,": [
+      194
+     ],
+     "greater": [
+      196
+     ],
+     "performance": [
+      198,
+      216
+     ],
+     "gain,": [
+      199
+     ],
+     "which": [
+      200
+     ],
+     "occurred": [
+      201
+     ],
+     "only": [
+      202
+     ],
+     "individuals.": [
+      205
+     ],
+     "conclusion,": [
+      207
+     ],
+     "our": [
+      208
+     ],
+     "results": [
+      209
+     ],
+     "suggest": [
+      210
+     ],
+     "gain": [
+      212
+     ],
+     "sufficient": [
+      218
+     ],
+     "opportunity": [
+      220
+     ],
+     "Declarative": [
+      232
+     ],
+     "did": [
+      234
+     ],
+     "not": [
+      235
+     ],
+     "benefit": [
+      236
+     ],
+     "above": [
+      240
+     ],
+     "beyond": [
+      242
+     ],
+     "that": [
+      243
+     ],
+     "control": [
+      246
+     ],
+     "group.": [
+      247
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5048391309",
+       "display_name": "Ross J. Purple",
+       "orcid": "https://orcid.org/0000-0003-1061-8106",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1061-8106"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36234482",
+        "display_name": "University of Bristol",
+        "ror": "https://ror.org/0524sp257",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36234482"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       }
+      ],
+      "raw_author_name": "R.J. Purple",
+      "raw_affiliation_strings": [
+       "University of Bristol, School of Physiology Pharmacology and Neuroscience, Biomedical Sciences Building, University Walk, Bristol BS8 1TD, UK. Electronic address: ross.purple@bristol.ac.uk",
+       "University of Bristol, School of Physiology Pharmacology and Neuroscience, Biomedical Sciences Building, University Walk, Bristol BS8 1TD, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Bristol, School of Physiology Pharmacology and Neuroscience, Biomedical Sciences Building, University Walk, Bristol BS8 1TD, UK. Electronic address: ross.purple@bristol.ac.uk",
+        "institution_ids": [
+         "https://openalex.org/I36234482"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Bristol, School of Physiology Pharmacology and Neuroscience, Biomedical Sciences Building, University Walk, Bristol BS8 1TD, UK",
+        "institution_ids": [
+         "https://openalex.org/I36234482"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5043002922",
+       "display_name": "Jan Cosgrave",
+       "orcid": "https://orcid.org/0000-0002-1150-2423",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1150-2423"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I40120149",
+        "display_name": "University of Oxford",
+        "ror": "https://ror.org/052gg0110",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I40120149"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       }
+      ],
+      "raw_author_name": "J. Cosgrave",
+      "raw_affiliation_strings": [
+       "University of Oxford, Nuffield Department of Clinical Neurosciences, Sir William Dunn School of Pathology, South Parks Road, OX1 3RE, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Oxford, Nuffield Department of Clinical Neurosciences, Sir William Dunn School of Pathology, South Parks Road, OX1 3RE, UK",
+        "institution_ids": [
+         "https://openalex.org/I40120149"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5061367170",
+       "display_name": "Vladyslav V. Vyazovskiy",
+       "orcid": "https://orcid.org/0000-0002-4336-6681",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4336-6681"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I40120149",
+        "display_name": "University of Oxford",
+        "ror": "https://ror.org/052gg0110",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I40120149"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/software",
+        "display_name": "Software"
+       }
+      ],
+      "raw_author_name": "V. Vyazovskiy",
+      "raw_affiliation_strings": [
+       "University of Oxford, Department of Physiology, Anatomy, Genetics, Oxford Molecular Pathology Institute, South Parks Road, OX1 3RE, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Oxford, Department of Physiology, Anatomy, Genetics, Oxford Molecular Pathology Institute, South Parks Road, OX1 3RE, UK",
+        "institution_ids": [
+         "https://openalex.org/I40120149"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5019911441",
+       "display_name": "F. Foster",
+       "orcid": "https://orcid.org/0000-0001-6055-2067",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6055-2067"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I40120149",
+        "display_name": "University of Oxford",
+        "ror": "https://ror.org/052gg0110",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I40120149"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       }
+      ],
+      "raw_author_name": "R.G. Foster",
+      "raw_affiliation_strings": [
+       "University of Oxford, Nuffield Department of Clinical Neurosciences, Sir William Dunn School of Pathology, South Parks Road, OX1 3RE, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Oxford, Nuffield Department of Clinical Neurosciences, Sir William Dunn School of Pathology, South Parks Road, OX1 3RE, UK",
+        "institution_ids": [
+         "https://openalex.org/I40120149"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5091302321",
+       "display_name": "Kate Porcheret",
+       "orcid": "https://orcid.org/0000-0001-7832-9269",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7832-9269"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I184942183",
+        "display_name": "University of Oslo",
+        "ror": "https://ror.org/01xtthb56",
+        "country_code": "NO",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I184942183"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210109409",
+        "display_name": "Norwegian Centre for Violence and Traumatic Stress Studies",
+        "ror": "https://ror.org/01p618c36",
+        "country_code": "NO",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I184942183",
+         "https://openalex.org/I4210109409"
+        ]
+       }
+      ],
+      "countries": [
+       "NO"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "K. Porcheret",
+      "raw_affiliation_strings": [
+       "Norwegian Centre for Violence and Traumatic Stress Studies, University of Oslo, Norway Institute of Clinical Medicine, Faculty of Medicine, University of Oslo, Norway"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Norwegian Centre for Violence and Traumatic Stress Studies, University of Oslo, Norway Institute of Clinical Medicine, Faculty of Medicine, University of Oslo, Norway",
+        "institution_ids": [
+         "https://openalex.org/I184942183",
+         "https://openalex.org/I4210109409"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5071265345",
+       "display_name": "Katharina Wulff",
+       "orcid": "https://orcid.org/0000-0003-2480-3329",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2480-3329"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I90267481",
+        "display_name": "Ume\u00e5 University",
+        "ror": "https://ror.org/05kb8h459",
+        "country_code": "SE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I90267481"
+        ]
+       }
+      ],
+      "countries": [
+       "SE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/visualization",
+        "display_name": "Visualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "K. Wulff",
+      "raw_affiliation_strings": [
+       "Ume\u00e5 University, Department of Radiation Sciences and Department of Molecular Biology, SE-901 87 Ume\u00e5, Sweden; Wallenberg Centre for Molecular Medicine (WCMM), Ume\u00e5 University, SE-901 87 Ume\u00e5, Sweden. Electronic address: katharina.wulff@umu.se",
+       "Ume\u00e5 University, Department of Radiation Sciences and Department of Molecular Biology, SE-901 87 Ume\u00e5, Sweden",
+       "Wallenberg Centre for Molecular Medicine (WCMM), Ume\u00e5 University, SE-901 87 Ume\u00e5, Sweden"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Ume\u00e5 University, Department of Radiation Sciences and Department of Molecular Biology, SE-901 87 Ume\u00e5, Sweden; Wallenberg Centre for Molecular Medicine (WCMM), Ume\u00e5 University, SE-901 87 Ume\u00e5, Sweden. Electronic address: katharina.wulff@umu.se",
+        "institution_ids": [
+         "https://openalex.org/I90267481"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Ume\u00e5 University, Department of Radiation Sciences and Department of Molecular Biology, SE-901 87 Ume\u00e5, Sweden",
+        "institution_ids": [
+         "https://openalex.org/I90267481"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Wallenberg Centre for Molecular Medicine (WCMM), Ume\u00e5 University, SE-901 87 Ume\u00e5, Sweden",
+        "institution_ids": [
+         "https://openalex.org/I90267481"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1016/j.nlm.2020.107273",
+     "doi": "https://doi.org/10.1016/j.nlm.2020.107273",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1016/j.nlm.2020.107273",
+     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1074742720301179/pdf",
+     "source": {
+      "id": "https://openalex.org/S78120914",
+      "display_name": "Neurobiology of Learning and Memory",
+      "issn_l": "1074-7427",
+      "issn": [
+       "1074-7427",
+       "1095-9564"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-b",
+       "doyens",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+       "Elsevier BV"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Neurobiology of Learning and Memory",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4410908065",
+    "doi": "https://doi.org/10.1093/sleep/zsaf117",
+    "title": "Individual differences in medial temporal lobe functional network architecture predict the capacity for sleep-related consolidation of emotional memories in older adults",
+    "display_name": "Individual differences in medial temporal lobe functional network architecture predict the capacity for sleep-related consolidation of emotional memories in older adults",
+    "publication_year": 2025,
+    "cited_by_count": 4,
+    "abstract_inverted_index": {
+     "STUDY": [
+      0
+     ],
+     "OBJECTIVES:": [
+      1
+     ],
+     "Memory": [
+      2
+     ],
+     "consolidation": [
+      3,
+      50
+     ],
+     "during": [
+      4,
+      51
+     ],
+     "non-rapid": [
+      5
+     ],
+     "eye": [
+      6
+     ],
+     "movement": [
+      7
+     ],
+     "slow": [
+      8
+     ],
+     "wave": [
+      9
+     ],
+     "sleep": [
+      10,
+      213
+     ],
+     "(NREM": [
+      11
+     ],
+     "SWS)": [
+      12
+     ],
+     "involves": [
+      13
+     ],
+     "reactivation": [
+      14
+     ],
+     "of": [
+      15,
+      24,
+      177,
+      228
+     ],
+     "a": [
+      16
+     ],
+     "hippocampal": [
+      17,
+      100
+     ],
+     "index": [
+      18
+     ],
+     "which": [
+      19
+     ],
+     "integrates": [
+      20
+     ],
+     "distributed": [
+      21
+     ],
+     "cortical": [
+      22
+     ],
+     "representations": [
+      23
+     ],
+     "an": [
+      25
+     ],
+     "experience.": [
+      26
+     ],
+     "This": [
+      27
+     ],
+     "study": [
+      28
+     ],
+     "examined": [
+      29
+     ],
+     "whether": [
+      30
+     ],
+     "individual": [
+      31
+     ],
+     "differences": [
+      32,
+      219
+     ],
+     "in": [
+      33,
+      48,
+      216,
+      220
+     ],
+     "brain": [
+      34
+     ],
+     "network": [
+      35,
+      97,
+      171,
+      202,
+      222
+     ],
+     "properties": [
+      36
+     ],
+     "that": [
+      37
+     ],
+     "align": [
+      38
+     ],
+     "with": [
+      39,
+      45,
+      65,
+      117,
+      131,
+      140,
+      149,
+      160,
+      189,
+      212
+     ],
+     "this": [
+      40
+     ],
+     "theoretical": [
+      41
+     ],
+     "organization": [
+      42,
+      223
+     ],
+     "were": [
+      43,
+      81,
+      110,
+      129,
+      158,
+      210
+     ],
+     "associated": [
+      44,
+      116,
+      130,
+      139,
+      148,
+      159,
+      211
+     ],
+     "interindividual": [
+      46
+     ],
+     "variability": [
+      47
+     ],
+     "memory": [
+      49,
+      70,
+      120,
+      134,
+      153,
+      178,
+      186,
+      198,
+      206
+     ],
+     "sleep.": [
+      52
+     ],
+     "METHODS:": [
+      53
+     ],
+     "Thirty-six": [
+      54
+     ],
+     "older": [
+      55,
+      229
+     ],
+     "adults": [
+      56,
+      230
+     ],
+     "(\u03bcage": [
+      57
+     ],
+     "=": [
+      58
+     ],
+     "72.9": [
+      59
+     ],
+     "\u00b1": [
+      60
+     ],
+     "5.6)": [
+      61
+     ],
+     "completed": [
+      62,
+      85
+     ],
+     "overnight": [
+      63,
+      184
+     ],
+     "polysomnography": [
+      64
+     ],
+     "pre-": [
+      66
+     ],
+     "and": [
+      67,
+      76,
+      88,
+      101,
+      106,
+      122,
+      126,
+      152,
+      163
+     ],
+     "post-sleep": [
+      68
+     ],
+     "emotional": [
+      69,
+      119,
+      133,
+      185
+     ],
+     "testing.": [
+      71
+     ],
+     "Slow": [
+      72
+     ],
+     "oscillation": [
+      73
+     ],
+     "(SO)": [
+      74
+     ],
+     "power": [
+      75,
+      162
+     ],
+     "SO-sleep": [
+      77
+     ],
+     "spindle": [
+      78
+     ],
+     "(SO-SP)": [
+      79
+     ],
+     "coupling": [
+      80
+     ],
+     "computed.": [
+      82
+     ],
+     "Participants": [
+      83
+     ],
+     "also": [
+      84
+     ],
+     "3T": [
+      86
+     ],
+     "structural": [
+      87
+     ],
+     "resting-state": [
+      89
+     ],
+     "functional": [
+      90,
+      201,
+      221
+     ],
+     "magnetic": [
+      91
+     ],
+     "resonance": [
+      92
+     ],
+     "imaging": [
+      93
+     ],
+     "(rsfMRI).": [
+      94
+     ],
+     "Resting-state": [
+      95
+     ],
+     "fMRI": [
+      96
+     ],
+     "modularity": [
+      98
+     ],
+     "(Q),": [
+      99
+     ],
+     "amygdala": [
+      102,
+      127,
+      145
+     ],
+     "eigenvector": [
+      103
+     ],
+     "centrality": [
+      104,
+      108,
+      156
+     ],
+     "(EC),": [
+      105
+     ],
+     "betweenness": [
+      107
+     ],
+     "(BC)": [
+      109
+     ],
+     "calculated.": [
+      111
+     ],
+     "RESULTS:": [
+      112
+     ],
+     "Greater": [
+      113
+     ],
+     "Q": [
+      114
+     ],
+     "was": [
+      115,
+      138,
+      147
+     ],
+     "reduced": [
+      118
+     ],
+     "retention": [
+      121
+     ],
+     "greater": [
+      123
+     ],
+     "SWS.": [
+      124
+     ],
+     "Hippocampal": [
+      125,
+      136,
+      155
+     ],
+     "EC": [
+      128
+     ],
+     "better": [
+      132,
+      197
+     ],
+     "retention.": [
+      135,
+      154,
+      187
+     ],
+     "BC": [
+      137,
+      146
+     ],
+     "immediate": [
+      141
+     ],
+     "test": [
+      142,
+      151
+     ],
+     "performance,": [
+      143
+     ],
+     "whereas": [
+      144
+     ],
+     "delayed": [
+      150
+     ],
+     "measures": [
+      157,
+      209
+     ],
+     "SO": [
+      161
+     ],
+     "SO-SP": [
+      164
+     ],
+     "coupling.": [
+      165
+     ],
+     "Random": [
+      166
+     ],
+     "forest": [
+      167
+     ],
+     "classification": [
+      168
+     ],
+     "revealed": [
+      169
+     ],
+     "distinct": [
+      170
+     ],
+     "measure": [
+      172
+     ],
+     "combinations": [
+      173
+     ],
+     "predict": [
+      174,
+      225
+     ],
+     "different": [
+      175
+     ],
+     "stages": [
+      176
+     ],
+     "processing.": [
+      179,
+      207
+     ],
+     "CONCLUSIONS:": [
+      180
+     ],
+     "Network": [
+      181
+     ],
+     "integration": [
+      182
+     ],
+     "supports": [
+      183
+     ],
+     "Individuals": [
+      188
+     ],
+     "more": [
+      190
+     ],
+     "influential": [
+      191
+     ],
+     "medial": [
+      192
+     ],
+     "temporal": [
+      193
+     ],
+     "lobe": [
+      194
+     ],
+     "nodes": [
+      195
+     ],
+     "exhibited": [
+      196
+     ],
+     "consolidation,": [
+      199
+     ],
+     "suggesting": [
+      200
+     ],
+     "architecture": [
+      203
+     ],
+     "contributes": [
+      204
+     ],
+     "to": [
+      205,
+      231
+     ],
+     "These": [
+      208
+     ],
+     "oscillations": [
+      214
+     ],
+     "implicated": [
+      215
+     ],
+     "consolidation.": [
+      217
+     ],
+     "Individual": [
+      218
+     ],
+     "may": [
+      224
+     ],
+     "the": [
+      226
+     ],
+     "capacity": [
+      227
+     ],
+     "consolidate": [
+      232
+     ],
+     "memories.": [
+      233
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5042757919",
+       "display_name": "Miranda G Chappel-Farley",
+       "orcid": "https://orcid.org/0000-0003-1349-0507",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1349-0507"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Miranda G Chappel-Farley",
+      "raw_affiliation_strings": [
+       "Center for the Neurobiology of Learning and Memory, University of California Irvine, Irvine, CA, USA",
+       "Department of Neurobiology and Behavior, University of California Irvine , Irvine, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for the Neurobiology of Learning and Memory, University of California Irvine, Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Neurobiology and Behavior, University of California Irvine , Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5056408611",
+       "display_name": "Jenna N. Adams",
+       "orcid": "https://orcid.org/0000-0002-6702-3851",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6702-3851"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jenna N Adams",
+      "raw_affiliation_strings": [
+       "Center for the Neurobiology of Learning and Memory, University of California Irvine, Irvine, CA, USA",
+       "Department of Neurobiology and Behavior, University of California Irvine , Irvine, CA, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-6702-3851",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for the Neurobiology of Learning and Memory, University of California Irvine, Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Neurobiology and Behavior, University of California Irvine , Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5087180664",
+       "display_name": "Richard F. Betzel",
+       "orcid": "https://orcid.org/0000-0001-9200-1681",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9200-1681"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210119109",
+        "display_name": "Indiana University Bloomington",
+        "ror": "https://ror.org/02k40bc56",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210119109",
+         "https://openalex.org/I592451"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Richard F Betzel",
+      "raw_affiliation_strings": [
+       "Department of Psychological and Brain Sciences, University of Indiana Bloomington, Bloomington, IN, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychological and Brain Sciences, University of Indiana Bloomington, Bloomington, IN, USA",
+        "institution_ids": [
+         "https://openalex.org/I4210119109"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5012545721",
+       "display_name": "Negin S. Sattari",
+       "orcid": "https://orcid.org/0000-0002-3974-9030",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3974-9030"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Negin S Sattari",
+      "raw_affiliation_strings": [
+       "Department of Psychiatry and Human Behavior, University of California Irvine, Irvine, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychiatry and Human Behavior, University of California Irvine, Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5064615266",
+       "display_name": "Destiny E. Berisha",
+       "orcid": "https://orcid.org/0000-0002-9554-9666",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9554-9666"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Destiny E Berisha",
+      "raw_affiliation_strings": [
+       "Center for the Neurobiology of Learning and Memory, University of California Irvine, Irvine, CA, USA",
+       "Department of Neurobiology and Behavior, University of California Irvine , Irvine, CA, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-9554-9666",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for the Neurobiology of Learning and Memory, University of California Irvine, Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Neurobiology and Behavior, University of California Irvine , Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5078958954",
+       "display_name": "Novelle J. Meza",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Novelle J Meza",
+      "raw_affiliation_strings": [
+       "Center for the Neurobiology of Learning and Memory, University of California Irvine, Irvine, CA, USA",
+       "Department of Neurobiology and Behavior, University of California Irvine , Irvine, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for the Neurobiology of Learning and Memory, University of California Irvine, Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Neurobiology and Behavior, University of California Irvine , Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5031744001",
+       "display_name": "John T. Janecek",
+       "orcid": "https://orcid.org/0000-0002-2941-3701",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2941-3701"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "John T Janecek",
+      "raw_affiliation_strings": [
+       "Center for the Neurobiology of Learning and Memory, University of California Irvine, Irvine, CA, USA",
+       "Department of Neurobiology and Behavior, University of California Irvine , Irvine, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for the Neurobiology of Learning and Memory, University of California Irvine, Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Neurobiology and Behavior, University of California Irvine , Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5047786682",
+       "display_name": "Hamid Niknazar",
+       "orcid": "https://orcid.org/0000-0003-0413-9133",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0413-9133"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Hamid Niknazar",
+      "raw_affiliation_strings": [
+       "Department of Cognitive Sciences, University of California Irvine, Irvine, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Cognitive Sciences, University of California Irvine, Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5101445890",
+       "display_name": "Soyun Kim",
+       "orcid": "https://orcid.org/0000-0003-0165-2556",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0165-2556"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Soyun Kim",
+      "raw_affiliation_strings": [
+       "Center for the Neurobiology of Learning and Memory, University of California Irvine, Irvine, CA, USA",
+       "Department of Neurobiology and Behavior, University of California Irvine , Irvine, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for the Neurobiology of Learning and Memory, University of California Irvine, Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Neurobiology and Behavior, University of California Irvine , Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5044646373",
+       "display_name": "Abhishek Dave",
+       "orcid": "https://orcid.org/0000-0002-6186-027X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6186-027X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Abhishek Dave",
+      "raw_affiliation_strings": [
+       "Department of Cognitive Sciences, University of California Irvine, Irvine, CA, USA",
+       "Department of Psychiatry and Human Behavior, University of California Irvine , Irvine, CA, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-6186-027X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Cognitive Sciences, University of California Irvine, Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychiatry and Human Behavior, University of California Irvine , Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5004247285",
+       "display_name": "Ivy Y. Chen",
+       "orcid": "https://orcid.org/0000-0002-6739-3211",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6739-3211"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Ivy Y Chen",
+      "raw_affiliation_strings": [
+       "Department of Psychiatry and Human Behavior, University of California Irvine, Irvine, CA, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-6739-3211",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychiatry and Human Behavior, University of California Irvine, Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5040145603",
+       "display_name": "Kitty K. Lui",
+       "orcid": "https://orcid.org/0000-0001-7586-0118",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7586-0118"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I26538001",
+        "display_name": "San Diego State University",
+        "ror": "https://ror.org/0264fdx42",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I26538001"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Kitty K Lui",
+      "raw_affiliation_strings": [
+       "Joint Doctoral Program in Clinical Psychology, San Diego State University/University of California San Diego, San Diego, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Joint Doctoral Program in Clinical Psychology, San Diego State University/University of California San Diego, San Diego, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I26538001",
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5058758324",
+       "display_name": "Ariel B. Neikrug",
+       "orcid": "https://orcid.org/0000-0001-8119-6380",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8119-6380"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Ariel B Neikrug",
+      "raw_affiliation_strings": [
+       "Department of Psychiatry and Human Behavior, University of California Irvine, Irvine, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychiatry and Human Behavior, University of California Irvine, Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5049632383",
+       "display_name": "Ruth M. Benca",
+       "orcid": "https://orcid.org/0000-0002-5895-817X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5895-817X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I135310074",
+        "display_name": "University of Wisconsin\u2013Madison",
+        "ror": "https://ror.org/01y2jtd41",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I135310074"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4405269449",
+        "display_name": "Wake Forest University Health Sciences",
+        "ror": "https://ror.org/046r1r105",
+        "country_code": "US",
+        "type": "nonprofit",
+        "lineage": [
+         "https://openalex.org/I4405269449",
+         "https://openalex.org/I47251452"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I47251452",
+        "display_name": "Wake Forest University",
+        "ror": "https://ror.org/0207ad724",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I47251452"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Ruth M Benca",
+      "raw_affiliation_strings": [
+       "Center for the Neurobiology of Learning and Memory, University of California Irvine , Irvine, CA, USA",
+       "Department of Neurobiology and Behavior, University of California Irvine , Irvine, CA, USA",
+       "Department of Psychiatry and Behavioral Medicine, Wake Forest University, Winston-Salem, NC, USA",
+       "Department of Psychiatry and Human Behavior, University of California Irvine , Irvine, CA, USA",
+       "Department of Psychiatry, University of Wisconsin-Madison, Madison, WI, USA",
+       "Institute for Memory Impairments and Neurological Disorders, University of California Irvine, Irvine, CA, USA",
+       "Neuroscience Training Program, University of Wisconsin-Madison , Madison, WI, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for the Neurobiology of Learning and Memory, University of California Irvine , Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Neurobiology and Behavior, University of California Irvine , Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychiatry and Behavioral Medicine, Wake Forest University, Winston-Salem, NC, USA",
+        "institution_ids": [
+         "https://openalex.org/I4405269449",
+         "https://openalex.org/I47251452"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychiatry and Human Behavior, University of California Irvine , Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychiatry, University of Wisconsin-Madison, Madison, WI, USA",
+        "institution_ids": [
+         "https://openalex.org/I135310074"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Institute for Memory Impairments and Neurological Disorders, University of California Irvine, Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Neuroscience Training Program, University of Wisconsin-Madison , Madison, WI, USA",
+        "institution_ids": [
+         "https://openalex.org/I135310074"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5081832387",
+       "display_name": "Michael A. Yassa",
+       "orcid": "https://orcid.org/0000-0002-8635-1498",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8635-1498"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Michael A Yassa",
+      "raw_affiliation_strings": [
+       "Center for the Neurobiology of Learning and Memory, University of California Irvine , Irvine, CA, USA",
+       "Department of Neurobiology and Behavior, University of California Irvine , Irvine, CA, USA",
+       "Department of Neurology, University of California Irvine, Irvine, CA, USA",
+       "Department of Psychiatry and Human Behavior, University of California Irvine , Irvine, CA, USA",
+       "Institute for Memory Impairments and Neurological Disorders, University of California Irvine , Irvine, CA, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-8635-1498",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for the Neurobiology of Learning and Memory, University of California Irvine , Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Neurobiology and Behavior, University of California Irvine , Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Neurology, University of California Irvine, Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychiatry and Human Behavior, University of California Irvine , Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Institute for Memory Impairments and Neurological Disorders, University of California Irvine , Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5022724258",
+       "display_name": "Bryce A. Mander",
+       "orcid": "https://orcid.org/0000-0002-0831-7980",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0831-7980"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Bryce A Mander",
+      "raw_affiliation_strings": [
+       "Center for the Neurobiology of Learning and Memory, University of California Irvine , Irvine, CA, USA",
+       "Department of Cognitive Sciences, University of California Irvine , Irvine, CA, USA",
+       "Department of Pathology and Laboratory Medicine, University of California Irvine, Irvine, CA, USA",
+       "Department of Psychiatry and Human Behavior, University of California Irvine , Irvine, CA, USA",
+       "Institute for Memory Impairments and Neurological Disorders, University of California Irvine , Irvine, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for the Neurobiology of Learning and Memory, University of California Irvine , Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Cognitive Sciences, University of California Irvine , Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Pathology and Laboratory Medicine, University of California Irvine, Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychiatry and Human Behavior, University of California Irvine , Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Institute for Memory Impairments and Neurological Disorders, University of California Irvine , Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1093/sleep/zsaf117",
+     "doi": "https://doi.org/10.1093/sleep/zsaf117",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1093/sleep/zsaf117",
+     "pdf_url": "https://academic.oup.com/sleep/advance-article-pdf/doi/10.1093/sleep/zsaf117/63401467/zsaf117.pdf",
+     "source": {
+      "id": "https://openalex.org/S42921845",
+      "display_name": "SLEEP",
+      "issn_l": "0161-8105",
+      "issn": [
+       "0161-8105",
+       "1550-9109"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-b",
+       "doyens",
+       "erih-plus",
+       "jufo-2",
+       "ki-jl-2",
+       "medline",
+       "norway-2",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310311648",
+       "https://openalex.org/P4310311647"
+      ],
+      "host_organization_lineage_names": [
+       "Oxford University Press",
+       "University of Oxford"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc",
+     "license_id": "https://openalex.org/licenses/cc-by-nc",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "SLEEP",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4401699806",
+    "doi": "https://doi.org/10.1038/s41598-024-67701-7",
+    "title": "Acoustically evoked K-complexes together with sleep spindles boost verbal declarative memory consolidation in healthy adults",
+    "display_name": "Acoustically evoked K-complexes together with sleep spindles boost verbal declarative memory consolidation in healthy adults",
+    "publication_year": 2024,
+    "cited_by_count": 24,
+    "abstract_inverted_index": {
+     "Over": [
+      0,
+      82
+     ],
+     "the": [
+      1,
+      17,
+      36,
+      42,
+      62,
+      79,
+      83,
+      91,
+      127,
+      142,
+      156
+     ],
+     "past": [
+      2
+     ],
+     "decade,": [
+      3
+     ],
+     "phase-targeted": [
+      4
+     ],
+     "auditory": [
+      5,
+      13
+     ],
+     "stimulation": [
+      6,
+      80
+     ],
+     "(PTAS),": [
+      7
+     ],
+     "a": [
+      8,
+      72,
+      135
+     ],
+     "neuromodulation": [
+      9
+     ],
+     "approach": [
+      10
+     ],
+     "which": [
+      11
+     ],
+     "presents": [
+      12
+     ],
+     "stimuli": [
+      14
+     ],
+     "locked": [
+      15
+     ],
+     "to": [
+      16,
+      28,
+      59,
+      71,
+      110,
+      148
+     ],
+     "ongoing": [
+      18,
+      130
+     ],
+     "phase": [
+      19
+     ],
+     "of": [
+      20,
+      32,
+      38,
+      44,
+      85,
+      129,
+      155
+     ],
+     "slow": [
+      21
+     ],
+     "waves": [
+      22,
+      133
+     ],
+     "during": [
+      23,
+      57
+     ],
+     "sleep,": [
+      24
+     ],
+     "has": [
+      25
+     ],
+     "shown": [
+      26
+     ],
+     "potential": [
+      27
+     ],
+     "enhance": [
+      29
+     ],
+     "specific": [
+      30,
+      47
+     ],
+     "aspects": [
+      31,
+      154
+     ],
+     "sleep": [
+      33,
+      58
+     ],
+     "functions.": [
+      34
+     ],
+     "However,": [
+      35
+     ],
+     "complexity": [
+      37
+     ],
+     "PTAS": [
+      39,
+      68
+     ],
+     "responses": [
+      40
+     ],
+     "complicates": [
+      41
+     ],
+     "establishment": [
+      43
+     ],
+     "causality": [
+      45
+     ],
+     "between": [
+      46
+     ],
+     "electroencephalographic": [
+      48
+     ],
+     "events": [
+      49,
+      124
+     ],
+     "and": [
+      50,
+      113
+     ],
+     "observed": [
+      51
+     ],
+     "benefits.": [
+      52
+     ],
+     "Here,": [
+      53
+     ],
+     "we": [
+      54
+     ],
+     "used": [
+      55
+     ],
+     "down-PTAS": [
+      56
+     ],
+     "specifically": [
+      60
+     ],
+     "evoke": [
+      61
+     ],
+     "early,": [
+      63,
+      143
+     ],
+     "K-complex": [
+      64
+     ],
+     "(KC)-like": [
+      65
+     ],
+     "response": [
+      66,
+      106,
+      145
+     ],
+     "following": [
+      67
+     ],
+     "without": [
+      69
+     ],
+     "leading": [
+      70
+     ],
+     "sustained": [
+      73
+     ],
+     "increase": [
+      74
+     ],
+     "in": [
+      75,
+      134
+     ],
+     "slow-wave": [
+      76
+     ],
+     "activity": [
+      77
+     ],
+     "throughout": [
+      78
+     ],
+     "window.": [
+      81
+     ],
+     "course": [
+      84
+     ],
+     "two": [
+      86
+     ],
+     "nights,": [
+      87
+     ],
+     "one": [
+      88
+     ],
+     "with": [
+      89,
+      116
+     ],
+     "down-PTAS,": [
+      90
+     ],
+     "other": [
+      92
+     ],
+     "without,": [
+      93
+     ],
+     "high-density": [
+      94
+     ],
+     "electroencephalography": [
+      95
+     ],
+     "(hd-EEG)": [
+      96
+     ],
+     "was": [
+      97,
+      114
+     ],
+     "recorded": [
+      98
+     ],
+     "from": [
+      99
+     ],
+     "14": [
+      100
+     ],
+     "young": [
+      101
+     ],
+     "healthy": [
+      102
+     ],
+     "adults.": [
+      103
+     ],
+     "The": [
+      104
+     ],
+     "early": [
+      105
+     ],
+     "exhibited": [
+      107
+     ],
+     "striking": [
+      108
+     ],
+     "similarities": [
+      109
+     ],
+     "evoked": [
+      111
+     ],
+     "KCs": [
+      112
+     ],
+     "associated": [
+      115
+     ],
+     "improved": [
+      117
+     ],
+     "verbal": [
+      118
+     ],
+     "memory": [
+      119
+     ],
+     "consolidation": [
+      120
+     ],
+     "via": [
+      121
+     ],
+     "stimulus-evoked": [
+      122
+     ],
+     "spindle": [
+      123
+     ],
+     "nested": [
+      125
+     ],
+     "into": [
+      126
+     ],
+     "up-phase": [
+      128
+     ],
+     "1": [
+      131
+     ],
+     "Hz": [
+      132
+     ],
+     "central": [
+      136
+     ],
+     "region.": [
+      137
+     ],
+     "These": [
+      138
+     ],
+     "findings": [
+      139
+     ],
+     "suggest": [
+      140
+     ],
+     "that": [
+      141
+     ],
+     "KC-like": [
+      144
+     ],
+     "is": [
+      146
+     ],
+     "sufficient": [
+      147
+     ],
+     "boost": [
+      149
+     ],
+     "memory,": [
+      150
+     ],
+     "potentially": [
+      151
+     ],
+     "by": [
+      152
+     ],
+     "orchestrating": [
+      153
+     ],
+     "hippocampal-neocortical": [
+      157
+     ],
+     "dialogue.": [
+      158
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5053603553",
+       "display_name": "Sven Leach",
+       "orcid": "https://orcid.org/0000-0001-7425-4589",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7425-4589"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I202697423",
+        "display_name": "University of Zurich",
+        "ror": "https://ror.org/02crff812",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I202697423"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210128593",
+        "display_name": "University Children's Hospital Zurich",
+        "ror": "https://ror.org/035vb3h42",
+        "country_code": "CH",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210128593"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       }
+      ],
+      "raw_author_name": "Sven Leach",
+      "raw_affiliation_strings": [
+       "Child Development Centre and Children's Research Centre, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Child Development Centre and Children's Research Centre, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I202697423",
+         "https://openalex.org/I4210128593"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5030923720",
+       "display_name": "Elena Krugliakova",
+       "orcid": "https://orcid.org/0000-0001-7915-4560",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7915-4560"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I145872427",
+        "display_name": "Radboud University Nijmegen",
+        "ror": "https://ror.org/016xsfp80",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I145872427"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I202697423",
+        "display_name": "University of Zurich",
+        "ror": "https://ror.org/02crff812",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I202697423"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2802934949",
+        "display_name": "Radboud University Medical Center",
+        "ror": "https://ror.org/05wg1m734",
+        "country_code": "NL",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I2802934949"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210128593",
+        "display_name": "University Children's Hospital Zurich",
+        "ror": "https://ror.org/035vb3h42",
+        "country_code": "CH",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210128593"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4405261313",
+        "display_name": "Donders Institute for Brain, Cognition and Behaviour",
+        "ror": "https://ror.org/053sba816",
+        "country_code": "NL",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I145872427",
+         "https://openalex.org/I4405261313"
+        ]
+       }
+      ],
+      "countries": [
+       "CH",
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Elena Krugliakova",
+      "raw_affiliation_strings": [
+       "Child Development Centre and Children's Research Centre, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland",
+       "Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Child Development Centre and Children's Research Centre, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I202697423",
+         "https://openalex.org/I4210128593"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I145872427",
+         "https://openalex.org/I2802934949",
+         "https://openalex.org/I4405261313"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5073436036",
+       "display_name": "Georgia Sousouri",
+       "orcid": "https://orcid.org/0000-0003-1547-3700",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1547-3700"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I202697423",
+        "display_name": "University of Zurich",
+        "ror": "https://ror.org/02crff812",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I202697423"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I35440088",
+        "display_name": "ETH Zurich",
+        "ror": "https://ror.org/05a28rw58",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I2799323385",
+         "https://openalex.org/I35440088"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210128593",
+        "display_name": "University Children's Hospital Zurich",
+        "ror": "https://ror.org/035vb3h42",
+        "country_code": "CH",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210128593"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4405256907",
+        "display_name": "Institute of Robotics and Intelligent Systems",
+        "ror": "https://ror.org/04neydj61",
+        "country_code": "CH",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I2799323385",
+         "https://openalex.org/I35440088",
+         "https://openalex.org/I4405256907"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Georgia Sousouri",
+      "raw_affiliation_strings": [
+       "Child Development Centre and Children's Research Centre, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland",
+       "Institute of Pharmacology & Toxicology, University of Zurich, Zurich, Switzerland",
+       "Mobile Health Systems Lab, Department of Health Sciences and Technology, Institute of Robotics and Intelligent Systems, ETH Zurich, Zurich, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Child Development Centre and Children's Research Centre, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I202697423",
+         "https://openalex.org/I4210128593"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Institute of Pharmacology & Toxicology, University of Zurich, Zurich, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I202697423"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Mobile Health Systems Lab, Department of Health Sciences and Technology, Institute of Robotics and Intelligent Systems, ETH Zurich, Zurich, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I35440088",
+         "https://openalex.org/I4405256907"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5016370174",
+       "display_name": "Sophia Snipes",
+       "orcid": "https://orcid.org/0000-0002-6353-0207",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6353-0207"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I202697423",
+        "display_name": "University of Zurich",
+        "ror": "https://ror.org/02crff812",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I202697423"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210128593",
+        "display_name": "University Children's Hospital Zurich",
+        "ror": "https://ror.org/035vb3h42",
+        "country_code": "CH",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210128593"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Sophia Snipes",
+      "raw_affiliation_strings": [
+       "Child Development Centre and Children's Research Centre, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Child Development Centre and Children's Research Centre, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I202697423",
+         "https://openalex.org/I4210128593"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5033412633",
+       "display_name": "Jelena Skoru\u010dak",
+       "orcid": "https://orcid.org/0000-0002-1288-6836",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1288-6836"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I202697423",
+        "display_name": "University of Zurich",
+        "ror": "https://ror.org/02crff812",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I202697423"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210128593",
+        "display_name": "University Children's Hospital Zurich",
+        "ror": "https://ror.org/035vb3h42",
+        "country_code": "CH",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210128593"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jelena Skorucak",
+      "raw_affiliation_strings": [
+       "Child Development Centre and Children's Research Centre, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Child Development Centre and Children's Research Centre, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I202697423",
+         "https://openalex.org/I4210128593"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5113340502",
+       "display_name": "Selina Sch\u00fchle",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I202697423",
+        "display_name": "University of Zurich",
+        "ror": "https://ror.org/02crff812",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I202697423"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210128593",
+        "display_name": "University Children's Hospital Zurich",
+        "ror": "https://ror.org/035vb3h42",
+        "country_code": "CH",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210128593"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Selina Sch\u00fchle",
+      "raw_affiliation_strings": [
+       "Child Development Centre and Children's Research Centre, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Child Development Centre and Children's Research Centre, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I202697423",
+         "https://openalex.org/I4210128593"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5113340503",
+       "display_name": "Manuel M\u00fcller",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I202697423",
+        "display_name": "University of Zurich",
+        "ror": "https://ror.org/02crff812",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I202697423"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210128593",
+        "display_name": "University Children's Hospital Zurich",
+        "ror": "https://ror.org/035vb3h42",
+        "country_code": "CH",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210128593"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Manuel M\u00fcller",
+      "raw_affiliation_strings": [
+       "Child Development Centre and Children's Research Centre, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Child Development Centre and Children's Research Centre, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I202697423",
+         "https://openalex.org/I4210128593"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5039421272",
+       "display_name": "Maria Laura Ferster",
+       "orcid": "https://orcid.org/0000-0003-2745-5294",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2745-5294"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I35440088",
+        "display_name": "ETH Zurich",
+        "ror": "https://ror.org/05a28rw58",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I2799323385",
+         "https://openalex.org/I35440088"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4405256907",
+        "display_name": "Institute of Robotics and Intelligent Systems",
+        "ror": "https://ror.org/04neydj61",
+        "country_code": "CH",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I2799323385",
+         "https://openalex.org/I35440088",
+         "https://openalex.org/I4405256907"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Maria Laura Ferster",
+      "raw_affiliation_strings": [
+       "Mobile Health Systems Lab, Department of Health Sciences and Technology, Institute of Robotics and Intelligent Systems, ETH Zurich, Zurich, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Mobile Health Systems Lab, Department of Health Sciences and Technology, Institute of Robotics and Intelligent Systems, ETH Zurich, Zurich, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I35440088",
+         "https://openalex.org/I4405256907"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5012499899",
+       "display_name": "Giulia Da Poian",
+       "orcid": "https://orcid.org/0000-0002-8960-1077",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8960-1077"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I35440088",
+        "display_name": "ETH Zurich",
+        "ror": "https://ror.org/05a28rw58",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I2799323385",
+         "https://openalex.org/I35440088"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Giulia Da Poian",
+      "raw_affiliation_strings": [
+       "Sensory-Motor Systems Lab, Department of Health Sciences and Technology, ETH Zurich, Zurich, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Sensory-Motor Systems Lab, Department of Health Sciences and Technology, ETH Zurich, Zurich, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I35440088"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5054554254",
+       "display_name": "Walter Karlen",
+       "orcid": "https://orcid.org/0000-0001-8643-3074",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8643-3074"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I196349391",
+        "display_name": "Universit\u00e4t Ulm",
+        "ror": "https://ror.org/032000t02",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I196349391"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I35440088",
+        "display_name": "ETH Zurich",
+        "ror": "https://ror.org/05a28rw58",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I2799323385",
+         "https://openalex.org/I35440088"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4405256907",
+        "display_name": "Institute of Robotics and Intelligent Systems",
+        "ror": "https://ror.org/04neydj61",
+        "country_code": "CH",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I2799323385",
+         "https://openalex.org/I35440088",
+         "https://openalex.org/I4405256907"
+        ]
+       }
+      ],
+      "countries": [
+       "CH",
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Walter Karlen",
+      "raw_affiliation_strings": [
+       "Institute of Biomedical Engineering, Faculty of Engineering, Computer Science and Psychology, Ulm University, Ulm, Germany",
+       "Mobile Health Systems Lab, Department of Health Sciences and Technology, Institute of Robotics and Intelligent Systems, ETH Zurich, Zurich, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute of Biomedical Engineering, Faculty of Engineering, Computer Science and Psychology, Ulm University, Ulm, Germany",
+        "institution_ids": [
+         "https://openalex.org/I196349391"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Mobile Health Systems Lab, Department of Health Sciences and Technology, Institute of Robotics and Intelligent Systems, ETH Zurich, Zurich, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I35440088",
+         "https://openalex.org/I4405256907"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5089840526",
+       "display_name": "Reto Huber",
+       "orcid": "https://orcid.org/0000-0002-1400-9466",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1400-9466"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I202697423",
+        "display_name": "University of Zurich",
+        "ror": "https://ror.org/02crff812",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I202697423"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210128593",
+        "display_name": "University Children's Hospital Zurich",
+        "ror": "https://ror.org/035vb3h42",
+        "country_code": "CH",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210128593"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4405262024",
+        "display_name": "Psychiatrische Universit\u00e4tsklinik Z\u00fcrich",
+        "ror": "https://ror.org/00yt5p853",
+        "country_code": "CH",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4405262024"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       }
+      ],
+      "raw_author_name": "Reto Huber",
+      "raw_affiliation_strings": [
+       "Child Development Centre and Children's Research Centre, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland. reto.huber@kispi.uzh.ch",
+       "Department of Child and Adolescent Psychiatry and Psychotherapy, Psychiatric Hospital, University of Zurich, Zurich, Switzerland. reto.huber@kispi.uzh.ch",
+       "Department of Child and Adolescent Psychiatry and Psychotherapy, Psychiatric Hospital, University of Zurich, Zurich, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Child Development Centre and Children's Research Centre, University Children's Hospital Zurich, University of Zurich, Zurich, Switzerland. reto.huber@kispi.uzh.ch",
+        "institution_ids": [
+         "https://openalex.org/I202697423",
+         "https://openalex.org/I4210128593"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Child and Adolescent Psychiatry and Psychotherapy, Psychiatric Hospital, University of Zurich, Zurich, Switzerland. reto.huber@kispi.uzh.ch",
+        "institution_ids": [
+         "https://openalex.org/I202697423",
+         "https://openalex.org/I4405262024"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Child and Adolescent Psychiatry and Psychotherapy, Psychiatric Hospital, University of Zurich, Zurich, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I202697423",
+         "https://openalex.org/I4405262024"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1038/s41598-024-67701-7",
+     "doi": "https://doi.org/10.1038/s41598-024-67701-7",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1038/s41598-024-67701-7",
+     "pdf_url": "https://www.nature.com/articles/s41598-024-67701-7.pdf",
+     "source": {
+      "id": "https://openalex.org/S196734849",
+      "display_name": "Scientific Reports",
+      "issn_l": "2045-2322",
+      "issn": [
+       "2045-2322"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "dongbi-c",
+       "doyens",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319908",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Nature Portfolio",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Scientific Reports",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

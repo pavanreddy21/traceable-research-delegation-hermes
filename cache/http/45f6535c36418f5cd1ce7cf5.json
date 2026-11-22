@@ -1,0 +1,2938 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 3247,
+   "db_response_time_ms": 152,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (background music no effect reading comprehension interference) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (background music no effect reading comprehension interference) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "background music no effect reading comprehension interference",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:background music no effect reading comprehension interference,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W7155111488",
+    "doi": null,
+    "title": "The Effect of Background Music on Reading Comprehension",
+    "display_name": "The Effect of Background Music on Reading Comprehension",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "This": [
+      0
+     ],
+     "paper": [
+      1
+     ],
+     "reviews": [
+      2
+     ],
+     "recent": [
+      3
+     ],
+     "findings": [
+      4
+     ],
+     "by": [
+      5
+     ],
+     "researchers": [
+      6
+     ],
+     "surrounding": [
+      7
+     ],
+     "the": [
+      8
+     ],
+     "relationship": [
+      9
+     ],
+     "between": [
+      10
+     ],
+     "listening": [
+      11
+     ],
+     "to": [
+      12
+     ],
+     "background": [
+      13
+     ],
+     "music": [
+      14
+     ],
+     "and": [
+      15,
+      20
+     ],
+     "reading": [
+      16
+     ],
+     "comprehension.": [
+      17
+     ],
+     "Tempo,": [
+      18
+     ],
+     "lyrics": [
+      19
+     ],
+     "mode": [
+      21
+     ],
+     "are": [
+      22
+     ],
+     "examined,": [
+      23
+     ],
+     "as": [
+      24,
+      26
+     ],
+     "well": [
+      25
+     ],
+     "several": [
+      27
+     ],
+     "confounding": [
+      28
+     ],
+     "factors.": [
+      29
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5134103926",
+       "display_name": "Erika Murry",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Murry, Erika",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ],
+    "primary_location": {
+     "id": "pmh:oai:commons.und.edu:psych-stu-1140",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://commons.und.edu/psych-stu/135",
+     "pdf_url": "https://commons.und.edu/context/psych-stu/article/1140/viewcontent/murry.erika.psyc303paper1.pdf",
+     "source": {
+      "id": "https://openalex.org/S4306402276",
+      "display_name": "UND Scholarly Commons (University of North Dakota)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I24571045",
+      "host_organization_name": "University of North Dakota",
+      "host_organization_lineage": [
+       "https://openalex.org/I24571045"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by-nc-sa",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "Psychology Student Publications",
+     "raw_type": "text"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3096716485",
+    "doi": "https://doi.org/10.1038/s41598-020-75623-3",
+    "title": "The effects of background music on neural responses during reading comprehension",
+    "display_name": "The effects of background music on neural responses during reading comprehension",
+    "publication_year": 2020,
+    "cited_by_count": 42,
+    "abstract_inverted_index": {
+     "The": [
+      0,
+      44,
+      89,
+      98
+     ],
+     "effects": [
+      1,
+      53
+     ],
+     "of": [
+      2,
+      35,
+      54,
+      74,
+      144,
+      175,
+      191
+     ],
+     "background": [
+      3,
+      42,
+      55,
+      82,
+      163
+     ],
+     "speech": [
+      4
+     ],
+     "or": [
+      5,
+      80
+     ],
+     "noise": [
+      6
+     ],
+     "on": [
+      7,
+      57
+     ],
+     "visually": [
+      8,
+      192
+     ],
+     "based": [
+      9,
+      193
+     ],
+     "cognitive": [
+      10,
+      27,
+      194
+     ],
+     "tasks": [
+      11,
+      28,
+      195
+     ],
+     "has": [
+      12
+     ],
+     "been": [
+      13
+     ],
+     "widely": [
+      14
+     ],
+     "investigated;": [
+      15
+     ],
+     "however,": [
+      16
+     ],
+     "little": [
+      17
+     ],
+     "is": [
+      18,
+      38
+     ],
+     "known": [
+      19
+     ],
+     "about": [
+      20,
+      76
+     ],
+     "how": [
+      21
+     ],
+     "the": [
+      22,
+      41,
+      52,
+      72,
+      96,
+      102,
+      131,
+      141,
+      145,
+      151,
+      157,
+      173,
+      181,
+      188
+     ],
+     "brain": [
+      23
+     ],
+     "works": [
+      24
+     ],
+     "during": [
+      25,
+      60,
+      95,
+      168
+     ],
+     "such": [
+      26
+     ],
+     "when": [
+      29
+     ],
+     "music,": [
+      30
+     ],
+     "having": [
+      31
+     ],
+     "a": [
+      32
+     ],
+     "powerful": [
+      33
+     ],
+     "function": [
+      34
+     ],
+     "evoking": [
+      36
+     ],
+     "emotions,": [
+      37
+     ],
+     "used": [
+      39,
+      47
+     ],
+     "as": [
+      40
+     ],
+     "sound.": [
+      43
+     ],
+     "present": [
+      45
+     ],
+     "study": [
+      46
+     ],
+     "event-related": [
+      48
+     ],
+     "potentials": [
+      49
+     ],
+     "to": [
+      50,
+      185
+     ],
+     "examine": [
+      51
+     ],
+     "music": [
+      56,
+      83,
+      85,
+      124,
+      155,
+      164
+     ],
+     "neural": [
+      58,
+      166,
+      189
+     ],
+     "responses": [
+      59,
+      167
+     ],
+     "reading": [
+      61,
+      169
+     ],
+     "comprehension": [
+      62,
+      170
+     ],
+     "and": [
+      63,
+      86,
+      122,
+      153,
+      178
+     ],
+     "their": [
+      64
+     ],
+     "modulation": [
+      65
+     ],
+     "by": [
+      66,
+      106,
+      150,
+      171,
+      200
+     ],
+     "musical": [
+      67,
+      133
+     ],
+     "arousal.": [
+      68
+     ],
+     "Thirty-nine": [
+      69
+     ],
+     "postgraduates": [
+      70
+     ],
+     "judged": [
+      71
+     ],
+     "correctness": [
+      73
+     ],
+     "sentences": [
+      75
+     ],
+     "world": [
+      77,
+      107
+     ],
+     "knowledge": [
+      78,
+      108
+     ],
+     "without": [
+      79
+     ],
+     "with": [
+      81,
+      126
+     ],
+     "(high-arousal": [
+      84
+     ],
+     "low-arousal": [
+      87,
+      123,
+      154
+     ],
+     "music).": [
+      88
+     ],
+     "participants'": [
+      90
+     ],
+     "arousal": [
+      91,
+      142
+     ],
+     "levels": [
+      92,
+      143
+     ],
+     "were": [
+      93,
+      147
+     ],
+     "reported": [
+      94
+     ],
+     "experiment.": [
+      97,
+      158
+     ],
+     "results": [
+      99
+     ],
+     "showed": [
+      100
+     ],
+     "that": [
+      101,
+      162,
+      187
+     ],
+     "N400": [
+      103
+     ],
+     "effect,": [
+      104
+     ],
+     "elicited": [
+      105
+     ],
+     "violations": [
+      109
+     ],
+     "versus": [
+      110
+     ],
+     "correct": [
+      111
+     ],
+     "controls,": [
+      112
+     ],
+     "was": [
+      113
+     ],
+     "significantly": [
+      114
+     ],
+     "smaller": [
+      115
+     ],
+     "for": [
+      116,
+      120
+     ],
+     "silence": [
+      117
+     ],
+     "than": [
+      118
+     ],
+     "those": [
+      119
+     ],
+     "high-": [
+      121,
+      152
+     ],
+     "backgrounds,": [
+      125
+     ],
+     "no": [
+      127
+     ],
+     "significant": [
+      128
+     ],
+     "difference": [
+      129
+     ],
+     "between": [
+      130
+     ],
+     "two": [
+      132
+     ],
+     "backgrounds.": [
+      134
+     ],
+     "This": [
+      135
+     ],
+     "outcome": [
+      136
+     ],
+     "might": [
+      137
+     ],
+     "have": [
+      138
+     ],
+     "occurred": [
+      139
+     ],
+     "because": [
+      140
+     ],
+     "participants": [
+      146
+     ],
+     "not": [
+      148
+     ],
+     "affected": [
+      149,
+      199
+     ],
+     "throughout": [
+      156
+     ],
+     "These": [
+      159
+     ],
+     "findings": [
+      160
+     ],
+     "suggest": [
+      161,
+      186
+     ],
+     "affects": [
+      165
+     ],
+     "increasing": [
+      172
+     ],
+     "difficulty": [
+      174
+     ],
+     "semantic": [
+      176
+     ],
+     "integration,": [
+      177
+     ],
+     "thus": [
+      179
+     ],
+     "extend": [
+      180
+     ],
+     "irrelevant": [
+      182
+     ],
+     "sound": [
+      183
+     ],
+     "effect": [
+      184
+     ],
+     "processing": [
+      190
+     ],
+     "can": [
+      196
+     ],
+     "also": [
+      197
+     ],
+     "be": [
+      198
+     ],
+     "music.": [
+      201
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5020617409",
+       "display_name": "Meng Du",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I21945476",
+        "display_name": "Shanghai Normal University",
+        "ror": "https://ror.org/01cxqmw89",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I21945476"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Meng Du",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Shanghai Normal University, Shanghai, 200234, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Shanghai Normal University, Shanghai, 200234, China",
+        "institution_ids": [
+         "https://openalex.org/I21945476"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5075748864",
+       "display_name": "Jun Jiang",
+       "orcid": "https://orcid.org/0000-0002-0063-3225",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0063-3225"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I21945476",
+        "display_name": "Shanghai Normal University",
+        "ror": "https://ror.org/01cxqmw89",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I21945476"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jun Jiang",
+      "raw_affiliation_strings": [
+       "Music College, Shanghai Normal University, Shanghai, 200234, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Music College, Shanghai Normal University, Shanghai, 200234, China",
+        "institution_ids": [
+         "https://openalex.org/I21945476"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": null,
+       "display_name": "Zhemin Li",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I21945476",
+        "display_name": "Shanghai Normal University",
+        "ror": "https://ror.org/01cxqmw89",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I21945476"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Zhemin Li",
+      "raw_affiliation_strings": [
+       "Music College, Shanghai Normal University, Shanghai, 200234, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Music College, Shanghai Normal University, Shanghai, 200234, China",
+        "institution_ids": [
+         "https://openalex.org/I21945476"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5065101857",
+       "display_name": "Dongrui Man",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I21945476",
+        "display_name": "Shanghai Normal University",
+        "ror": "https://ror.org/01cxqmw89",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I21945476"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Dongrui Man",
+      "raw_affiliation_strings": [
+       "Music College, Shanghai Normal University, Shanghai, 200234, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Music College, Shanghai Normal University, Shanghai, 200234, China",
+        "institution_ids": [
+         "https://openalex.org/I21945476"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5044981672",
+       "display_name": "Cunmei Jiang",
+       "orcid": "https://orcid.org/0000-0002-0264-5924",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0264-5924"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I21945476",
+        "display_name": "Shanghai Normal University",
+        "ror": "https://ror.org/01cxqmw89",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I21945476"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Cunmei Jiang",
+      "raw_affiliation_strings": [
+       "Music College, Shanghai Normal University, Shanghai, 200234, China. cunmeijiang@126.com",
+       "Music College, Shanghai Normal University, Shanghai, 200234, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Music College, Shanghai Normal University, Shanghai, 200234, China. cunmeijiang@126.com",
+        "institution_ids": [
+         "https://openalex.org/I21945476"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Music College, Shanghai Normal University, Shanghai, 200234, China",
+        "institution_ids": [
+         "https://openalex.org/I21945476"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1038/s41598-020-75623-3",
+     "doi": "https://doi.org/10.1038/s41598-020-75623-3",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1038/s41598-020-75623-3",
+     "pdf_url": "https://www.nature.com/articles/s41598-020-75623-3.pdf",
+     "source": {
+      "id": "https://openalex.org/S196734849",
+      "display_name": "Scientific Reports",
+      "issn_l": "2045-2322",
+      "issn": [
+       "2045-2322"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "dongbi-c",
+       "doyens",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319908",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Nature Portfolio",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Scientific Reports",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W9385517",
+    "doi": null,
+    "title": "Music on/music off: does the effect of interference or preference affect your reading comprehension?",
+    "display_name": "Music on/music off: does the effect of interference or preference affect your reading comprehension?",
+    "publication_year": 2012,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "When": [
+      0
+     ],
+     "we": [
+      1
+     ],
+     "are": [
+      2
+     ],
+     "reading,": [
+      3,
+      38
+     ],
+     "does": [
+      4
+     ],
+     "music": [
+      5,
+      23,
+      35,
+      53,
+      85,
+      93,
+      143,
+      254
+     ],
+     "distract": [
+      6
+     ],
+     "us": [
+      7,
+      10
+     ],
+     "or": [
+      8,
+      114,
+      157,
+      171,
+      242,
+      260
+     ],
+     "put": [
+      9
+     ],
+     "in": [
+      11,
+      258
+     ],
+     "a": [
+      12,
+      117,
+      126,
+      179,
+      264
+     ],
+     "better": [
+      13
+     ],
+     "mood?": [
+      14
+     ],
+     "We": [
+      15
+     ],
+     "sought": [
+      16
+     ],
+     "to": [
+      17,
+      40,
+      138,
+      169
+     ],
+     "investigate": [
+      18,
+      139
+     ],
+     "the": [
+      19,
+      29,
+      47,
+      67,
+      79,
+      140,
+      162,
+      173,
+      196,
+      210,
+      216,
+      226,
+      250
+     ],
+     "counteracting": [
+      20
+     ],
+     "effects": [
+      21,
+      251
+     ],
+     "of": [
+      22,
+      109,
+      119,
+      142,
+      240,
+      252
+     ],
+     "from": [
+      24,
+      116
+     ],
+     "two": [
+      25,
+      146
+     ],
+     "major": [
+      26
+     ],
+     "frameworks:": [
+      27
+     ],
+     "a)": [
+      28
+     ],
+     "cognitive-load": [
+      30,
+      80,
+      150,
+      241
+     ],
+     "hypothesis,": [
+      31,
+      49
+     ],
+     "which": [
+      32,
+      50
+     ],
+     "contends": [
+      33
+     ],
+     "that": [
+      34,
+      52,
+      207
+     ],
+     "interferes": [
+      36
+     ],
+     "with": [
+      37,
+      131,
+      184
+     ],
+     "leading": [
+      39
+     ],
+     "poorer": [
+      41
+     ],
+     "reading": [
+      42,
+      55,
+      87,
+      95,
+      198,
+      245,
+      256
+     ],
+     "comprehension": [
+      43,
+      56,
+      199,
+      257
+     ],
+     "performance;": [
+      44
+     ],
+     "and": [
+      45,
+      64,
+      223
+     ],
+     "b)": [
+      46
+     ],
+     "mood-arousal": [
+      48,
+      163,
+      221,
+      231,
+      243
+     ],
+     "posits": [
+      51
+     ],
+     "moderates": [
+      54
+     ],
+     "performance.": [
+      57
+     ],
+     "Bolstering": [
+      58
+     ],
+     "previous": [
+      59
+     ],
+     "methodology": [
+      60
+     ],
+     "by": [
+      61,
+      84,
+      105,
+      144
+     ],
+     "Thompson,": [
+      62
+     ],
+     "Schellenberg": [
+      63
+     ],
+     "Letnic": [
+      65
+     ],
+     "(2011),": [
+      66
+     ],
+     "current": [
+      68
+     ],
+     "independent": [
+      69
+     ],
+     "variables": [
+      70
+     ],
+     "specifically": [
+      71
+     ],
+     "target": [
+      72
+     ],
+     "their": [
+      73
+     ],
+     "respective": [
+      74
+     ],
+     "frameworks.": [
+      75
+     ],
+     "In": [
+      76
+     ],
+     "study": [
+      77,
+      176,
+      261
+     ],
+     "1,": [
+      78
+     ],
+     "hypothesis": [
+      81,
+      102,
+      151,
+      164
+     ],
+     "was": [
+      82,
+      103,
+      136,
+      153,
+      165,
+      193,
+      205
+     ],
+     "represented": [
+      83,
+      104
+     ],
+     "before": [
+      86
+     ],
+     "task": [
+      88,
+      96
+     ],
+     "(no": [
+      89
+     ],
+     "cognitive": [
+      90,
+      218,
+      228
+     ],
+     "load)": [
+      91
+     ],
+     "versus": [
+      92
+     ],
+     "during": [
+      94
+     ],
+     "(cognitive": [
+      97
+     ],
+     "load).": [
+      98
+     ],
+     "The": [
+      99,
+      149,
+      187
+     ],
+     "mood": [
+      100
+     ],
+     "arousal": [
+      101
+     ],
+     "participant\u2019s": [
+      106
+     ],
+     "subjective": [
+      107
+     ],
+     "ratings": [
+      108
+     ],
+     "familiar": [
+      110
+     ],
+     "songs": [
+      111
+     ],
+     "they": [
+      112
+     ],
+     "liked": [
+      113
+     ],
+     "disliked": [
+      115
+     ],
+     "list": [
+      118
+     ],
+     "12": [
+      120
+     ],
+     "pre-selected": [
+      121
+     ],
+     "songs.": [
+      122,
+      148
+     ],
+     "Study": [
+      123,
+      134
+     ],
+     "1": [
+      124
+     ],
+     "involved": [
+      125,
+      178
+     ],
+     "2x2": [
+      127,
+      180
+     ],
+     "mixed": [
+      128,
+      181
+     ],
+     "factorial": [
+      129
+     ],
+     "ANOVA": [
+      130,
+      183
+     ],
+     "40": [
+      132,
+      185
+     ],
+     "participants.": [
+      133,
+      186
+     ],
+     "2": [
+      135,
+      177
+     ],
+     "devised": [
+      137
+     ],
+     "impact": [
+      141
+     ],
+     "using": [
+      145
+     ],
+     "unfamiliar": [
+      147
+     ],
+     "here": [
+      152
+     ],
+     "operationalised": [
+      154,
+      166
+     ],
+     "as": [
+      155,
+      167
+     ],
+     "more": [
+      156
+     ],
+     "less": [
+      158
+     ],
+     "musical": [
+      159
+     ],
+     "events,": [
+      160
+     ],
+     "whereas": [
+      161
+     ],
+     "priming": [
+      168
+     ],
+     "like": [
+      170
+     ],
+     "dislike": [
+      172
+     ],
+     "song.": [
+      174
+     ],
+     "Likewise,": [
+      175
+     ],
+     "design": [
+      182
+     ],
+     "dependent": [
+      188
+     ],
+     "variable": [
+      189
+     ],
+     "for": [
+      190,
+      215,
+      225,
+      234,
+      267
+     ],
+     "both": [
+      191,
+      202,
+      235
+     ],
+     "studies": [
+      192,
+      236
+     ],
+     "scores": [
+      194,
+      208
+     ],
+     "on": [
+      195,
+      209,
+      244,
+      255
+     ],
+     "GMAT": [
+      197,
+      211
+     ],
+     "test.": [
+      200
+     ],
+     "For": [
+      201
+     ],
+     "studies,": [
+      203
+     ],
+     "it": [
+      204
+     ],
+     "hypothesised": [
+      206
+     ],
+     "would": [
+      212
+     ],
+     "be": [
+      213
+     ],
+     "highest": [
+      214
+     ],
+     "low": [
+      217,
+      230
+     ],
+     "load,": [
+      219,
+      229
+     ],
+     "high": [
+      220,
+      227
+     ],
+     "condition;": [
+      222
+     ],
+     "lowest": [
+      224
+     ],
+     "condition.": [
+      232
+     ],
+     "Results": [
+      233
+     ],
+     "indicate": [
+      237
+     ],
+     "non-significant": [
+      238
+     ],
+     "effect": [
+      239
+     ],
+     "comprehension.": [
+      246
+     ],
+     "Despite": [
+      247
+     ],
+     "null": [
+      248
+     ],
+     "results,": [
+      249
+     ],
+     "background": [
+      253
+     ],
+     "work": [
+      259
+     ],
+     "settings": [
+      262
+     ],
+     "remain": [
+      263
+     ],
+     "fertile": [
+      265
+     ],
+     "avenue": [
+      266
+     ],
+     "future": [
+      268
+     ],
+     "research.": [
+      269
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5058609627",
+       "display_name": "Nigel Karl",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Nigel Karl",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ],
+    "primary_location": {
+     "id": "mag:9385517",
+     "doi": null,
+     "is_oa": false,
+     "landing_page_url": "https://espace.library.uq.edu.au/view/UQ:292825",
+     "pdf_url": null,
+     "source": null,
+     "license": null,
+     "license_id": null,
+     "version": null,
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": null,
+     "raw_type": null
+    }
+   },
+   {
+    "id": "https://openalex.org/W4393991272",
+    "doi": "https://doi.org/10.3389/fpsyg.2024.1363562",
+    "title": "Impact of background music on reading comprehension: influence of lyrics language and study habits",
+    "display_name": "Impact of background music on reading comprehension: influence of lyrics language and study habits",
+    "publication_year": 2024,
+    "cited_by_count": 27,
+    "abstract_inverted_index": {
+     "Numerous": [
+      0
+     ],
+     "studies": [
+      1
+     ],
+     "have": [
+      2
+     ],
+     "explored": [
+      3
+     ],
+     "the": [
+      4,
+      47,
+      161,
+      176,
+      180,
+      207,
+      210,
+      244,
+      256
+     ],
+     "effects": [
+      5,
+      48
+     ],
+     "of": [
+      6,
+      49,
+      83,
+      91,
+      118,
+      212,
+      259
+     ],
+     "background": [
+      7,
+      28,
+      237
+     ],
+     "music": [
+      8,
+      29,
+      57,
+      68,
+      123,
+      131,
+      139,
+      156,
+      163,
+      174,
+      191,
+      213,
+      227,
+      238,
+      249
+     ],
+     "on": [
+      9,
+      80
+     ],
+     "reading": [
+      10,
+      31,
+      81,
+      149,
+      167,
+      202,
+      231
+     ],
+     "comprehension,": [
+      11
+     ],
+     "however,": [
+      12
+     ],
+     "little": [
+      13
+     ],
+     "is": [
+      14
+     ],
+     "known": [
+      15
+     ],
+     "about": [
+      16
+     ],
+     "how": [
+      17
+     ],
+     "native": [
+      18,
+      215
+     ],
+     "language": [
+      19,
+      24,
+      74,
+      178,
+      216
+     ],
+     "(L1)": [
+      20
+     ],
+     "lyrics": [
+      21,
+      26,
+      158,
+      193,
+      229
+     ],
+     "and": [
+      22,
+      72,
+      105,
+      111,
+      137,
+      199
+     ],
+     "second": [
+      23
+     ],
+     "(L2)": [
+      25
+     ],
+     "in": [
+      27,
+      86,
+      175,
+      209
+     ],
+     "influence": [
+      30
+     ],
+     "comprehension": [
+      32,
+      82,
+      150,
+      168,
+      203,
+      232
+     ],
+     "performance": [
+      33,
+      151
+     ],
+     "for": [
+      34
+     ],
+     "college": [
+      35,
+      84
+     ],
+     "students.": [
+      36
+     ],
+     "The": [
+      37,
+      145,
+      252
+     ],
+     "present": [
+      38
+     ],
+     "study": [
+      39,
+      254
+     ],
+     "used": [
+      40
+     ],
+     "a": [
+      41
+     ],
+     "mixed": [
+      42
+     ],
+     "experimental": [
+      43
+     ],
+     "design": [
+      44
+     ],
+     "to": [
+      45,
+      116,
+      160,
+      225,
+      236,
+      248
+     ],
+     "examine": [
+      46
+     ],
+     "listening": [
+      50,
+      224,
+      235
+     ],
+     "habits": [
+      51
+     ],
+     "(between-participants": [
+      52,
+      59
+     ],
+     "variable:": [
+      53,
+      60,
+      76
+     ],
+     "non-listeners": [
+      54,
+      185
+     ],
+     "or": [
+      55,
+      69,
+      78
+     ],
+     "listeners),": [
+      56
+     ],
+     "type": [
+      58
+     ],
+     "L1": [
+      61,
+      77
+     ],
+     "(Mandarin)": [
+      62
+     ],
+     "pop": [
+      63,
+      67,
+      122,
+      130,
+      173,
+      226
+     ],
+     "music,": [
+      64
+     ],
+     "L2": [
+      65
+     ],
+     "(English)": [
+      66
+     ],
+     "no": [
+      70,
+      138,
+      162
+     ],
+     "music)": [
+      71
+     ],
+     "text": [
+      73
+     ],
+     "(within-participants": [
+      75
+     ],
+     "L2)": [
+      79
+     ],
+     "students": [
+      85,
+      245
+     ],
+     "East": [
+      87
+     ],
+     "China.": [
+      88
+     ],
+     "A": [
+      89
+     ],
+     "total": [
+      90
+     ],
+     "90": [
+      92
+     ],
+     "participants": [
+      93
+     ],
+     "(50": [
+      94
+     ],
+     "females)": [
+      95
+     ],
+     "were": [
+      96,
+      113,
+      186,
+      206
+     ],
+     "screened": [
+      97
+     ],
+     "into": [
+      98
+     ],
+     "non-": [
+      99
+     ],
+     "listeners": [
+      100,
+      106,
+      198
+     ],
+     "(": [
+      101,
+      107,
+      125,
+      133,
+      141
+     ],
+     "n": [
+      102,
+      108,
+      126,
+      134,
+      142
+     ],
+     "=": [
+      103,
+      109,
+      127,
+      135,
+      143
+     ],
+     "45)": [
+      104
+     ],
+     "45),": [
+      110
+     ],
+     "then": [
+      112
+     ],
+     "randomly": [
+      114
+     ],
+     "assigned": [
+      115
+     ],
+     "one": [
+      117
+     ],
+     "three": [
+      119
+     ],
+     "groups:": [
+      120
+     ],
+     "Mandarin": [
+      121
+     ],
+     "group": [
+      124,
+      132,
+      140
+     ],
+     "30),": [
+      128
+     ],
+     "English": [
+      129
+     ],
+     "30)": [
+      136
+     ],
+     "30).": [
+      144
+     ],
+     "results": [
+      146
+     ],
+     "showed": [
+      147
+     ],
+     "that": [
+      148,
+      223
+     ],
+     "was": [
+      152,
+      169
+     ],
+     "negatively": [
+      153,
+      188
+     ],
+     "affected": [
+      154,
+      189
+     ],
+     "by": [
+      155,
+      172,
+      190
+     ],
+     "with": [
+      157,
+      192,
+      214,
+      228
+     ],
+     "compared": [
+      159
+     ],
+     "condition.": [
+      164
+     ],
+     "Furthermore,": [
+      165
+     ],
+     "Chinese/English": [
+      166
+     ],
+     "reduced": [
+      170
+     ],
+     "more": [
+      171,
+      187
+     ],
+     "same": [
+      177
+     ],
+     "as": [
+      179
+     ],
+     "written": [
+      181
+     ],
+     "texts.": [
+      182
+     ],
+     "As": [
+      183
+     ],
+     "expected,": [
+      184
+     ],
+     "than": [
+      194
+     ],
+     "listeners.": [
+      195
+     ],
+     "For": [
+      196
+     ],
+     "both": [
+      197
+     ],
+     "non-listeners,": [
+      200
+     ],
+     "average": [
+      201
+     ],
+     "accuracy": [
+      204
+     ],
+     "rates": [
+      205
+     ],
+     "lowest": [
+      208
+     ],
+     "condition": [
+      211
+     ],
+     "lyrics.": [
+      217
+     ],
+     "Overall,": [
+      218
+     ],
+     "our": [
+      219
+     ],
+     "research": [
+      220
+     ],
+     "findings": [
+      221
+     ],
+     "indicate": [
+      222
+     ],
+     "reduces": [
+      230
+     ],
+     "performance.": [
+      233
+     ],
+     "However,": [
+      234
+     ],
+     "cause": [
+      239
+     ],
+     "much": [
+      240
+     ],
+     "less": [
+      241
+     ],
+     "distraction": [
+      242
+     ],
+     "if": [
+      243
+     ],
+     "commonly": [
+      246
+     ],
+     "listen": [
+      247
+     ],
+     "while": [
+      250
+     ],
+     "reading.": [
+      251
+     ],
+     "current": [
+      253
+     ],
+     "supports": [
+      255
+     ],
+     "duplex-mechanism": [
+      257
+     ],
+     "account": [
+      258
+     ],
+     "auditory": [
+      260
+     ],
+     "distraction.": [
+      261
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5101603076",
+       "display_name": "Yanping Sun",
+       "orcid": "https://orcid.org/0000-0003-0105-5137",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0105-5137"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210116868",
+        "display_name": "Shandong Sport University",
+        "ror": "https://ror.org/026b4k258",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210116868"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Yanping Sun",
+      "raw_affiliation_strings": [
+       "Department of Applied Psychology, College of Sports and Health, Shandong Sport University, Jinan, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Applied Psychology, College of Sports and Health, Shandong Sport University, Jinan, China",
+        "institution_ids": [
+         "https://openalex.org/I4210116868"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5071819390",
+       "display_name": "Chuanning Sun",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I154099455",
+        "display_name": "Shandong University",
+        "ror": "https://ror.org/0207yh398",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I154099455"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Chuanning Sun",
+      "raw_affiliation_strings": [
+       "School of Physical Education, Shandong University, Jinan, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Physical Education, Shandong University, Jinan, China",
+        "institution_ids": [
+         "https://openalex.org/I154099455"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5101328950",
+       "display_name": "Chang Li",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I59483232",
+        "display_name": "Shandong University of Finance and Economics",
+        "ror": "https://ror.org/02e2nnq08",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I59483232"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Chang Li",
+      "raw_affiliation_strings": [
+       "Department of Insurance, Shandong University of Finance and Economics, Jinan, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Insurance, Shandong University of Finance and Economics, Jinan, China",
+        "institution_ids": [
+         "https://openalex.org/I59483232"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": null,
+       "display_name": "Xinrui Shao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I202126657",
+        "display_name": "Qufu Normal University",
+        "ror": "https://ror.org/03ceheh96",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I202126657"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Xinrui Shao",
+      "raw_affiliation_strings": [
+       "School of Psychology, Qufu Normal University, Qufu, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Psychology, Qufu Normal University, Qufu, China",
+        "institution_ids": [
+         "https://openalex.org/I202126657"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": null,
+       "display_name": "Qingming Liu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Qingming Liu",
+      "raw_affiliation_strings": [
+       "Zizhong Middle School, Linqing, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Zizhong Middle School, Linqing, China",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5114199237",
+       "display_name": "Hongen Liu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I29739308",
+        "display_name": "Guangxi Normal University",
+        "ror": "https://ror.org/02frt9q65",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I29739308"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Hongen Liu",
+      "raw_affiliation_strings": [
+       "College of Physical Education and Health, Guangxi Normal University, Guilin, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "College of Physical Education and Health, Guangxi Normal University, Guilin, China",
+        "institution_ids": [
+         "https://openalex.org/I29739308"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2024.1363562",
+     "doi": "https://doi.org/10.3389/fpsyg.2024.1363562",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2024.1363562",
+     "pdf_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1363562/pdf",
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W7221504947",
+    "doi": "https://doi.org/10.5281/zenodo.23308626",
+    "title": "THE EFFECT OF BACKGROUND MUSIC ON CONCENTRATION AND MEMORY",
+    "display_name": "THE EFFECT OF BACKGROUND MUSIC ON CONCENTRATION AND MEMORY",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "Background": [
+      0
+     ],
+     "music": [
+      1,
+      26,
+      53,
+      102,
+      138,
+      170
+     ],
+     "has": [
+      2,
+      46,
+      135,
+      162
+     ],
+     "become": [
+      3
+     ],
+     "a": [
+      4,
+      36
+     ],
+     "common": [
+      5
+     ],
+     "part": [
+      6
+     ],
+     "of": [
+      7,
+      51,
+      66,
+      79,
+      87,
+      125
+     ],
+     "everyday": [
+      8
+     ],
+     "activities": [
+      9
+     ],
+     "that": [
+      10,
+      48,
+      137
+     ],
+     "require": [
+      11
+     ],
+     "mental": [
+      12
+     ],
+     "effort,": [
+      13
+     ],
+     "particularly": [
+      14
+     ],
+     "studying,": [
+      15
+     ],
+     "reading,": [
+      16
+     ],
+     "writing,": [
+      17
+     ],
+     "and": [
+      18,
+      60,
+      70,
+      91,
+      101,
+      121,
+      151,
+      156
+     ],
+     "completing": [
+      19,
+      115
+     ],
+     "academic": [
+      20
+     ],
+     "tasks.": [
+      21
+     ],
+     "Many": [
+      22
+     ],
+     "students": [
+      23
+     ],
+     "listen": [
+      24
+     ],
+     "to": [
+      25,
+      108
+     ],
+     "while": [
+      27
+     ],
+     "studying": [
+      28
+     ],
+     "because": [
+      29
+     ],
+     "they": [
+      30
+     ],
+     "believe": [
+      31
+     ],
+     "it": [
+      32
+     ],
+     "improves": [
+      33
+     ],
+     "concentration,": [
+      34
+     ],
+     "creates": [
+      35
+     ],
+     "comfortable": [
+      37
+     ],
+     "environment,": [
+      38
+     ],
+     "reduces": [
+      39
+     ],
+     "boredom,": [
+      40
+     ],
+     "or": [
+      41
+     ],
+     "increases": [
+      42
+     ],
+     "motivation.": [
+      43
+     ],
+     "However,": [
+      44
+     ],
+     "research": [
+      45,
+      134
+     ],
+     "shown": [
+      47
+     ],
+     "the": [
+      49,
+      64,
+      67,
+      77,
+      123
+     ],
+     "effect": [
+      50,
+      78
+     ],
+     "background": [
+      52,
+      169
+     ],
+     "on": [
+      54,
+      63,
+      83,
+      160
+     ],
+     "cognitive": [
+      55,
+      88,
+      116,
+      145
+     ],
+     "performance": [
+      56
+     ],
+     "is": [
+      57
+     ],
+     "not": [
+      58
+     ],
+     "universal": [
+      59
+     ],
+     "can": [
+      61,
+      141
+     ],
+     "depend": [
+      62
+     ],
+     "characteristics": [
+      65
+     ],
+     "task,": [
+      68
+     ],
+     "music,": [
+      69,
+      100
+     ],
+     "listener.": [
+      71
+     ],
+     "[1]": [
+      72
+     ],
+     "The": [
+      73,
+      105
+     ],
+     "present": [
+      74
+     ],
+     "study": [
+      75,
+      106
+     ],
+     "investigates": [
+      76
+     ],
+     "different": [
+      80
+     ],
+     "background-music": [
+      81
+     ],
+     "conditions": [
+      82,
+      95,
+      120
+     ],
+     "two": [
+      84
+     ],
+     "important": [
+      85
+     ],
+     "aspects": [
+      86
+     ],
+     "performance:": [
+      89
+     ],
+     "concentration": [
+      90
+     ],
+     "memory.": [
+      92
+     ],
+     "Three": [
+      93
+     ],
+     "auditory": [
+      94
+     ],
+     "are": [
+      96
+     ],
+     "examined:": [
+      97
+     ],
+     "silence,": [
+      98
+     ],
+     "instrumental": [
+      99,
+      131
+     ],
+     "with": [
+      103,
+      139,
+      143,
+      168
+     ],
+     "lyrics.": [
+      104,
+      172
+     ],
+     "aims": [
+      107
+     ],
+     "determine": [
+      109
+     ],
+     "whether": [
+      110,
+      122
+     ],
+     "participants": [
+      111
+     ],
+     "perform": [
+      112
+     ],
+     "differently": [
+      113
+     ],
+     "when": [
+      114
+     ],
+     "tasks": [
+      117,
+      148
+     ],
+     "under": [
+      118
+     ],
+     "these": [
+      119
+     ],
+     "presence": [
+      124
+     ],
+     "lyrics": [
+      126,
+      140
+     ],
+     "produces": [
+      127
+     ],
+     "greater": [
+      128
+     ],
+     "interference": [
+      129
+     ],
+     "than": [
+      130
+     ],
+     "music.": [
+      132
+     ],
+     "Previous": [
+      133
+     ],
+     "found": [
+      136
+     ],
+     "interfere": [
+      142
+     ],
+     "several": [
+      144
+     ],
+     "tasks,": [
+      146
+     ],
+     "including": [
+      147
+     ],
+     "involving": [
+      149
+     ],
+     "verbal": [
+      150
+     ],
+     "visual": [
+      152
+     ],
+     "memory,": [
+      153
+     ],
+     "reading": [
+      154
+     ],
+     "comprehension,": [
+      155
+     ],
+     "arithmetic.": [
+      157
+     ],
+     "[2]": [
+      158
+     ],
+     "Research": [
+      159
+     ],
+     "attention": [
+      161
+     ],
+     "also": [
+      163
+     ],
+     "reported": [
+      164
+     ],
+     "negative": [
+      165
+     ],
+     "effects": [
+      166
+     ],
+     "associated": [
+      167
+     ],
+     "containing": [
+      171
+     ],
+     "[3]": [
+      173
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5158476039",
+       "display_name": "Ruchi Gaur Yudhveer Phogat",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Yudhveer Phogat, Ruchi Gaur",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.5281/zenodo.23308626",
+     "doi": "https://doi.org/10.5281/zenodo.23308626",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.5281/zenodo.23308626",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306400562",
+      "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I67311998",
+      "host_organization_name": "European Organization for Nuclear Research",
+      "host_organization_lineage": [
+       "https://openalex.org/I67311998"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": null,
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": null,
+     "raw_type": "article-journal"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

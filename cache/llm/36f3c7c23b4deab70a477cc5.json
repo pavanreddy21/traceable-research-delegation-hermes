@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201f6-1a5e-7844-9e18-a6511a20f87b",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795329235,
+ "model": "google/gemma-4-12B-it",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "```json\n{\"verdict\": \"not_supported\", \"passage\": \"3\", \"reason\": \"The source states that consolidation occurs during slow-wave sleep (SWS) rather than identifying REM sleep as the main stage.\"}\n```",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 341,
+  "completion_tokens": 51,
+  "total_tokens": 392,
+  "prompt_tokens_details": {
+   "cached_tokens": 16
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 37.27
+}

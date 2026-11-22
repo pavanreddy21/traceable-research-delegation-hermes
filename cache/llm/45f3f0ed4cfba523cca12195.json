@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201dc-5227-7ca1-a126-ff93a047c177",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327545,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"I will search for evidence that sleep after learning fails to improve memory or has boundary conditions.\", \"action\": \"search_papers\", \"args\": {\"query\": \"sleep after learning no benefit memory consolidation fails to improve\"}}",
+    "reasoning_content": "We need answer only JSON. Need search contrary evidence. Let's search.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 373,
+  "completion_tokens": 66,
+  "total_tokens": 439,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 16
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.23
+}

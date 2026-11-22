@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a20209-2ce5-7058-8b87-b8b3cf988a05",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330485,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"not_supported\", \"passage\": 2, \"reason\": \"Passage 2 states repeated studying improved recall only when the final test was given after 5 minutes, not one week later, so the claim contradicts the source.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 293,
+  "completion_tokens": 55,
+  "total_tokens": 348,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.22
+}

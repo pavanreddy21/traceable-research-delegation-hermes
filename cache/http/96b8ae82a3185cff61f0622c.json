@@ -1,0 +1,5807 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 164,
+   "db_response_time_ms": 104,
+   "page": 1,
+   "per_page": 2,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (how much mightier is the pen than the keyboard note-taking replication) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (how much mightier is the pen than the keyboard note-taking replication) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "how much mightier is the pen than the keyboard note-taking replication",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:how much mightier is the pen than the keyboard note-taking replication,has_abstract:true,language:en,type:article|review&per_page=2",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W7154704724",
+    "doi": "https://doi.org/10.3389/feduc.2026.1799651",
+    "title": "Taking notes with different writing devices influences learning processes but not performance: an EEG study comparing ink pens, digital pens, and keyboards",
+    "display_name": "Taking notes with different writing devices influences learning processes but not performance: an EEG study comparing ink pens, digital pens, and keyboards",
+    "publication_year": 2026,
+    "cited_by_count": 1,
+    "abstract_inverted_index": {
+     "Notetaking": [
+      0
+     ],
+     "with": [
+      1,
+      22,
+      108
+     ],
+     "digital": [
+      2,
+      18
+     ],
+     "devices": [
+      3,
+      54
+     ],
+     "during": [
+      4,
+      30
+     ],
+     "asynchronous": [
+      5,
+      155
+     ],
+     "online": [
+      6,
+      156
+     ],
+     "learning": [
+      7,
+      49,
+      138,
+      157
+     ],
+     "remains": [
+      8
+     ],
+     "controversial.": [
+      9
+     ],
+     "This": [
+      10,
+      150
+     ],
+     "study": [
+      11
+     ],
+     "investigated": [
+      12
+     ],
+     "how": [
+      13
+     ],
+     "three": [
+      14
+     ],
+     "writing": [
+      15
+     ],
+     "devices\u2014ink": [
+      16
+     ],
+     "pens,": [
+      17,
+      19
+     ],
+     "and": [
+      20,
+      55,
+      70,
+      76,
+      83,
+      93,
+      96,
+      121,
+      140,
+      159
+     ],
+     "laptops\u2014interact": [
+      21
+     ],
+     "active": [
+      23
+     ],
+     "(verbatim)": [
+      24
+     ],
+     "vs.": [
+      25
+     ],
+     "constructive": [
+      26
+     ],
+     "(question)": [
+      27
+     ],
+     "notetaking": [
+      28,
+      53,
+      119,
+      135,
+      161
+     ],
+     "strategies": [
+      29
+     ],
+     "video": [
+      31
+     ],
+     "lectures.": [
+      32
+     ],
+     "During": [
+      33
+     ],
+     "a": [
+      34
+     ],
+     "within-design": [
+      35
+     ],
+     "laboratory": [
+      36
+     ],
+     "experiment,": [
+      37
+     ],
+     "EEG": [
+      38
+     ],
+     "data": [
+      39
+     ],
+     "was": [
+      40
+     ],
+     "recorded": [
+      41
+     ],
+     "while": [
+      42
+     ],
+     "33": [
+      43
+     ],
+     "undergraduate": [
+      44
+     ],
+     "students": [
+      45
+     ],
+     "took": [
+      46
+     ],
+     "notes": [
+      47
+     ],
+     "for": [
+      48,
+      153
+     ],
+     "sessions": [
+      50
+     ],
+     "using": [
+      51
+     ],
+     "different": [
+      52
+     ],
+     "strategies,": [
+      56
+     ],
+     "followed": [
+      57
+     ],
+     "by": [
+      58
+     ],
+     "immediate": [
+      59,
+      122,
+      145
+     ],
+     "post-tests.": [
+      60
+     ],
+     "Time-frequency": [
+      61
+     ],
+     "analysis": [
+      62
+     ],
+     "revealed": [
+      63
+     ],
+     "significant": [
+      64,
+      77,
+      127
+     ],
+     "differences": [
+      65,
+      128
+     ],
+     "in": [
+      66,
+      80,
+      104,
+      163
+     ],
+     "theta,": [
+      67
+     ],
+     "alpha,": [
+      68,
+      91
+     ],
+     "beta,": [
+      69,
+      81,
+      92
+     ],
+     "gamma": [
+      71,
+      94
+     ],
+     "band": [
+      72
+     ],
+     "power": [
+      73,
+      95
+     ],
+     "across": [
+      74,
+      129
+     ],
+     "devices,": [
+      75
+     ],
+     "interaction": [
+      78,
+      113
+     ],
+     "effects": [
+      79,
+      114
+     ],
+     "gamma,": [
+      82
+     ],
+     "theta/beta": [
+      84,
+      98
+     ],
+     "values.": [
+      85
+     ],
+     "Both": [
+      86
+     ],
+     "pen": [
+      87
+     ],
+     "types": [
+      88
+     ],
+     "showed": [
+      89,
+      125
+     ],
+     "higher": [
+      90
+     ],
+     "lower": [
+      97
+     ],
+     "ratios": [
+      99
+     ],
+     "compared": [
+      100
+     ],
+     "to": [
+      101
+     ],
+     "keyboards,": [
+      102
+     ],
+     "particularly": [
+      103
+     ],
+     "occipital": [
+      105
+     ],
+     "regions": [
+      106
+     ],
+     "associated": [
+      107
+     ],
+     "sustained": [
+      109
+     ],
+     "visual": [
+      110
+     ],
+     "attention.": [
+      111
+     ],
+     "However,": [
+      112
+     ],
+     "indicate": [
+      115
+     ],
+     "the": [
+      116
+     ],
+     "importance": [
+      117
+     ],
+     "of": [
+      118
+     ],
+     "strategy,": [
+      120
+     ],
+     "post-test": [
+      123
+     ],
+     "performance": [
+      124,
+      146
+     ],
+     "no": [
+      126
+     ],
+     "conditions.": [
+      130
+     ],
+     "The": [
+      131
+     ],
+     "findings": [
+      132
+     ],
+     "suggest": [
+      133
+     ],
+     "that": [
+      134
+     ],
+     "media": [
+      136
+     ],
+     "influence": [
+      137
+     ],
+     "processes": [
+      139
+     ],
+     "attention": [
+      141
+     ],
+     "sustainment": [
+      142
+     ],
+     "differently,": [
+      143
+     ],
+     "though": [
+      144
+     ],
+     "outcomes": [
+      147
+     ],
+     "remain": [
+      148
+     ],
+     "similar.": [
+      149
+     ],
+     "has": [
+      151
+     ],
+     "implications": [
+      152
+     ],
+     "designing": [
+      154
+     ],
+     "environments": [
+      158
+     ],
+     "guiding": [
+      160
+     ],
+     "practices": [
+      162
+     ],
+     "those": [
+      164
+     ],
+     "settings.": [
+      165
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5111224912",
+       "display_name": "Bookyung Shin",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I111979921",
+        "display_name": "Northwestern University",
+        "ror": "https://ror.org/000e0be47",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I111979921"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/visualization",
+        "display_name": "Visualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Bookyung Shin",
+      "raw_affiliation_strings": [
+       "School of Education and Social Policy, Northwestern University, Evanston, IL, United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Education and Social Policy, Northwestern University, Evanston, IL, United States",
+        "institution_ids": [
+         "https://openalex.org/I111979921"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5023500396",
+       "display_name": "Mijung Sung",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I139264467",
+        "display_name": "Seoul National University",
+        "ror": "https://ror.org/04h9pn542",
+        "country_code": "KR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I139264467"
+        ]
+       }
+      ],
+      "countries": [
+       "KR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "MiJung Sung",
+      "raw_affiliation_strings": [
+       "Brain & Humanities Laboratory, Seoul National University, Seoul, Republic of Korea",
+       "Department of German Language and Literature, Seoul National University, Seoul, Republic of Korea"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Brain & Humanities Laboratory, Seoul National University, Seoul, Republic of Korea",
+        "institution_ids": [
+         "https://openalex.org/I139264467"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of German Language and Literature, Seoul National University, Seoul, Republic of Korea",
+        "institution_ids": [
+         "https://openalex.org/I139264467"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5054210364",
+       "display_name": "Jieun Kiaer",
+       "orcid": "https://orcid.org/0000-0003-0195-8213",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0195-8213"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I40120149",
+        "display_name": "University of Oxford",
+        "ror": "https://ror.org/052gg0110",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I40120149"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Jieun Kiaer",
+      "raw_affiliation_strings": [
+       "Faculty of Asian and Middle Eastern Studies, University of Oxford, Oxford, United Kingdom"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Asian and Middle Eastern Studies, University of Oxford, Oxford, United Kingdom",
+        "institution_ids": [
+         "https://openalex.org/I40120149"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5022937796",
+       "display_name": "Young Hoan Cho",
+       "orcid": "https://orcid.org/0000-0002-1775-7953",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1775-7953"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I139264467",
+        "display_name": "Seoul National University",
+        "ror": "https://ror.org/04h9pn542",
+        "country_code": "KR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I139264467"
+        ]
+       }
+      ],
+      "countries": [
+       "KR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Young Hoan Cho",
+      "raw_affiliation_strings": [
+       "Department of Education, Learning Sciences Research Institute, Seoul National University, Seoul, Republic of Korea"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Education, Learning Sciences Research Institute, Seoul National University, Seoul, Republic of Korea",
+        "institution_ids": [
+         "https://openalex.org/I139264467"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5133863707",
+       "display_name": "Sungeun Lee",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I139264467",
+        "display_name": "Seoul National University",
+        "ror": "https://ror.org/04h9pn542",
+        "country_code": "KR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I139264467"
+        ]
+       }
+      ],
+      "countries": [
+       "KR"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Sungeun Lee",
+      "raw_affiliation_strings": [
+       "Brain & Humanities Laboratory, Seoul National University, Seoul, Republic of Korea",
+       "Department of German Language and Literature, Seoul National University, Seoul, Republic of Korea"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Brain & Humanities Laboratory, Seoul National University, Seoul, Republic of Korea",
+        "institution_ids": [
+         "https://openalex.org/I139264467"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of German Language and Literature, Seoul National University, Seoul, Republic of Korea",
+        "institution_ids": [
+         "https://openalex.org/I139264467"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/feduc.2026.1799651",
+     "doi": "https://doi.org/10.3389/feduc.2026.1799651",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/feduc.2026.1799651",
+     "pdf_url": "https://public-pages-files-2025.frontiersin.org/journals/education/articles/10.3389/feduc.2026.1799651/pdf",
+     "source": {
+      "id": "https://openalex.org/S2596526815",
+      "display_name": "Frontiers in Education",
+      "issn_l": "2504-284X",
+      "issn": [
+       "2504-284X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "norway-1",
+       "poland-20",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Education",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2961841975",
+    "doi": "https://doi.org/10.1111/1541-4329.12170",
+    "title": "Taking Notes: There's a Lot More to It than Meets the Eye",
+    "display_name": "Taking Notes: There's a Lot More to It than Meets the Eye",
+    "publication_year": 2019,
+    "cited_by_count": 7,
+    "abstract_inverted_index": {
+     "As": [
+      0,
+      335,
+      450,
+      783,
+      1228,
+      1819,
+      2674
+     ],
+     "I": [
+      1,
+      3,
+      29,
+      58,
+      67,
+      160,
+      163,
+      538,
+      2021,
+      2553,
+      2676
+     ],
+     "teach,": [
+      2
+     ],
+     "have": [
+      4,
+      1148,
+      1805,
+      2503,
+      2535,
+      2554,
+      2597,
+      2685
+     ],
+     "gotten": [
+      5
+     ],
+     "into": [
+      6,
+      396,
+      467,
+      1326
+     ],
+     "the": [
+      7,
+      12,
+      21,
+      40,
+      56,
+      61,
+      70,
+      141,
+      152,
+      170,
+      206,
+      230,
+      253,
+      262,
+      309,
+      372,
+      379,
+      390,
+      425,
+      437,
+      461,
+      465,
+      475,
+      490,
+      499,
+      507,
+      511,
+      575,
+      584,
+      599,
+      611,
+      637,
+      684,
+      733,
+      751,
+      859,
+      873,
+      916,
+      947,
+      950,
+      986,
+      989,
+      992,
+      998,
+      1014,
+      1035,
+      1042,
+      1055,
+      1081,
+      1092,
+      1095,
+      1103,
+      1106,
+      1130,
+      1140,
+      1168,
+      1171,
+      1178,
+      1209,
+      1222,
+      1225,
+      1229,
+      1232,
+      1242,
+      1261,
+      1274,
+      1455,
+      1466,
+      1533,
+      1542,
+      1552,
+      1561,
+      1570,
+      1595,
+      1624,
+      1649,
+      1653,
+      1660,
+      1668,
+      1678,
+      1707,
+      1719,
+      1729,
+      1808,
+      1856,
+      1893,
+      1945,
+      1956,
+      2017,
+      2055,
+      2137,
+      2146,
+      2151,
+      2161,
+      2173,
+      2186,
+      2194,
+      2209,
+      2217,
+      2221,
+      2230,
+      2239,
+      2280,
+      2285,
+      2288,
+      2291,
+      2293,
+      2295,
+      2341,
+      2357,
+      2366,
+      2377,
+      2402,
+      2426,
+      2439,
+      2456,
+      2474,
+      2500,
+      2508,
+      2525,
+      2603,
+      2672,
+      2729,
+      2737
+     ],
+     "habit": [
+      8,
+      17
+     ],
+     "of": [
+      9,
+      18,
+      26,
+      44,
+      72,
+      74,
+      103,
+      138,
+      205,
+      232,
+      247,
+      255,
+      278,
+      333,
+      354,
+      385,
+      393,
+      429,
+      463,
+      487,
+      521,
+      583,
+      822,
+      861,
+      878,
+      918,
+      925,
+      939,
+      1094,
+      1185,
+      1211,
+      1231,
+      1263,
+      1333,
+      1454,
+      1497,
+      1554,
+      1597,
+      1605,
+      1623,
+      1652,
+      1690,
+      1721,
+      1865,
+      1892,
+      2032,
+      2069,
+      2108,
+      2136,
+      2150,
+      2160,
+      2259,
+      2309,
+      2320,
+      2379,
+      2384,
+      2460,
+      2505,
+      2524,
+      2539,
+      2549,
+      2593,
+      2647,
+      2682,
+      2706,
+      2731,
+      2739
+     ],
+     "walking": [
+      10,
+      54,
+      139
+     ],
+     "around": [
+      11,
+      20,
+      39,
+      55,
+      140
+     ],
+     "classroom.": [
+      13
+     ],
+     "In": [
+      14,
+      64,
+      127,
+      857,
+      935,
+      1180,
+      1260,
+      1370
+     ],
+     "part,": [
+      15
+     ],
+     "my": [
+      16,
+      45,
+      86,
+      119,
+      154,
+      208,
+      250,
+      2128,
+      2413,
+      2561,
+      2707
+     ],
+     "strolling": [
+      19
+     ],
+     "room": [
+      22,
+      142,
+      1705,
+      1741
+     ],
+     "was": [
+      23,
+      59,
+      68,
+      164,
+      1011,
+      1050,
+      1099,
+      1110,
+      1204,
+      2119,
+      2132,
+      2143,
+      2164,
+      2723
+     ],
+     "developed": [
+      24,
+      1724
+     ],
+     "out": [
+      25,
+      1331,
+      1752,
+      1896
+     ],
+     "necessity,": [
+      27
+     ],
+     "as": [
+      28,
+      214,
+      216,
+      300,
+      669,
+      671,
+      807,
+      809,
+      988,
+      1618,
+      1698,
+      1700,
+      1716,
+      1718,
+      1762,
+      1793,
+      1797,
+      1907,
+      1954,
+      2081,
+      2083,
+      2255,
+      2344,
+      2429,
+      2431,
+      2692,
+      2694
+     ],
+     "began": [
+      30
+     ],
+     "to": [
+      31,
+      89,
+      92,
+      96,
+      121,
+      145,
+      150,
+      178,
+      184,
+      224,
+      226,
+      240,
+      249,
+      284,
+      294,
+      404,
+      446,
+      501,
+      545,
+      550,
+      564,
+      590,
+      680,
+      694,
+      711,
+      740,
+      757,
+      834,
+      840,
+      872,
+      937,
+      955,
+      1053,
+      1075,
+      1089,
+      1120,
+      1123,
+      1136,
+      1156,
+      1160,
+      1182,
+      1191,
+      1239,
+      1246,
+      1268,
+      1284,
+      1292,
+      1303,
+      1328,
+      1354,
+      1429,
+      1438,
+      1518,
+      1582,
+      1592,
+      1599,
+      1630,
+      1636,
+      1659,
+      1667,
+      1672,
+      1676,
+      1681,
+      1709,
+      1744,
+      1750,
+      1768,
+      1776,
+      1787,
+      1807,
+      1814,
+      1827,
+      1830,
+      1837,
+      1887,
+      1922,
+      1934,
+      1937,
+      1944,
+      1977,
+      1988,
+      2023,
+      2046,
+      2124,
+      2184,
+      2192,
+      2225,
+      2229,
+      2238,
+      2249,
+      2253,
+      2300,
+      2302,
+      2363,
+      2412,
+      2444,
+      2455,
+      2467,
+      2491,
+      2521,
+      2590,
+      2688,
+      2718
+     ],
+     "teach": [
+      32
+     ],
+     "larger": [
+      33,
+      35
+     ],
+     "and": [
+      34,
+      47,
+      123,
+      166,
+      186,
+      198,
+      274,
+      297,
+      329,
+      340,
+      352,
+      356,
+      363,
+      382,
+      505,
+      566,
+      593,
+      634,
+      686,
+      689,
+      699,
+      735,
+      745,
+      760,
+      796,
+      804,
+      849,
+      960,
+      970,
+      976,
+      1028,
+      1033,
+      1037,
+      1047,
+      1105,
+      1166,
+      1198,
+      1214,
+      1254,
+      1290,
+      1301,
+      1306,
+      1343,
+      1381,
+      1399,
+      1449,
+      1471,
+      1478,
+      1524,
+      1548,
+      1612,
+      1642,
+      1736,
+      1749,
+      1870,
+      1873,
+      1882,
+      1890,
+      1900,
+      1919,
+      1942,
+      1983,
+      2009,
+      2063,
+      2148,
+      2189,
+      2204,
+      2227,
+      2251,
+      2290,
+      2306,
+      2334,
+      2395,
+      2409,
+      2472,
+      2476,
+      2531,
+      2579,
+      2612,
+      2639,
+      2654,
+      2710,
+      2733
+     ],
+     "enrollment": [
+      36
+     ],
+     "classes.": [
+      37
+     ],
+     "Walking": [
+      38
+     ],
+     "classroom": [
+      41,
+      50,
+      2690
+     ],
+     "became": [
+      42
+     ],
+     "one": [
+      43,
+      582,
+      1420,
+      1482,
+      1622,
+      1883,
+      2135,
+      2182,
+      2190
+     ],
+     "tried": [
+      46
+     ],
+     "true": [
+      48
+     ],
+     "good": [
+      49,
+      258,
+      721,
+      1822
+     ],
+     "management": [
+      51
+     ],
+     "practices.": [
+      52
+     ],
+     "By": [
+      53
+     ],
+     "room,": [
+      57
+     ],
+     "\u201cworking": [
+      60
+     ],
+     "crowd\u201d": [
+      62
+     ],
+     "so-to-speak.": [
+      63
+     ],
+     "educational": [
+      65
+     ],
+     "terminology,": [
+      66
+     ],
+     "employing": [
+      69
+     ],
+     "concept": [
+      71,
+      1881
+     ],
+     "zones": [
+      73
+     ],
+     "proximity": [
+      75,
+      79,
+      116
+     ],
+     "(Jones,": [
+      76
+     ],
+     "2007)": [
+      77
+     ],
+     "or": [
+      78,
+      417,
+      469,
+      616,
+      618,
+      780,
+      889,
+      1068,
+      1557,
+      1715,
+      1958,
+      2004,
+      2437
+     ],
+     "control": [
+      80
+     ],
+     "(Catapano,": [
+      81
+     ],
+     "n.d.);": [
+      82
+     ],
+     "that": [
+      83,
+      349,
+      409,
+      442,
+      509,
+      525,
+      542,
+      560,
+      573,
+      601,
+      692,
+      737,
+      743,
+      750,
+      831,
+      980,
+      1063,
+      1114,
+      1132,
+      1202,
+      1248,
+      1323,
+      1347,
+      1389,
+      1536,
+      1564,
+      1621,
+      1648,
+      1840,
+      1851,
+      1884,
+      1909,
+      2266,
+      2314,
+      2418,
+      2557,
+      2595
+     ],
+     "is,": [
+      84,
+      290,
+      306,
+      434,
+      967,
+      1476,
+      1545
+     ],
+     "using": [
+      85,
+      673,
+      963,
+      1041,
+      1426,
+      2113
+     ],
+     "physical": [
+      87
+     ],
+     "presence": [
+      88
+     ],
+     "get": [
+      90,
+      1935,
+      2671
+     ],
+     "students": [
+      91,
+      120,
+      155,
+      209,
+      251,
+      498,
+      548,
+      588,
+      597,
+      710,
+      877,
+      888,
+      1119,
+      1163,
+      1220,
+      1226,
+      1247,
+      1349,
+      1373,
+      1390,
+      1408,
+      1424,
+      1505,
+      1584,
+      1683,
+      1708,
+      1743,
+      1804,
+      1826,
+      1843,
+      1910,
+      1921,
+      1933,
+      1976,
+      2037,
+      2057,
+      2074,
+      2091,
+      2103,
+      2154,
+      2267,
+      2614
+     ],
+     "pay": [
+      93,
+      758
+     ],
+     "attention,": [
+      94
+     ],
+     "response": [
+      95
+     ],
+     "a": [
+      97,
+      100,
+      133,
+      179,
+      199,
+      272,
+      301,
+      322,
+      330,
+      346,
+      494,
+      571,
+      713,
+      868,
+      900,
+      958,
+      964,
+      1070,
+      1193,
+      1205,
+      1352,
+      1485,
+      1495,
+      1640,
+      1798,
+      2002,
+      2006,
+      2030,
+      2048,
+      2066,
+      2114,
+      2126,
+      2247,
+      2537,
+      2546
+     ],
+     "question,": [
+      98
+     ],
+     "decrease": [
+      99,
+      1784
+     ],
+     "student's": [
+      101
+     ],
+     "feeling": [
+      102,
+      1496
+     ],
+     "anonymity,": [
+      104
+     ],
+     "or,": [
+      105
+     ],
+     "if": [
+      106,
+      318,
+      610,
+      1348,
+      1847,
+      1999,
+      2010,
+      2618
+     ],
+     "need": [
+      107,
+      544,
+      1811,
+      1886,
+      2545
+     ],
+     "be,": [
+      108
+     ],
+     "dissuade": [
+      109
+     ],
+     "someone": [
+      110
+     ],
+     "from": [
+      111,
+      1129,
+      1916,
+      2270
+     ],
+     "being": [
+      112,
+      818,
+      2165,
+      2463
+     ],
+     "disruptive.": [
+      113
+     ],
+     "My": [
+      114,
+      2392
+     ],
+     "close": [
+      115
+     ],
+     "naturally": [
+      117
+     ],
+     "caused": [
+      118,
+      222
+     ],
+     "focus": [
+      122,
+      746
+     ],
+     "often": [
+      124,
+      1244
+     ],
+     "times": [
+      125
+     ],
+     "participate!": [
+      126
+     ],
+     "most": [
+      128,
+      585,
+      719,
+      1456,
+      2378
+     ],
+     "cases,": [
+      129
+     ],
+     "it": [
+      130,
+      280,
+      286,
+      299,
+      420,
+      479,
+      503,
+      523,
+      540,
+      663,
+      1061,
+      1115,
+      1153,
+      2245,
+      2277,
+      2466,
+      2488,
+      2551,
+      2696
+     ],
+     "works": [
+      131
+     ],
+     "like": [
+      132,
+      219,
+      2321
+     ],
+     "charm!": [
+      134
+     ],
+     "Now": [
+      135,
+      2543
+     ],
+     "this": [
+      136,
+      518,
+      1059,
+      1145,
+      1417,
+      1436,
+      1674,
+      1877,
+      1993,
+      2026,
+      2385
+     ],
+     "practice": [
+      137,
+      1474,
+      1480,
+      1930,
+      1994,
+      2087
+     ],
+     "also": [
+      143,
+      1154,
+      1188,
+      1664
+     ],
+     "led": [
+      144,
+      238
+     ],
+     "something": [
+      146
+     ],
+     "else\u2014it": [
+      147
+     ],
+     "allowed": [
+      148
+     ],
+     "me": [
+      149,
+      223,
+      239,
+      1415
+     ],
+     "observe": [
+      151
+     ],
+     "notes": [
+      153,
+      207,
+      260,
+      527,
+      595,
+      612,
+      791,
+      892,
+      1065,
+      1104,
+      1127,
+      1186,
+      1212,
+      1219,
+      1362,
+      1368,
+      1377,
+      1394,
+      1398,
+      1428,
+      1556,
+      1713,
+      1723,
+      1730,
+      1748,
+      1782,
+      2060,
+      2109,
+      2152,
+      2203,
+      2262,
+      2287,
+      2294,
+      2310,
+      2325,
+      2519,
+      2630,
+      2636,
+      2648,
+      2655
+     ],
+     "were": [
+      156,
+      210,
+      2155,
+      2623
+     ],
+     "taking": [
+      157,
+      256,
+      269,
+      344,
+      395,
+      411,
+      441,
+      458,
+      526,
+      577,
+      580,
+      650,
+      716,
+      723,
+      770,
+      779,
+      790,
+      865,
+      995,
+      1001,
+      1017,
+      1045,
+      1064,
+      1277,
+      1316,
+      1336,
+      1569,
+      1634,
+      1824,
+      2041,
+      2050,
+      2096,
+      2202,
+      2271,
+      2541
+     ],
+     "during": [
+      158,
+      747,
+      1541,
+      1973,
+      2012,
+      2329,
+      2529
+     ],
+     "class.": [
+      159,
+      2215
+     ],
+     "must": [
+      161,
+      1506
+     ],
+     "admit,": [
+      162
+     ],
+     "surprised": [
+      165
+     ],
+     "somewhat": [
+      167,
+      1401
+     ],
+     "shocked": [
+      168
+     ],
+     "at": [
+      169,
+      371,
+      826,
+      1484,
+      1947,
+      2035,
+      2736
+     ],
+     "exceedingly": [
+      171
+     ],
+     "wide": [
+      172
+     ],
+     "variation": [
+      173
+     ],
+     "in": [
+      174,
+      314,
+      435,
+      474,
+      482,
+      493,
+      556,
+      570,
+      863,
+      932,
+      946,
+      991,
+      1009,
+      1125,
+      1256,
+      1510,
+      1514,
+      1639,
+      1771,
+      1812,
+      1926,
+      1959,
+      2005,
+      2054,
+      2121,
+      2134,
+      2275,
+      2353,
+      2479,
+      2499,
+      2514,
+      2704,
+      2728
+     ],
+     "quantity": [
+      175,
+      1184,
+      1210
+     ],
+     "(from": [
+      176,
+      182
+     ],
+     "none": [
+      177
+     ],
+     "lot),": [
+      180
+     ],
+     "quality": [
+      181,
+      259,
+      1093
+     ],
+     "poor": [
+      183
+     ],
+     "excellent),": [
+      185
+     ],
+     "format": [
+      187
+     ],
+     "(mostly": [
+      188
+     ],
+     "just": [
+      189,
+      307,
+      530,
+      895,
+      1410,
+      1447,
+      2279,
+      2406,
+      2485
+     ],
+     "words,": [
+      190,
+      676
+     ],
+     "phrases,": [
+      191
+     ],
+     "and/or": [
+      192
+     ],
+     "sentences,": [
+      193
+     ],
+     "but": [
+      194,
+      661,
+      718,
+      1499,
+      1662,
+      1738,
+      2510,
+      2599,
+      2669
+     ],
+     "some": [
+      195,
+      245,
+      709,
+      944,
+      1311,
+      1320,
+      1332,
+      1372,
+      1688,
+      1704,
+      2159,
+      2681
+     ],
+     "contained": [
+      196
+     ],
+     "diagrams": [
+      197
+     ],
+     "few": [
+      200
+     ],
+     "even": [
+      201,
+      1996
+     ],
+     "used": [
+      202,
+      1936,
+      2317
+     ],
+     "color": [
+      203
+     ],
+     "coding)": [
+      204
+     ],
+     "taking.": [
+      211,
+      234,
+      1259
+     ],
+     "This": [
+      212,
+      235,
+      1112,
+      1695,
+      1929,
+      2117,
+      2700
+     ],
+     "experience,": [
+      213
+     ],
+     "well": [
+      215,
+      808,
+      1906,
+      2082,
+      2693
+     ],
+     "many": [
+      217,
+      821,
+      1781
+     ],
+     "others": [
+      218
+     ],
+     "it,": [
+      220
+     ],
+     "has": [
+      221,
+      237,
+      443,
+      829,
+      837,
+      1187,
+      2219
+     ],
+     "want": [
+      225,
+      1591,
+      2022
+     ],
+     "learn": [
+      227,
+      549,
+      2092
+     ],
+     "more": [
+      228,
+      413,
+      480,
+      799,
+      1218,
+      1223,
+      1266,
+      1283,
+      1360,
+      1396,
+      1997,
+      2286,
+      2527,
+      2666
+     ],
+     "about": [
+      229,
+      252,
+      654,
+      665,
+      915,
+      1425,
+      2145,
+      2687
+     ],
+     "task": [
+      231,
+      304
+     ],
+     "note": [
+      233,
+      268,
+      316,
+      394,
+      410,
+      440,
+      553,
+      576,
+      649,
+      715,
+      722,
+      752,
+      769,
+      778,
+      864,
+      914,
+      940,
+      994,
+      1000,
+      1016,
+      1044,
+      1258,
+      1264,
+      1276,
+      1633,
+      1823,
+      2040,
+      2049,
+      2079,
+      2095,
+      2187,
+      2197,
+      2540
+     ],
+     "quest": [
+      236
+     ],
+     "start": [
+      241
+     ],
+     "each": [
+      242,
+      2111,
+      2177,
+      2312
+     ],
+     "semester": [
+      243
+     ],
+     "with": [
+      244,
+      732,
+      793,
+      1069,
+      1241,
+      1289,
+      1351,
+      1419,
+      1608,
+      1687,
+      1703,
+      1844,
+      1854,
+      1915,
+      2001,
+      2075,
+      2637,
+      2697
+     ],
+     "words": [
+      246,
+      468,
+      2440,
+      2506,
+      2638,
+      2644
+     ],
+     "encouragement": [
+      248
+     ],
+     "importance": [
+      254,
+      1874
+     ],
+     "sufficient,": [
+      257
+     ],
+     "while": [
+      261,
+      366
+     ],
+     "learning": [
+      263,
+      508,
+      1462,
+      1800,
+      2370,
+      2513
+     ],
+     "experience": [
+      264,
+      1567
+     ],
+     "is": [
+      265,
+      270,
+      321,
+      345,
+      528,
+      581,
+      651,
+      664,
+      772,
+      789,
+      930,
+      943,
+      983,
+      1091,
+      1116,
+      1278,
+      1281,
+      1319,
+      1635,
+      1646,
+      1655,
+      1663,
+      1675,
+      1836,
+      1878,
+      1995,
+      2019,
+      2045,
+      2171,
+      2199,
+      2246,
+      2278,
+      2284,
+      2298,
+      2339,
+      2356,
+      2421,
+      2452,
+      2462,
+      2489,
+      2567,
+      2574,
+      2581,
+      2702
+     ],
+     "happening.": [
+      266
+     ],
+     "Since": [
+      267
+     ],
+     "such": [
+      271,
+      1953
+     ],
+     "routine": [
+      273
+     ],
+     "\u201cjust": [
+      275
+     ],
+     "expected\u201d": [
+      276
+     ],
+     "aspect": [
+      277
+     ],
+     "schooling,1": [
+      279
+     ],
+     "may": [
+      281,
+      705,
+      1147,
+      1374,
+      1783,
+      2609
+     ],
+     "be": [
+      282,
+      551,
+      604,
+      643,
+      706,
+      741,
+      755,
+      841,
+      867,
+      1121,
+      1137,
+      1251,
+      1269,
+      1507,
+      1539,
+      1697,
+      1769,
+      1838,
+      1912,
+      2185,
+      2193,
+      2316
+     ],
+     "easy": [
+      283
+     ],
+     "take": [
+      285,
+      295,
+      956,
+      1745,
+      1788
+     ],
+     "for": [
+      287,
+      636,
+      646,
+      696,
+      708,
+      845,
+      953,
+      1118,
+      1378,
+      1423,
+      1431,
+      1587,
+      1706,
+      1742,
+      1816,
+      1975,
+      2061,
+      2110,
+      2201,
+      2241,
+      2311,
+      2323,
+      2360,
+      2606
+     ],
+     "granted": [
+      288
+     ],
+     "(that": [
+      289,
+      305,
+      966,
+      1475,
+      1544
+     ],
+     "everyone": [
+      291
+     ],
+     "knows": [
+      292
+     ],
+     "how": [
+      293,
+      904,
+      1327,
+      1581,
+      1772,
+      2172
+     ],
+     "notes)": [
+      296
+     ],
+     "view": [
+      298
+     ],
+     "rather": [
+      302,
+      762,
+      2014
+     ],
+     "effortless": [
+      303
+     ],
+     "write": [
+      308,
+      1710,
+      2492
+     ],
+     "important": [
+      310,
+      586,
+      1117,
+      1169,
+      1880,
+      2403
+     ],
+     "stuff": [
+      311
+     ],
+     "down).": [
+      312
+     ],
+     "However,": [
+      313,
+      419,
+      609,
+      1022,
+      1078,
+      1383
+     ],
+     "actuality,": [
+      315
+     ],
+     "taking,": [
+      317,
+      941,
+      1265,
+      2080,
+      2156
+     ],
+     "done": [
+      319,
+      885,
+      2000,
+      2011
+     ],
+     "effectively,": [
+      320
+     ],
+     "very": [
+      323,
+      644,
+      869,
+      1252
+     ],
+     "demanding": [
+      324
+     ],
+     "task,": [
+      325
+     ],
+     "requiring": [
+      326
+     ],
+     "both": [
+      327,
+      1164,
+      1855,
+      2332
+     ],
+     "skill": [
+      328
+     ],
+     "great": [
+      331
+     ],
+     "deal": [
+      332
+     ],
+     "effort!": [
+      334
+     ],
+     "expressed": [
+      336
+     ],
+     "by": [
+      337,
+      452,
+      887,
+      922,
+      974,
+      1025,
+      1066,
+      1340,
+      1610,
+      1684,
+      1725,
+      2028,
+      2167,
+      2318,
+      2389
+     ],
+     "Piolat,": [
+      338
+     ],
+     "Olive,": [
+      339
+     ],
+     "Kellogg": [
+      341
+     ],
+     "(2005),": [
+      342
+     ],
+     "\u201cNote": [
+      343
+     ],
+     "complex": [
+      347
+     ],
+     "activity": [
+      348
+     ],
+     "requires": [
+      350,
+      421,
+      724,
+      1825
+     ],
+     "comprehension": [
+      351
+     ],
+     "selection": [
+      353
+     ],
+     "information": [
+      355,
+      459,
+      466,
+      491,
+      600,
+      1224,
+      1638,
+      1654
+     ],
+     "written": [
+      357,
+      427
+     ],
+     "production": [
+      358
+     ],
+     "processes.\u201d": [
+      359
+     ],
+     "Selecting": [
+      360
+     ],
+     "key": [
+      361,
+      627,
+      1312,
+      1647
+     ],
+     "points": [
+      362
+     ],
+     "recording": [
+      364
+     ],
+     "them": [
+      365,
+      1686,
+      1853,
+      2085,
+      2206,
+      2254,
+      2616,
+      2621
+     ],
+     "comprehending": [
+      367
+     ],
+     "new": [
+      368,
+      472,
+      495,
+      768,
+      1299
+     ],
+     "information,": [
+      369,
+      1733
+     ],
+     "all": [
+      370,
+      517,
+      559,
+      2594
+     ],
+     "same": [
+      373,
+      1043,
+      1562,
+      2342,
+      2604
+     ],
+     "time,": [
+      374
+     ],
+     "presents": [
+      375
+     ],
+     "sizeable": [
+      376
+     ],
+     "demands": [
+      377,
+      412
+     ],
+     "on": [
+      378,
+      403,
+      632,
+      1003,
+      1019,
+      1080,
+      1139,
+      1159,
+      1177,
+      1404,
+      1437,
+      1446,
+      1580,
+      1714,
+      1955,
+      2077,
+      2158,
+      2208,
+      2507
+     ],
+     "central": [
+      380
+     ],
+     "executive": [
+      381
+     ],
+     "other": [
+      383,
+      681,
+      1558,
+      1917
+     ],
+     "components": [
+      384
+     ],
+     "working": [
+      386,
+      631
+     ],
+     "memory.": [
+      387,
+      484
+     ],
+     "To": [
+      388
+     ],
+     "put": [
+      389
+     ],
+     "effort": [
+      391,
+      414,
+      423,
+      438,
+      2123
+     ],
+     "required": [
+      392
+     ],
+     "perspective,": [
+      397
+     ],
+     "Piolat": [
+      398
+     ],
+     "et": [
+      399,
+      1083,
+      1385,
+      1990
+     ],
+     "al.": [
+      400,
+      1084,
+      1386,
+      1991
+     ],
+     "(2005)": [
+      401
+     ],
+     "go": [
+      402
+     ],
+     "say,": [
+      405
+     ],
+     "\u201cComparative": [
+      406
+     ],
+     "data": [
+      407
+     ],
+     "show": [
+      408,
+      2350
+     ],
+     "than": [
+      415,
+      424,
+      456,
+      763,
+      985,
+      1271,
+      1363,
+      1407,
+      2015,
+      2569,
+      2576,
+      2583,
+      2633,
+      2643,
+      2651,
+      2658
+     ],
+     "reading": [
+      416
+     ],
+     "learning.": [
+      418,
+      449,
+      647
+     ],
+     "less": [
+      422
+     ],
+     "creative": [
+      426
+     ],
+     "composition": [
+      428
+     ],
+     "an": [
+      430,
+      531,
+      842,
+      1701,
+      1879,
+      2105,
+      2122,
+      2304,
+      2555,
+      2724
+     ],
+     "original": [
+      431,
+      1056,
+      1361
+     ],
+     "text.\u201d": [
+      432
+     ],
+     "It": [
+      433,
+      704,
+      1615,
+      1645
+     ],
+     "fact,": [
+      436,
+      2276
+     ],
+     "behind": [
+      439
+     ],
+     "been": [
+      444,
+      838,
+      1189
+     ],
+     "tied": [
+      445
+     ],
+     "improved": [
+      447
+     ],
+     "student": [
+      448,
+      954,
+      2183,
+      2191
+     ],
+     "discussed": [
+      451,
+      1794,
+      1820,
+      1839,
+      1902
+     ],
+     "Gonzalez": [
+      453
+     ],
+     "(2018),": [
+      454
+     ],
+     "\u201cRather": [
+      455
+     ],
+     "passively": [
+      457
+     ],
+     "in,": [
+      460
+     ],
+     "act": [
+      462
+     ],
+     "encoding": [
+      464,
+      2365,
+      2387
+     ],
+     "pictures": [
+      470
+     ],
+     "forms": [
+      471
+     ],
+     "pathways": [
+      473
+     ],
+     "brain,": [
+      476
+     ],
+     "which": [
+      477,
+      2338,
+      2608
+     ],
+     "stores": [
+      478
+     ],
+     "firmly": [
+      481
+     ],
+     "long-term": [
+      483
+     ],
+     "On": [
+      485
+     ],
+     "top": [
+      486
+     ],
+     "that,": [
+      488
+     ],
+     "having": [
+      489,
+      1832,
+      2133,
+      2345
+     ],
+     "stored": [
+      492
+     ],
+     "place": [
+      496
+     ],
+     "gives": [
+      497
+     ],
+     "opportunity": [
+      500
+     ],
+     "revisit": [
+      502
+     ],
+     "later": [
+      504,
+      847,
+      1134,
+      1176
+     ],
+     "reinforce": [
+      506
+     ],
+     "happened": [
+      510
+     ],
+     "first": [
+      512,
+      2044,
+      2400
+     ],
+     "time": [
+      513,
+      1575,
+      2359,
+      2388
+     ],
+     "around.\u201d": [
+      514
+     ],
+     "What": [
+      515
+     ],
+     "does": [
+      516,
+      1072,
+      1501,
+      2263
+     ],
+     "mean?": [
+      519
+     ],
+     "First": [
+      520
+     ],
+     "all,": [
+      522
+     ],
+     "means": [
+      524,
+      541
+     ],
+     "not": [
+      529,
+      642,
+      652,
+      894,
+      1051,
+      1073,
+      1442,
+      1502,
+      1527,
+      1656,
+      2264,
+      2340,
+      2511
+     ],
+     "archaic": [
+      532
+     ],
+     "scholastic": [
+      533
+     ],
+     "ritual\u2014it": [
+      534
+     ],
+     "really": [
+      535,
+      2435,
+      2496
+     ],
+     "matters!": [
+      536
+     ],
+     "Second,": [
+      537
+     ],
+     "think": [
+      539
+     ],
+     "we": [
+      543,
+      561,
+      1774,
+      2368,
+      2544,
+      2596,
+      2600,
+      2663,
+      2684
+     ],
+     "help": [
+      546,
+      1161,
+      1553,
+      1583,
+      1852,
+      2090,
+      2559,
+      2610
+     ],
+     "our": [
+      547,
+      568,
+      905,
+      1162,
+      1682,
+      1777,
+      2613
+     ],
+     "effective": [
+      552,
+      1998,
+      2094
+     ],
+     "takers": [
+      554
+     ],
+     "and,": [
+      555,
+      2243
+     ],
+     "turn,": [
+      557
+     ],
+     "do": [
+      558,
+      563,
+      589,
+      893,
+      1629,
+      2602
+     ],
+     "can": [
+      562,
+      1628,
+      1764,
+      2315,
+      2433,
+      2601,
+      2679
+     ],
+     "prepare": [
+      565,
+      1430,
+      1586,
+      1815
+     ],
+     "deliver": [
+      567
+     ],
+     "materials": [
+      569,
+      736,
+      1809
+     ],
+     "manner": [
+      572
+     ],
+     "facilitates": [
+      574
+     ],
+     "process.": [
+      578
+     ],
+     "Note": [
+      579
+     ],
+     "tasks": [
+      587
+     ],
+     "learn.": [
+      591
+     ],
+     "Pure": [
+      592
+     ],
+     "simple\u2014taking": [
+      594
+     ],
+     "helps": [
+      596
+     ],
+     "recall": [
+      598
+     ],
+     "would": [
+      602,
+      2416
+     ],
+     "otherwise": [
+      603
+     ],
+     "lost": [
+      605
+     ],
+     "(GoodNotes": [
+      606,
+      701
+     ],
+     "Blog,": [
+      607,
+      702
+     ],
+     "2018).": [
+      608,
+      703
+     ],
+     "taken": [
+      613,
+      1213
+     ],
+     "are": [
+      614,
+      738,
+      824,
+      1133,
+      1310,
+      1464,
+      1526,
+      1861,
+      1951,
+      2236,
+      2268,
+      2369,
+      2442,
+      2631,
+      2641,
+      2649,
+      2656
+     ],
+     "skimpy": [
+      615
+     ],
+     "sketchy,": [
+      617
+     ],
+     "worse": [
+      619
+     ],
+     "yet,": [
+      620
+     ],
+     "nonexistent,": [
+      621
+     ],
+     "when": [
+      622,
+      1568,
+      1949
+     ],
+     "needed": [
+      623
+     ],
+     "(for": [
+      624,
+      728,
+      1858,
+      1875
+     ],
+     "example,": [
+      625,
+      729,
+      1859,
+      1876
+     ],
+     "reviewing": [
+      626
+     ],
+     "concepts": [
+      628,
+      668,
+      679,
+      682,
+      1300,
+      1904,
+      1908
+     ],
+     "after": [
+      629,
+      2016,
+      2214,
+      2625
+     ],
+     "class,": [
+      630,
+      1831,
+      2013,
+      2530
+     ],
+     "assignments,": [
+      633
+     ],
+     "preparing": [
+      635
+     ],
+     "upcoming": [
+      638,
+      1817
+     ],
+     "exam),": [
+      639
+     ],
+     "they": [
+      640,
+      898,
+      1173,
+      1249,
+      1358,
+      1810,
+      1950,
+      2622
+     ],
+     "will": [
+      641,
+      754,
+      1174,
+      1538,
+      1566,
+      1590,
+      1931,
+      2089
+     ],
+     "helpful": [
+      645,
+      707
+     ],
+     "Effective": [
+      648
+     ],
+     "simply": [
+      653,
+      800
+     ],
+     "jotting": [
+      655
+     ],
+     "down": [
+      656,
+      2424,
+      2478,
+      2494
+     ],
+     "every": [
+      657
+     ],
+     "word": [
+      658
+     ],
+     "you": [
+      659,
+      1149,
+      1537,
+      1565,
+      1589,
+      1763,
+      1885,
+      2432,
+      2441,
+      2469,
+      2484,
+      2502,
+      2619,
+      2670,
+      2678
+     ],
+     "hear,": [
+      660
+     ],
+     "rather,": [
+      662,
+      2375
+     ],
+     "summarizing": [
+      666
+     ],
+     "core": [
+      667
+     ],
+     "accurately": [
+      670
+     ],
+     "possible": [
+      672,
+      2490
+     ],
+     "your": [
+      674,
+      1439,
+      1451,
+      1555,
+      2346,
+      2361,
+      2447,
+      2480,
+      2515,
+      2689,
+      2698
+     ],
+     "own": [
+      675,
+      1712,
+      1747,
+      1790,
+      2273,
+      2481
+     ],
+     "connecting": [
+      677,
+      2465
+     ],
+     "those": [
+      678,
+      1364
+     ],
+     "within": [
+      683,
+      2211
+     ],
+     "lecture": [
+      685,
+      727,
+      2112,
+      2313,
+      2330
+     ],
+     "between": [
+      687,
+      1013,
+      1102,
+      1208,
+      1898,
+      2405
+     ],
+     "lectures,": [
+      688
+     ],
+     "capturing": [
+      690
+     ],
+     "questions": [
+      691,
+      1308,
+      1550,
+      2162
+     ],
+     "come": [
+      693,
+      1828
+     ],
+     "mind": [
+      695,
+      2347
+     ],
+     "enhanced": [
+      697,
+      792
+     ],
+     "understanding": [
+      698,
+      2497,
+      2523
+     ],
+     "clarity": [
+      700
+     ],
+     "use": [
+      712,
+      860,
+      2242
+     ],
+     "specific": [
+      714
+     ],
+     "method,2": [
+      717
+     ],
+     "importantly,": [
+      720
+     ],
+     "preparation": [
+      725
+     ],
+     "before": [
+      726
+     ],
+     "familiarize": [
+      730
+     ],
+     "yourself": [
+      731
+     ],
+     "topics": [
+      734
+     ],
+     "scheduled": [
+      739
+     ],
+     "covered": [
+      742,
+      2536
+     ],
+     "day)": [
+      744
+     ],
+     "lecture,": [
+      748,
+      2178
+     ],
+     "so": [
+      749
+     ],
+     "taker": [
+      753,
+      2188,
+      2198
+     ],
+     "primed": [
+      756
+     ],
+     "attention": [
+      759
+     ],
+     "actively,": [
+      761
+     ],
+     "passively,": [
+      764
+     ],
+     "participate.": [
+      765
+     ],
+     "One": [
+      766,
+      1670
+     ],
+     "relatively": [
+      767
+     ],
+     "method": [
+      771
+     ],
+     "sketch": [
+      773,
+      787,
+      891,
+      913,
+      919
+     ],
+     "noting": [
+      774,
+      788
+     ],
+     "(also": [
+      775
+     ],
+     "called": [
+      776
+     ],
+     "visual": [
+      777
+     ],
+     "graphic": [
+      781
+     ],
+     "notes).": [
+      782
+     ],
+     "its": [
+      784
+     ],
+     "name": [
+      785
+     ],
+     "implies,": [
+      786
+     ],
+     "illustrations,": [
+      794
+     ],
+     "symbols,": [
+      795
+     ],
+     "structures": [
+      797
+     ],
+     "(or": [
+      798,
+      1692
+     ],
+     "put,": [
+      801
+     ],
+     "sketches,": [
+      802
+     ],
+     "doodles,": [
+      803
+     ],
+     "simple": [
+      805,
+      1699
+     ],
+     "drawings),": [
+      806
+     ],
+     "text": [
+      810
+     ],
+     "(Bell,": [
+      811
+     ],
+     "2015;": [
+      812
+     ],
+     "Neill,": [
+      813
+     ],
+     "n.d.;": [
+      814
+     ],
+     "Sketchnoting,": [
+      815
+     ],
+     "2019).": [
+      816,
+      1143,
+      1969
+     ],
+     "Besides": [
+      817
+     ],
+     "fun": [
+      819
+     ],
+     "(as": [
+      820,
+      1905
+     ],
+     "us": [
+      823,
+      1158,
+      2611
+     ],
+     "doodlers": [
+      825
+     ],
+     "heart),": [
+      827
+     ],
+     "research": [
+      828,
+      1024,
+      1322
+     ],
+     "shown": [
+      830,
+      1190
+     ],
+     "drawing,": [
+      832
+     ],
+     "compared": [
+      833
+     ],
+     "writing": [
+      835,
+      2423,
+      2443,
+      2473
+     ],
+     "alone,": [
+      836,
+      2645
+     ],
+     "found": [
+      839,
+      1012,
+      1346,
+      1388
+     ],
+     "efficacious": [
+      843
+     ],
+     "strategy": [
+      844
+     ],
+     "boosting": [
+      846
+     ],
+     "retention": [
+      848
+     ],
+     "memory": [
+      850,
+      2705
+     ],
+     "performance": [
+      851,
+      1010,
+      1109
+     ],
+     "(Wammes,": [
+      852
+     ],
+     "Meade,": [
+      853
+     ],
+     "&": [
+      854,
+      881,
+      1489,
+      1758,
+      1967
+     ],
+     "Fernandes,": [
+      855
+     ],
+     "2016).": [
+      856,
+      1760
+     ],
+     "addition,": [
+      858,
+      1371
+     ],
+     "images": [
+      862
+     ],
+     "should": [
+      866,
+      1250,
+      1287,
+      1911
+     ],
+     "appealing": [
+      870
+     ],
+     "idea": [
+      871,
+      2101,
+      2118,
+      2556
+     ],
+     "image-based": [
+      874
+     ],
+     "Generation": [
+      875
+     ],
+     "Z": [
+      876
+     ],
+     "today": [
+      879
+     ],
+     "(Elmore": [
+      880
+     ],
+     "McPeak,": [
+      882
+     ],
+     "2017).": [
+      883
+     ],
+     "When": [
+      884,
+      1097
+     ],
+     "well,": [
+      886
+     ],
+     "teacher,": [
+      890
+     ],
+     "capture": [
+      896,
+      1124,
+      1167
+     ],
+     "ideas,": [
+      897,
+      1170
+     ],
+     "tell": [
+      899,
+      2620
+     ],
+     "story.": [
+      901
+     ],
+     "And": [
+      902
+     ],
+     "oh,": [
+      903
+     ],
+     "brains": [
+      906
+     ],
+     "love": [
+      907
+     ],
+     "stories": [
+      908
+     ],
+     "(Heick,": [
+      909
+     ],
+     "2015)!": [
+      910
+     ],
+     "An": [
+      911
+     ],
+     "example": [
+      912,
+      1753
+     ],
+     "benefits": [
+      917
+     ],
+     "noting,": [
+      920
+     ],
+     "created": [
+      921
+     ],
+     "Heather": [
+      923
+     ],
+     "Willems": [
+      924
+     ],
+     "Two": [
+      926
+     ],
+     "Lines": [
+      927
+     ],
+     "Studios": [
+      928
+     ],
+     "(https://www.twolinestudios.com),": [
+      929
+     ],
+     "provided": [
+      931
+     ],
+     "Figure": [
+      933,
+      2351
+     ],
+     "1.": [
+      934
+     ],
+     "addition": [
+      936,
+      1181
+     ],
+     "methods": [
+      938,
+      1046
+     ],
+     "there": [
+      942,
+      1098,
+      1203,
+      1280,
+      1766,
+      1860
+     ],
+     "controversy": [
+      945
+     ],
+     "literature": [
+      948
+     ],
+     "regarding": [
+      949
+     ],
+     "best": [
+      951,
+      1329,
+      1578,
+      2086,
+      2324
+     ],
+     "way": [
+      952,
+      1671,
+      2548
+     ],
+     "notes\u2014using": [
+      957
+     ],
+     "pen": [
+      959,
+      982
+     ],
+     "paper": [
+      961
+     ],
+     "versus": [
+      962
+     ],
+     "device": [
+      965
+     ],
+     "laptop,": [
+      968
+     ],
+     "tablet,": [
+      969
+     ],
+     "cell": [
+      971
+     ],
+     "phone).": [
+      972
+     ],
+     "Research": [
+      973
+     ],
+     "Mueller": [
+      975,
+      1036
+     ],
+     "Oppenheimer": [
+      977,
+      1038
+     ],
+     "(2014)": [
+      978,
+      1039
+     ],
+     "determined": [
+      979
+     ],
+     "\u201cthe": [
+      981
+     ],
+     "mightier": [
+      984
+     ],
+     "keyboard,\u201d": [
+      987
+     ],
+     "participants": [
+      990
+     ],
+     "longhand": [
+      993
+     ],
+     "group": [
+      996,
+      1002
+     ],
+     "outperformed": [
+      997
+     ],
+     "laptop": [
+      999,
+      1071
+     ],
+     "conceptual": [
+      1004
+     ],
+     "questions.": [
+      1005,
+      1021
+     ],
+     "Though": [
+      1006,
+      1144
+     ],
+     "no": [
+      1007,
+      1573,
+      1619,
+      2584,
+      2659
+     ],
+     "difference": [
+      1008
+     ],
+     "two": [
+      1015,
+      1862
+     ],
+     "groups": [
+      1018
+     ],
+     "factual": [
+      1020
+     ],
+     "recent": [
+      1023
+     ],
+     "Morehead,": [
+      1026
+     ],
+     "Dunlosky,": [
+      1027
+     ],
+     "Rawson": [
+      1029
+     ],
+     "(2019),": [
+      1030
+     ],
+     "who": [
+      1031,
+      1365,
+      1391,
+      1409,
+      2722
+     ],
+     "replicated": [
+      1032
+     ],
+     "extended": [
+      1034
+     ],
+     "study": [
+      1040,
+      1048,
+      1233,
+      1339
+     ],
+     "materials,": [
+      1049
+     ],
+     "able": [
+      1052,
+      1122
+     ],
+     "reproduce": [
+      1054
+     ],
+     "findings.3": [
+      1057
+     ],
+     "At": [
+      1058
+     ],
+     "point,": [
+      1060
+     ],
+     "appears": [
+      1062,
+      1267
+     ],
+     "hand": [
+      1067
+     ],
+     "seem": [
+      1074
+     ],
+     "matter": [
+      1076,
+      1090
+     ],
+     "much.": [
+      1077
+     ],
+     "based": [
+      1079,
+      2157
+     ],
+     "Morehead": [
+      1082
+     ],
+     "(2019)": [
+      1085
+     ],
+     "study,": [
+      1086
+     ],
+     "what": [
+      1087,
+      1529,
+      1835,
+      2093,
+      2425,
+      2461,
+      2468,
+      2683
+     ],
+     "seems": [
+      1088
+     ],
+     "notes.": [
+      1096,
+      1294,
+      1413,
+      1452,
+      1694,
+      1928,
+      1986,
+      2231
+     ],
+     "high": [
+      1100,
+      1206
+     ],
+     "overlap": [
+      1101
+     ],
+     "test": [
+      1107,
+      1141
+     ],
+     "questions,": [
+      1108
+     ],
+     "higher.": [
+      1111
+     ],
+     "suggests": [
+      1113
+     ],
+     "their": [
+      1126,
+      1236,
+      1257,
+      1293,
+      1356,
+      1367,
+      1376,
+      1393,
+      1412,
+      1427,
+      1515,
+      1711,
+      1746,
+      1785,
+      1789,
+      1927,
+      1960,
+      1985,
+      2039,
+      2059,
+      2078,
+      2272
+     ],
+     "ideas": [
+      1128,
+      1302,
+      1940,
+      2033
+     ],
+     "class": [
+      1131,
+      1974,
+      2018,
+      2223,
+      2240
+     ],
+     "going": [
+      1135
+     ],
+     "asked": [
+      1138,
+      2166
+     ],
+     "(Kuepper-Tetzel,": [
+      1142
+     ],
+     "finding": [
+      1146
+     ],
+     "saying,": [
+      1150
+     ],
+     "\u201cno": [
+      1151
+     ],
+     "kidding,\u201d": [
+      1152
+     ],
+     "needs": [
+      1155,
+      1767
+     ],
+     "spur": [
+      1157
+     ],
+     "identify": [
+      1165
+     ],
+     "ones": [
+      1172
+     ],
+     "see": [
+      1175
+     ],
+     "exam.": [
+      1179
+     ],
+     "quality,": [
+      1183
+     ],
+     "make": [
+      1192,
+      1677,
+      2376,
+      2591
+     ],
+     "difference.": [
+      1194
+     ],
+     "Nye,": [
+      1195
+     ],
+     "Crooks,": [
+      1196
+     ],
+     "Powley,": [
+      1197
+     ],
+     "Tripp": [
+      1199
+     ],
+     "(1984)": [
+      1200
+     ],
+     "reported": [
+      1201
+     ],
+     "correlation": [
+      1207
+     ],
+     "examination": [
+      1215
+     ],
+     "performance.": [
+      1216
+     ],
+     "The": [
+      1217,
+      1602,
+      2043,
+      2099,
+      2196,
+      2257,
+      2282
+     ],
+     "took,": [
+      1221
+     ],
+     "retained.": [
+      1227
+     ],
+     "authors": [
+      1230
+     ],
+     "pointed": [
+      1234
+     ],
+     "out,": [
+      1235
+     ],
+     "results": [
+      1237
+     ],
+     "appear": [
+      1238
+     ],
+     "conflict": [
+      1240
+     ],
+     "advice": [
+      1243
+     ],
+     "given": [
+      1245
+     ],
+     "selective": [
+      1253
+     ],
+     "concise": [
+      1255
+     ],
+     "case": [
+      1262
+     ],
+     "better": [
+      1270,
+      1379,
+      1585,
+      2289,
+      2292,
+      2532,
+      2568,
+      2575,
+      2582,
+      2632,
+      2642,
+      2650,
+      2657
+     ],
+     "less.": [
+      1272
+     ],
+     "Once": [
+      1273
+     ],
+     "in-class": [
+      1275
+     ],
+     "over,": [
+      1279,
+      1979
+     ],
+     "still": [
+      1282,
+      1739
+     ],
+     "do.": [
+      1285
+     ],
+     "Students": [
+      1286
+     ],
+     "work": [
+      1288,
+      1535,
+      1751
+     ],
+     "add": [
+      1291,
+      1981,
+      2228,
+      2252,
+      2665
+     ],
+     "Clarifying": [
+      1295
+     ],
+     "unclear": [
+      1296
+     ],
+     "concepts,": [
+      1297
+     ],
+     "tying": [
+      1298
+     ],
+     "previous": [
+      1304
+     ],
+     "ones,": [
+      1305
+     ],
+     "getting": [
+      1307
+     ],
+     "answered": [
+      1309
+     ],
+     "\u201cto": [
+      1313
+     ],
+     "do\u201d": [
+      1314
+     ],
+     "post-note": [
+      1315
+     ],
+     "activities.": [
+      1317,
+      1337
+     ],
+     "There": [
+      1318
+     ],
+     "interesting": [
+      1321
+     ],
+     "provides": [
+      1324
+     ],
+     "insights": [
+      1325
+     ],
+     "carry": [
+      1330
+     ],
+     "these": [
+      1334,
+      1924,
+      2233,
+      2260
+     ],
+     "postnote": [
+      1335
+     ],
+     "A": [
+      1338
+     ],
+     "Luo,": [
+      1341
+     ],
+     "Kiewra,": [
+      1342
+     ],
+     "Samuelson": [
+      1344
+     ],
+     "(2016)": [
+      1345,
+      1387
+     ],
+     "collaborate": [
+      1350
+     ],
+     "partner": [
+      1353,
+      2003
+     ],
+     "revise": [
+      1355,
+      1984
+     ],
+     "notes,": [
+      1357,
+      1791,
+      2607,
+      2635,
+      2653
+     ],
+     "recorded": [
+      1359,
+      1395
+     ],
+     "revised": [
+      1366,
+      1392
+     ],
+     "alone.": [
+      1369
+     ],
+     "rewrite": [
+      1375
+     ],
+     "organization": [
+      1380,
+      1679
+     ],
+     "legibility.": [
+      1382
+     ],
+     "Luo": [
+      1384,
+      1989
+     ],
+     "additional": [
+      1397
+     ],
+     "achieved": [
+      1400
+     ],
+     "higher": [
+      1402
+     ],
+     "scores": [
+      1403
+     ],
+     "relationship": [
+      1405
+     ],
+     "items": [
+      1406
+     ],
+     "recopied": [
+      1411
+     ],
+     "Let": [
+      1414
+     ],
+     "end": [
+      1416
+     ],
+     "section": [
+      1418,
+      2027
+     ],
+     "BIG": [
+      1421
+     ],
+     "caution": [
+      1422
+     ],
+     "exams": [
+      1432
+     ],
+     "(instructors": [
+      1433
+     ],
+     "please": [
+      1434
+     ],
+     "pass": [
+      1435,
+      2445
+     ],
+     "students):": [
+      1440
+     ],
+     "Do": [
+      1441
+     ],
+     "rely": [
+      1443
+     ],
+     "too": [
+      1444,
+      1780
+     ],
+     "heavily": [
+      1445
+     ],
+     "rereading": [
+      1448,
+      1465
+     ],
+     "highlighting": [
+      1450
+     ],
+     "Some": [
+      1453
+     ],
+     "commonly": [
+      1457,
+      1913
+     ],
+     "used,": [
+      1458
+     ],
+     "yet": [
+      1459
+     ],
+     "least": [
+      1460
+     ],
+     "productive": [
+      1461
+     ],
+     "strategies": [
+      1463
+     ],
+     "material": [
+      1467,
+      2367
+     ],
+     "(including": [
+      1468
+     ],
+     "notes),": [
+      1469
+     ],
+     "underlining": [
+      1470
+     ],
+     "highlighting,": [
+      1472
+     ],
+     "massed": [
+      1473
+     ],
+     "cramming),": [
+      1477
+     ],
+     "blocked": [
+      1479
+     ],
+     "(studying": [
+      1481
+     ],
+     "topic": [
+      1483,
+      1946
+     ],
+     "time)": [
+      1486
+     ],
+     "(Brown,": [
+      1487
+     ],
+     "Roediger,": [
+      1488
+     ],
+     "McDaniel,": [
+      1490
+     ],
+     "2014).": [
+      1491
+     ],
+     "These": [
+      1492
+     ],
+     "activities": [
+      1493
+     ],
+     "generate": [
+      1494
+     ],
+     "familiarity,": [
+      1498
+     ],
+     "familiarity": [
+      1500
+     ],
+     "equal": [
+      1503
+     ],
+     "mastery;": [
+      1504
+     ],
+     "fully": [
+      1508
+     ],
+     "engaged": [
+      1509
+     ],
+     "building": [
+      1511
+     ],
+     "course": [
+      1512,
+      1903
+     ],
+     "content": [
+      1513
+     ],
+     "OWN": [
+      1516
+     ],
+     "brain": [
+      1517,
+      2362
+     ],
+     "achieve": [
+      1519
+     ],
+     "mastery!": [
+      1520
+     ],
+     "If": [
+      1521,
+      2483
+     ],
+     "rereading,": [
+      1522
+     ],
+     "underlining,": [
+      1523
+     ],
+     "highlight": [
+      1525
+     ],
+     "effective,": [
+      1528
+     ],
+     "is?": [
+      1530
+     ],
+     "Practicing": [
+      1531
+     ],
+     "doing": [
+      1532,
+      1540
+     ],
+     "actual": [
+      1534
+     ],
+     "exam": [
+      1543,
+      1571,
+      1957
+     ],
+     "solving": [
+      1546
+     ],
+     "problems": [
+      1547,
+      1754
+     ],
+     "answering": [
+      1549
+     ],
+     "without": [
+      1551,
+      2434,
+      2495
+     ],
+     "resources)": [
+      1559
+     ],
+     "under": [
+      1560
+     ],
+     "conditions": [
+      1563
+     ],
+     "(quiet,": [
+      1572
+     ],
+     "distractions,": [
+      1574
+     ],
+     "constraints).": [
+      1576
+     ],
+     "For": [
+      1577,
+      2176
+     ],
+     "practices": [
+      1579
+     ],
+     "exams,": [
+      1588
+     ],
+     "read": [
+      1593
+     ],
+     "\u201cApplying": [
+      1594
+     ],
+     "Science": [
+      1596
+     ],
+     "Learning": [
+      1598,
+      1607
+     ],
+     "Classroom": [
+      1600
+     ],
+     "Teaching:": [
+      1601
+     ],
+     "Critical": [
+      1603
+     ],
+     "Importance": [
+      1604
+     ],
+     "Aligning": [
+      1606
+     ],
+     "Testing\u201d": [
+      1609
+     ],
+     "Schell": [
+      1611
+     ],
+     "Porter": [
+      1613
+     ],
+     "(2018).": [
+      1614
+     ],
+     "probably": [
+      1616
+     ],
+     "comes": [
+      1617
+     ],
+     "surprise": [
+      1620
+     ],
+     "main": [
+      1625,
+      1863
+     ],
+     "things": [
+      1626,
+      2493
+     ],
+     "instructors": [
+      1627
+     ],
+     "facilitate": [
+      1631
+     ],
+     "students\u2019": [
+      1632
+     ],
+     "present": [
+      1637,
+      2328
+     ],
+     "clear": [
+      1641,
+      1658,
+      1666
+     ],
+     "organized": [
+      1643
+     ],
+     "fashion.": [
+      1644
+     ],
+     "organizational": [
+      1650
+     ],
+     "structure": [
+      1651,
+      1857
+     ],
+     "only": [
+      1657
+     ],
+     "instructor": [
+      1661,
+      2427
+     ],
+     "crystal": [
+      1665
+     ],
+     "students.": [
+      1669,
+      2169,
+      2699
+     ],
+     "accomplish": [
+      1673
+     ],
+     "explicit": [
+      1680
+     ],
+     "providing": [
+      1685
+     ],
+     "form": [
+      1689
+     ],
+     "guided": [
+      1691,
+      1722
+     ],
+     "skeletal)": [
+      1693
+     ],
+     "could": [
+      1696,
+      2558,
+      2664
+     ],
+     "outline": [
+      1702
+     ],
+     "sophisticated": [
+      1717
+     ],
+     "style": [
+      1720
+     ],
+     "Susan": [
+      1726
+     ],
+     "Reynolds,": [
+      1727
+     ],
+     "where": [
+      1728,
+      2052
+     ],
+     "combine": [
+      1731
+     ],
+     "typed": [
+      1732
+     ],
+     "handwritten": [
+      1734
+     ],
+     "content,": [
+      1735
+     ],
+     "graphics,": [
+      1737
+     ],
+     "leave": [
+      1740
+     ],
+     "(Gonzalez,": [
+      1755
+     ],
+     "2018;": [
+      1756
+     ],
+     "Reynolds": [
+      1757
+     ],
+     "Tackie,": [
+      1759
+     ],
+     "But,": [
+      1761
+     ],
+     "imagine,": [
+      1765
+     ],
+     "balance": [
+      1770
+     ],
+     "much": [
+      1773,
+      2512
+     ],
+     "give": [
+      1775
+     ],
+     "students,": [
+      1778
+     ],
+     "since": [
+      1779,
+      2244
+     ],
+     "drive": [
+      1786
+     ],
+     "which,": [
+      1792
+     ],
+     "previously,": [
+      1795,
+      1821
+     ],
+     "serves": [
+      1796
+     ],
+     "primary": [
+      1799
+     ],
+     "tool.": [
+      1801
+     ],
+     "Make": [
+      1802
+     ],
+     "sure": [
+      1803
+     ],
+     "access": [
+      1806
+     ],
+     "order": [
+      1813
+     ],
+     "lectures.": [
+      1818
+     ],
+     "prepared": [
+      1829
+     ],
+     "looked": [
+      1833
+     ],
+     "over": [
+      1834
+     ],
+     "day.": [
+      1841
+     ],
+     "Provide": [
+      1842
+     ],
+     "verbal": [
+      1845
+     ],
+     "(and,": [
+      1846
+     ],
+     "possible,": [
+      1848
+     ],
+     "written)": [
+      1849
+     ],
+     "cues": [
+      1850
+     ],
+     "types": [
+      1864
+     ],
+     "foodborne": [
+      1866
+     ],
+     "illness:": [
+      1867
+     ],
+     "food": [
+      1868,
+      1871
+     ],
+     "infection": [
+      1869
+     ],
+     "intoxication)": [
+      1872
+     ],
+     "understand": [
+      1888
+     ],
+     "inside": [
+      1889
+     ],
+     "out)": [
+      1891
+     ],
+     "material.": [
+      1894
+     ],
+     "Call": [
+      1895
+     ],
+     "connections": [
+      1897,
+      1925,
+      2477
+     ],
+     "current": [
+      1899
+     ],
+     "formerly": [
+      1901
+     ],
+     "familiar": [
+      1914
+     ],
+     "courses": [
+      1918,
+      2139
+     ],
+     "prompt": [
+      1920
+     ],
+     "include": [
+      1923
+     ],
+     "encourage": [
+      1932
+     ],
+     "retrieving": [
+      1938
+     ],
+     "related": [
+      1939
+     ],
+     "(near": [
+      1941
+     ],
+     "far": [
+      1943
+     ],
+     "hand)": [
+      1948
+     ],
+     "needed,": [
+      1952
+     ],
+     "future": [
+      1961
+     ],
+     "careers": [
+      1962
+     ],
+     "(Friedman,": [
+      1963
+     ],
+     "2014;": [
+      1964
+     ],
+     "Sumeracki,": [
+      1965
+     ],
+     "Nebel,": [
+      1966
+     ],
+     "Schmidt,": [
+      1968,
+      2131
+     ],
+     "Plan": [
+      1970
+     ],
+     "brief": [
+      1971
+     ],
+     "pauses": [
+      1972
+     ],
+     "look": [
+      1978
+     ],
+     "discuss,": [
+      1980
+     ],
+     "to,": [
+      1982
+     ],
+     "According": [
+      1987
+     ],
+     "(2016),": [
+      1992
+     ],
+     "small": [
+      2007,
+      2067
+     ],
+     "group,": [
+      2008
+     ],
+     "over.": [
+      2020
+     ],
+     "wrap": [
+      2024
+     ],
+     "up": [
+      2025,
+      2207
+     ],
+     "sharing": [
+      2029
+     ],
+     "couple": [
+      2031
+     ],
+     "aimed": [
+      2034
+     ],
+     "helping": [
+      2036
+     ],
+     "improve": [
+      2038
+     ],
+     "ability.": [
+      2042
+     ],
+     "create": [
+      2047
+     ],
+     "assignment,": [
+      2051
+     ],
+     "early": [
+      2053
+     ],
+     "semester,": [
+      2056
+     ],
+     "submit": [
+      2058
+     ],
+     "feedback,": [
+      2062
+     ],
+     "perhaps": [
+      2064
+     ],
+     "receive": [
+      2065
+     ],
+     "number": [
+      2068
+     ],
+     "extra": [
+      2070
+     ],
+     "credit": [
+      2071
+     ],
+     "points.": [
+      2072
+     ],
+     "Providing": [
+      2073
+     ],
+     "feedback": [
+      2076
+     ],
+     "showing": [
+      2084
+     ],
+     "examples4": [
+      2088
+     ],
+     "looks": [
+      2097
+     ],
+     "like.": [
+      2098
+     ],
+     "second": [
+      2100
+     ],
+     "involves": [
+      2102
+     ],
+     "creating": [
+      2104,
+      2303
+     ],
+     "online": [
+      2106
+     ],
+     "set": [
+      2107,
+      2308
+     ],
+     "wiki": [
+      2115,
+      2174,
+      2210,
+      2234,
+      2261
+     ],
+     "platform.": [
+      2116
+     ],
+     "born": [
+      2120
+     ],
+     "solve": [
+      2125
+     ],
+     "concern": [
+      2127
+     ],
+     "husband,": [
+      2129
+     ],
+     "Art": [
+      2130,
+      2179
+     ],
+     "engineering": [
+      2138
+     ],
+     "he": [
+      2140,
+      2163
+     ],
+     "teaches.": [
+      2141
+     ],
+     "He": [
+      2142,
+      2415
+     ],
+     "concerned": [
+      2144
+     ],
+     "accuracy": [
+      2147
+     ],
+     "completeness": [
+      2149
+     ],
+     "his": [
+      2153,
+      2168
+     ],
+     "Here": [
+      2170
+     ],
+     "works:": [
+      2175
+     ],
+     "randomly": [
+      2180
+     ],
+     "assigns": [
+      2181
+     ],
+     "reviewer.": [
+      2195
+     ],
+     "responsible": [
+      2200
+     ],
+     "putting": [
+      2205
+     ],
+     "24": [
+      2212
+     ],
+     "hr": [
+      2213
+     ],
+     "Next,": [
+      2216
+     ],
+     "reviewer": [
+      2218
+     ],
+     "until": [
+      2220
+     ],
+     "next": [
+      2222
+     ],
+     "period": [
+      2224
+     ],
+     "edit": [
+      2226,
+      2250
+     ],
+     "Finally,": [
+      2232
+     ],
+     "notes5": [
+      2235
+     ],
+     "open": [
+      2237
+     ],
+     "wiki,": [
+      2248
+     ],
+     "well.": [
+      2256
+     ],
+     "creation": [
+      2258
+     ],
+     "mean": [
+      2265
+     ],
+     "freed": [
+      2269
+     ],
+     "notes;": [
+      2274
+     ],
+     "opposite.": [
+      2281
+     ],
+     "philosophy": [
+      2283
+     ],
+     "better!": [
+      2296
+     ],
+     "Everyone": [
+      2297
+     ],
+     "expected": [
+      2299
+     ],
+     "contribute": [
+      2301
+     ],
+     "accurate": [
+      2305
+     ],
+     "complete": [
+      2307
+     ],
+     "all\u2014kind": [
+      2319
+     ],
+     "crowdsourcing": [
+      2322
+     ],
+     "creation.": [
+      2326
+     ],
+     "\u201cBe": [
+      2327
+     ],
+     "\u2013": [
+      2331,
+      2371
+     ],
+     "physically": [
+      2333
+     ],
+     "mentally!": [
+      2335
+     ],
+     "Practice": [
+      2336
+     ],
+     "mindfulness6,": [
+      2337
+     ],
+     "thing": [
+      2343,
+      2605
+     ],
+     "full.": [
+      2348
+     ],
+     "[I": [
+      2349
+     ],
+     "2": [
+      2352
+     ],
+     "class!]": [
+      2354
+     ],
+     "Lecture": [
+      2355
+     ],
+     "prime": [
+      2358,
+      2386
+     ],
+     "begin": [
+      2364
+     ],
+     "don't": [
+      2372
+     ],
+     "waste": [
+      2373
+     ],
+     "it;": [
+      2374
+     ],
+     "it!\u201d": [
+      2380
+     ],
+     "\u201cTake": [
+      2381
+     ],
+     "full": [
+      2382
+     ],
+     "advantage": [
+      2383
+     ],
+     "making": [
+      2390,
+      2458,
+      2518
+     ],
+     "notes!\u201d": [
+      2391
+     ],
+     "dear": [
+      2393,
+      2708
+     ],
+     "friend": [
+      2394,
+      2709
+     ],
+     "colleague,": [
+      2396
+     ],
+     "Dr.": [
+      2397,
+      2712
+     ],
+     "Philip": [
+      2398,
+      2713
+     ],
+     "Buriak,7": [
+      2399
+     ],
+     "brought": [
+      2401
+     ],
+     "distinction": [
+      2404
+     ],
+     "\u201ctaking": [
+      2407,
+      2419
+     ],
+     "notes\u201d": [
+      2408,
+      2411,
+      2420,
+      2451
+     ],
+     "\u201cmaking": [
+      2410,
+      2450
+     ],
+     "attention.": [
+      2414
+     ],
+     "say": [
+      2417
+     ],
+     "basically": [
+      2422
+     ],
+     "says,": [
+      2428
+     ],
+     "fast": [
+      2430
+     ],
+     "listening": [
+      2436,
+      2454
+     ],
+     "allowing": [
+      2438
+     ],
+     "through": [
+      2446
+     ],
+     "brain;": [
+      2448
+     ],
+     "whereas": [
+      2449
+     ],
+     "actively": [
+      2453
+     ],
+     "instructor,": [
+      2457
+     ],
+     "meaning": [
+      2459,
+      2475
+     ],
+     "said,": [
+      2464
+     ],
+     "already": [
+      2470
+     ],
+     "know,": [
+      2471
+     ],
+     "words.": [
+      2482
+     ],
+     "\u201ctake": [
+      2486
+     ],
+     "notes,\u201d": [
+      2487
+     ],
+     "them;": [
+      2498
+     ],
+     "end,": [
+      2501
+     ],
+     "lots": [
+      2504,
+      2646
+     ],
+     "page,": [
+      2509
+     ],
+     "brain.": [
+      2516
+     ],
+     "Overall,": [
+      2517
+     ],
+     "leads": [
+      2520
+     ],
+     "deeper": [
+      2522
+     ],
+     "material,": [
+      2526
+     ],
+     "engagement": [
+      2528
+     ],
+     "retention.": [
+      2533
+     ],
+     "We": [
+      2534
+     ],
+     "lot": [
+      2538
+     ],
+     "ground.": [
+      2542
+     ],
+     "straightforward": [
+      2547
+     ],
+     "remembering": [
+      2550
+     ],
+     "all.": [
+      2552
+     ],
+     "us,": [
+      2560
+     ],
+     "brother-in-law's": [
+      2562
+     ],
+     "beer": [
+      2563,
+      2566,
+      2573,
+      2580,
+      2627
+     ],
+     "rules:": [
+      2564
+     ],
+     "\u201cGood": [
+      2565,
+      2629
+     ],
+     "bad": [
+      2570,
+      2634
+     ],
+     "beer,": [
+      2571,
+      2578
+     ],
+     "cold": [
+      2572
+     ],
+     "warm": [
+      2577
+     ],
+     "beer\u201d": [
+      2585
+     ],
+     "(Edward": [
+      2586
+     ],
+     "E.": [
+      2587
+     ],
+     "Schmidt).": [
+      2588
+     ],
+     "Not": [
+      2589
+     ],
+     "light": [
+      2592
+     ],
+     "discussed,": [
+      2598
+     ],
+     "remember": [
+      2615
+     ],
+     "(especially": [
+      2617
+     ],
+     "modeled": [
+      2624
+     ],
+     "Ed's": [
+      2626
+     ],
+     "rules!).": [
+      2628
+     ],
+     "drawings": [
+      2640
+     ],
+     "fewer": [
+      2652
+     ],
+     "notes.\u201d": [
+      2660
+     ],
+     "Of": [
+      2661
+     ],
+     "course,": [
+      2662
+     ],
+     "\u201cbetter": [
+      2667
+     ],
+     "thans,\u201d": [
+      2668
+     ],
+     "picture.": [
+      2673
+     ],
+     "always,": [
+      2675
+     ],
+     "hope": [
+      2677
+     ],
+     "apply": [
+      2680
+     ],
+     "talked": [
+      2686
+     ],
+     "pedagogy,": [
+      2691
+     ],
+     "share": [
+      2695
+     ],
+     "editorial": [
+      2701
+     ],
+     "dedicated": [
+      2703
+     ],
+     "colleague": [
+      2711
+     ],
+     "Buriak": [
+      2714
+     ],
+     "(June": [
+      2715
+     ],
+     "22,": [
+      2716
+     ],
+     "1950": [
+      2717
+     ],
+     "August": [
+      2719
+     ],
+     "2,": [
+      2720
+     ],
+     "2018),": [
+      2721
+     ],
+     "amazing,": [
+      2725
+     ],
+     "life-touching": [
+      2726
+     ],
+     "Professor": [
+      2727
+     ],
+     "Department": [
+      2730
+     ],
+     "Agricultural": [
+      2732
+     ],
+     "Biological": [
+      2734
+     ],
+     "Engineering": [
+      2735
+     ],
+     "University": [
+      2738
+     ],
+     "Illinois.": [
+      2740
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5061892465",
+       "display_name": "Shelly J. Schmidt",
+       "orcid": "https://orcid.org/0000-0001-6801-0668",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6801-0668"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I157725225",
+        "display_name": "University of Illinois Urbana-Champaign",
+        "ror": "https://ror.org/047426m28",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I157725225"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Shelly J. Schmidt",
+      "raw_affiliation_strings": [
+       "University of Illinois, Urbana-Champaign"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Illinois, Urbana-Champaign",
+        "institution_ids": [
+         "https://openalex.org/I157725225"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1111/1541-4329.12170",
+     "doi": "https://doi.org/10.1111/1541-4329.12170",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1111/1541-4329.12170",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4210213187",
+      "display_name": "Journal of Food Science Education",
+      "issn_l": "1541-4329",
+      "issn": [
+       "1541-4329"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "norway-1",
+       "poland-20"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Food Science Education",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

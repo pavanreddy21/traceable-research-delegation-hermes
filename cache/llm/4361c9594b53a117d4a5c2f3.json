@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201e4-d9ee-708f-a69d-cb11984a0622",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795328104,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Now search for studies finding no association between heavy media multitasking and attention deficits.\", \"action\": \"search_papers\", \"args\": {\"query\": \"heavy media multitaskers no difference attention failures to find association\"}}",
+    "reasoning_content": "Good finding: no long-term relationship with achievement. Now search for attention null results / boundary.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1353,
+  "completion_tokens": 70,
+  "total_tokens": 1423,
+  "prompt_tokens_details": {
+   "cached_tokens": 1024
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 20
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.22
+}

@@ -1,0 +1,439 @@
+{
+ "status": 200,
+ "json": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2025,
+      12,
+      6
+     ]
+    ],
+    "date-time": "2025-12-06T05:00:59Z",
+    "timestamp": 1764997259572,
+    "version": "3.41.2"
+   },
+   "reference-count": 22,
+   "publisher": "Frontiers Media SA",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2019,
+        8,
+        13
+       ]
+      ],
+      "date-time": "2019-08-13T00:00:00Z",
+      "timestamp": 1565654400000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ],
+   "funder": [
+    {
+     "DOI": "10.13039/501100001659",
+     "name": "Deutsche Forschungsgemeinschaft",
+     "doi-asserted-by": "publisher",
+     "id": [
+      {
+       "id": "10.13039/501100001659",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "frontiersin.org"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "Front. Psychol."
+   ],
+   "DOI": "10.3389/fpsyg.2019.01863",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2019,
+      8,
+      13
+     ]
+    ],
+    "date-time": "2019-08-13T05:22:34Z",
+    "timestamp": 1565673754000
+   },
+   "update-policy": "https://doi.org/10.3389/crossmark-policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 7,
+   "title": [
+    "Feedback at Test Can Reverse the Retrieval-Effort Effect"
+   ],
+   "prefix": "10.3389",
+   "volume": "10",
+   "author": [
+    {
+     "given": "Oliver",
+     "family": "Kliegl",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Robert A.",
+     "family": "Bjork",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Karl-Heinz T.",
+     "family": "B\u00e4uml",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "1965",
+   "published-online": {
+    "date-parts": [
+     [
+      2019,
+      8,
+      13
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "B1",
+     "doi-asserted-by": "publisher",
+     "first-page": "272",
+     "DOI": "10.1037/xlm0000576",
+     "article-title": "Sleep reduces the testing effect - but not after corrective feedback and prolonged retention interval.",
+     "volume": "45",
+     "author": "Abel",
+     "year": "2019",
+     "journal-title": "J. Exp. Psychol. Learn. Mem. Cogn."
+    },
+    {
+     "key": "B2",
+     "doi-asserted-by": "publisher",
+     "first-page": "1568",
+     "DOI": "10.1037/xlm0000025",
+     "article-title": "Sleep can reduce the testing effect - it enhances recall of restudied items but can leave recall of retrieved items unaffected.",
+     "volume": "40",
+     "author": "B\u00e4uml",
+     "year": "2014",
+     "journal-title": "J. Exp. Psychol. Learn. Mem. Cogn."
+    },
+    {
+     "key": "B3",
+     "first-page": "123",
+     "article-title": "Retrieval as a memory modifier",
+     "author": "Bjork",
+     "year": "1975",
+     "journal-title": "Information Processing and Cognition: The Loyola Symposium"
+    },
+    {
+     "key": "B4",
+     "doi-asserted-by": "crossref",
+     "first-page": "185",
+     "DOI": "10.7551/mitpress/4561.003.0011",
+     "article-title": "Memory and metamemory considerations in the training of human beings",
+     "author": "Bjork",
+     "year": "1994",
+     "journal-title": "Metacognition: Knowing About Knowing"
+    },
+    {
+     "key": "B5",
+     "doi-asserted-by": "publisher",
+     "first-page": "1563",
+     "DOI": "10.1037/a0017021",
+     "article-title": "Cue strength as a moderator of the testing effect: the benefits of elaborative retrieval.",
+     "volume": "35",
+     "author": "Carpenter",
+     "year": "2009",
+     "journal-title": "J. Exp. Psychol. Learn., Mem. Cogn."
+    },
+    {
+     "key": "B6",
+     "doi-asserted-by": "publisher",
+     "first-page": "268",
+     "DOI": "10.3758/bf03193405",
+     "article-title": "Impoverished cue support enhances subsequent retention: support for the elaborative processing explanation of the testing effect.",
+     "volume": "34",
+     "author": "Carpenter",
+     "year": "2006",
+     "journal-title": "Mem. Cogn."
+    },
+    {
+     "key": "B7",
+     "doi-asserted-by": "publisher",
+     "first-page": "175",
+     "DOI": "10.3758/bf03193146",
+     "article-title": "G* power 3: a flexible statistical power analysis program for the social, behavioral, and biomedical sciences.",
+     "volume": "39",
+     "author": "Faul",
+     "year": "2007",
+     "journal-title": "Behav. Research Methods"
+    },
+    {
+     "key": "B8",
+     "doi-asserted-by": "publisher",
+     "first-page": "801",
+     "DOI": "10.1037/a0023219",
+     "article-title": "When does testing enhance retention? a distribution-based interpretation of retrieval as a memory modifier.",
+     "volume": "37",
+     "author": "Halamish",
+     "year": "2011",
+     "journal-title": "J. Exp. Psychol. Learn. Mem. Cogn."
+    },
+    {
+     "key": "B9",
+     "doi-asserted-by": "publisher",
+     "first-page": "562",
+     "DOI": "10.1016/s0022-5371(71)80029-4",
+     "article-title": "Differential effects of study and test trials on long-term recognition and recall.",
+     "volume": "10",
+     "author": "Hogan",
+     "year": "1971",
+     "journal-title": "J. Verbal Learn. Verbal Behav."
+    },
+    {
+     "key": "B10",
+     "doi-asserted-by": "publisher",
+     "first-page": "32",
+     "DOI": "10.1006/jmla.1996.0002",
+     "article-title": "Dissociating automatic and consciously controlled effects of study/test compatibility.",
+     "volume": "35",
+     "author": "Jacoby",
+     "year": "1996",
+     "journal-title": "J. Mem. Lang."
+    },
+    {
+     "key": "B11",
+     "doi-asserted-by": "publisher",
+     "first-page": "963",
+     "DOI": "10.1111/j.1467-9280.2009.02402.x",
+     "article-title": "The wick in the candle of learning: epistemic curiosity activates reward circuitry and enhances memory.",
+     "volume": "20",
+     "author": "Kang",
+     "year": "2009",
+     "journal-title": "Psychol. Sci."
+    },
+    {
+     "key": "B12",
+     "doi-asserted-by": "publisher",
+     "first-page": "85",
+     "DOI": "10.1016/j.jml.2011.04.002",
+     "article-title": "Why tests appear to prevent forgetting: a distribution-based bifurcation model.",
+     "volume": "65",
+     "author": "Kornell",
+     "year": "2011",
+     "journal-title": "J. Mem. Lang."
+    },
+    {
+     "key": "B13",
+     "doi-asserted-by": "publisher",
+     "first-page": "3",
+     "DOI": "10.1037/0278-7393.31.1.3",
+     "article-title": "When does feedback facilitate learning of words?",
+     "volume": "31",
+     "author": "Pashler",
+     "year": "2005",
+     "journal-title": "J. Exp. Psychol. Learn. Mem. Cogn."
+    },
+    {
+     "key": "B14",
+     "doi-asserted-by": "publisher",
+     "first-page": "473",
+     "DOI": "10.3758/s13415-016-0407-6",
+     "article-title": "Reversing the testing effect by feedback: behavioral and electrophysiological evidence.",
+     "volume": "16",
+     "author": "Past\u00f6tter",
+     "year": "2016",
+     "journal-title": "Cogn. Affect. Behav. Neurosci."
+    },
+    {
+     "key": "B15",
+     "doi-asserted-by": "publisher",
+     "first-page": "1023",
+     "DOI": "10.1037/xlm0000637",
+     "article-title": "The benefit of generating errors during learning: what is the locus of the effect.",
+     "volume": "45",
+     "author": "Potts",
+     "year": "2019",
+     "journal-title": "J. Exp. Psychol. Learn. Mem. Cogn."
+    },
+    {
+     "key": "B16",
+     "doi-asserted-by": "publisher",
+     "first-page": "437",
+     "DOI": "10.1016/j.jml.2009.01.004",
+     "article-title": "Testing the retrieval effort hypothesis: does greater difficulty correctly recalling information lead to higher levels of memory?",
+     "volume": "60",
+     "author": "Pyc",
+     "year": "2009",
+     "journal-title": "J. Mem. Lang."
+    },
+    {
+     "key": "B17",
+     "doi-asserted-by": "publisher",
+     "first-page": "249",
+     "DOI": "10.1111/j.1467-9280.2006.01693.x",
+     "article-title": "Test-enhanced learning: taking memory tests improves long-term retention.",
+     "volume": "17",
+     "author": "Roediger",
+     "year": "2006",
+     "journal-title": "Psychol. Sci."
+    },
+    {
+     "key": "B18",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1016/b978-0-12-387691-1.00001-6",
+     "article-title": "Ten benefits of testing and their applications to educational practice",
+     "author": "Roediger",
+     "year": "2011",
+     "journal-title": "Psychology of Learning and Motivaton: Cognition in Education"
+    },
+    {
+     "key": "B19",
+     "doi-asserted-by": "publisher",
+     "first-page": "1432",
+     "DOI": "10.1037/a0037559",
+     "article-title": "The effect of testing versus restudy on retention: a meta-analytic review of the testing effect.",
+     "volume": "140",
+     "author": "Rowland",
+     "year": "2014",
+     "journal-title": "Psychol. Bull."
+    },
+    {
+     "key": "B20",
+     "doi-asserted-by": "publisher",
+     "first-page": "176",
+     "DOI": "10.1177/1745691615569000",
+     "article-title": "Learning versus performance: an integrative review.",
+     "volume": "10",
+     "author": "Soderstrom",
+     "year": "2015",
+     "journal-title": "Perspect. Psychol. Sci."
+    },
+    {
+     "key": "B21",
+     "doi-asserted-by": "publisher",
+     "first-page": "115",
+     "DOI": "10.1037/a0034252",
+     "article-title": "On the transfer of prior tests or study events to subsequent study.",
+     "volume": "40",
+     "author": "Storm",
+     "year": "2014",
+     "journal-title": "J. Exp. Psychol. Learn. Mem. Cogn."
+    },
+    {
+     "key": "B22",
+     "doi-asserted-by": "publisher",
+     "first-page": "465",
+     "DOI": "10.1016/s0022-5371(77)80040-6",
+     "article-title": "Learning from tests: the effects of spacing.",
+     "volume": "16",
+     "author": "Whitten",
+     "year": "1977",
+     "journal-title": "J. Verb. Learn. Verb. Behav."
+    }
+   ],
+   "container-title": [
+    "Frontiers in Psychology"
+   ],
+   "original-title": [],
+   "link": [
+    {
+     "URL": "https://www.frontiersin.org/article/10.3389/fpsyg.2019.01863/full",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      7,
+      21
+     ]
+    ],
+    "date-time": "2024-07-21T23:04:36Z",
+    "timestamp": 1721603076000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://www.frontiersin.org/article/10.3389/fpsyg.2019.01863/full"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2019,
+      8,
+      13
+     ]
+    ]
+   },
+   "references-count": 22,
+   "alternative-id": [
+    "10.3389/fpsyg.2019.01863"
+   ],
+   "URL": "https://doi.org/10.3389/fpsyg.2019.01863",
+   "relation": {},
+   "ISSN": [
+    "1664-1078"
+   ],
+   "issn-type": [
+    {
+     "type": "electronic",
+     "value": "1664-1078"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2019,
+      8,
+      13
+     ]
+    ]
+   },
+   "article-number": "1863"
+  }
+ }
+}

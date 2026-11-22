@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201dc-b005-7b4b-a1b6-8c3d8bb23b10",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327569,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Fetch the review on sleep stages and the mechanistic paper on spindles/slow oscillations to extract specific claims.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W2161489081\"}}",
+    "reasoning_content": "Let me fetch the most relevant sources: W2161489081 (HPA regulation, sleep stages), W4390013060 (review of sleep stages), W2949898304 (spindles and slow oscillations).",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 987,
+  "completion_tokens": 95,
+  "total_tokens": 1082,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 46
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.26
+}

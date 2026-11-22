@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a2020c-78b5-7898-bf2e-a3e8a99b72e9",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330701,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"not_supported\", \"passage\": 1, \"reason\": \"The source says the intervention changed grades only when peer norms aligned with the intervention, contradicting the claim that it improved grades equally in every school regardless of peer norms.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 296,
+  "completion_tokens": 55,
+  "total_tokens": 351,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 1.23
+}

@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a2020f-9caf-7601-b1af-48198c36b2b7",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330907,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"decision\": \"allow\", \"reason\": \"general research question\"}",
+    "reasoning_content": "We need answer JSON only. Need classify. Request general question about research effect ibuprofen on muscle recovery. Not personal advice? It asks \"What does research say\" general. Allow. Reason few words. Ensure JSON only.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 175,
+  "completion_tokens": 61,
+  "total_tokens": 236,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 46
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 1.51
+}

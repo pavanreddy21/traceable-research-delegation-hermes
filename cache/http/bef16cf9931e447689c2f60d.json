@@ -1,0 +1,4642 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 7,
+   "db_response_time_ms": 212,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (meta-analysis note-taking medium handwriting laptop note access test delay moderators) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (meta-analysis note-taking medium handwriting laptop note access test delay moderators) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "meta-analysis note-taking medium handwriting laptop note access test delay moderators",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:meta-analysis note-taking medium handwriting laptop note access test delay moderators,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4310567930",
+    "doi": "https://doi.org/10.1002/ase.2237",
+    "title": "Effects of tablet\u2010based drawing and paper\u2010based methods on medical students' learning of gross anatomy",
+    "display_name": "Effects of tablet\u2010based drawing and paper\u2010based methods on medical students' learning of gross anatomy",
+    "publication_year": 2022,
+    "cited_by_count": 25,
+    "abstract_inverted_index": {
+     "The": [
+      0,
+      44,
+      156
+     ],
+     "way": [
+      1
+     ],
+     "medical": [
+      2,
+      31
+     ],
+     "students": [
+      3,
+      222
+     ],
+     "learn": [
+      4
+     ],
+     "anatomy": [
+      5,
+      33,
+      67,
+      220
+     ],
+     "is": [
+      6
+     ],
+     "constantly": [
+      7
+     ],
+     "evolving.": [
+      8
+     ],
+     "Nowadays,": [
+      9
+     ],
+     "technologies": [
+      10
+     ],
+     "such": [
+      11
+     ],
+     "as": [
+      12,
+      52,
+      211
+     ],
+     "tablets": [
+      13
+     ],
+     "support": [
+      14,
+      237
+     ],
+     "established": [
+      15
+     ],
+     "learning": [
+      16,
+      34,
+      87,
+      113,
+      147,
+      165,
+      219
+     ],
+     "methods": [
+      17,
+      217
+     ],
+     "like": [
+      18
+     ],
+     "drawing.": [
+      19
+     ],
+     "In": [
+      20,
+      173
+     ],
+     "this": [
+      21,
+      228
+     ],
+     "study,": [
+      22
+     ],
+     "the": [
+      23,
+      56,
+      104,
+      107,
+      112,
+      122,
+      130
+     ],
+     "effect": [
+      24
+     ],
+     "of": [
+      25,
+      46,
+      55,
+      58,
+      106,
+      124,
+      175,
+      227
+     ],
+     "drawing": [
+      26,
+      39,
+      136,
+      150,
+      179,
+      187,
+      206
+     ],
+     "on": [
+      27,
+      30,
+      42,
+      137,
+      151,
+      180,
+      188,
+      207
+     ],
+     "a": [
+      28,
+      53,
+      98,
+      138,
+      181,
+      208,
+      212
+     ],
+     "tablet": [
+      29,
+      139,
+      182,
+      209
+     ],
+     "students'": [
+      32
+     ],
+     "was": [
+      35,
+      50,
+      63,
+      97,
+      143,
+      161,
+      196
+     ],
+     "investigated": [
+      36
+     ],
+     "compared": [
+      37
+     ],
+     "to": [
+      38,
+      76,
+      163,
+      215,
+      233,
+      236,
+      248
+     ],
+     "or": [
+      40,
+      48,
+      109
+     ],
+     "summarizing": [
+      41
+     ],
+     "paper.": [
+      43
+     ],
+     "quality": [
+      45,
+      57,
+      105,
+      123
+     ],
+     "drawings": [
+      47,
+      108
+     ],
+     "summaries": [
+      49,
+      110,
+      169,
+      200
+     ],
+     "assessed": [
+      51
+     ],
+     "measure": [
+      54
+     ],
+     "strategy": [
+      59,
+      125,
+      177
+     ],
+     "implementation.": [
+      60
+     ],
+     "Learning": [
+      61
+     ],
+     "outcome": [
+      62,
+      88,
+      114,
+      148,
+      166
+     ],
+     "measured": [
+      64
+     ],
+     "with": [
+      65,
+      145,
+      245
+     ],
+     "an": [
+      66
+     ],
+     "test,": [
+      68
+     ],
+     "both": [
+      69,
+      90
+     ],
+     "immediately": [
+      70
+     ],
+     "afterward": [
+      71
+     ],
+     "and": [
+      72,
+      111
+     ],
+     "after": [
+      73
+     ],
+     "4-6": [
+      74
+     ],
+     "weeks": [
+      75
+     ],
+     "assess": [
+      77
+     ],
+     "its": [
+      78
+     ],
+     "sustainability.": [
+      79
+     ],
+     "There": [
+      80
+     ],
+     "were": [
+      81
+     ],
+     "no": [
+      82
+     ],
+     "significant": [
+      83,
+      99
+     ],
+     "group": [
+      84
+     ],
+     "differences": [
+      85
+     ],
+     "in": [
+      86,
+      129,
+      194
+     ],
+     "at": [
+      89
+     ],
+     "measurement": [
+      91
+     ],
+     "points.": [
+      92
+     ],
+     "For": [
+      93
+     ],
+     "all": [
+      94
+     ],
+     "groups,": [
+      95
+     ],
+     "there": [
+      96
+     ],
+     "medium": [
+      100
+     ],
+     "strength": [
+      101
+     ],
+     "correlation": [
+      102
+     ],
+     "between": [
+      103
+     ],
+     "(p": [
+      115
+     ],
+     "<": [
+      116
+     ],
+     "0.05).": [
+      117
+     ],
+     "Further": [
+      118
+     ],
+     "analysis": [
+      119
+     ],
+     "revealed": [
+      120
+     ],
+     "that": [
+      121
+     ],
+     "implementation": [
+      126
+     ],
+     "moderated": [
+      127
+     ],
+     "outcomes": [
+      128
+     ],
+     "delayed": [
+      131
+     ],
+     "test:": [
+      132
+     ],
+     "When": [
+      133
+     ],
+     "poorly": [
+      134
+     ],
+     "implemented,": [
+      135
+     ],
+     "(M": [
+      140,
+      153,
+      158,
+      170,
+      183,
+      190,
+      201
+     ],
+     "=": [
+      141,
+      154,
+      159,
+      171,
+      184,
+      191,
+      202
+     ],
+     "48.81)": [
+      142
+     ],
+     "associated": [
+      144
+     ],
+     "lower": [
+      146
+     ],
+     "than": [
+      149,
+      167
+     ],
+     "paper": [
+      152,
+      189
+     ],
+     "58.95);": [
+      155
+     ],
+     "latter": [
+      157
+     ],
+     "58.89)": [
+      160
+     ],
+     "related": [
+      162
+     ],
+     "higher": [
+      164
+     ],
+     "writing": [
+      168,
+      199
+     ],
+     "45.59).": [
+      172
+     ],
+     "case": [
+      174
+     ],
+     "high-quality": [
+      176
+     ],
+     "implementation,": [
+      178
+     ],
+     "60.98)": [
+      185
+     ],
+     "outperformed": [
+      186,
+      197
+     ],
+     "52.67),": [
+      192
+     ],
+     "which": [
+      193
+     ],
+     "turn": [
+      195
+     ],
+     "by": [
+      198,
+      242
+     ],
+     "62.62).": [
+      203
+     ],
+     "To": [
+      204
+     ],
+     "conclude,": [
+      205
+     ],
+     "serves": [
+      210
+     ],
+     "viable": [
+      213
+     ],
+     "alternative": [
+      214
+     ],
+     "paper-based": [
+      216
+     ],
+     "for": [
+      218,
+      240
+     ],
+     "if": [
+      221
+     ],
+     "can": [
+      223
+     ],
+     "make": [
+      224
+     ],
+     "adequate": [
+      225
+     ],
+     "use": [
+      226
+     ],
+     "strategy.": [
+      229
+     ],
+     "Future": [
+      230
+     ],
+     "research": [
+      231
+     ],
+     "needs": [
+      232
+     ],
+     "identify": [
+      234
+     ],
+     "how": [
+      235
+     ],
+     "student": [
+      238
+     ],
+     "drawing,": [
+      239
+     ],
+     "instance,": [
+      241
+     ],
+     "offering": [
+      243
+     ],
+     "scaffolds": [
+      244
+     ],
+     "adaptive": [
+      246
+     ],
+     "feedback": [
+      247
+     ],
+     "enhance": [
+      249
+     ],
+     "learning.": [
+      250
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5075462019",
+       "display_name": "Amelie Styn",
+       "orcid": "https://orcid.org/0000-0001-9459-4230",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9459-4230"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I3018771216",
+        "display_name": "LMU Klinikum",
+        "ror": "https://ror.org/02jet3w32",
+        "country_code": "DE",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I3018771216",
+         "https://openalex.org/I8204097"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4405261432",
+        "display_name": "Institut f\u00fcr Didaktik und Ausbildungsforschung in der Medizin",
+        "ror": "https://ror.org/059qe0395",
+        "country_code": "DE",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I3018771216",
+         "https://openalex.org/I4405261432",
+         "https://openalex.org/I8204097"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I8204097",
+        "display_name": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+        "ror": "https://ror.org/05591te55",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I8204097"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Amelie Styn",
+      "raw_affiliation_strings": [
+       "Institute of Medical Education, University Hospital, LMU Munich, Munich, Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-9459-4230",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute of Medical Education, University Hospital, LMU Munich, Munich, Germany",
+        "institution_ids": [
+         "https://openalex.org/I3018771216",
+         "https://openalex.org/I4405261432",
+         "https://openalex.org/I8204097"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5055559619",
+       "display_name": "Katharina Scheiter",
+       "orcid": "https://orcid.org/0000-0002-9397-7544",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9397-7544"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I176453806",
+        "display_name": "University of Potsdam",
+        "ror": "https://ror.org/03bnmw459",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I176453806"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210136238",
+        "display_name": "Leibniz-Institut f\u00fcr Wissensmedien",
+        "ror": "https://ror.org/03hv28176",
+        "country_code": "DE",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I315704651",
+         "https://openalex.org/I4210136238"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Katharina Scheiter",
+      "raw_affiliation_strings": [
+       "Department of Educational Science, University of Potsdam, Potsdam, Germany",
+       "Leibniz\u2010Institut f\u00fcr Wissensmedien T\u00fcbingen  T\u00fcbingen Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Educational Science, University of Potsdam, Potsdam, Germany",
+        "institution_ids": [
+         "https://openalex.org/I176453806"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Leibniz\u2010Institut f\u00fcr Wissensmedien T\u00fcbingen  T\u00fcbingen Germany",
+        "institution_ids": [
+         "https://openalex.org/I4210136238"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5079815565",
+       "display_name": "Martin Rudolf Fischer",
+       "orcid": "https://orcid.org/0000-0002-5299-5025",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5299-5025"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I3018771216",
+        "display_name": "LMU Klinikum",
+        "ror": "https://ror.org/02jet3w32",
+        "country_code": "DE",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I3018771216",
+         "https://openalex.org/I8204097"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4405261432",
+        "display_name": "Institut f\u00fcr Didaktik und Ausbildungsforschung in der Medizin",
+        "ror": "https://ror.org/059qe0395",
+        "country_code": "DE",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I3018771216",
+         "https://openalex.org/I4405261432",
+         "https://openalex.org/I8204097"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I8204097",
+        "display_name": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+        "ror": "https://ror.org/05591te55",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I8204097"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Martin R. Fischer",
+      "raw_affiliation_strings": [
+       "Institute of Medical Education, University Hospital, LMU Munich, Munich, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute of Medical Education, University Hospital, LMU Munich, Munich, Germany",
+        "institution_ids": [
+         "https://openalex.org/I3018771216",
+         "https://openalex.org/I4405261432",
+         "https://openalex.org/I8204097"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5004253381",
+       "display_name": "Thomas Shiozawa",
+       "orcid": "https://orcid.org/0000-0002-7112-1016",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7112-1016"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I8087733",
+        "display_name": "University of T\u00fcbingen",
+        "ror": "https://ror.org/03a1kwz48",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I8087733"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Thomas Shiozawa",
+      "raw_affiliation_strings": [
+       "Department of Anatomy, Institute of Clinical Anatomy and Cell Analysis, Faculty of Medicine, Eberhard Karls University of Tuebingen, Tuebingen, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Anatomy, Institute of Clinical Anatomy and Cell Analysis, Faculty of Medicine, Eberhard Karls University of Tuebingen, Tuebingen, Germany",
+        "institution_ids": [
+         "https://openalex.org/I8087733"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5024758914",
+       "display_name": "Felix Behrmann",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I3018771216",
+        "display_name": "LMU Klinikum",
+        "ror": "https://ror.org/02jet3w32",
+        "country_code": "DE",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I3018771216",
+         "https://openalex.org/I8204097"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4405261432",
+        "display_name": "Institut f\u00fcr Didaktik und Ausbildungsforschung in der Medizin",
+        "ror": "https://ror.org/059qe0395",
+        "country_code": "DE",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I3018771216",
+         "https://openalex.org/I4405261432",
+         "https://openalex.org/I8204097"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I8204097",
+        "display_name": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+        "ror": "https://ror.org/05591te55",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I8204097"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Felix Behrmann",
+      "raw_affiliation_strings": [
+       "Institute of Medical Education, University Hospital, LMU Munich, Munich, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute of Medical Education, University Hospital, LMU Munich, Munich, Germany",
+        "institution_ids": [
+         "https://openalex.org/I3018771216",
+         "https://openalex.org/I4405261432",
+         "https://openalex.org/I8204097"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5074472060",
+       "display_name": "Adrian Steffan",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I8204097",
+        "display_name": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+        "ror": "https://ror.org/05591te55",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I8204097"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Adrian Steffan",
+      "raw_affiliation_strings": [
+       "Department of Psychology, LMU Munich, Munich, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, LMU Munich, Munich, Germany",
+        "institution_ids": [
+         "https://openalex.org/I8204097"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5009106952",
+       "display_name": "Daniela Kugelmann",
+       "orcid": "https://orcid.org/0000-0002-2512-4240",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2512-4240"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I8204097",
+        "display_name": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+        "ror": "https://ror.org/05591te55",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I8204097"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Daniela Kugelmann",
+      "raw_affiliation_strings": [
+       "Chair for Vegetative Anatomy, Faculty of Medicine, LMU Munich, Munich, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Chair for Vegetative Anatomy, Faculty of Medicine, LMU Munich, Munich, Germany",
+        "institution_ids": [
+         "https://openalex.org/I8204097"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5046070797",
+       "display_name": "Markus Berndt",
+       "orcid": "https://orcid.org/0000-0002-4467-5355",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4467-5355"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I3018771216",
+        "display_name": "LMU Klinikum",
+        "ror": "https://ror.org/02jet3w32",
+        "country_code": "DE",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I3018771216",
+         "https://openalex.org/I8204097"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4405261432",
+        "display_name": "Institut f\u00fcr Didaktik und Ausbildungsforschung in der Medizin",
+        "ror": "https://ror.org/059qe0395",
+        "country_code": "DE",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I3018771216",
+         "https://openalex.org/I4405261432",
+         "https://openalex.org/I8204097"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I80046288",
+        "display_name": "Walden University",
+        "ror": "https://ror.org/02qp2hh41",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I80046288"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I8204097",
+        "display_name": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+        "ror": "https://ror.org/05591te55",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I8204097"
+        ]
+       }
+      ],
+      "countries": [
+       "DE",
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Markus Berndt",
+      "raw_affiliation_strings": [
+       "Institute of Medical Education, University Hospital, LMU Munich, Munich, Germany",
+       "Richard W. Riley College of Education and Human Sciences, Walden University, Minnesota, Minneapolis, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute of Medical Education, University Hospital, LMU Munich, Munich, Germany",
+        "institution_ids": [
+         "https://openalex.org/I3018771216",
+         "https://openalex.org/I4405261432",
+         "https://openalex.org/I8204097"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Richard W. Riley College of Education and Human Sciences, Walden University, Minnesota, Minneapolis, USA",
+        "institution_ids": [
+         "https://openalex.org/I80046288"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1002/ase.2237",
+     "doi": "https://doi.org/10.1002/ase.2237",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1002/ase.2237",
+     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ase.2237",
+     "source": {
+      "id": "https://openalex.org/S121323410",
+      "display_name": "Anatomical Sciences Education",
+      "issn_l": "1935-9772",
+      "issn": [
+       "1935-9772",
+       "1935-9780"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "doyens",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Anatomical Sciences Education",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4399898975",
+    "doi": "https://doi.org/10.1002/cl2.1417",
+    "title": "Mobile device use in the primary school classroom and impact on pupil literacy and numeracy attainment: A systematic review",
+    "display_name": "Mobile device use in the primary school classroom and impact on pupil literacy and numeracy attainment: A systematic review",
+    "publication_year": 2024,
+    "cited_by_count": 74,
+    "abstract_inverted_index": {
+     "Background:": [
+      0
+     ],
+     "Investment": [
+      1
+     ],
+     "in": [
+      2,
+      45,
+      64,
+      71,
+      80,
+      169,
+      187,
+      206,
+      223,
+      259,
+      268,
+      361,
+      408,
+      432,
+      479,
+      574,
+      598,
+      792,
+      817,
+      868
+     ],
+     "mobile": [
+      3,
+      37,
+      60,
+      78,
+      97,
+      166,
+      218,
+      236,
+      257,
+      452,
+      611,
+      789,
+      872
+     ],
+     "devices": [
+      4,
+      38,
+      61,
+      79,
+      98,
+      182,
+      219,
+      237,
+      258,
+      453,
+      612,
+      873
+     ],
+     "to": [
+      5,
+      20,
+      31,
+      39,
+      57,
+      155,
+      282,
+      285,
+      295,
+      364,
+      405,
+      461,
+      545,
+      576,
+      582,
+      681,
+      690,
+      723,
+      730,
+      740,
+      752,
+      765,
+      796,
+      857,
+      874
+     ],
+     "support": [
+      6,
+      40,
+      463,
+      724,
+      875
+     ],
+     "primary": [
+      7,
+      47,
+      82,
+      171,
+      444,
+      818
+     ],
+     "or": [
+      8,
+      194,
+      368,
+      439,
+      457,
+      465,
+      607,
+      616,
+      628,
+      631,
+      696
+     ],
+     "elementary": [
+      9
+     ],
+     "education": [
+      10,
+      66,
+      313,
+      430
+     ],
+     "is": [
+      11,
+      162,
+      247,
+      264,
+      411,
+      679
+     ],
+     "increasing": [
+      12
+     ],
+     "and": [
+      13,
+      42,
+      70,
+      87,
+      105,
+      116,
+      119,
+      127,
+      177,
+      190,
+      209,
+      226,
+      231,
+      262,
+      299,
+      302,
+      306,
+      314,
+      335,
+      337,
+      340,
+      351,
+      373,
+      380,
+      395,
+      413,
+      437,
+      484,
+      500,
+      515,
+      526,
+      559,
+      572,
+      601,
+      661,
+      671,
+      704,
+      737,
+      786,
+      803,
+      835,
+      838,
+      865
+     ],
+     "must": [
+      14,
+      842
+     ],
+     "be": [
+      15,
+      642,
+      843
+     ],
+     "informed": [
+      16
+     ],
+     "by": [
+      17,
+      538
+     ],
+     "robust": [
+      18,
+      495,
+      732,
+      855
+     ],
+     "evidence": [
+      19,
+      252,
+      418
+     ],
+     "demonstrate": [
+      21
+     ],
+     "impact.": [
+      22
+     ],
+     "This": [
+      23
+     ],
+     "systematic": [
+      24,
+      54
+     ],
+     "review": [
+      25,
+      55,
+      153,
+      277,
+      384,
+      407,
+      424,
+      779,
+      848
+     ],
+     "of": [
+      26,
+      36,
+      52,
+      131,
+      165,
+      214,
+      235,
+      250,
+      256,
+      329,
+      348,
+      470,
+      488,
+      533,
+      549,
+      565,
+      579,
+      586,
+      590,
+      649,
+      659,
+      701,
+      714,
+      727,
+      763,
+      826,
+      871
+     ],
+     "randomised": [
+      27
+     ],
+     "controlled": [
+      28
+     ],
+     "trials": [
+      29
+     ],
+     "sought": [
+      30
+     ],
+     "identify": [
+      32,
+      365,
+      691,
+      766
+     ],
+     "the": [
+      33,
+      68,
+      81,
+      91,
+      146,
+      152,
+      157,
+      163,
+      170,
+      233,
+      245,
+      248,
+      254,
+      276,
+      362,
+      406,
+      409,
+      417,
+      443,
+      480,
+      542,
+      547,
+      577,
+      587,
+      599,
+      647,
+      669,
+      754,
+      783,
+      793,
+      807,
+      822,
+      831,
+      840,
+      851,
+      869
+     ],
+     "overall": [
+      34,
+      773
+     ],
+     "impact": [
+      35,
+      85,
+      685,
+      742,
+      768
+     ],
+     "literacy": [
+      41,
+      86,
+      138,
+      176,
+      189,
+      208,
+      225,
+      464,
+      608,
+      617,
+      802
+     ],
+     "numeracy": [
+      43,
+      88,
+      140,
+      178,
+      466,
+      615,
+      804
+     ],
+     "outcomes": [
+      44,
+      618,
+      805
+     ],
+     "mainstream": [
+      46,
+      428
+     ],
+     "classrooms.": [
+      48
+     ],
+     "Objectives:": [
+      49
+     ],
+     "The": [
+      50,
+      129,
+      290,
+      383,
+      423,
+      847
+     ],
+     "aim": [
+      51
+     ],
+     "this": [
+      53,
+      95,
+      269,
+      400,
+      778
+     ],
+     "was": [
+      56,
+      293,
+      355,
+      536,
+      569,
+      749
+     ],
+     "understand": [
+      58,
+      682,
+      859
+     ],
+     "how": [
+      59,
+      74
+     ],
+     "are": [
+      62,
+      99,
+      184,
+      220,
+      396
+     ],
+     "used": [
+      63,
+      451
+     ],
+     "primary/elementary": [
+      65,
+      147,
+      260
+     ],
+     "around": [
+      67
+     ],
+     "world,": [
+      69
+     ],
+     "particular,": [
+      72
+     ],
+     "determine": [
+      73,
+      741
+     ],
+     "activities": [
+      75,
+      202,
+      440,
+      635
+     ],
+     "undertaken": [
+      76,
+      322,
+      537,
+      751
+     ],
+     "using": [
+      77,
+      522,
+      541,
+      610,
+      621
+     ],
+     "classroom": [
+      83,
+      173,
+      200,
+      446,
+      672,
+      794
+     ],
+     "might": [
+      84
+     ],
+     "attainment": [
+      89
+     ],
+     "for": [
+      90,
+      141,
+      216,
+      238,
+      241,
+      782,
+      806,
+      813,
+      853,
+      866
+     ],
+     "pupils": [
+      92
+     ],
+     "involved.": [
+      93
+     ],
+     "Within": [
+      94
+     ],
+     "context,": [
+      96
+     ],
+     "defined": [
+      100
+     ],
+     "as": [
+      101,
+      343,
+      345,
+      555,
+      561,
+      636,
+      664,
+      758
+     ],
+     "tablets": [
+      102
+     ],
+     "(including": [
+      103,
+      454
+     ],
+     "iPads": [
+      104
+     ],
+     "other": [
+      106,
+      307,
+      341
+     ],
+     "branded": [
+      107
+     ],
+     "devices),": [
+      108
+     ],
+     "smartphones": [
+      109
+     ],
+     "(usually": [
+      110
+     ],
+     "those": [
+      111,
+      134,
+      620
+     ],
+     "with": [
+      112,
+      125,
+      309,
+      358,
+      551,
+      644,
+      845
+     ],
+     "a": [
+      113,
+      310,
+      346,
+      494,
+      527,
+      584,
+      626,
+      760,
+      797
+     ],
+     "touchscreen": [
+      114,
+      126
+     ],
+     "interface": [
+      115
+     ],
+     "internet": [
+      117
+     ],
+     "connectivity)": [
+      118
+     ],
+     "handheld": [
+      120,
+      195
+     ],
+     "games": [
+      121,
+      196
+     ],
+     "consoles": [
+      122
+     ],
+     "(again": [
+      123
+     ],
+     "usually": [
+      124
+     ],
+     "internet-enabled).": [
+      128
+     ],
+     "interventions": [
+      130,
+      438,
+      580,
+      602,
+      609,
+      670,
+      785,
+      834
+     ],
+     "interest": [
+      132
+     ],
+     "were": [
+      133,
+      321,
+      477,
+      491,
+      520,
+      718
+     ],
+     "aimed": [
+      135,
+      154,
+      689
+     ],
+     "at": [
+      136,
+      279,
+      399
+     ],
+     "improving": [
+      137
+     ],
+     "and/or": [
+      139
+     ],
+     "children": [
+      142,
+      215,
+      426,
+      604,
+      808
+     ],
+     "aged": [
+      143
+     ],
+     "4-12": [
+      144
+     ],
+     "within": [
+      145,
+      427,
+      442
+     ],
+     "school": [
+      148,
+      172,
+      445
+     ],
+     "(or": [
+      149,
+      447
+     ],
+     "equivalent)": [
+      150,
+      449
+     ],
+     "classroom.Specifically,": [
+      151
+     ],
+     "answer": [
+      156
+     ],
+     "following": [
+      158
+     ],
+     "research": [
+      159,
+      266,
+      678,
+      856
+     ],
+     "questions:": [
+      160
+     ],
+     "-What": [
+      161
+     ],
+     "effect": [
+      164,
+      800
+     ],
+     "device": [
+      167,
+      624,
+      633,
+      790
+     ],
+     "integration": [
+      168,
+      201
+     ],
+     "on": [
+      174,
+      253,
+      312,
+      416,
+      709,
+      734,
+      772,
+      801,
+      824
+     ],
+     "children's": [
+      175
+     ],
+     "outcomes?-Are": [
+      179
+     ],
+     "there": [
+      180,
+      198,
+      211
+     ],
+     "specific": [
+      181,
+      199,
+      212,
+      784
+     ],
+     "which": [
+      183,
+      203
+     ],
+     "more": [
+      185,
+      221,
+      686
+     ],
+     "effective": [
+      186,
+      222
+     ],
+     "supporting": [
+      188,
+      207,
+      224
+     ],
+     "numeracy?": [
+      191,
+      227
+     ],
+     "(Tablets,": [
+      192
+     ],
+     "smartphones,": [
+      193,
+      456
+     ],
+     "consoles)-Are": [
+      197
+     ],
+     "moderate": [
+      204
+     ],
+     "effectiveness": [
+      205
+     ],
+     "numeracy?-Are": [
+      210
+     ],
+     "groups": [
+      213
+     ],
+     "whom": [
+      217
+     ],
+     "(Across": [
+      228
+     ],
+     "age": [
+      229,
+      695
+     ],
+     "group": [
+      230
+     ],
+     "gender).-Do": [
+      232
+     ],
+     "benefits": [
+      234
+     ],
+     "learning": [
+      239
+     ],
+     "last": [
+      240
+     ],
+     "any": [
+      242,
+      366,
+      433,
+      683,
+      767
+     ],
+     "time": [
+      243
+     ],
+     "beyond": [
+      244,
+      743
+     ],
+     "study?-What": [
+      246
+     ],
+     "quality": [
+      249,
+      548
+     ],
+     "available": [
+      251
+     ],
+     "use": [
+      255,
+      791,
+      816,
+      870
+     ],
+     "education,": [
+      261
+     ],
+     "where": [
+      263
+     ],
+     "further": [
+      265,
+      403,
+      677,
+      854
+     ],
+     "needed": [
+      267,
+      680
+     ],
+     "regard?": [
+      270
+     ],
+     "An": [
+      271
+     ],
+     "Expert": [
+      272
+     ],
+     "Advisory": [
+      273
+     ],
+     "Group": [
+      274
+     ],
+     "supported": [
+      275
+     ],
+     "process": [
+      278
+     ],
+     "key": [
+      280,
+      588
+     ],
+     "stages": [
+      281
+     ],
+     "ensure": [
+      283
+     ],
+     "relevance": [
+      284
+     ],
+     "current": [
+      286
+     ],
+     "practice.": [
+      287
+     ],
+     "Search": [
+      288
+     ],
+     "Methods:": [
+      289
+     ],
+     "search": [
+      291,
+      496
+     ],
+     "strategy": [
+      292,
+      497
+     ],
+     "designed": [
+      294
+     ],
+     "retrieve": [
+      296
+     ],
+     "both": [
+      297
+     ],
+     "published": [
+      298,
+      499
+     ],
+     "unpublished": [
+      300,
+      369,
+      501
+     ],
+     "literature,": [
+      301
+     ],
+     "incorporated": [
+      303
+     ],
+     "relevant": [
+      304,
+      338,
+      349,
+      507,
+      517
+     ],
+     "journal": [
+      305
+     ],
+     "databases": [
+      308
+     ],
+     "focus": [
+      311
+     ],
+     "social": [
+      315
+     ],
+     "sciences.": [
+      316
+     ],
+     "Robust": [
+      317,
+      523
+     ],
+     "electronic": [
+      318
+     ],
+     "database": [
+      319
+     ],
+     "searches": [
+      320,
+      372
+     ],
+     "(12": [
+      323
+     ],
+     "databases,": [
+      324
+     ],
+     "including": [
+      325,
+      498,
+      509,
+      694
+     ],
+     "APA": [
+      326
+     ],
+     "PsychInfo,": [
+      327
+     ],
+     "Web": [
+      328
+     ],
+     "Science,": [
+      330
+     ],
+     "ERIC,": [
+      331
+     ],
+     "British": [
+      332
+     ],
+     "Education": [
+      333
+     ],
+     "Index": [
+      334
+     ],
+     "others,": [
+      336
+     ],
+     "government": [
+      339
+     ],
+     "websites),": [
+      342
+     ],
+     "well": [
+      344
+     ],
+     "hand-search": [
+      347
+     ],
+     "journals": [
+      350
+     ],
+     "conference": [
+      352
+     ],
+     "proceedings.": [
+      353
+     ],
+     "Contact": [
+      354
+     ],
+     "also": [
+      356,
+      570,
+      750,
+      849
+     ],
+     "made": [
+      357
+     ],
+     "prominent": [
+      359
+     ],
+     "authors": [
+      360
+     ],
+     "field": [
+      363
+     ],
+     "ongoing": [
+      367
+     ],
+     "research.": [
+      370
+     ],
+     "All": [
+      371
+     ],
+     "author": [
+      374
+     ],
+     "contact": [
+      375
+     ],
+     "took": [
+      376
+     ],
+     "place": [
+      377
+     ],
+     "between": [
+      378
+     ],
+     "October": [
+      379
+     ],
+     "November": [
+      381
+     ],
+     "2020.": [
+      382
+     ],
+     "team": [
+      385
+     ],
+     "acknowledges": [
+      386
+     ],
+     "that": [
+      387,
+      450,
+      597,
+      781
+     ],
+     "new": [
+      388
+     ],
+     "studies": [
+      389,
+      553,
+      600,
+      655,
+      721,
+      756,
+      787
+     ],
+     "will": [
+      390
+     ],
+     "likely": [
+      391
+     ],
+     "have": [
+      392,
+      771
+     ],
+     "emerged": [
+      393
+     ],
+     "since": [
+      394
+     ],
+     "not": [
+      397
+     ],
+     "captured": [
+      398
+     ],
+     "time.": [
+      401
+     ],
+     "A": [
+      402,
+      486
+     ],
+     "update": [
+      404
+     ],
+     "future": [
+      410
+     ],
+     "important": [
+      412
+     ],
+     "would": [
+      414
+     ],
+     "build": [
+      415
+     ],
+     "reflected": [
+      419
+     ],
+     "here.": [
+      420
+     ],
+     "Selection": [
+      421
+     ],
+     "Criteria:": [
+      422
+     ],
+     "included": [
+      425,
+      478,
+      581
+     ],
+     "primary/elementary/kindergarten": [
+      429
+     ],
+     "settings": [
+      431
+     ],
+     "country": [
+      434
+     ],
+     "(aged": [
+      435
+     ],
+     "4-12),": [
+      436
+     ],
+     "initiated": [
+      441
+     ],
+     "global": [
+      448
+     ],
+     "tablets,": [
+      455
+     ],
+     "hand-held": [
+      458
+     ],
+     "gaming": [
+      459
+     ],
+     "devices)": [
+      460
+     ],
+     "intentionally": [
+      462
+     ],
+     "learning.": [
+      467,
+      876
+     ],
+     "In": [
+      468
+     ],
+     "terms": [
+      469
+     ],
+     "study": [
+      471
+     ],
+     "design,": [
+      472
+     ],
+     "only": [
+      473
+     ],
+     "Randomised": [
+      474
+     ],
+     "Controlled": [
+      475
+     ],
+     "Trials": [
+      476
+     ],
+     "review.": [
+      481
+     ],
+     "Data": [
+      482
+     ],
+     "Collection": [
+      483
+     ],
+     "Analysis:": [
+      485
+     ],
+     "total": [
+      487
+     ],
+     "668": [
+      489
+     ],
+     "references": [
+      490
+     ],
+     "identified": [
+      492,
+      722,
+      757
+     ],
+     "through": [
+      493
+     ],
+     "literature.": [
+      502
+     ],
+     "Following": [
+      503
+     ],
+     "duplicate": [
+      504
+     ],
+     "screening,": [
+      505
+     ],
+     "18": [
+      506
+     ],
+     "studies,": [
+      508,
+      550
+     ],
+     "11,126": [
+      510
+     ],
+     "participants,": [
+      511
+     ],
+     "14": [
+      512
+     ],
+     "unique": [
+      513
+     ],
+     "interventions,": [
+      514
+     ],
+     "46": [
+      516
+     ],
+     "outcome": [
+      518
+     ],
+     "measures": [
+      519
+     ],
+     "synthesised": [
+      521
+     ],
+     "Variance": [
+      524
+     ],
+     "Estimation": [
+      525
+     ],
+     "random": [
+      528
+     ],
+     "effects": [
+      529
+     ],
+     "meta-analysis": [
+      530
+     ],
+     "model.": [
+      531
+     ],
+     "Risk": [
+      532
+     ],
+     "Bias": [
+      534
+     ],
+     "assessment": [
+      535,
+      651,
+      828
+     ],
+     "three": [
+      539
+     ],
+     "reviewers": [
+      540
+     ],
+     "ROB2": [
+      543
+     ],
+     "tool": [
+      544
+     ],
+     "assess": [
+      546
+     ],
+     "13": [
+      552,
+      662
+     ],
+     "rated": [
+      554,
+      656,
+      663
+     ],
+     "having": [
+      556,
+      562,
+      665,
+      759
+     ],
+     "some": [
+      557,
+      666
+     ],
+     "concerns,": [
+      558
+     ],
+     "5": [
+      560
+     ],
+     "high": [
+      563,
+      657,
+      761
+     ],
+     "risk": [
+      564,
+      648,
+      658,
+      762,
+      825
+     ],
+     "bias.": [
+      566
+     ],
+     "Qualitative": [
+      567
+     ],
+     "data": [
+      568,
+      739
+     ],
+     "extracted": [
+      571
+     ],
+     "analysed": [
+      573
+     ],
+     "relation": [
+      575
+     ],
+     "types": [
+      578
+     ],
+     "allow": [
+      583
+     ],
+     "comparison": [
+      585
+     ],
+     "elements": [
+      589
+     ],
+     "each.": [
+      591
+     ],
+     "Main": [
+      592
+     ],
+     "Results:": [
+      593
+     ],
+     "<": [
+      594
+     ],
+     "0.01),": [
+      595
+     ],
+     "demonstrating": [
+      596
+     ],
+     "included,": [
+      603,
+      788
+     ],
+     "undertaking": [
+      605
+     ],
+     "maths": [
+      606
+     ],
+     "achieved": [
+      613
+     ],
+     "higher": [
+      614
+     ],
+     "than": [
+      619
+     ],
+     "an": [
+      622
+     ],
+     "alternative": [
+      623
+     ],
+     "(e.g.,": [
+      625
+     ],
+     "laptop": [
+      627
+     ],
+     "desktop": [
+      629
+     ],
+     "computer)": [
+      630
+     ],
+     "no": [
+      632
+     ],
+     "(class": [
+      634
+     ],
+     "usual).": [
+      637
+     ],
+     "However": [
+      638,
+      820
+     ],
+     "these": [
+      639
+     ],
+     "results": [
+      640
+     ],
+     "should": [
+      641
+     ],
+     "interpreted": [
+      643,
+      844
+     ],
+     "caution": [
+      645
+     ],
+     "given": [
+      646,
+      821
+     ],
+     "bias": [
+      650,
+      660,
+      827
+     ],
+     "noted": [
+      652
+     ],
+     "above": [
+      653
+     ],
+     "(5": [
+      654
+     ],
+     "concerns).": [
+      667
+     ],
+     "As": [
+      668
+     ],
+     "circumstances": [
+      673
+     ],
+     "differed": [
+      674
+     ],
+     "quite": [
+      675
+     ],
+     "widely,": [
+      676
+     ],
+     "potential": [
+      684
+     ],
+     "fully.Sensitivity": [
+      687
+     ],
+     "analysis": [
+      688,
+      726,
+      748
+     ],
+     "moderating": [
+      692,
+      735
+     ],
+     "factors": [
+      693
+     ],
+     "gender,": [
+      697
+     ],
+     "screen": [
+      698
+     ],
+     "size,": [
+      699
+     ],
+     "frequency/dosage": [
+      700
+     ],
+     "intervention": [
+      702
+     ],
+     "exposure,": [
+      703
+     ],
+     "programme": [
+      705
+     ],
+     "implementation": [
+      706
+     ],
+     "features/activities": [
+      707
+     ],
+     "(based": [
+      708
+     ],
+     "Puentedura's": [
+      710
+     ],
+     "[2009]": [
+      711
+     ],
+     "SAMR": [
+      712
+     ],
+     "model": [
+      713
+     ],
+     "technology": [
+      715
+     ],
+     "integration).": [
+      716
+     ],
+     "There": [
+      717
+     ],
+     "too": [
+      719
+     ],
+     "few": [
+      720
+     ],
+     "quantitative": [
+      725
+     ],
+     "sufficient": [
+      728
+     ],
+     "power": [
+      729
+     ],
+     "draw": [
+      731
+     ],
+     "conclusions": [
+      733
+     ],
+     "factors,": [
+      736
+     ],
+     "insufficient": [
+      738
+     ],
+     "immediate": [
+      744
+     ],
+     "post-test": [
+      745
+     ],
+     "period.": [
+      746
+     ],
+     "Sensitivty": [
+      747
+     ],
+     "exclude": [
+      753
+     ],
+     "five": [
+      755
+     ],
+     "bias,": [
+      764
+     ],
+     "they": [
+      769
+     ],
+     "may": [
+      770
+     ],
+     "findings.": [
+      774
+     ],
+     "Authors'": [
+      775
+     ],
+     "Conclusions:": [
+      776
+     ],
+     "Overall,": [
+      777
+     ],
+     "demonstrates": [
+      780
+     ],
+     "led": [
+      795
+     ],
+     "significant,": [
+      798
+     ],
+     "positive": [
+      799,
+      811
+     ],
+     "involved,": [
+      809
+     ],
+     "bringing": [
+      810
+     ],
+     "implications": [
+      812
+     ],
+     "their": [
+      814
+     ],
+     "continued": [
+      815
+     ],
+     "education.": [
+      819
+     ],
+     "concerns": [
+      823
+     ],
+     "reported": [
+      829
+     ],
+     "above,": [
+      830
+     ],
+     "differing": [
+      832
+     ],
+     "circumstances,": [
+      833,
+      864
+     ],
+     "treatment": [
+      836
+     ],
+     "conditions": [
+      837
+     ],
+     "intensities,": [
+      839
+     ],
+     "findings": [
+      841
+     ],
+     "caution.": [
+      846
+     ],
+     "supports": [
+      850
+     ],
+     "need": [
+      852
+     ],
+     "better": [
+      858
+     ],
+     "what": [
+      860,
+      863
+     ],
+     "works,": [
+      861
+     ],
+     "under": [
+      862
+     ],
+     "whom,": [
+      867
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5104333036",
+       "display_name": "Claire Dorris",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I126231945",
+        "display_name": "Queen's University Belfast",
+        "ror": "https://ror.org/00hswnk62",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I126231945"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Claire Dorris",
+      "raw_affiliation_strings": [
+       "School of Social Sciences, Education and Social Work, Queen's University Belfast, Belfast, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Social Sciences, Education and Social Work, Queen's University Belfast, Belfast, UK",
+        "institution_ids": [
+         "https://openalex.org/I126231945"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5010828768",
+       "display_name": "Karen Winter",
+       "orcid": "https://orcid.org/0000-0002-1229-7150",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1229-7150"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I126231945",
+        "display_name": "Queen's University Belfast",
+        "ror": "https://ror.org/00hswnk62",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I126231945"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Karen Winter",
+      "raw_affiliation_strings": [
+       "School of Social Sciences, Education and Social Work, Queen's University Belfast, Belfast, UK",
+       "School of Sociology, Social Policy and Social Work, Queen's University Belfast, Belfast, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Social Sciences, Education and Social Work, Queen's University Belfast, Belfast, UK",
+        "institution_ids": [
+         "https://openalex.org/I126231945"
+        ]
+       },
+       {
+        "raw_affiliation_string": "School of Sociology, Social Policy and Social Work, Queen's University Belfast, Belfast, UK",
+        "institution_ids": [
+         "https://openalex.org/I126231945"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5052669662",
+       "display_name": "Liam O\u2019Hare",
+       "orcid": "https://orcid.org/0000-0002-4453-2880",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4453-2880"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I126231945",
+        "display_name": "Queen's University Belfast",
+        "ror": "https://ror.org/00hswnk62",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I126231945"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Liam O'Hare",
+      "raw_affiliation_strings": [
+       "School of Social Sciences, Education and Social Work, Queen's University Belfast, Belfast, UK",
+       "Centre for Evidence and Social Innovation, Queens University Belfast, Belfast, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Social Sciences, Education and Social Work, Queen's University Belfast, Belfast, UK",
+        "institution_ids": [
+         "https://openalex.org/I126231945"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Centre for Evidence and Social Innovation, Queens University Belfast, Belfast, UK",
+        "institution_ids": [
+         "https://openalex.org/I126231945"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5049791555",
+       "display_name": "Edda Tandi Lwoga",
+       "orcid": "https://orcid.org/0000-0002-3254-8770",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3254-8770"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210161264",
+        "display_name": "College of Business Education",
+        "ror": "https://ror.org/05qcsva92",
+        "country_code": "TZ",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210161264"
+        ]
+       }
+      ],
+      "countries": [
+       "TZ"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Edda Tandi Lwoga",
+      "raw_affiliation_strings": [
+       "College of Business Education, Dar es Salaam, Tanzania"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "College of Business Education, Dar es Salaam, Tanzania",
+        "institution_ids": [
+         "https://openalex.org/I4210161264"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1002/cl2.1417",
+     "doi": "https://doi.org/10.1002/cl2.1417",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1002/cl2.1417",
+     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cl2.1417",
+     "source": {
+      "id": "https://openalex.org/S2739193000",
+      "display_name": "Campbell Systematic Reviews",
+      "issn_l": "1891-1803",
+      "issn": [
+       "1891-1803"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "jufo-1",
+       "norway-1",
+       "poland-20",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310314072",
+      "host_organization_name": "The Campbell Collaboration",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310314072"
+      ],
+      "host_organization_lineage_names": [
+       "The Campbell Collaboration"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Campbell Systematic Reviews: Better Evidence for a Better World",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4416138331",
+    "doi": "https://doi.org/10.3390/bs15111540",
+    "title": "The Moderating Role of Learning Rounds: Effects on Retrieval Practice and Context Dependence in Digital Flashcard Foreign Language Vocabulary Learning",
+    "display_name": "The Moderating Role of Learning Rounds: Effects on Retrieval Practice and Context Dependence in Digital Flashcard Foreign Language Vocabulary Learning",
+    "publication_year": 2025,
+    "cited_by_count": 12,
+    "abstract_inverted_index": {
+     "Digital": [
+      0
+     ],
+     "flashcards": [
+      1
+     ],
+     "are": [
+      2,
+      78
+     ],
+     "widely": [
+      3
+     ],
+     "used": [
+      4
+     ],
+     "in": [
+      5,
+      67
+     ],
+     "foreign": [
+      6
+     ],
+     "language": [
+      7
+     ],
+     "vocabulary": [
+      8,
+      171
+     ],
+     "learning.": [
+      9
+     ],
+     "Research": [
+      10
+     ],
+     "attributes": [
+      11
+     ],
+     "their": [
+      12
+     ],
+     "effectiveness": [
+      13
+     ],
+     "to": [
+      14,
+      40,
+      88
+     ],
+     "retrieval": [
+      15,
+      30,
+      43,
+      76,
+      145
+     ],
+     "practice,": [
+      16
+     ],
+     "where": [
+      17
+     ],
+     "learners": [
+      18
+     ],
+     "actively": [
+      19
+     ],
+     "recall": [
+      20
+     ],
+     "target": [
+      21
+     ],
+     "information,": [
+      22
+     ],
+     "thereby": [
+      23
+     ],
+     "enhancing": [
+      24
+     ],
+     "learning": [
+      25,
+      62,
+      70,
+      117,
+      142,
+      164
+     ],
+     "performance.": [
+      26
+     ],
+     "The": [
+      27
+     ],
+     "superiority": [
+      28
+     ],
+     "of": [
+      29,
+      61,
+      75,
+      91,
+      160
+     ],
+     "practice": [
+      31,
+      44,
+      77,
+      110,
+      146
+     ],
+     "over": [
+      32
+     ],
+     "non-retrieval": [
+      33
+     ],
+     "methods": [
+      34,
+      108
+     ],
+     "such": [
+      35
+     ],
+     "as": [
+      36,
+      41
+     ],
+     "restudying": [
+      37,
+      149
+     ],
+     "is": [
+      38
+     ],
+     "referred": [
+      39
+     ],
+     "the": [
+      42,
+      51,
+      59,
+      65,
+      73,
+      89,
+      137,
+      158
+     ],
+     "effect": [
+      45
+     ],
+     "(RPE).": [
+      46
+     ],
+     "Despite": [
+      47
+     ],
+     "extensive": [
+      48
+     ],
+     "research": [
+      49
+     ],
+     "on": [
+      50
+     ],
+     "RPE,": [
+      52
+     ],
+     "two": [
+      53,
+      106
+     ],
+     "key": [
+      54
+     ],
+     "questions": [
+      55
+     ],
+     "remain": [
+      56
+     ],
+     "underexplored:": [
+      57
+     ],
+     "how": [
+      58
+     ],
+     "number": [
+      60
+     ],
+     "rounds": [
+      63
+     ],
+     "modulates": [
+      64
+     ],
+     "RPE": [
+      66,
+      138
+     ],
+     "digital": [
+      68,
+      162
+     ],
+     "flashcard": [
+      69,
+      163
+     ],
+     "and": [
+      71,
+      131,
+      165
+     ],
+     "whether": [
+      72
+     ],
+     "benefits": [
+      74
+     ],
+     "consistently": [
+      79,
+      147
+     ],
+     "observed": [
+      80
+     ],
+     "across": [
+      81,
+      151
+     ],
+     "different": [
+      82,
+      152
+     ],
+     "test": [
+      83,
+      153
+     ],
+     "modalities,": [
+      84
+     ],
+     "a": [
+      85
+     ],
+     "factor": [
+      86
+     ],
+     "related": [
+      87
+     ],
+     "context-dependence": [
+      90
+     ],
+     "memory.": [
+      92
+     ],
+     "To": [
+      93
+     ],
+     "address": [
+      94
+     ],
+     "these": [
+      95
+     ],
+     "questions,": [
+      96
+     ],
+     "108": [
+      97
+     ],
+     "Chinese-English": [
+      98
+     ],
+     "bilinguals": [
+      99
+     ],
+     "learned": [
+      100
+     ],
+     "60": [
+      101
+     ],
+     "Swahili-Chinese": [
+      102
+     ],
+     "word": [
+      103
+     ],
+     "pairs": [
+      104
+     ],
+     "using": [
+      105,
+      128
+     ],
+     "study": [
+      107
+     ],
+     "(retrieval": [
+      109
+     ],
+     "vs.": [
+      111
+     ],
+     "restudying)": [
+      112
+     ],
+     "under": [
+      113
+     ],
+     "3-": [
+      114
+     ],
+     "or": [
+      115
+     ],
+     "4-round": [
+      116
+     ],
+     "conditions,": [
+      118
+     ],
+     "followed": [
+      119
+     ],
+     "by": [
+      120
+     ],
+     "cued-recall": [
+      121
+     ],
+     "tests": [
+      122
+     ],
+     "administered": [
+      123
+     ],
+     "30": [
+      124
+     ],
+     "min": [
+      125
+     ],
+     "after": [
+      126
+     ],
+     "learning,": [
+      127
+     ],
+     "both": [
+      129
+     ],
+     "paper-": [
+      130
+     ],
+     "computer-based": [
+      132
+     ],
+     "formats.": [
+      133
+     ],
+     "Results": [
+      134
+     ],
+     "showed": [
+      135
+     ],
+     "that": [
+      136
+     ],
+     "increased": [
+      139
+     ],
+     "with": [
+      140
+     ],
+     "more": [
+      141
+     ],
+     "rounds.": [
+      143
+     ],
+     "Additionally,": [
+      144
+     ],
+     "outperformed": [
+      148
+     ],
+     "method": [
+      150
+     ],
+     "modalities.": [
+      154
+     ],
+     "These": [
+      155
+     ],
+     "findings": [
+      156
+     ],
+     "underscore": [
+      157
+     ],
+     "robustness": [
+      159
+     ],
+     "retrieval-based": [
+      161
+     ],
+     "provide": [
+      166
+     ],
+     "practical": [
+      167
+     ],
+     "insights": [
+      168
+     ],
+     "for": [
+      169
+     ],
+     "optimizing": [
+      170
+     ],
+     "instruction": [
+      172
+     ],
+     "through": [
+      173
+     ],
+     "strategic": [
+      174
+     ],
+     "repetition": [
+      175
+     ],
+     "scheduling.": [
+      176
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5100934867",
+       "display_name": "Shan Huang",
+       "orcid": "https://orcid.org/0009-0001-5165-0674",
+       "observed_orcids": [
+        "https://orcid.org/0009-0001-5165-0674"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I158842170",
+        "display_name": "Chongqing University",
+        "ror": "https://ror.org/023rhb549",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I158842170"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/project-administration",
+        "display_name": "Project administration"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/software",
+        "display_name": "Software"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/visualization",
+        "display_name": "Visualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Shan Huang",
+      "raw_affiliation_strings": [
+       "Research Center for Language, Cognition and Language Application, Chongqing University, Chongqing 401331, China",
+       "School of Foreign Languages and Cultures, Chongqing University, Chongqing 401331, China"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0001-5165-0674",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Research Center for Language, Cognition and Language Application, Chongqing University, Chongqing 401331, China",
+        "institution_ids": [
+         "https://openalex.org/I158842170"
+        ]
+       },
+       {
+        "raw_affiliation_string": "School of Foreign Languages and Cultures, Chongqing University, Chongqing 401331, China",
+        "institution_ids": [
+         "https://openalex.org/I158842170"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5036610754",
+       "display_name": "Hong-Wen Cao",
+       "orcid": "https://orcid.org/0000-0002-8549-2109",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8549-2109"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I158842170",
+        "display_name": "Chongqing University",
+        "ror": "https://ror.org/023rhb549",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I158842170"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/project-administration",
+        "display_name": "Project administration"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Hong-Wen Cao",
+      "raw_affiliation_strings": [
+       "Research Center for Language, Cognition and Language Application, Chongqing University, Chongqing 401331, China",
+       "School of Foreign Languages and Cultures, Chongqing University, Chongqing 401331, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-8549-2109",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Research Center for Language, Cognition and Language Application, Chongqing University, Chongqing 401331, China",
+        "institution_ids": [
+         "https://openalex.org/I158842170"
+        ]
+       },
+       {
+        "raw_affiliation_string": "School of Foreign Languages and Cultures, Chongqing University, Chongqing 401331, China",
+        "institution_ids": [
+         "https://openalex.org/I158842170"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5100449263",
+       "display_name": "Jiayi Wang",
+       "orcid": "https://orcid.org/0000-0002-7785-3381",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7785-3381"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I27688046",
+        "display_name": "Hunan Institute of Engineering",
+        "ror": "https://ror.org/03zj2rn70",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I27688046"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Jiayi Wang",
+      "raw_affiliation_strings": [
+       "College of Foreign Languages, Hunan Institute of Engineering, Xiangtan 411104, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "College of Foreign Languages, Hunan Institute of Engineering, Xiangtan 411104, China",
+        "institution_ids": [
+         "https://openalex.org/I27688046"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": null,
+       "display_name": "Shutong Liu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I180670191",
+        "display_name": "University of California, San Francisco",
+        "ror": "https://ror.org/043mz5j54",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I180670191"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       }
+      ],
+      "raw_author_name": "Shutong Liu",
+      "raw_affiliation_strings": [
+       "Department of Radiology and Biomedical Imaging, University of California, San Francisco, CA 94607, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Radiology and Biomedical Imaging, University of California, San Francisco, CA 94607, USA",
+        "institution_ids": [
+         "https://openalex.org/I180670191"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3390/bs15111540",
+     "doi": "https://doi.org/10.3390/bs15111540",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3390/bs15111540",
+     "pdf_url": "https://www.mdpi.com/2076-328X/15/11/1540/pdf?version=1762943930",
+     "source": {
+      "id": "https://openalex.org/S4210194710",
+      "display_name": "Behavioral Sciences",
+      "issn_l": "2076-328X",
+      "issn": [
+       "2076-328X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-40",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310310987",
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310310987"
+      ],
+      "host_organization_lineage_names": [
+       "Multidisciplinary Digital Publishing Institute"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Behavioral Sciences",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3147085193",
+    "doi": "https://doi.org/10.1002/cl2.1155",
+    "title": "PROTOCOL: A systematic review of mobile device use in the primary school classroom and its impact on pupil literacy and numeracy attainment",
+    "display_name": "PROTOCOL: A systematic review of mobile device use in the primary school classroom and its impact on pupil literacy and numeracy attainment",
+    "publication_year": 2021,
+    "cited_by_count": 16,
+    "abstract_inverted_index": {
+     "impact": [
+      0
+     ],
+     "on": [
+      1
+     ],
+     "pupil": [
+      2
+     ],
+     "literacy": [
+      3
+     ],
+     "and": [
+      4
+     ],
+     "numeracy": [
+      5
+     ],
+     "attainment": [
+      6
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5104333036",
+       "display_name": "Claire Dorris",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I126231945",
+        "display_name": "Queen's University Belfast",
+        "ror": "https://ror.org/00hswnk62",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I126231945"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Claire Dorris",
+      "raw_affiliation_strings": [
+       "School of Social Sciences, Education and Social Work, Queen's University Belfast, Belfast, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Social Sciences, Education and Social Work, Queen's University Belfast, Belfast, UK",
+        "institution_ids": [
+         "https://openalex.org/I126231945"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5010828768",
+       "display_name": "Karen Winter",
+       "orcid": "https://orcid.org/0000-0002-1229-7150",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1229-7150"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I126231945",
+        "display_name": "Queen's University Belfast",
+        "ror": "https://ror.org/00hswnk62",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I126231945"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Karen Winter",
+      "raw_affiliation_strings": [
+       "School of Social Sciences, Education and Social Work, Queen's University Belfast, Belfast, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Social Sciences, Education and Social Work, Queen's University Belfast, Belfast, UK",
+        "institution_ids": [
+         "https://openalex.org/I126231945"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5052669662",
+       "display_name": "Liam O\u2019Hare",
+       "orcid": "https://orcid.org/0000-0002-4453-2880",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4453-2880"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I126231945",
+        "display_name": "Queen's University Belfast",
+        "ror": "https://ror.org/00hswnk62",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I126231945"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Liam O'Hare",
+      "raw_affiliation_strings": [
+       "School of Social Sciences, Education and Social Work, Queen's University Belfast, Belfast, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Social Sciences, Education and Social Work, Queen's University Belfast, Belfast, UK",
+        "institution_ids": [
+         "https://openalex.org/I126231945"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5049791555",
+       "display_name": "Edda Tandi Lwoga",
+       "orcid": "https://orcid.org/0000-0002-3254-8770",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3254-8770"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210161264",
+        "display_name": "College of Business Education",
+        "ror": "https://ror.org/05qcsva92",
+        "country_code": "TZ",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210161264"
+        ]
+       }
+      ],
+      "countries": [
+       "TZ"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Edda Tandi Lwoga",
+      "raw_affiliation_strings": [
+       "College Of Business Education, Dar es Salaam, Tanzania"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "College Of Business Education, Dar es Salaam, Tanzania",
+        "institution_ids": [
+         "https://openalex.org/I4210161264"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1002/cl2.1155",
+     "doi": "https://doi.org/10.1002/cl2.1155",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1002/cl2.1155",
+     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cl2.1155",
+     "source": {
+      "id": "https://openalex.org/S2739193000",
+      "display_name": "Campbell Systematic Reviews",
+      "issn_l": "1891-1803",
+      "issn": [
+       "1891-1803"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "jufo-1",
+       "norway-1",
+       "poland-20",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310314072",
+      "host_organization_name": "The Campbell Collaboration",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310314072"
+      ],
+      "host_organization_lineage_names": [
+       "The Campbell Collaboration"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Campbell Systematic Reviews",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4378086177",
+    "doi": "https://doi.org/10.1002/acp.4086",
+    "title": "Flickering presentations do affect the judgment of learning but not the learning outcome",
+    "display_name": "Flickering presentations do affect the judgment of learning but not the learning outcome",
+    "publication_year": 2023,
+    "cited_by_count": 4,
+    "abstract_inverted_index": {
+     "We": [
+      0
+     ],
+     "examined": [
+      1
+     ],
+     "whether": [
+      2
+     ],
+     "visual": [
+      3
+     ],
+     "disfluency,": [
+      4
+     ],
+     "as": [
+      5,
+      89
+     ],
+     "elicited": [
+      6
+     ],
+     "by": [
+      7,
+      67,
+      85
+     ],
+     "presenting": [
+      8
+     ],
+     "text": [
+      9
+     ],
+     "on": [
+      10,
+      92
+     ],
+     "flickering": [
+      11,
+      75,
+      107,
+      118,
+      125
+     ],
+     "slides,": [
+      12,
+      72
+     ],
+     "affects": [
+      13
+     ],
+     "learning": [
+      14,
+      21
+     ],
+     "positively": [
+      15
+     ],
+     "and": [
+      16
+     ],
+     "the": [
+      17,
+      81,
+      93,
+      101,
+      104,
+      117,
+      121,
+      141
+     ],
+     "global": [
+      18
+     ],
+     "judgment": [
+      19
+     ],
+     "of": [
+      20,
+      70,
+      79,
+      103
+     ],
+     "(JOL)": [
+      22
+     ],
+     "negatively.": [
+      23
+     ],
+     "Participants": [
+      24
+     ],
+     "(N": [
+      25
+     ],
+     "=": [
+      26,
+      34
+     ],
+     "202": [
+      27
+     ],
+     "in": [
+      28,
+      36,
+      42,
+      116,
+      120
+     ],
+     "Experiment": [
+      29,
+      37
+     ],
+     "1,": [
+      30
+     ],
+     "between\u2010subjects": [
+      31
+     ],
+     "design;": [
+      32
+     ],
+     "N": [
+      33
+     ],
+     "53": [
+      35
+     ],
+     "2,": [
+      38
+     ],
+     "within\u2010subjects": [
+      39
+     ],
+     "design)": [
+      40
+     ],
+     "saw": [
+      41
+     ],
+     "an": [
+      43
+     ],
+     "online": [
+      44
+     ],
+     "session": [
+      45
+     ],
+     "multiple": [
+      46
+     ],
+     "slides": [
+      47,
+      57,
+      126
+     ],
+     "including": [
+      48
+     ],
+     "textual": [
+      49,
+      82
+     ],
+     "information": [
+      50
+     ],
+     "that": [
+      51,
+      64,
+      143
+     ],
+     "they": [
+      52
+     ],
+     "had": [
+      53
+     ],
+     "to": [
+      54,
+      130
+     ],
+     "learn.": [
+      55
+     ],
+     "The": [
+      56,
+      135
+     ],
+     "were": [
+      58
+     ],
+     "presented": [
+      59
+     ],
+     "either": [
+      60
+     ],
+     "fluently": [
+      61
+     ],
+     "or": [
+      62
+     ],
+     "disfluently,": [
+      63
+     ],
+     "is,": [
+      65
+     ],
+     "interrupted": [
+      66
+     ],
+     "rapid": [
+      68
+     ],
+     "presentations": [
+      69
+     ],
+     "black": [
+      71
+     ],
+     "evoking": [
+      73
+     ],
+     "a": [
+      74,
+      131,
+      144
+     ],
+     "effect.": [
+      76
+     ],
+     "Thus,": [
+      77
+     ],
+     "instead": [
+      78
+     ],
+     "manipulating": [
+      80
+     ],
+     "material": [
+      83
+     ],
+     "(e.g.,": [
+      84
+     ],
+     "using": [
+      86
+     ],
+     "different": [
+      87
+     ],
+     "fonts),": [
+      88
+     ],
+     "most": [
+      90
+     ],
+     "studies": [
+      91
+     ],
+     "disfluency": [
+      94,
+      146
+     ],
+     "effect": [
+      95,
+      147
+     ],
+     "so": [
+      96
+     ],
+     "far": [
+      97
+     ],
+     "did,": [
+      98
+     ],
+     "we": [
+      99
+     ],
+     "manipulated": [
+      100
+     ],
+     "characteristics": [
+      102
+     ],
+     "presentation": [
+      105
+     ],
+     "(i.e.,": [
+      106
+     ],
+     "vs.": [
+      108
+     ],
+     "nonflickering).": [
+      109
+     ],
+     "In": [
+      110
+     ],
+     "both": [
+      111
+     ],
+     "experiments,": [
+      112
+     ],
+     "JOL": [
+      113
+     ],
+     "was": [
+      114
+     ],
+     "lower": [
+      115
+     ],
+     "than": [
+      119
+     ],
+     "nonflickering": [
+      122
+     ],
+     "condition.": [
+      123
+     ],
+     "However,": [
+      124
+     ],
+     "did": [
+      127
+     ],
+     "not": [
+      128
+     ],
+     "lead": [
+      129
+     ],
+     "better": [
+      132
+     ],
+     "memory": [
+      133
+     ],
+     "performance.": [
+      134
+     ],
+     "results": [
+      136
+     ],
+     "provide": [
+      137
+     ],
+     "further": [
+      138
+     ],
+     "evidence": [
+      139
+     ],
+     "for": [
+      140
+     ],
+     "assumption": [
+      142
+     ],
+     "beneficial": [
+      145
+     ],
+     "is": [
+      148
+     ],
+     "questionable.": [
+      149
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5062398272",
+       "display_name": "Mirjam Ebersbach",
+       "orcid": "https://orcid.org/0000-0003-3853-4924",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3853-4924"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I106157433",
+        "display_name": "University of Kassel",
+        "ror": "https://ror.org/04zc7p361",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I106157433"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Mirjam Ebersbach",
+      "raw_affiliation_strings": [
+       "Department of Psychology University of Kassel Kassel Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-3853-4924",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology University of Kassel Kassel Germany",
+        "institution_ids": [
+         "https://openalex.org/I106157433"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5092013976",
+       "display_name": "Jana Antonia Guschlbauer",
+       "orcid": "https://orcid.org/0000-0002-9085-4979",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9085-4979"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I106157433",
+        "display_name": "University of Kassel",
+        "ror": "https://ror.org/04zc7p361",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I106157433"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jana Antonia Guschlbauer",
+      "raw_affiliation_strings": [
+       "Department of Psychology University of Kassel Kassel Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology University of Kassel Kassel Germany",
+        "institution_ids": [
+         "https://openalex.org/I106157433"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5061763840",
+       "display_name": "Ralf Rummer",
+       "orcid": "https://orcid.org/0000-0002-2568-0925",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2568-0925"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I106157433",
+        "display_name": "University of Kassel",
+        "ror": "https://ror.org/04zc7p361",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I106157433"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Ralf Rummer",
+      "raw_affiliation_strings": [
+       "Department of Psychology University of Kassel Kassel Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology University of Kassel Kassel Germany",
+        "institution_ids": [
+         "https://openalex.org/I106157433"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1002/acp.4086",
+     "doi": "https://doi.org/10.1002/acp.4086",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1002/acp.4086",
+     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/acp.4086",
+     "source": {
+      "id": "https://openalex.org/S91386000",
+      "display_name": "Applied Cognitive Psychology",
+      "issn_l": "0888-4080",
+      "issn": [
+       "0888-4080",
+       "1099-0720"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-b",
+       "cwts-core",
+       "dongbi-c",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Applied Cognitive Psychology",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

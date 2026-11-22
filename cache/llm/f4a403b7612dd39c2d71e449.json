@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201ea-ff5b-7002-b178-73903c7de737",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795328507,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"The older-adult study explicitly tracks cognitive performance over time after exercise, so I will fetch it along with the high-intensity review for delayed effects.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W2293391519\"}}",
+    "reasoning_content": "We need answer JSON only. Need fetch sources. We need find whether cognitive effect persists after delay following acute aerobic exercise. Search results include W2293391519 older adults changes over time after exercise likely relevant. W4297000632 review high-intensity maybe delayed. W4200159789 review during exercise less relevant. Need fetch.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 980,
+  "completion_tokens": 124,
+  "total_tokens": 1104,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 68
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.21
+}

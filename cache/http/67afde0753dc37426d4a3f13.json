@@ -1,0 +1,3441 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 4315,
+   "db_response_time_ms": 185,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (spacing effect no benefit fails long-term retention boundary conditions) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (spacing effect no benefit fails long-term retention boundary conditions) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "spacing effect no benefit fails long-term retention boundary conditions",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:spacing effect no benefit fails long-term retention boundary conditions,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W1594401423",
+    "doi": null,
+    "title": "Reviewing or retrieving: What activity best promotes long-term retention?",
+    "display_name": "Reviewing or retrieving: What activity best promotes long-term retention?",
+    "publication_year": 2012,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "Research": [
+      0
+     ],
+     "studies": [
+      1
+     ],
+     "repeatedly": [
+      2
+     ],
+     "emphasize": [
+      3
+     ],
+     "the": [
+      4,
+      25,
+      57,
+      100,
+      107,
+      118,
+      128,
+      134,
+      151,
+      168,
+      194,
+      197,
+      201
+     ],
+     "importance": [
+      5
+     ],
+     "of": [
+      6,
+      13,
+      28,
+      44,
+      56,
+      64,
+      69,
+      106,
+      117,
+      127,
+      133,
+      146
+     ],
+     "vocabulary": [
+      7,
+      29,
+      65,
+      87
+     ],
+     "capabilities": [
+      8
+     ],
+     "to": [
+      9,
+      32,
+      40,
+      46,
+      53,
+      78,
+      109,
+      120,
+      136
+     ],
+     "a": [
+      10,
+      19,
+      33,
+      75,
+      80,
+      90,
+      110,
+      121,
+      137,
+      180
+     ],
+     "large": [
+      11
+     ],
+     "variety": [
+      12
+     ],
+     "academic": [
+      14
+     ],
+     "activities.": [
+      15
+     ],
+     "This": [
+      16,
+      50
+     ],
+     "study": [
+      17
+     ],
+     "compared": [
+      18
+     ],
+     "learning": [
+      20
+     ],
+     "strategy": [
+      21,
+      34
+     ],
+     "that": [
+      22,
+      190
+     ],
+     "exclusively": [
+      23
+     ],
+     "involved": [
+      24
+     ],
+     "visual": [
+      26
+     ],
+     "review": [
+      27,
+      122,
+      202
+     ],
+     "word-definition": [
+      30,
+      129
+     ],
+     "pairs": [
+      31
+     ],
+     "that,": [
+      35
+     ],
+     "in": [
+      36,
+      189
+     ],
+     "addition,": [
+      37
+     ],
+     "prompted": [
+      38
+     ],
+     "participants": [
+      39,
+      70
+     ],
+     "attempt": [
+      41
+     ],
+     "free-recall": [
+      42,
+      147
+     ],
+     "retrieval": [
+      43,
+      138
+     ],
+     "words": [
+      45,
+      88,
+      108,
+      119,
+      135,
+      164,
+      195
+     ],
+     "match": [
+      47
+     ],
+     "specific": [
+      48
+     ],
+     "definitions.": [
+      49
+     ],
+     "comparison": [
+      51
+     ],
+     "attempted": [
+      52
+     ],
+     "identify": [
+      54
+     ],
+     "which": [
+      55
+     ],
+     "two": [
+      58
+     ],
+     "strategies": [
+      59
+     ],
+     "best": [
+      60
+     ],
+     "produces": [
+      61
+     ],
+     "longer-term": [
+      62
+     ],
+     "attainment": [
+      63
+     ],
+     "knowledge.": [
+      66
+     ],
+     "A": [
+      67
+     ],
+     "group": [
+      68
+     ],
+     "(N": [
+      71
+     ],
+     "=": [
+      72
+     ],
+     "20)": [
+      73
+     ],
+     "used": [
+      74
+     ],
+     "web-based": [
+      76
+     ],
+     "system": [
+      77,
+      101
+     ],
+     "take": [
+      79
+     ],
+     "pre-test": [
+      81
+     ],
+     "over": [
+      82,
+      161
+     ],
+     "21": [
+      83,
+      163
+     ],
+     "relatively": [
+      84
+     ],
+     "difficult": [
+      85
+     ],
+     "SAT-review": [
+      86
+     ],
+     "using": [
+      89,
+      167
+     ],
+     "drag": [
+      91
+     ],
+     "and": [
+      92,
+      131,
+      200
+     ],
+     "drop": [
+      93
+     ],
+     "graphical": [
+      94,
+      170
+     ],
+     "user": [
+      95
+     ],
+     "interface.": [
+      96,
+      171
+     ],
+     "For": [
+      97
+     ],
+     "each": [
+      98
+     ],
+     "participant,": [
+      99
+     ],
+     "then": [
+      102
+     ],
+     "randomly": [
+      103
+     ],
+     "assigned": [
+      104
+     ],
+     "7": [
+      105,
+      116,
+      132,
+      176
+     ],
+     "control": [
+      111
+     ],
+     "treatment": [
+      112,
+      123,
+      139,
+      156,
+      199
+     ],
+     "condition": [
+      113,
+      124,
+      140
+     ],
+     "(no": [
+      114
+     ],
+     "exposure),": [
+      115
+     ],
+     "(visual": [
+      125,
+      141
+     ],
+     "display": [
+      126,
+      142
+     ],
+     "pairs),": [
+      130
+     ],
+     "augmented": [
+      143
+     ],
+     "with": [
+      144
+     ],
+     "cycles": [
+      145
+     ],
+     "attempts)": [
+      148
+     ],
+     "before": [
+      149
+     ],
+     "guiding": [
+      150
+     ],
+     "participant": [
+      152
+     ],
+     "through": [
+      153
+     ],
+     "4": [
+      154
+     ],
+     "timed": [
+      155
+     ],
+     "cycles.": [
+      157
+     ],
+     "An": [
+      158
+     ],
+     "immediate": [
+      159
+     ],
+     "post-test": [
+      160
+     ],
+     "all": [
+      162
+     ],
+     "was": [
+      165,
+      187
+     ],
+     "administered": [
+      166
+     ],
+     "same": [
+      169
+     ],
+     "Students": [
+      172
+     ],
+     "returned": [
+      173
+     ],
+     "at": [
+      174
+     ],
+     "least": [
+      175
+     ],
+     "days": [
+      177
+     ],
+     "later": [
+      178
+     ],
+     "for": [
+      179
+     ],
+     "delayed": [
+      181
+     ],
+     "final": [
+      182,
+      191
+     ],
+     "test.": [
+      183
+     ],
+     "No": [
+      184
+     ],
+     "significant": [
+      185
+     ],
+     "difference": [
+      186
+     ],
+     "detected": [
+      188
+     ],
+     "assessment": [
+      192
+     ],
+     "between": [
+      193
+     ],
+     "receiving": [
+      196
+     ],
+     "retrieve": [
+      198
+     ],
+     "treatment.": [
+      203
+     ],
+     "Advisor:": [
+      204
+     ],
+     "David": [
+      205
+     ],
+     "W.": [
+      206
+     ],
+     "Brooks": [
+      207
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5062815907",
+       "display_name": "Paul D. Lindgren",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I114395901",
+        "display_name": "University of Nebraska\u2013Lincoln",
+        "ror": "https://ror.org/043mer456",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I114395901"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Paul D. Lindgren",
+      "raw_affiliation_strings": [
+       "The University of Nebraska-Lincoln"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "The University of Nebraska-Lincoln",
+        "institution_ids": [
+         "https://openalex.org/I114395901"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "pmh:oai:digitalcommons.unl.edu:cehsdiss-1160",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://digitalcommons.unl.edu/cehsdiss/159",
+     "pdf_url": "http://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1160&context=cehsdiss",
+     "source": {
+      "id": "https://openalex.org/S4306400577",
+      "display_name": "Lincoln (University of Nebraska)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I114395901",
+      "host_organization_name": "University of Nebraska\u2013Lincoln",
+      "host_organization_lineage": [
+       "https://openalex.org/I114395901"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "College of Education and Human Sciences: Dissertations, Theses, and Student Research",
+     "raw_type": "text"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2128915986",
+    "doi": "https://doi.org/10.1007/s10648-015-9310-x",
+    "title": "Not New, but Nearly Forgotten: the Testing Effect Decreases or even Disappears as the Complexity of Learning Materials Increases",
+    "display_name": "Not New, but Nearly Forgotten: the Testing Effect Decreases or even Disappears as the Complexity of Learning Materials Increases",
+    "publication_year": 2015,
+    "cited_by_count": 215,
+    "abstract_inverted_index": {
+     "The": [
+      0
+     ],
+     "testing": [
+      1,
+      106
+     ],
+     "effect": [
+      2,
+      45,
+      107,
+      134,
+      163
+     ],
+     "is": [
+      3,
+      92,
+      144,
+      167
+     ],
+     "a": [
+      4,
+      22,
+      32,
+      86,
+      98,
+      158,
+      188
+     ],
+     "finding": [
+      5,
+      118
+     ],
+     "from": [
+      6,
+      97
+     ],
+     "cognitive": [
+      7
+     ],
+     "psychology": [
+      8
+     ],
+     "with": [
+      9
+     ],
+     "relevance": [
+      10
+     ],
+     "for": [
+      11,
+      169,
+      191
+     ],
+     "education.": [
+      12,
+      170
+     ],
+     "It": [
+      13
+     ],
+     "shows": [
+      14
+     ],
+     "that": [
+      15,
+      46,
+      78,
+      104,
+      117,
+      132
+     ],
+     "after": [
+      16
+     ],
+     "an": [
+      17
+     ],
+     "initial": [
+      18,
+      58
+     ],
+     "study": [
+      19
+     ],
+     "period,": [
+      20
+     ],
+     "taking": [
+      21,
+      31
+     ],
+     "practice": [
+      23
+     ],
+     "test": [
+      24,
+      33,
+      52
+     ],
+     "improves": [
+      25
+     ],
+     "long-term": [
+      26
+     ],
+     "retention": [
+      27,
+      61
+     ],
+     "compared": [
+      28
+     ],
+     "to": [
+      29,
+      36,
+      120,
+      160,
+      176
+     ],
+     "not": [
+      30,
+      93
+     ],
+     "and\u2014more": [
+      34
+     ],
+     "interestingly\u2014compared": [
+      35
+     ],
+     "restudying": [
+      37
+     ],
+     "the": [
+      38,
+      44,
+      51,
+      57,
+      60,
+      64,
+      73,
+      80,
+      105,
+      110,
+      133,
+      139,
+      162,
+      184
+     ],
+     "learning": [
+      39,
+      76,
+      87,
+      113,
+      142,
+      149
+     ],
+     "material.": [
+      40
+     ],
+     "Boundary": [
+      41
+     ],
+     "conditions": [
+      42,
+      166
+     ],
+     "of": [
+      43,
+      66,
+      75,
+      82,
+      112,
+      141
+     ],
+     "have": [
+      47,
+      121
+     ],
+     "received": [
+      48
+     ],
+     "attention": [
+      49
+     ],
+     "include": [
+      50
+     ],
+     "format,": [
+      53
+     ],
+     "retrieval": [
+      54
+     ],
+     "success": [
+      55
+     ],
+     "on": [
+      56,
+      183,
+      196
+     ],
+     "test,": [
+      59
+     ],
+     "interval,": [
+      62
+     ],
+     "or": [
+      63
+     ],
+     "spacing": [
+      65
+     ],
+     "tests.": [
+      67
+     ],
+     "Another": [
+      68
+     ],
+     "potential": [
+      69,
+      179
+     ],
+     "boundary": [
+      70,
+      180
+     ],
+     "condition": [
+      71,
+      181
+     ],
+     "concerns": [
+      72
+     ],
+     "complexity": [
+      74,
+      111,
+      140
+     ],
+     "materials,": [
+      77
+     ],
+     "is,": [
+      79
+     ],
+     "number": [
+      81
+     ],
+     "interacting": [
+      83
+     ],
+     "information": [
+      84
+     ],
+     "elements": [
+      85
+     ],
+     "task": [
+      88
+     ],
+     "contains.": [
+      89
+     ],
+     "This": [
+      90
+     ],
+     "insight": [
+      91
+     ],
+     "new,": [
+      94
+     ],
+     "as": [
+      95,
+      109
+     ],
+     "research": [
+      96,
+      195
+     ],
+     "century": [
+      99
+     ],
+     "ago": [
+      100
+     ],
+     "already": [
+      101
+     ],
+     "had": [
+      102
+     ],
+     "indicated": [
+      103
+     ],
+     "decreases": [
+      108
+     ],
+     "materials": [
+      114
+     ],
+     "increases,": [
+      115
+     ],
+     "but": [
+      116
+     ],
+     "seems": [
+      119
+     ],
+     "been": [
+      122
+     ],
+     "nearly": [
+      123
+     ],
+     "forgotten.": [
+      124
+     ],
+     "Studies": [
+      125
+     ],
+     "presented": [
+      126
+     ],
+     "in": [
+      127,
+      151,
+      155
+     ],
+     "this": [
+      128,
+      172,
+      178,
+      197
+     ],
+     "special": [
+      129,
+      173
+     ],
+     "issue": [
+      130,
+      174
+     ],
+     "suggest": [
+      131
+     ],
+     "may": [
+      135
+     ],
+     "even": [
+      136
+     ],
+     "disappear": [
+      137
+     ],
+     "when": [
+      138
+     ],
+     "material": [
+      143
+     ],
+     "very": [
+      145
+     ],
+     "high.": [
+      146
+     ],
+     "Since": [
+      147
+     ],
+     "many": [
+      148
+     ],
+     "tasks": [
+      150
+     ],
+     "schools": [
+      152
+     ],
+     "are": [
+      153
+     ],
+     "high": [
+      154
+     ],
+     "element": [
+      156
+     ],
+     "interactivity,": [
+      157
+     ],
+     "failure": [
+      159
+     ],
+     "find": [
+      161
+     ],
+     "under": [
+      164
+     ],
+     "these": [
+      165
+     ],
+     "relevant": [
+      168
+     ],
+     "Therefore,": [
+      171
+     ],
+     "hopes": [
+      175
+     ],
+     "put": [
+      177
+     ],
+     "back": [
+      182
+     ],
+     "radar": [
+      185
+     ],
+     "and": [
+      186,
+      193
+     ],
+     "provide": [
+      187
+     ],
+     "starting": [
+      189
+     ],
+     "point": [
+      190
+     ],
+     "discussion": [
+      192
+     ],
+     "future": [
+      194
+     ],
+     "topic.": [
+      198
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5074159259",
+       "display_name": "Tamara van Gog",
+       "orcid": "https://orcid.org/0000-0003-3766-6255",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3766-6255"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I193662353",
+        "display_name": "Utrecht University",
+        "ror": "https://ror.org/04pp8hn57",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I193662353"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I913958620",
+        "display_name": "Erasmus University Rotterdam",
+        "ror": "https://ror.org/057w15z03",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I913958620"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Tamara van Gog",
+      "raw_affiliation_strings": [
+       "Department of Pedagogical and Educational Sciences\u2014Education, Utrecht University, Utrecht, The Netherlands",
+       "Institute of Psychology, Erasmus University Rotterdam, Rotterdam, The Netherlands",
+       "Erasmus University Rotterdam",
+       "Utrecht University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Pedagogical and Educational Sciences\u2014Education, Utrecht University, Utrecht, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I193662353"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Institute of Psychology, Erasmus University Rotterdam, Rotterdam, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I913958620"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Erasmus University Rotterdam",
+        "institution_ids": [
+         "https://openalex.org/I913958620"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Utrecht University",
+        "institution_ids": [
+         "https://openalex.org/I193662353"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5006640853",
+       "display_name": "John Sweller",
+       "orcid": "https://orcid.org/0000-0001-7855-9160",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7855-9160"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I31746571",
+        "display_name": "UNSW Sydney",
+        "ror": "https://ror.org/03r8z3t63",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I31746571"
+        ]
+       }
+      ],
+      "countries": [
+       "AU"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "John Sweller",
+      "raw_affiliation_strings": [
+       "School of Education, University of New South Wales, Sydney, Australia",
+       "University Of New south Wales"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Education, University of New South Wales, Sydney, Australia",
+        "institution_ids": [
+         "https://openalex.org/I31746571"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University Of New south Wales",
+        "institution_ids": [
+         "https://openalex.org/I31746571"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1007/s10648-015-9310-x",
+     "doi": "https://doi.org/10.1007/s10648-015-9310-x",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1007/s10648-015-9310-x",
+     "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10648-015-9310-x.pdf",
+     "source": {
+      "id": "https://openalex.org/S187318745",
+      "display_name": "Educational Psychology Review",
+      "issn_l": "1040-726X",
+      "issn": [
+       "1040-726X",
+       "1573-336X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-a",
+       "erih-plus",
+       "jufo-2",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319900",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer Science+Business Media",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Educational Psychology Review",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4389128007",
+    "doi": "https://doi.org/10.1038/s41598-023-47481-2",
+    "title": "Assessing the potential of composite confining systems for secure and long-term CO2 retention in geosequestration",
+    "display_name": "Assessing the potential of composite confining systems for secure and long-term CO2 retention in geosequestration",
+    "publication_year": 2023,
+    "cited_by_count": 23,
+    "abstract_inverted_index": {
+     "A": [
+      0
+     ],
+     "potential": [
+      1
+     ],
+     "geologic": [
+      2,
+      44,
+      177
+     ],
+     "target": [
+      3
+     ],
+     "for": [
+      4
+     ],
+     "CO": [
+      5,
+      14,
+      52,
+      64,
+      96,
+      152,
+      162,
+      220,
+      253
+     ],
+     "2": [
+      6,
+      15,
+      53,
+      65,
+      97,
+      153,
+      163,
+      221,
+      254
+     ],
+     "storage": [
+      7
+     ],
+     "should": [
+      8
+     ],
+     "ensure": [
+      9
+     ],
+     "secure": [
+      10
+     ],
+     "containment": [
+      11
+     ],
+     "of": [
+      12,
+      38,
+      51,
+      63,
+      74,
+      87,
+      118,
+      135,
+      148,
+      151,
+      161,
+      169,
+      176,
+      185,
+      211,
+      233,
+      240,
+      252,
+      269,
+      279
+     ],
+     "injected": [
+      13
+     ],
+     ".": [
+      16,
+      255
+     ],
+     "Traditionally,": [
+      17
+     ],
+     "this": [
+      18
+     ],
+     "objective": [
+      19
+     ],
+     "has": [
+      20
+     ],
+     "been": [
+      21,
+      35
+     ],
+     "achieved": [
+      22
+     ],
+     "by": [
+      23,
+      56,
+      70,
+      263
+     ],
+     "targeting": [
+      24
+     ],
+     "reservoirs": [
+      25
+     ],
+     "with": [
+      26,
+      115
+     ],
+     "overlying": [
+      27
+     ],
+     "seals-regionally": [
+      28
+     ],
+     "extensive,": [
+      29
+     ],
+     "low": [
+      30
+     ],
+     "permeability": [
+      31,
+      189
+     ],
+     "units": [
+      32
+     ],
+     "that": [
+      33,
+      48,
+      208
+     ],
+     "have": [
+      34
+     ],
+     "proven": [
+      36
+     ],
+     "capable": [
+      37
+     ],
+     "retaining": [
+      39
+     ],
+     "buoyant": [
+      40
+     ],
+     "fluid": [
+      41,
+      179
+     ],
+     "accumulations": [
+      42
+     ],
+     "over": [
+      43
+     ],
+     "time.": [
+      45
+     ],
+     "However,": [
+      46
+     ],
+     "considering": [
+      47
+     ],
+     "the": [
+      49,
+      85,
+      159,
+      170,
+      182,
+      192,
+      200,
+      216,
+      228,
+      231,
+      248,
+      259,
+      270,
+      275,
+      280
+     ],
+     "amount": [
+      50
+     ],
+     "is": [
+      54,
+      235
+     ],
+     "limited": [
+      55
+     ],
+     "a": [
+      57,
+      71,
+      91,
+      174,
+      265
+     ],
+     "decadal": [
+      58
+     ],
+     "injection": [
+      59,
+      154
+     ],
+     "period,": [
+      60
+     ],
+     "vertical": [
+      61
+     ],
+     "migration": [
+      62,
+      98,
+      165,
+      278
+     ],
+     "can": [
+      66
+     ],
+     "be": [
+      67
+     ],
+     "effectively": [
+      68
+     ],
+     "halted": [
+      69
+     ],
+     "composite": [
+      72,
+      92,
+      171
+     ],
+     "system": [
+      73,
+      94,
+      172
+     ],
+     "discontinuous": [
+      75,
+      112
+     ],
+     "shale/silt/mudstone": [
+      76
+     ],
+     "barriers": [
+      77,
+      113,
+      212,
+      242,
+      257
+     ],
+     "in": [
+      78,
+      90,
+      139,
+      227
+     ],
+     "bedded": [
+      79
+     ],
+     "sedimentary": [
+      80
+     ],
+     "rocks.": [
+      81
+     ],
+     "Here,": [
+      82
+     ],
+     "we": [
+      83
+     ],
+     "studied": [
+      84
+     ],
+     "impact": [
+      86,
+      232
+     ],
+     "depositional": [
+      88
+     ],
+     "architectures": [
+      89
+     ],
+     "confining": [
+      93
+     ],
+     "on": [
+      95,
+      219
+     ],
+     "and": [
+      99,
+      124,
+      133,
+      155,
+      166,
+      178,
+      195,
+      202,
+      213,
+      224,
+      272
+     ],
+     "confinement": [
+      100
+     ],
+     "at": [
+      101
+     ],
+     "reservoir": [
+      102,
+      109,
+      149
+     ],
+     "scale.": [
+      103
+     ],
+     "We": [
+      104,
+      142
+     ],
+     "stochastically": [
+      105
+     ],
+     "generated": [
+      106
+     ],
+     "lithologically": [
+      107
+     ],
+     "heterogeneous": [
+      108
+     ],
+     "models": [
+      110
+     ],
+     "containing": [
+      111
+     ],
+     "consistent": [
+      114
+     ],
+     "statistical": [
+      116
+     ],
+     "distributions": [
+      117
+     ],
+     "net-sand-to-gross-shale": [
+      119
+     ],
+     "ratio": [
+      120
+     ],
+     "(": [
+      121
+     ],
+     "NTG": [
+      122,
+      187,
+      214,
+      234
+     ],
+     ")": [
+      123
+     ],
+     "horizontal": [
+      125
+     ],
+     "correlation": [
+      126
+     ],
+     "lengths": [
+      127
+     ],
+     "derived": [
+      128
+     ],
+     "from": [
+      129
+     ],
+     "well": [
+      130
+     ],
+     "log": [
+      131
+     ],
+     "data": [
+      132
+     ],
+     "observations": [
+      134
+     ],
+     "producing": [
+      136
+     ],
+     "hydrocarbon": [
+      137
+     ],
+     "fields": [
+      138
+     ],
+     "Southern": [
+      140
+     ],
+     "Louisiana.": [
+      141
+     ],
+     "then": [
+      143
+     ],
+     "performed": [
+      144
+     ],
+     "an": [
+      145
+     ],
+     "extensive": [
+      146
+     ],
+     "suite": [
+      147
+     ],
+     "simulations": [
+      150
+     ],
+     "post-injection": [
+      156
+     ],
+     "to": [
+      157,
+      173
+     ],
+     "evaluate": [
+      158
+     ],
+     "sensitivity": [
+      160
+     ],
+     "plume": [
+      164,
+      222,
+      271,
+      281
+     ],
+     "pressure": [
+      167,
+      197,
+      225
+     ],
+     "response": [
+      168
+     ],
+     "series": [
+      175
+     ],
+     "parameters": [
+      180
+     ],
+     "including": [
+      181
+     ],
+     "lateral": [
+      183,
+      209
+     ],
+     "continuity": [
+      184,
+      210
+     ],
+     "barriers,": [
+      186
+     ],
+     ",": [
+      188
+     ],
+     "anisotropy": [
+      190
+     ],
+     "within": [
+      191
+     ],
+     "sand": [
+      193,
+      201
+     ],
+     "body,": [
+      194
+     ],
+     "capillary": [
+      196,
+      250
+     ],
+     "contrast": [
+      198
+     ],
+     "between": [
+      199
+     ],
+     "shale": [
+      203
+     ],
+     "facies.": [
+      204
+     ],
+     "The": [
+      205,
+      238
+     ],
+     "results": [
+      206
+     ],
+     "indicate": [
+      207
+     ],
+     "are": [
+      215
+     ],
+     "dominant": [
+      217
+     ],
+     "controls": [
+      218
+     ],
+     "geometry": [
+      223
+     ],
+     "build-up": [
+      226
+     ],
+     "reservoir,": [
+      229
+     ],
+     "while": [
+      230
+     ],
+     "particularly": [
+      236
+     ],
+     "pronounced.": [
+      237
+     ],
+     "significance": [
+      239
+     ],
+     "intraformational": [
+      241
+     ],
+     "becomes": [
+      243
+     ],
+     "apparent": [
+      244
+     ],
+     "as": [
+      245
+     ],
+     "they": [
+      246
+     ],
+     "facilitate": [
+      247
+     ],
+     "local": [
+      249
+     ],
+     "trapping": [
+      251
+     ],
+     "Those": [
+      256
+     ],
+     "improve": [
+      258
+     ],
+     "pore": [
+      260
+     ],
+     "space": [
+      261
+     ],
+     "occupancy": [
+      262
+     ],
+     "promoting": [
+      264
+     ],
+     "more": [
+      266
+     ],
+     "dispersed": [
+      267
+     ],
+     "shape": [
+      268
+     ],
+     "ultimately": [
+      273
+     ],
+     "retard": [
+      274
+     ],
+     "buoyancy-driven": [
+      276
+     ],
+     "upward": [
+      277
+     ],
+     "post": [
+      282
+     ],
+     "injection.": [
+      283
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5041596701",
+       "display_name": "Sahar Bakhshian",
+       "orcid": "https://orcid.org/0000-0003-0280-2982",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0280-2982"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4403928371",
+        "display_name": "Bureau of Economic Geology",
+        "ror": "https://ror.org/034bxn811",
+        "country_code": "US",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I4403928371",
+         "https://openalex.org/I86519309"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I86519309",
+        "display_name": "The University of Texas at Austin",
+        "ror": "https://ror.org/00hj54h04",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/visualization",
+        "display_name": "Visualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       }
+      ],
+      "raw_author_name": "Sahar Bakhshian",
+      "raw_affiliation_strings": [
+       "Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX, USA. sahar.bakhshian@beg.utexas.edu",
+       "Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX, USA. sahar.bakhshian@beg.utexas.edu",
+        "institution_ids": [
+         "https://openalex.org/I4403928371",
+         "https://openalex.org/I86519309"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX, USA",
+        "institution_ids": [
+         "https://openalex.org/I4403928371",
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5001004621",
+       "display_name": "Alexander P. Bump",
+       "orcid": "https://orcid.org/0000-0002-7913-4305",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7913-4305"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4403928371",
+        "display_name": "Bureau of Economic Geology",
+        "ror": "https://ror.org/034bxn811",
+        "country_code": "US",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I4403928371",
+         "https://openalex.org/I86519309"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I86519309",
+        "display_name": "The University of Texas at Austin",
+        "ror": "https://ror.org/00hj54h04",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/project-administration",
+        "display_name": "Project administration"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       }
+      ],
+      "raw_author_name": "Alexander P. Bump",
+      "raw_affiliation_strings": [
+       "Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX, USA",
+        "institution_ids": [
+         "https://openalex.org/I4403928371",
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5101272670",
+       "display_name": "Shaunak Pandey",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4403928371",
+        "display_name": "Bureau of Economic Geology",
+        "ror": "https://ror.org/034bxn811",
+        "country_code": "US",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I4403928371",
+         "https://openalex.org/I86519309"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I86519309",
+        "display_name": "The University of Texas at Austin",
+        "ror": "https://ror.org/00hj54h04",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Shaunak Pandey",
+      "raw_affiliation_strings": [
+       "Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX, USA",
+        "institution_ids": [
+         "https://openalex.org/I4403928371",
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5084353576",
+       "display_name": "Hailun Ni",
+       "orcid": "https://orcid.org/0000-0002-7805-8064",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7805-8064"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4403928371",
+        "display_name": "Bureau of Economic Geology",
+        "ror": "https://ror.org/034bxn811",
+        "country_code": "US",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I4403928371",
+         "https://openalex.org/I86519309"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I86519309",
+        "display_name": "The University of Texas at Austin",
+        "ror": "https://ror.org/00hj54h04",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Hailun Ni",
+      "raw_affiliation_strings": [
+       "Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX, USA",
+        "institution_ids": [
+         "https://openalex.org/I4403928371",
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5029072129",
+       "display_name": "Susan Hovorka",
+       "orcid": "https://orcid.org/0000-0002-2689-3113",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2689-3113"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4403928371",
+        "display_name": "Bureau of Economic Geology",
+        "ror": "https://ror.org/034bxn811",
+        "country_code": "US",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I4403928371",
+         "https://openalex.org/I86519309"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I86519309",
+        "display_name": "The University of Texas at Austin",
+        "ror": "https://ror.org/00hj54h04",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Susan D. Hovorka",
+      "raw_affiliation_strings": [
+       "Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX, USA",
+        "institution_ids": [
+         "https://openalex.org/I4403928371",
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1038/s41598-023-47481-2",
+     "doi": "https://doi.org/10.1038/s41598-023-47481-2",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1038/s41598-023-47481-2",
+     "pdf_url": "https://www.nature.com/articles/s41598-023-47481-2.pdf",
+     "source": {
+      "id": "https://openalex.org/S196734849",
+      "display_name": "Scientific Reports",
+      "issn_l": "2045-2322",
+      "issn": [
+       "2045-2322"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "dongbi-c",
+       "doyens",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319908",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Nature Portfolio",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Scientific Reports",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W7214751454",
+    "doi": "https://doi.org/10.1002/acp.70290",
+    "title": "Predicting Long\u2010Term Knowledge Retention by the Number of Error\u2010Free Practice Sessions",
+    "display_name": "Predicting Long\u2010Term Knowledge Retention by the Number of Error\u2010Free Practice Sessions",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "This": [
+      0
+     ],
+     "study": [
+      1
+     ],
+     "investigates": [
+      2
+     ],
+     "whether": [
+      3
+     ],
+     "long\u2010term": [
+      4
+     ],
+     "knowledge": [
+      5,
+      10,
+      144
+     ],
+     "retention": [
+      6,
+      88,
+      94,
+      111
+     ],
+     "of": [
+      7,
+      17,
+      34,
+      59
+     ],
+     "foreign\u2010language": [
+      8
+     ],
+     "grammar": [
+      9,
+      36
+     ],
+     "can": [
+      11,
+      138
+     ],
+     "be": [
+      12,
+      129,
+      139
+     ],
+     "predicted": [
+      13,
+      86
+     ],
+     "by": [
+      14,
+      23,
+      56,
+      97
+     ],
+     "the": [
+      15,
+      57,
+      98
+     ],
+     "number": [
+      16,
+      58
+     ],
+     "error\u2010free": [
+      18,
+      84,
+      106,
+      121,
+      134
+     ],
+     "retrieval": [
+      19
+     ],
+     "practice": [
+      20
+     ],
+     "sessions": [
+      21,
+      60,
+      107,
+      135
+     ],
+     "performed": [
+      22,
+      62
+     ],
+     "secondary\u2010school": [
+      24
+     ],
+     "students.": [
+      25
+     ],
+     "Cambodian": [
+      26
+     ],
+     "English": [
+      27
+     ],
+     "language": [
+      28
+     ],
+     "learners": [
+      29
+     ],
+     "practiced": [
+      30
+     ],
+     "producing": [
+      31
+     ],
+     "12": [
+      32
+     ],
+     "exemplars": [
+      33
+     ],
+     "target": [
+      35
+     ],
+     "structures": [
+      37
+     ],
+     "for": [
+      38,
+      145
+     ],
+     "up": [
+      39
+     ],
+     "to": [
+      40,
+      131,
+      141
+     ],
+     "five": [
+      41
+     ],
+     "sessions.": [
+      42
+     ],
+     "Incorrect": [
+      43
+     ],
+     "productions": [
+      44
+     ],
+     "were": [
+      45,
+      53,
+      67
+     ],
+     "met": [
+      46
+     ],
+     "with": [
+      47
+     ],
+     "feedback": [
+      48
+     ],
+     "and": [
+      49,
+      75
+     ],
+     "repeated.": [
+      50
+     ],
+     "The": [
+      51
+     ],
+     "students": [
+      52,
+      102,
+      127
+     ],
+     "then": [
+      54
+     ],
+     "grouped": [
+      55
+     ],
+     "they": [
+      61,
+      137
+     ],
+     "in": [
+      63
+     ],
+     "which": [
+      64
+     ],
+     "no": [
+      65
+     ],
+     "errors": [
+      66
+     ],
+     "committed.": [
+      68
+     ],
+     "Retention": [
+      69
+     ],
+     "was": [
+      70
+     ],
+     "tested": [
+      71
+     ],
+     "after": [
+      72,
+      77,
+      89
+     ],
+     "14": [
+      73,
+      90
+     ],
+     "days": [
+      74
+     ],
+     "again": [
+      76
+     ],
+     "56": [
+      78
+     ],
+     "days.": [
+      79
+     ],
+     "Results": [
+      80
+     ],
+     "showed": [
+      81
+     ],
+     "that": [
+      82,
+      118
+     ],
+     "one": [
+      83,
+      120
+     ],
+     "session": [
+      85,
+      122
+     ],
+     "high": [
+      87
+     ],
+     "days,": [
+      91
+     ],
+     "but": [
+      92
+     ],
+     "this": [
+      93
+     ],
+     "significantly": [
+      95
+     ],
+     "declined": [
+      96
+     ],
+     "second": [
+      99
+     ],
+     "posttest.": [
+      100
+     ],
+     "However,": [
+      101
+     ],
+     "who": [
+      103
+     ],
+     "completed": [
+      104
+     ],
+     "three": [
+      105
+     ],
+     "exhibited": [
+      108
+     ],
+     "stable": [
+      109
+     ],
+     "ceiling": [
+      110
+     ],
+     "across": [
+      112
+     ],
+     "both": [
+      113
+     ],
+     "posttests.": [
+      114
+     ],
+     "These": [
+      115
+     ],
+     "findings": [
+      116
+     ],
+     "suggest": [
+      117
+     ],
+     "while": [
+      119
+     ],
+     "may": [
+      123
+     ],
+     "predict": [
+      124
+     ],
+     "short\u2010term": [
+      125
+     ],
+     "retention,": [
+      126
+     ],
+     "must": [
+      128
+     ],
+     "able": [
+      130
+     ],
+     "perform": [
+      132
+     ],
+     "multiple": [
+      133
+     ],
+     "before": [
+      136
+     ],
+     "expected": [
+      140
+     ],
+     "retain": [
+      142
+     ],
+     "their": [
+      143
+     ],
+     "longer": [
+      146
+     ],
+     "periods.": [
+      147
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5036811764",
+       "display_name": "Jonathan Serfaty",
+       "orcid": "https://orcid.org/0000-0003-2861-6790",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2861-6790"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I201841394",
+        "display_name": "Universit\u00e9 C\u00f4te d'Azur",
+        "ror": "https://ror.org/019tgvf94",
+        "country_code": "FR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I201841394"
+        ]
+       }
+      ],
+      "countries": [
+       "FR"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       }
+      ],
+      "raw_author_name": "Jonathan Serfaty",
+      "raw_affiliation_strings": [
+       "Universit\u00e9 C\u00f4te D'Azur  Nice France"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-2861-6790",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Universit\u00e9 C\u00f4te D'Azur  Nice France",
+        "institution_ids": [
+         "https://openalex.org/I201841394"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1002/acp.70290",
+     "doi": "https://doi.org/10.1002/acp.70290",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1002/acp.70290",
+     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/acp.70290",
+     "source": {
+      "id": "https://openalex.org/S91386000",
+      "display_name": "Applied Cognitive Psychology",
+      "issn_l": "0888-4080",
+      "issn": [
+       "0888-4080",
+       "1099-0720"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-b",
+       "cwts-core",
+       "dongbi-c",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Applied Cognitive Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2901316191",
+    "doi": "https://doi.org/10.1002/hipo.23053",
+    "title": "Absence of an early hippocampal encoding signal after medial temporal lesions: No consequence for the spacing effect",
+    "display_name": "Absence of an early hippocampal encoding signal after medial temporal lesions: No consequence for the spacing effect",
+    "publication_year": 2018,
+    "cited_by_count": 6,
+    "abstract_inverted_index": {
+     "Immediately": [
+      0
+     ],
+     "repeated": [
+      1
+     ],
+     "meaningful": [
+      2
+     ],
+     "pictures": [
+      3
+     ],
+     "in": [
+      4,
+      43,
+      78,
+      142
+     ],
+     "a": [
+      5,
+      10,
+      132
+     ],
+     "continuous": [
+      6
+     ],
+     "recognition": [
+      7
+     ],
+     "task": [
+      8
+     ],
+     "induce": [
+      9
+     ],
+     "positive": [
+      11
+     ],
+     "frontal": [
+      12,
+      96,
+      120
+     ],
+     "potential": [
+      13
+     ],
+     "at": [
+      14,
+      122
+     ],
+     "about": [
+      15
+     ],
+     "200-300": [
+      16,
+      123
+     ],
+     "ms,": [
+      17
+     ],
+     "which": [
+      18
+     ],
+     "appears": [
+      19
+     ],
+     "to": [
+      20,
+      56,
+      58
+     ],
+     "emanate": [
+      21
+     ],
+     "from": [
+      22,
+      34
+     ],
+     "the": [
+      23,
+      30,
+      60,
+      69,
+      94,
+      101,
+      107,
+      118,
+      143
+     ],
+     "medial": [
+      24
+     ],
+     "temporal": [
+      25
+     ],
+     "lobe": [
+      26
+     ],
+     "(MTL)": [
+      27
+     ],
+     "centered": [
+      28
+     ],
+     "on": [
+      29,
+      112
+     ],
+     "hippocampus,": [
+      31
+     ],
+     "as": [
+      32,
+      131
+     ],
+     "concluded": [
+      33
+     ],
+     "inverse": [
+      35
+     ],
+     "solutions,": [
+      36
+     ],
+     "coherence": [
+      37
+     ],
+     "measurements,": [
+      38
+     ],
+     "and": [
+      39,
+      65
+     ],
+     "depth": [
+      40
+     ],
+     "electrode": [
+      41
+     ],
+     "recordings": [
+      42
+     ],
+     "humans.": [
+      44
+     ],
+     "In": [
+      45
+     ],
+     "this": [
+      46,
+      63
+     ],
+     "study,": [
+      47
+     ],
+     "we": [
+      48
+     ],
+     "tested": [
+      49
+     ],
+     "patients": [
+      50
+     ],
+     "with": [
+      51,
+      68
+     ],
+     "unilateral": [
+      52,
+      87
+     ],
+     "MTL": [
+      53,
+      91,
+      113,
+      136
+     ],
+     "lesions": [
+      54,
+      92
+     ],
+     "due": [
+      55
+     ],
+     "stroke": [
+      57
+     ],
+     "verify": [
+      59
+     ],
+     "provenance": [
+      61
+     ],
+     "of": [
+      62,
+      75,
+      135,
+      146
+     ],
+     "signal": [
+      64,
+      98,
+      121
+     ],
+     "its": [
+      66
+     ],
+     "association": [
+      67
+     ],
+     "spacing": [
+      70,
+      102
+     ],
+     "effect": [
+      71
+     ],
+     "(SE)-the": [
+      72
+     ],
+     "improved": [
+      73
+     ],
+     "learning": [
+      74
+     ],
+     "material": [
+      76
+     ],
+     "encountered": [
+      77
+     ],
+     "spaced": [
+      79
+     ],
+     "rather": [
+      80
+     ],
+     "than": [
+      81
+     ],
+     "massed": [
+      82
+     ],
+     "presentation.": [
+      83
+     ],
+     "We": [
+      84,
+      104,
+      115
+     ],
+     "found": [
+      85
+     ],
+     "that": [
+      86,
+      106,
+      117,
+      138
+     ],
+     "left": [
+      88
+     ],
+     "or": [
+      89
+     ],
+     "right": [
+      90
+     ],
+     "abolished": [
+      93
+     ],
+     "early": [
+      95,
+      119,
+      144
+     ],
+     "MTL-mediated": [
+      97
+     ],
+     "but": [
+      99
+     ],
+     "not": [
+      100,
+      110
+     ],
+     "effect.": [
+      103
+     ],
+     "conclude": [
+      105
+     ],
+     "SE": [
+      108
+     ],
+     "does": [
+      109
+     ],
+     "depend": [
+      111
+     ],
+     "integrity.": [
+      114
+     ],
+     "suggest": [
+      116
+     ],
+     "ms": [
+      124
+     ],
+     "after": [
+      125
+     ],
+     "immediate": [
+      126
+     ],
+     "picture": [
+      127
+     ],
+     "repetition": [
+      128
+     ],
+     "may": [
+      129,
+      139
+     ],
+     "serve": [
+      130
+     ],
+     "direct": [
+      133
+     ],
+     "biomarker": [
+      134
+     ],
+     "integrity": [
+      137
+     ],
+     "be": [
+      140
+     ],
+     "useful": [
+      141
+     ],
+     "stages": [
+      145
+     ],
+     "diseases": [
+      147
+     ],
+     "like": [
+      148
+     ],
+     "Alzheimer's.": [
+      149
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5055634551",
+       "display_name": "Domil\u0117 Tautvydait\u0117",
+       "orcid": "https://orcid.org/0000-0001-7072-3771",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7072-3771"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I114457229",
+        "display_name": "University of Geneva",
+        "ror": "https://ror.org/01swzsf04",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I114457229"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210106256",
+        "display_name": "University Hospital of Geneva",
+        "ror": "https://ror.org/01m1pv723",
+        "country_code": "CH",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210106256"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Domil\u0117 Tautvydait\u0117",
+      "raw_affiliation_strings": [
+       "Laboratory of Cognitive Neurorehabilitation, Division of Neurorehabilitation, Department of Clinical Neuroscience University Hospital of Geneva and University of Geneva Geneva Switzerland"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-7072-3771",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Laboratory of Cognitive Neurorehabilitation, Division of Neurorehabilitation, Department of Clinical Neuroscience University Hospital of Geneva and University of Geneva Geneva Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I114457229",
+         "https://openalex.org/I4210106256"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5017890181",
+       "display_name": "Aur\u00e9lie L. Manuel",
+       "orcid": "https://orcid.org/0000-0002-8301-033X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8301-033X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I114457229",
+        "display_name": "University of Geneva",
+        "ror": "https://ror.org/01swzsf04",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I114457229"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210106256",
+        "display_name": "University Hospital of Geneva",
+        "ror": "https://ror.org/01m1pv723",
+        "country_code": "CH",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210106256"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Aur\u00e9lie L. Manuel",
+      "raw_affiliation_strings": [
+       "Laboratory of Cognitive Neurorehabilitation, Division of Neurorehabilitation, Department of Clinical Neuroscience University Hospital of Geneva and University of Geneva Geneva Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Laboratory of Cognitive Neurorehabilitation, Division of Neurorehabilitation, Department of Clinical Neuroscience University Hospital of Geneva and University of Geneva Geneva Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I114457229",
+         "https://openalex.org/I4210106256"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": null,
+       "display_name": "Louis Nahum",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I114457229",
+        "display_name": "University of Geneva",
+        "ror": "https://ror.org/01swzsf04",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I114457229"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210106256",
+        "display_name": "University Hospital of Geneva",
+        "ror": "https://ror.org/01m1pv723",
+        "country_code": "CH",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210106256"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Louis Nahum",
+      "raw_affiliation_strings": [
+       "Laboratory of Cognitive Neurorehabilitation, Division of Neurorehabilitation, Department of Clinical Neuroscience University Hospital of Geneva and University of Geneva Geneva Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Laboratory of Cognitive Neurorehabilitation, Division of Neurorehabilitation, Department of Clinical Neuroscience University Hospital of Geneva and University of Geneva Geneva Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I114457229",
+         "https://openalex.org/I4210106256"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5015914539",
+       "display_name": "Alexandra Adam\u2010Darqu\u00e9",
+       "orcid": "https://orcid.org/0000-0002-5471-1508",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5471-1508"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I114457229",
+        "display_name": "University of Geneva",
+        "ror": "https://ror.org/01swzsf04",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I114457229"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210106256",
+        "display_name": "University Hospital of Geneva",
+        "ror": "https://ror.org/01m1pv723",
+        "country_code": "CH",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210106256"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Alexandra Adam\u2010Darqu\u00e9",
+      "raw_affiliation_strings": [
+       "Laboratory of Cognitive Neurorehabilitation, Division of Neurorehabilitation, Department of Clinical Neuroscience University Hospital of Geneva and University of Geneva Geneva Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Laboratory of Cognitive Neurorehabilitation, Division of Neurorehabilitation, Department of Clinical Neuroscience University Hospital of Geneva and University of Geneva Geneva Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I114457229",
+         "https://openalex.org/I4210106256"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5010529909",
+       "display_name": "Radek Ptak",
+       "orcid": "https://orcid.org/0000-0003-4708-9201",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4708-9201"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I114457229",
+        "display_name": "University of Geneva",
+        "ror": "https://ror.org/01swzsf04",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I114457229"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210106256",
+        "display_name": "University Hospital of Geneva",
+        "ror": "https://ror.org/01m1pv723",
+        "country_code": "CH",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210106256"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Radek Ptak",
+      "raw_affiliation_strings": [
+       "Laboratory of Cognitive Neurorehabilitation, Division of Neurorehabilitation, Department of Clinical Neuroscience University Hospital of Geneva and University of Geneva Geneva Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Laboratory of Cognitive Neurorehabilitation, Division of Neurorehabilitation, Department of Clinical Neuroscience University Hospital of Geneva and University of Geneva Geneva Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I114457229",
+         "https://openalex.org/I4210106256"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5069628540",
+       "display_name": "Armin Schnider",
+       "orcid": "https://orcid.org/0009-0004-3913-2948",
+       "observed_orcids": [
+        "https://orcid.org/0009-0004-3913-2948"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I114457229",
+        "display_name": "University of Geneva",
+        "ror": "https://ror.org/01swzsf04",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I114457229"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210106256",
+        "display_name": "University Hospital of Geneva",
+        "ror": "https://ror.org/01m1pv723",
+        "country_code": "CH",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210106256"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Armin Schnider",
+      "raw_affiliation_strings": [
+       "Laboratory of Cognitive Neurorehabilitation, Division of Neurorehabilitation, Department of Clinical Neuroscience University Hospital of Geneva and University of Geneva Geneva Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Laboratory of Cognitive Neurorehabilitation, Division of Neurorehabilitation, Department of Clinical Neuroscience University Hospital of Geneva and University of Geneva Geneva Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I114457229",
+         "https://openalex.org/I4210106256"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1002/hipo.23053",
+     "doi": "https://doi.org/10.1002/hipo.23053",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1002/hipo.23053",
+     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hipo.23053",
+     "source": {
+      "id": "https://openalex.org/S55111660",
+      "display_name": "Hippocampus",
+      "issn_l": "1050-9631",
+      "issn": [
+       "1050-9631",
+       "1098-1063"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-b",
+       "doyens",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Hippocampus",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

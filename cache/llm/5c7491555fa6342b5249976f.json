@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a20209-5bc5-7db7-8c80-0fb78509c791",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330497,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 3, \"reason\": \"Passage 3 states that on delayed tests, prior testing produced substantially greater retention than studying, matching the claim's direction and outcome for delayed retention.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 296,
+  "completion_tokens": 50,
+  "total_tokens": 346,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 1.21
+}

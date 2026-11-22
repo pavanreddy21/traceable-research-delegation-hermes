@@ -1,0 +1,4361 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 26244,
+   "db_response_time_ms": 103,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (growth mindset intervention college achievement) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (growth mindset intervention college achievement) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "growth mindset intervention college achievement",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:growth mindset intervention college achievement,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2798158843",
+    "doi": "https://doi.org/10.1039/c7rp00244k",
+    "title": "Improving general chemistry performance through a growth mindset intervention: selective effects on underrepresented minorities",
+    "display_name": "Improving general chemistry performance through a growth mindset intervention: selective effects on underrepresented minorities",
+    "publication_year": 2018,
+    "cited_by_count": 145,
+    "abstract_inverted_index": {
+     "Women": [
+      0
+     ],
+     "and": [
+      1,
+      26,
+      87,
+      129,
+      172,
+      188,
+      192
+     ],
+     "minorities": [
+      2
+     ],
+     "remain": [
+      3
+     ],
+     "underrepresented": [
+      4,
+      97,
+      127,
+      201
+     ],
+     "in": [
+      5,
+      10,
+      116,
+      132,
+      145,
+      203
+     ],
+     "chemistry": [
+      6,
+      20
+     ],
+     "bachelor's": [
+      7
+     ],
+     "degree": [
+      8
+     ],
+     "attainment": [
+      9
+     ],
+     "the": [
+      11,
+      84,
+      133,
+      148,
+      162,
+      170,
+      186,
+      194
+     ],
+     "United": [
+      12
+     ],
+     "States,": [
+      13
+     ],
+     "despite": [
+      14
+     ],
+     "efforts": [
+      15
+     ],
+     "to": [
+      16,
+      47,
+      57,
+      96,
+      199
+     ],
+     "improve": [
+      17,
+      83
+     ],
+     "their": [
+      18,
+      167,
+      204
+     ],
+     "early": [
+      19
+     ],
+     "achievement": [
+      21,
+      124
+     ],
+     "through": [
+      22,
+      68
+     ],
+     "supplemental": [
+      23
+     ],
+     "academic": [
+      24,
+      52,
+      146
+     ],
+     "programs": [
+      25
+     ],
+     "active-learning": [
+      27
+     ],
+     "approaches.": [
+      28
+     ],
+     "We": [
+      29,
+      99,
+      181
+     ],
+     "propose": [
+      30
+     ],
+     "an": [
+      31,
+      123
+     ],
+     "additional": [
+      32
+     ],
+     "strategy": [
+      33
+     ],
+     "for": [
+      34,
+      143,
+      196
+     ],
+     "addressing": [
+      35
+     ],
+     "these": [
+      36,
+      183
+     ],
+     "disparities:": [
+      37
+     ],
+     "course-based,": [
+      38
+     ],
+     "social-psychological": [
+      39
+     ],
+     "interventions.": [
+      40
+     ],
+     "For": [
+      41
+     ],
+     "example,": [
+      42
+     ],
+     "growth-mindset": [
+      43,
+      109
+     ],
+     "interventions": [
+      44,
+      81
+     ],
+     "are": [
+      45
+     ],
+     "designed": [
+      46
+     ],
+     "support": [
+      48,
+      200
+     ],
+     "students": [
+      49,
+      114,
+      131,
+      202
+     ],
+     "during": [
+      50
+     ],
+     "challenging": [
+      51
+     ],
+     "transitions": [
+      53
+     ],
+     "by": [
+      54
+     ],
+     "encouraging": [
+      55
+     ],
+     "them": [
+      56
+     ],
+     "view": [
+      58
+     ],
+     "intelligence": [
+      59
+     ],
+     "as": [
+      60
+     ],
+     "a": [
+      61,
+      72,
+      101,
+      107
+     ],
+     "flexible": [
+      62
+     ],
+     "characteristic": [
+      63
+     ],
+     "that": [
+      64,
+      79
+     ],
+     "can": [
+      65,
+      82
+     ],
+     "be": [
+      66
+     ],
+     "developed": [
+      67
+     ],
+     "practice,": [
+      69
+     ],
+     "rather": [
+      70
+     ],
+     "than": [
+      71
+     ],
+     "fixed": [
+      73
+     ],
+     "ability.": [
+      74
+     ],
+     "Previous": [
+      75
+     ],
+     "research": [
+      76
+     ],
+     "has": [
+      77
+     ],
+     "shown": [
+      78
+     ],
+     "such": [
+      80
+     ],
+     "overall": [
+      85
+     ],
+     "performance": [
+      86
+     ],
+     "persistence": [
+      88
+     ],
+     "of": [
+      89,
+      157,
+      169,
+      178
+     ],
+     "college": [
+      90,
+      113
+     ],
+     "students,": [
+      91
+     ],
+     "particularly": [
+      92
+     ],
+     "those": [
+      93
+     ],
+     "who": [
+      94
+     ],
+     "belong": [
+      95
+     ],
+     "groups.": [
+      98
+     ],
+     "report": [
+      100
+     ],
+     "random-assignment": [
+      102
+     ],
+     "classroom": [
+      103
+     ],
+     "experiment,": [
+      104
+     ],
+     "which": [
+      105
+     ],
+     "implemented": [
+      106
+     ],
+     "chemistry-specific": [
+      108
+     ],
+     "intervention": [
+      110,
+      150,
+      163
+     ],
+     "among": [
+      111
+     ],
+     "first-year": [
+      112
+     ],
+     "enrolled": [
+      115
+     ],
+     "General": [
+      117
+     ],
+     "Chemistry": [
+      118
+     ],
+     "1.": [
+      119
+     ],
+     "Performance": [
+      120
+     ],
+     "results": [
+      121,
+      184
+     ],
+     "revealed": [
+      122
+     ],
+     "gap": [
+      125
+     ],
+     "between": [
+      126
+     ],
+     "minority": [
+      128
+     ],
+     "white": [
+      130
+     ],
+     "control": [
+      134,
+      173
+     ],
+     "group,": [
+      135
+     ],
+     "but": [
+      136
+     ],
+     "no": [
+      137
+     ],
+     "sex-based": [
+      138
+     ],
+     "gap.": [
+      139,
+      154
+     ],
+     "Critically,": [
+      140
+     ],
+     "after": [
+      141
+     ],
+     "adjusting": [
+      142
+     ],
+     "variation": [
+      144
+     ],
+     "preparation,": [
+      147
+     ],
+     "mindset": [
+      149,
+      171,
+      179,
+      187
+     ],
+     "eliminated": [
+      151
+     ],
+     "this": [
+      152
+     ],
+     "racial-achievement": [
+      153
+     ],
+     "Qualitative": [
+      155
+     ],
+     "analysis": [
+      156
+     ],
+     "students\u2019": [
+      158
+     ],
+     "written": [
+      159
+     ],
+     "reflections": [
+      160
+     ],
+     "from": [
+      161
+     ],
+     "shed": [
+      164
+     ],
+     "light": [
+      165
+     ],
+     "on": [
+      166
+     ],
+     "experiences": [
+      168
+     ],
+     "treatments,": [
+      174
+     ],
+     "deepening": [
+      175
+     ],
+     "our": [
+      176
+     ],
+     "understanding": [
+      177
+     ],
+     "effects.": [
+      180
+     ],
+     "integrate": [
+      182
+     ],
+     "with": [
+      185
+     ],
+     "chemical": [
+      189
+     ],
+     "education": [
+      190
+     ],
+     "literatures": [
+      191
+     ],
+     "discuss": [
+      193
+     ],
+     "implications": [
+      195
+     ],
+     "educators": [
+      197
+     ],
+     "seeking": [
+      198
+     ],
+     "own": [
+      205
+     ],
+     "classrooms.": [
+      206
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5047216168",
+       "display_name": "Angela Fink",
+       "orcid": "https://orcid.org/0000-0001-5217-6778",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5217-6778"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204465549",
+        "display_name": "Washington University in St. Louis",
+        "ror": "https://ror.org/01yc7t268",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Angela Fink",
+      "raw_affiliation_strings": [
+       "Center for Integrative Research on Cognition, Learning, and Education (CIRCLE), Washington University in St. Louis, St. Louis, MO 63130, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Integrative Research on Cognition, Learning, and Education (CIRCLE), Washington University in St. Louis, St. Louis, MO 63130, USA",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5088124063",
+       "display_name": "Michael J. Cahill",
+       "orcid": "https://orcid.org/0009-0000-5834-8278",
+       "observed_orcids": [
+        "https://orcid.org/0009-0000-5834-8278"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204465549",
+        "display_name": "Washington University in St. Louis",
+        "ror": "https://ror.org/01yc7t268",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Michael J. Cahill",
+      "raw_affiliation_strings": [
+       "Center for Integrative Research on Cognition, Learning, and Education (CIRCLE), Washington University in St. Louis, St. Louis, MO 63130, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Integrative Research on Cognition, Learning, and Education (CIRCLE), Washington University in St. Louis, St. Louis, MO 63130, USA",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5074288712",
+       "display_name": "Mark A. McDaniel",
+       "orcid": "https://orcid.org/0000-0003-4999-5531",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4999-5531"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204465549",
+        "display_name": "Washington University in St. Louis",
+        "ror": "https://ror.org/01yc7t268",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Mark A. McDaniel",
+      "raw_affiliation_strings": [
+       "Center for Integrative Research on Cognition, Learning, and Education (CIRCLE), Washington University in St. Louis, St. Louis, MO 63130, USA",
+       "Psychological and Brain Sciences, Washington University in St. Louis, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Integrative Research on Cognition, Learning, and Education (CIRCLE), Washington University in St. Louis, St. Louis, MO 63130, USA",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Psychological and Brain Sciences, Washington University in St. Louis, USA",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5015833556",
+       "display_name": "Arielle Hoffman",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204465549",
+        "display_name": "Washington University in St. Louis",
+        "ror": "https://ror.org/01yc7t268",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Arielle Hoffman",
+      "raw_affiliation_strings": [
+       "Center for Integrative Research on Cognition, Learning, and Education (CIRCLE), Washington University in St. Louis, St. Louis, MO 63130, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Integrative Research on Cognition, Learning, and Education (CIRCLE), Washington University in St. Louis, St. Louis, MO 63130, USA",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5029916068",
+       "display_name": "Regina F. Frey",
+       "orcid": "https://orcid.org/0000-0003-2270-2030",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2270-2030"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204465549",
+        "display_name": "Washington University in St. Louis",
+        "ror": "https://ror.org/01yc7t268",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Regina F. Frey",
+      "raw_affiliation_strings": [
+       "Center for Integrative Research on Cognition, Learning, and Education (CIRCLE), Washington University in St. Louis, St. Louis, MO 63130, USA",
+       "Department of Chemistry, Washington University in St. Louis, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-2270-2030",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Integrative Research on Cognition, Learning, and Education (CIRCLE), Washington University in St. Louis, St. Louis, MO 63130, USA",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Chemistry, Washington University in St. Louis, USA",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1039/c7rp00244k",
+     "doi": "https://doi.org/10.1039/c7rp00244k",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1039/c7rp00244k",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S165966090",
+      "display_name": "Chemistry Education Research and Practice",
+      "issn_l": "1109-4028",
+      "issn": [
+       "1109-4028",
+       "1756-1108"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "erih-plus",
+       "jufo-1",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320556",
+      "host_organization_name": "Royal Society of Chemistry",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320556"
+      ],
+      "host_organization_lineage_names": [
+       "Royal Society of Chemistry"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Chemistry Education Research and Practice",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3178218216",
+    "doi": "https://doi.org/10.1002/bmb.21556",
+    "title": "Growth mindset interventions improve academic performance but not mindset in biochemistry",
+    "display_name": "Growth mindset interventions improve academic performance but not mindset in biochemistry",
+    "publication_year": 2021,
+    "cited_by_count": 48,
+    "abstract_inverted_index": {
+     "Growing": [
+      0
+     ],
+     "evidence": [
+      1
+     ],
+     "suggests": [
+      2
+     ],
+     "that": [
+      3,
+      117,
+      159,
+      167
+     ],
+     "students'": [
+      4,
+      119
+     ],
+     "self-beliefs": [
+      5,
+      17
+     ],
+     "about": [
+      6,
+      57,
+      134
+     ],
+     "altering": [
+      7
+     ],
+     "their": [
+      8,
+      33,
+      131
+     ],
+     "academic": [
+      9,
+      34,
+      44,
+      109,
+      181
+     ],
+     "abilities": [
+      10,
+      35
+     ],
+     "can": [
+      11,
+      20,
+      36,
+      173
+     ],
+     "directly": [
+      12
+     ],
+     "influence": [
+      13
+     ],
+     "long-term": [
+      14
+     ],
+     "achievement.": [
+      15
+     ],
+     "These": [
+      16,
+      164
+     ],
+     "or": [
+      18,
+      25
+     ],
+     "mindsets": [
+      19,
+      31,
+      120
+     ],
+     "either": [
+      21
+     ],
+     "be": [
+      22,
+      174
+     ],
+     "fixed": [
+      23,
+      51
+     ],
+     "(unchangeable)": [
+      24
+     ],
+     "growth": [
+      26,
+      30,
+      79,
+      128,
+      143
+     ],
+     "oriented.": [
+      27
+     ],
+     "Students": [
+      28
+     ],
+     "with": [
+      29,
+      50
+     ],
+     "believe": [
+      32
+     ],
+     "change,": [
+      37
+     ],
+     "which": [
+      38
+     ],
+     "leads": [
+      39
+     ],
+     "to": [
+      40,
+      48,
+      77,
+      178
+     ],
+     "higher": [
+      41
+     ],
+     "grades": [
+      42
+     ],
+     "and": [
+      43,
+      83,
+      108
+     ],
+     "persistence": [
+      45
+     ],
+     "in": [
+      46,
+      65,
+      89,
+      183
+     ],
+     "contrast": [
+      47
+     ],
+     "students": [
+      49,
+      87,
+      141,
+      148
+     ],
+     "mindsets.": [
+      52
+     ],
+     "However,": [
+      53
+     ],
+     "less": [
+      54
+     ],
+     "is": [
+      55
+     ],
+     "known": [
+      56
+     ],
+     "how": [
+      58
+     ],
+     "these": [
+      59,
+      168
+     ],
+     "attributes": [
+      60
+     ],
+     "affect": [
+      61
+     ],
+     "student": [
+      62,
+      103,
+      180
+     ],
+     "learning,": [
+      63,
+      107
+     ],
+     "particularly": [
+      64
+     ],
+     "college": [
+      66
+     ],
+     "level": [
+      67
+     ],
+     "biochemistry": [
+      68,
+      185
+     ],
+     "courses.": [
+      69
+     ],
+     "In": [
+      70
+     ],
+     "this": [
+      71
+     ],
+     "study,": [
+      72
+     ],
+     "we": [
+      73,
+      101
+     ],
+     "utilized": [
+      74
+     ],
+     "metacognitive": [
+      75,
+      171
+     ],
+     "interventions": [
+      76,
+      145,
+      153,
+      172
+     ],
+     "promote": [
+      78
+     ],
+     "mindset": [
+      80,
+      129,
+      144
+     ],
+     "among": [
+      81
+     ],
+     "third": [
+      82
+     ],
+     "fourth": [
+      84
+     ],
+     "year": [
+      85
+     ],
+     "undergraduate": [
+      86
+     ],
+     "enrolled": [
+      88
+     ],
+     "a": [
+      90,
+      97,
+      125,
+      184
+     ],
+     "one": [
+      91
+     ],
+     "semester": [
+      92
+     ],
+     "Biochemistry": [
+      93
+     ],
+     "survey": [
+      94
+     ],
+     "course.": [
+      95,
+      186
+     ],
+     "Using": [
+      96
+     ],
+     "mixed-methods": [
+      98
+     ],
+     "study": [
+      99
+     ],
+     "design,": [
+      100
+     ],
+     "evaluated": [
+      102
+     ],
+     "mindset,": [
+      104
+     ],
+     "attitudes": [
+      105
+     ],
+     "toward": [
+      106
+     ],
+     "performance": [
+      110,
+      137,
+      182
+     ],
+     "over": [
+      111
+     ],
+     "four": [
+      112
+     ],
+     "semesters.": [
+      113
+     ],
+     "Our": [
+      114
+     ],
+     "results": [
+      115,
+      165
+     ],
+     "suggest": [
+      116,
+      166
+     ],
+     "although": [
+      118
+     ],
+     "did": [
+      121,
+      138,
+      150
+     ],
+     "not": [
+      122,
+      151
+     ],
+     "change": [
+      123
+     ],
+     "as": [
+      124
+     ],
+     "result": [
+      126
+     ],
+     "of": [
+      127,
+      170
+     ],
+     "interventions,": [
+      130
+     ],
+     "positive": [
+      132
+     ],
+     "perceptions": [
+      133
+     ],
+     "learning": [
+      135
+     ],
+     "versus": [
+      136
+     ],
+     "increase.": [
+      139
+     ],
+     "Furthermore,": [
+      140
+     ],
+     "receiving": [
+      142
+     ],
+     "significantly": [
+      146
+     ],
+     "outperformed": [
+      147
+     ],
+     "who": [
+      149
+     ],
+     "receive": [
+      152
+     ],
+     "on": [
+      154
+     ],
+     "the": [
+      155
+     ],
+     "final": [
+      156
+     ],
+     "cumulative": [
+      157
+     ],
+     "exam": [
+      158
+     ],
+     "assessed": [
+      160
+     ],
+     "critical": [
+      161
+     ],
+     "thinking": [
+      162
+     ],
+     "skills.": [
+      163
+     ],
+     "types": [
+      169
+     ],
+     "an": [
+      175
+     ],
+     "effective": [
+      176
+     ],
+     "tool": [
+      177
+     ],
+     "improve": [
+      179
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5028350160",
+       "display_name": "Heather B. Miller",
+       "orcid": "https://orcid.org/0000-0003-1400-7716",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1400-7716"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I101240087",
+        "display_name": "High Point University",
+        "ror": "https://ror.org/029qx3s09",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I101240087"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Heather B. Miller",
+      "raw_affiliation_strings": [
+       "Department of Chemistry, High Point University, High Point, North Carolina, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-1400-7716",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Chemistry, High Point University, High Point, North Carolina, USA",
+        "institution_ids": [
+         "https://openalex.org/I101240087"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5061912543",
+       "display_name": "Melissa C. Srougi",
+       "orcid": "https://orcid.org/0000-0003-2183-0233",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2183-0233"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I101240087",
+        "display_name": "High Point University",
+        "ror": "https://ror.org/029qx3s09",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I101240087"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I137902535",
+        "display_name": "North Carolina State University",
+        "ror": "https://ror.org/04tj63d06",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I137902535"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Melissa C. Srougi",
+      "raw_affiliation_strings": [
+       "Department of Chemistry, High Point University, High Point, North Carolina, USA",
+       "Department of Molecular Biomedical Sciences and the Biotechnology Program, North Carolina State University, Raleigh, North Carolina, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-2183-0233",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Chemistry, High Point University, High Point, North Carolina, USA",
+        "institution_ids": [
+         "https://openalex.org/I101240087"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Molecular Biomedical Sciences and the Biotechnology Program, North Carolina State University, Raleigh, North Carolina, USA",
+        "institution_ids": [
+         "https://openalex.org/I137902535"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1002/bmb.21556",
+     "doi": "https://doi.org/10.1002/bmb.21556",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1002/bmb.21556",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S105183386",
+      "display_name": "Biochemistry and Molecular Biology Education",
+      "issn_l": "1470-8175",
+      "issn": [
+       "1470-8175",
+       "1539-3429"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-c",
+       "doyens",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-40",
+       "russia-white-list-3"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Biochemistry and Molecular Biology Education",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4212916930",
+    "doi": "https://doi.org/10.1177/00986283211053806",
+    "title": "Growth Mindset Intervention Improves Performance of Highly Nontraditional Introductory Psychology Students at a Community College",
+    "display_name": "Growth Mindset Intervention Improves Performance of Highly Nontraditional Introductory Psychology Students at a Community College",
+    "publication_year": 2022,
+    "cited_by_count": 24,
+    "abstract_inverted_index": {
+     "Background": [
+      0
+     ],
+     "Research": [
+      1
+     ],
+     "suggests": [
+      2
+     ],
+     "growth": [
+      3,
+      51,
+      85
+     ],
+     "mindset": [
+      4,
+      52,
+      86,
+      110,
+      144,
+      171
+     ],
+     "interventions": [
+      5,
+      145,
+      172
+     ],
+     "can": [
+      6,
+      167
+     ],
+     "support": [
+      7,
+      174
+     ],
+     "student": [
+      8
+     ],
+     "achievement,": [
+      9
+     ],
+     "particularly": [
+      10
+     ],
+     "among": [
+      11,
+      104,
+      117
+     ],
+     "students": [
+      12,
+      46,
+      70,
+      107,
+      122,
+      156,
+      191
+     ],
+     "at": [
+      13,
+      59,
+      74,
+      157
+     ],
+     "risk": [
+      14,
+      158
+     ],
+     "of": [
+      15,
+      68,
+      159
+     ],
+     "academic": [
+      16,
+      177
+     ],
+     "struggle,": [
+      17
+     ],
+     "but": [
+      18,
+      114,
+      129
+     ],
+     "it": [
+      19
+     ],
+     "remains": [
+      20
+     ],
+     "underspecified": [
+      21
+     ],
+     "which": [
+      22
+     ],
+     "at-risk": [
+      23,
+      175
+     ],
+     "populations": [
+      24
+     ],
+     "will": [
+      25
+     ],
+     "benefit": [
+      26,
+      48,
+      116
+     ],
+     "from": [
+      27,
+      49
+     ],
+     "such": [
+      28
+     ],
+     "interventions.": [
+      29
+     ],
+     "Objectives": [
+      30
+     ],
+     "This": [
+      31
+     ],
+     "study": [
+      32
+     ],
+     "aimed": [
+      33
+     ],
+     "to": [
+      34,
+      82,
+      127,
+      173,
+      183,
+      190,
+      194
+     ],
+     "experimentally": [
+      35
+     ],
+     "evaluate": [
+      36,
+      184
+     ],
+     "whether": [
+      37,
+      55
+     ],
+     "highly": [
+      38,
+      105
+     ],
+     "(vs.": [
+      39,
+      111
+     ],
+     "moderately": [
+      40
+     ],
+     "or": [
+      41,
+      87
+     ],
+     "minimally)": [
+      42
+     ],
+     "nontraditional": [
+      43,
+      106,
+      121,
+      153
+     ],
+     "community": [
+      44,
+      77,
+      154
+     ],
+     "college": [
+      45,
+      78,
+      155
+     ],
+     "would": [
+      47
+     ],
+     "a": [
+      50,
+      75,
+      84,
+      148,
+      160,
+      196
+     ],
+     "intervention": [
+      53
+     ],
+     "and": [
+      54,
+      61,
+      90,
+      192
+     ],
+     "their": [
+      56,
+      130
+     ],
+     "performance": [
+      57,
+      103,
+      126,
+      162
+     ],
+     "differed": [
+      58
+     ],
+     "baseline": [
+      60
+     ],
+     "after": [
+      62
+     ],
+     "the": [
+      63,
+      109,
+      136,
+      185
+     ],
+     "intervention.": [
+      64
+     ],
+     "Method": [
+      65
+     ],
+     "A": [
+      66
+     ],
+     "sample": [
+      67
+     ],
+     "155": [
+      69
+     ],
+     "in": [
+      71,
+      108
+     ],
+     "introductory": [
+      72
+     ],
+     "psychology": [
+      73
+     ],
+     "2-year": [
+      76
+     ],
+     "was": [
+      79
+     ],
+     "randomly": [
+      80
+     ],
+     "assigned": [
+      81
+     ],
+     "complete": [
+      83
+     ],
+     "control": [
+      88,
+      140
+     ],
+     "intervention,": [
+      89
+     ],
+     "all": [
+      91
+     ],
+     "participants": [
+      92
+     ],
+     "completed": [
+      93
+     ],
+     "an": [
+      94
+     ],
+     "extensive": [
+      95
+     ],
+     "background": [
+      96
+     ],
+     "survey.": [
+      97
+     ],
+     "Results": [
+      98,
+      99
+     ],
+     "showed": [
+      100,
+      123
+     ],
+     "improved": [
+      101
+     ],
+     "exam": [
+      102,
+      131
+     ],
+     "control)": [
+      112
+     ],
+     "condition": [
+      113
+     ],
+     "no": [
+      115
+     ],
+     "other": [
+      118
+     ],
+     "students.": [
+      119
+     ],
+     "Highly": [
+      120
+     ],
+     "similar": [
+      124
+     ],
+     "pre-intervention": [
+      125
+     ],
+     "peers,": [
+      128
+     ],
+     "scores": [
+      132
+     ],
+     "declined": [
+      133
+     ],
+     "more": [
+      134
+     ],
+     "over": [
+      135
+     ],
+     "semester": [
+      137
+     ],
+     "than": [
+      138
+     ],
+     "did": [
+      139
+     ],
+     "peers.": [
+      141
+     ],
+     "Conclusion": [
+      142
+     ],
+     "Growth": [
+      143
+     ],
+     "may": [
+      146,
+      180
+     ],
+     "offer": [
+      147
+     ],
+     "low-cost": [
+      149
+     ],
+     "strategy": [
+      150
+     ],
+     "for": [
+      151
+     ],
+     "supporting": [
+      152
+     ],
+     "downward": [
+      161
+     ],
+     "trajectory.": [
+      163
+     ],
+     "Teaching": [
+      164
+     ],
+     "Implications": [
+      165
+     ],
+     "Instructors": [
+      166
+     ],
+     "use": [
+      168
+     ],
+     "easily": [
+      169
+     ],
+     "administered": [
+      170
+     ],
+     "students\u2019": [
+      176
+     ],
+     "performance.": [
+      178
+     ],
+     "They": [
+      179
+     ],
+     "also": [
+      181
+     ],
+     "wish": [
+      182
+     ],
+     "performance-related": [
+      186
+     ],
+     "messages": [
+      187
+     ],
+     "they": [
+      188
+     ],
+     "convey": [
+      189
+     ],
+     "work": [
+      193
+     ],
+     "create": [
+      195
+     ],
+     "growth-oriented": [
+      197
+     ],
+     "classroom": [
+      198
+     ],
+     "environment.": [
+      199
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5047216168",
+       "display_name": "Angela Fink",
+       "orcid": "https://orcid.org/0000-0001-5217-6778",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5217-6778"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204465549",
+        "display_name": "Washington University in St. Louis",
+        "ror": "https://ror.org/01yc7t268",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Angela Fink",
+      "raw_affiliation_strings": [
+       "Center for Integrative Research on Cognition, Learning, and Education (CIRCLE), Washington University in Saint Louis, St Louis, MO, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Integrative Research on Cognition, Learning, and Education (CIRCLE), Washington University in Saint Louis, St Louis, MO, USA",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5057177068",
+       "display_name": "Paul S. Mattson",
+       "orcid": "https://orcid.org/0000-0002-5735-7698",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5735-7698"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I144041092",
+        "display_name": "Peninsula College",
+        "ror": "https://ror.org/0470n4p24",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I144041092"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Paul S. Mattson",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Peninsula College, Port Angeles, WA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Peninsula College, Port Angeles, WA, USA",
+        "institution_ids": [
+         "https://openalex.org/I144041092"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5088124063",
+       "display_name": "Michael J. Cahill",
+       "orcid": "https://orcid.org/0009-0000-5834-8278",
+       "observed_orcids": [
+        "https://orcid.org/0009-0000-5834-8278"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204465549",
+        "display_name": "Washington University in St. Louis",
+        "ror": "https://ror.org/01yc7t268",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Michael J. Cahill",
+      "raw_affiliation_strings": [
+       "Center for Integrative Research on Cognition, Learning, and Education (CIRCLE), Washington University in Saint Louis, St Louis, MO, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Integrative Research on Cognition, Learning, and Education (CIRCLE), Washington University in Saint Louis, St Louis, MO, USA",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5029916068",
+       "display_name": "Regina F. Frey",
+       "orcid": "https://orcid.org/0000-0003-2270-2030",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2270-2030"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I223532165",
+        "display_name": "University of Utah",
+        "ror": "https://ror.org/03r0ha626",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I223532165"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Regina F. Frey",
+      "raw_affiliation_strings": [
+       "Department of Chemistry, The University of Utah, Salt Lake City, UT, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Chemistry, The University of Utah, Salt Lake City, UT, USA",
+        "institution_ids": [
+         "https://openalex.org/I223532165"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5074288712",
+       "display_name": "Mark A. McDaniel",
+       "orcid": "https://orcid.org/0000-0003-4999-5531",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4999-5531"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204465549",
+        "display_name": "Washington University in St. Louis",
+        "ror": "https://ror.org/01yc7t268",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Mark A. McDaniel",
+      "raw_affiliation_strings": [
+       "Center for Integrative Research on Cognition, Learning, and Education (CIRCLE), Washington University in Saint Louis, St Louis, MO, USA",
+       "Department of Psychological & Brain Sciences, Washington University in Saint Louis, St Louis, MO, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Integrative Research on Cognition, Learning, and Education (CIRCLE), Washington University in Saint Louis, St Louis, MO, USA",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychological & Brain Sciences, Washington University in Saint Louis, St Louis, MO, USA",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1177/00986283211053806",
+     "doi": "https://doi.org/10.1177/00986283211053806",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1177/00986283211053806",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S51499954",
+      "display_name": "Teaching of Psychology",
+      "issn_l": "0098-6283",
+      "issn": [
+       "0098-6283",
+       "1532-8023"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-c",
+       "erih-plus",
+       "jufo-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320017",
+      "host_organization_name": "SAGE Publishing",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320017"
+      ],
+      "host_organization_lineage_names": [
+       "SAGE Publishing"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Teaching of Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2964722401",
+    "doi": "https://doi.org/10.1038/s41586-019-1466-y",
+    "title": "A national experiment reveals where a growth mindset improves achievement",
+    "display_name": "A national experiment reveals where a growth mindset improves achievement",
+    "publication_year": 2019,
+    "cited_by_count": 1971,
+    "abstract_inverted_index": {
+     "A": [
+      0,
+      140
+     ],
+     "global": [
+      1
+     ],
+     "priority": [
+      2
+     ],
+     "for": [
+      3
+     ],
+     "the": [
+      4,
+      16,
+      82,
+      86,
+      93,
+      96,
+      100,
+      109,
+      112,
+      116,
+      162,
+      171
+     ],
+     "behavioural": [
+      5
+     ],
+     "sciences": [
+      6
+     ],
+     "is": [
+      7
+     ],
+     "to": [
+      8,
+      67,
+      169
+     ],
+     "develop": [
+      9
+     ],
+     "cost-effective,": [
+      10
+     ],
+     "scalable": [
+      11
+     ],
+     "interventions": [
+      12,
+      28
+     ],
+     "that": [
+      13,
+      41,
+      53,
+      91,
+      145,
+      166
+     ],
+     "could": [
+      14
+     ],
+     "improve": [
+      15
+     ],
+     "academic": [
+      17
+     ],
+     "outcomes": [
+      18
+     ],
+     "of": [
+      19,
+      76,
+      95,
+      111,
+      118,
+      129,
+      133,
+      164
+     ],
+     "adolescents": [
+      20
+     ],
+     "at": [
+      21
+     ],
+     "a": [
+      22,
+      35,
+      42,
+      72,
+      136,
+      146
+     ],
+     "population": [
+      23
+     ],
+     "level,": [
+      24
+     ],
+     "but": [
+      25
+     ],
+     "no": [
+      26
+     ],
+     "such": [
+      27
+     ],
+     "have": [
+      29
+     ],
+     "so": [
+      30
+     ],
+     "far": [
+      31
+     ],
+     "been": [
+      32
+     ],
+     "evaluated": [
+      33
+     ],
+     "in": [
+      34,
+      71,
+      78,
+      81,
+      115
+     ],
+     "population-generalizable": [
+      36
+     ],
+     "sample.": [
+      37
+     ],
+     "Here": [
+      38
+     ],
+     "we": [
+      39
+     ],
+     "show": [
+      40
+     ],
+     "short": [
+      43
+     ],
+     "(less": [
+      44
+     ],
+     "than": [
+      45
+     ],
+     "one": [
+      46
+     ],
+     "hour),": [
+      47
+     ],
+     "online": [
+      48
+     ],
+     "growth": [
+      49,
+      97,
+      150
+     ],
+     "mindset": [
+      50,
+      98,
+      151
+     ],
+     "intervention\u2014which": [
+      51
+     ],
+     "teaches": [
+      52
+     ],
+     "intellectual": [
+      54
+     ],
+     "abilities": [
+      55
+     ],
+     "can": [
+      56,
+      153
+     ],
+     "be": [
+      57
+     ],
+     "developed\u2014improved": [
+      58
+     ],
+     "grades": [
+      59,
+      103,
+      156
+     ],
+     "among": [
+      60
+     ],
+     "lower-achieving": [
+      61
+     ],
+     "students": [
+      62,
+      77
+     ],
+     "and": [
+      63,
+      126,
+      131,
+      157,
+      160
+     ],
+     "increased": [
+      64
+     ],
+     "overall": [
+      65
+     ],
+     "enrolment": [
+      66
+     ],
+     "advanced": [
+      68,
+      158
+     ],
+     "mathematics": [
+      69
+     ],
+     "courses": [
+      70
+     ],
+     "nationally": [
+      73
+     ],
+     "representative": [
+      74
+     ],
+     "sample": [
+      75
+     ],
+     "secondary": [
+      79
+     ],
+     "education": [
+      80
+     ],
+     "United": [
+      83
+     ],
+     "States.": [
+      84
+     ],
+     "Notably,": [
+      85
+     ],
+     "study": [
+      87,
+      120
+     ],
+     "identified": [
+      88,
+      161
+     ],
+     "school": [
+      89,
+      165
+     ],
+     "contexts": [
+      90
+     ],
+     "sustained": [
+      92
+     ],
+     "effects": [
+      94
+     ],
+     "intervention:": [
+      99
+     ],
+     "intervention": [
+      101,
+      152
+     ],
+     "changed": [
+      102
+     ],
+     "when": [
+      104
+     ],
+     "peer": [
+      105
+     ],
+     "norms": [
+      106
+     ],
+     "aligned": [
+      107
+     ],
+     "with": [
+      108
+     ],
+     "messages": [
+      110
+     ],
+     "intervention.": [
+      113
+     ],
+     "Confidence": [
+      114
+     ],
+     "conclusions": [
+      117
+     ],
+     "this": [
+      119
+     ],
+     "comes": [
+      121
+     ],
+     "from": [
+      122
+     ],
+     "independent": [
+      123
+     ],
+     "data": [
+      124
+     ],
+     "collection": [
+      125
+     ],
+     "processing,": [
+      127
+     ],
+     "pre-registration": [
+      128
+     ],
+     "analyses,": [
+      130
+     ],
+     "corroboration": [
+      132
+     ],
+     "results": [
+      134
+     ],
+     "by": [
+      135
+     ],
+     "blinded": [
+      137
+     ],
+     "Bayesian": [
+      138
+     ],
+     "analysis.": [
+      139
+     ],
+     "US": [
+      141
+     ],
+     "national": [
+      142
+     ],
+     "experiment": [
+      143
+     ],
+     "showed": [
+      144
+     ],
+     "short,": [
+      147
+     ],
+     "online,": [
+      148
+     ],
+     "self-administered": [
+      149
+     ],
+     "increase": [
+      154
+     ],
+     "adolescents\u2019": [
+      155
+     ],
+     "course-taking,": [
+      159
+     ],
+     "types": [
+      163
+     ],
+     "were": [
+      167
+     ],
+     "poised": [
+      168
+     ],
+     "benefit": [
+      170
+     ],
+     "most.": [
+      172
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5008876848",
+       "display_name": "David Scott Yeager",
+       "orcid": "https://orcid.org/0000-0002-8522-9503",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8522-9503"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I86519309",
+        "display_name": "The University of Texas at Austin",
+        "ror": "https://ror.org/00hj54h04",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "David S. Yeager",
+      "raw_affiliation_strings": [
+       "University of Texas at Austin, Austin, TX, USA. dyeager@utexas.edu",
+       "University of Texas at Austin, Austin, TX, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Texas at Austin, Austin, TX, USA. dyeager@utexas.edu",
+        "institution_ids": [
+         "https://openalex.org/I86519309"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Texas at Austin, Austin, TX, USA",
+        "institution_ids": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5026925830",
+       "display_name": "Paul Hanselman",
+       "orcid": "https://orcid.org/0000-0003-1802-1830",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1802-1830"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Paul Hanselman",
+      "raw_affiliation_strings": [
+       "University of California, Irvine, Irvine, CA, USA. paul.hanselman@uci.edu",
+       "University of California, Irvine, Irvine, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of California, Irvine, Irvine, CA, USA. paul.hanselman@uci.edu",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of California, Irvine, Irvine, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5078983867",
+       "display_name": "Gregory M. Walton",
+       "orcid": "https://orcid.org/0000-0002-6194-0472",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6194-0472"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I97018004",
+        "display_name": "Stanford University",
+        "ror": "https://ror.org/00f54p054",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I97018004"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Gregory M. Walton",
+      "raw_affiliation_strings": [
+       "Stanford University, Stanford, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Stanford University, Stanford, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I97018004"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5033884286",
+       "display_name": "Jared S. Murray",
+       "orcid": "https://orcid.org/0000-0003-3328-9413",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3328-9413"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I86519309",
+        "display_name": "The University of Texas at Austin",
+        "ror": "https://ror.org/00hj54h04",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jared S. Murray",
+      "raw_affiliation_strings": [
+       "University of Texas at Austin, Austin, TX, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Texas at Austin, Austin, TX, USA",
+        "institution_ids": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5076457346",
+       "display_name": "Robert L. Crosnoe",
+       "orcid": "https://orcid.org/0000-0001-5861-0555",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5861-0555"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I86519309",
+        "display_name": "The University of Texas at Austin",
+        "ror": "https://ror.org/00hj54h04",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Robert Crosnoe",
+      "raw_affiliation_strings": [
+       "University of Texas at Austin, Austin, TX, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Texas at Austin, Austin, TX, USA",
+        "institution_ids": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5009295291",
+       "display_name": "Chandra L. Muller",
+       "orcid": "https://orcid.org/0000-0002-2216-7034",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2216-7034"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I86519309",
+        "display_name": "The University of Texas at Austin",
+        "ror": "https://ror.org/00hj54h04",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Chandra Muller",
+      "raw_affiliation_strings": [
+       "University of Texas at Austin, Austin, TX, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Texas at Austin, Austin, TX, USA",
+        "institution_ids": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5032003942",
+       "display_name": "Elizabeth Tipton",
+       "orcid": "https://orcid.org/0000-0001-5608-1282",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5608-1282"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I111979921",
+        "display_name": "Northwestern University",
+        "ror": "https://ror.org/000e0be47",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I111979921"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Elizabeth Tipton",
+      "raw_affiliation_strings": [
+       "Northwestern University, Evanston, IL, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Northwestern University, Evanston, IL, USA",
+        "institution_ids": [
+         "https://openalex.org/I111979921"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5076469054",
+       "display_name": "Barbara Schneider",
+       "orcid": "https://orcid.org/0000-0002-3233-166X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3233-166X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I87216513",
+        "display_name": "Michigan State University",
+        "ror": "https://ror.org/05hs6h993",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I87216513"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Barbara Schneider",
+      "raw_affiliation_strings": [
+       "Michigan State University, East Lansing, MI, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Michigan State University, East Lansing, MI, USA",
+        "institution_ids": [
+         "https://openalex.org/I87216513"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5036544798",
+       "display_name": "Chris S. Hulleman",
+       "orcid": "https://orcid.org/0000-0001-8053-7948",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8053-7948"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I51556381",
+        "display_name": "University of Virginia",
+        "ror": "https://ror.org/0153tk833",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I51556381"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Chris S. Hulleman",
+      "raw_affiliation_strings": [
+       "University of Virginia, Charlottesville, VA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Virginia, Charlottesville, VA, USA",
+        "institution_ids": [
+         "https://openalex.org/I51556381"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5084817412",
+       "display_name": "Cintia Hinojosa",
+       "orcid": "https://orcid.org/0000-0002-0280-3742",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0280-3742"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I40347166",
+        "display_name": "University of Chicago",
+        "ror": "https://ror.org/024mw5h28",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I40347166"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Cintia P. Hinojosa",
+      "raw_affiliation_strings": [
+       "University of Chicago, Chicago, IL, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Chicago, Chicago, IL, USA",
+        "institution_ids": [
+         "https://openalex.org/I40347166"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5008504841",
+       "display_name": "David Paunesku",
+       "orcid": "https://orcid.org/0000-0002-2648-1290",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2648-1290"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "David Paunesku",
+      "raw_affiliation_strings": [
+       "Project for Education Research that Scales, San Francisco, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Project for Education Research that Scales, San Francisco, CA, USA",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5005608872",
+       "display_name": "Carissa Romero",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Carissa Romero",
+      "raw_affiliation_strings": [
+       "Paradigm Strategy Inc., San Francisco, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Paradigm Strategy Inc., San Francisco, CA, USA",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": null,
+       "display_name": "Kate Flint",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I61822063",
+        "display_name": "ICF International (United States)",
+        "ror": "https://ror.org/0156f0c06",
+        "country_code": "US",
+        "type": "company",
+        "lineage": [
+         "https://openalex.org/I61822063"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Kate Flint",
+      "raw_affiliation_strings": [
+       "ICF, Fairfax, VA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "ICF, Fairfax, VA, USA",
+        "institution_ids": [
+         "https://openalex.org/I61822063"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5101764743",
+       "display_name": "Alice Roberts",
+       "orcid": "https://orcid.org/0009-0008-7418-0696",
+       "observed_orcids": [
+        "https://orcid.org/0009-0008-7418-0696"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I61822063",
+        "display_name": "ICF International (United States)",
+        "ror": "https://ror.org/0156f0c06",
+        "country_code": "US",
+        "type": "company",
+        "lineage": [
+         "https://openalex.org/I61822063"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Alice Roberts",
+      "raw_affiliation_strings": [
+       "ICF, Fairfax, VA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "ICF, Fairfax, VA, USA",
+        "institution_ids": [
+         "https://openalex.org/I61822063"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5068629549",
+       "display_name": "Jill Trott",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I61822063",
+        "display_name": "ICF International (United States)",
+        "ror": "https://ror.org/0156f0c06",
+        "country_code": "US",
+        "type": "company",
+        "lineage": [
+         "https://openalex.org/I61822063"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jill Trott",
+      "raw_affiliation_strings": [
+       "ICF, Fairfax, VA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "ICF, Fairfax, VA, USA",
+        "institution_ids": [
+         "https://openalex.org/I61822063"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5026091270",
+       "display_name": "Ronaldo Iachan",
+       "orcid": "https://orcid.org/0000-0002-7441-1721",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7441-1721"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I61822063",
+        "display_name": "ICF International (United States)",
+        "ror": "https://ror.org/0156f0c06",
+        "country_code": "US",
+        "type": "company",
+        "lineage": [
+         "https://openalex.org/I61822063"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Ronaldo Iachan",
+      "raw_affiliation_strings": [
+       "ICF, Fairfax, VA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "ICF, Fairfax, VA, USA",
+        "institution_ids": [
+         "https://openalex.org/I61822063"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5053187738",
+       "display_name": "Jenny Buontempo",
+       "orcid": "https://orcid.org/0009-0000-5919-184X",
+       "observed_orcids": [
+        "https://orcid.org/0009-0000-5919-184X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I86519309",
+        "display_name": "The University of Texas at Austin",
+        "ror": "https://ror.org/00hj54h04",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jenny Buontempo",
+      "raw_affiliation_strings": [
+       "University of Texas at Austin, Austin, TX, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Texas at Austin, Austin, TX, USA",
+        "institution_ids": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5006367469",
+       "display_name": "Sophia Yang Hooper",
+       "orcid": "https://orcid.org/0000-0002-9116-7281",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9116-7281"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I86519309",
+        "display_name": "The University of Texas at Austin",
+        "ror": "https://ror.org/00hj54h04",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Sophia Man Yang",
+      "raw_affiliation_strings": [
+       "University of Texas at Austin, Austin, TX, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Texas at Austin, Austin, TX, USA",
+        "institution_ids": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5008199122",
+       "display_name": "Carlos M. Carvalho",
+       "orcid": "https://orcid.org/0009-0007-0866-0678",
+       "observed_orcids": [
+        "https://orcid.org/0009-0007-0866-0678"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I86519309",
+        "display_name": "The University of Texas at Austin",
+        "ror": "https://ror.org/00hj54h04",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Carlos M. Carvalho",
+      "raw_affiliation_strings": [
+       "University of Texas at Austin, Austin, TX, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Texas at Austin, Austin, TX, USA",
+        "institution_ids": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5108809898",
+       "display_name": "P. Richard Hahn",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I55732556",
+        "display_name": "Arizona State University",
+        "ror": "https://ror.org/03efmqc40",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I55732556"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "P. Richard Hahn",
+      "raw_affiliation_strings": [
+       "Arizona State University, Tempe, AZ, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Arizona State University, Tempe, AZ, USA",
+        "institution_ids": [
+         "https://openalex.org/I55732556"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5007924797",
+       "display_name": "Maithreyi Gopalan",
+       "orcid": "https://orcid.org/0000-0002-1013-0672",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1013-0672"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I130769515",
+        "display_name": "Pennsylvania State University",
+        "ror": "https://ror.org/04p491231",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I130769515"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Maithreyi Gopalan",
+      "raw_affiliation_strings": [
+       "The Pennsylvania State University, University Park, PA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "The Pennsylvania State University, University Park, PA, USA",
+        "institution_ids": [
+         "https://openalex.org/I130769515"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5003758502",
+       "display_name": "Pratik C. Mhatre",
+       "orcid": "https://orcid.org/0000-0001-6875-5619",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6875-5619"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I86519309",
+        "display_name": "The University of Texas at Austin",
+        "ror": "https://ror.org/00hj54h04",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Pratik Mhatre",
+      "raw_affiliation_strings": [
+       "University of Texas at Austin, Austin, TX, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Texas at Austin, Austin, TX, USA",
+        "institution_ids": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5017114370",
+       "display_name": "Ronald F. Ferguson",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I136199984",
+        "display_name": "Harvard University",
+        "ror": "https://ror.org/03vek6s52",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I136199984"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Ronald Ferguson",
+      "raw_affiliation_strings": [
+       "Harvard University, Cambridge, MA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Harvard University, Cambridge, MA, USA",
+        "institution_ids": [
+         "https://openalex.org/I136199984"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5034664324",
+       "display_name": "Angela Lee Duckworth",
+       "orcid": "https://orcid.org/0000-0002-2644-3729",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2644-3729"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I79576946",
+        "display_name": "University of Pennsylvania",
+        "ror": "https://ror.org/00b30xv10",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I79576946"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Angela L. Duckworth",
+      "raw_affiliation_strings": [
+       "University of Pennsylvania, Philadelphia, PA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Pennsylvania, Philadelphia, PA, USA",
+        "institution_ids": [
+         "https://openalex.org/I79576946"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5046821941",
+       "display_name": "Carol Sorich Dweck",
+       "orcid": "https://orcid.org/0000-0001-7741-0073",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7741-0073"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I97018004",
+        "display_name": "Stanford University",
+        "ror": "https://ror.org/00f54p054",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I97018004"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Carol S. Dweck",
+      "raw_affiliation_strings": [
+       "Stanford University, Stanford, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Stanford University, Stanford, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I97018004"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1038/s41586-019-1466-y",
+     "doi": "https://doi.org/10.1038/s41586-019-1466-y",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1038/s41586-019-1466-y",
+     "pdf_url": "https://www.nature.com/articles/s41586-019-1466-y.pdf",
+     "source": {
+      "id": "https://openalex.org/S137773608",
+      "display_name": "Nature",
+      "issn_l": "0028-0836",
+      "issn": [
+       "0028-0836",
+       "1476-4687"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-a",
+       "doyens",
+       "erih-plus",
+       "jufo-3",
+       "ki-jl-3",
+       "medline",
+       "norway-2",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319908",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Nature Portfolio",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Nature",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2793065899",
+    "doi": "https://doi.org/10.1080/19345747.2018.1429037",
+    "title": "Reducing Inequality in Academic Success for Incoming College Students: A Randomized Trial of Growth Mindset and Belonging Interventions",
+    "display_name": "Reducing Inequality in Academic Success for Incoming College Students: A Randomized Trial of Growth Mindset and Belonging Interventions",
+    "publication_year": 2018,
+    "cited_by_count": 255,
+    "abstract_inverted_index": {
+     "Light-touch": [
+      0
+     ],
+     "social": [
+      1,
+      87
+     ],
+     "psychological": [
+      2
+     ],
+     "interventions": [
+      3,
+      27,
+      44,
+      149,
+      173
+     ],
+     "have": [
+      4,
+      28,
+      45
+     ],
+     "gained": [
+      5
+     ],
+     "considerable": [
+      6
+     ],
+     "attention": [
+      7
+     ],
+     "for": [
+      8,
+      15,
+      32,
+      110,
+      136,
+      160
+     ],
+     "their": [
+      9
+     ],
+     "potential": [
+      10
+     ],
+     "to": [
+      11,
+      81,
+      156
+     ],
+     "improve": [
+      12
+     ],
+     "academic": [
+      13,
+      158
+     ],
+     "outcomes": [
+      14,
+      159
+     ],
+     "underrepresented": [
+      16,
+      161
+     ],
+     "and/or": [
+      17
+     ],
+     "disadvantaged": [
+      18
+     ],
+     "students": [
+      19,
+      39,
+      71,
+      112
+     ],
+     "in": [
+      20,
+      40,
+      122,
+      174
+     ],
+     "postsecondary": [
+      21
+     ],
+     "education.": [
+      22
+     ],
+     "While": [
+      23
+     ],
+     "findings": [
+      24,
+      145,
+      164
+     ],
+     "from": [
+      25
+     ],
+     "previous": [
+      26
+     ],
+     "demonstrated": [
+      29
+     ],
+     "positive": [
+      30
+     ],
+     "effects": [
+      31
+     ],
+     "racial": [
+      33
+     ],
+     "and": [
+      34,
+      37,
+      128,
+      141
+     ],
+     "ethnic": [
+      35
+     ],
+     "minority": [
+      36
+     ],
+     "first-generation": [
+      38
+     ],
+     "small": [
+      41
+     ],
+     "samples,": [
+      42
+     ],
+     "few": [
+      43
+     ],
+     "been": [
+      46
+     ],
+     "implemented": [
+      47
+     ],
+     "at": [
+      48,
+      72
+     ],
+     "a": [
+      49,
+      73,
+      91,
+      119,
+      152
+     ],
+     "larger": [
+      50
+     ],
+     "scale": [
+      51
+     ],
+     "with": [
+      52
+     ],
+     "more": [
+      53,
+      65
+     ],
+     "heterogeneous": [
+      54,
+      175
+     ],
+     "student": [
+      55
+     ],
+     "populations.": [
+      56
+     ],
+     "To": [
+      57
+     ],
+     "address": [
+      58
+     ],
+     "this": [
+      59,
+      132
+     ],
+     "research": [
+      60
+     ],
+     "gap,": [
+      61
+     ],
+     "7,686": [
+      62
+     ],
+     "students,": [
+      63
+     ],
+     "representing": [
+      64
+     ],
+     "than": [
+      66
+     ],
+     "90%": [
+      67
+     ],
+     "of": [
+      68,
+      169
+     ],
+     "incoming": [
+      69
+     ],
+     "first-year": [
+      70
+     ],
+     "large": [
+      74
+     ],
+     "Midwestern": [
+      75
+     ],
+     "public": [
+      76
+     ],
+     "university,": [
+      77
+     ],
+     "were": [
+      78
+     ],
+     "randomly": [
+      79
+     ],
+     "assigned": [
+      80
+     ],
+     "an": [
+      82
+     ],
+     "online": [
+      83
+     ],
+     "growth": [
+      84,
+      102
+     ],
+     "mindset": [
+      85,
+      103
+     ],
+     "intervention,": [
+      86,
+      89
+     ],
+     "belonging": [
+      88,
+      172
+     ],
+     "or": [
+      90
+     ],
+     "comparison": [
+      92
+     ],
+     "group.": [
+      93
+     ],
+     "Results": [
+      94
+     ],
+     "suggest": [
+      95
+     ],
+     "that": [
+      96,
+      147
+     ],
+     "after": [
+      97
+     ],
+     "the": [
+      98,
+      101,
+      123,
+      167
+     ],
+     "fall": [
+      99
+     ],
+     "semester,": [
+      100
+     ],
+     "intervention": [
+      104
+     ],
+     "significantly": [
+      105
+     ],
+     "improved": [
+      106
+     ],
+     "grade": [
+      107
+     ],
+     "point": [
+      108
+     ],
+     "averages": [
+      109
+     ],
+     "Latino/a": [
+      111,
+      129
+     ],
+     "by": [
+      113
+     ],
+     "about": [
+      114
+     ],
+     ".40": [
+      115
+     ],
+     "points.": [
+      116
+     ],
+     "This": [
+      117
+     ],
+     "represents": [
+      118
+     ],
+     "72%": [
+      120
+     ],
+     "reduction": [
+      121
+     ],
+     "GPA": [
+      124,
+      140
+     ],
+     "gap": [
+      125
+     ],
+     "between": [
+      126
+     ],
+     "White": [
+      127
+     ],
+     "students.": [
+      130,
+      162
+     ],
+     "Further,": [
+      131
+     ],
+     "effect": [
+      133
+     ],
+     "was": [
+      134
+     ],
+     "replicated": [
+      135
+     ],
+     "both": [
+      137
+     ],
+     "spring": [
+      138
+     ],
+     "semester": [
+      139
+     ],
+     "cumulative": [
+      142
+     ],
+     "GPA.": [
+      143
+     ],
+     "These": [
+      144
+     ],
+     "indicate": [
+      146
+     ],
+     "light-touch": [
+      148
+     ],
+     "may": [
+      150
+     ],
+     "be": [
+      151
+     ],
+     "minimally": [
+      153
+     ],
+     "invasive": [
+      154
+     ],
+     "approach": [
+      155
+     ],
+     "improving": [
+      157
+     ],
+     "Our": [
+      163
+     ],
+     "also": [
+      165
+     ],
+     "highlight": [
+      166
+     ],
+     "complexity": [
+      168
+     ],
+     "implementing": [
+      170
+     ],
+     "customized": [
+      171
+     ],
+     "contexts.": [
+      176
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": null,
+       "display_name": "Michael Broda",
+       "orcid": "https://orcid.org/0000-0002-0019-5528",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0019-5528"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I184840846",
+        "display_name": "Virginia Commonwealth University",
+        "ror": "https://ror.org/02nkdxk79",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I184840846"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Michael Broda",
+      "raw_affiliation_strings": [
+       "Virginia Commonwealth University, Richmond, Virginia, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-0019-5528",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Virginia Commonwealth University, Richmond, Virginia, USA",
+        "institution_ids": [
+         "https://openalex.org/I184840846"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5055650851",
+       "display_name": "John T. Yun",
+       "orcid": "https://orcid.org/0000-0003-1553-8762",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1553-8762"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I87216513",
+        "display_name": "Michigan State University",
+        "ror": "https://ror.org/05hs6h993",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I87216513"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "John Yun",
+      "raw_affiliation_strings": [
+       "Michigan State University, East Lansing, Michigan, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Michigan State University, East Lansing, Michigan, USA",
+        "institution_ids": [
+         "https://openalex.org/I87216513"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5076469054",
+       "display_name": "Barbara Schneider",
+       "orcid": "https://orcid.org/0000-0002-3233-166X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3233-166X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I87216513",
+        "display_name": "Michigan State University",
+        "ror": "https://ror.org/05hs6h993",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I87216513"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Barbara Schneider",
+      "raw_affiliation_strings": [
+       "Michigan State University, East Lansing, Michigan, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Michigan State University, East Lansing, Michigan, USA",
+        "institution_ids": [
+         "https://openalex.org/I87216513"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5008876848",
+       "display_name": "David Scott Yeager",
+       "orcid": "https://orcid.org/0000-0002-8522-9503",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8522-9503"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I86519309",
+        "display_name": "The University of Texas at Austin",
+        "ror": "https://ror.org/00hj54h04",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "David S. Yeager",
+      "raw_affiliation_strings": [
+       "University of Texas at Austin, Austin, Texas"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Texas at Austin, Austin, Texas",
+        "institution_ids": [
+         "https://openalex.org/I86519309"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5078983867",
+       "display_name": "Gregory M. Walton",
+       "orcid": "https://orcid.org/0000-0002-6194-0472",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6194-0472"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I97018004",
+        "display_name": "Stanford University",
+        "ror": "https://ror.org/00f54p054",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I97018004"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Gregory M. Walton",
+      "raw_affiliation_strings": [
+       "Stanford University, Stanford, California, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Stanford University, Stanford, California, USA",
+        "institution_ids": [
+         "https://openalex.org/I97018004"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5005486901",
+       "display_name": "Matthew A. Diemer",
+       "orcid": "https://orcid.org/0000-0002-4835-3716",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4835-3716"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I27837315",
+        "display_name": "University of Michigan",
+        "ror": "https://ror.org/00jmfr291",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I27837315"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Matthew Diemer",
+      "raw_affiliation_strings": [
+       "University of Michigan, Ann Arbor, Michigan, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Michigan, Ann Arbor, Michigan, USA",
+        "institution_ids": [
+         "https://openalex.org/I27837315"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1080/19345747.2018.1429037",
+     "doi": "https://doi.org/10.1080/19345747.2018.1429037",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1080/19345747.2018.1429037",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S163858705",
+      "display_name": "Journal of Research on Educational Effectiveness",
+      "issn_l": "1934-5747",
+      "issn": [
+       "1934-5747",
+       "1934-5739"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "jufo-2",
+       "ki-jl-2",
+       "norway-2",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320547",
+      "host_organization_name": "Taylor & Francis",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320547",
+       "https://openalex.org/P4310320449"
+      ],
+      "host_organization_lineage_names": [
+       "Taylor & Francis",
+       "Informa"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Research on Educational Effectiveness",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

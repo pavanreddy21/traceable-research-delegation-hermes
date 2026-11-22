@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20244-9844-70cd-8701-38eab17f38f9",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795334379,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"I will try a different phrasing emphasizing handwriting and recall to see if the index responds.\", \"action\": \"search_papers\", \"args\": {\"query\": \"handwriting notes laptop notes recall experiment\"}}",
+    "reasoning_content": "The search tool keeps returning empty results. Maybe try a different phrasing like \"handwriting notes laptop notes recall\". Let me try one or two more, then finish with empty list if nothing.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 920,
+  "completion_tokens": 85,
+  "total_tokens": 1005,
+  "prompt_tokens_details": {
+   "cached_tokens": 768
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 39
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.22
+}

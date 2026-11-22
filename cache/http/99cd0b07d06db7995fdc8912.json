@@ -1,0 +1,1311 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 19900,
+   "db_response_time_ms": 139,
+   "page": 1,
+   "per_page": 2,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (retrieval practice mathematical word-problem solving) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (retrieval practice mathematical word-problem solving) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "retrieval practice mathematical word-problem solving",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:retrieval practice mathematical word-problem solving,has_abstract:true,language:en,type:article|review&per_page=2",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4321369342",
+    "doi": "https://doi.org/10.3389/fpsyg.2023.1093653",
+    "title": "Retrieval practice may not benefit mathematical word-problem solving",
+    "display_name": "Retrieval practice may not benefit mathematical word-problem solving",
+    "publication_year": 2023,
+    "cited_by_count": 6,
+    "abstract_inverted_index": {
+     "The": [
+      0
+     ],
+     "retrieval": [
+      1,
+      46,
+      69,
+      81,
+      107,
+      128,
+      165,
+      185,
+      208,
+      222
+     ],
+     "practice": [
+      2,
+      47,
+      82,
+      108,
+      129,
+      166,
+      186,
+      209,
+      223
+     ],
+     "effect": [
+      3,
+      79,
+      105,
+      130,
+      224
+     ],
+     "refers": [
+      4
+     ],
+     "to": [
+      5,
+      27,
+      102,
+      122
+     ],
+     "the": [
+      6,
+      18,
+      68,
+      72,
+      78,
+      95,
+      104,
+      124,
+      127,
+      133,
+      152,
+      164,
+      176,
+      181,
+      184,
+      190,
+      195,
+      200
+     ],
+     "fact": [
+      7
+     ],
+     "that": [
+      8,
+      45
+     ],
+     "one": [
+      9
+     ],
+     "or": [
+      10,
+      171
+     ],
+     "even": [
+      11
+     ],
+     "multiple": [
+      12
+     ],
+     "retrievals": [
+      13
+     ],
+     "of": [
+      14,
+      80,
+      97,
+      106,
+      126,
+      135,
+      207
+     ],
+     "memory": [
+      15,
+      30
+     ],
+     "content": [
+      16
+     ],
+     "during": [
+      17,
+      212
+     ],
+     "same": [
+      19
+     ],
+     "period": [
+      20
+     ],
+     "are": [
+      21
+     ],
+     "more": [
+      22
+     ],
+     "effective": [
+      23,
+      34
+     ],
+     "than": [
+      24
+     ],
+     "repeated": [
+      25,
+      177,
+      191
+     ],
+     "studying": [
+      26
+     ],
+     "promote": [
+      28,
+      158
+     ],
+     "future": [
+      29
+     ],
+     "retention.": [
+      31
+     ],
+     "It": [
+      32
+     ],
+     "is": [
+      33
+     ],
+     "for": [
+      35,
+      163
+     ],
+     "numerous": [
+      36
+     ],
+     "declarative": [
+      37
+     ],
+     "knowledge": [
+      38
+     ],
+     "learning": [
+      39,
+      65
+     ],
+     "materials.": [
+      40
+     ],
+     "However,": [
+      41,
+      198
+     ],
+     "studies": [
+      42
+     ],
+     "have": [
+      43
+     ],
+     "demonstrated": [
+      44
+     ],
+     "does": [
+      48
+     ],
+     "not": [
+      49,
+      157
+     ],
+     "benefit": [
+      50
+     ],
+     "problem-solving": [
+      51,
+      85,
+      110,
+      141,
+      227
+     ],
+     "skill": [
+      52
+     ],
+     "learning.": [
+      53,
+      143
+     ],
+     "This": [
+      54
+     ],
+     "study": [
+      55,
+      178,
+      192
+     ],
+     "used": [
+      56
+     ],
+     "worked": [
+      57,
+      230
+     ],
+     "examples": [
+      58,
+      150
+     ],
+     "from": [
+      59,
+      229
+     ],
+     "math": [
+      60
+     ],
+     "word": [
+      61
+     ],
+     "problem": [
+      62
+     ],
+     "tasks": [
+      63
+     ],
+     "as": [
+      64,
+      71,
+      99,
+      168
+     ],
+     "materials,": [
+      66
+     ],
+     "considering": [
+      67
+     ],
+     "difficulty": [
+      70,
+      96,
+      115,
+      137
+     ],
+     "main": [
+      73
+     ],
+     "factor.": [
+      74
+     ],
+     "Experiment": [
+      75,
+      92,
+      117
+     ],
+     "1": [
+      76
+     ],
+     "explored": [
+      77
+     ],
+     "on": [
+      83,
+      109,
+      140,
+      180,
+      194,
+      225
+     ],
+     "acquiring": [
+      84,
+      226
+     ],
+     "skills": [
+      86,
+      111,
+      142,
+      228
+     ],
+     "under": [
+      87,
+      112
+     ],
+     "different": [
+      88,
+      113
+     ],
+     "initial": [
+      89
+     ],
+     "testing": [
+      90
+     ],
+     "difficulties.": [
+      91
+     ],
+     "2": [
+      93
+     ],
+     "manipulated": [
+      94
+     ],
+     "materials": [
+      98
+     ],
+     "a": [
+      100
+     ],
+     "variable": [
+      101
+     ],
+     "ascertain": [
+      103
+     ],
+     "material": [
+      114
+     ],
+     "levels.": [
+      116
+     ],
+     "3": [
+      118
+     ],
+     "introduced": [
+      119
+     ],
+     "feedback": [
+      120,
+      138
+     ],
+     "variables": [
+      121
+     ],
+     "facilitate": [
+      123
+     ],
+     "generation": [
+      125
+     ],
+     "and": [
+      131
+     ],
+     "examined": [
+      132
+     ],
+     "effects": [
+      134
+     ],
+     "various": [
+      136
+     ],
+     "levels": [
+      139
+     ],
+     "Results": [
+      144
+     ],
+     "showed": [
+      145
+     ],
+     "that,": [
+      146
+     ],
+     "compared": [
+      147
+     ],
+     "with": [
+      148
+     ],
+     "restudying": [
+      149
+     ],
+     "(SSSS),": [
+      151
+     ],
+     "example-problem": [
+      153
+     ],
+     "pairs": [
+      154
+     ],
+     "(STST)": [
+      155
+     ],
+     "did": [
+      156
+     ],
+     "delayed": [
+      159,
+      196,
+      215
+     ],
+     "test": [
+      160
+     ],
+     "performance.": [
+      161
+     ],
+     "As": [
+      162
+     ],
+     "effect,": [
+      167
+     ],
+     "no": [
+      169,
+      205,
+      221
+     ],
+     "differences": [
+      170
+     ],
+     "advantages": [
+      172
+     ],
+     "were": [
+      173
+     ],
+     "found": [
+      174,
+      204
+     ],
+     "in": [
+      175
+     ],
+     "group": [
+      179,
+      187,
+      193
+     ],
+     "immediate": [
+      182
+     ],
+     "test,": [
+      183
+     ],
+     "generally": [
+      188
+     ],
+     "outperformed": [
+      189
+     ],
+     "test.": [
+      197,
+      216
+     ],
+     "across": [
+      199
+     ],
+     "three": [
+      201
+     ],
+     "experiments,": [
+      202
+     ],
+     "we": [
+      203
+     ],
+     "evidence": [
+      206
+     ],
+     "affecting": [
+      210
+     ],
+     "results": [
+      211
+     ],
+     "an": [
+      213
+     ],
+     "enhanced": [
+      214
+     ],
+     "Therefore,": [
+      217
+     ],
+     "there": [
+      218
+     ],
+     "may": [
+      219
+     ],
+     "be": [
+      220
+     ],
+     "examples.": [
+      231
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5083616293",
+       "display_name": "Xiaoxue Huang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I9356336",
+        "display_name": "Minnan Normal University",
+        "ror": "https://ror.org/02vj1vm13",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I9356336"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Xiaoxue Huang",
+      "raw_affiliation_strings": [
+       "Fujian Key Laboratory of Applied Cognition and Personality, School of Educational Science, Minnan Normal University, Zhangzhou, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Fujian Key Laboratory of Applied Cognition and Personality, School of Educational Science, Minnan Normal University, Zhangzhou, China",
+        "institution_ids": [
+         "https://openalex.org/I9356336"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5111048063",
+       "display_name": "Sining Zheng",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I111753288",
+        "display_name": "Fujian Normal University",
+        "ror": "https://ror.org/020azk594",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I111753288"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Sining Zheng",
+      "raw_affiliation_strings": [
+       "School of Psychology, Fujian Normal University, Fuzhou, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Psychology, Fujian Normal University, Fuzhou, China",
+        "institution_ids": [
+         "https://openalex.org/I111753288"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": null,
+       "display_name": "Zhiyun Yu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I61057504",
+        "display_name": "Fujian Agriculture and Forestry University",
+        "ror": "https://ror.org/04kx2sy84",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I61057504"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Zhiyun Yu",
+      "raw_affiliation_strings": [
+       "Institute of Marxism, Fujian Agriculture and Forestry University, Fuzhou, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute of Marxism, Fujian Agriculture and Forestry University, Fuzhou, China",
+        "institution_ids": [
+         "https://openalex.org/I61057504"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5079882082",
+       "display_name": "Shunsen Chen",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I9356336",
+        "display_name": "Minnan Normal University",
+        "ror": "https://ror.org/02vj1vm13",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I9356336"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Shunsen Chen",
+      "raw_affiliation_strings": [
+       "Fujian Key Laboratory of Applied Cognition and Personality, School of Educational Science, Minnan Normal University, Zhangzhou, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Fujian Key Laboratory of Applied Cognition and Personality, School of Educational Science, Minnan Normal University, Zhangzhou, China",
+        "institution_ids": [
+         "https://openalex.org/I9356336"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2023.1093653",
+     "doi": "https://doi.org/10.3389/fpsyg.2023.1093653",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2023.1093653",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W1564455472",
+    "doi": "https://doi.org/10.3389/fpsyg.2014.00286",
+    "title": "Retrieval practice enhances new learning: the forward effect of testing",
+    "display_name": "Retrieval practice enhances new learning: the forward effect of testing",
+    "publication_year": 2014,
+    "cited_by_count": 267,
+    "abstract_inverted_index": {
+     "In": [
+      0,
+      137
+     ],
+     "the": [
+      1,
+      16,
+      31,
+      49,
+      53,
+      61,
+      117,
+      139,
+      143,
+      171
+     ],
+     "last": [
+      2
+     ],
+     "couple": [
+      3
+     ],
+     "of": [
+      4,
+      18,
+      34,
+      48,
+      81,
+      88,
+      95,
+      105,
+      111,
+      170,
+      174
+     ],
+     "years,": [
+      5
+     ],
+     "there": [
+      6,
+      75
+     ],
+     "has": [
+      7,
+      128
+     ],
+     "been": [
+      8,
+      129
+     ],
+     "a": [
+      9,
+      78,
+      103,
+      120
+     ],
+     "dramatic": [
+      10
+     ],
+     "increase": [
+      11
+     ],
+     "in": [
+      12,
+      60,
+      124,
+      155,
+      161
+     ],
+     "laboratory": [
+      13,
+      70,
+      125
+     ],
+     "research": [
+      14,
+      71,
+      106,
+      181
+     ],
+     "examining": [
+      15
+     ],
+     "benefits": [
+      17
+     ],
+     "recall": [
+      19,
+      86
+     ],
+     "testing": [
+      20,
+      87,
+      175
+     ],
+     "on": [
+      21,
+      30,
+      41,
+      107
+     ],
+     "long-term": [
+      22
+     ],
+     "learning": [
+      23,
+      94,
+      154
+     ],
+     "and": [
+      24,
+      135,
+      150,
+      157,
+      176
+     ],
+     "retention.": [
+      25
+     ],
+     "This": [
+      26
+     ],
+     "work": [
+      27
+     ],
+     "was": [
+      28
+     ],
+     "largely": [
+      29
+     ],
+     "backward": [
+      32
+     ],
+     "effect": [
+      33,
+      80,
+      110,
+      118,
+      144,
+      173
+     ],
+     "testing,": [
+      35,
+      82
+     ],
+     "which": [
+      36,
+      83
+     ],
+     "shows": [
+      37,
+      84,
+      115
+     ],
+     "that": [
+      38,
+      74,
+      85,
+      116,
+      127,
+      142
+     ],
+     "retrieval": [
+      39
+     ],
+     "practice": [
+      40
+     ],
+     "previously": [
+      42,
+      89
+     ],
+     "studied": [
+      43,
+      90
+     ],
+     "information,": [
+      44
+     ],
+     "compared": [
+      45
+     ],
+     "to": [
+      46,
+      57,
+      148
+     ],
+     "restudy": [
+      47
+     ],
+     "same": [
+      50
+     ],
+     "material,": [
+      51
+     ],
+     "renders": [
+      52
+     ],
+     "information": [
+      54,
+      91,
+      134
+     ],
+     "more": [
+      55,
+      68
+     ],
+     "likely": [
+      56
+     ],
+     "be": [
+      58,
+      146
+     ],
+     "remembered": [
+      59
+     ],
+     "future.": [
+      62
+     ],
+     "Going": [
+      63
+     ],
+     "beyond": [
+      64
+     ],
+     "this": [
+      65,
+      108
+     ],
+     "prominent": [
+      66
+     ],
+     "work,": [
+      67
+     ],
+     "recent": [
+      69
+     ],
+     "provided": [
+      72
+     ],
+     "evidence": [
+      73
+     ],
+     "is": [
+      76,
+      119
+     ],
+     "also": [
+      77
+     ],
+     "forward": [
+      79,
+      109,
+      172
+     ],
+     "can": [
+      92
+     ],
+     "enhance": [
+      93
+     ],
+     "subsequently": [
+      96
+     ],
+     "presented": [
+      97
+     ],
+     "new": [
+      98
+     ],
+     "information.": [
+      99
+     ],
+     "Here,": [
+      100
+     ],
+     "we": [
+      101
+     ],
+     "provide": [
+      102
+     ],
+     "review": [
+      104,
+      114,
+      140,
+      165
+     ],
+     "testing.": [
+      112
+     ],
+     "The": [
+      113,
+      164
+     ],
+     "well": [
+      121
+     ],
+     "replicated": [
+      122
+     ],
+     "phenomenon": [
+      123
+     ],
+     "studies": [
+      126
+     ],
+     "observed": [
+      130
+     ],
+     "for": [
+      131,
+      179
+     ],
+     "both": [
+      132
+     ],
+     "veridical": [
+      133
+     ],
+     "misinformation.": [
+      136
+     ],
+     "particular,": [
+      138
+     ],
+     "demonstrates": [
+      141
+     ],
+     "may": [
+      145
+     ],
+     "applied": [
+      147
+     ],
+     "educational": [
+      149
+     ],
+     "clinical": [
+      151,
+      162
+     ],
+     "settings,": [
+      152
+     ],
+     "enhancing": [
+      153
+     ],
+     "students": [
+      156
+     ],
+     "reducing": [
+      158
+     ],
+     "memory": [
+      159
+     ],
+     "deficits": [
+      160
+     ],
+     "populations.": [
+      163
+     ],
+     "discusses": [
+      166
+     ],
+     "current": [
+      167
+     ],
+     "theoretical": [
+      168
+     ],
+     "explanations": [
+      169
+     ],
+     "provides": [
+      177
+     ],
+     "suggestions": [
+      178
+     ],
+     "future": [
+      180
+     ],
+     "directions.": [
+      182
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5015750454",
+       "display_name": "Bernhard Past\u00f6tter",
+       "orcid": "https://orcid.org/0000-0001-7364-4702",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7364-4702"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I60668342",
+        "display_name": "University of Regensburg",
+        "ror": "https://ror.org/01eezs655",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I60668342"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Bernhard Past\u00f6tter",
+      "raw_affiliation_strings": [
+       "Department of Experimental Psychology, Regensburg University Regensburg, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Experimental Psychology, Regensburg University Regensburg, Germany",
+        "institution_ids": [
+         "https://openalex.org/I60668342"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5025406618",
+       "display_name": "Karl\u2010Heinz T. B\u00e4uml",
+       "orcid": "https://orcid.org/0000-0002-4966-9288",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4966-9288"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I60668342",
+        "display_name": "University of Regensburg",
+        "ror": "https://ror.org/01eezs655",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I60668342"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Karl-Heinz T. B\u00e4uml",
+      "raw_affiliation_strings": [
+       "Department of Experimental Psychology, Regensburg University Regensburg, Germany",
+       "Regensburg University, Regensburg, Germany,"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Experimental Psychology, Regensburg University Regensburg, Germany",
+        "institution_ids": [
+         "https://openalex.org/I60668342"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Regensburg University, Regensburg, Germany,",
+        "institution_ids": [
+         "https://openalex.org/I60668342"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2014.00286",
+     "doi": "https://doi.org/10.3389/fpsyg.2014.00286",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2014.00286",
+     "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2014.00286/pdf",
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

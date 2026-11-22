@@ -1,0 +1,3494 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 3304,
+   "db_response_time_ms": 150,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (testing effect retention interval meta-analysis moderators delay) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (testing effect retention interval meta-analysis moderators delay) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "testing effect retention interval meta-analysis moderators delay",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:testing effect retention interval meta-analysis moderators delay,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4319440682",
+    "doi": "https://doi.org/10.3390/su15042940",
+    "title": "A Meta-Analysis and Systematic Review of the Effect of Chatbot Technology Use in Sustainable Education",
+    "display_name": "A Meta-Analysis and Systematic Review of the Effect of Chatbot Technology Use in Sustainable Education",
+    "publication_year": 2023,
+    "cited_by_count": 483,
+    "abstract_inverted_index": {
+     "The": [
+      0,
+      38,
+      79
+     ],
+     "development": [
+      1
+     ],
+     "of": [
+      2,
+      12,
+      23,
+      34,
+      40,
+      48,
+      94,
+      107
+     ],
+     "artificial": [
+      3
+     ],
+     "intelligence": [
+      4
+     ],
+     "in": [
+      5,
+      15,
+      36,
+      126
+     ],
+     "recent": [
+      6
+     ],
+     "years": [
+      7
+     ],
+     "has": [
+      8
+     ],
+     "promoted": [
+      9
+     ],
+     "the": [
+      10,
+      21,
+      32,
+      41,
+      46,
+      60
+     ],
+     "use": [
+      11
+     ],
+     "chatbot": [
+      13,
+      83,
+      100,
+      137
+     ],
+     "technology": [
+      14,
+      84
+     ],
+     "sustainable": [
+      16
+     ],
+     "education.": [
+      17,
+      37
+     ],
+     "Many": [
+      18
+     ],
+     "studies": [
+      19,
+      30,
+      70
+     ],
+     "examined": [
+      20
+     ],
+     "effect": [
+      22,
+      47,
+      88
+     ],
+     "chatbots": [
+      24,
+      35,
+      110
+     ],
+     "on": [
+      25,
+      51,
+      89
+     ],
+     "learning": [
+      26,
+      50,
+      91,
+      103,
+      108,
+      116,
+      121,
+      129,
+      142
+     ],
+     "outcomes.": [
+      27
+     ],
+     "However,": [
+      28
+     ],
+     "scant": [
+      29
+     ],
+     "summarized": [
+      31
+     ],
+     "effectiveness": [
+      33
+     ],
+     "aim": [
+      39
+     ],
+     "study": [
+      42
+     ],
+     "is": [
+      43
+     ],
+     "to": [
+      44
+     ],
+     "investigate": [
+      45
+     ],
+     "chatbot-assisted": [
+      49
+     ],
+     "various": [
+      52
+     ],
+     "components": [
+      53
+     ],
+     "and": [
+      54,
+      77,
+      102,
+      120,
+      131
+     ],
+     "how": [
+      55
+     ],
+     "different": [
+      56,
+      141
+     ],
+     "moderator": [
+      57,
+      95
+     ],
+     "variables": [
+      58
+     ],
+     "influenced": [
+      59
+     ],
+     "effectiveness.": [
+      61
+     ],
+     "This": [
+      62
+     ],
+     "study,": [
+      63
+     ],
+     "through": [
+      64
+     ],
+     "a": [
+      65,
+      86
+     ],
+     "meta-analysis,": [
+      66
+     ],
+     "reviewed": [
+      67
+     ],
+     "32": [
+      68
+     ],
+     "empirical": [
+      69
+     ],
+     "with": [
+      71
+     ],
+     "2201": [
+      72
+     ],
+     "participants": [
+      73
+     ],
+     "published": [
+      74
+     ],
+     "between": [
+      75
+     ],
+     "2010": [
+      76
+     ],
+     "2022.": [
+      78
+     ],
+     "results": [
+      80
+     ],
+     "showed": [
+      81
+     ],
+     "that": [
+      82
+     ],
+     "exerted": [
+      85
+     ],
+     "medium-to-high": [
+      87
+     ],
+     "overall": [
+      90
+     ],
+     "outcomes": [
+      92
+     ],
+     "regardless": [
+      93
+     ],
+     "variables,": [
+      96
+     ],
+     "i.e.,": [
+      97
+     ],
+     "intervention": [
+      98
+     ],
+     "duration,": [
+      99
+     ],
+     "roles,": [
+      101
+     ],
+     "content.": [
+      104
+     ],
+     "In": [
+      105
+     ],
+     "terms": [
+      106
+     ],
+     "components,": [
+      109
+     ],
+     "could": [
+      111,
+      135
+     ],
+     "significantly": [
+      112
+     ],
+     "improve": [
+      113
+     ],
+     "explicit": [
+      114
+     ],
+     "reasoning,": [
+      115
+     ],
+     "achievement,": [
+      117
+     ],
+     "knowledge": [
+      118
+     ],
+     "retention,": [
+      119
+     ],
+     "interest": [
+      122
+     ],
+     "despite": [
+      123
+     ],
+     "negative": [
+      124
+     ],
+     "findings": [
+      125
+     ],
+     "critical": [
+      127
+     ],
+     "thinking,": [
+      128
+     ],
+     "engagement,": [
+      130
+     ],
+     "motivation.": [
+      132
+     ],
+     "Future": [
+      133
+     ],
+     "research": [
+      134,
+      138
+     ],
+     "expand": [
+      136
+     ],
+     "by": [
+      139
+     ],
+     "including": [
+      140
+     ],
+     "components.": [
+      143
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5008193293",
+       "display_name": "Xinjie Deng",
+       "orcid": "https://orcid.org/0000-0002-8901-3080",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8901-3080"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I115212828",
+        "display_name": "Beijing Language and Culture University",
+        "ror": "https://ror.org/03te2zs36",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I115212828"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/software",
+        "display_name": "Software"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/visualization",
+        "display_name": "Visualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       }
+      ],
+      "raw_author_name": "Xinjie Deng",
+      "raw_affiliation_strings": [
+       "Faculty of Foreign Studies, Beijing Language and Culture University, Beijing 100083, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-8901-3080",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Foreign Studies, Beijing Language and Culture University, Beijing 100083, China",
+        "institution_ids": [
+         "https://openalex.org/I115212828"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5078693556",
+       "display_name": "Zhonggen Yu",
+       "orcid": "https://orcid.org/0000-0002-3873-980X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3873-980X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I115212828",
+        "display_name": "Beijing Language and Culture University",
+        "ror": "https://ror.org/03te2zs36",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I115212828"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/project-administration",
+        "display_name": "Project administration"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/software",
+        "display_name": "Software"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Zhonggen Yu",
+      "raw_affiliation_strings": [
+       "Faculty of Foreign Studies, Beijing Language and Culture University, Beijing 100083, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-3873-980X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Foreign Studies, Beijing Language and Culture University, Beijing 100083, China",
+        "institution_ids": [
+         "https://openalex.org/I115212828"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3390/su15042940",
+     "doi": "https://doi.org/10.3390/su15042940",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3390/su15042940",
+     "pdf_url": "https://www.mdpi.com/2071-1050/15/4/2940/pdf?version=1676433939",
+     "source": {
+      "id": "https://openalex.org/S10134376",
+      "display_name": "Sustainability",
+      "issn_l": "2071-1050",
+      "issn": [
+       "2071-1050"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310310987",
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310310987"
+      ],
+      "host_organization_lineage_names": [
+       "Multidisciplinary Digital Publishing Institute"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Sustainability",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4388440497",
+    "doi": "https://doi.org/10.1016/j.edurev.2023.100564",
+    "title": "The instructor presence effect and its moderators in instructional video: A series of meta-analyses",
+    "display_name": "The instructor presence effect and its moderators in instructional video: A series of meta-analyses",
+    "publication_year": 2023,
+    "cited_by_count": 76,
+    "abstract_inverted_index": {
+     "Researchers": [
+      0
+     ],
+     "disagree": [
+      1
+     ],
+     "on": [
+      2,
+      98,
+      137,
+      144,
+      170
+     ],
+     "the": [
+      3,
+      55,
+      90,
+      192,
+      198,
+      201
+     ],
+     "extent": [
+      4
+     ],
+     "to": [
+      5,
+      31,
+      88
+     ],
+     "which": [
+      6,
+      116
+     ],
+     "social": [
+      7,
+      33,
+      43,
+      65,
+      101,
+      153
+     ],
+     "cues": [
+      8,
+      66
+     ],
+     "in": [
+      9,
+      27,
+      38,
+      60,
+      95
+     ],
+     "instructional": [
+      10,
+      28,
+      96,
+      193
+     ],
+     "videos": [
+      11,
+      29,
+      97
+     ],
+     "influence": [
+      12
+     ],
+     "learning": [
+      13,
+      51,
+      80
+     ],
+     "and": [
+      14,
+      17,
+      35,
+      72,
+      107,
+      121,
+      156
+     ],
+     "learning-relevant": [
+      15
+     ],
+     "outcomes": [
+      16
+     ],
+     "processes.": [
+      18
+     ],
+     "The": [
+      19,
+      111
+     ],
+     "instructor": [
+      20,
+      93,
+      136,
+      149,
+      165
+     ],
+     "presence": [
+      21,
+      34,
+      94
+     ],
+     "effect": [
+      22,
+      131,
+      143
+     ],
+     "states": [
+      23
+     ],
+     "that": [
+      24,
+      162
+     ],
+     "visible": [
+      25,
+      148,
+      164
+     ],
+     "instructors": [
+      26
+     ],
+     "lead": [
+      30
+     ],
+     "increased": [
+      32
+     ],
+     "higher": [
+      36
+     ],
+     "scores": [
+      37
+     ],
+     "subjective": [
+      39,
+      177
+     ],
+     "ratings": [
+      40
+     ],
+     "like": [
+      41
+     ],
+     "motivation,": [
+      42,
+      103
+     ],
+     "presence,": [
+      44,
+      102,
+      154
+     ],
+     "or": [
+      45
+     ],
+     "affect,": [
+      46,
+      106
+     ],
+     "but": [
+      47,
+      75,
+      140,
+      174
+     ],
+     "do": [
+      48
+     ],
+     "not": [
+      49,
+      67
+     ],
+     "improve": [
+      50
+     ],
+     "outcomes.": [
+      52,
+      81
+     ],
+     "In": [
+      53
+     ],
+     "contrast,": [
+      54
+     ],
+     "Cognitive-Affective-Social": [
+      56
+     ],
+     "Theory": [
+      57
+     ],
+     "of": [
+      58,
+      86,
+      92,
+      132,
+      179,
+      200
+     ],
+     "Learning": [
+      59
+     ],
+     "digital": [
+      61
+     ],
+     "Environments": [
+      62
+     ],
+     "outlines": [
+      63
+     ],
+     "how": [
+      64
+     ],
+     "only": [
+      68
+     ],
+     "enhance": [
+      69
+     ],
+     "social,": [
+      70
+     ],
+     "emotional,": [
+      71
+     ],
+     "motivational": [
+      73,
+      157
+     ],
+     "processes,": [
+      74
+     ],
+     "they": [
+      76
+     ],
+     "also": [
+      77,
+      150,
+      175
+     ],
+     "potentially": [
+      78
+     ],
+     "promote": [
+      79
+     ],
+     "We": [
+      82
+     ],
+     "conducted": [
+      83
+     ],
+     "a": [
+      84,
+      126,
+      134,
+      163
+     ],
+     "series": [
+      85
+     ],
+     "meta-analyses": [
+      87,
+      112
+     ],
+     "explore": [
+      89
+     ],
+     "effects": [
+      91,
+      185
+     ],
+     "retention,": [
+      99
+     ],
+     "transfer,": [
+      100
+     ],
+     "cognitive": [
+      104,
+      181
+     ],
+     "load,": [
+      105
+     ],
+     "visual": [
+      108,
+      135,
+      172
+     ],
+     "dwell": [
+      109,
+      168
+     ],
+     "time.": [
+      110
+     ],
+     "include": [
+      113
+     ],
+     "35": [
+      114
+     ],
+     "studies,": [
+      115
+     ],
+     "contained": [
+      117
+     ],
+     "46": [
+      118
+     ],
+     "pair-wise": [
+      119
+     ],
+     "comparisons": [
+      120
+     ],
+     "6339": [
+      122
+     ],
+     "participants.": [
+      123
+     ],
+     "Results": [
+      124
+     ],
+     "revealed": [
+      125
+     ],
+     "small,": [
+      127
+     ],
+     "statistically": [
+      128
+     ],
+     "significant": [
+      129,
+      142
+     ],
+     "positive": [
+      130
+     ],
+     "including": [
+      133
+     ],
+     "retention": [
+      138
+     ],
+     "outcomes,": [
+      139
+     ],
+     "no": [
+      141
+     ],
+     "transfer": [
+      145
+     ],
+     "performance.": [
+      146
+     ],
+     "A": [
+      147
+     ],
+     "significantly": [
+      151,
+      166
+     ],
+     "enhanced": [
+      152
+     ],
+     "affective,": [
+      155
+     ],
+     "ratings.": [
+      158
+     ],
+     "Furthermore,": [
+      159
+     ],
+     "we": [
+      160
+     ],
+     "found": [
+      161,
+      188
+     ],
+     "reduced": [
+      167,
+      176
+     ],
+     "time": [
+      169
+     ],
+     "relevant": [
+      171
+     ],
+     "material": [
+      173
+     ],
+     "perception": [
+      178
+     ],
+     "extraneous": [
+      180
+     ],
+     "load.": [
+      182
+     ],
+     "Significant": [
+      183
+     ],
+     "moderator": [
+      184
+     ],
+     "could": [
+      186
+     ],
+     "be": [
+      187
+     ],
+     "regarding": [
+      189
+     ],
+     "prior": [
+      190
+     ],
+     "knowledge,": [
+      191
+     ],
+     "domain": [
+      194
+     ],
+     "as": [
+      195,
+      197
+     ],
+     "well": [
+      196
+     ],
+     "size": [
+      199
+     ],
+     "instructor.": [
+      202
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5000935438",
+       "display_name": "Maik Beege",
+       "orcid": "https://orcid.org/0000-0001-5335-3174",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5335-3174"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210122148",
+        "display_name": "University of Education Freiburg",
+        "ror": "https://ror.org/02rtsfd15",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210122148"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Maik Beege",
+      "raw_affiliation_strings": [
+       "Digital Media in Education, Department of Psychology, University of Education, Freiburg, Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-5335-3174",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Digital Media in Education, Department of Psychology, University of Education, Freiburg, Germany",
+        "institution_ids": [
+         "https://openalex.org/I4210122148"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5014375110",
+       "display_name": "Noah L. Schroeder",
+       "orcid": "https://orcid.org/0000-0002-3281-2594",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3281-2594"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I19648265",
+        "display_name": "Wright State University",
+        "ror": "https://ror.org/04qk6pt94",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I19648265"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Noah L. Schroeder",
+      "raw_affiliation_strings": [
+       "Department of Leadership Studies in Education and Organizations, Wright State University, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Leadership Studies in Education and Organizations, Wright State University, USA",
+        "institution_ids": [
+         "https://openalex.org/I19648265"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5029664363",
+       "display_name": "Steffi Heidig",
+       "orcid": "https://orcid.org/0000-0001-9472-7582",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9472-7582"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210148079",
+        "display_name": "Zittau/G\u00f6rlitz University of Applied Sciences",
+        "ror": "https://ror.org/056tzgr32",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210148079"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Steffi Heidig",
+      "raw_affiliation_strings": [
+       "Communication Psychology, Faculty of Social Sciences, University of Applied Sciences, G\u00f6rlitz, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Communication Psychology, Faculty of Social Sciences, University of Applied Sciences, G\u00f6rlitz, Germany",
+        "institution_ids": [
+         "https://openalex.org/I4210148079"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5001896504",
+       "display_name": "G\u00fcnter Daniel Rey",
+       "orcid": "https://orcid.org/0000-0001-9717-8478",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9717-8478"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I2610724",
+        "display_name": "Chemnitz University of Technology",
+        "ror": "https://ror.org/00a208s56",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I2610724"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "G\u00fcnter Daniel Rey",
+      "raw_affiliation_strings": [
+       "Psychology of Learning with Digital Media, Institute for Media Research, Chemnitz University of Technology, Chemnitz, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Psychology of Learning with Digital Media, Institute for Media Research, Chemnitz University of Technology, Chemnitz, Germany",
+        "institution_ids": [
+         "https://openalex.org/I2610724"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5027067459",
+       "display_name": "Sascha Schneider",
+       "orcid": "https://orcid.org/0000-0003-4690-3777",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4690-3777"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I202697423",
+        "display_name": "University of Zurich",
+        "ror": "https://ror.org/02crff812",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I202697423"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Sascha Schneider",
+      "raw_affiliation_strings": [
+       "Educational Technology, Institute of Education, Faculty of Arts and Social Sciences, University of Zurich, Zurich, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Educational Technology, Institute of Education, Faculty of Arts and Social Sciences, University of Zurich, Zurich, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I202697423"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1016/j.edurev.2023.100564",
+     "doi": "https://doi.org/10.1016/j.edurev.2023.100564",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1016/j.edurev.2023.100564",
+     "pdf_url": "https://doi.org/10.1016/j.edurev.2023.100564",
+     "source": {
+      "id": "https://openalex.org/S43764696",
+      "display_name": "Educational Research Review",
+      "issn_l": "1747-938X",
+      "issn": [
+       "1747-938X",
+       "1878-0385"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "erih-plus",
+       "jufo-3",
+       "ki-jl-1",
+       "norway-2",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+       "Elsevier BV"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Educational Research Review",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2993886326",
+    "doi": "https://doi.org/10.2196/14475",
+    "title": "Compliance and Retention With the Experience Sampling Method Over the Continuum of Severe Mental Disorders: Meta-Analysis and Recommendations",
+    "display_name": "Compliance and Retention With the Experience Sampling Method Over the Continuum of Severe Mental Disorders: Meta-Analysis and Recommendations",
+    "publication_year": 2019,
+    "cited_by_count": 293,
+    "abstract_inverted_index": {
+     "BACKGROUND:": [
+      0
+     ],
+     "Despite": [
+      1
+     ],
+     "the": [
+      2,
+      6,
+      20,
+      38,
+      42,
+      45,
+      49,
+      63,
+      72,
+      102,
+      115,
+      126,
+      138,
+      169,
+      202,
+      206,
+      208,
+      231,
+      234,
+      245,
+      251
+     ],
+     "growing": [
+      3
+     ],
+     "interest": [
+      4
+     ],
+     "in": [
+      5,
+      31,
+      81,
+      226
+     ],
+     "experience": [
+      7
+     ],
+     "sampling": [
+      8,
+      174
+     ],
+     "method": [
+      9
+     ],
+     "(ESM)": [
+      10
+     ],
+     "as": [
+      11
+     ],
+     "a": [
+      12,
+      32,
+      107,
+      150,
+      160,
+      172,
+      239
+     ],
+     "data": [
+      13,
+      235
+     ],
+     "collection": [
+      14,
+      236
+     ],
+     "tool": [
+      15
+     ],
+     "for": [
+      16,
+      99,
+      137,
+      147
+     ],
+     "mental": [
+      17,
+      82,
+      227
+     ],
+     "health": [
+      18,
+      83,
+      228
+     ],
+     "research,": [
+      19,
+      229
+     ],
+     "absence": [
+      21
+     ],
+     "of": [
+      22,
+      35,
+      41,
+      48,
+      57,
+      77,
+      109,
+      114,
+      153,
+      171,
+      205,
+      233,
+      241,
+      247
+     ],
+     "methodological": [
+      23
+     ],
+     "guidelines": [
+      24
+     ],
+     "related": [
+      25,
+      243
+     ],
+     "to": [
+      26,
+      61,
+      120,
+      201,
+      244,
+      257
+     ],
+     "its": [
+      27
+     ],
+     "use": [
+      28,
+      170
+     ],
+     "has": [
+      29
+     ],
+     "resulted": [
+      30
+     ],
+     "large": [
+      33
+     ],
+     "heterogeneity": [
+      34
+     ],
+     "designs.": [
+      36
+     ],
+     "Concomitantly,": [
+      37
+     ],
+     "potential": [
+      39,
+      123
+     ],
+     "effects": [
+      40,
+      133
+     ],
+     "design": [
+      43,
+      69,
+      112,
+      213,
+      246
+     ],
+     "on": [
+      44
+     ],
+     "response": [
+      46
+     ],
+     "behavior": [
+      47
+     ],
+     "participants": [
+      50,
+      155
+     ],
+     "remain": [
+      51
+     ],
+     "largely": [
+      52
+     ],
+     "unknown.": [
+      53
+     ],
+     "OBJECTIVE:": [
+      54
+     ],
+     "The": [
+      55,
+      216
+     ],
+     "objective": [
+      56
+     ],
+     "this": [
+      58
+     ],
+     "meta-analysis": [
+      59
+     ],
+     "was": [
+      60,
+      165
+     ],
+     "investigate": [
+      62
+     ],
+     "associations": [
+      64,
+      196
+     ],
+     "between": [
+      65,
+      183
+     ],
+     "various": [
+      66
+     ],
+     "sample": [
+      67,
+      110
+     ],
+     "and": [
+      68,
+      71,
+      74,
+      94,
+      104,
+      111,
+      128,
+      142,
+      157,
+      187,
+      250
+     ],
+     "characteristics": [
+      70,
+      113
+     ],
+     "compliance": [
+      73,
+      103,
+      127
+     ],
+     "retention": [
+      75,
+      105,
+      129,
+      143
+     ],
+     "rates": [
+      76,
+      144
+     ],
+     "studies": [
+      78,
+      87,
+      117,
+      148,
+      221,
+      249
+     ],
+     "using": [
+      79
+     ],
+     "ESM": [
+      80,
+      86,
+      220,
+      248
+     ],
+     "research.": [
+      84
+     ],
+     "METHODS:": [
+      85
+     ],
+     "investigating": [
+      88
+     ],
+     "major": [
+      89
+     ],
+     "depressive": [
+      90
+     ],
+     "disorder,": [
+      91,
+      93
+     ],
+     "bipolar": [
+      92
+     ],
+     "psychotic": [
+      95,
+      161
+     ],
+     "disorder": [
+      96,
+      162
+     ],
+     "were": [
+      97,
+      118,
+      135,
+      145,
+      197
+     ],
+     "considered": [
+      98,
+      259
+     ],
+     "inclusion.": [
+      100
+     ],
+     "Besides": [
+      101
+     ],
+     "rates,": [
+      106
+     ],
+     "number": [
+      108,
+      240
+     ],
+     "selected": [
+      116
+     ],
+     "collected": [
+      119
+     ],
+     "assess": [
+      121
+     ],
+     "their": [
+      122
+     ],
+     "relationships": [
+      124
+     ],
+     "with": [
+      125,
+      149,
+      159,
+      168,
+      199
+     ],
+     "rates.": [
+      130
+     ],
+     "Multilevel": [
+      131
+     ],
+     "random/mixed": [
+      132
+     ],
+     "models": [
+      134
+     ],
+     "used": [
+      136
+     ],
+     "analyses.": [
+      139
+     ],
+     "RESULTS:": [
+      140
+     ],
+     "Compliance": [
+      141,
+      164
+     ],
+     "lower": [
+      146
+     ],
+     "higher": [
+      151,
+      177,
+      180
+     ],
+     "proportion": [
+      152
+     ],
+     "male": [
+      154
+     ],
+     "(P<.001)": [
+      156
+     ],
+     "individuals": [
+      158
+     ],
+     "(P<.001).": [
+      163
+     ],
+     "positively": [
+      166
+     ],
+     "associated": [
+      167
+     ],
+     "fixed": [
+      173
+     ],
+     "scheme": [
+      175
+     ],
+     "(P=.02),": [
+      176,
+      186
+     ],
+     "incentives": [
+      178
+     ],
+     "(P=.03),": [
+      179
+     ],
+     "time": [
+      181
+     ],
+     "intervals": [
+      182
+     ],
+     "successive": [
+      184
+     ],
+     "evaluations": [
+      185,
+      189
+     ],
+     "fewer": [
+      188
+     ],
+     "per": [
+      190
+     ],
+     "day": [
+      191
+     ],
+     "(P=.008),": [
+      192
+     ],
+     "while": [
+      193
+     ],
+     "no": [
+      194
+     ],
+     "significant": [
+      195
+     ],
+     "observed": [
+      198
+     ],
+     "regard": [
+      200
+     ],
+     "mean": [
+      203
+     ],
+     "age": [
+      204
+     ],
+     "sample,": [
+      207
+     ],
+     "study": [
+      209,
+      254
+     ],
+     "duration,": [
+      210
+     ],
+     "or": [
+      211
+     ],
+     "other": [
+      212
+     ],
+     "characteristics.": [
+      214
+     ],
+     "CONCLUSIONS:": [
+      215
+     ],
+     "findings": [
+      217
+     ],
+     "demonstrate": [
+      218
+     ],
+     "that": [
+      219,
+      255
+     ],
+     "can": [
+      222
+     ],
+     "be": [
+      223,
+      258
+     ],
+     "carried": [
+      224
+     ],
+     "out": [
+      225
+     ],
+     "but": [
+      230
+     ],
+     "quality": [
+      232
+     ],
+     "depends": [
+      237
+     ],
+     "upon": [
+      238
+     ],
+     "factors": [
+      242
+     ],
+     "samples": [
+      252
+     ],
+     "under": [
+      253
+     ],
+     "need": [
+      256
+     ],
+     "when": [
+      260
+     ],
+     "designing": [
+      261
+     ],
+     "such": [
+      262
+     ],
+     "protocols.": [
+      263
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5070874628",
+       "display_name": "Hugo Vachon",
+       "orcid": "https://orcid.org/0000-0003-1259-649X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1259-649X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99464096",
+        "display_name": "KU Leuven",
+        "ror": "https://ror.org/05f950310",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I99464096"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Hugo Vachon",
+      "raw_affiliation_strings": [
+       "Center for Contextual Psychiatry, Department of Neurosciences, KU Leuven, Leuven, Belgium"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-1259-649X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Contextual Psychiatry, Department of Neurosciences, KU Leuven, Leuven, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I99464096"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5082230764",
+       "display_name": "Wolfgang Viechtbauer",
+       "orcid": "https://orcid.org/0000-0003-3463-4063",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3463-4063"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I34352273",
+        "display_name": "Maastricht University",
+        "ror": "https://ror.org/02jz4aj89",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I34352273"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I99464096",
+        "display_name": "KU Leuven",
+        "ror": "https://ror.org/05f950310",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I99464096"
+        ]
+       }
+      ],
+      "countries": [
+       "BE",
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Wolfgang Viechtbauer",
+      "raw_affiliation_strings": [
+       "Center for Contextual Psychiatry, Department of Neurosciences, KU Leuven, Leuven, Belgium",
+       "School for Mental Health and Neuroscience, Department of Psychiatry and Neuropsychology, Maastricht University, Maastricht, Netherlands"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-3463-4063",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Contextual Psychiatry, Department of Neurosciences, KU Leuven, Leuven, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I99464096"
+        ]
+       },
+       {
+        "raw_affiliation_string": "School for Mental Health and Neuroscience, Department of Psychiatry and Neuropsychology, Maastricht University, Maastricht, Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I34352273"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5003077442",
+       "display_name": "Aki Rintala",
+       "orcid": "https://orcid.org/0000-0002-0066-4697",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0066-4697"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99464096",
+        "display_name": "KU Leuven",
+        "ror": "https://ror.org/05f950310",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I99464096"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Aki Rintala",
+      "raw_affiliation_strings": [
+       "Center for Contextual Psychiatry, Department of Neurosciences, KU Leuven, Leuven, Belgium"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-0066-4697",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Contextual Psychiatry, Department of Neurosciences, KU Leuven, Leuven, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I99464096"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5001336539",
+       "display_name": "Inez Myin\u2010Germeys",
+       "orcid": "https://orcid.org/0000-0002-3731-4930",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3731-4930"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99464096",
+        "display_name": "KU Leuven",
+        "ror": "https://ror.org/05f950310",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I99464096"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Inez Myin-Germeys",
+      "raw_affiliation_strings": [
+       "Center for Contextual Psychiatry, Department of Neurosciences, KU Leuven, Leuven, Belgium"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-3731-4930",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center for Contextual Psychiatry, Department of Neurosciences, KU Leuven, Leuven, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I99464096"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.2196/14475",
+     "doi": "https://doi.org/10.2196/14475",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.2196/14475",
+     "pdf_url": "https://www.jmir.org/2019/12/e14475/PDF",
+     "source": {
+      "id": "https://openalex.org/S17147534",
+      "display_name": "Journal of Medical Internet Research",
+      "issn_l": "1438-8871",
+      "issn": [
+       "1438-8871",
+       "1439-4456"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "dongbi-b",
+       "doyens",
+       "fnege-4",
+       "jufo-2",
+       "ki-jl-2",
+       "medline",
+       "norway-2",
+       "oarl",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320608",
+      "host_organization_name": "JMIR Publications",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320608"
+      ],
+      "host_organization_lineage_names": [
+       "JMIR Publications"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Medical Internet Research",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2095525298",
+    "doi": "https://doi.org/10.1890/es11-00225.1",
+    "title": "Consequences of manipulated snow cover on soil gaseous emission and N retention in the growing season: a meta\u2010analysis",
+    "display_name": "Consequences of manipulated snow cover on soil gaseous emission and N retention in the growing season: a meta\u2010analysis",
+    "publication_year": 2012,
+    "cited_by_count": 104,
+    "abstract_inverted_index": {
+     "Most": [
+      0
+     ],
+     "seasonally": [
+      1,
+      26
+     ],
+     "snow": [
+      2,
+      27,
+      34,
+      61,
+      82,
+      122,
+      137,
+      162,
+      167,
+      225,
+      232,
+      251,
+      303,
+      313
+     ],
+     "covered": [
+      3,
+      28
+     ],
+     "ecosystems": [
+      4,
+      29
+     ],
+     "will": [
+      5
+     ],
+     "continue": [
+      6
+     ],
+     "to": [
+      7,
+      70,
+      79,
+      85,
+      115,
+      161,
+      287
+     ],
+     "face": [
+      8
+     ],
+     "more": [
+      9,
+      256
+     ],
+     "shallow": [
+      10
+     ],
+     "and": [
+      11,
+      21,
+      36,
+      52,
+      63,
+      84,
+      102,
+      109,
+      152,
+      177,
+      189,
+      206,
+      243,
+      265,
+      285,
+      296,
+      301,
+      319,
+      333
+     ],
+     "discontinuous": [
+      12
+     ],
+     "snowpack": [
+      13
+     ],
+     "as": [
+      14
+     ],
+     "the": [
+      15,
+      43,
+      49,
+      53,
+      76,
+      118,
+      125,
+      134,
+      153,
+      186,
+      198,
+      216,
+      221,
+      323
+     ],
+     "world": [
+      16
+     ],
+     "warms.": [
+      17
+     ],
+     "Annual": [
+      18
+     ],
+     "greenhouse": [
+      19
+     ],
+     "gas": [
+      20
+     ],
+     "nitrogen": [
+      22
+     ],
+     "(N)": [
+      23
+     ],
+     "budgets": [
+      24
+     ],
+     "in": [
+      25,
+      93,
+      106,
+      131,
+      156,
+      173,
+      181,
+      185,
+      193,
+      215,
+      220,
+      231,
+      246,
+      268,
+      273,
+      279,
+      282,
+      312
+     ],
+     "are": [
+      30,
+      299
+     ],
+     "partly": [
+      31
+     ],
+     "controlled": [
+      32
+     ],
+     "by": [
+      33,
+      328
+     ],
+     "depth": [
+      35,
+      123,
+      168,
+      226,
+      252
+     ],
+     "duration,": [
+      37
+     ],
+     "but": [
+      38,
+      212
+     ],
+     "little": [
+      39
+     ],
+     "is": [
+      40
+     ],
+     "known": [
+      41
+     ],
+     "about": [
+      42
+     ],
+     "generality": [
+      44
+     ],
+     "of": [
+      45,
+      120,
+      136,
+      204
+     ],
+     "these": [
+      46
+     ],
+     "responses": [
+      47,
+      74
+     ],
+     "during": [
+      48,
+      75
+     ],
+     "growing": [
+      50,
+      77,
+      132,
+      187,
+      199,
+      217,
+      222
+     ],
+     "season": [
+      51,
+      78
+     ],
+     "driving": [
+      54
+     ],
+     "mechanisms": [
+      55
+     ],
+     "across": [
+      56
+     ],
+     "sites.": [
+      57
+     ],
+     "Using": [
+      58
+     ],
+     "results": [
+      59
+     ],
+     "from": [
+      60
+     ],
+     "addition": [
+      62
+     ],
+     "removal": [
+      64,
+      233
+     ],
+     "experiments,": [
+      65
+     ],
+     "we": [
+      66
+     ],
+     "performed": [
+      67
+     ],
+     "a": [
+      68,
+      170,
+      178,
+      190,
+      240,
+      262
+     ],
+     "meta\u2010analysis": [
+      69,
+      292
+     ],
+     "quantify": [
+      71
+     ],
+     "soil": [
+      72,
+      110,
+      139,
+      158,
+      174,
+      228,
+      248,
+      270
+     ],
+     "biogeochemical": [
+      73
+     ],
+     "decreasing": [
+      80,
+      166,
+      224,
+      302
+     ],
+     "winter": [
+      81,
+      157,
+      247,
+      269,
+      295
+     ],
+     "depth,": [
+      83
+     ],
+     "identify": [
+      86
+     ],
+     "correlative": [
+      87
+     ],
+     "variables": [
+      88
+     ],
+     "that": [
+      89,
+      294
+     ],
+     "best": [
+      90
+     ],
+     "explained": [
+      91
+     ],
+     "changes": [
+      92,
+      311
+     ],
+     "carbon": [
+      94,
+      318
+     ],
+     "dioxide": [
+      95
+     ],
+     "(CO2)": [
+      96
+     ],
+     "efflux,": [
+      97,
+      101
+     ],
+     "nitrous": [
+      98
+     ],
+     "oxide": [
+      99
+     ],
+     "(N2O)": [
+      100
+     ],
+     "mobile": [
+      103,
+      194,
+      274
+     ],
+     "N": [
+      104,
+      195,
+      275,
+      308,
+      320
+     ],
+     "concentration": [
+      105,
+      196,
+      276
+     ],
+     "runoff,": [
+      107
+     ],
+     "leachate,": [
+      108
+     ],
+     "solution.": [
+      111
+     ],
+     "The": [
+      112,
+      201
+     ],
+     "moderators": [
+      113,
+      203
+     ],
+     "tested": [
+      114,
+      202
+     ],
+     "possibly": [
+      116
+     ],
+     "explain": [
+      117
+     ],
+     "effects": [
+      119
+     ],
+     "manipulated": [
+      121
+     ],
+     "were": [
+      124,
+      209,
+      277
+     ],
+     "sampling": [
+      126
+     ],
+     "date": [
+      127
+     ],
+     "(earlier": [
+      128
+     ],
+     "vs.": [
+      129
+     ],
+     "later": [
+      130,
+      184,
+      214
+     ],
+     "season),": [
+      133
+     ],
+     "direction": [
+      135
+     ],
+     "manipulation,": [
+      138
+     ],
+     "texture,": [
+      140
+     ],
+     "vegetation": [
+      141,
+      334
+     ],
+     "type,": [
+      142
+     ],
+     "mean": [
+      143,
+      147
+     ],
+     "annual": [
+      144,
+      148,
+      324
+     ],
+     "temperature": [
+      145,
+      159
+     ],
+     "(MAT),": [
+      146
+     ],
+     "precipitation": [
+      149
+     ],
+     "(MAP),": [
+      150
+     ],
+     "latitude,": [
+      151,
+      332
+     ],
+     "maximum": [
+      154
+     ],
+     "change": [
+      155,
+      245,
+      267
+     ],
+     "due": [
+      160
+     ],
+     "manipulation.": [
+      163
+     ],
+     "Across": [
+      164
+     ],
+     "studies,": [
+      165
+     ],
+     "caused": [
+      169
+     ],
+     "35%": [
+      171
+     ],
+     "reduction": [
+      172
+     ],
+     "CO2": [
+      175,
+      205,
+      229
+     ],
+     "efflux": [
+      176,
+      183,
+      208,
+      230,
+      255
+     ],
+     "three\u2010fold": [
+      179
+     ],
+     "increase": [
+      180,
+      192,
+      288
+     ],
+     "N2O": [
+      182,
+      207,
+      254
+     ],
+     "season,": [
+      188,
+      223
+     ],
+     "two\u2010fold": [
+      191
+     ],
+     "throughout": [
+      197
+     ],
+     "season.": [
+      200,
+      218
+     ],
+     "important": [
+      210
+     ],
+     "earlier": [
+      211
+     ],
+     "not": [
+      213
+     ],
+     "Early": [
+      219
+     ],
+     "increased": [
+      227,
+      253
+     ],
+     "experiments": [
+      234
+     ],
+     "at": [
+      235,
+      257,
+      322
+     ],
+     "lower": [
+      236,
+      258
+     ],
+     "latitude": [
+      237
+     ],
+     "sites": [
+      238,
+      260
+     ],
+     "with": [
+      239,
+      261,
+      289
+     ],
+     "higher": [
+      241,
+      263
+     ],
+     "MAT": [
+      242
+     ],
+     "smaller": [
+      244,
+      266
+     ],
+     "temperature.": [
+      249,
+      271
+     ],
+     "Decreasing": [
+      250
+     ],
+     "latitudes": [
+      259
+     ],
+     "MAP": [
+      264
+     ],
+     "Changes": [
+      272
+     ],
+     "greater": [
+      278
+     ],
+     "forest": [
+      280
+     ],
+     "than": [
+      281
+     ],
+     "non\u2010forest": [
+      283
+     ],
+     "ecosystems,": [
+      284
+     ],
+     "tended": [
+      286
+     ],
+     "latitude.": [
+      290
+     ],
+     "Our": [
+      291
+     ],
+     "suggests": [
+      293
+     ],
+     "summer": [
+      297
+     ],
+     "biogeochemistry": [
+      298,
+      321
+     ],
+     "intertwined,": [
+      300
+     ],
+     "cover": [
+      304,
+      314
+     ],
+     "generally": [
+      305
+     ],
+     "reduces": [
+      306
+     ],
+     "ecosystem": [
+      307
+     ],
+     "retention.": [
+      309
+     ],
+     "Future": [
+      310
+     ],
+     "may": [
+      315
+     ],
+     "impact": [
+      316
+     ],
+     "global": [
+      317
+     ],
+     "scale,": [
+      325
+     ],
+     "likely": [
+      326
+     ],
+     "driven": [
+      327
+     ],
+     "interactions": [
+      329
+     ],
+     "between": [
+      330
+     ],
+     "climate,": [
+      331
+     ],
+     "type.": [
+      335
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5056776112",
+       "display_name": "Joseph C. Blankinship",
+       "orcid": "https://orcid.org/0000-0001-5154-7354",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5154-7354"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I156087764",
+        "display_name": "University of California, Merced",
+        "ror": "https://ror.org/00d9ah105",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I156087764"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Joseph C. Blankinship",
+      "raw_affiliation_strings": [
+       "School of Natural Sciences and Sierra Nevada Research Institute, 5200 North Lake Road, University of California, Merced, California 95343 USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Natural Sciences and Sierra Nevada Research Institute, 5200 North Lake Road, University of California, Merced, California 95343 USA",
+        "institution_ids": [
+         "https://openalex.org/I156087764"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5045735049",
+       "display_name": "Stephen C. Hart",
+       "orcid": "https://orcid.org/0000-0002-9023-6943",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9023-6943"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I156087764",
+        "display_name": "University of California, Merced",
+        "ror": "https://ror.org/00d9ah105",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I156087764"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Stephen C. Hart",
+      "raw_affiliation_strings": [
+       "School of Natural Sciences and Sierra Nevada Research Institute, 5200 North Lake Road, University of California, Merced, California 95343 USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Natural Sciences and Sierra Nevada Research Institute, 5200 North Lake Road, University of California, Merced, California 95343 USA",
+        "institution_ids": [
+         "https://openalex.org/I156087764"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1890/es11-00225.1",
+     "doi": "https://doi.org/10.1890/es11-00225.1",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1890/es11-00225.1",
+     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1890/ES11-00225.1",
+     "source": {
+      "id": "https://openalex.org/S98723585",
+      "display_name": "Ecosphere",
+      "issn_l": "2150-8925",
+      "issn": [
+       "2150-8925"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "dongbi-b",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "oarl",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Ecosphere",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2783467459",
+    "doi": "https://doi.org/10.1037/dev0000512",
+    "title": "The effects of shared storybook reading on word learning: A meta-analysis.",
+    "display_name": "The effects of shared storybook reading on word learning: A meta-analysis.",
+    "publication_year": 2018,
+    "cited_by_count": 309,
+    "abstract_inverted_index": {
+     "Although": [
+      0
+     ],
+     "an": [
+      1
+     ],
+     "abundant": [
+      2
+     ],
+     "literature": [
+      3
+     ],
+     "documents": [
+      4
+     ],
+     "preliterate": [
+      5
+     ],
+     "children's": [
+      6,
+      53
+     ],
+     "word": [
+      7,
+      23,
+      54,
+      76,
+      99,
+      126
+     ],
+     "learning": [
+      8,
+      24,
+      77,
+      127
+     ],
+     "success": [
+      9
+     ],
+     "from": [
+      10,
+      128
+     ],
+     "shared": [
+      11,
+      129
+     ],
+     "storybook": [
+      12,
+      130
+     ],
+     "reading,": [
+      13
+     ],
+     "a": [
+      14
+     ],
+     "full": [
+      15
+     ],
+     "synthesis": [
+      16
+     ],
+     "of": [
+      17,
+      61,
+      71
+     ],
+     "the": [
+      18,
+      59,
+      69,
+      83,
+      118,
+      121
+     ],
+     "factors": [
+      19,
+      51,
+      119
+     ],
+     "which": [
+      20,
+      103
+     ],
+     "moderate": [
+      21,
+      52
+     ],
+     "these": [
+      22
+     ],
+     "effects": [
+      25
+     ],
+     "has": [
+      26
+     ],
+     "been": [
+      27
+     ],
+     "largely": [
+      28
+     ],
+     "neglected.": [
+      29
+     ],
+     "This": [
+      30
+     ],
+     "meta-analysis": [
+      31
+     ],
+     "included": [
+      32
+     ],
+     "38": [
+      33
+     ],
+     "studies": [
+      34
+     ],
+     "with": [
+      35,
+      120
+     ],
+     "2,455": [
+      36
+     ],
+     "children,": [
+      37
+     ],
+     "reflecting": [
+      38
+     ],
+     "110": [
+      39
+     ],
+     "effect": [
+      40
+     ],
+     "sizes,": [
+      41
+     ],
+     "investigating": [
+      42
+     ],
+     "how": [
+      43
+     ],
+     "reading": [
+      44,
+      65
+     ],
+     "styles,": [
+      45,
+      66
+     ],
+     "story": [
+      46,
+      88,
+      96
+     ],
+     "repetitions,": [
+      47
+     ],
+     "tokens": [
+      48
+     ],
+     "and": [
+      49,
+      68,
+      85,
+      89,
+      98,
+      114
+     ],
+     "related": [
+      50
+     ],
+     "comprehension,": [
+      55
+     ],
+     "while": [
+      56
+     ],
+     "adjusting": [
+      57
+     ],
+     "for": [
+      58
+     ],
+     "number": [
+      60,
+      70
+     ],
+     "target": [
+      62
+     ],
+     "words.": [
+      63
+     ],
+     "Dialogic": [
+      64
+     ],
+     "tokens,": [
+      67
+     ],
+     "words": [
+      72
+     ],
+     "tested": [
+      73
+     ],
+     "all": [
+      74
+     ],
+     "moderated": [
+      75
+     ],
+     "effects.": [
+      78
+     ],
+     "Children's": [
+      79
+     ],
+     "age,": [
+      80
+     ],
+     "who": [
+      81
+     ],
+     "read": [
+      82
+     ],
+     "story,": [
+      84
+     ],
+     "time": [
+      86
+     ],
+     "between": [
+      87
+     ],
+     "test": [
+      90
+     ],
+     "were": [
+      91
+     ],
+     "not": [
+      92
+     ],
+     "moderators.": [
+      93
+     ],
+     "We": [
+      94
+     ],
+     "identify": [
+      95
+     ],
+     "repetition": [
+      97
+     ],
+     "types": [
+      100
+     ],
+     "as": [
+      101
+     ],
+     "topics": [
+      102
+     ],
+     "merit": [
+      104
+     ],
+     "further": [
+      105
+     ],
+     "research.": [
+      106
+     ],
+     "These": [
+      107
+     ],
+     "results": [
+      108
+     ],
+     "provide": [
+      109
+     ],
+     "information": [
+      110
+     ],
+     "to": [
+      111,
+      117
+     ],
+     "guide": [
+      112
+     ],
+     "researchers": [
+      113
+     ],
+     "educators": [
+      115
+     ],
+     "alike": [
+      116
+     ],
+     "greatest": [
+      122
+     ],
+     "impact": [
+      123
+     ],
+     "on": [
+      124
+     ],
+     "improving": [
+      125
+     ],
+     "reading.": [
+      131
+     ],
+     "(PsycINFO": [
+      132
+     ],
+     "Database": [
+      133
+     ],
+     "Record": [
+      134
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5030809999",
+       "display_name": "Zoe M. Flack",
+       "orcid": "https://orcid.org/0000-0001-8123-5589",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8123-5589"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I162608824",
+        "display_name": "University of Sussex",
+        "ror": "https://ror.org/00ayhx656",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I162608824"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Zoe M. Flack",
+      "raw_affiliation_strings": [
+       "School of Psychology",
+       "University of Sussex",
+       "University of Sussex School of Psychology Pevensey 1 Building Brighton, BN1 9QH, UK"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-8123-5589",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Psychology",
+        "institution_ids": []
+       },
+       {
+        "raw_affiliation_string": "University of Sussex",
+        "institution_ids": [
+         "https://openalex.org/I162608824"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Sussex School of Psychology Pevensey 1 Building Brighton, BN1 9QH, UK",
+        "institution_ids": [
+         "https://openalex.org/I162608824"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5067146589",
+       "display_name": "Andy Peter Field",
+       "orcid": "https://orcid.org/0000-0003-3306-4695",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3306-4695"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I162608824",
+        "display_name": "University of Sussex",
+        "ror": "https://ror.org/00ayhx656",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I162608824"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Andy P. Field",
+      "raw_affiliation_strings": [
+       "School of Psychology",
+       "University of Sussex",
+       "University of Sussex School of Psychology Pevensey 1 Building Brighton, BN1 9QH, UK"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-3306-4695",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Psychology",
+        "institution_ids": []
+       },
+       {
+        "raw_affiliation_string": "University of Sussex",
+        "institution_ids": [
+         "https://openalex.org/I162608824"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Sussex School of Psychology Pevensey 1 Building Brighton, BN1 9QH, UK",
+        "institution_ids": [
+         "https://openalex.org/I162608824"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5070574176",
+       "display_name": "Jessica S. Horst",
+       "orcid": "https://orcid.org/0000-0003-3200-5239",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3200-5239"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I162608824",
+        "display_name": "University of Sussex",
+        "ror": "https://ror.org/00ayhx656",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I162608824"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jessica S. Horst",
+      "raw_affiliation_strings": [
+       "School of Psychology",
+       "University of Sussex"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Psychology",
+        "institution_ids": []
+       },
+       {
+        "raw_affiliation_string": "University of Sussex",
+        "institution_ids": [
+         "https://openalex.org/I162608824"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1037/dev0000512",
+     "doi": "https://doi.org/10.1037/dev0000512",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1037/dev0000512",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S126635229",
+      "display_name": "Developmental Psychology",
+      "issn_l": "0012-1649",
+      "issn": [
+       "0012-1649",
+       "1939-0599"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-c",
+       "erih-plus",
+       "jufo-3",
+       "ki-jl-2",
+       "medline",
+       "norway-2",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320262",
+      "host_organization_name": "American Psychological Association",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320262"
+      ],
+      "host_organization_lineage_names": [
+       "American Psychological Association"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Developmental Psychology",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

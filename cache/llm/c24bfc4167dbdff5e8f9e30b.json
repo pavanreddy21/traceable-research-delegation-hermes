@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201eb-e9a9-7e1a-8260-e57c33744731",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795328567,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Now fetch the HIIE vs MICE study in young adults with differing fitness levels.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W4288040913\"}}",
+    "reasoning_content": "Now fetch the HIIE vs MICE study.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1366,
+  "completion_tokens": 57,
+  "total_tokens": 1423,
+  "prompt_tokens_details": {
+   "cached_tokens": 1024
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 12
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.2
+}

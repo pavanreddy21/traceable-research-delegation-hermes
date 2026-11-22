@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20245-53cf-7db1-ab66-664a4e1d9528",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795334427,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"All searches returned zero results and no source could be fetched, so I have no verified evidence to cite.\", \"action\": \"finish\", \"args\": {\"findings\": []}}",
+    "reasoning_content": "The search tool returned no results across all queries. I never fetched any source. Rules: never cite a source I did not fetch. So finish with empty findings.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1082,
+  "completion_tokens": 76,
+  "total_tokens": 1158,
+  "prompt_tokens_details": {
+   "cached_tokens": 1024
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 34
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.23
+}

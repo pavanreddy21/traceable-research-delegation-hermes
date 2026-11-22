@@ -1,0 +1,3731 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 34215,
+   "db_response_time_ms": 187,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (spaced practice delayed recall meta-analysis) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (spaced practice delayed recall meta-analysis) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "spaced practice delayed recall meta-analysis",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:spaced practice delayed recall meta-analysis,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2105021809",
+    "doi": "https://doi.org/10.1523/jneurosci.22-04-01397.2002",
+    "title": "Dynamic Cortical and Subcortical Networks in Learning and Delayed Recall of Timed Motor Sequences",
+    "display_name": "Dynamic Cortical and Subcortical Networks in Learning and Delayed Recall of Timed Motor Sequences",
+    "publication_year": 2002,
+    "cited_by_count": 285,
+    "abstract_inverted_index": {
+     "We": [
+      0
+     ],
+     "used": [
+      1
+     ],
+     "positron": [
+      2
+     ],
+     "emission": [
+      3
+     ],
+     "tomography": [
+      4
+     ],
+     "to": [
+      5,
+      195,
+      198,
+      233
+     ],
+     "examine": [
+      6
+     ],
+     "learning": [
+      7,
+      18,
+      49,
+      151,
+      185,
+      210
+     ],
+     "and": [
+      8,
+      20,
+      35,
+      50,
+      54,
+      88,
+      101,
+      119,
+      132,
+      152,
+      244
+     ],
+     "retention": [
+      9
+     ],
+     "of": [
+      10,
+      31,
+      48,
+      140,
+      150,
+      164
+     ],
+     "timed": [
+      11
+     ],
+     "motor": [
+      12,
+      141,
+      165,
+      201
+     ],
+     "sequences.": [
+      13
+     ],
+     "Subjects": [
+      14
+     ],
+     "were": [
+      15,
+      62
+     ],
+     "scanned": [
+      16
+     ],
+     "during": [
+      17,
+      147,
+      183
+     ],
+     "(LRN)": [
+      19
+     ],
+     "baseline": [
+      21
+     ],
+     "(ISO)": [
+      22
+     ],
+     "on": [
+      23,
+      177
+     ],
+     "3": [
+      24
+     ],
+     "d:": [
+      25
+     ],
+     "day": [
+      26,
+      130
+     ],
+     "1,": [
+      27
+     ],
+     "after": [
+      28,
+      36
+     ],
+     "5": [
+      29,
+      91
+     ],
+     "d": [
+      30
+     ],
+     "practice": [
+      32
+     ],
+     "(day": [
+      33
+     ],
+     "5)": [
+      34
+     ],
+     "a": [
+      37,
+      137,
+      172,
+      237
+     ],
+     "4": [
+      38
+     ],
+     "week": [
+      39
+     ],
+     "delay": [
+      40
+     ],
+     "(recall).": [
+      41
+     ],
+     "Blood": [
+      42,
+      122
+     ],
+     "flow": [
+      43,
+      123
+     ],
+     "was": [
+      44,
+      114
+     ],
+     "compared": [
+      45
+     ],
+     "across": [
+      46,
+      64
+     ],
+     "days": [
+      47,
+      65
+     ],
+     "between": [
+      51,
+      129
+     ],
+     "the": [
+      52,
+      67,
+      72,
+      82,
+      97,
+      125,
+      156,
+      204,
+      220
+     ],
+     "LRN": [
+      53,
+      68
+     ],
+     "ISO": [
+      55,
+      73
+     ],
+     "conditions.": [
+      56
+     ],
+     "Overall,": [
+      57
+     ],
+     "significant": [
+      58,
+      106
+     ],
+     "changes": [
+      59
+     ],
+     "in": [
+      60,
+      81,
+      96,
+      116,
+      124,
+      167,
+      190,
+      225,
+      236
+     ],
+     "activity": [
+      61,
+      95,
+      113
+     ],
+     "seen": [
+      63,
+      115
+     ],
+     "for": [
+      66,
+      208
+     ],
+     "condition,": [
+      69
+     ],
+     "but": [
+      70
+     ],
+     "not": [
+      71
+     ],
+     "baseline.": [
+      74
+     ],
+     "Day": [
+      75,
+      90
+     ],
+     "1": [
+      76,
+      131
+     ],
+     "results": [
+      77,
+      92,
+      135
+     ],
+     "revealed": [
+      78
+     ],
+     "extensive": [
+      79
+     ],
+     "activation": [
+      80
+     ],
+     "cerebellar": [
+      83,
+      107,
+      186,
+      205
+     ],
+     "cortex,": [
+      84
+     ],
+     "particularly": [
+      85
+     ],
+     "lobules": [
+      86
+     ],
+     "III/IV": [
+      87
+     ],
+     "VI.": [
+      89
+     ],
+     "showed": [
+      93
+     ],
+     "increased": [
+      94
+     ],
+     "basal": [
+      98
+     ],
+     "ganglia": [
+      99
+     ],
+     "(BG)": [
+      100
+     ],
+     "frontal": [
+      102
+     ],
+     "lobe,": [
+      103
+     ],
+     "with": [
+      104
+     ],
+     "no": [
+      105,
+      212
+     ],
+     "activity.": [
+      108
+     ],
+     "At": [
+      109,
+      227
+     ],
+     "recall,": [
+      110,
+      229
+     ],
+     "significantly": [
+      111,
+      128
+     ],
+     "greater": [
+      112
+     ],
+     "M1,": [
+      117,
+      242
+     ],
+     "premotor,": [
+      118,
+      243
+     ],
+     "parietal": [
+      120,
+      245
+     ],
+     "cortex.": [
+      121,
+      246
+     ],
+     "cerebellum": [
+      126
+     ],
+     "decreased": [
+      127
+     ],
+     "recall.": [
+      133,
+      154
+     ],
+     "These": [
+      134
+     ],
+     "reveal": [
+      136
+     ],
+     "dynamic": [
+      138
+     ],
+     "network": [
+      139
+     ],
+     "structures": [
+      142
+     ],
+     "that": [
+      143,
+      162,
+      182
+     ],
+     "are": [
+      144,
+      188,
+      211
+     ],
+     "differentially": [
+      145
+     ],
+     "active": [
+      146
+     ],
+     "different": [
+      148
+     ],
+     "phases": [
+      149
+     ],
+     "delayed": [
+      153,
+      228
+     ],
+     "For": [
+      155
+     ],
+     "first": [
+      157
+     ],
+     "time": [
+      158
+     ],
+     "our": [
+      159
+     ],
+     "findings": [
+      160
+     ],
+     "show": [
+      161
+     ],
+     "recall": [
+      163
+     ],
+     "sequences": [
+      166
+     ],
+     "humans": [
+      168
+     ],
+     "is": [
+      169
+     ],
+     "mediated": [
+      170,
+      240
+     ],
+     "by": [
+      171,
+      241
+     ],
+     "predominantly": [
+      173
+     ],
+     "cortical": [
+      174
+     ],
+     "network.": [
+      175
+     ],
+     "Based": [
+      176
+     ],
+     "these": [
+      178
+     ],
+     "results,": [
+      179
+     ],
+     "we": [
+      180
+     ],
+     "suggest": [
+      181
+     ],
+     "early": [
+      184,
+      209
+     ],
+     "mechanisms": [
+      187,
+      206
+     ],
+     "involved": [
+      189,
+      224
+     ],
+     "adjusting": [
+      191
+     ],
+     "movement": [
+      192,
+      230
+     ],
+     "kinematics": [
+      193
+     ],
+     "according": [
+      194
+     ],
+     "sensory": [
+      196
+     ],
+     "input": [
+      197
+     ],
+     "produce": [
+      199
+     ],
+     "accurate": [
+      200
+     ],
+     "output.": [
+      202
+     ],
+     "Thereafter,": [
+      203
+     ],
+     "required": [
+      207
+     ],
+     "longer": [
+      213
+     ],
+     "called": [
+      214
+     ],
+     "into": [
+      215
+     ],
+     "play.": [
+      216
+     ],
+     "During": [
+      217
+     ],
+     "late": [
+      218
+     ],
+     "learning,": [
+      219
+     ],
+     "BG": [
+      221
+     ],
+     "may": [
+      222
+     ],
+     "be": [
+      223,
+      234
+     ],
+     "automatization.": [
+      226
+     ],
+     "parameters": [
+      231
+     ],
+     "appear": [
+      232
+     ],
+     "encoded": [
+      235
+     ],
+     "distributed": [
+      238
+     ],
+     "representation": [
+      239
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5023790293",
+       "display_name": "Virginia B. Penhune",
+       "orcid": "https://orcid.org/0000-0002-9475-5724",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9475-5724"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1292859797",
+        "display_name": "Montreal Neurological Institute and Hospital",
+        "ror": "https://ror.org/05ghs6f64",
+        "country_code": "CA",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I1292859797",
+         "https://openalex.org/I2801766832",
+         "https://openalex.org/I2801902503",
+         "https://openalex.org/I4210139015",
+         "https://openalex.org/I4405279980"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I60158472",
+        "display_name": "Concordia University",
+        "ror": "https://ror.org/0420zvk78",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I60158472"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Virginia B. Penhune",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Concordia University, Montreal, Quebec, H4B 1R6 Canada,",
+       "McConnell Brain Imaging Center, Montreal Neurological Institute, Montreal, Quebec, H3A 2B4, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Concordia University, Montreal, Quebec, H4B 1R6 Canada,",
+        "institution_ids": [
+         "https://openalex.org/I60158472"
+        ]
+       },
+       {
+        "raw_affiliation_string": "McConnell Brain Imaging Center, Montreal Neurological Institute, Montreal, Quebec, H3A 2B4, Canada",
+        "institution_ids": [
+         "https://openalex.org/I1292859797"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5053884602",
+       "display_name": "Julien Doyon",
+       "orcid": "https://orcid.org/0000-0002-3788-4271",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3788-4271"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1292859797",
+        "display_name": "Montreal Neurological Institute and Hospital",
+        "ror": "https://ror.org/05ghs6f64",
+        "country_code": "CA",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I1292859797",
+         "https://openalex.org/I2801766832",
+         "https://openalex.org/I2801902503",
+         "https://openalex.org/I4210139015",
+         "https://openalex.org/I4405279980"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I70931966",
+        "display_name": "Universit\u00e9 de Montr\u00e9al",
+        "ror": "https://ror.org/0161xgx34",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I70931966"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Julien Doyon",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of Montreal, Montreal, Quebec, H3C 3J7 Canada, and",
+       "McConnell Brain Imaging Center, Montreal Neurological Institute, Montreal, Quebec, H3A 2B4, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of Montreal, Montreal, Quebec, H3C 3J7 Canada, and",
+        "institution_ids": [
+         "https://openalex.org/I70931966"
+        ]
+       },
+       {
+        "raw_affiliation_string": "McConnell Brain Imaging Center, Montreal Neurological Institute, Montreal, Quebec, H3A 2B4, Canada",
+        "institution_ids": [
+         "https://openalex.org/I1292859797"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1523/jneurosci.22-04-01397.2002",
+     "doi": "https://doi.org/10.1523/jneurosci.22-04-01397.2002",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1523/jneurosci.22-04-01397.2002",
+     "pdf_url": "http://www.jneurosci.org/content/jneuro/22/4/1397.full.pdf",
+     "source": {
+      "id": "https://openalex.org/S5555990",
+      "display_name": "Journal of Neuroscience",
+      "issn_l": "0270-6474",
+      "issn": [
+       "0270-6474",
+       "1529-2401"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-b",
+       "doyens",
+       "jufo-3",
+       "ki-jl-2",
+       "medline",
+       "norway-2",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319739",
+      "host_organization_name": "Society for Neuroscience",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319739"
+      ],
+      "host_organization_lineage_names": [
+       "Society for Neuroscience"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "The Journal of Neuroscience",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2049428464",
+    "doi": "https://doi.org/10.1037/0033-2909.132.3.354",
+    "title": "Distributed practice in verbal recall tasks: A review and quantitative synthesis.",
+    "display_name": "Distributed practice in verbal recall tasks: A review and quantitative synthesis.",
+    "publication_year": 2006,
+    "cited_by_count": 2595,
+    "abstract_inverted_index": {
+     "The": [
+      0
+     ],
+     "authors": [
+      1
+     ],
+     "performed": [
+      2
+     ],
+     "a": [
+      3
+     ],
+     "meta-analysis": [
+      4
+     ],
+     "of": [
+      5,
+      14,
+      29,
+      40
+     ],
+     "the": [
+      6,
+      12,
+      81
+     ],
+     "distributed": [
+      7,
+      30
+     ],
+     "practice": [
+      8,
+      31
+     ],
+     "effect": [
+      9
+     ],
+     "to": [
+      10,
+      76
+     ],
+     "illuminate": [
+      11
+     ],
+     "effects": [
+      13
+     ],
+     "temporal": [
+      15
+     ],
+     "variables": [
+      16
+     ],
+     "that": [
+      17,
+      69
+     ],
+     "have": [
+      18
+     ],
+     "been": [
+      19
+     ],
+     "neglected": [
+      20
+     ],
+     "in": [
+      21,
+      32,
+      36
+     ],
+     "previous": [
+      22
+     ],
+     "reviews.": [
+      23
+     ],
+     "This": [
+      24
+     ],
+     "review": [
+      25
+     ],
+     "found": [
+      26
+     ],
+     "839": [
+      27
+     ],
+     "assessments": [
+      28
+     ],
+     "317": [
+      33
+     ],
+     "experiments": [
+      34
+     ],
+     "located": [
+      35
+     ],
+     "184": [
+      37
+     ],
+     "articles.": [
+      38
+     ],
+     "Effects": [
+      39
+     ],
+     "spacing": [
+      41
+     ],
+     "(consecutive": [
+      42
+     ],
+     "massed": [
+      43
+     ],
+     "presentations": [
+      44
+     ],
+     "vs.": [
+      45,
+      53
+     ],
+     "spaced": [
+      46,
+      52,
+      55
+     ],
+     "learning": [
+      47,
+      56
+     ],
+     "episodes)": [
+      48,
+      57
+     ],
+     "and": [
+      49,
+      71,
+      95
+     ],
+     "lag": [
+      50
+     ],
+     "(less": [
+      51
+     ],
+     "more": [
+      54
+     ],
+     "were": [
+      58,
+      61
+     ],
+     "examined,": [
+      59
+     ],
+     "as": [
+      60,
+      87
+     ],
+     "expanding": [
+      62
+     ],
+     "interstudy": [
+      63
+     ],
+     "interval": [
+      64,
+      73,
+      89
+     ],
+     "(ISI)": [
+      65
+     ],
+     "effects.": [
+      66
+     ],
+     "Analyses": [
+      67
+     ],
+     "suggest": [
+      68
+     ],
+     "ISI": [
+      70,
+      82
+     ],
+     "retention": [
+      72,
+      85,
+      88
+     ],
+     "operate": [
+      74
+     ],
+     "jointly": [
+      75
+     ],
+     "affect": [
+      77
+     ],
+     "final-test": [
+      78
+     ],
+     "retention;": [
+      79
+     ],
+     "specifically,": [
+      80
+     ],
+     "producing": [
+      83
+     ],
+     "maximal": [
+      84
+     ],
+     "increased": [
+      86
+     ],
+     "increased.": [
+      90
+     ],
+     "Areas": [
+      91
+     ],
+     "needing": [
+      92
+     ],
+     "future": [
+      93
+     ],
+     "research": [
+      94
+     ],
+     "theoretical": [
+      96
+     ],
+     "implications": [
+      97
+     ],
+     "are": [
+      98
+     ],
+     "discussed.": [
+      99
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5071554223",
+       "display_name": "Nicholas J. Cepeda",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Nicholas J. Cepeda",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of California, San Diego, CA, USA. ncepeda@psy.ucsd.edu",
+       "University of California-San Diego, CA, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California, San Diego, CA, USA. ncepeda@psy.ucsd.edu",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of California-San Diego, CA, US",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5008952472",
+       "display_name": "Harold Pashler",
+       "orcid": "https://orcid.org/0000-0003-3644-4909",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3644-4909"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I188538660",
+        "display_name": "University of Colorado Boulder",
+        "ror": "https://ror.org/02ttsq026",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Harold Pashler",
+      "raw_affiliation_strings": [
+       "Department of Psychology , University of California , San Diego ;",
+       "University of Colorado , Boulder",
+       "Department of Psychology, University of California, San Diego, CA, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology , University of California , San Diego ;",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Colorado , Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California, San Diego, CA, US",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5090905459",
+       "display_name": "Edward Vul",
+       "orcid": "https://orcid.org/0000-0002-6217-1273",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6217-1273"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I188538660",
+        "display_name": "University of Colorado Boulder",
+        "ror": "https://ror.org/02ttsq026",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Edward Vul",
+      "raw_affiliation_strings": [
+       "Department of Psychology , University of California , San Diego ;",
+       "University of Colorado , Boulder",
+       "Department of Psychology, University of California, San Diego, CA, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology , University of California , San Diego ;",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Colorado , Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California, San Diego, CA, US",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5068581901",
+       "display_name": "John Timothy Wixted",
+       "orcid": "https://orcid.org/0000-0001-6282-5479",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6282-5479"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I2613432",
+        "display_name": "University of South Florida",
+        "ror": "https://ror.org/032db5x82",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I2613432"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "John T. Wixted",
+      "raw_affiliation_strings": [
+       "Department of Psychology , University of California , San Diego ;",
+       "University of South Florida University of California , San Diego",
+       "Department of Psychology, University of California, San Diego, CA, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology , University of California , San Diego ;",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of South Florida University of California , San Diego",
+        "institution_ids": [
+         "https://openalex.org/I2613432",
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California, San Diego, CA, US",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5038433616",
+       "display_name": "Doug Rohrer",
+       "orcid": "https://orcid.org/0000-0002-0059-545X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0059-545X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I188538660",
+        "display_name": "University of Colorado Boulder",
+        "ror": "https://ror.org/02ttsq026",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2613432",
+        "display_name": "University of South Florida",
+        "ror": "https://ror.org/032db5x82",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I2613432"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Doug Rohrer",
+      "raw_affiliation_strings": [
+       "Department of Psychology , University of South Florida",
+       "University of Colorado , Boulder",
+       "Department of Psychology, University of South Florida, Tampa, FL, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology , University of South Florida",
+        "institution_ids": [
+         "https://openalex.org/I2613432"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Colorado , Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, University of South Florida, Tampa, FL, US",
+        "institution_ids": [
+         "https://openalex.org/I2613432"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1037/0033-2909.132.3.354",
+     "doi": "https://doi.org/10.1037/0033-2909.132.3.354",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1037/0033-2909.132.3.354",
+     "pdf_url": "https://escholarship.org/content/qt3rr6q10c/qt3rr6q10c.pdf?t=lnr1h0",
+     "source": {
+      "id": "https://openalex.org/S75627607",
+      "display_name": "Psychological Bulletin",
+      "issn_l": "0033-2909",
+      "issn": [
+       "0033-2909",
+       "1939-1455"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-a-star",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-a",
+       "erih-plus",
+       "jufo-3",
+       "ki-jl-2",
+       "medline",
+       "norway-2",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320262",
+      "host_organization_name": "American Psychological Association",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320262"
+      ],
+      "host_organization_lineage_names": [
+       "American Psychological Association"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Psychological Bulletin",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2913048694",
+    "doi": "https://doi.org/10.1002/acp.3533",
+    "title": "A meta\u2010analysis of the effects of acute alcohol intoxication on witness recall",
+    "display_name": "A meta\u2010analysis of the effects of acute alcohol intoxication on witness recall",
+    "publication_year": 2019,
+    "cited_by_count": 63,
+    "abstract_inverted_index": {
+     "Summary": [
+      0
+     ],
+     "There": [
+      1
+     ],
+     "is": [
+      2,
+      42
+     ],
+     "widespread": [
+      3
+     ],
+     "belief": [
+      4
+     ],
+     "in": [
+      5
+     ],
+     "the": [
+      6,
+      19,
+      31,
+      79,
+      94,
+      104,
+      109,
+      123,
+      132,
+      145,
+      149
+     ],
+     "legal": [
+      7
+     ],
+     "system": [
+      8
+     ],
+     "that": [
+      9,
+      27
+     ],
+     "alcohol": [
+      10,
+      22,
+      28,
+      69,
+      92,
+      107
+     ],
+     "impairs": [
+      11
+     ],
+     "witness": [
+      12,
+      24
+     ],
+     "testimony.": [
+      13
+     ],
+     "Nevertheless,": [
+      14
+     ],
+     "most": [
+      15
+     ],
+     "laboratory": [
+      16
+     ],
+     "studies": [
+      17
+     ],
+     "examining": [
+      18
+     ],
+     "effects": [
+      20
+     ],
+     "of": [
+      21,
+      33,
+      81,
+      91,
+      96,
+      106,
+      111,
+      134,
+      148
+     ],
+     "on": [
+      23,
+      78,
+      93,
+      108
+     ],
+     "testimony": [
+      25
+     ],
+     "suggest": [
+      26
+     ],
+     "may": [
+      29
+     ],
+     "affect": [
+      30
+     ],
+     "number": [
+      32,
+      80,
+      95
+     ],
+     "correct": [
+      34,
+      82,
+      112
+     ],
+     "but": [
+      35
+     ],
+     "not": [
+      36,
+      101
+     ],
+     "incorrect": [
+      37,
+      97
+     ],
+     "details": [
+      38,
+      83,
+      98,
+      113
+     ],
+     "recalled.": [
+      39
+     ],
+     "However,": [
+      40
+     ],
+     "it": [
+      41
+     ],
+     "difficult": [
+      43
+     ],
+     "to": [
+      44,
+      63
+     ],
+     "draw": [
+      45
+     ],
+     "conclusions": [
+      46
+     ],
+     "because": [
+      47
+     ],
+     "sample": [
+      48
+     ],
+     "sizes,": [
+      49
+     ],
+     "testing": [
+      50
+     ],
+     "paradigms,": [
+      51
+     ],
+     "and": [
+      52,
+      74,
+      129,
+      131
+     ],
+     "recall": [
+      53,
+      110,
+      139
+     ],
+     "measures": [
+      54
+     ],
+     "vary": [
+      55
+     ],
+     "between": [
+      56,
+      127
+     ],
+     "individual": [
+      57
+     ],
+     "studies.": [
+      58
+     ],
+     "We": [
+      59,
+      67,
+      143
+     ],
+     "conducted": [
+      60
+     ],
+     "a": [
+      61,
+      72
+     ],
+     "meta\u2010analysis": [
+      62
+     ],
+     "address": [
+      64
+     ],
+     "this": [
+      65
+     ],
+     "issue.": [
+      66
+     ],
+     "found": [
+      68
+     ],
+     "intoxication": [
+      70,
+      121
+     ],
+     "had": [
+      71
+     ],
+     "significant": [
+      73
+     ],
+     "moderate": [
+      75
+     ],
+     "sized": [
+      76
+     ],
+     "effect": [
+      77,
+      90,
+      105
+     ],
+     "recalled": [
+      84,
+      99
+     ],
+     "(": [
+      85
+     ],
+     "g": [
+      86
+     ],
+     "=": [
+      87
+     ],
+     "0.40).": [
+      88
+     ],
+     "The": [
+      89
+     ],
+     "was": [
+      100,
+      114
+     ],
+     "significant.": [
+      102
+     ],
+     "Further,": [
+      103
+     ],
+     "significantly": [
+      115
+     ],
+     "moderated": [
+      116
+     ],
+     "by": [
+      117
+     ],
+     "multiple": [
+      118
+     ],
+     "factors": [
+      119
+     ],
+     "like": [
+      120
+     ],
+     "level,": [
+      122
+     ],
+     "retention": [
+      124
+     ],
+     "interval": [
+      125
+     ],
+     "length": [
+      126
+     ],
+     "encoding": [
+      128
+     ],
+     "recall,": [
+      130
+     ],
+     "types": [
+      133
+     ],
+     "questions": [
+      135
+     ],
+     "asked": [
+      136
+     ],
+     "(i.e.,": [
+      137
+     ],
+     "free": [
+      138
+     ],
+     "vs.": [
+      140
+     ],
+     "cued": [
+      141
+     ],
+     "recall).": [
+      142
+     ],
+     "discuss": [
+      144
+     ],
+     "applied": [
+      146
+     ],
+     "implications": [
+      147
+     ],
+     "results.": [
+      150
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5082243361",
+       "display_name": "Theo Jores",
+       "orcid": "https://orcid.org/0000-0002-9892-9701",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9892-9701"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I79619799",
+        "display_name": "University of Birmingham",
+        "ror": "https://ror.org/03angcq70",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I79619799"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Theo Jores",
+      "raw_affiliation_strings": [
+       "School of Psychology, Centre for Applied Psychology, University of Birmingham, Birmingham, UK"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-9892-9701",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Psychology, Centre for Applied Psychology, University of Birmingham, Birmingham, UK",
+        "institution_ids": [
+         "https://openalex.org/I79619799"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5056443958",
+       "display_name": "Melissa Fay Colloff",
+       "orcid": "https://orcid.org/0000-0001-6401-4872",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6401-4872"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I79619799",
+        "display_name": "University of Birmingham",
+        "ror": "https://ror.org/03angcq70",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I79619799"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Melissa F. Colloff",
+      "raw_affiliation_strings": [
+       "School of Psychology, Centre for Applied Psychology, University of Birmingham, Birmingham, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Psychology, Centre for Applied Psychology, University of Birmingham, Birmingham, UK",
+        "institution_ids": [
+         "https://openalex.org/I79619799"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5075987185",
+       "display_name": "Lilian Kloft",
+       "orcid": "https://orcid.org/0000-0002-4615-9581",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4615-9581"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I34352273",
+        "display_name": "Maastricht University",
+        "ror": "https://ror.org/02jz4aj89",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I34352273"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Lilian Kloft",
+      "raw_affiliation_strings": [
+       "Faculty of Psychology and Neuroscience, Maastricht University, Maastricht, The Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Psychology and Neuroscience, Maastricht University, Maastricht, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I34352273"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5036890959",
+       "display_name": "Harriet Smailes",
+       "orcid": "https://orcid.org/0000-0003-0430-7053",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0430-7053"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I153648349",
+        "display_name": "University of Leicester",
+        "ror": "https://ror.org/04h699437",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I153648349"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Harriet Smailes",
+      "raw_affiliation_strings": [
+       "Department of Neuroscience, Psychology and Behavior, University of Leicester, Leicester, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neuroscience, Psychology and Behavior, University of Leicester, Leicester, UK",
+        "institution_ids": [
+         "https://openalex.org/I153648349"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5014181900",
+       "display_name": "Heather D. Flowe",
+       "orcid": "https://orcid.org/0000-0001-5343-5313",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5343-5313"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I79619799",
+        "display_name": "University of Birmingham",
+        "ror": "https://ror.org/03angcq70",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I79619799"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Heather D. Flowe",
+      "raw_affiliation_strings": [
+       "School of Psychology, Centre for Applied Psychology, University of Birmingham, Birmingham, UK"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-5343-5313",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Psychology, Centre for Applied Psychology, University of Birmingham, Birmingham, UK",
+        "institution_ids": [
+         "https://openalex.org/I79619799"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1002/acp.3533",
+     "doi": "https://doi.org/10.1002/acp.3533",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1002/acp.3533",
+     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/acp.3533",
+     "source": {
+      "id": "https://openalex.org/S91386000",
+      "display_name": "Applied Cognitive Psychology",
+      "issn_l": "0888-4080",
+      "issn": [
+       "0888-4080",
+       "1099-0720"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-b",
+       "cwts-core",
+       "dongbi-c",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Applied Cognitive Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4401873135",
+    "doi": "https://doi.org/10.2196/57760",
+    "title": "Spaced Digital Education for Health Professionals: Systematic Review and Meta-Analysis",
+    "display_name": "Spaced Digital Education for Health Professionals: Systematic Review and Meta-Analysis",
+    "publication_year": 2024,
+    "cited_by_count": 73,
+    "abstract_inverted_index": {
+     "Background": [
+      0
+     ],
+     "Spaced": [
+      1,
+      21,
+      224,
+      251,
+      284,
+      308,
+      320
+     ],
+     "digital": [
+      2,
+      5,
+      22,
+      52,
+      124,
+      180,
+      285,
+      309,
+      321,
+      353
+     ],
+     "education": [
+      3,
+      23,
+      53,
+      125,
+      175,
+      226,
+      232,
+      253,
+      261,
+      310,
+      322,
+      354
+     ],
+     "applies": [
+      4
+     ],
+     "tools": [
+      6
+     ],
+     "to": [
+      7,
+      25,
+      46,
+      109,
+      229,
+      258,
+      289
+     ],
+     "deliver": [
+      8
+     ],
+     "educational": [
+      9
+     ],
+     "content": [
+      10
+     ],
+     "via": [
+      11
+     ],
+     "multiple,": [
+      12
+     ],
+     "repeated": [
+      13
+     ],
+     "learning": [
+      14
+     ],
+     "sessions": [
+      15
+     ],
+     "separated": [
+      16
+     ],
+     "by": [
+      17,
+      156
+     ],
+     "prespecified": [
+      18
+     ],
+     "time": [
+      19
+     ],
+     "intervals.": [
+      20
+     ],
+     "appears": [
+      24
+     ],
+     "promote": [
+      26
+     ],
+     "acquisition": [
+      27
+     ],
+     "and": [
+      28,
+      34,
+      57,
+      66,
+      77,
+      85,
+      100,
+      103,
+      120,
+      150,
+      207,
+      264,
+      314,
+      334,
+      341,
+      358
+     ],
+     "long-term": [
+      29
+     ],
+     "retention": [
+      30
+     ],
+     "of": [
+      31,
+      42,
+      50,
+      82,
+      94,
+      152,
+      220,
+      249,
+      277,
+      306,
+      351
+     ],
+     "knowledge,": [
+      32,
+      62,
+      327
+     ],
+     "skills,": [
+      33,
+      63
+     ],
+     "change": [
+      35,
+      67,
+      204,
+      338
+     ],
+     "in": [
+      36,
+      54,
+      68,
+      325,
+      329,
+      339,
+      356
+     ],
+     "clinical": [
+      37,
+      69,
+      202,
+      281,
+      336
+     ],
+     "behavior.": [
+      38,
+      70
+     ],
+     "Objective": [
+      39
+     ],
+     "The": [
+      40
+     ],
+     "aim": [
+      41
+     ],
+     "this": [
+      43
+     ],
+     "review": [
+      44,
+      73
+     ],
+     "was": [
+      45,
+      227,
+      256,
+      287
+     ],
+     "assess": [
+      47
+     ],
+     "the": [
+      48,
+      317,
+      349
+     ],
+     "effectiveness": [
+      49
+     ],
+     "spaced": [
+      51,
+      123,
+      129,
+      173,
+      179,
+      352
+     ],
+     "improving": [
+      55,
+      326,
+      331
+     ],
+     "pre-": [
+      56,
+      138,
+      340
+     ],
+     "postregistration": [
+      58,
+      140,
+      342
+     ],
+     "health": [
+      59,
+      141,
+      343,
+      360
+     ],
+     "care": [
+      60,
+      142,
+      344
+     ],
+     "professionals\u2019": [
+      61
+     ],
+     "attitudes,": [
+      64
+     ],
+     "satisfaction,": [
+      65
+     ],
+     "Methods": [
+      71
+     ],
+     "This": [
+      72
+     ],
+     "followed": [
+      74
+     ],
+     "Cochrane\u2019s": [
+      75
+     ],
+     "methodology": [
+      76
+     ],
+     "PRISMA": [
+      78
+     ],
+     "(Preferred": [
+      79
+     ],
+     "Reporting": [
+      80
+     ],
+     "Items": [
+      81
+     ],
+     "Systematic": [
+      83
+     ],
+     "Reviews": [
+      84
+     ],
+     "Meta-Analyses)": [
+      86
+     ],
+     "reporting": [
+      87
+     ],
+     "guidelines.": [
+      88
+     ],
+     "We": [
+      89,
+      112,
+      168
+     ],
+     "searched": [
+      90
+     ],
+     "MEDLINE,": [
+      91
+     ],
+     "Embase,": [
+      92
+     ],
+     "Web": [
+      93
+     ],
+     "Science,": [
+      95
+     ],
+     "ERIC,": [
+      96
+     ],
+     "PsycINFO,": [
+      97
+     ],
+     "CINAHL,": [
+      98
+     ],
+     "CENTRAL,": [
+      99
+     ],
+     "ProQuest": [
+      101
+     ],
+     "Dissertation": [
+      102
+     ],
+     "Theses": [
+      104
+     ],
+     "databases": [
+      105
+     ],
+     "from": [
+      106
+     ],
+     "January": [
+      107
+     ],
+     "1990": [
+      108
+     ],
+     "February": [
+      110
+     ],
+     "2023.": [
+      111
+     ],
+     "included": [
+      113,
+      169
+     ],
+     "randomized": [
+      114
+     ],
+     "controlled": [
+      115
+     ],
+     "trials": [
+      116
+     ],
+     "(RCTs),": [
+      117
+     ],
+     "cluster": [
+      118
+     ],
+     "RCTs,": [
+      119
+     ],
+     "quasi-RCTs": [
+      121
+     ],
+     "comparing": [
+      122
+     ],
+     "with": [
+      126,
+      316
+     ],
+     "nonspaced": [
+      127
+     ],
+     "education,": [
+      128,
+      131
+     ],
+     "nondigital": [
+      130
+     ],
+     "traditional": [
+      132
+     ],
+     "learning,": [
+      133
+     ],
+     "or": [
+      134,
+      139,
+      178,
+      189,
+      216
+     ],
+     "no": [
+      135,
+      265
+     ],
+     "intervention": [
+      136,
+      266
+     ],
+     "for": [
+      137,
+      233,
+      279,
+      292
+     ],
+     "professionals.": [
+      143,
+      345
+     ],
+     "Study": [
+      144
+     ],
+     "selection,": [
+      145
+     ],
+     "data": [
+      146
+     ],
+     "extraction,": [
+      147
+     ],
+     "study": [
+      148
+     ],
+     "quality,": [
+      149
+     ],
+     "certainty": [
+      151,
+      248,
+      276,
+      305
+     ],
+     "evidence": [
+      153
+     ],
+     "were": [
+      154,
+      161
+     ],
+     "assessed": [
+      155,
+      187
+     ],
+     "2": [
+      157,
+      190
+     ],
+     "independent": [
+      158
+     ],
+     "reviewers.": [
+      159
+     ],
+     "Meta-analyses": [
+      160
+     ],
+     "conducted": [
+      162
+     ],
+     "using": [
+      163
+     ],
+     "random": [
+      164
+     ],
+     "effect": [
+      165
+     ],
+     "models.": [
+      166
+     ],
+     "Results": [
+      167
+     ],
+     "23": [
+      170
+     ],
+     "studies": [
+      171,
+      186,
+      212
+     ],
+     "evaluating": [
+      172
+     ],
+     "online": [
+      174,
+      225,
+      231,
+      252,
+      260
+     ],
+     "(n=17,": [
+      176
+     ],
+     "74%)": [
+      177
+     ],
+     "simulation": [
+      181,
+      286,
+      291
+     ],
+     "(n=6,": [
+      182
+     ],
+     "26%)": [
+      183
+     ],
+     "interventions.": [
+      184
+     ],
+     "Most": [
+      185,
+      211
+     ],
+     "1": [
+      188
+     ],
+     "outcomes,": [
+      191
+     ],
+     "including": [
+      192
+     ],
+     "knowledge": [
+      193,
+      235
+     ],
+     "(n=15,": [
+      194
+     ],
+     "65%),": [
+      195
+     ],
+     "skills": [
+      196,
+      295,
+      333
+     ],
+     "(n=9,": [
+      197,
+      236
+     ],
+     "39%),": [
+      198
+     ],
+     "attitudes": [
+      199
+     ],
+     "(n=8,": [
+      200,
+      205
+     ],
+     "35%),": [
+      201,
+      206
+     ],
+     "behavior": [
+      203,
+      282,
+      337
+     ],
+     "satisfaction": [
+      208,
+      315
+     ],
+     "(n=7,": [
+      209
+     ],
+     "30%).": [
+      210
+     ],
+     "had": [
+      213
+     ],
+     "an": [
+      214
+     ],
+     "unclear": [
+      215
+     ],
+     "a": [
+      217
+     ],
+     "high": [
+      218
+     ],
+     "risk": [
+      219
+     ],
+     "bias": [
+      221
+     ],
+     "(n=19,": [
+      222
+     ],
+     "83%).": [
+      223
+     ],
+     "superior": [
+      228,
+      257,
+      288
+     ],
+     "massed": [
+      230,
+      259,
+      290
+     ],
+     "postintervention": [
+      234,
+      280,
+      293
+     ],
+     "39%;": [
+      237
+     ],
+     "standardized": [
+      238
+     ],
+     "mean": [
+      239
+     ],
+     "difference": [
+      240
+     ],
+     "[SMD]": [
+      241
+     ],
+     "0.32,": [
+      242
+     ],
+     "95%": [
+      243,
+      271,
+      300
+     ],
+     "CI": [
+      244,
+      272,
+      301
+     ],
+     "0.13-0.51,": [
+      245
+     ],
+     "I2=66%,": [
+      246
+     ],
+     "moderate": [
+      247,
+      275
+     ],
+     "evidence).": [
+      250,
+      307
+     ],
+     "(n=3,": [
+      254
+     ],
+     "13%)": [
+      255
+     ],
+     "(n=2,": [
+      262,
+      296
+     ],
+     "9%)": [
+      263
+     ],
+     "(n=1,": [
+      267
+     ],
+     "4%;": [
+      268
+     ],
+     "SMD": [
+      269,
+      298
+     ],
+     "0.67,": [
+      270
+     ],
+     "0.43-0.91,": [
+      273
+     ],
+     "I2=5%,": [
+      274
+     ],
+     "evidence)": [
+      278
+     ],
+     "change.": [
+      283
+     ],
+     "surgical": [
+      294,
+      332
+     ],
+     "9%;": [
+      297
+     ],
+     "1.15,": [
+      299
+     ],
+     "0.34-1.96,": [
+      302
+     ],
+     "I2=74%,": [
+      303
+     ],
+     "low": [
+      304
+     ],
+     "positively": [
+      311
+     ],
+     "impacted": [
+      312
+     ],
+     "confidence": [
+      313
+     ],
+     "intervention.": [
+      318
+     ],
+     "Conclusions": [
+      319
+     ],
+     "is": [
+      323
+     ],
+     "effective": [
+      324
+     ],
+     "particularly": [
+      328
+     ],
+     "substantially": [
+      330
+     ],
+     "promoting": [
+      335
+     ],
+     "Our": [
+      346
+     ],
+     "findings": [
+      347
+     ],
+     "support": [
+      348
+     ],
+     "use": [
+      350
+     ],
+     "interventions": [
+      355
+     ],
+     "undergraduate": [
+      357
+     ],
+     "postgraduate": [
+      359
+     ],
+     "profession": [
+      361
+     ],
+     "education.": [
+      362
+     ],
+     "Trial": [
+      363,
+      367
+     ],
+     "Registration:": [
+      364
+     ],
+     "PROSPERO": [
+      365,
+      369
+     ],
+     "CRD42021241969;": [
+      366,
+      370
+     ],
+     "Registration": [
+      368
+     ],
+     "https://www.crd.york.ac.uk/prospero/display_record.php?RecordID=241969": [
+      371
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5040937416",
+       "display_name": "Laura Martinengo",
+       "orcid": "https://orcid.org/0000-0003-3539-7207",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3539-7207"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165932596",
+        "display_name": "National University of Singapore",
+        "ror": "https://ror.org/01tgyzw49",
+        "country_code": "SG",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165932596"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I172675005",
+        "display_name": "Nanyang Technological University",
+        "ror": "https://ror.org/02e7b5302",
+        "country_code": "SG",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I172675005"
+        ]
+       }
+      ],
+      "countries": [
+       "SG"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Laura Martinengo",
+      "raw_affiliation_strings": [
+       "Centre for Behavioural and Implementation Sciences Interventions, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore",
+       "Lee Kong Chian School of Medicine, Nanyang Technological University Singapore, Singapore, Singapore"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-3539-7207",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Centre for Behavioural and Implementation Sciences Interventions, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore",
+        "institution_ids": [
+         "https://openalex.org/I165932596"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Lee Kong Chian School of Medicine, Nanyang Technological University Singapore, Singapore, Singapore",
+        "institution_ids": [
+         "https://openalex.org/I172675005"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5080816381",
+       "display_name": "Matthew Song Peng Ng",
+       "orcid": "https://orcid.org/0000-0002-7282-9243",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7282-9243"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165932596",
+        "display_name": "National University of Singapore",
+        "ror": "https://ror.org/01tgyzw49",
+        "country_code": "SG",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165932596"
+        ]
+       }
+      ],
+      "countries": [
+       "SG"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Matthew Song Peng Ng",
+      "raw_affiliation_strings": [
+       "Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-7282-9243",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore",
+        "institution_ids": [
+         "https://openalex.org/I165932596"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5047461111",
+       "display_name": "Tony De Rong Ng",
+       "orcid": "https://orcid.org/0009-0001-1171-643X",
+       "observed_orcids": [
+        "https://orcid.org/0009-0001-1171-643X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165932596",
+        "display_name": "National University of Singapore",
+        "ror": "https://ror.org/01tgyzw49",
+        "country_code": "SG",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165932596"
+        ]
+       }
+      ],
+      "countries": [
+       "SG"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Tony De Rong Ng",
+      "raw_affiliation_strings": [
+       "Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0001-1171-643X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore",
+        "institution_ids": [
+         "https://openalex.org/I165932596"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5026915531",
+       "display_name": "Yi-Ian Ang",
+       "orcid": "https://orcid.org/0009-0005-2553-3529",
+       "observed_orcids": [
+        "https://orcid.org/0009-0005-2553-3529"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165932596",
+        "display_name": "National University of Singapore",
+        "ror": "https://ror.org/01tgyzw49",
+        "country_code": "SG",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165932596"
+        ]
+       }
+      ],
+      "countries": [
+       "SG"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Yi-Ian Ang",
+      "raw_affiliation_strings": [
+       "Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0005-2553-3529",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore",
+        "institution_ids": [
+         "https://openalex.org/I165932596"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5030704913",
+       "display_name": "Ahmad Ishqi Jabir",
+       "orcid": "https://orcid.org/0000-0001-6864-9867",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6864-9867"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I172675005",
+        "display_name": "Nanyang Technological University",
+        "ror": "https://ror.org/02e7b5302",
+        "country_code": "SG",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I172675005"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4405254519",
+        "display_name": "Singapore-ETH Centre",
+        "ror": "https://ror.org/01x6n3581",
+        "country_code": "SG",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I2799323385",
+         "https://openalex.org/I35440088",
+         "https://openalex.org/I4405254519"
+        ]
+       }
+      ],
+      "countries": [
+       "SG"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Ahmad Ishqi Jabir",
+      "raw_affiliation_strings": [
+       "Future Health Technologies, Singapore-ETH Centre, Campus for Research Excellence And Technological Enterprise, Singapore, Singapore",
+       "Lee Kong Chian School of Medicine, Nanyang Technological University Singapore, Singapore, Singapore"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-6864-9867",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Future Health Technologies, Singapore-ETH Centre, Campus for Research Excellence And Technological Enterprise, Singapore, Singapore",
+        "institution_ids": [
+         "https://openalex.org/I4405254519"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Lee Kong Chian School of Medicine, Nanyang Technological University Singapore, Singapore, Singapore",
+        "institution_ids": [
+         "https://openalex.org/I172675005"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5085377634",
+       "display_name": "Bhone Myint Kyaw",
+       "orcid": "https://orcid.org/0000-0002-1750-0330",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1750-0330"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I172675005",
+        "display_name": "Nanyang Technological University",
+        "ror": "https://ror.org/02e7b5302",
+        "country_code": "SG",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I172675005"
+        ]
+       }
+      ],
+      "countries": [
+       "SG"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Bhone Myint Kyaw",
+      "raw_affiliation_strings": [
+       "Nanyang Technological University Singapore, Singapore, Singapore"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-1750-0330",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Nanyang Technological University Singapore, Singapore, Singapore",
+        "institution_ids": [
+         "https://openalex.org/I172675005"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5055701476",
+       "display_name": "Lorainne Tudor Car",
+       "orcid": "https://orcid.org/0000-0001-8414-7664",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8414-7664"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I172675005",
+        "display_name": "Nanyang Technological University",
+        "ror": "https://ror.org/02e7b5302",
+        "country_code": "SG",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I172675005"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I47508984",
+        "display_name": "Imperial College London",
+        "ror": "https://ror.org/041kmwe10",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I47508984"
+        ]
+       }
+      ],
+      "countries": [
+       "GB",
+       "SG"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Lorainne Tudor Car",
+      "raw_affiliation_strings": [
+       "Department of Primary Care and Public Health, School of Public Health, Imperial College London, London, United Kingdom",
+       "Lee Kong Chian School of Medicine, Nanyang Technological University Singapore, Singapore, Singapore"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-8414-7664",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Primary Care and Public Health, School of Public Health, Imperial College London, London, United Kingdom",
+        "institution_ids": [
+         "https://openalex.org/I47508984"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Lee Kong Chian School of Medicine, Nanyang Technological University Singapore, Singapore, Singapore",
+        "institution_ids": [
+         "https://openalex.org/I172675005"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.2196/57760",
+     "doi": "https://doi.org/10.2196/57760",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.2196/57760",
+     "pdf_url": "https://www.jmir.org/2024/1/e57760/PDF",
+     "source": {
+      "id": "https://openalex.org/S17147534",
+      "display_name": "Journal of Medical Internet Research",
+      "issn_l": "1438-8871",
+      "issn": [
+       "1438-8871",
+       "1439-4456"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "dongbi-b",
+       "doyens",
+       "fnege-4",
+       "jufo-2",
+       "ki-jl-2",
+       "medline",
+       "norway-2",
+       "oarl",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320608",
+      "host_organization_name": "JMIR Publications",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320608"
+      ],
+      "host_organization_lineage_names": [
+       "JMIR Publications"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Medical Internet Research",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3141509911",
+    "doi": "https://doi.org/10.3389/feduc.2021.581216",
+    "title": "A Meta-Analysis of Ten Learning Techniques",
+    "display_name": "A Meta-Analysis of Ten Learning Techniques",
+    "publication_year": 2021,
+    "cited_by_count": 129,
+    "abstract_inverted_index": {
+     "This": [
+      0
+     ],
+     "article": [
+      1
+     ],
+     "outlines": [
+      2
+     ],
+     "a": [
+      3
+     ],
+     "meta-analysis": [
+      4,
+      68
+     ],
+     "of": [
+      5,
+      31,
+      64,
+      97
+     ],
+     "the": [
+      6,
+      44,
+      62,
+      67,
+      95,
+      106
+     ],
+     "10": [
+      7
+     ],
+     "learning": [
+      8
+     ],
+     "techniques": [
+      9,
+      36
+     ],
+     "identified": [
+      10
+     ],
+     "in": [
+      11,
+      66
+     ],
+     "Dunlosky": [
+      12
+     ],
+     "et": [
+      13
+     ],
+     "al.": [
+      14
+     ],
+     "(2013a),": [
+      15
+     ],
+     "and": [
+      16,
+      40,
+      43,
+      55,
+      76,
+      87,
+      105,
+      135
+     ],
+     "is": [
+      17,
+      78,
+      118
+     ],
+     "based": [
+      18,
+      70
+     ],
+     "on": [
+      19,
+      71
+     ],
+     "242": [
+      20
+     ],
+     "studies,": [
+      21
+     ],
+     "1,619": [
+      22
+     ],
+     "effects,": [
+      23
+     ],
+     "169,179": [
+      24
+     ],
+     "unique": [
+      25
+     ],
+     "participants,": [
+      26
+     ],
+     "with": [
+      27,
+      49
+     ],
+     "an": [
+      28
+     ],
+     "overall": [
+      29
+     ],
+     "mean": [
+      30
+     ],
+     "0.56.": [
+      32
+     ],
+     "The": [
+      33
+     ],
+     "most": [
+      34
+     ],
+     "effective": [
+      35,
+      46
+     ],
+     "are": [
+      37,
+      53
+     ],
+     "Distributed": [
+      38
+     ],
+     "Practice": [
+      39,
+      41
+     ],
+     "Testing": [
+      42
+     ],
+     "least": [
+      45
+     ],
+     "(but": [
+      47
+     ],
+     "still": [
+      48
+     ],
+     "relatively": [
+      50
+     ],
+     "high": [
+      51
+     ],
+     "effects)": [
+      52
+     ],
+     "Underlining": [
+      54
+     ],
+     "Summarization.": [
+      56
+     ],
+     "A": [
+      57
+     ],
+     "major": [
+      58
+     ],
+     "limitation": [
+      59
+     ],
+     "was": [
+      60
+     ],
+     "that": [
+      61,
+      120
+     ],
+     "majority": [
+      63
+     ],
+     "studies": [
+      65
+     ],
+     "were": [
+      69,
+      108
+     ],
+     "surface": [
+      72
+     ],
+     "or": [
+      73,
+      99,
+      102
+     ],
+     "factual": [
+      74
+     ],
+     "outcomes,": [
+      75
+     ],
+     "there": [
+      77
+     ],
+     "caution": [
+      79
+     ],
+     "needed": [
+      80
+     ],
+     "when": [
+      81
+     ],
+     "applying": [
+      82
+     ],
+     "these": [
+      83
+     ],
+     "findings": [
+      84
+     ],
+     "to": [
+      85,
+      125
+     ],
+     "deeper": [
+      86
+     ],
+     "more": [
+      88,
+      121
+     ],
+     "relational": [
+      89
+     ],
+     "outcomes.": [
+      90
+     ],
+     "Other": [
+      91
+     ],
+     "important": [
+      92
+     ],
+     "moderators": [
+      93
+     ],
+     "included": [
+      94
+     ],
+     "presence": [
+      96
+     ],
+     "feedback": [
+      98
+     ],
+     "not,": [
+      100
+     ],
+     "near": [
+      101
+     ],
+     "far": [
+      103
+     ],
+     "transfer,": [
+      104
+     ],
+     "effects": [
+      107
+     ],
+     "much": [
+      109
+     ],
+     "greater": [
+      110
+     ],
+     "for": [
+      111
+     ],
+     "lower": [
+      112
+     ],
+     "than": [
+      113
+     ],
+     "higher": [
+      114
+     ],
+     "ability": [
+      115
+     ],
+     "students.": [
+      116
+     ],
+     "It": [
+      117
+     ],
+     "recommended": [
+      119
+     ],
+     "attention": [
+      122
+     ],
+     "be": [
+      123,
+      133,
+      140
+     ],
+     "paid": [
+      124
+     ],
+     "when,": [
+      126
+     ],
+     "under": [
+      127
+     ],
+     "what": [
+      128
+     ],
+     "conditions,": [
+      129
+     ],
+     "each": [
+      130
+     ],
+     "technique": [
+      131
+     ],
+     "can": [
+      132,
+      138
+     ],
+     "used,": [
+      134
+     ],
+     "how": [
+      136
+     ],
+     "they": [
+      137
+     ],
+     "best": [
+      139
+     ],
+     "taught.": [
+      141
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5013827511",
+       "display_name": "Gregory M. Donoghue",
+       "orcid": "https://orcid.org/0000-0002-2007-3077",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2007-3077"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165779595",
+        "display_name": "The University of Melbourne",
+        "ror": "https://ror.org/01ej9dk98",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165779595"
+        ]
+       }
+      ],
+      "countries": [
+       "AU"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Gregory M. Donoghue",
+      "raw_affiliation_strings": [
+       "Science of Learning Research Centre, Graduate School of Education, University of Melbourne, Melbourne, VIC, Australia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Science of Learning Research Centre, Graduate School of Education, University of Melbourne, Melbourne, VIC, Australia",
+        "institution_ids": [
+         "https://openalex.org/I165779595"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5035981377",
+       "display_name": "John Hattie",
+       "orcid": "https://orcid.org/0000-0003-3873-4854",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3873-4854"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165779595",
+        "display_name": "The University of Melbourne",
+        "ror": "https://ror.org/01ej9dk98",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165779595"
+        ]
+       }
+      ],
+      "countries": [
+       "AU"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "John A. C. Hattie",
+      "raw_affiliation_strings": [
+       "Science of Learning Research Centre, Graduate School of Education, University of Melbourne, Melbourne, VIC, Australia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Science of Learning Research Centre, Graduate School of Education, University of Melbourne, Melbourne, VIC, Australia",
+        "institution_ids": [
+         "https://openalex.org/I165779595"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/feduc.2021.581216",
+     "doi": "https://doi.org/10.3389/feduc.2021.581216",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/feduc.2021.581216",
+     "pdf_url": "https://www.frontiersin.org/articles/10.3389/feduc.2021.581216/pdf",
+     "source": {
+      "id": "https://openalex.org/S2596526815",
+      "display_name": "Frontiers in Education",
+      "issn_l": "2504-284X",
+      "issn": [
+       "2504-284X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "norway-1",
+       "poland-20",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Education",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

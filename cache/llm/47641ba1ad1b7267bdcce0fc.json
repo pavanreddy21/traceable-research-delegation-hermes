@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201f6-de93-78a3-a150-02911f9a2021",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795329285,
+ "model": "google/gemma-4-12B-it",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "```json\n{\"verdict\": \"not_supported\", \"passage\": \"[1]\", \"reason\": \"The source states that heavy media multitaskers were more susceptible to interference and performed worse at filtering out irrelevant stimuli, which contradicts the claim.\"}\n```",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 317,
+  "completion_tokens": 53,
+  "total_tokens": 370,
+  "prompt_tokens_details": {
+   "cached_tokens": 16
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.51
+}

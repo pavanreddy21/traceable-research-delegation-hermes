@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20205-b279-747a-b68a-aae27fee958c",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330257,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"not_supported\", \"passage\": 1, \"reason\": \"Passage 1 states the review found 839 assessments in 317 experiments, which reverses the numbers in the claim.\"}",
+    "reasoning_content": "We need answer. Need check claim: \"The review analyzed 317 assessments of distributed practice drawn from 839 experiments.\" Source passage [1]: \"This review found 839 assessments of distributed practice in 317 experiments located in 184 articles.\" Claim reverses numbers: 317 assessments drawn from 839 experiments. Source says 839 assessments in 317 experiments. So not supported, contradiction. Need JSON only. passage maybe 1. reason one sentence. Ensure verdict not_supported.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 318,
+  "completion_tokens": 144,
+  "total_tokens": 462,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 98
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.26
+}

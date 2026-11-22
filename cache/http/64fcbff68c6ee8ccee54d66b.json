@@ -1,0 +1,3633 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 225,
+   "db_response_time_ms": 118,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (heavy media multitaskers no difference attention failures to find association) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (heavy media multitaskers no difference attention failures to find association) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "heavy media multitaskers no difference attention failures to find association",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:heavy media multitaskers no difference attention failures to find association,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W3164873353",
+    "doi": "https://doi.org/10.1007/s10339-021-01029-2",
+    "title": "Decision-making, cognitive functions, impulsivity, and media multitasking expectancies in high versus low media multitaskers",
+    "display_name": "Decision-making, cognitive functions, impulsivity, and media multitasking expectancies in high versus low media multitaskers",
+    "publication_year": 2021,
+    "cited_by_count": 28,
+    "abstract_inverted_index": {
+     "In": [
+      0
+     ],
+     "several": [
+      1
+     ],
+     "studies,": [
+      2
+     ],
+     "individuals": [
+      3
+     ],
+     "who": [
+      4
+     ],
+     "reported": [
+      5,
+      192
+     ],
+     "to": [
+      6,
+      51,
+      142,
+      171,
+      208,
+      238,
+      250
+     ],
+     "frequently": [
+      7
+     ],
+     "multitask": [
+      8
+     ],
+     "with": [
+      9,
+      80,
+      206
+     ],
+     "different": [
+      10
+     ],
+     "media": [
+      11,
+      53,
+      57,
+      115,
+      189
+     ],
+     "displayed": [
+      12
+     ],
+     "reduced": [
+      13
+     ],
+     "cognitive": [
+      14,
+      25,
+      99
+     ],
+     "performance,": [
+      15
+     ],
+     "for": [
+      16,
+      29
+     ],
+     "example": [
+      17
+     ],
+     "in": [
+      18,
+      63,
+      76,
+      160,
+      224,
+      240,
+      253
+     ],
+     "fluid": [
+      19
+     ],
+     "intelligence": [
+      20
+     ],
+     "and": [
+      21,
+      39,
+      42,
+      74,
+      110,
+      118,
+      127,
+      165,
+      191,
+      200,
+      210
+     ],
+     "executive": [
+      22,
+      108,
+      211
+     ],
+     "functioning.": [
+      23
+     ],
+     "These": [
+      24
+     ],
+     "functions": [
+      26,
+      100
+     ],
+     "are": [
+      27
+     ],
+     "relevant": [
+      28
+     ],
+     "making": [
+      30
+     ],
+     "advantageous": [
+      31
+     ],
+     "decisions": [
+      32
+     ],
+     "under": [
+      33,
+      226,
+      230
+     ],
+     "both": [
+      34,
+      64
+     ],
+     "objective": [
+      35,
+      87,
+      231
+     ],
+     "risk": [
+      36,
+      44
+     ],
+     "(requiring": [
+      37,
+      45
+     ],
+     "reflection": [
+      38
+     ],
+     "strategical": [
+      40
+     ],
+     "planning)": [
+      41
+     ],
+     "ambiguous": [
+      43,
+      94,
+      227
+     ],
+     "learning": [
+      46
+     ],
+     "from": [
+      47
+     ],
+     "feedback).": [
+      48
+     ],
+     "Thus,": [
+      49
+     ],
+     "compared": [
+      50,
+      141
+     ],
+     "low": [
+      52
+     ],
+     "multitaskers": [
+      54,
+      58
+     ],
+     "(LMMs),": [
+      55
+     ],
+     "high": [
+      56
+     ],
+     "(HMMs)": [
+      59
+     ],
+     "may": [
+      60,
+      221,
+      234
+     ],
+     "perform": [
+      61
+     ],
+     "worse": [
+      62
+     ],
+     "types": [
+      65
+     ],
+     "of": [
+      66,
+      83,
+      113,
+      162,
+      255
+     ],
+     "decision": [
+      67
+     ],
+     "situations.": [
+      68
+     ],
+     "The": [
+      69,
+      213
+     ],
+     "current": [
+      70
+     ],
+     "study": [
+      71
+     ],
+     "investigated": [
+      72
+     ],
+     "HMMs": [
+      73,
+      126,
+      140,
+      155,
+      169,
+      183,
+      199,
+      220,
+      233,
+      247
+     ],
+     "LMMs": [
+      75,
+      129,
+      143,
+      201
+     ],
+     "a": [
+      77,
+      216
+     ],
+     "laboratory": [
+      78
+     ],
+     "setting": [
+      79
+     ],
+     "the": [
+      81,
+      89,
+      133,
+      147,
+      152
+     ],
+     "Game": [
+      82
+     ],
+     "Dice": [
+      84
+     ],
+     "Task": [
+      85,
+      92
+     ],
+     "(GDT;": [
+      86
+     ],
+     "risk),": [
+      88,
+      95
+     ],
+     "Iowa": [
+      90
+     ],
+     "Gambling": [
+      91
+     ],
+     "(IGT;": [
+      93
+     ],
+     "various": [
+      96
+     ],
+     "tests": [
+      97,
+      161
+     ],
+     "quantifying": [
+      98
+     ],
+     "(logical": [
+      101
+     ],
+     "reasoning,": [
+      102
+     ],
+     "working": [
+      103,
+      166
+     ],
+     "memory,": [
+      104
+     ],
+     "information": [
+      105,
+      173
+     ],
+     "processing,": [
+      106
+     ],
+     "general": [
+      107
+     ],
+     "functions),": [
+      109
+     ],
+     "self-report": [
+      111
+     ],
+     "measures": [
+      112
+     ],
+     "impulsivity,": [
+      114
+     ],
+     "multitasking": [
+      116,
+      190
+     ],
+     "expectancies,": [
+      117
+     ],
+     "problematic": [
+      119,
+      196
+     ],
+     "Internet": [
+      120,
+      197
+     ],
+     "use.": [
+      121,
+      198
+     ],
+     "From": [
+      122
+     ],
+     "182": [
+      123
+     ],
+     "participants,": [
+      124
+     ],
+     "25": [
+      125
+     ],
+     "19": [
+      128
+     ],
+     "were": [
+      130
+     ],
+     "identified": [
+      131
+     ],
+     "using": [
+      132
+     ],
+     "Media": [
+      134
+     ],
+     "Multitasking": [
+      135
+     ],
+     "Index.": [
+      136
+     ],
+     "Results": [
+      137
+     ],
+     "show": [
+      138
+     ],
+     "that": [
+      139,
+      219,
+      242
+     ],
+     "performed": [
+      144
+     ],
+     "weaker": [
+      145
+     ],
+     "on": [
+      146,
+      151
+     ],
+     "IGT": [
+      148
+     ],
+     "but": [
+      149,
+      176,
+      228
+     ],
+     "not": [
+      150,
+      180,
+      203,
+      229,
+      249
+     ],
+     "GDT.": [
+      153
+     ],
+     "Furthermore,": [
+      154,
+      182
+     ],
+     "had": [
+      156
+     ],
+     "slightly": [
+      157
+     ],
+     "decreased": [
+      158
+     ],
+     "performance": [
+      159
+     ],
+     "logical": [
+      163
+     ],
+     "reasoning": [
+      164
+     ],
+     "memory": [
+      167
+     ],
+     "capacity.": [
+      168
+     ],
+     "tended": [
+      170
+     ],
+     "increased": [
+      172
+     ],
+     "processing": [
+      174
+     ],
+     "speed": [
+      175
+     ],
+     "this": [
+      177
+     ],
+     "difference": [
+      178
+     ],
+     "was": [
+      179
+     ],
+     "significant.": [
+      181
+     ],
+     "have": [
+      184,
+      222
+     ],
+     "more": [
+      185,
+      236
+     ],
+     "positive": [
+      186
+     ],
+     "expectancies": [
+      187
+     ],
+     "regarding": [
+      188
+     ],
+     "higher": [
+      193
+     ],
+     "tendencies": [
+      194
+     ],
+     "toward": [
+      195
+     ],
+     "did": [
+      202
+     ],
+     "differ": [
+      204
+     ],
+     "significantly": [
+      205
+     ],
+     "respect": [
+      207
+     ],
+     "impulsivity": [
+      209
+     ],
+     "functions.": [
+      212
+     ],
+     "results": [
+      214
+     ],
+     "give": [
+      215
+     ],
+     "first": [
+      217
+     ],
+     "hint": [
+      218
+     ],
+     "difficulties": [
+      223
+     ],
+     "decision-making": [
+      225
+     ],
+     "risk.": [
+      232
+     ],
+     "be": [
+      235,
+      251
+     ],
+     "prone": [
+      237
+     ],
+     "errors": [
+      239
+     ],
+     "tasks": [
+      241
+     ],
+     "require": [
+      243
+     ],
+     "feedback": [
+      244
+     ],
+     "processing.": [
+      245
+     ],
+     "However,": [
+      246
+     ],
+     "appear": [
+      248
+     ],
+     "impaired": [
+      252
+     ],
+     "aspects": [
+      254
+     ],
+     "long-term": [
+      256
+     ],
+     "strategic": [
+      257
+     ],
+     "decision-making.": [
+      258
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5109467518",
+       "display_name": "Silke M. M\u00fcller",
+       "orcid": "https://orcid.org/0000-0002-6627-2661",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6627-2661"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I62318514",
+        "display_name": "University of Duisburg-Essen",
+        "ror": "https://ror.org/04mz5ra38",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I62318514"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Silke M. M\u00fcller",
+      "raw_affiliation_strings": [
+       "Department of General Psychology: Cognition and Center for Behavioral Addiction Research (CeBAR), University of Duisburg-Essen, Forsthausweg 2, 47057, Duisburg, Germany",
+       "Erwin L. Hahn Institute for Magnetic Resonance Tomography, Essen, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of General Psychology: Cognition and Center for Behavioral Addiction Research (CeBAR), University of Duisburg-Essen, Forsthausweg 2, 47057, Duisburg, Germany",
+        "institution_ids": [
+         "https://openalex.org/I62318514"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Erwin L. Hahn Institute for Magnetic Resonance Tomography, Essen, Germany",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5046458499",
+       "display_name": "Johannes Schiebener",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I62318514",
+        "display_name": "University of Duisburg-Essen",
+        "ror": "https://ror.org/04mz5ra38",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I62318514"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Johannes Schiebener",
+      "raw_affiliation_strings": [
+       "Department of General Psychology: Cognition and Center for Behavioral Addiction Research (CeBAR), University of Duisburg-Essen, Forsthausweg 2, 47057, Duisburg, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of General Psychology: Cognition and Center for Behavioral Addiction Research (CeBAR), University of Duisburg-Essen, Forsthausweg 2, 47057, Duisburg, Germany",
+        "institution_ids": [
+         "https://openalex.org/I62318514"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5013898044",
+       "display_name": "Matthias Brand",
+       "orcid": "https://orcid.org/0000-0002-4831-9542",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4831-9542"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I62318514",
+        "display_name": "University of Duisburg-Essen",
+        "ror": "https://ror.org/04mz5ra38",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I62318514"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Matthias Brand",
+      "raw_affiliation_strings": [
+       "Department of General Psychology: Cognition and Center for Behavioral Addiction Research (CeBAR), University of Duisburg-Essen, Forsthausweg 2, 47057, Duisburg, Germany",
+       "Erwin L. Hahn Institute for Magnetic Resonance Tomography, Essen, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of General Psychology: Cognition and Center for Behavioral Addiction Research (CeBAR), University of Duisburg-Essen, Forsthausweg 2, 47057, Duisburg, Germany",
+        "institution_ids": [
+         "https://openalex.org/I62318514"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Erwin L. Hahn Institute for Magnetic Resonance Tomography, Essen, Germany",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5076904336",
+       "display_name": "Magnus Liebherr",
+       "orcid": "https://orcid.org/0000-0001-8580-2464",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8580-2464"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I62318514",
+        "display_name": "University of Duisburg-Essen",
+        "ror": "https://ror.org/04mz5ra38",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I62318514"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Magnus Liebherr",
+      "raw_affiliation_strings": [
+       "Department of General Psychology: Cognition and Center for Behavioral Addiction Research (CeBAR), University of Duisburg-Essen, Forsthausweg 2, 47057, Duisburg, Germany. magnus.liebherr@uni-due.de",
+       "Erwin L. Hahn Institute for Magnetic Resonance Tomography, Essen, Germany. magnus.liebherr@uni-due.de",
+       "Department of General Psychology: Cognition and Center for Behavioral Addiction Research (CeBAR), University of Duisburg-Essen, Forsthausweg 2, 47057, Duisburg, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of General Psychology: Cognition and Center for Behavioral Addiction Research (CeBAR), University of Duisburg-Essen, Forsthausweg 2, 47057, Duisburg, Germany. magnus.liebherr@uni-due.de",
+        "institution_ids": [
+         "https://openalex.org/I62318514"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Erwin L. Hahn Institute for Magnetic Resonance Tomography, Essen, Germany. magnus.liebherr@uni-due.de",
+        "institution_ids": []
+       },
+       {
+        "raw_affiliation_string": "Department of General Psychology: Cognition and Center for Behavioral Addiction Research (CeBAR), University of Duisburg-Essen, Forsthausweg 2, 47057, Duisburg, Germany",
+        "institution_ids": [
+         "https://openalex.org/I62318514"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1007/s10339-021-01029-2",
+     "doi": "https://doi.org/10.1007/s10339-021-01029-2",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1007/s10339-021-01029-2",
+     "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10339-021-01029-2.pdf",
+     "source": {
+      "id": "https://openalex.org/S99753134",
+      "display_name": "Cognitive Processing",
+      "issn_l": "1612-4782",
+      "issn": [
+       "1612-4782",
+       "1612-4790"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-d",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319900",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer Science+Business Media",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Cognitive Processing",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3155845761",
+    "doi": "https://doi.org/10.3390/fi13040100",
+    "title": "Linking Phubbing Behavior to Self-Reported Attentional Failures and Media Multitasking",
+    "display_name": "Linking Phubbing Behavior to Self-Reported Attentional Failures and Media Multitasking",
+    "publication_year": 2021,
+    "cited_by_count": 39,
+    "abstract_inverted_index": {
+     "Phubbing,": [
+      0
+     ],
+     "or": [
+      1,
+      165
+     ],
+     "using": [
+      2
+     ],
+     "a": [
+      3,
+      38,
+      43,
+      53,
+      121,
+      163,
+      170,
+      182
+     ],
+     "phone": [
+      4
+     ],
+     "to": [
+      5,
+      20,
+      41,
+      142
+     ],
+     "snub": [
+      6
+     ],
+     "another": [
+      7
+     ],
+     "person,": [
+      8
+     ],
+     "has": [
+      9,
+      34,
+      159
+     ],
+     "been": [
+      10
+     ],
+     "investigated": [
+      11
+     ],
+     "through": [
+      12
+     ],
+     "social": [
+      13,
+      154
+     ],
+     "and": [
+      14,
+      21,
+      47,
+      63,
+      75,
+      81,
+      85,
+      97,
+      141,
+      155,
+      197
+     ],
+     "personality": [
+      15,
+      98,
+      156
+     ],
+     "frameworks.": [
+      16
+     ],
+     "Phubbing": [
+      17,
+      67,
+      111
+     ],
+     "involves": [
+      18
+     ],
+     "attending": [
+      19
+     ],
+     "performing": [
+      22
+     ],
+     "competing": [
+      23
+     ],
+     "tasks,": [
+      24
+     ],
+     "implying": [
+      25
+     ],
+     "the": [
+      26,
+      59,
+      105,
+      167
+     ],
+     "involvement": [
+      27
+     ],
+     "of": [
+      28,
+      108,
+      184
+     ],
+     "attentional": [
+      29,
+      65,
+      73,
+      78,
+      135
+     ],
+     "abilities.": [
+      30
+     ],
+     "Yet,": [
+      31
+     ],
+     "past": [
+      32
+     ],
+     "research": [
+      33
+     ],
+     "not": [
+      35
+     ],
+     "yet": [
+      36,
+      124
+     ],
+     "used": [
+      37
+     ],
+     "cognitive": [
+      39,
+      87,
+      101
+     ],
+     "framework": [
+      40
+     ],
+     "establish": [
+      42
+     ],
+     "link": [
+      44
+     ],
+     "between": [
+      45,
+      61
+     ],
+     "phubbing": [
+      46,
+      62,
+      109,
+      147
+     ],
+     "attention.": [
+      48
+     ],
+     "Using": [
+      49
+     ],
+     "self-report": [
+      50
+     ],
+     "data": [
+      51
+     ],
+     "from": [
+      52,
+      181
+     ],
+     "large": [
+      54
+     ],
+     "online": [
+      55
+     ],
+     "sample,": [
+      56
+     ],
+     "we": [
+      57
+     ],
+     "explored": [
+      58
+     ],
+     "associations": [
+      60
+     ],
+     "everyday": [
+      64,
+      134
+     ],
+     "failures.": [
+      66
+     ],
+     "was": [
+      68,
+      112
+     ],
+     "associated": [
+      69,
+      139
+     ],
+     "with": [
+      70,
+      116
+     ],
+     "difficulties": [
+      71
+     ],
+     "in": [
+      72,
+      173,
+      194
+     ],
+     "shifting": [
+      74
+     ],
+     "distractibility,": [
+      76
+     ],
+     "frequent": [
+      77
+     ],
+     "lapses,": [
+      79
+     ],
+     "spontaneous": [
+      80
+     ],
+     "deliberate": [
+      82
+     ],
+     "mind": [
+      83
+     ],
+     "wandering,": [
+      84
+     ],
+     "attention-related": [
+      86,
+      100
+     ],
+     "errors.": [
+      88
+     ],
+     "When": [
+      89
+     ],
+     "examining": [
+      90
+     ],
+     "these": [
+      91,
+      195
+     ],
+     "attention": [
+      92
+     ],
+     "variables": [
+      93
+     ],
+     "alongside": [
+      94
+     ],
+     "several": [
+      95
+     ],
+     "psychosocial": [
+      96
+     ],
+     "variables,": [
+      99
+     ],
+     "errors": [
+      102
+     ],
+     "acted": [
+      103
+     ],
+     "as": [
+      104,
+      162
+     ],
+     "biggest": [
+      106
+     ],
+     "predictor": [
+      107
+     ],
+     "behavior.": [
+      110,
+      128
+     ],
+     "also": [
+      113
+     ],
+     "positively": [
+      114
+     ],
+     "correlated": [
+      115
+     ],
+     "media": [
+      117
+     ],
+     "multitasking,": [
+      118
+     ],
+     "which": [
+      119
+     ],
+     "is": [
+      120,
+      192
+     ],
+     "conceptually": [
+      122
+     ],
+     "similar": [
+      123
+     ],
+     "distinct": [
+      125
+     ],
+     "technology": [
+      126,
+      178
+     ],
+     "use": [
+      127
+     ],
+     "The": [
+      129
+     ],
+     "results": [
+      130
+     ],
+     "suggest": [
+      131
+     ],
+     "that": [
+      132
+     ],
+     "perceived": [
+      133
+     ],
+     "failures": [
+      136
+     ],
+     "are": [
+      137
+     ],
+     "strongly": [
+      138
+     ],
+     "with,": [
+      140
+     ],
+     "an": [
+      143
+     ],
+     "extent": [
+      144
+     ],
+     "can": [
+      145,
+      186
+     ],
+     "predict,": [
+      146
+     ],
+     "behavior,": [
+      148
+     ],
+     "even": [
+      149
+     ],
+     "more": [
+      150
+     ],
+     "so": [
+      151
+     ],
+     "than": [
+      152
+     ],
+     "some": [
+      153
+     ],
+     "variables.": [
+      157
+     ],
+     "Technology": [
+      158
+     ],
+     "incorporated": [
+      160
+     ],
+     "itself": [
+      161
+     ],
+     "necessity,": [
+      164
+     ],
+     "at": [
+      166
+     ],
+     "very": [
+      168
+     ],
+     "least": [
+      169
+     ],
+     "favored": [
+      171
+     ],
+     "convenience,": [
+      172
+     ],
+     "most": [
+      174
+     ],
+     "people\u2019s": [
+      175
+     ],
+     "lives.": [
+      176
+     ],
+     "Characterizing": [
+      177
+     ],
+     "multitasking": [
+      179
+     ],
+     "behaviors": [
+      180,
+      196
+     ],
+     "variety": [
+      183
+     ],
+     "frameworks": [
+      185
+     ],
+     "help": [
+      187
+     ],
+     "us": [
+      188
+     ],
+     "better": [
+      189
+     ],
+     "understand": [
+      190
+     ],
+     "who": [
+      191
+     ],
+     "engaging": [
+      193
+     ],
+     "why.": [
+      198
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5067885511",
+       "display_name": "Kayla S. Sansevere",
+       "orcid": "https://orcid.org/0000-0003-1333-8281",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1333-8281"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I121934306",
+        "display_name": "Tufts University",
+        "ror": "https://ror.org/05wvpxv85",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I121934306"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Kayla S. Sansevere",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Tufts University, 490 Boston Ave, Medford, MA 02155, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-1333-8281",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Tufts University, 490 Boston Ave, Medford, MA 02155, USA",
+        "institution_ids": [
+         "https://openalex.org/I121934306"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5016999177",
+       "display_name": "Nathan Ward",
+       "orcid": "https://orcid.org/0000-0001-8894-7087",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8894-7087"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I121934306",
+        "display_name": "Tufts University",
+        "ror": "https://ror.org/05wvpxv85",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I121934306"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Nathan Ward",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Tufts University, 490 Boston Ave, Medford, MA 02155, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-8894-7087",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Tufts University, 490 Boston Ave, Medford, MA 02155, USA",
+        "institution_ids": [
+         "https://openalex.org/I121934306"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3390/fi13040100",
+     "doi": "https://doi.org/10.3390/fi13040100",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3390/fi13040100",
+     "pdf_url": "https://www.mdpi.com/1999-5903/13/4/100/pdf?version=1618396621",
+     "source": {
+      "id": "https://openalex.org/S34838331",
+      "display_name": "Future Internet",
+      "issn_l": "1999-5903",
+      "issn": [
+       "1999-5903"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "norway-1",
+       "poland-40",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310310987",
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310310987"
+      ],
+      "host_organization_lineage_names": [
+       "Multidisciplinary Digital Publishing Institute"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Future Internet",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2942151403",
+    "doi": "https://doi.org/10.3758/s13423-018-01566-6",
+    "title": "Predicting attention shifting abilities from self-reported media multitasking",
+    "display_name": "Predicting attention shifting abilities from self-reported media multitasking",
+    "publication_year": 2019,
+    "cited_by_count": 38,
+    "abstract_inverted_index": {
+     "Media": [
+      0
+     ],
+     "multitasking": [
+      1,
+      96,
+      135
+     ],
+     "is": [
+      2,
+      50
+     ],
+     "an": [
+      3,
+      27
+     ],
+     "increasingly": [
+      4
+     ],
+     "prominent": [
+      5
+     ],
+     "behavior": [
+      6
+     ],
+     "in": [
+      7,
+      103,
+      161
+     ],
+     "affluent": [
+      8
+     ],
+     "societies.": [
+      9
+     ],
+     "However,": [
+      10
+     ],
+     "it": [
+      11
+     ],
+     "still": [
+      12
+     ],
+     "needs": [
+      13
+     ],
+     "to": [
+      14,
+      52,
+      78,
+      99,
+      156
+     ],
+     "be": [
+      15,
+      53
+     ],
+     "established": [
+      16
+     ],
+     "if": [
+      17
+     ],
+     "simultaneous": [
+      18
+     ],
+     "use": [
+      19,
+      154
+     ],
+     "of": [
+      20,
+      23,
+      69,
+      83,
+      94,
+      123,
+      152
+     ],
+     "several": [
+      21
+     ],
+     "modes": [
+      22
+     ],
+     "media": [
+      24,
+      56,
+      95,
+      116,
+      134,
+      146
+     ],
+     "content": [
+      25
+     ],
+     "has": [
+      26
+     ],
+     "influence": [
+      28
+     ],
+     "on": [
+      29,
+      120
+     ],
+     "higher": [
+      30,
+      92
+     ],
+     "cognitive": [
+      31,
+      73
+     ],
+     "functions,": [
+      32
+     ],
+     "such": [
+      33
+     ],
+     "as": [
+      34,
+      67
+     ],
+     "divided": [
+      35
+     ],
+     "attention.": [
+      36
+     ],
+     "In": [
+      37
+     ],
+     "this": [
+      38,
+      150,
+      162
+     ],
+     "study,": [
+      39
+     ],
+     "attention": [
+      40
+     ],
+     "shifting": [
+      41
+     ],
+     "was": [
+      42,
+      76,
+      97
+     ],
+     "the": [
+      43,
+      60,
+      104
+     ],
+     "primary": [
+      44
+     ],
+     "focus,": [
+      45
+     ],
+     "since": [
+      46
+     ],
+     "switching": [
+      47,
+      70,
+      101,
+      141
+     ],
+     "between": [
+      48,
+      142
+     ],
+     "tasks": [
+      49
+     ],
+     "assumed": [
+      51
+     ],
+     "necessary": [
+      54
+     ],
+     "for": [
+      55,
+      80,
+      131,
+      140
+     ],
+     "multitasking.": [
+      57
+     ],
+     "Two": [
+      58
+     ],
+     "tasks,": [
+      59,
+      143
+     ],
+     "number-letter": [
+      61
+     ],
+     "and": [
+      62
+     ],
+     "local-global": [
+      63
+     ],
+     "task,": [
+      64
+     ],
+     "were": [
+      65
+     ],
+     "used": [
+      66
+     ],
+     "measures": [
+      68,
+      122
+     ],
+     "ability.": [
+      71
+     ],
+     "The": [
+      72
+     ],
+     "reflections": [
+      74
+     ],
+     "task": [
+      75,
+      124
+     ],
+     "included": [
+      77
+     ],
+     "control": [
+      79
+     ],
+     "possible": [
+      81,
+      129
+     ],
+     "effects": [
+      82
+     ],
+     "intelligence.": [
+      84
+     ],
+     "Results": [
+      85
+     ],
+     "from": [
+      86
+     ],
+     "linear": [
+      87
+     ],
+     "regression": [
+      88
+     ],
+     "analyses": [
+      89
+     ],
+     "showed": [
+      90
+     ],
+     "that": [
+      91,
+      114
+     ],
+     "levels": [
+      93
+     ],
+     "related": [
+      98
+     ],
+     "lower": [
+      100
+     ],
+     "costs": [
+      102
+     ],
+     "two": [
+      105,
+      128
+     ],
+     "attention-shifting": [
+      106
+     ],
+     "tasks.": [
+      107
+     ],
+     "These": [
+      108
+     ],
+     "findings": [
+      109,
+      112
+     ],
+     "replicate": [
+      110
+     ],
+     "previous": [
+      111
+     ],
+     "suggesting": [
+      113
+     ],
+     "heavy": [
+      115
+     ],
+     "multitaskers": [
+      117,
+      147
+     ],
+     "perform": [
+      118
+     ],
+     "better": [
+      119
+     ],
+     "select": [
+      121
+     ],
+     "switching.": [
+      125
+     ],
+     "We": [
+      126
+     ],
+     "suggest": [
+      127
+     ],
+     "explanations": [
+      130
+     ],
+     "our": [
+      132
+     ],
+     "results:": [
+      133
+     ],
+     "may": [
+      136
+     ],
+     "practice": [
+      137
+     ],
+     "skills": [
+      138
+     ],
+     "needed": [
+      139
+     ],
+     "or": [
+      144
+     ],
+     "high": [
+      145
+     ],
+     "are": [
+      148
+     ],
+     "choosing": [
+      149
+     ],
+     "style": [
+      151
+     ],
+     "technology": [
+      153
+     ],
+     "due": [
+      155
+     ],
+     "a": [
+      157
+     ],
+     "dominating": [
+      158
+     ],
+     "personality": [
+      159
+     ],
+     "trait": [
+      160
+     ],
+     "group.": [
+      163
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5068736159",
+       "display_name": "Pia Elbe",
+       "orcid": "https://orcid.org/0000-0003-1717-240X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1717-240X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I90267481",
+        "display_name": "Ume\u00e5 University",
+        "ror": "https://ror.org/05kb8h459",
+        "country_code": "SE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I90267481"
+        ]
+       }
+      ],
+      "countries": [
+       "SE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Pia Elbe",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Ume\u00e5 University, SE- 90187, Ume\u00e5, Sweden. piel0005@student.umu.se",
+       "Department of Psychology, Ume\u00e5 University, SE- 90187, Ume\u00e5, Sweden"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-1717-240X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Ume\u00e5 University, SE- 90187, Ume\u00e5, Sweden. piel0005@student.umu.se",
+        "institution_ids": [
+         "https://openalex.org/I90267481"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, Ume\u00e5 University, SE- 90187, Ume\u00e5, Sweden",
+        "institution_ids": [
+         "https://openalex.org/I90267481"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5048794457",
+       "display_name": "Daniel Eriksson S\u00f6rman",
+       "orcid": "https://orcid.org/0000-0002-2709-9966",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2709-9966"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I90267481",
+        "display_name": "Ume\u00e5 University",
+        "ror": "https://ror.org/05kb8h459",
+        "country_code": "SE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I90267481"
+        ]
+       }
+      ],
+      "countries": [
+       "SE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Daniel Eriksson S\u00f6rman",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Ume\u00e5 University, SE- 90187, Ume\u00e5, Sweden"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Ume\u00e5 University, SE- 90187, Ume\u00e5, Sweden",
+        "institution_ids": [
+         "https://openalex.org/I90267481"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5068690548",
+       "display_name": "Elin Mellqvist",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I90267481",
+        "display_name": "Ume\u00e5 University",
+        "ror": "https://ror.org/05kb8h459",
+        "country_code": "SE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I90267481"
+        ]
+       }
+      ],
+      "countries": [
+       "SE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Elin Mellqvist",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Ume\u00e5 University, SE- 90187, Ume\u00e5, Sweden"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Ume\u00e5 University, SE- 90187, Ume\u00e5, Sweden",
+        "institution_ids": [
+         "https://openalex.org/I90267481"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5008097107",
+       "display_name": "Julia Br\u00e4ndstr\u00f6m",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I90267481",
+        "display_name": "Ume\u00e5 University",
+        "ror": "https://ror.org/05kb8h459",
+        "country_code": "SE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I90267481"
+        ]
+       }
+      ],
+      "countries": [
+       "SE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Julia Br\u00e4ndstr\u00f6m",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Ume\u00e5 University, SE- 90187, Ume\u00e5, Sweden"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Ume\u00e5 University, SE- 90187, Ume\u00e5, Sweden",
+        "institution_ids": [
+         "https://openalex.org/I90267481"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5035803760",
+       "display_name": "Jessica K. Ljungberg",
+       "orcid": "https://orcid.org/0000-0001-5546-3270",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5546-3270"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I90267481",
+        "display_name": "Ume\u00e5 University",
+        "ror": "https://ror.org/05kb8h459",
+        "country_code": "SE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I90267481"
+        ]
+       }
+      ],
+      "countries": [
+       "SE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jessica K. Ljungberg",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Ume\u00e5 University, SE- 90187, Ume\u00e5, Sweden"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Ume\u00e5 University, SE- 90187, Ume\u00e5, Sweden",
+        "institution_ids": [
+         "https://openalex.org/I90267481"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3758/s13423-018-01566-6",
+     "doi": "https://doi.org/10.3758/s13423-018-01566-6",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3758/s13423-018-01566-6",
+     "pdf_url": "https://link.springer.com/content/pdf/10.3758/s13423-018-01566-6.pdf",
+     "source": {
+      "id": "https://openalex.org/S138679565",
+      "display_name": "Psychonomic Bulletin & Review",
+      "issn_l": "1069-9384",
+      "issn": [
+       "1069-9384",
+       "1531-5320"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-b",
+       "erih-plus",
+       "jufo-3",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319900",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer Science+Business Media",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Psychonomic Bulletin &amp; Review",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3094488817",
+    "doi": "https://doi.org/10.1038/s41598-020-75091-9",
+    "title": "Relationship between media multitasking and functional connectivity in the dorsal attention network",
+    "display_name": "Relationship between media multitasking and functional connectivity in the dorsal attention network",
+    "publication_year": 2020,
+    "cited_by_count": 33,
+    "abstract_inverted_index": {
+     "With": [
+      0
+     ],
+     "the": [
+      1,
+      47,
+      62,
+      79,
+      87,
+      105,
+      110,
+      123,
+      126,
+      137,
+      141,
+      144,
+      150,
+      156,
+      163,
+      184
+     ],
+     "development": [
+      2
+     ],
+     "of": [
+      3,
+      26,
+      64,
+      68,
+      186,
+      195
+     ],
+     "digital": [
+      4
+     ],
+     "technology,": [
+      5
+     ],
+     "media": [
+      6,
+      15,
+      27,
+      40,
+      51,
+      168,
+      175,
+      187,
+      196
+     ],
+     "multitasking": [
+      7,
+      28,
+      41,
+      197
+     ],
+     "behaviour,": [
+      8
+     ],
+     "which": [
+      9
+     ],
+     "is": [
+      10
+     ],
+     "using": [
+      11,
+      116
+     ],
+     "two": [
+      12,
+      23
+     ],
+     "or": [
+      13
+     ],
+     "more": [
+      14,
+      19,
+      182
+     ],
+     "simultaneously,": [
+      16
+     ],
+     "has": [
+      17
+     ],
+     "become": [
+      18
+     ],
+     "commonplace.": [
+      20
+     ],
+     "There": [
+      21
+     ],
+     "are": [
+      22,
+      53
+     ],
+     "opposing": [
+      24
+     ],
+     "hypotheses": [
+      25
+     ],
+     "with": [
+      29,
+      149,
+      173
+     ],
+     "regard": [
+      30
+     ],
+     "to": [
+      31,
+      56,
+      100,
+      162
+     ],
+     "its": [
+      32
+     ],
+     "impact": [
+      33
+     ],
+     "on": [
+      34,
+      58
+     ],
+     "attention.": [
+      35
+     ],
+     "One": [
+      36
+     ],
+     "hypothesis": [
+      37
+     ],
+     "claims": [
+      38,
+      49
+     ],
+     "that": [
+      39,
+      122,
+      155
+     ],
+     "can": [
+      42
+     ],
+     "strengthen": [
+      43
+     ],
+     "attention": [
+      44,
+      107,
+      128
+     ],
+     "control,": [
+      45
+     ],
+     "and": [
+      46,
+      84,
+      93,
+      109
+     ],
+     "other": [
+      48
+     ],
+     "heavy": [
+      50
+     ],
+     "multitaskers": [
+      52,
+      169
+     ],
+     "less": [
+      54
+     ],
+     "able": [
+      55
+     ],
+     "focus": [
+      57
+     ],
+     "relevant": [
+      59
+     ],
+     "tasks": [
+      60
+     ],
+     "in": [
+      61,
+      74,
+      104,
+      125,
+      166
+     ],
+     "presence": [
+      63
+     ],
+     "distractors.": [
+      65
+     ],
+     "A": [
+      66
+     ],
+     "total": [
+      67
+     ],
+     "103": [
+      69
+     ],
+     "healthy": [
+      70
+     ],
+     "subjects": [
+      71,
+      85
+     ],
+     "took": [
+      72
+     ],
+     "part": [
+      73
+     ],
+     "this": [
+      75
+     ],
+     "study.": [
+      76
+     ],
+     "We": [
+      77,
+      120
+     ],
+     "measured": [
+      78
+     ],
+     "Media": [
+      80
+     ],
+     "Multitasking": [
+      81
+     ],
+     "Index": [
+      82
+     ],
+     "(MMI)": [
+      83
+     ],
+     "performed": [
+      86
+     ],
+     "continuous": [
+      88
+     ],
+     "performance": [
+      89
+     ],
+     "test.": [
+      90
+     ],
+     "Resting": [
+      91
+     ],
+     "state": [
+      92,
+      134,
+      161
+     ],
+     "oddball": [
+      94,
+      138,
+      164
+     ],
+     "task": [
+      95,
+      145,
+      165
+     ],
+     "functional": [
+      96,
+      102
+     ],
+     "MRI": [
+      97
+     ],
+     "were": [
+      98,
+      130,
+      146
+     ],
+     "conducted": [
+      99
+     ],
+     "analyse": [
+      101
+     ],
+     "connectivity": [
+      103
+     ],
+     "dorsal": [
+      106,
+      127
+     ],
+     "network,": [
+      108
+     ],
+     "degree": [
+      111
+     ],
+     "centrality": [
+      112
+     ],
+     "(DC)": [
+      113
+     ],
+     "was": [
+      114,
+      170
+     ],
+     "calculated": [
+      115
+     ],
+     "graph": [
+      117
+     ],
+     "theory": [
+      118
+     ],
+     "analysis.": [
+      119
+     ],
+     "found": [
+      121
+     ],
+     "DCs": [
+      124,
+      142
+     ],
+     "network": [
+      129
+     ],
+     "higher": [
+      131
+     ],
+     "during": [
+      132,
+      136,
+      143
+     ],
+     "resting": [
+      133,
+      160
+     ],
+     "than": [
+      135
+     ],
+     "task.": [
+      139
+     ],
+     "Furthermore,": [
+      140
+     ],
+     "positively": [
+      147
+     ],
+     "correlated": [
+      148
+     ],
+     "MMI.": [
+      151
+     ],
+     "These": [
+      152
+     ],
+     "results": [
+      153
+     ],
+     "indicated": [
+      154
+     ],
+     "DC": [
+      157
+     ],
+     "reduction": [
+      158
+     ],
+     "from": [
+      159
+     ],
+     "high": [
+      167
+     ],
+     "attenuated": [
+      171
+     ],
+     "compared": [
+      172
+     ],
+     "low": [
+      174
+     ],
+     "multitaskers.": [
+      176
+     ],
+     "This": [
+      177
+     ],
+     "study": [
+      178
+     ],
+     "not": [
+      179
+     ],
+     "only": [
+      180
+     ],
+     "reveals": [
+      181
+     ],
+     "about": [
+      183
+     ],
+     "neurophysiology": [
+      185
+     ],
+     "multitasking,": [
+      188
+     ],
+     "but": [
+      189
+     ],
+     "could": [
+      190
+     ],
+     "also": [
+      191
+     ],
+     "indicate": [
+      192
+     ],
+     "brain": [
+      193
+     ],
+     "biomarkers": [
+      194
+     ],
+     "behaviour.": [
+      198
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5101739348",
+       "display_name": "Kei Kobayashi",
+       "orcid": "https://orcid.org/0009-0006-1050-9136",
+       "observed_orcids": [
+        "https://orcid.org/0009-0006-1050-9136",
+        "https://orcid.org/0000-0002-5852-9607"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I22299242",
+        "display_name": "Kyoto University",
+        "ror": "https://ror.org/02kpeqv85",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I22299242"
+        ]
+       }
+      ],
+      "countries": [
+       "JP"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Kei Kobayashi",
+      "raw_affiliation_strings": [
+       "Department of Neuropsychiatry, Faculty of Medicine, Kyoto University, Kyoto, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neuropsychiatry, Faculty of Medicine, Kyoto University, Kyoto, Japan",
+        "institution_ids": [
+         "https://openalex.org/I22299242"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5005826046",
+       "display_name": "Naoya Oishi",
+       "orcid": "https://orcid.org/0000-0002-0778-3381",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0778-3381"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I22299242",
+        "display_name": "Kyoto University",
+        "ror": "https://ror.org/02kpeqv85",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I22299242"
+        ]
+       }
+      ],
+      "countries": [
+       "JP"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Naoya Oishi",
+      "raw_affiliation_strings": [
+       "Medical Innovation Center, Kyoto University Graduate School of Medicine, Kyoto, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Medical Innovation Center, Kyoto University Graduate School of Medicine, Kyoto, Japan",
+        "institution_ids": [
+         "https://openalex.org/I22299242"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5020312484",
+       "display_name": "Sayaka Yoshimura",
+       "orcid": "https://orcid.org/0000-0003-4273-8575",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4273-8575"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I22299242",
+        "display_name": "Kyoto University",
+        "ror": "https://ror.org/02kpeqv85",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I22299242"
+        ]
+       }
+      ],
+      "countries": [
+       "JP"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Sayaka Yoshimura",
+      "raw_affiliation_strings": [
+       "Department of Neurodevelopmental Psychiatry, Habilitation and Rehabilitation, Kyoto University, Kyoto, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neurodevelopmental Psychiatry, Habilitation and Rehabilitation, Kyoto University, Kyoto, Japan",
+        "institution_ids": [
+         "https://openalex.org/I22299242"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5108877745",
+       "display_name": "Tsukasa Ueno",
+       "orcid": "https://orcid.org/0009-0001-5686-265X",
+       "observed_orcids": [
+        "https://orcid.org/0009-0001-5686-265X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I22299242",
+        "display_name": "Kyoto University",
+        "ror": "https://ror.org/02kpeqv85",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I22299242"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210150196",
+        "display_name": "Kyoto University Hospital",
+        "ror": "https://ror.org/04k6gr834",
+        "country_code": "JP",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210150196"
+        ]
+       }
+      ],
+      "countries": [
+       "JP"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Tsukasa Ueno",
+      "raw_affiliation_strings": [
+       "Department of Neuropsychiatry, Faculty of Medicine, Kyoto University, Kyoto, Japan",
+       "Integrated Clinical Education Center, Kyoto University Hospital, Kyoto, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neuropsychiatry, Faculty of Medicine, Kyoto University, Kyoto, Japan",
+        "institution_ids": [
+         "https://openalex.org/I22299242"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Integrated Clinical Education Center, Kyoto University Hospital, Kyoto, Japan",
+        "institution_ids": [
+         "https://openalex.org/I4210150196"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": null,
+       "display_name": "Takashi Miyagi",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I22299242",
+        "display_name": "Kyoto University",
+        "ror": "https://ror.org/02kpeqv85",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I22299242"
+        ]
+       }
+      ],
+      "countries": [
+       "JP"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Takashi Miyagi",
+      "raw_affiliation_strings": [
+       "Department of Neuropsychiatry, Faculty of Medicine, Kyoto University, Kyoto, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neuropsychiatry, Faculty of Medicine, Kyoto University, Kyoto, Japan",
+        "institution_ids": [
+         "https://openalex.org/I22299242"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5102813354",
+       "display_name": "Toshiya Murai",
+       "orcid": "https://orcid.org/0000-0001-6550-8188",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6550-8188"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I22299242",
+        "display_name": "Kyoto University",
+        "ror": "https://ror.org/02kpeqv85",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I22299242"
+        ]
+       }
+      ],
+      "countries": [
+       "JP"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Toshiya Murai",
+      "raw_affiliation_strings": [
+       "Department of Neuropsychiatry, Faculty of Medicine, Kyoto University, Kyoto, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neuropsychiatry, Faculty of Medicine, Kyoto University, Kyoto, Japan",
+        "institution_ids": [
+         "https://openalex.org/I22299242"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5015467303",
+       "display_name": "Hironobu Fujiwara",
+       "orcid": "https://orcid.org/0000-0002-7422-7190",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7422-7190"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I22299242",
+        "display_name": "Kyoto University",
+        "ror": "https://ror.org/02kpeqv85",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I22299242"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210126580",
+        "display_name": "RIKEN Center for Advanced Intelligence Project",
+        "ror": "https://ror.org/03ckxwf91",
+        "country_code": "JP",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I4210110652",
+         "https://openalex.org/I4210126580"
+        ]
+       }
+      ],
+      "countries": [
+       "JP"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Hironobu Fujiwara",
+      "raw_affiliation_strings": [
+       "Artificial Intelligence Ethics and Society Team, RIKEN Center for Advanced Intelligence Project, Tokyo, Japan. hirofuji@kuhp.kyoto-u.ac.jp",
+       "Department of Neuropsychiatry, Faculty of Medicine, Kyoto University, Kyoto, Japan. hirofuji@kuhp.kyoto-u.ac.jp",
+       "Artificial Intelligence Ethics and Society Team, RIKEN Center for Advanced Intelligence Project, Tokyo, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Artificial Intelligence Ethics and Society Team, RIKEN Center for Advanced Intelligence Project, Tokyo, Japan. hirofuji@kuhp.kyoto-u.ac.jp",
+        "institution_ids": [
+         "https://openalex.org/I4210126580"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Neuropsychiatry, Faculty of Medicine, Kyoto University, Kyoto, Japan. hirofuji@kuhp.kyoto-u.ac.jp",
+        "institution_ids": [
+         "https://openalex.org/I22299242"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Artificial Intelligence Ethics and Society Team, RIKEN Center for Advanced Intelligence Project, Tokyo, Japan",
+        "institution_ids": [
+         "https://openalex.org/I4210126580"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1038/s41598-020-75091-9",
+     "doi": "https://doi.org/10.1038/s41598-020-75091-9",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1038/s41598-020-75091-9",
+     "pdf_url": "https://www.nature.com/articles/s41598-020-75091-9.pdf",
+     "source": {
+      "id": "https://openalex.org/S196734849",
+      "display_name": "Scientific Reports",
+      "issn_l": "2045-2322",
+      "issn": [
+       "2045-2322"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "dongbi-c",
+       "doyens",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319908",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Nature Portfolio",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Scientific Reports",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3035136477",
+    "doi": "https://doi.org/10.1016/j.chbr.2020.100015",
+    "title": "Positive associations between media multitasking and creativity",
+    "display_name": "Positive associations between media multitasking and creativity",
+    "publication_year": 2020,
+    "cited_by_count": 22,
+    "abstract_inverted_index": {
+     "The": [
+      0
+     ],
+     "ability": [
+      1
+     ],
+     "to": [
+      2
+     ],
+     "solve": [
+      3
+     ],
+     "problems": [
+      4
+     ],
+     "creatively": [
+      5
+     ],
+     "is": [
+      6,
+      21
+     ],
+     "a": [
+      7,
+      42,
+      57,
+      94
+     ],
+     "vital": [
+      8
+     ],
+     "educational": [
+      9
+     ],
+     "outcome.": [
+      10
+     ],
+     "Here": [
+      11
+     ],
+     "we": [
+      12
+     ],
+     "pursued": [
+      13
+     ],
+     "the": [
+      14,
+      61,
+      69,
+      81,
+      115,
+      135,
+      139,
+      142,
+      152,
+      165,
+      176
+     ],
+     "hypothesis": [
+      15
+     ],
+     "that": [
+      16,
+      146,
+      175
+     ],
+     "media": [
+      17,
+      43
+     ],
+     "multitasking": [
+      18,
+      44
+     ],
+     "(MM),": [
+      19
+     ],
+     "which": [
+      20
+     ],
+     "becoming": [
+      22
+     ],
+     "increasingly": [
+      23
+     ],
+     "prevalent": [
+      24
+     ],
+     "in": [
+      25,
+      79,
+      160
+     ],
+     "modern": [
+      26
+     ],
+     "learning": [
+      27
+     ],
+     "contexts,": [
+      28
+     ],
+     "may": [
+      29
+     ],
+     "be": [
+      30
+     ],
+     "positively": [
+      31
+     ],
+     "associated": [
+      32
+     ],
+     "with": [
+      33,
+      90,
+      100,
+      122
+     ],
+     "creative": [
+      34
+     ],
+     "performance.": [
+      35
+     ],
+     "One": [
+      36
+     ],
+     "hundred": [
+      37
+     ],
+     "and": [
+      38,
+      46,
+      85,
+      118,
+      162,
+      181,
+      189
+     ],
+     "four": [
+      39
+     ],
+     "participants": [
+      40
+     ],
+     "completed": [
+      41
+     ],
+     "questionnaire": [
+      45
+     ],
+     "three": [
+      47,
+      76,
+      140
+     ],
+     "well-established": [
+      48
+     ],
+     "creativity": [
+      49,
+      182
+     ],
+     "tasks:": [
+      50
+     ],
+     "(1)": [
+      51,
+      87
+     ],
+     "Alternate": [
+      52
+     ],
+     "Uses": [
+      53
+     ],
+     "Task": [
+      54,
+      64
+     ],
+     "(AUT),": [
+      55
+     ],
+     "(2)": [
+      56,
+      97
+     ],
+     "modified": [
+      58
+     ],
+     "version": [
+      59
+     ],
+     "of": [
+      60
+     ],
+     "Remotes": [
+      62
+     ],
+     "Associates": [
+      63
+     ],
+     "(RAT)": [
+      65
+     ],
+     "and,": [
+      66
+     ],
+     "finally,": [
+      67
+     ],
+     "(3)": [
+      68,
+      119
+     ],
+     "Creative": [
+      70
+     ],
+     "Achievement": [
+      71
+     ],
+     "Questionnaire": [
+      72
+     ],
+     "(CAQ).": [
+      73
+     ],
+     "We": [
+      74,
+      172
+     ],
+     "adopted": [
+      75
+     ],
+     "common": [
+      77
+     ],
+     "approaches": [
+      78
+     ],
+     "analysing": [
+      80
+     ],
+     "relationship": [
+      82,
+      178
+     ],
+     "between": [
+      83,
+      179
+     ],
+     "MM": [
+      84,
+      91,
+      104,
+      126,
+      180
+     ],
+     "creativity:": [
+      86
+     ],
+     "regression": [
+      88
+     ],
+     "analyses": [
+      89,
+      99,
+      121,
+      144
+     ],
+     "scores": [
+      92,
+      131
+     ],
+     "as": [
+      93,
+      106,
+      128,
+      155,
+      157
+     ],
+     "continuous": [
+      95
+     ],
+     "predictor,": [
+      96
+     ],
+     "extreme-group": [
+      98
+     ],
+     "high": [
+      101,
+      123
+     ],
+     "vs.": [
+      102,
+      113,
+      124,
+      133
+     ],
+     "low": [
+      103,
+      125
+     ],
+     "levels,": [
+      105,
+      127
+     ],
+     "defined": [
+      107
+     ],
+     "by": [
+      108,
+      130,
+      186,
+      191
+     ],
+     "one": [
+      109
+     ],
+     "standard": [
+      110
+     ],
+     "deviation": [
+      111
+     ],
+     "above": [
+      112,
+      132
+     ],
+     "below": [
+      114,
+      134
+     ],
+     "mean,": [
+      116
+     ],
+     "respectively,": [
+      117
+     ],
+     "median-split": [
+      120,
+      143
+     ],
+     "determined": [
+      129
+     ],
+     "median,": [
+      136
+     ],
+     "respectively.": [
+      137
+     ],
+     "Of": [
+      138
+     ],
+     "approaches,": [
+      141
+     ],
+     "revealed": [
+      145
+     ],
+     "high-MM": [
+      147
+     ],
+     "individuals": [
+      148
+     ],
+     "performed": [
+      149
+     ],
+     "better": [
+      150
+     ],
+     "on": [
+      151,
+      164
+     ],
+     "RAT": [
+      153
+     ],
+     "task": [
+      154,
+      167
+     ],
+     "well": [
+      156
+     ],
+     "scored": [
+      158
+     ],
+     "higher": [
+      159
+     ],
+     "fluency": [
+      161
+     ],
+     "originality": [
+      163
+     ],
+     "AUT": [
+      166
+     ],
+     "than": [
+      168
+     ],
+     "did": [
+      169
+     ],
+     "low-MM": [
+      170
+     ],
+     "individuals.": [
+      171
+     ],
+     "further": [
+      173
+     ],
+     "demonstrated": [
+      174
+     ],
+     "positive": [
+      177
+     ],
+     "was": [
+      183
+     ],
+     "significantly": [
+      184
+     ],
+     "enhanced": [
+      185
+     ],
+     "fluid": [
+      187
+     ],
+     "intelligence": [
+      188
+     ],
+     "attenuated": [
+      190
+     ],
+     "attentional": [
+      192
+     ],
+     "impulsivity.": [
+      193
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5059867596",
+       "display_name": "Kep Kee Loh",
+       "orcid": "https://orcid.org/0000-0003-0650-224X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0650-224X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1294671590",
+        "display_name": "Centre National de la Recherche Scientifique",
+        "ror": "https://ror.org/02feahw73",
+        "country_code": "FR",
+        "type": "government",
+        "lineage": [
+         "https://openalex.org/I1294671590"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I21491767",
+        "display_name": "Aix-Marseille Universit\u00e9",
+        "ror": "https://ror.org/035xkbk20",
+        "country_code": "FR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I21491767"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210138220",
+        "display_name": "Institut de Neurosciences de la Timone",
+        "ror": "https://ror.org/043hw6336",
+        "country_code": "FR",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I1294671590",
+         "https://openalex.org/I21491767",
+         "https://openalex.org/I4210096427",
+         "https://openalex.org/I4210138220"
+        ]
+       }
+      ],
+      "countries": [
+       "FR"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Kep Kee Loh",
+      "raw_affiliation_strings": [
+       "Aix Marseille Univ, CNRS, INT, Institut de Neurosciences de la Timone, Marseille, France"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-0650-224X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Aix Marseille Univ, CNRS, INT, Institut de Neurosciences de la Timone, Marseille, France",
+        "institution_ids": [
+         "https://openalex.org/I1294671590",
+         "https://openalex.org/I21491767",
+         "https://openalex.org/I4210138220"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5044428061",
+       "display_name": "Stephen Wee Hun Lim",
+       "orcid": "https://orcid.org/0000-0003-3636-7587",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3636-7587"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165932596",
+        "display_name": "National University of Singapore",
+        "ror": "https://ror.org/01tgyzw49",
+        "country_code": "SG",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165932596"
+        ]
+       }
+      ],
+      "countries": [
+       "SG"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Stephen Wee Hun Lim",
+      "raw_affiliation_strings": [
+       "Department of Psychology, National University of Singapore, Singapore"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, National University of Singapore, Singapore",
+        "institution_ids": [
+         "https://openalex.org/I165932596"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1016/j.chbr.2020.100015",
+     "doi": "https://doi.org/10.1016/j.chbr.2020.100015",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1016/j.chbr.2020.100015",
+     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2451958820300154/pdf",
+     "source": {
+      "id": "https://openalex.org/S4210198611",
+      "display_name": "Computers in Human Behavior Reports",
+      "issn_l": "2451-9588",
+      "issn": [
+       "2451-9588"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "jufo-1",
+       "norway-1",
+       "poland-20",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+       "Elsevier BV"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Computers in Human Behavior Reports",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

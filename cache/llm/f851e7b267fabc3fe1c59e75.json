@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a2020d-ef96-70a3-9bcc-0177091bebcc",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330797,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"not_supported\", \"passage\": 1, \"reason\": \"The source states the opposite: benefits were greater in participants with lower cognitive performance at pre-test, not only in those with high pre-test performance.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 312,
+  "completion_tokens": 51,
+  "total_tokens": 363,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 1.19
+}

@@ -1,0 +1,1235 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 3649,
+   "db_response_time_ms": 179,
+   "page": 1,
+   "per_page": 2,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (impact of background music on adult listeners meta-analysis) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (impact of background music on adult listeners meta-analysis) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "impact of background music on adult listeners meta-analysis",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:impact of background music on adult listeners meta-analysis,has_abstract:true,language:en,type:article|review&per_page=2",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2097262001",
+    "doi": "https://doi.org/10.1177/0305735610376261",
+    "title": "The impact of background music on adult listeners: A meta-analysis",
+    "display_name": "The impact of background music on adult listeners: A meta-analysis",
+    "publication_year": 2010,
+    "cited_by_count": 393,
+    "abstract_inverted_index": {
+     "Background": [
+      0
+     ],
+     "music": [
+      1,
+      114,
+      118,
+      122,
+      154,
+      161,
+      194
+     ],
+     "has": [
+      2,
+      127,
+      135
+     ],
+     "been": [
+      3
+     ],
+     "found": [
+      4
+     ],
+     "to": [
+      5,
+      28,
+      65,
+      116,
+      173,
+      184,
+      196
+     ],
+     "have": [
+      6
+     ],
+     "beneficial,": [
+      7
+     ],
+     "detrimental,": [
+      8
+     ],
+     "or": [
+      9
+     ],
+     "no": [
+      10,
+      117
+     ],
+     "effect": [
+      11,
+      60,
+      98
+     ],
+     "on": [
+      12,
+      132,
+      139
+     ],
+     "a": [
+      13,
+      24,
+      39,
+      43,
+      85,
+      107,
+      136
+     ],
+     "variety": [
+      14
+     ],
+     "of": [
+      15,
+      32,
+      46,
+      53,
+      75,
+      87,
+      90,
+      96,
+      109,
+      149,
+      152,
+      159,
+      165,
+      192,
+      201
+     ],
+     "behavioral": [
+      16
+     ],
+     "and": [
+      17,
+      142,
+      195
+     ],
+     "psychological": [
+      18
+     ],
+     "outcome": [
+      19
+     ],
+     "measures.": [
+      20
+     ],
+     "This": [
+      21
+     ],
+     "article": [
+      22
+     ],
+     "reports": [
+      23
+     ],
+     "meta-analysis": [
+      25
+     ],
+     "that": [
+      26,
+      49,
+      57,
+      92,
+      111,
+      120,
+      156,
+      167,
+      179
+     ],
+     "attempts": [
+      27
+     ],
+     "summarize": [
+      29
+     ],
+     "the": [
+      30,
+      47,
+      51,
+      73,
+      88,
+      94,
+      124,
+      157,
+      160,
+      163,
+      190,
+      198
+     ],
+     "impact": [
+      31,
+      138,
+      191
+     ],
+     "background": [
+      33,
+      113,
+      121,
+      153,
+      174,
+      193
+     ],
+     "music.": [
+      34,
+      175
+     ],
+     "A": [
+      35,
+      147
+     ],
+     "global": [
+      36
+     ],
+     "analysis": [
+      37
+     ],
+     "shows": [
+      38
+     ],
+     "null": [
+      40,
+      59
+     ],
+     "effect,": [
+      41
+     ],
+     "but": [
+      42,
+      134
+     ],
+     "detailed": [
+      44
+     ],
+     "examination": [
+      45
+     ],
+     "studies": [
+      48,
+      91,
+      110
+     ],
+     "allow": [
+      50
+     ],
+     "calculation": [
+      52,
+      95
+     ],
+     "effects": [
+      54,
+      79,
+      131
+     ],
+     "sizes": [
+      55
+     ],
+     "reveals": [
+      56,
+      155
+     ],
+     "this": [
+      58
+     ],
+     "is": [
+      61,
+      177
+     ],
+     "most": [
+      62
+     ],
+     "probably": [
+      63
+     ],
+     "due": [
+      64
+     ],
+     "averaging": [
+      66
+     ],
+     "out": [
+      67
+     ],
+     "specific": [
+      68,
+      78,
+      187
+     ],
+     "effects.": [
+      69
+     ],
+     "In": [
+      70
+     ],
+     "our": [
+      71
+     ],
+     "analysis,": [
+      72
+     ],
+     "probability": [
+      74
+     ],
+     "detecting": [
+      76
+     ],
+     "such": [
+      77,
+      105
+     ],
+     "was": [
+      80
+     ],
+     "not": [
+      81
+     ],
+     "very": [
+      82
+     ],
+     "high": [
+      83
+     ],
+     "as": [
+      84
+     ],
+     "result": [
+      86
+     ],
+     "scarcity": [
+      89
+     ],
+     "allowed": [
+      93
+     ],
+     "respective": [
+      97
+     ],
+     "sizes.": [
+      99
+     ],
+     "Nonetheless,": [
+      100
+     ],
+     "we": [
+      101
+     ],
+     "could": [
+      102
+     ],
+     "identify": [
+      103
+     ],
+     "several": [
+      104
+     ],
+     "cases:": [
+      106
+     ],
+     "comparison": [
+      108,
+      148
+     ],
+     "examined": [
+      112
+     ],
+     "compared": [
+      115
+     ],
+     "indicates": [
+      119
+     ],
+     "disturbs": [
+      123
+     ],
+     "reading": [
+      125
+     ],
+     "process,": [
+      126
+     ],
+     "some": [
+      128
+     ],
+     "small": [
+      129
+     ],
+     "detrimental": [
+      130
+     ],
+     "memory,": [
+      133
+     ],
+     "positive": [
+      137
+     ],
+     "emotional": [
+      140
+     ],
+     "reactions": [
+      141
+     ],
+     "improves": [
+      143
+     ],
+     "achievements": [
+      144
+     ],
+     "in": [
+      145
+     ],
+     "sports.": [
+      146
+     ],
+     "different": [
+      150
+     ],
+     "types": [
+      151
+     ],
+     "tempo": [
+      158,
+      164
+     ],
+     "influences": [
+      162
+     ],
+     "activities": [
+      166
+     ],
+     "are": [
+      168
+     ],
+     "performed": [
+      169
+     ],
+     "while": [
+      170
+     ],
+     "being": [
+      171
+     ],
+     "exposed": [
+      172
+     ],
+     "It": [
+      176
+     ],
+     "suggested": [
+      178
+     ],
+     "effort": [
+      180
+     ],
+     "should": [
+      181
+     ],
+     "be": [
+      182
+     ],
+     "made": [
+      183
+     ],
+     "develop": [
+      185
+     ],
+     "more": [
+      186
+     ],
+     "theories": [
+      188
+     ],
+     "about": [
+      189
+     ],
+     "increase": [
+      197
+     ],
+     "methodological": [
+      199
+     ],
+     "quality": [
+      200
+     ],
+     "relevant": [
+      202
+     ],
+     "studies.": [
+      203
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5050352841",
+       "display_name": "Juliane K\u00e4mpfe",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I2610724",
+        "display_name": "Chemnitz University of Technology",
+        "ror": "https://ror.org/00a208s56",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I2610724"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Juliane K\u00e4mpfe",
+      "raw_affiliation_strings": [
+       "Chemnitz University of Technology, Germany",
+       "Department of Psychology, Chemnitz University of Technology, Chemnitz, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Chemnitz University of Technology, Germany",
+        "institution_ids": [
+         "https://openalex.org/I2610724"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, Chemnitz University of Technology, Chemnitz, Germany",
+        "institution_ids": [
+         "https://openalex.org/I2610724"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5056903032",
+       "display_name": "Peter Sedlmeier",
+       "orcid": "https://orcid.org/0000-0002-7998-6313",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7998-6313"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I2610724",
+        "display_name": "Chemnitz University of Technology",
+        "ror": "https://ror.org/00a208s56",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I2610724"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Peter Sedlmeier",
+      "raw_affiliation_strings": [
+       "Chemnitz University of Technology, Germany",
+       "Chemnitz University of Technology , Chemnitz , Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Chemnitz University of Technology, Germany",
+        "institution_ids": [
+         "https://openalex.org/I2610724"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Chemnitz University of Technology , Chemnitz , Germany",
+        "institution_ids": [
+         "https://openalex.org/I2610724"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5015752471",
+       "display_name": "Frank Renkewitz",
+       "orcid": "https://orcid.org/0000-0001-8072-6802",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8072-6802"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I20431382",
+        "display_name": "University of Erfurt",
+        "ror": "https://ror.org/03606hw36",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I20431382"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Frank Renkewitz",
+      "raw_affiliation_strings": [
+       "University of Erfurt, Germany",
+       "University of Erfurt, Erfurt, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Erfurt, Germany",
+        "institution_ids": [
+         "https://openalex.org/I20431382"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Erfurt, Erfurt, Germany",
+        "institution_ids": [
+         "https://openalex.org/I20431382"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1177/0305735610376261",
+     "doi": "https://doi.org/10.1177/0305735610376261",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1177/0305735610376261",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S124362806",
+      "display_name": "Psychology of Music",
+      "issn_l": "0305-7356",
+      "issn": [
+       "0305-7356",
+       "1741-3087"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-c",
+       "erih-plus",
+       "jufo-3",
+       "ki-jl-1",
+       "norway-2",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320017",
+      "host_organization_name": "SAGE Publishing",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320017"
+      ],
+      "host_organization_lineage_names": [
+       "SAGE Publishing"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Psychology of Music",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2002381281",
+    "doi": "https://doi.org/10.3389/fnagi.2014.00284",
+    "title": "The cognitive effects of listening to background music on older adults: processing speed improves with upbeat music, while memory seems to benefit from both upbeat and downbeat music",
+    "display_name": "The cognitive effects of listening to background music on older adults: processing speed improves with upbeat music, while memory seems to benefit from both upbeat and downbeat music",
+    "publication_year": 2014,
+    "cited_by_count": 197,
+    "abstract_inverted_index": {
+     "Background": [
+      0
+     ],
+     "music": [
+      1,
+      5,
+      57,
+      72,
+      79
+     ],
+     "refers": [
+      2
+     ],
+     "to": [
+      3,
+      31,
+      44,
+      74
+     ],
+     "any": [
+      4
+     ],
+     "played": [
+      6
+     ],
+     "while": [
+      7,
+      25
+     ],
+     "the": [
+      8,
+      32,
+      50,
+      87,
+      96
+     ],
+     "listener": [
+      9
+     ],
+     "is": [
+      10
+     ],
+     "performing": [
+      11
+     ],
+     "another": [
+      12
+     ],
+     "activity.": [
+      13
+     ],
+     "Most": [
+      14
+     ],
+     "studies": [
+      15
+     ],
+     "on": [
+      16,
+      22,
+      58
+     ],
+     "this": [
+      17,
+      35,
+      41,
+      46
+     ],
+     "effect": [
+      18,
+      36
+     ],
+     "have": [
+      19
+     ],
+     "been": [
+      20,
+      29
+     ],
+     "conducted": [
+      21
+     ],
+     "young": [
+      23
+     ],
+     "adults,": [
+      24
+     ],
+     "little": [
+      26
+     ],
+     "attention": [
+      27
+     ],
+     "has": [
+      28
+     ],
+     "paid": [
+      30
+     ],
+     "presence": [
+      33
+     ],
+     "of": [
+      34,
+      52,
+      55,
+      95
+     ],
+     "in": [
+      37,
+      67,
+      86
+     ],
+     "older": [
+      38,
+      68
+     ],
+     "adults.": [
+      39,
+      69
+     ],
+     "Hence,": [
+      40
+     ],
+     "study": [
+      42
+     ],
+     "aimed": [
+      43
+     ],
+     "address": [
+      45
+     ],
+     "imbalance": [
+      47
+     ],
+     "by": [
+      48
+     ],
+     "assessing": [
+      49
+     ],
+     "impact": [
+      51
+     ],
+     "different": [
+      53
+     ],
+     "types": [
+      54
+     ],
+     "background": [
+      56,
+      71
+     ],
+     "cognitive": [
+      59
+     ],
+     "tasks": [
+      60
+     ],
+     "tapping": [
+      61
+     ],
+     "declarative": [
+      62
+     ],
+     "memory": [
+      63
+     ],
+     "and": [
+      64,
+      80,
+      92
+     ],
+     "processing": [
+      65
+     ],
+     "speed": [
+      66
+     ],
+     "Overall,": [
+      70
+     ],
+     "tended": [
+      73
+     ],
+     "improve": [
+      75
+     ],
+     "performance": [
+      76
+     ],
+     "over": [
+      77
+     ],
+     "no": [
+      78
+     ],
+     "white": [
+      81
+     ],
+     "noise,": [
+      82
+     ],
+     "but": [
+      83
+     ],
+     "not": [
+      84
+     ],
+     "always": [
+      85
+     ],
+     "same": [
+      88
+     ],
+     "manner.": [
+      89
+     ],
+     "The": [
+      90
+     ],
+     "theoretical": [
+      91
+     ],
+     "practical": [
+      93
+     ],
+     "implications": [
+      94
+     ],
+     "empirical": [
+      97
+     ],
+     "findings": [
+      98
+     ],
+     "are": [
+      99
+     ],
+     "discussed.": [
+      100
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5052937204",
+       "display_name": "Sara Bottiroli",
+       "orcid": "https://orcid.org/0000-0002-0151-3962",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0151-3962"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210095701",
+        "display_name": "Fondazione Istituto Neurologico Nazionale Casimiro Mondino",
+        "ror": "https://ror.org/009h0v784",
+        "country_code": "IT",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I4210095701",
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Sara Bottiroli",
+      "raw_affiliation_strings": [
+       "Brain Connectivity Center, National Neurological Institute C. Mondino Pavia, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Brain Connectivity Center, National Neurological Institute C. Mondino Pavia, Italy",
+        "institution_ids": [
+         "https://openalex.org/I4210095701"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5001037972",
+       "display_name": "Alessia Rosi",
+       "orcid": "https://orcid.org/0000-0001-6692-3279",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6692-3279"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I25217355",
+        "display_name": "University of Pavia",
+        "ror": "https://ror.org/00s6t1f81",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I25217355"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Alessia Rosi",
+      "raw_affiliation_strings": [
+       "Brain and Behavioral Sciences Department, University of Pavia Pavia, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Brain and Behavioral Sciences Department, University of Pavia Pavia, Italy",
+        "institution_ids": [
+         "https://openalex.org/I25217355"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5062795587",
+       "display_name": "Riccardo Russo",
+       "orcid": "https://orcid.org/0000-0002-5946-8914",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5946-8914"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I110002522",
+        "display_name": "University of Essex",
+        "ror": "https://ror.org/02nkf1q06",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I110002522"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I25217355",
+        "display_name": "University of Pavia",
+        "ror": "https://ror.org/00s6t1f81",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I25217355"
+        ]
+       }
+      ],
+      "countries": [
+       "GB",
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Riccardo Russo",
+      "raw_affiliation_strings": [
+       "Brain and Behavioral Sciences Department, University of Pavia Pavia, Italy ; Department of Psychology, University of Essex Essex, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Brain and Behavioral Sciences Department, University of Pavia Pavia, Italy ; Department of Psychology, University of Essex Essex, UK",
+        "institution_ids": [
+         "https://openalex.org/I110002522",
+         "https://openalex.org/I25217355"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5035235278",
+       "display_name": "Tomaso Vecchi",
+       "orcid": "https://orcid.org/0000-0002-2998-1784",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2998-1784"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I25217355",
+        "display_name": "University of Pavia",
+        "ror": "https://ror.org/00s6t1f81",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I25217355"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210095701",
+        "display_name": "Fondazione Istituto Neurologico Nazionale Casimiro Mondino",
+        "ror": "https://ror.org/009h0v784",
+        "country_code": "IT",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I4210095701",
+         "https://openalex.org/I4210153126"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Tomaso Vecchi",
+      "raw_affiliation_strings": [
+       "Brain Connectivity Center, National Neurological Institute C. Mondino Pavia, Italy ; Brain and Behavioral Sciences Department, University of Pavia Pavia, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Brain Connectivity Center, National Neurological Institute C. Mondino Pavia, Italy ; Brain and Behavioral Sciences Department, University of Pavia Pavia, Italy",
+        "institution_ids": [
+         "https://openalex.org/I25217355",
+         "https://openalex.org/I4210095701"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5075853900",
+       "display_name": "Elena Cavallini",
+       "orcid": "https://orcid.org/0000-0002-2405-3399",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2405-3399"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I25217355",
+        "display_name": "University of Pavia",
+        "ror": "https://ror.org/00s6t1f81",
+        "country_code": "IT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I25217355"
+        ]
+       }
+      ],
+      "countries": [
+       "IT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Elena Cavallini",
+      "raw_affiliation_strings": [
+       "Brain and Behavioral Sciences Department, University of Pavia Pavia, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Brain and Behavioral Sciences Department, University of Pavia Pavia, Italy",
+        "institution_ids": [
+         "https://openalex.org/I25217355"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fnagi.2014.00284",
+     "doi": "https://doi.org/10.3389/fnagi.2014.00284",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fnagi.2014.00284",
+     "pdf_url": "https://www.frontiersin.org/articles/10.3389/fnagi.2014.00284/pdf",
+     "source": {
+      "id": "https://openalex.org/S118428158",
+      "display_name": "Frontiers in Aging Neuroscience",
+      "issn_l": "1663-4365",
+      "issn": [
+       "1663-4365"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Aging Neuroscience",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

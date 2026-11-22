@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20233-ede6-7c61-bfbf-5347dcec0c6a",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795333287,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"No results, so I will broaden to 'retrieval practice testing effect' to find relevant literature.\", \"action\": \"search_papers\", \"args\": {\"query\": \"retrieval practice testing effect\"}}",
+    "reasoning_content": "Try broader query.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1117,
+  "completion_tokens": 54,
+  "total_tokens": 1171,
+  "prompt_tokens_details": {
+   "cached_tokens": 1024
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 5
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 34.23
+}

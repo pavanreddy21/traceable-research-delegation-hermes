@@ -1,0 +1,1469 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 84190,
+   "db_response_time_ms": 299,
+   "page": 1,
+   "per_page": 2,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (effects of acute exercise on cognitive performance meta-analysis) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (effects of acute exercise on cognitive performance meta-analysis) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "effects of acute exercise on cognitive performance meta-analysis",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:effects of acute exercise on cognitive performance meta-analysis,has_abstract:true,language:en,type:article|review&per_page=2",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W3176275629",
+    "doi": "https://doi.org/10.1016/j.neubiorev.2021.06.026",
+    "title": "The effects of acute aerobic exercise on executive function: A systematic review and meta-analysis of individual participant data",
+    "display_name": "The effects of acute aerobic exercise on executive function: A systematic review and meta-analysis of individual participant data",
+    "publication_year": 2021,
+    "cited_by_count": 177,
+    "abstract_inverted_index": {
+     "An": [
+      0
+     ],
+     "increasing": [
+      1
+     ],
+     "number": [
+      2
+     ],
+     "of": [
+      3,
+      10,
+      38,
+      58,
+      67,
+      75,
+      102,
+      127,
+      150
+     ],
+     "studies": [
+      4
+     ],
+     "has": [
+      5,
+      28
+     ],
+     "focused": [
+      6,
+      44
+     ],
+     "on": [
+      7,
+      14,
+      31,
+      45,
+      79
+     ],
+     "the": [
+      8,
+      41,
+      55,
+      72,
+      114,
+      128,
+      147
+     ],
+     "after-effects": [
+      9,
+      74,
+      149
+     ],
+     "acute": [
+      11,
+      25,
+      76,
+      132,
+      151
+     ],
+     "aerobic": [
+      12,
+      26,
+      77,
+      93
+     ],
+     "exercise": [
+      13,
+      27,
+      78,
+      94,
+      133
+     ],
+     "executive": [
+      15,
+      32,
+      46,
+      103
+     ],
+     "function.": [
+      16,
+      33
+     ],
+     "To": [
+      17,
+      34
+     ],
+     "date,": [
+      18
+     ],
+     "empirical": [
+      19
+     ],
+     "evidence": [
+      20
+     ],
+     "lacks": [
+      21
+     ],
+     "consensus": [
+      22
+     ],
+     "regarding": [
+      23
+     ],
+     "whether": [
+      24
+     ],
+     "beneficial": [
+      29,
+      73,
+      148
+     ],
+     "effects": [
+      30
+     ],
+     "identify": [
+      35
+     ],
+     "possible": [
+      36,
+      125
+     ],
+     "sources": [
+      37
+     ],
+     "this": [
+      39,
+      65
+     ],
+     "discrepancy,": [
+      40
+     ],
+     "present": [
+      42,
+      115
+     ],
+     "study": [
+      43
+     ],
+     "function": [
+      47,
+      104
+     ],
+     "demands": [
+      48
+     ],
+     "and": [
+      49,
+      53
+     ],
+     "pre-test": [
+      50,
+      107,
+      120,
+      141
+     ],
+     "cognitive": [
+      51,
+      80,
+      88,
+      99,
+      108,
+      121,
+      142
+     ],
+     "performance,": [
+      52
+     ],
+     "performed": [
+      54
+     ],
+     "first": [
+      56
+     ],
+     "meta-analysis": [
+      57,
+      117
+     ],
+     "individual": [
+      59
+     ],
+     "participant": [
+      60
+     ],
+     "data": [
+      61
+     ],
+     "(IPD": [
+      62
+     ],
+     "meta-analysis)": [
+      63
+     ],
+     "in": [
+      64,
+      84,
+      131
+     ],
+     "area": [
+      66
+     ],
+     "research.": [
+      68
+     ],
+     "Results": [
+      69
+     ],
+     "indicated": [
+      70
+     ],
+     "that": [
+      71,
+      119
+     ],
+     "performance": [
+      81,
+      89,
+      100,
+      109,
+      122,
+      143
+     ],
+     "were": [
+      82
+     ],
+     "greater": [
+      83
+     ],
+     "participants": [
+      85
+     ],
+     "with": [
+      86
+     ],
+     "lower": [
+      87
+     ],
+     "at": [
+      90
+     ],
+     "pre-test.": [
+      91
+     ],
+     "Acute": [
+      92
+     ],
+     "offered": [
+      95
+     ],
+     "general": [
+      96
+     ],
+     "benefits": [
+      97
+     ],
+     "to": [
+      98,
+      139,
+      144
+     ],
+     "irrespective": [
+      101
+     ],
+     "demands,": [
+      105
+     ],
+     "when": [
+      106
+     ],
+     "was": [
+      110
+     ],
+     "appropriately": [
+      111
+     ],
+     "controlled.": [
+      112
+     ],
+     "Thus,": [
+      113
+     ],
+     "IPD": [
+      116
+     ],
+     "suggests": [
+      118
+     ],
+     "is": [
+      123,
+      137
+     ],
+     "one": [
+      124
+     ],
+     "source": [
+      126
+     ],
+     "conflicting": [
+      129
+     ],
+     "findings": [
+      130
+     ],
+     "studies.": [
+      134
+     ],
+     "Future": [
+      135
+     ],
+     "research": [
+      136
+     ],
+     "encouraged": [
+      138
+     ],
+     "consider": [
+      140
+     ],
+     "avoid": [
+      145
+     ],
+     "underestimating": [
+      146
+     ],
+     "exercise.": [
+      152
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5035487046",
+       "display_name": "Toru Ishihara",
+       "orcid": "https://orcid.org/0000-0003-3544-6822",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3544-6822"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I65837984",
+        "display_name": "Kobe University",
+        "ror": "https://ror.org/03tgsfw79",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I65837984"
+        ]
+       }
+      ],
+      "countries": [
+       "JP"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Toru Ishihara",
+      "raw_affiliation_strings": [
+       "Graduate School of Human Development and Environment, Kobe University, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Graduate School of Human Development and Environment, Kobe University, Japan",
+        "institution_ids": [
+         "https://openalex.org/I65837984"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5055053817",
+       "display_name": "Eric S. Drollette",
+       "orcid": "https://orcid.org/0000-0001-6965-0173",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6965-0173"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I169335092",
+        "display_name": "University of North Carolina at Greensboro",
+        "ror": "https://ror.org/04fnxsj42",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I169335092"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Eric S. Drollette",
+      "raw_affiliation_strings": [
+       "Department of Kinesiology, University of North Carolina Greensboro, United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Kinesiology, University of North Carolina Greensboro, United States",
+        "institution_ids": [
+         "https://openalex.org/I169335092"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5040977889",
+       "display_name": "Sebastian Ludyga",
+       "orcid": "https://orcid.org/0000-0002-3905-7894",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3905-7894"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1850255",
+        "display_name": "University of Basel",
+        "ror": "https://ror.org/02s6k3f65",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I1850255"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Sebastian Ludyga",
+      "raw_affiliation_strings": [
+       "Department of Sport, Exercise and Health, University of Basel, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Sport, Exercise and Health, University of Basel, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I1850255"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5052684252",
+       "display_name": "Charles H. Hillman",
+       "orcid": "https://orcid.org/0000-0002-3722-5612",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3722-5612"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I12912129",
+        "display_name": "Northeastern University",
+        "ror": "https://ror.org/04t5xt781",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I12912129"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Charles H. Hillman",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Department of Physical Therapy, Movement, & Rehabilitation Sciences, Northeastern University, United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Department of Physical Therapy, Movement, & Rehabilitation Sciences, Northeastern University, United States",
+        "institution_ids": [
+         "https://openalex.org/I12912129"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5035049768",
+       "display_name": "Keita Kamijo",
+       "orcid": "https://orcid.org/0000-0001-8828-4930",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8828-4930"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I98940699",
+        "display_name": "Chukyo University",
+        "ror": "https://ror.org/04ajrmg05",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I98940699"
+        ]
+       }
+      ],
+      "countries": [
+       "JP"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Keita Kamijo",
+      "raw_affiliation_strings": [
+       "Faculty of Liberal Arts and Sciences, Chukyo University, Japan. Electronic address: k-kamijo@lets.chukyo-u.ac.jp",
+       "Faculty of Liberal Arts and Sciences, Chukyo University, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Liberal Arts and Sciences, Chukyo University, Japan. Electronic address: k-kamijo@lets.chukyo-u.ac.jp",
+        "institution_ids": [
+         "https://openalex.org/I98940699"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Faculty of Liberal Arts and Sciences, Chukyo University, Japan",
+        "institution_ids": [
+         "https://openalex.org/I98940699"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1016/j.neubiorev.2021.06.026",
+     "doi": "https://doi.org/10.1016/j.neubiorev.2021.06.026",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1016/j.neubiorev.2021.06.026",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S170052170",
+      "display_name": "Neuroscience & Biobehavioral Reviews",
+      "issn_l": "0149-7634",
+      "issn": [
+       "0149-7634",
+       "1873-7528"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-b",
+       "doyens",
+       "erih-plus",
+       "jufo-3",
+       "ki-jl-2",
+       "medline",
+       "norway-2",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+       "Elsevier BV"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Neuroscience &amp; Biobehavioral Reviews",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4366367069",
+    "doi": "https://doi.org/10.1159/000529307",
+    "title": "Meta-Analysis of Electroencephalographic Correlates and Cognitive Performance for Acute Exercise-Induced Modulation",
+    "display_name": "Meta-Analysis of Electroencephalographic Correlates and Cognitive Performance for Acute Exercise-Induced Modulation",
+    "publication_year": 2023,
+    "cited_by_count": 12,
+    "abstract_inverted_index": {
+     "INTRODUCTION:": [
+      0
+     ],
+     "Although": [
+      1
+     ],
+     "abundant": [
+      2
+     ],
+     "research": [
+      3,
+      118
+     ],
+     "delving": [
+      4
+     ],
+     "into": [
+      5,
+      120
+     ],
+     "the": [
+      6,
+      14,
+      45,
+      50,
+      98,
+      128,
+      146,
+      151,
+      155
+     ],
+     "acute": [
+      7,
+      83,
+      132,
+      160
+     ],
+     "exercise-induced": [
+      8
+     ],
+     "modulation": [
+      9
+     ],
+     "of": [
+      10,
+      24,
+      32,
+      53,
+      60,
+      104,
+      131
+     ],
+     "cognitive": [
+      11,
+      65,
+      91,
+      169
+     ],
+     "performance": [
+      12,
+      66,
+      170
+     ],
+     "and": [
+      13,
+      40,
+      74,
+      114,
+      140,
+      162,
+      168
+     ],
+     "P300-ERP": [
+      15,
+      158
+     ],
+     "component": [
+      16
+     ],
+     "has": [
+      17,
+      34
+     ],
+     "been": [
+      18
+     ],
+     "conducted,": [
+      19
+     ],
+     "there": [
+      20
+     ],
+     "is": [
+      21,
+      145
+     ],
+     "a": [
+      22,
+      35,
+      58
+     ],
+     "lack": [
+      23
+     ],
+     "consensus": [
+      25
+     ],
+     "regarding": [
+      26
+     ],
+     "whether": [
+      27
+     ],
+     "or": [
+      28
+     ],
+     "not": [
+      29
+     ],
+     "this": [
+      30,
+      54,
+      144
+     ],
+     "type": [
+      31
+     ],
+     "intervention": [
+      33
+     ],
+     "beneficial": [
+      36,
+      129
+     ],
+     "effect": [
+      37,
+      89,
+      99
+     ],
+     "on": [
+      38,
+      90,
+      154,
+      166
+     ],
+     "cognition": [
+      39
+     ],
+     "how": [
+      41
+     ],
+     "it": [
+      42
+     ],
+     "relates": [
+      43
+     ],
+     "to": [
+      44,
+      125,
+      141
+     ],
+     "P300-ERP.": [
+      46
+     ],
+     "METHODS:": [
+      47
+     ],
+     "To": [
+      48
+     ],
+     "examine": [
+      49
+     ],
+     "possible": [
+      51
+     ],
+     "sources": [
+      52
+     ],
+     "discrepancy,": [
+      55
+     ],
+     "we": [
+      56
+     ],
+     "conducted": [
+      57
+     ],
+     "meta-analysis": [
+      59,
+      148
+     ],
+     "ERP": [
+      61
+     ],
+     "results": [
+      62,
+      79
+     ],
+     "together": [
+      63
+     ],
+     "with": [
+      64,
+      94
+     ],
+     "that": [
+      67,
+      81
+     ],
+     "were": [
+      68
+     ],
+     "systemically": [
+      69
+     ],
+     "stratified": [
+      70
+     ],
+     "by": [
+      71
+     ],
+     "relevant": [
+      72,
+      152
+     ],
+     "demographic": [
+      73
+     ],
+     "methodological": [
+      75
+     ],
+     "moderators.": [
+      76
+     ],
+     "RESULTS:": [
+      77
+     ],
+     "Our": [
+      78
+     ],
+     "indicate": [
+      80
+     ],
+     "while": [
+      82
+     ],
+     "exercise": [
+      84,
+      108,
+      110,
+      133
+     ],
+     "exerted": [
+      85
+     ],
+     "an": [
+      86
+     ],
+     "overall": [
+      87
+     ],
+     "stable": [
+      88
+     ],
+     "improvement,": [
+      92
+     ],
+     "associated": [
+      93
+     ],
+     "enlarged": [
+      95
+     ],
+     "P300": [
+      96
+     ],
+     "amplitudes,": [
+      97
+     ],
+     "size": [
+      100
+     ],
+     "varied": [
+      101
+     ],
+     "across": [
+      102
+     ],
+     "factors": [
+      103,
+      123
+     ],
+     "age,": [
+      105
+     ],
+     "biological": [
+      106
+     ],
+     "sex,": [
+      107
+     ],
+     "intensity,": [
+      109
+     ],
+     "type,": [
+      111,
+      113
+     ],
+     "control": [
+      112
+     ],
+     "experimental": [
+      115
+     ],
+     "design.": [
+      116
+     ],
+     "Future": [
+      117
+     ],
+     "taking": [
+      119
+     ],
+     "consideration": [
+      121
+     ],
+     "modulating": [
+      122
+     ],
+     "as": [
+      124
+     ],
+     "avoid": [
+      126
+     ],
+     "misestimating": [
+      127
+     ],
+     "effects": [
+      130
+     ],
+     "are": [
+      134
+     ],
+     "encouraged.": [
+      135
+     ],
+     "CONCLUSION:": [
+      136
+     ],
+     "All": [
+      137
+     ],
+     "in": [
+      138,
+      171
+     ],
+     "all,": [
+      139
+     ],
+     "our": [
+      142
+     ],
+     "knowledge,": [
+      143
+     ],
+     "first": [
+      147
+     ],
+     "quantitatively": [
+      149
+     ],
+     "summarizing": [
+      150
+     ],
+     "literature": [
+      153
+     ],
+     "associations": [
+      156
+     ],
+     "between": [
+      157
+     ],
+     "correlates,": [
+      159
+     ],
+     "exercise,": [
+      161
+     ],
+     "its": [
+      163
+     ],
+     "positive": [
+      164
+     ],
+     "influence": [
+      165
+     ],
+     "attention": [
+      167
+     ],
+     "healthy": [
+      172
+     ],
+     "individuals.": [
+      173
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5042259779",
+       "display_name": "R\u00f3ger Marcelo Mart\u00ednez",
+       "orcid": "https://orcid.org/0000-0002-5536-5897",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5536-5897"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I169009895",
+        "display_name": "National Autonomous University of Honduras",
+        "ror": "https://ror.org/03xyve152",
+        "country_code": "HN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I169009895"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I47519274",
+        "display_name": "Taipei Medical University",
+        "ror": "https://ror.org/05031qk94",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I47519274"
+        ]
+       }
+      ],
+      "countries": [
+       "HN",
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "R\u00f3ger Marcelo Mart\u00ednez",
+      "raw_affiliation_strings": [
+       "Graduate Institute of Injury Prevention and Control, College of Public Health, Taipei Medical University, Taipei, Taiwan, marcelo.rmmc@gmail.com",
+       "School of Psychological Sciences, National Autonomous University of Honduras, Tegucigalpa, Honduras, marcelo.rmmc@gmail.com"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-5536-5897",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Graduate Institute of Injury Prevention and Control, College of Public Health, Taipei Medical University, Taipei, Taiwan, marcelo.rmmc@gmail.com",
+        "institution_ids": [
+         "https://openalex.org/I47519274"
+        ]
+       },
+       {
+        "raw_affiliation_string": "School of Psychological Sciences, National Autonomous University of Honduras, Tegucigalpa, Honduras, marcelo.rmmc@gmail.com",
+        "institution_ids": [
+         "https://openalex.org/I169009895"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5036324889",
+       "display_name": "Chenyi Chen",
+       "orcid": "https://orcid.org/0000-0001-8050-6754",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8050-6754",
+        "https://orcid.org/0000-0002-4043-1273"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210142271",
+        "display_name": "Wan Fang Hospital",
+        "ror": "https://ror.org/058y0nn10",
+        "country_code": "TW",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210142271"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210158385",
+        "display_name": "Taipei Medical University-Shuang Ho Hospital",
+        "ror": "https://ror.org/04k9dce70",
+        "country_code": "TW",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210158385"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I47519274",
+        "display_name": "Taipei Medical University",
+        "ror": "https://ror.org/05031qk94",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I47519274"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Chenyi Chen",
+      "raw_affiliation_strings": [
+       "Brain and Consciousness Research Center, Shuang-Ho Hospital, Taipei Medical University, New Taipei City, Taiwan",
+       "Graduate Institute of Injury Prevention and Control, College of Public Health, Taipei Medical University, Taipei, Taiwan",
+       "Graduate Institute of Mind, Brain and Consciousness, College of Humanities and Social Sciences, Taipei Medical University, Taipei, Taiwan",
+       "Psychiatric Research Center, Wan Fang Hospital, Taipei Medical University, Taipei, Taiwan"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-8050-6754",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Brain and Consciousness Research Center, Shuang-Ho Hospital, Taipei Medical University, New Taipei City, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I4210158385",
+         "https://openalex.org/I47519274"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Graduate Institute of Injury Prevention and Control, College of Public Health, Taipei Medical University, Taipei, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I47519274"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Graduate Institute of Mind, Brain and Consciousness, College of Humanities and Social Sciences, Taipei Medical University, Taipei, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I47519274"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Psychiatric Research Center, Wan Fang Hospital, Taipei Medical University, Taipei, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I4210142271",
+         "https://openalex.org/I47519274"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5100774327",
+       "display_name": "Yang\u2010Teng Fan",
+       "orcid": "https://orcid.org/0000-0002-4020-0125",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4020-0125"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99908691",
+        "display_name": "Yuan Ze University",
+        "ror": "https://ror.org/01fv1ds98",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I99908691"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Yang-Teng Fan",
+      "raw_affiliation_strings": [
+       "Graduate Institute of Medicine, Yuan Ze University, Taoyuan, Taiwan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Graduate Institute of Medicine, Yuan Ze University, Taoyuan, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I99908691"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5102360598",
+       "display_name": "Hui-Hua Wu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210148575",
+        "display_name": "National Taiwan University of Sport",
+        "ror": "https://ror.org/04mwjpk69",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210148575"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Hui-Hua Wu",
+      "raw_affiliation_strings": [
+       "Department of Physical Education, National Taiwan University of Sport, Taichung, Taiwan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Education, National Taiwan University of Sport, Taichung, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I4210148575"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5014181330",
+       "display_name": "Pin-Shiuan Du",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210148575",
+        "display_name": "National Taiwan University of Sport",
+        "ror": "https://ror.org/04mwjpk69",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210148575"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Pin-Shiuan Du",
+      "raw_affiliation_strings": [
+       "Department of Physical Education, National Taiwan University of Sport, Taichung, Taiwan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Education, National Taiwan University of Sport, Taichung, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I4210148575"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5001752591",
+       "display_name": "Guan-Ya Chen",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210148575",
+        "display_name": "National Taiwan University of Sport",
+        "ror": "https://ror.org/04mwjpk69",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210148575"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Guan-Ya Chen",
+      "raw_affiliation_strings": [
+       "Department of Physical Education, National Taiwan University of Sport, Taichung, Taiwan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Education, National Taiwan University of Sport, Taichung, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I4210148575"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5054214375",
+       "display_name": "Yu\u2010Chun Chen",
+       "orcid": "https://orcid.org/0000-0002-4124-1949",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4124-1949",
+        "https://orcid.org/0000-0002-0711-7602"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210148575",
+        "display_name": "National Taiwan University of Sport",
+        "ror": "https://ror.org/04mwjpk69",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210148575"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Yu-Chun Chen",
+      "raw_affiliation_strings": [
+       "Department of Physical Education, National Taiwan University of Sport, Taichung, Taiwan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Education, National Taiwan University of Sport, Taichung, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I4210148575"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1159/000529307",
+     "doi": "https://doi.org/10.1159/000529307",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1159/000529307",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S147539111",
+      "display_name": "Neuropsychobiology",
+      "issn_l": "0302-282X",
+      "issn": [
+       "0302-282X",
+       "1423-0224"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-b",
+       "doyens",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310317820",
+      "host_organization_name": "Karger Publishers",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310317820"
+      ],
+      "host_organization_lineage_names": [
+       "Karger Publishers"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Neuropsychobiology",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

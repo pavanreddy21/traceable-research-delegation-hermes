@@ -1,0 +1,602 @@
+{
+ "status": 200,
+ "json": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      11,
+      21
+     ]
+    ],
+    "date-time": "2026-11-21T19:09:24Z",
+    "timestamp": 1795288164485,
+    "version": "4.10.3"
+   },
+   "reference-count": 45,
+   "publisher": "National Academy of Sciences",
+   "issue": "47",
+   "content-domain": {
+    "domain": [
+     "www.pnas.org"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "Proc. Natl. Acad. Sci. U.S.A."
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2007,
+      11,
+      20
+     ]
+    ]
+   },
+   "abstract": "<jats:p>After encoding, memory traces are initially fragile and have to be reinforced to become permanent. The initial steps of this process occur at a cellular level within minutes or hours. Besides this rapid synaptic consolidation, systems consolidation occurs within a time frame of days to years. For declarative memory, the latter is presumed to rely on an interaction between different brain regions, in particular the hippocampus and the medial prefrontal cortex (mPFC). Specifically, sleep has been proposed to provide a setting that supports such systems consolidation processes, leading to a transfer and perhaps transformation of memories. Using functional MRI, we show that postlearning sleep enhances hippocampal responses during recall of word pairs 48 h after learning, indicating intrahippocampal memory processing during sleep. At the same time, sleep induces a memory-related functional connectivity between the hippocampus and the mPFC. Six months after learning, memories activated the mPFC more strongly when they were encoded before sleep, showing that sleep leads to long-lasting changes in the representation of memories on a systems level.</jats:p>",
+   "DOI": "10.1073/pnas.0705454104",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2007,
+      11,
+      13
+     ]
+    ],
+    "date-time": "2007-11-13T21:05:21Z",
+    "timestamp": 1194987921000
+   },
+   "page": "18778-18783",
+   "update-policy": "https://doi.org/10.1073/pnas.cm10313",
+   "source": "Crossref",
+   "is-referenced-by-count": 343,
+   "title": [
+    "Sleep transforms the cerebral trace of declarative memories"
+   ],
+   "prefix": "10.1073",
+   "volume": "104",
+   "author": [
+    {
+     "given": "Steffen",
+     "family": "Gais",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Genevi\u00e8ve",
+     "family": "Albouy",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "M\u00e9lanie",
+     "family": "Boly",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Thien Thanh",
+     "family": "Dang-Vu",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Annabelle",
+     "family": "Darsaud",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Martin",
+     "family": "Desseilles",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "G\u00e9raldine",
+     "family": "Rauchs",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Manuel",
+     "family": "Schabus",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Virginie",
+     "family": "Sterpenich",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Gilles",
+     "family": "Vandewalle",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Pierre",
+     "family": "Maquet",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Philippe",
+     "family": "Peigneux",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Cyclotron Research Center, University of Li\u00e8ge, All\u00e9e du 6 Aou\u0302t 8, B30, 4000 Li\u00e8ge, Belgium"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "341",
+   "published-online": {
+    "date-parts": [
+     [
+      2007,
+      11,
+      20
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "e_1_3_3_1_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.287.5451.248"
+    },
+    {
+     "key": "e_1_3_3_2_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.285.5435.1870"
+    },
+    {
+     "key": "e_1_3_3_3_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev.psych.55.090902.142050"
+    },
+    {
+     "key": "e_1_3_3_4_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.pneurobio.2006.06.004"
+    },
+    {
+     "key": "e_1_3_3_5_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1523/JNEUROSCI.23-30-09897.2003"
+    },
+    {
+     "key": "e_1_3_3_6_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/0033-295X.102.3.419"
+    },
+    {
+     "key": "e_1_3_3_7_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.1896849"
+    },
+    {
+     "key": "e_1_3_3_8_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.1135935"
+    },
+    {
+     "key": "e_1_3_3_9_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.neuron.2004.09.015"
+    },
+    {
+     "key": "e_1_3_3_10_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/nrn1607"
+    },
+    {
+     "key": "e_1_3_3_11_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.0507774103"
+    },
+    {
+     "key": "e_1_3_3_12_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1126/science.1062856"
+    },
+    {
+     "key": "e_1_3_3_13_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/nature04286"
+    },
+    {
+     "key": "e_1_3_3_14_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1101/lm.132106"
+    },
+    {
+     "key": "e_1_3_3_15_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.cub.2006.05.024"
+    },
+    {
+     "key": "e_1_3_3_16_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1093/cercor/6.2.81"
+    },
+    {
+     "key": "e_1_3_3_17_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S1364-6613(99)01365-0"
+    },
+    {
+     "key": "e_1_3_3_18_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0079-6123(03)45015-2"
+    },
+    {
+     "key": "e_1_3_3_19_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.0437938100"
+    },
+    {
+     "key": "e_1_3_3_20_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/362342a0"
+    },
+    {
+     "key": "e_1_3_3_21_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0959-4388(03)00040-0"
+    },
+    {
+     "key": "e_1_3_3_22_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1177/1073858406292647"
+    },
+    {
+     "key": "e_1_3_3_23_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/nrn1178"
+    },
+    {
+     "key": "e_1_3_3_24_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0926-6410(03)00053-3"
+    },
+    {
+     "key": "e_1_3_3_25_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1523/JNEUROSCI.4381-05.2006"
+    },
+    {
+     "key": "e_1_3_3_26_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/hipo.20105"
+    },
+    {
+     "key": "e_1_3_3_27_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0306-4522(82)90088-4"
+    },
+    {
+     "key": "e_1_3_3_28_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pbio.0030402"
+    },
+    {
+     "key": "e_1_3_3_29_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/S0896-6273(00)80629-7"
+    },
+    {
+     "key": "e_1_3_3_30_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev.neuro.27.070203.144130"
+    },
+    {
+     "key": "e_1_3_3_31_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/23270"
+    },
+    {
+     "key": "e_1_3_3_32_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/1098-1063(2000)10:3<329::AID-HIPO13>3.0.CO;2-Z"
+    },
+    {
+     "key": "e_1_3_3_33_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev.neuro.30.051606.094328"
+    },
+    {
+     "key": "e_1_3_3_34_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1152/jn.2002.88.2.982"
+    },
+    {
+     "key": "e_1_3_3_35_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.97.20.11125"
+    },
+    {
+     "key": "e_1_3_3_36_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1098/rstb.2001.0948"
+    },
+    {
+     "key": "e_1_3_3_37_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1146/annurev.psych.48.1.481"
+    },
+    {
+     "key": "e_1_3_3_38_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/nature02663"
+    },
+    {
+     "key": "e_1_3_3_39_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.smrv.2005.05.002"
+    },
+    {
+     "key": "e_1_3_3_40_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3406/psy.1990.29428"
+    },
+    {
+     "key": "e_1_3_3_41_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1073/pnas.221462998"
+    },
+    {
+     "key": "e_1_3_3_42_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/0028-3932(71)90067-4"
+    },
+    {
+     "key": "e_1_3_3_43_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3758/BF03200977"
+    },
+    {
+     "key": "e_1_3_3_44_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1006/nimg.1997.0291"
+    },
+    {
+     "key": "e_1_3_3_45_2",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B978-012264841-0/50044-5"
+    }
+   ],
+   "container-title": [
+    "Proceedings of the National Academy of Sciences"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://pnas.org/doi/pdf/10.1073/pnas.0705454104",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2022,
+      4,
+      12
+     ]
+    ],
+    "date-time": "2022-04-12T16:42:13Z",
+    "timestamp": 1649781733000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://pnas.org/doi/full/10.1073/pnas.0705454104"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2007,
+      11,
+      20
+     ]
+    ]
+   },
+   "references-count": 45,
+   "journal-issue": {
+    "issue": "47",
+    "published-print": {
+     "date-parts": [
+      [
+       2007,
+       11,
+       20
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10.1073/pnas.0705454104"
+   ],
+   "URL": "https://doi.org/10.1073/pnas.0705454104",
+   "relation": {},
+   "ISSN": [
+    "0027-8424",
+    "1091-6490"
+   ],
+   "issn-type": [
+    {
+     "value": "0027-8424",
+     "type": "print"
+    },
+    {
+     "value": "1091-6490",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2007,
+      11,
+      20
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "2007-06-11",
+     "order": 0,
+     "name": "received",
+     "label": "Received",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    },
+    {
+     "value": "2007-11-20",
+     "order": 2,
+     "name": "published",
+     "label": "Published",
+     "group": {
+      "name": "publication_history",
+      "label": "Publication History"
+     }
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201db-041c-7611-8209-46da2700faa7",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327460,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"ambiguity\": \"Are you asking about sleep after learning versus wakefulness, and for which memory type and population?\", \"candidates\": [{\"subquestions\": [{\"q\": \"Does post-learning sleep improve declarative memory compared with wakefulness?\", \"query\": \"sleep after learning declarative memory\"}, {\"q\": \"Which sleep stages support memory consolidation?\", \"query\": \"sleep stages memory consolidation\"}, {\"q\": \"Does post-learning sleep improve procedural memory?\", \"query\": \"sleep procedural memory consolidation\"}]}, {\"subquestions\": [{\"q\": \"Do naps after learning improve memory consolidation?\", \"query\": \"naps after learning memory consolidation\"}, {\"q\": \"Does overnight sleep after learning improve retention?\", \"query\": \"overnight sleep memory retention learning\"}, {\"q\": \"Do animal models show sleep-dependent memory consolidation?\", \"query\": \"animal sleep memory consolidation learning\"}]}, {\"subquestions\": [{\"q\": \"Does sleep deprivation after learning impair memory consolidation?\", \"query\": \"sleep deprivation after learning memory\"}, {\"q\": \"Do sleep quality and duration moderate consolidation benefits?\", \"query\": \"sleep quality duration memory consolidation\"}, {\"q\": \"Are sleep-related consolidation effects different in older adults or clinical populations?\", \"query\": \"sleep memory consolidation older adults\"}]}]}",
+    "reasoning_content": "We need answer JSON only. Need propose 3 different plans. Each plan breaks question into 2 or 3 subquestions independently researchable in scholarly literature, each with one short search query 4-8 words. Ambiguity if question ambiguous in way changes answer. Need decide ambiguity. Question: \"Does sleep after learning improve memory consolidation?\" Ambiguous: sleep after learning vs sleep deprivation? Type of memory? Human/animal? \"improve\" compared to wake? Need clarifying question. Since ambiguity would change answer, set ambiguity to clarifying question. Need JSON only. Need candidates 3 plans, each subquestions 2-3. Queries 4-8 words. Need ensure queries short. Could include \"sleep after learning memory consolidation\" etc. Need different plans. Plan 1: mechanisms/behavioral: compare sleep vs wake after learning; role of sleep stages; effect on declarative vs procedural memory. Plan 2: experimental designs/populations: human behavioral studies; nap vs full night; animal models. Plan 3: moderators/clinical: sleep quality/deprivation; age/clinical; interference/reconsolidation. Need each subquestion q and query. Queries 4-8 words. Need JSON valid. Ambiguity question: \"Do you mean sleep immediately after learning compared with wakefulness, and for which memory type/population?\" That's clarifying. But maybe one question. Need \"ambiguity\": \"Are you asking about sleep after learning versus wakefulness, and for which memory type and population?\" Good.\n\nNeed ensure each candidate has subquestions array. 3 candidates. Each 2 or 3 subquestions. Queries 4-8 words. Let's craft.\n\nCandidate 1:\nsubq1: Does post-learning sleep improve declarative memory compared with wake? query: \"sleep after learning declarative memory\"\nCount 5? sleep(1) after2 learning3 declarative4 memory5. Good.\nsubq2: Which sleep stages support consolidation? query: \"sleep stages memory consolidation\"\n4 words.\nsubq3: Does post-learning sleep improve procedural memory? query: \"sleep procedural memory consolidation\"\n4 words.\n\nCandidate 2:\nsubq1: Do naps after learning improve memory? query: \"naps after learning memory consolidation\" 5.\nsubq2: Does overnight sleep after learning improve retention? query: \"overnight sleep memory retention learning\" 5.\nsubq3: Do animal models show sleep-dependent consolidation? query: \"animal sleep memory consolidation learning\" 5.\n\nCandidate 3:\nsubq1: Does sleep deprivation after learning impair consolidation? query: \"sleep deprivation after learning memory\" 5.\nsubq2: Do sleep quality and duration moderate benefits? query: \"sleep quality duration memory consolidation\" 5.\nsubq3: Are effects different in older adults or clinical populations? query: \"sleep memory consolidation older adults\" 5. Good.\n\nNeed maybe \"improve\" compared to wake. Ambiguity. JSON only. Ensure no markdown. Use null? We set string. Need valid JSON. Final only.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 157,
+  "completion_tokens": 905,
+  "total_tokens": 1062,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 641
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 10.31
+}

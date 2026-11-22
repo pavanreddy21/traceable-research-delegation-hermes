@@ -1,0 +1,3703 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 13,
+   "db_response_time_ms": 144,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (laptop versus longhand note-taking effect varies discipline course subject conceptual factual) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (laptop versus longhand note-taking effect varies discipline course subject conceptual factual) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "laptop versus longhand note-taking effect varies discipline course subject conceptual factual",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:laptop versus longhand note-taking effect varies discipline course subject conceptual factual,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2935791627",
+    "doi": "https://doi.org/10.17705/1atrr.00041",
+    "title": "Examining Longhand vs. Laptop Debate: A Replication Study",
+    "display_name": "Examining Longhand vs. Laptop Debate: A Replication Study",
+    "publication_year": 2019,
+    "cited_by_count": 6,
+    "abstract_inverted_index": {
+     "There": [
+      0
+     ],
+     "is": [
+      1,
+      30,
+      130
+     ],
+     "a": [
+      2,
+      26,
+      53,
+      59,
+      73,
+      79
+     ],
+     "considerable": [
+      3
+     ],
+     "controversy": [
+      4
+     ],
+     "regarding": [
+      5
+     ],
+     "laptop": [
+      6,
+      27,
+      54,
+      140
+     ],
+     "usage": [
+      7
+     ],
+     "in": [
+      8,
+      19,
+      58,
+      72,
+      95,
+      116
+     ],
+     "the": [
+      9,
+      15,
+      20,
+      67,
+      137
+     ],
+     "classroom,": [
+      10
+     ],
+     "with": [
+      11
+     ],
+     "some": [
+      12
+     ],
+     "studies": [
+      13
+     ],
+     "arguing": [
+      14
+     ],
+     "benefits": [
+      16
+     ],
+     "of": [
+      17,
+      69
+     ],
+     "laptops": [
+      18,
+      92,
+      113
+     ],
+     "classroom": [
+      21,
+      74
+     ],
+     "and": [
+      22,
+      40
+     ],
+     "others": [
+      23
+     ],
+     "suggesting": [
+      24
+     ],
+     "that": [
+      25,
+      86,
+      107
+     ],
+     "free": [
+      28
+     ],
+     "environment": [
+      29,
+      75
+     ],
+     "superior.": [
+      31
+     ],
+     "In": [
+      32
+     ],
+     "an": [
+      33
+     ],
+     "effort": [
+      34
+     ],
+     "to": [
+      35,
+      47,
+      78,
+      133,
+      135
+     ],
+     "address": [
+      36
+     ],
+     "this": [
+      37
+     ],
+     "controversy,": [
+      38
+     ],
+     "Mueller": [
+      39
+     ],
+     "Oppenheimer": [
+      41
+     ],
+     "(2014)": [
+      42
+     ],
+     "conducted": [
+      43
+     ],
+     "three": [
+      44
+     ],
+     "different": [
+      45
+     ],
+     "experiments": [
+      46,
+      71
+     ],
+     "determine": [
+      48
+     ],
+     "whether": [
+      49
+     ],
+     "typing": [
+      50
+     ],
+     "notes": [
+      51,
+      57
+     ],
+     "on": [
+      52,
+      99,
+      120
+     ],
+     "or": [
+      55
+     ],
+     "handwriting": [
+      56
+     ],
+     "notebook": [
+      60
+     ],
+     "impacted": [
+      61
+     ],
+     "academic": [
+      62
+     ],
+     "performance.": [
+      63
+     ],
+     "This": [
+      64
+     ],
+     "research": [
+      65
+     ],
+     "replicated": [
+      66
+     ],
+     "first": [
+      68
+     ],
+     "these": [
+      70
+     ],
+     "as": [
+      76
+     ],
+     "opposed": [
+      77
+     ],
+     "lab": [
+      80
+     ],
+     "environment.": [
+      81
+     ],
+     "The": [
+      82
+     ],
+     "original": [
+      83
+     ],
+     "study": [
+      84,
+      105
+     ],
+     "found": [
+      85,
+      106
+     ],
+     "students": [
+      87,
+      108
+     ],
+     "who": [
+      88,
+      109
+     ],
+     "did": [
+      89
+     ],
+     "not": [
+      90,
+      111
+     ],
+     "use": [
+      91,
+      112
+     ],
+     "for": [
+      93,
+      114
+     ],
+     "note-taking": [
+      94,
+      115
+     ],
+     "class": [
+      96,
+      117
+     ],
+     "performed": [
+      97,
+      118
+     ],
+     "better": [
+      98,
+      119
+     ],
+     "conceptual": [
+      100
+     ],
+     "application": [
+      101
+     ],
+     "questions,": [
+      102
+     ],
+     "while": [
+      103
+     ],
+     "our": [
+      104
+     ],
+     "do": [
+      110,
+      134
+     ],
+     "factual": [
+      121
+     ],
+     "recall": [
+      122
+     ],
+     "questions": [
+      123
+     ],
+     "instead.": [
+      124
+     ],
+     "Our": [
+      125
+     ],
+     "updated": [
+      126
+     ],
+     "findings": [
+      127
+     ],
+     "suggest": [
+      128
+     ],
+     "there": [
+      129
+     ],
+     "more": [
+      131
+     ],
+     "work": [
+      132
+     ],
+     "understand": [
+      136
+     ],
+     "longhand": [
+      138
+     ],
+     "versus": [
+      139
+     ],
+     "debate.": [
+      141
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5040729064",
+       "display_name": "Alanah Mitchell",
+       "orcid": "https://orcid.org/0000-0002-6304-4671",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6304-4671"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I122266389",
+        "display_name": "University of Nebraska at Omaha",
+        "ror": "https://ror.org/04yrkc140",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I122266389"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I87213936",
+        "display_name": "Drake University",
+        "ror": "https://ror.org/001skmk61",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I87213936"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Alanah Mitchell",
+      "raw_affiliation_strings": [
+       "Drake University",
+       "College of Business and Public Administration at Drake University",
+       "Economics & Finance College of Business & Public Administration Drake University, Iowa, USA",
+       "Information Management & Business Analytics College of Business & Public Administration Drake University, Iowa, USA",
+       "P.O. Box 2712 Atlanta, GA, 30301",
+       "University of Nebraska at Omaha"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Drake University",
+        "institution_ids": [
+         "https://openalex.org/I87213936"
+        ]
+       },
+       {
+        "raw_affiliation_string": "College of Business and Public Administration at Drake University",
+        "institution_ids": [
+         "https://openalex.org/I87213936"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Economics & Finance College of Business & Public Administration Drake University, Iowa, USA",
+        "institution_ids": [
+         "https://openalex.org/I87213936"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Information Management & Business Analytics College of Business & Public Administration Drake University, Iowa, USA",
+        "institution_ids": [
+         "https://openalex.org/I87213936"
+        ]
+       },
+       {
+        "raw_affiliation_string": "P.O. Box 2712 Atlanta, GA, 30301",
+        "institution_ids": []
+       },
+       {
+        "raw_affiliation_string": "University of Nebraska at Omaha",
+        "institution_ids": [
+         "https://openalex.org/I122266389"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5073358678",
+       "display_name": "Liping Zheng",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I122266389",
+        "display_name": "University of Nebraska at Omaha",
+        "ror": "https://ror.org/04yrkc140",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I122266389"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I87213936",
+        "display_name": "Drake University",
+        "ror": "https://ror.org/001skmk61",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I87213936"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Liping Zheng",
+      "raw_affiliation_strings": [
+       "Drake University",
+       "College of Business and Public Administration at Drake University",
+       "Economics & Finance College of Business & Public Administration Drake University, Iowa, USA",
+       "Information Management & Business Analytics College of Business & Public Administration Drake University, Iowa, USA",
+       "P.O. Box 2712 Atlanta, GA, 30301",
+       "University of Nebraska at Omaha"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Drake University",
+        "institution_ids": [
+         "https://openalex.org/I87213936"
+        ]
+       },
+       {
+        "raw_affiliation_string": "College of Business and Public Administration at Drake University",
+        "institution_ids": [
+         "https://openalex.org/I87213936"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Economics & Finance College of Business & Public Administration Drake University, Iowa, USA",
+        "institution_ids": [
+         "https://openalex.org/I87213936"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Information Management & Business Analytics College of Business & Public Administration Drake University, Iowa, USA",
+        "institution_ids": [
+         "https://openalex.org/I87213936"
+        ]
+       },
+       {
+        "raw_affiliation_string": "P.O. Box 2712 Atlanta, GA, 30301",
+        "institution_ids": []
+       },
+       {
+        "raw_affiliation_string": "University of Nebraska at Omaha",
+        "institution_ids": [
+         "https://openalex.org/I122266389"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.17705/1atrr.00041",
+     "doi": "https://doi.org/10.17705/1atrr.00041",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.17705/1atrr.00041",
+     "pdf_url": "https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1043&context=trr",
+     "source": {
+      "id": "https://openalex.org/S4210181320",
+      "display_name": "AIS Transactions on Replication Research",
+      "issn_l": "2473-3458",
+      "issn": [
+       "2473-3458"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "jufo-1",
+       "norway-1",
+       "poland-20",
+       "russia-white-list-4"
+      ],
+      "host_organization": "https://openalex.org/P4310321080",
+      "host_organization_name": "Association for Information Systems",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310321080"
+      ],
+      "host_organization_lineage_names": [
+       "Association for Information Systems"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "AIS Transactions on Replication Research",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4409635479",
+    "doi": "https://doi.org/10.3390/bs15050561",
+    "title": "Snap & Write: Examining the Effect of Taking Photos and Notes on Memory for Lecture Content",
+    "display_name": "Snap & Write: Examining the Effect of Taking Photos and Notes on Memory for Lecture Content",
+    "publication_year": 2025,
+    "cited_by_count": 2,
+    "abstract_inverted_index": {
+     "Three": [
+      0
+     ],
+     "studies": [
+      1
+     ],
+     "investigated": [
+      2
+     ],
+     "the": [
+      3,
+      43,
+      46
+     ],
+     "effects": [
+      4,
+      128
+     ],
+     "of": [
+      5,
+      42
+     ],
+     "photo": [
+      6,
+      172,
+      181
+     ],
+     "and": [
+      7,
+      17,
+      25,
+      40,
+      51,
+      69,
+      87,
+      151,
+      157,
+      197
+     ],
+     "note": [
+      8,
+      191
+     ],
+     "taking": [
+      9,
+      173,
+      182,
+      192
+     ],
+     "on": [
+      10,
+      45
+     ],
+     "memory": [
+      11
+     ],
+     "for": [
+      12,
+      49,
+      72,
+      109,
+      139,
+      162
+     ],
+     "lecture": [
+      13,
+      23
+     ],
+     "content": [
+      14
+     ],
+     "in": [
+      15,
+      112,
+      153,
+      169,
+      178,
+      194
+     ],
+     "in-person": [
+      16,
+      114,
+      170
+     ],
+     "online": [
+      18,
+      155,
+      179
+     ],
+     "environments.": [
+      19
+     ],
+     "Participants": [
+      20,
+      188
+     ],
+     "watched": [
+      21
+     ],
+     "slideshow": [
+      22
+     ],
+     "videos": [
+      24
+     ],
+     "were": [
+      26
+     ],
+     "instructed": [
+      27
+     ],
+     "to": [
+      28,
+      90,
+      99,
+      148
+     ],
+     "only": [
+      29,
+      52,
+      93
+     ],
+     "watch,": [
+      30
+     ],
+     "take": [
+      31,
+      33,
+      37
+     ],
+     "photos,": [
+      32
+     ],
+     "notes,": [
+      34
+     ],
+     "or": [
+      35
+     ],
+     "simultaneously": [
+      36
+     ],
+     "both": [
+      38,
+      85,
+      200
+     ],
+     "photos": [
+      39,
+      86
+     ],
+     "notes": [
+      41,
+      88
+     ],
+     "information": [
+      44,
+      54,
+      74,
+      111
+     ],
+     "slides.": [
+      47
+     ],
+     "Memory": [
+      48
+     ],
+     "on-slide": [
+      50,
+      73,
+      110,
+      163
+     ],
+     "said": [
+      53
+     ],
+     "was": [
+      55,
+      78,
+      104
+     ],
+     "tested": [
+      56
+     ],
+     "using": [
+      57
+     ],
+     "fill-in-the-blank": [
+      58
+     ],
+     "questions.": [
+      59
+     ],
+     "Experiment": [
+      60,
+      96,
+      142
+     ],
+     "1,": [
+      61
+     ],
+     "conducted": [
+      62
+     ],
+     "in-person,": [
+      63
+     ],
+     "found": [
+      64,
+      130,
+      158
+     ],
+     "a": [
+      65,
+      79,
+      123,
+      136,
+      145,
+      159,
+      190
+     ],
+     "significant": [
+      66
+     ],
+     "photo-taking": [
+      67,
+      107,
+      160
+     ],
+     "impairment": [
+      68,
+      81,
+      108
+     ],
+     "an": [
+      70,
+      105,
+      113,
+      154
+     ],
+     "interaction": [
+      71
+     ],
+     "such": [
+      75
+     ],
+     "that": [
+      76,
+      131
+     ],
+     "there": [
+      77,
+      103
+     ],
+     "larger": [
+      80
+     ],
+     "when": [
+      82,
+      91
+     ],
+     "participants": [
+      83
+     ],
+     "took": [
+      84,
+      94
+     ],
+     "compared": [
+      89
+     ],
+     "they": [
+      92
+     ],
+     "notes.": [
+      95
+     ],
+     "2": [
+      97,
+      152,
+      196
+     ],
+     "failed": [
+      98
+     ],
+     "replicate": [
+      100
+     ],
+     "this": [
+      101
+     ],
+     "interaction;": [
+      102
+     ],
+     "overall": [
+      106
+     ],
+     "learning": [
+      115
+     ],
+     "environment.": [
+      116
+     ],
+     "We": [
+      117
+     ],
+     "additionally": [
+      118
+     ],
+     "examined": [
+      119
+     ],
+     "mind": [
+      120
+     ],
+     "wandering": [
+      121
+     ],
+     "as": [
+      122,
+      186
+     ],
+     "potential": [
+      124
+     ],
+     "mechanism": [
+      125
+     ],
+     "driving": [
+      126
+     ],
+     "these": [
+      127
+     ],
+     "but": [
+      129
+     ],
+     "it": [
+      132
+     ],
+     "does": [
+      133
+     ],
+     "not": [
+      134,
+      184
+     ],
+     "provide": [
+      135
+     ],
+     "sufficient": [
+      137
+     ],
+     "explanation": [
+      138
+     ],
+     "our": [
+      140
+     ],
+     "results.": [
+      141
+     ],
+     "3": [
+      143,
+      198
+     ],
+     "used": [
+      144
+     ],
+     "design": [
+      146
+     ],
+     "similar": [
+      147
+     ],
+     "Experiments": [
+      149,
+      195
+     ],
+     "1": [
+      150
+     ],
+     "environment": [
+      156
+     ],
+     "benefit": [
+      161,
+      193
+     ],
+     "information.": [
+      164
+     ],
+     "Our": [
+      165
+     ],
+     "results": [
+      166
+     ],
+     "suggest": [
+      167
+     ],
+     "that,": [
+      168
+     ],
+     "classes,": [
+      171,
+      180
+     ],
+     "likely": [
+      174
+     ],
+     "impairs": [
+      175
+     ],
+     "learning,": [
+      176
+     ],
+     "but,": [
+      177
+     ],
+     "may": [
+      183
+     ],
+     "be": [
+      185
+     ],
+     "harmful.": [
+      187
+     ],
+     "showed": [
+      189
+     ],
+     "across": [
+      199
+     ],
+     "class": [
+      201
+     ],
+     "modalities.": [
+      202
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5117232942",
+       "display_name": "Maribeth M. Trego",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I103635307",
+        "display_name": "University of California, Riverside",
+        "ror": "https://ror.org/03nawhv43",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I103635307"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/project-administration",
+        "display_name": "Project administration"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/visualization",
+        "display_name": "Visualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Maribeth M. Trego",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of California Riverside, Riverside, CA 92507, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California Riverside, Riverside, CA 92507, USA",
+        "institution_ids": [
+         "https://openalex.org/I103635307"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5086840452",
+       "display_name": "Julia S. Soares",
+       "orcid": "https://orcid.org/0000-0002-9738-1254",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9738-1254"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99041443",
+        "display_name": "Mississippi State University",
+        "ror": "https://ror.org/0432jq872",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210141039",
+         "https://openalex.org/I99041443"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Julia S. Soares",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Mississippi State University, Mississippi State, MS 39762, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-9738-1254",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Mississippi State University, Mississippi State, MS 39762, USA",
+        "institution_ids": [
+         "https://openalex.org/I99041443"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5039915617",
+       "display_name": "Annie Stanfield Ditta",
+       "orcid": "https://orcid.org/0000-0002-7126-034X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7126-034X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I103635307",
+        "display_name": "University of California, Riverside",
+        "ror": "https://ror.org/03nawhv43",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I103635307"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Annie S. Ditta",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of California Riverside, Riverside, CA 92507, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-7126-034X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California Riverside, Riverside, CA 92507, USA",
+        "institution_ids": [
+         "https://openalex.org/I103635307"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3390/bs15050561",
+     "doi": "https://doi.org/10.3390/bs15050561",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3390/bs15050561",
+     "pdf_url": "https://www.mdpi.com/2076-328X/15/5/561/pdf?version=1745282646",
+     "source": {
+      "id": "https://openalex.org/S4210194710",
+      "display_name": "Behavioral Sciences",
+      "issn_l": "2076-328X",
+      "issn": [
+       "2076-328X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-40",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310310987",
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310310987"
+      ],
+      "host_organization_lineage_names": [
+       "Multidisciplinary Digital Publishing Institute"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Behavioral Sciences",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3108571151",
+    "doi": "https://doi.org/10.1016/j.actpsy.2020.103221",
+    "title": "Comparing factual recall of tapped vs. handwritten text",
+    "display_name": "Comparing factual recall of tapped vs. handwritten text",
+    "publication_year": 2020,
+    "cited_by_count": 22,
+    "abstract_inverted_index": {
+     "As": [
+      0
+     ],
+     "a": [
+      1,
+      54,
+      71,
+      111
+     ],
+     "result": [
+      2
+     ],
+     "of": [
+      3,
+      11,
+      68,
+      87,
+      99,
+      104,
+      142
+     ],
+     "the": [
+      4,
+      12,
+      30,
+      44,
+      65,
+      92,
+      124,
+      131,
+      143
+     ],
+     "rushed": [
+      5
+     ],
+     "transition": [
+      6
+     ],
+     "to": [
+      7,
+      20,
+      74,
+      83,
+      109,
+      137,
+      146
+     ],
+     "remote": [
+      8
+     ],
+     "teaching": [
+      9
+     ],
+     "because": [
+      10
+     ],
+     "COVID-19": [
+      13
+     ],
+     "pandemic,": [
+      14
+     ],
+     "teachers": [
+      15
+     ],
+     "have": [
+      16,
+      138
+     ],
+     "suddenly": [
+      17
+     ],
+     "been": [
+      18,
+      59
+     ],
+     "forced": [
+      19
+     ],
+     "design": [
+      21
+     ],
+     "mobile-assisted": [
+      22
+     ],
+     "language": [
+      23
+     ],
+     "learning": [
+      24
+     ],
+     "(MALL;": [
+      25
+     ],
+     "m-learning)": [
+      26
+     ],
+     "activities,": [
+      27
+     ],
+     "mostly": [
+      28
+     ],
+     "for": [
+      29,
+      95
+     ],
+     "first": [
+      31
+     ],
+     "time": [
+      32
+     ],
+     "in": [
+      33,
+      169,
+      177
+     ],
+     "their": [
+      34,
+      167
+     ],
+     "careers.": [
+      35
+     ],
+     "However,": [
+      36
+     ],
+     "it": [
+      37
+     ],
+     "is": [
+      38,
+      46
+     ],
+     "imperative": [
+      39
+     ],
+     "that": [
+      40,
+      43,
+      160
+     ],
+     "instructors": [
+      41
+     ],
+     "realize": [
+      42
+     ],
+     "challenge": [
+      45
+     ],
+     "greater": [
+      47,
+      140
+     ],
+     "than": [
+      48,
+      183
+     ],
+     "simply": [
+      49
+     ],
+     "converting": [
+      50
+     ],
+     "paper-based": [
+      51
+     ],
+     "assignments": [
+      52
+     ],
+     "into": [
+      53
+     ],
+     "digital": [
+      55
+     ],
+     "format.": [
+      56
+     ],
+     "There": [
+      57
+     ],
+     "has": [
+      58
+     ],
+     "very": [
+      60
+     ],
+     "little": [
+      61
+     ],
+     "research": [
+      62,
+      157
+     ],
+     "done": [
+      63
+     ],
+     "examining": [
+      64
+     ],
+     "cognitive": [
+      66
+     ],
+     "effects": [
+      67
+     ],
+     "writing": [
+      69,
+      75,
+      178
+     ],
+     "on": [
+      70,
+      76,
+      91,
+      123,
+      151,
+      166
+     ],
+     "smartphone,": [
+      72,
+      119
+     ],
+     "compared": [
+      73,
+      145
+     ],
+     "paper.": [
+      77
+     ],
+     "The": [
+      78
+     ],
+     "current": [
+      79
+     ],
+     "study": [
+      80
+     ],
+     "therefore": [
+      81
+     ],
+     "sought": [
+      82
+     ],
+     "examine": [
+      84
+     ],
+     "how": [
+      85
+     ],
+     "recollection": [
+      86,
+      141
+     ],
+     "content": [
+      88,
+      125,
+      144
+     ],
+     "differed": [
+      89
+     ],
+     "depending": [
+      90
+     ],
+     "medium": [
+      93
+     ],
+     "used": [
+      94
+     ],
+     "notetaking.": [
+      96
+     ],
+     "A": [
+      97
+     ],
+     "population": [
+      98
+     ],
+     "138": [
+      100
+     ],
+     "Japanese": [
+      101,
+      161
+     ],
+     "university": [
+      102
+     ],
+     "students": [
+      103,
+      162
+     ],
+     "English-as-a-Foreign-Language": [
+      105
+     ],
+     "(EFL)": [
+      106
+     ],
+     "were": [
+      107,
+      135
+     ],
+     "asked": [
+      108
+     ],
+     "transcribe": [
+      110
+     ],
+     "short": [
+      112
+     ],
+     "text,": [
+      113
+     ],
+     "either": [
+      114
+     ],
+     "by": [
+      115,
+      118,
+      133
+     ],
+     "paper": [
+      116
+     ],
+     "or": [
+      117
+     ],
+     "and": [
+      120,
+      173
+     ],
+     "then": [
+      121
+     ],
+     "quizzed": [
+      122
+     ],
+     "immediately": [
+      126
+     ],
+     "afterwards.": [
+      127
+     ],
+     "Students": [
+      128
+     ],
+     "who": [
+      129,
+      148
+     ],
+     "wrote": [
+      130,
+      174
+     ],
+     "text": [
+      132
+     ],
+     "hand": [
+      134
+     ],
+     "found": [
+      136
+     ],
+     "significantly": [
+      139,
+      164,
+      175
+     ],
+     "those": [
+      147
+     ],
+     "had": [
+      149
+     ],
+     "'tapped'": [
+      150
+     ],
+     "smartphones.": [
+      152
+     ],
+     "These": [
+      153
+     ],
+     "results": [
+      154
+     ],
+     "follow": [
+      155
+     ],
+     "precursor": [
+      156
+     ],
+     "which": [
+      158
+     ],
+     "indicated": [
+      159
+     ],
+     "compose": [
+      163
+     ],
+     "slower": [
+      165
+     ],
+     "phones": [
+      168
+     ],
+     "English": [
+      170
+     ],
+     "(Lee,": [
+      171,
+      180
+     ],
+     "2020b),": [
+      172
+     ],
+     "less": [
+      176
+     ],
+     "tasks": [
+      179
+     ],
+     "2019,": [
+      181
+     ],
+     "2020a)": [
+      182
+     ],
+     "handwriting": [
+      184
+     ],
+     "counterparts.": [
+      185
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5050633878",
+       "display_name": "Bradford Lee",
+       "orcid": "https://orcid.org/0000-0001-9833-5631",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9833-5631"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I125590103",
+        "display_name": "Fukui University of Technology",
+        "ror": "https://ror.org/01tm0rr86",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I125590103"
+        ]
+       }
+      ],
+      "countries": [
+       "JP"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Bradford J. Lee",
+      "raw_affiliation_strings": [
+       "Fukui University of Technology, 3-6-1 Gakuen, Fukui City, Fukui Prefecture 910-8505, Japan. Electronic address: bradford-lee@fukui-ut.ac.jp",
+       "Fukui University of Technology, 3-6-1 Gakuen, Fukui City, Fukui Prefecture 910-8505, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Fukui University of Technology, 3-6-1 Gakuen, Fukui City, Fukui Prefecture 910-8505, Japan. Electronic address: bradford-lee@fukui-ut.ac.jp",
+        "institution_ids": [
+         "https://openalex.org/I125590103"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Fukui University of Technology, 3-6-1 Gakuen, Fukui City, Fukui Prefecture 910-8505, Japan",
+        "institution_ids": [
+         "https://openalex.org/I125590103"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1016/j.actpsy.2020.103221",
+     "doi": "https://doi.org/10.1016/j.actpsy.2020.103221",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1016/j.actpsy.2020.103221",
+     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S000169182030545X/pdf",
+     "source": {
+      "id": "https://openalex.org/S180067919",
+      "display_name": "Acta Psychologica",
+      "issn_l": "0001-6918",
+      "issn": [
+       "0001-6918",
+       "1873-6297"
+      ],
+      "is_oa": false,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "abdc-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-70",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+       "Elsevier BV"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Acta Psychologica",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2766559326",
+    "doi": "https://doi.org/10.1037/xge0000362",
+    "title": "A combined experimental and individual-differences investigation into mind wandering during a video lecture.",
+    "display_name": "A combined experimental and individual-differences investigation into mind wandering during a video lecture.",
+    "publication_year": 2017,
+    "cited_by_count": 127,
+    "abstract_inverted_index": {
+     "A": [
+      0
+     ],
+     "combined": [
+      1
+     ],
+     "experimental-correlational": [
+      2
+     ],
+     "study": [
+      3,
+      38
+     ],
+     "with": [
+      4,
+      144
+     ],
+     "a": [
+      5,
+      16,
+      20,
+      29
+     ],
+     "diverse": [
+      6
+     ],
+     "sample": [
+      7
+     ],
+     "(N": [
+      8
+     ],
+     "=": [
+      9
+     ],
+     "182)": [
+      10
+     ],
+     "from": [
+      11,
+      227
+     ],
+     "2": [
+      12,
+      217
+     ],
+     "research": [
+      13,
+      224
+     ],
+     "sites": [
+      14
+     ],
+     "tested": [
+      15,
+      88
+     ],
+     "set": [
+      17
+     ],
+     "of": [
+      18,
+      76,
+      153,
+      185,
+      195
+     ],
+     "5": [
+      19
+     ],
+     "priori": [
+      21
+     ],
+     "hypotheses": [
+      22
+     ],
+     "about": [
+      23,
+      203
+     ],
+     "mind": [
+      24,
+      44,
+      67,
+      117,
+      128,
+      137,
+      159,
+      179,
+      196
+     ],
+     "wandering": [
+      25,
+      45,
+      118,
+      129,
+      138,
+      160,
+      180,
+      197
+     ],
+     "and": [
+      26,
+      53,
+      59,
+      84,
+      95,
+      148,
+      156,
+      166,
+      171,
+      237,
+      244
+     ],
+     "learning,": [
+      27
+     ],
+     "using": [
+      28
+     ],
+     "realistic": [
+      30
+     ],
+     "video": [
+      31,
+      58
+     ],
+     "lecture": [
+      32,
+      48,
+      90
+     ],
+     "on": [
+      33,
+      89
+     ],
+     "introductory": [
+      34
+     ],
+     "statistics.": [
+      35
+     ],
+     "Specifically,": [
+      36
+     ],
+     "the": [
+      37,
+      47,
+      57,
+      77,
+      82,
+      122,
+      131,
+      183,
+      216
+     ],
+     "examined": [
+      39
+     ],
+     "whether": [
+      40,
+      61
+     ],
+     "students'": [
+      41
+     ],
+     "vulnerability": [
+      42
+     ],
+     "to": [
+      43
+     ],
+     "during": [
+      46,
+      81,
+      231
+     ],
+     "would": [
+      49,
+      64
+     ],
+     "predict": [
+      50
+     ],
+     "learning": [
+      51,
+      164,
+      232
+     ],
+     "from,": [
+      52
+     ],
+     "situational": [
+      54,
+      167
+     ],
+     "interest": [
+      55,
+      168
+     ],
+     "in,": [
+      56
+     ],
+     "also": [
+      60
+     ],
+     "longhand": [
+      62
+     ],
+     "note-taking": [
+      63,
+      123,
+      134
+     ],
+     "help": [
+      65
+     ],
+     "reduce": [
+      66,
+      127
+     ],
+     "wandering,": [
+      68
+     ],
+     "at": [
+      69,
+      130
+     ],
+     "least": [
+      70
+     ],
+     "for": [
+      71,
+      139
+     ],
+     "some": [
+      72,
+      140
+     ],
+     "students.": [
+      73
+     ],
+     "One": [
+      74
+     ],
+     "half": [
+      75
+     ],
+     "participants": [
+      78
+     ],
+     "took": [
+      79,
+      151
+     ],
+     "notes": [
+      80,
+      152
+     ],
+     "video,": [
+      83
+     ],
+     "all": [
+      85,
+      173,
+      193
+     ],
+     "were": [
+      86,
+      198,
+      212
+     ],
+     "subsequently": [
+      87
+     ],
+     "content": [
+      91
+     ],
+     "without": [
+      92
+     ],
+     "notes.": [
+      93
+     ],
+     "Regression": [
+      94
+     ],
+     "mediation": [
+      96
+     ],
+     "analyses": [
+      97
+     ],
+     "indicated": [
+      98
+     ],
+     "that": [
+      99,
+      220,
+      241
+     ],
+     "(a)": [
+      100
+     ],
+     "several": [
+      101,
+      186
+     ],
+     "individual-differences": [
+      102,
+      175
+     ],
+     "variables": [
+      103
+     ],
+     "(e.g.,": [
+      104
+     ],
+     "pretest": [
+      105
+     ],
+     "score,": [
+      106
+     ],
+     "prior": [
+      107,
+      146
+     ],
+     "math": [
+      108
+     ],
+     "interest,": [
+      109
+     ],
+     "classroom": [
+      110
+     ],
+     "media": [
+      111
+     ],
+     "multitasking": [
+      112
+     ],
+     "habits)": [
+      113
+     ],
+     "uniquely": [
+      114,
+      161
+     ],
+     "predicted": [
+      115,
+      162,
+      207
+     ],
+     "in-lecture": [
+      116
+     ],
+     "frequency;": [
+      119
+     ],
+     "(b)": [
+      120
+     ],
+     "although": [
+      121
+     ],
+     "manipulation": [
+      124
+     ],
+     "did": [
+      125
+     ],
+     "not": [
+      126,
+      192
+     ],
+     "group": [
+      132
+     ],
+     "level,": [
+      133
+     ],
+     "still": [
+      135
+     ],
+     "reduced": [
+      136
+     ],
+     "individuals": [
+      141
+     ],
+     "(i.e.,": [
+      142
+     ],
+     "those": [
+      143,
+      149
+     ],
+     "lower": [
+      145
+     ],
+     "knowledge": [
+      147
+     ],
+     "who": [
+      150
+     ],
+     "high": [
+      154
+     ],
+     "quality": [
+      155
+     ],
+     "quantity);": [
+      157
+     ],
+     "(c)": [
+      158
+     ],
+     "both": [
+      163
+     ],
+     "(posttest)": [
+      165
+     ],
+     "outcomes": [
+      169
+     ],
+     "above": [
+      170
+     ],
+     "beyond": [
+      172
+     ],
+     "other": [
+      174
+     ],
+     "variables;": [
+      176
+     ],
+     "(d)": [
+      177
+     ],
+     "moreover,": [
+      178
+     ],
+     "significantly": [
+      181
+     ],
+     "mediated": [
+      182
+     ],
+     "effects": [
+      184
+     ],
+     "individual": [
+      187,
+      239
+     ],
+     "differences;": [
+      188
+     ],
+     "and,": [
+      189
+     ],
+     "finally,": [
+      190
+     ],
+     "(e)": [
+      191
+     ],
+     "types": [
+      194
+     ],
+     "problematic-in": [
+      199
+     ],
+     "fact,": [
+      200
+     ],
+     "off-task": [
+      201
+     ],
+     "reflections": [
+      202
+     ],
+     "lecture-related": [
+      204
+     ],
+     "topics": [
+      205
+     ],
+     "positively": [
+      206
+     ],
+     "learning.": [
+      208,
+      245
+     ],
+     "These": [
+      209
+     ],
+     "results,": [
+      210
+     ],
+     "which": [
+      211
+     ],
+     "generally": [
+      213
+     ],
+     "robust": [
+      214
+     ],
+     "across": [
+      215
+     ],
+     "sites,": [
+      218
+     ],
+     "suggest": [
+      219
+     ],
+     "educationally": [
+      221
+     ],
+     "focused": [
+      222
+     ],
+     "cognitive": [
+      223,
+      236
+     ],
+     "may": [
+      225
+     ],
+     "benefit": [
+      226
+     ],
+     "considering": [
+      228
+     ],
+     "attentional": [
+      229
+     ],
+     "processes": [
+      230
+     ],
+     "as": [
+      233,
+      235
+     ],
+     "well": [
+      234
+     ],
+     "noncognitive": [
+      238
+     ],
+     "differences": [
+      240
+     ],
+     "affect": [
+      242
+     ],
+     "attention": [
+      243
+     ],
+     "(PsycINFO": [
+      246
+     ],
+     "Database": [
+      247
+     ],
+     "Record": [
+      248
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5035039255",
+       "display_name": "Michael J. Kane",
+       "orcid": "https://orcid.org/0000-0002-6965-5430",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6965-5430"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I169335092",
+        "display_name": "University of North Carolina at Greensboro",
+        "ror": "https://ror.org/04fnxsj42",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I169335092"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I188538660",
+        "display_name": "University of Colorado Boulder",
+        "ror": "https://ror.org/02ttsq026",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I9300472",
+        "display_name": "Bournemouth University",
+        "ror": "https://ror.org/05wwcw481",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I9300472"
+        ]
+       }
+      ],
+      "countries": [
+       "GB",
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Michael J. Kane",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of North Carolina at Greensboro",
+       "Bournemouth University",
+       "Department of Psychology and Neuroscience, University of Colorado Boulder, 345 UCB, Boulder, CO 80309-0345;",
+       "Department of Psychology and Neuroscience, University of Colorado Boulder",
+       "Department of Psychology, P.O. Box 26170, University of North Carolina at Greensboro, Greensboro, NC 27402-6170;",
+       "University of Colorado Boulder",
+       "University of North Carolina at Greensboro"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of North Carolina at Greensboro",
+        "institution_ids": [
+         "https://openalex.org/I169335092"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Bournemouth University",
+        "institution_ids": [
+         "https://openalex.org/I9300472"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology and Neuroscience, University of Colorado Boulder, 345 UCB, Boulder, CO 80309-0345;",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology and Neuroscience, University of Colorado Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, P.O. Box 26170, University of North Carolina at Greensboro, Greensboro, NC 27402-6170;",
+        "institution_ids": [
+         "https://openalex.org/I169335092"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Colorado Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of North Carolina at Greensboro",
+        "institution_ids": [
+         "https://openalex.org/I169335092"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5083954036",
+       "display_name": "Bridget Anne Smeekens",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I169335092",
+        "display_name": "University of North Carolina at Greensboro",
+        "ror": "https://ror.org/04fnxsj42",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I169335092"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I188538660",
+        "display_name": "University of Colorado Boulder",
+        "ror": "https://ror.org/02ttsq026",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I9300472",
+        "display_name": "Bournemouth University",
+        "ror": "https://ror.org/05wwcw481",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I9300472"
+        ]
+       }
+      ],
+      "countries": [
+       "GB",
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Bridget A. Smeekens",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of North Carolina at Greensboro",
+       "Bournemouth University",
+       "Department of Psychology and Neuroscience, University of Colorado Boulder, 345 UCB, Boulder, CO 80309-0345;",
+       "Department of Psychology and Neuroscience, University of Colorado Boulder",
+       "Department of Psychology, P.O. Box 26170, University of North Carolina at Greensboro, Greensboro, NC 27402-6170;",
+       "University of Colorado Boulder",
+       "University of North Carolina at Greensboro"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of North Carolina at Greensboro",
+        "institution_ids": [
+         "https://openalex.org/I169335092"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Bournemouth University",
+        "institution_ids": [
+         "https://openalex.org/I9300472"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology and Neuroscience, University of Colorado Boulder, 345 UCB, Boulder, CO 80309-0345;",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology and Neuroscience, University of Colorado Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, P.O. Box 26170, University of North Carolina at Greensboro, Greensboro, NC 27402-6170;",
+        "institution_ids": [
+         "https://openalex.org/I169335092"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Colorado Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of North Carolina at Greensboro",
+        "institution_ids": [
+         "https://openalex.org/I169335092"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5064478754",
+       "display_name": "Claudia C. von Bastian",
+       "orcid": "https://orcid.org/0000-0002-0667-2460",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0667-2460"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I169335092",
+        "display_name": "University of North Carolina at Greensboro",
+        "ror": "https://ror.org/04fnxsj42",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I169335092"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I188538660",
+        "display_name": "University of Colorado Boulder",
+        "ror": "https://ror.org/02ttsq026",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I9300472",
+        "display_name": "Bournemouth University",
+        "ror": "https://ror.org/05wwcw481",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I9300472"
+        ]
+       }
+      ],
+      "countries": [
+       "GB",
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Claudia C. von Bastian",
+      "raw_affiliation_strings": [
+       "Department of Psychology and Neuroscience, University of Colorado Boulder",
+       "Bournemouth University",
+       "Department of Psychology and Neuroscience, University of Colorado Boulder, 345 UCB, Boulder, CO 80309-0345;",
+       "Department of Psychology, P.O. Box 26170, University of North Carolina at Greensboro, Greensboro, NC 27402-6170;",
+       "Department of Psychology, University of North Carolina at Greensboro;",
+       "University of Colorado Boulder",
+       "University of North Carolina at Greensboro"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-0667-2460",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology and Neuroscience, University of Colorado Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Bournemouth University",
+        "institution_ids": [
+         "https://openalex.org/I9300472"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology and Neuroscience, University of Colorado Boulder, 345 UCB, Boulder, CO 80309-0345;",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, P.O. Box 26170, University of North Carolina at Greensboro, Greensboro, NC 27402-6170;",
+        "institution_ids": [
+         "https://openalex.org/I169335092"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, University of North Carolina at Greensboro;",
+        "institution_ids": [
+         "https://openalex.org/I169335092"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Colorado Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of North Carolina at Greensboro",
+        "institution_ids": [
+         "https://openalex.org/I169335092"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5022350006",
+       "display_name": "John Lurquin",
+       "orcid": "https://orcid.org/0000-0001-5385-1181",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5385-1181"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I169335092",
+        "display_name": "University of North Carolina at Greensboro",
+        "ror": "https://ror.org/04fnxsj42",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I169335092"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I188538660",
+        "display_name": "University of Colorado Boulder",
+        "ror": "https://ror.org/02ttsq026",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I9300472",
+        "display_name": "Bournemouth University",
+        "ror": "https://ror.org/05wwcw481",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I9300472"
+        ]
+       }
+      ],
+      "countries": [
+       "GB",
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "John H. Lurquin",
+      "raw_affiliation_strings": [
+       "Department of Psychology and Neuroscience, University of Colorado Boulder",
+       "Bournemouth University",
+       "Department of Psychology and Neuroscience, University of Colorado Boulder, 345 UCB, Boulder, CO 80309-0345;",
+       "Department of Psychology, P.O. Box 26170, University of North Carolina at Greensboro, Greensboro, NC 27402-6170;",
+       "Department of Psychology, University of North Carolina at Greensboro;",
+       "University of Colorado Boulder",
+       "University of North Carolina at Greensboro"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-5385-1181",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology and Neuroscience, University of Colorado Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Bournemouth University",
+        "institution_ids": [
+         "https://openalex.org/I9300472"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology and Neuroscience, University of Colorado Boulder, 345 UCB, Boulder, CO 80309-0345;",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, P.O. Box 26170, University of North Carolina at Greensboro, Greensboro, NC 27402-6170;",
+        "institution_ids": [
+         "https://openalex.org/I169335092"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, University of North Carolina at Greensboro;",
+        "institution_ids": [
+         "https://openalex.org/I169335092"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Colorado Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of North Carolina at Greensboro",
+        "institution_ids": [
+         "https://openalex.org/I169335092"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5072751012",
+       "display_name": "Nicholas P. Carruth",
+       "orcid": "https://orcid.org/0000-0001-6277-2215",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6277-2215"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I169335092",
+        "display_name": "University of North Carolina at Greensboro",
+        "ror": "https://ror.org/04fnxsj42",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I169335092"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I188538660",
+        "display_name": "University of Colorado Boulder",
+        "ror": "https://ror.org/02ttsq026",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I9300472",
+        "display_name": "Bournemouth University",
+        "ror": "https://ror.org/05wwcw481",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I9300472"
+        ]
+       }
+      ],
+      "countries": [
+       "GB",
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Nicholas P. Carruth",
+      "raw_affiliation_strings": [
+       "Department of Psychology and Neuroscience, University of Colorado Boulder",
+       "Bournemouth University",
+       "Department of Psychology and Neuroscience, University of Colorado Boulder, 345 UCB, Boulder, CO 80309-0345;",
+       "Department of Psychology, P.O. Box 26170, University of North Carolina at Greensboro, Greensboro, NC 27402-6170;",
+       "Department of Psychology, University of North Carolina at Greensboro;",
+       "University of Colorado Boulder",
+       "University of North Carolina at Greensboro"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology and Neuroscience, University of Colorado Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Bournemouth University",
+        "institution_ids": [
+         "https://openalex.org/I9300472"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology and Neuroscience, University of Colorado Boulder, 345 UCB, Boulder, CO 80309-0345;",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, P.O. Box 26170, University of North Carolina at Greensboro, Greensboro, NC 27402-6170;",
+        "institution_ids": [
+         "https://openalex.org/I169335092"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, University of North Carolina at Greensboro;",
+        "institution_ids": [
+         "https://openalex.org/I169335092"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Colorado Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of North Carolina at Greensboro",
+        "institution_ids": [
+         "https://openalex.org/I169335092"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5070383831",
+       "display_name": "Akira Miyake",
+       "orcid": "https://orcid.org/0000-0003-4671-7843",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4671-7843"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I169335092",
+        "display_name": "University of North Carolina at Greensboro",
+        "ror": "https://ror.org/04fnxsj42",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I169335092"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I188538660",
+        "display_name": "University of Colorado Boulder",
+        "ror": "https://ror.org/02ttsq026",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I9300472",
+        "display_name": "Bournemouth University",
+        "ror": "https://ror.org/05wwcw481",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I9300472"
+        ]
+       }
+      ],
+      "countries": [
+       "GB",
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Akira Miyake",
+      "raw_affiliation_strings": [
+       "Department of Psychology and Neuroscience, University of Colorado Boulder",
+       "Bournemouth University",
+       "Department of Psychology and Neuroscience, University of Colorado Boulder, 345 UCB, Boulder, CO 80309-0345;",
+       "Department of Psychology, P.O. Box 26170, University of North Carolina at Greensboro, Greensboro, NC 27402-6170;",
+       "Department of Psychology, University of North Carolina at Greensboro;",
+       "University of Colorado Boulder",
+       "University of North Carolina at Greensboro"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology and Neuroscience, University of Colorado Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Bournemouth University",
+        "institution_ids": [
+         "https://openalex.org/I9300472"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology and Neuroscience, University of Colorado Boulder, 345 UCB, Boulder, CO 80309-0345;",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, P.O. Box 26170, University of North Carolina at Greensboro, Greensboro, NC 27402-6170;",
+        "institution_ids": [
+         "https://openalex.org/I169335092"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, University of North Carolina at Greensboro;",
+        "institution_ids": [
+         "https://openalex.org/I169335092"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Colorado Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of North Carolina at Greensboro",
+        "institution_ids": [
+         "https://openalex.org/I169335092"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1037/xge0000362",
+     "doi": "https://doi.org/10.1037/xge0000362",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1037/xge0000362",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S62013203",
+      "display_name": "Journal of Experimental Psychology General",
+      "issn_l": "0096-3445",
+      "issn": [
+       "0096-3445",
+       "1939-2222"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-a-star",
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-b",
+       "erih-plus",
+       "jufo-3",
+       "ki-jl-2",
+       "medline",
+       "norway-2",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320262",
+      "host_organization_name": "American Psychological Association",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320262"
+      ],
+      "host_organization_lineage_names": [
+       "American Psychological Association"
+      ],
+      "type": "journal"
+     },
+     "license": "other-oa",
+     "license_id": "https://openalex.org/licenses/other-oa",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Experimental Psychology: General",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W7203957666",
+    "doi": null,
+    "title": "A Quantitative Causal-Comparative Investigation of the Intrinsic Goal Orientation, Self-Efficacy for Learning and Performance, and Metacognitive Self-Regulation Among the Handwritten, Typed, or No Note-Taking Strategies of Korean University Students",
+    "display_name": "A Quantitative Causal-Comparative Investigation of the Intrinsic Goal Orientation, Self-Efficacy for Learning and Performance, and Metacognitive Self-Regulation Among the Handwritten, Typed, or No Note-Taking Strategies of Korean University Students",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "The": [
+      0,
+      163
+     ],
+     "purpose": [
+      1
+     ],
+     "of": [
+      2,
+      31,
+      34,
+      124,
+      157
+     ],
+     "this": [
+      3
+     ],
+     "non-experimental": [
+      4
+     ],
+     "quantitative": [
+      5,
+      190
+     ],
+     "causal-comparative": [
+      6
+     ],
+     "study": [
+      7,
+      46
+     ],
+     "was": [
+      8,
+      13
+     ],
+     "to": [
+      9,
+      52,
+      137
+     ],
+     "determine": [
+      10,
+      173
+     ],
+     "if": [
+      11,
+      139
+     ],
+     "there": [
+      12,
+      140
+     ],
+     "a": [
+      14,
+      57,
+      73,
+      153
+     ],
+     "difference": [
+      15
+     ],
+     "in": [
+      16,
+      64,
+      75,
+      131
+     ],
+     "intrinsic": [
+      17
+     ],
+     "goal": [
+      18
+     ],
+     "orientation,": [
+      19
+     ],
+     "self-efficacy": [
+      20
+     ],
+     "for": [
+      21,
+      98,
+      128
+     ],
+     "learning": [
+      22,
+      143,
+      174
+     ],
+     "and": [
+      23,
+      25,
+      37,
+      69,
+      86,
+      159,
+      176,
+      191
+     ],
+     "performance,": [
+      24
+     ],
+     "metacognitive": [
+      26
+     ],
+     "self-regulation": [
+      27
+     ],
+     "between": [
+      28,
+      146
+     ],
+     "the": [
+      29,
+      53,
+      125,
+      132,
+      147,
+      167,
+      196
+     ],
+     "choice": [
+      30
+     ],
+     "note-taking": [
+      32,
+      39,
+      59,
+      96,
+      168,
+      181
+     ],
+     "strategies": [
+      33
+     ],
+     "handwritten,": [
+      35
+     ],
+     "typed,": [
+      36,
+      105
+     ],
+     "no": [
+      38,
+      109,
+      161
+     ],
+     "methods": [
+      40
+     ],
+     "among": [
+      41
+     ],
+     "Korean": [
+      42,
+      81
+     ],
+     "university": [
+      43,
+      74
+     ],
+     "students.": [
+      44
+     ],
+     "This": [
+      45
+     ],
+     "is": [
+      47
+     ],
+     "important": [
+      48
+     ],
+     "because": [
+      49
+     ],
+     "it": [
+      50
+     ],
+     "adds": [
+      51
+     ],
+     "discussion": [
+      54
+     ],
+     "about": [
+      55
+     ],
+     "whether": [
+      56
+     ],
+     "student's": [
+      58
+     ],
+     "method": [
+      60,
+      169
+     ],
+     "reflects": [
+      61
+     ],
+     "underlying": [
+      62
+     ],
+     "differences": [
+      63,
+      145
+     ],
+     "self-regulated": [
+      65,
+      142
+     ],
+     "learning.": [
+      66
+     ],
+     "Using": [
+      67,
+      114
+     ],
+     "purposive": [
+      68
+     ],
+     "convenience": [
+      70
+     ],
+     "sampling": [
+      71
+     ],
+     "at": [
+      72
+     ],
+     "South": [
+      76
+     ],
+     "Korea,": [
+      77
+     ],
+     "129": [
+      78
+     ],
+     "currently": [
+      79
+     ],
+     "enrolled": [
+      80
+     ],
+     "undergraduate": [
+      82
+     ],
+     "students": [
+      83
+     ],
+     "were": [
+      84,
+      141,
+      150
+     ],
+     "recruited": [
+      85
+     ],
+     "self-sorted": [
+      87
+     ],
+     "into": [
+      88
+     ],
+     "three": [
+      89,
+      122
+     ],
+     "groups": [
+      90
+     ],
+     "based": [
+      91
+     ],
+     "on": [
+      92,
+      180
+     ],
+     "their": [
+      93,
+      99
+     ],
+     "most": [
+      94
+     ],
+     "used": [
+      95
+     ],
+     "strategy": [
+      97
+     ],
+     "studies": [
+      100
+     ],
+     "(handwritten,": [
+      101
+     ],
+     "n": [
+      102,
+      106,
+      111
+     ],
+     "=": [
+      103,
+      107,
+      112
+     ],
+     "81;": [
+      104
+     ],
+     "31;": [
+      108
+     ],
+     "notes,": [
+      110
+     ],
+     "17).": [
+      113
+     ],
+     "an": [
+      115
+     ],
+     "online": [
+      116
+     ],
+     "survey": [
+      117
+     ],
+     "through": [
+      118
+     ],
+     "Qualtrics,": [
+      119
+     ],
+     "participants": [
+      120
+     ],
+     "completed": [
+      121
+     ],
+     "subscales": [
+      123
+     ],
+     "Motivated": [
+      126
+     ],
+     "Strategies": [
+      127
+     ],
+     "Learning": [
+      129
+     ],
+     "Questionnaire": [
+      130
+     ],
+     "weeks": [
+      133
+     ],
+     "preceding": [
+      134
+     ],
+     "midterm": [
+      135
+     ],
+     "examinations": [
+      136
+     ],
+     "see": [
+      138
+     ],
+     "score": [
+      144
+     ],
+     "groups.": [
+      148
+     ],
+     "Data": [
+      149
+     ],
+     "analyzed": [
+      151
+     ],
+     "using": [
+      152,
+      187
+     ],
+     "one-way": [
+      154
+     ],
+     "multivariate": [
+      155
+     ],
+     "analysis": [
+      156
+     ],
+     "variance": [
+      158
+     ],
+     "found": [
+      160
+     ],
+     "differences.": [
+      162
+     ],
+     "conclusion": [
+      164
+     ],
+     "suggests": [
+      165
+     ],
+     "that": [
+      166,
+      177
+     ],
+     "alone": [
+      170
+     ],
+     "may": [
+      171
+     ],
+     "not": [
+      172
+     ],
+     "effectiveness,": [
+      175
+     ],
+     "future": [
+      178
+     ],
+     "research": [
+      179
+     ],
+     "should": [
+      182
+     ],
+     "include": [
+      183
+     ],
+     "other": [
+      184
+     ],
+     "learning-related": [
+      185
+     ],
+     "variables": [
+      186
+     ],
+     "experimental,": [
+      188
+     ],
+     "mixed-methods,": [
+      189
+     ],
+     "qualitative": [
+      192
+     ],
+     "designs.": [
+      193
+     ],
+     "Limitations,": [
+      194
+     ],
+     "including": [
+      195
+     ],
+     "unbalanced": [
+      197
+     ],
+     "group": [
+      198
+     ],
+     "sizes,": [
+      199
+     ],
+     "are": [
+      200
+     ],
+     "also": [
+      201
+     ],
+     "discussed.": [
+      202
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5037107738",
+       "display_name": "Terrill Reid McLain",
+       "orcid": "https://orcid.org/0000-0002-4720-2692",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4720-2692"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I67789559",
+        "display_name": "Liberty University",
+        "ror": "https://ror.org/00w4qrc49",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I67789559"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "McLain, Terrill Reid",
+      "raw_affiliation_strings": [
+       "Liberty University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Liberty University",
+        "institution_ids": [
+         "https://openalex.org/I67789559"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "pmh:oai:digitalcommons.liberty.edu:doctoral-9796",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://digitalcommons.liberty.edu/context/doctoral/article/9796/viewcontent/18_Mclain_2C_20Terrill_20_28L33675151_29.pdf",
+     "pdf_url": "https://digitalcommons.liberty.edu/cgi/viewcontent.cgi?article=9796&context=doctoral",
+     "source": {
+      "id": "https://openalex.org/S4306400581",
+      "display_name": "Digital Commons (Liberty University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I67789559",
+      "host_organization_name": "Liberty University",
+      "host_organization_lineage": [
+       "https://openalex.org/I67789559"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "public-domain",
+     "license_id": "https://openalex.org/licenses/public-domain",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "Doctoral Dissertations and Projects",
+     "raw_type": "text"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

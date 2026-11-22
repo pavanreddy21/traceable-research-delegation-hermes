@@ -1,0 +1,3137 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 1691,
+   "db_response_time_ms": 118,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (feedback moderates testing effect retrieval practice meta-analysis corrective feedback) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (feedback moderates testing effect retrieval practice meta-analysis corrective feedback) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "feedback moderates testing effect retrieval practice meta-analysis corrective feedback",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:feedback moderates testing effect retrieval practice meta-analysis corrective feedback,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2137853422",
+    "doi": "https://doi.org/10.1017/s027226311200071x",
+    "title": "COUNTERPOINT PIECE: THE CASE FOR VARIETY IN CORRECTIVE FEEDBACK RESEARCH",
+    "display_name": "COUNTERPOINT PIECE: THE CASE FOR VARIETY IN CORRECTIVE FEEDBACK RESEARCH",
+    "publication_year": 2013,
+    "cited_by_count": 259,
+    "abstract_inverted_index": {
+     "Goo": [
+      0,
+      87
+     ],
+     "and": [
+      1,
+      83,
+      85,
+      88
+     ],
+     "Mackey": [
+      2
+     ],
+     "(this": [
+      3
+     ],
+     "issue)": [
+      4
+     ],
+     "outline": [
+      5
+     ],
+     "several": [
+      6
+     ],
+     "apparent": [
+      7
+     ],
+     "design": [
+      8
+     ],
+     "flaws": [
+      9
+     ],
+     "in": [
+      10
+     ],
+     "studies": [
+      11,
+      79
+     ],
+     "that": [
+      12,
+      27,
+      56
+     ],
+     "have": [
+      13
+     ],
+     "compared": [
+      14
+     ],
+     "the": [
+      15,
+      54,
+      57,
+      64,
+      73,
+      76,
+      92,
+      98
+     ],
+     "impact": [
+      16
+     ],
+     "of": [
+      17,
+      20,
+      37,
+      45,
+      67,
+      75,
+      100
+     ],
+     "different": [
+      18,
+      43
+     ],
+     "types": [
+      19,
+      36
+     ],
+     "corrective": [
+      21
+     ],
+     "feedback": [
+      22,
+      101
+     ],
+     "(CF).": [
+      23
+     ],
+     "Furthermore,": [
+      24
+     ],
+     "they": [
+      25,
+      40
+     ],
+     "argue": [
+      26
+     ],
+     "SLA": [
+      28
+     ],
+     "researchers": [
+      29
+     ],
+     "should": [
+      30
+     ],
+     "stop": [
+      31
+     ],
+     "comparing": [
+      32
+     ],
+     "recasts": [
+      33
+     ],
+     "to": [
+      34,
+      49,
+      96
+     ],
+     "other": [
+      35
+     ],
+     "CF": [
+      38,
+      77
+     ],
+     "because": [
+      39
+     ],
+     "are": [
+      41
+     ],
+     "inherently": [
+      42
+     ],
+     "kinds": [
+      44
+     ],
+     "phenomena.": [
+      46
+     ],
+     "Our": [
+      47
+     ],
+     "response": [
+      48
+     ],
+     "their": [
+      50
+     ],
+     "article": [
+      51
+     ],
+     "addresses": [
+      52
+     ],
+     "(a)": [
+      53
+     ],
+     "claim": [
+      55
+     ],
+     "recast-learning": [
+      58
+     ],
+     "relationship": [
+      59
+     ],
+     "has": [
+      60
+     ],
+     "been": [
+      61
+     ],
+     "\u201csettled,\u201d": [
+      62
+     ],
+     "(b)": [
+      63
+     ],
+     "misleading": [
+      65
+     ],
+     "representation": [
+      66
+     ],
+     "our": [
+      68
+     ],
+     "views": [
+      69
+     ],
+     "on": [
+      70,
+      102
+     ],
+     "uptake,": [
+      71
+     ],
+     "(c)": [
+      72
+     ],
+     "characterization": [
+      74
+     ],
+     "comparison": [
+      78
+     ],
+     "as": [
+      80
+     ],
+     "being": [
+      81
+     ],
+     "weak": [
+      82
+     ],
+     "invalid,": [
+      84
+     ],
+     "(d)": [
+      86
+     ],
+     "Mackey\u2019s": [
+      89
+     ],
+     "recommendations": [
+      90
+     ],
+     "concerning": [
+      91
+     ],
+     "most": [
+      93
+     ],
+     "appropriate": [
+      94
+     ],
+     "approach": [
+      95
+     ],
+     "investigating": [
+      97
+     ],
+     "effect": [
+      99
+     ],
+     "second": [
+      103
+     ],
+     "language": [
+      104
+     ],
+     "learning.": [
+      105
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5063823704",
+       "display_name": "Roy Lyster",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I5023651",
+        "display_name": "McGill University",
+        "ror": "https://ror.org/01pxwe438",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I5023651"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Roy Lyster",
+      "raw_affiliation_strings": [
+       "McGill University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "McGill University",
+        "institution_ids": [
+         "https://openalex.org/I5023651"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5009158243",
+       "display_name": "Leila Ranta",
+       "orcid": "https://orcid.org/0000-0001-7889-4559",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7889-4559"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I154425047",
+        "display_name": "University of Alberta",
+        "ror": "https://ror.org/0160cpw27",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I154425047"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Leila Ranta",
+      "raw_affiliation_strings": [
+       "University of Alberta"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Alberta",
+        "institution_ids": [
+         "https://openalex.org/I154425047"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1017/s027226311200071x",
+     "doi": "https://doi.org/10.1017/s027226311200071x",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1017/s027226311200071x",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S84027950",
+      "display_name": "Studies in Second Language Acquisition",
+      "issn_l": "0272-2631",
+      "issn": [
+       "0272-2631",
+       "1470-1545"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "erih-plus",
+       "jufo-3",
+       "norway-2",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310311721",
+      "host_organization_name": "Cambridge University Press",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310311721",
+       "https://openalex.org/P4310311702"
+      ],
+      "host_organization_lineage_names": [
+       "Cambridge University Press",
+       "University of Cambridge"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Studies in Second Language Acquisition",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2561391785",
+    "doi": "https://doi.org/10.5334/pb.240",
+    "title": "The Effect of Corrective Feedback on Performance in Basic Cognitive Tasks: An Analysis of RT Components",
+    "display_name": "The Effect of Corrective Feedback on Performance in Basic Cognitive Tasks: An Analysis of RT Components",
+    "publication_year": 2016,
+    "cited_by_count": 31,
+    "abstract_inverted_index": {
+     "The": [
+      0
+     ],
+     "current": [
+      1
+     ],
+     "work": [
+      2
+     ],
+     "examines": [
+      3
+     ],
+     "the": [
+      4,
+      52,
+      57,
+      84,
+      90,
+      99,
+      102,
+      105,
+      120,
+      130,
+      139
+     ],
+     "effect": [
+      5,
+      121
+     ],
+     "of": [
+      6,
+      38,
+      68,
+      101,
+      104,
+      122,
+      141
+     ],
+     "trial-by-trial": [
+      7
+     ],
+     "feedback": [
+      8,
+      71,
+      94,
+      124
+     ],
+     "about": [
+      9
+     ],
+     "correct": [
+      10,
+      58
+     ],
+     "and": [
+      11,
+      28,
+      41
+     ],
+     "error": [
+      12
+     ],
+     "responding": [
+      13,
+      135
+     ],
+     "on": [
+      14
+     ],
+     "performance": [
+      15
+     ],
+     "in": [
+      16,
+      45,
+      66,
+      73,
+      114
+     ],
+     "two": [
+      17
+     ],
+     "basic": [
+      18
+     ],
+     "cognitive": [
+      19
+     ],
+     "tasks:": [
+      20
+     ],
+     "a": [
+      21,
+      29
+     ],
+     "classic": [
+      22
+     ],
+     "Stroop": [
+      23
+     ],
+     "task": [
+      24,
+      32
+     ],
+     "(n": [
+      25,
+      33
+     ],
+     "=": [
+      26,
+      34
+     ],
+     "40)": [
+      27
+     ],
+     "color-word": [
+      30
+     ],
+     "matching": [
+      31
+     ],
+     "30).": [
+      35
+     ],
+     "Standard": [
+      36
+     ],
+     "measures": [
+      37,
+      48
+     ],
+     "both": [
+      39,
+      61
+     ],
+     "RT": [
+      40,
+      106
+     ],
+     "accuracy": [
+      42,
+      116
+     ],
+     "were": [
+      43,
+      64
+     ],
+     "examined": [
+      44
+     ],
+     "addition": [
+      46
+     ],
+     "to": [
+      47,
+      56,
+      89,
+      96,
+      128,
+      132,
+      137
+     ],
+     "obtained": [
+      49
+     ],
+     "from": [
+      50
+     ],
+     "fitting": [
+      51
+     ],
+     "ex-Gaussian": [
+      53
+     ],
+     "distributional": [
+      54,
+      91
+     ],
+     "model": [
+      55
+     ],
+     "RTs.": [
+      59
+     ],
+     "For": [
+      60
+     ],
+     "tasks,": [
+      62
+     ],
+     "RTs": [
+      63
+     ],
+     "faster": [
+      65
+     ],
+     "blocks": [
+      67,
+      74
+     ],
+     "trials": [
+      69
+     ],
+     "with": [
+      70,
+      87
+     ],
+     "than": [
+      72
+     ],
+     "without": [
+      75
+     ],
+     "feedback,": [
+      76
+     ],
+     "but": [
+      77
+     ],
+     "this": [
+      78
+     ],
+     "difference": [
+      79
+     ],
+     "was": [
+      80
+     ],
+     "not": [
+      81
+     ],
+     "significant.": [
+      82
+     ],
+     "On": [
+      83
+     ],
+     "other": [
+      85
+     ],
+     "hand,": [
+      86
+     ],
+     "respect": [
+      88
+     ],
+     "analyses,": [
+      92
+     ],
+     "providing": [
+      93
+     ],
+     "served": [
+      95
+     ],
+     "significantly": [
+      97
+     ],
+     "reduce": [
+      98,
+      129
+     ],
+     "size": [
+      100
+     ],
+     "tails": [
+      103
+     ],
+     "distributions.": [
+      107
+     ],
+     "Such": [
+      108
+     ],
+     "results": [
+      109
+     ],
+     "suggest": [
+      110
+     ],
+     "that,": [
+      111
+     ],
+     "for": [
+      112
+     ],
+     "conditions": [
+      113
+     ],
+     "which": [
+      115
+     ],
+     "is": [
+      117
+     ],
+     "fairly": [
+      118
+     ],
+     "high,": [
+      119
+     ],
+     "corrective": [
+      123
+     ],
+     "might": [
+      125
+     ],
+     "either": [
+      126
+     ],
+     "be": [
+      127
+     ],
+     "tendency": [
+      131
+     ],
+     "double-check": [
+      133
+     ],
+     "before": [
+      134
+     ],
+     "or": [
+      136
+     ],
+     "decrease": [
+      138
+     ],
+     "amount": [
+      140
+     ],
+     "attentional": [
+      142
+     ],
+     "lapsing.": [
+      143
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5028311873",
+       "display_name": "Carmen Moret\u2010Tatay",
+       "orcid": "https://orcid.org/0000-0002-2867-9399",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2867-9399"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I283262890",
+        "display_name": "Valencia Catholic University Saint Vincent Martyr",
+        "ror": "https://ror.org/03d7a9c68",
+        "country_code": "ES",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I283262890"
+        ]
+       }
+      ],
+      "countries": [
+       "ES"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Carmen Moret-Tatay",
+      "raw_affiliation_strings": [
+       "Department of Neuropsychology, Methodology and Social Psychology, Universidad Cat\u00f3lica de Valencia \"San Vicente M\u00e1rtir\" C/Guillem de Castro, 175. Valencia 46008, ES"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neuropsychology, Methodology and Social Psychology, Universidad Cat\u00f3lica de Valencia \"San Vicente M\u00e1rtir\" C/Guillem de Castro, 175. Valencia 46008, ES",
+        "institution_ids": [
+         "https://openalex.org/I283262890"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5064833858",
+       "display_name": "Craig Leth\u2010Steensen",
+       "orcid": "https://orcid.org/0000-0001-9159-4040",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9159-4040"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I67031392",
+        "display_name": "Carleton University",
+        "ror": "https://ror.org/02qtvee93",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I67031392"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Craig Leth-Steensen",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Carleton University, 1125 Colonel By Drive, Ottawa, ON, Canada, CA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Carleton University, 1125 Colonel By Drive, Ottawa, ON, Canada, CA",
+        "institution_ids": [
+         "https://openalex.org/I67031392"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5042899034",
+       "display_name": "Tatiana Quarti Irigaray",
+       "orcid": "https://orcid.org/0000-0002-3078-4219",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3078-4219",
+        "https://orcid.org/0000-0002-6824-5448"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I45643870",
+        "display_name": "Pontif\u00edcia Universidade Cat\u00f3lica do Rio Grande do Sul",
+        "ror": "https://ror.org/025vmq686",
+        "country_code": "BR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I45643870"
+        ]
+       }
+      ],
+      "countries": [
+       "BR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Tatiana Quarti Irigaray",
+      "raw_affiliation_strings": [
+       "Universidade Cat\u00f3lica do Rio Grande do Sul, Faculdade de Psicologia, Programa de P\u00f3s-Gradua\u00e7\u00e3o em Psicologia, BR"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Universidade Cat\u00f3lica do Rio Grande do Sul, Faculdade de Psicologia, Programa de P\u00f3s-Gradua\u00e7\u00e3o em Psicologia, BR",
+        "institution_ids": [
+         "https://openalex.org/I45643870"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5071057692",
+       "display_name": "Irani Iracema de Lima Argimon",
+       "orcid": "https://orcid.org/0000-0003-4984-0345",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4984-0345"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I45643870",
+        "display_name": "Pontif\u00edcia Universidade Cat\u00f3lica do Rio Grande do Sul",
+        "ror": "https://ror.org/025vmq686",
+        "country_code": "BR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I45643870"
+        ]
+       }
+      ],
+      "countries": [
+       "BR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Irani I. L. Argimon",
+      "raw_affiliation_strings": [
+       "Universidade Cat\u00f3lica do Rio Grande do Sul, Faculdade de Psicologia, Programa de P\u00f3s-Gradua\u00e7\u00e3o em Psicologia, BR"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Universidade Cat\u00f3lica do Rio Grande do Sul, Faculdade de Psicologia, Programa de P\u00f3s-Gradua\u00e7\u00e3o em Psicologia, BR",
+        "institution_ids": [
+         "https://openalex.org/I45643870"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5087999882",
+       "display_name": "D. Gamermann",
+       "orcid": "https://orcid.org/0000-0002-3492-264X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3492-264X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I130442723",
+        "display_name": "Universidade Federal do Rio Grande do Sul",
+        "ror": "https://ror.org/041yk2d64",
+        "country_code": "BR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I130442723"
+        ]
+       }
+      ],
+      "countries": [
+       "BR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Daniel Gamermann",
+      "raw_affiliation_strings": [
+       "Instituto de F\u00edsica, Universidade Federal do Rio Grande do Sul (UFRGS), Av. Bento Gon\u00e7alves 9500, CP 15051, 91501-970 Porto Alegre RS, BR"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Instituto de F\u00edsica, Universidade Federal do Rio Grande do Sul (UFRGS), Av. Bento Gon\u00e7alves 9500, CP 15051, 91501-970 Porto Alegre RS, BR",
+        "institution_ids": [
+         "https://openalex.org/I130442723"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5069176337",
+       "display_name": "Diana Abad\u2010Tortosa",
+       "orcid": "https://orcid.org/0000-0002-3589-1355",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3589-1355"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I16097986",
+        "display_name": "Universitat de Val\u00e8ncia",
+        "ror": "https://ror.org/043nxc105",
+        "country_code": "ES",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I16097986"
+        ]
+       }
+      ],
+      "countries": [
+       "ES"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Diana Abad-Tortosa",
+      "raw_affiliation_strings": [
+       "Facultat de Psicologia, Universitat de Val\u00e8ncia, Avinguda Blasco Ib\u00e1\u00f1ez, 21, ES"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Facultat de Psicologia, Universitat de Val\u00e8ncia, Avinguda Blasco Ib\u00e1\u00f1ez, 21, ES",
+        "institution_ids": [
+         "https://openalex.org/I16097986"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5043785326",
+       "display_name": "Camila Rosa de Oliveira",
+       "orcid": "https://orcid.org/0000-0003-2115-604X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2115-604X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I45643870",
+        "display_name": "Pontif\u00edcia Universidade Cat\u00f3lica do Rio Grande do Sul",
+        "ror": "https://ror.org/025vmq686",
+        "country_code": "BR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I45643870"
+        ]
+       }
+      ],
+      "countries": [
+       "BR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Camila Oliveira",
+      "raw_affiliation_strings": [
+       "Universidade Cat\u00f3lica do Rio Grande do Sul, Faculdade de Psicologia, Programa de P\u00f3s-Gradua\u00e7\u00e3o em Psicologia, BR"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Universidade Cat\u00f3lica do Rio Grande do Sul, Faculdade de Psicologia, Programa de P\u00f3s-Gradua\u00e7\u00e3o em Psicologia, BR",
+        "institution_ids": [
+         "https://openalex.org/I45643870"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5047246814",
+       "display_name": "Bego\u00f1a S\u00e1iz Maule\u00f3n",
+       "orcid": "https://orcid.org/0000-0002-8650-0916",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8650-0916"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I60053951",
+        "display_name": "Universitat Polit\u00e8cnica de Val\u00e8ncia",
+        "ror": "https://ror.org/01460j859",
+        "country_code": "ES",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I60053951"
+        ]
+       }
+      ],
+      "countries": [
+       "ES"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Bego\u00f1a S\u00e1iz-Maule\u00f3n",
+      "raw_affiliation_strings": [
+       "Universitat Polit\u00e8cnica de Val\u00e8ncia, Departamento de expresi\u00f3n gr\u00e1fica arquitect\u00f3nica and IUMPA Camino de Vera s/n, 46022, Valencia, ES"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Universitat Polit\u00e8cnica de Val\u00e8ncia, Departamento de expresi\u00f3n gr\u00e1fica arquitect\u00f3nica and IUMPA Camino de Vera s/n, 46022, Valencia, ES",
+        "institution_ids": [
+         "https://openalex.org/I60053951"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5088746816",
+       "display_name": "Andrea V\u00e1zquez\u2010Mart\u00ednez",
+       "orcid": "https://orcid.org/0000-0003-0225-3688",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0225-3688"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I16097986",
+        "display_name": "Universitat de Val\u00e8ncia",
+        "ror": "https://ror.org/043nxc105",
+        "country_code": "ES",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I16097986"
+        ]
+       }
+      ],
+      "countries": [
+       "ES"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Andrea V\u00e1zquez-Mart\u00ednez",
+      "raw_affiliation_strings": [
+       "Facultat de Psicologia, Universitat de Val\u00e8ncia, Avinguda Blasco Ib\u00e1\u00f1ez, 21, ES"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Facultat de Psicologia, Universitat de Val\u00e8ncia, Avinguda Blasco Ib\u00e1\u00f1ez, 21, ES",
+        "institution_ids": [
+         "https://openalex.org/I16097986"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5013300424",
+       "display_name": "Esperanza Navarro\u2010Pardo",
+       "orcid": "https://orcid.org/0000-0002-9355-2909",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9355-2909"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I16097986",
+        "display_name": "Universitat de Val\u00e8ncia",
+        "ror": "https://ror.org/043nxc105",
+        "country_code": "ES",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I16097986"
+        ]
+       }
+      ],
+      "countries": [
+       "ES"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Esperanza Navarro-Pardo",
+      "raw_affiliation_strings": [
+       "Facultat de Psicologia, Universitat de Val\u00e8ncia, Avinguda Blasco Ib\u00e1\u00f1ez, 21, ES"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Facultat de Psicologia, Universitat de Val\u00e8ncia, Avinguda Blasco Ib\u00e1\u00f1ez, 21, ES",
+        "institution_ids": [
+         "https://openalex.org/I16097986"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5062053931",
+       "display_name": "Pedro Fern\u00e1ndez de C\u00f3rdoba",
+       "orcid": "https://orcid.org/0000-0002-0347-7280",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0347-7280"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I60053951",
+        "display_name": "Universitat Polit\u00e8cnica de Val\u00e8ncia",
+        "ror": "https://ror.org/01460j859",
+        "country_code": "ES",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I60053951"
+        ]
+       }
+      ],
+      "countries": [
+       "ES"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Pedro Fern\u00e1ndez de C\u00f3rdoba Castell\u00e1",
+      "raw_affiliation_strings": [
+       "Universitat Polit\u00e8cnica de Val\u00e8ncia, Departamento de expresi\u00f3n gr\u00e1fica arquitect\u00f3nica and IUMPA Camino de Vera s/n, 46022, Valencia, ES"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Universitat Polit\u00e8cnica de Val\u00e8ncia, Departamento de expresi\u00f3n gr\u00e1fica arquitect\u00f3nica and IUMPA Camino de Vera s/n, 46022, Valencia, ES",
+        "institution_ids": [
+         "https://openalex.org/I60053951"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.5334/pb.240",
+     "doi": "https://doi.org/10.5334/pb.240",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.5334/pb.240",
+     "pdf_url": "http://www.psychologicabelgica.com/articles/10.5334/pb.240/galley/313/download/",
+     "source": {
+      "id": "https://openalex.org/S114278030",
+      "display_name": "Psychologica Belgica",
+      "issn_l": "0033-2879",
+      "issn": [
+       "0033-2879",
+       "2054-670X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "dongbi-b",
+       "erih-plus",
+       "norway-1",
+       "poland-40",
+       "russia-white-list-3",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320511",
+      "host_organization_name": "Ubiquity Press",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320511"
+      ],
+      "host_organization_lineage_names": [
+       "Ubiquity Press"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Psychologica Belgica",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2937817793",
+    "doi": "https://doi.org/10.1037/xap0000212",
+    "title": "Effects of elaborate feedback during practice tests: Costs and benefits of retrieval prompts.",
+    "display_name": "Effects of elaborate feedback during practice tests: Costs and benefits of retrieval prompts.",
+    "publication_year": 2019,
+    "cited_by_count": 7,
+    "abstract_inverted_index": {
+     "This": [
+      0
+     ],
+     "study": [
+      1
+     ],
+     "explores": [
+      2
+     ],
+     "the": [
+      3,
+      52,
+      101,
+      109,
+      148
+     ],
+     "effect": [
+      4,
+      93
+     ],
+     "of": [
+      5,
+      12,
+      35,
+      74,
+      94,
+      114
+     ],
+     "feedback": [
+      6,
+      33,
+      39,
+      44,
+      82,
+      95,
+      130
+     ],
+     "with": [
+      7,
+      29,
+      116
+     ],
+     "hints": [
+      8,
+      38,
+      64,
+      69,
+      102,
+      117,
+      122,
+      129,
+      141
+     ],
+     "on": [
+      9,
+      96,
+      108
+     ],
+     "students'": [
+      10
+     ],
+     "recall": [
+      11,
+      98,
+      120
+     ],
+     "words.": [
+      13
+     ],
+     "In": [
+      14
+     ],
+     "three": [
+      15
+     ],
+     "classroom": [
+      16
+     ],
+     "experiments,": [
+      17
+     ],
+     "high": [
+      18
+     ],
+     "school": [
+      19
+     ],
+     "students": [
+      20,
+      46
+     ],
+     "individually": [
+      21
+     ],
+     "practiced": [
+      22
+     ],
+     "vocabulary": [
+      23
+     ],
+     "words": [
+      24
+     ],
+     "through": [
+      25
+     ],
+     "computerized": [
+      26
+     ],
+     "retrieval": [
+      27
+     ],
+     "practice": [
+      28,
+      75,
+      104,
+      115,
+      150
+     ],
+     "either": [
+      30
+     ],
+     "standard": [
+      31
+     ],
+     "show-answer": [
+      32,
+      135
+     ],
+     "(display": [
+      34
+     ],
+     "answer)": [
+      36
+     ],
+     "or": [
+      37,
+      62
+     ],
+     "after": [
+      40
+     ],
+     "incorrect": [
+      41
+     ],
+     "responses.": [
+      42
+     ],
+     "Hints": [
+      43
+     ],
+     "gave": [
+      45
+     ],
+     "a": [
+      47,
+      72
+     ],
+     "second": [
+      48
+     ],
+     "chance": [
+      49
+     ],
+     "to": [
+      50,
+      71,
+      80,
+      118
+     ],
+     "find": [
+      51
+     ],
+     "correct": [
+      53
+     ],
+     "response": [
+      54
+     ],
+     "using": [
+      55
+     ],
+     "orthographic": [
+      56
+     ],
+     "(Experiment": [
+      57,
+      60,
+      65
+     ],
+     "1),": [
+      58
+     ],
+     "mnemonic": [
+      59
+     ],
+     "2),": [
+      61
+     ],
+     "cross-language": [
+      63
+     ],
+     "3).": [
+      66
+     ],
+     "During": [
+      67
+     ],
+     "practice,": [
+      68
+     ],
+     "led": [
+      70
+     ],
+     "shift": [
+      73
+     ],
+     "time": [
+      76,
+      151
+     ],
+     "from": [
+      77,
+      103
+     ],
+     "further": [
+      78
+     ],
+     "repetitions": [
+      79
+     ],
+     "longer": [
+      81
+     ],
+     "processing": [
+      83
+     ],
+     "but": [
+      84
+     ],
+     "did": [
+      85
+     ],
+     "not": [
+      86,
+      132,
+      145
+     ],
+     "reduce": [
+      87
+     ],
+     "(repeated)": [
+      88
+     ],
+     "errors.": [
+      89
+     ],
+     "There": [
+      90
+     ],
+     "was": [
+      91,
+      131
+     ],
+     "no": [
+      92
+     ],
+     "later": [
+      97,
+      119
+     ],
+     "except": [
+      99
+     ],
+     "when": [
+      100,
+      147
+     ],
+     "were": [
+      105
+     ],
+     "also": [
+      106
+     ],
+     "available": [
+      107
+     ],
+     "test,": [
+      110
+     ],
+     "indicating": [
+      111
+     ],
+     "limited": [
+      112
+     ],
+     "transfer": [
+      113
+     ],
+     "without": [
+      121
+     ],
+     "(in": [
+      123
+     ],
+     "Experiments": [
+      124
+     ],
+     "1": [
+      125
+     ],
+     "and": [
+      126
+     ],
+     "2).": [
+      127
+     ],
+     "Overall,": [
+      128
+     ],
+     "preferable": [
+      133
+     ],
+     "over": [
+      134
+     ],
+     "feedback.": [
+      136
+     ],
+     "The": [
+      137
+     ],
+     "common": [
+      138
+     ],
+     "notion": [
+      139
+     ],
+     "that": [
+      140
+     ],
+     "are": [
+      142
+     ],
+     "beneficial": [
+      143
+     ],
+     "may": [
+      144
+     ],
+     "hold": [
+      146
+     ],
+     "total": [
+      149
+     ],
+     "is": [
+      152
+     ],
+     "limited.": [
+      153
+     ],
+     "(PsycINFO": [
+      154
+     ],
+     "Database": [
+      155
+     ],
+     "Record": [
+      156
+     ],
+     "(c)": [
+      157
+     ],
+     "2019": [
+      158
+     ],
+     "APA,": [
+      159
+     ],
+     "all": [
+      160
+     ],
+     "rights": [
+      161
+     ],
+     "reserved).": [
+      162
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5038691968",
+       "display_name": "Gesa S. E. van den Broek",
+       "orcid": "https://orcid.org/0000-0001-7624-0957",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7624-0957"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I145872427",
+        "display_name": "Radboud University Nijmegen",
+        "ror": "https://ror.org/016xsfp80",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I145872427"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Gesa S. E. van den Broek",
+      "raw_affiliation_strings": [
+       "Behavioural Science Institute, Radboud University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Behavioural Science Institute, Radboud University",
+        "institution_ids": [
+         "https://openalex.org/I145872427"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5085926907",
+       "display_name": "Eliane Segers",
+       "orcid": "https://orcid.org/0000-0002-8616-6890",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8616-6890"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I145872427",
+        "display_name": "Radboud University Nijmegen",
+        "ror": "https://ror.org/016xsfp80",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I145872427"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Eliane Segers",
+      "raw_affiliation_strings": [
+       "Behavioural Science Institute, Radboud University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Behavioural Science Institute, Radboud University",
+        "institution_ids": [
+         "https://openalex.org/I145872427"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5035761327",
+       "display_name": "Hedderik van Rijn",
+       "orcid": "https://orcid.org/0000-0002-0461-9850",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0461-9850"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I169381384",
+        "display_name": "University of Groningen",
+        "ror": "https://ror.org/012p63287",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I169381384"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Hedderik van Rijn",
+      "raw_affiliation_strings": [
+       "Department of Experimental Psychology, University of Groningen"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-0461-9850",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Experimental Psychology, University of Groningen",
+        "institution_ids": [
+         "https://openalex.org/I169381384"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5038911901",
+       "display_name": "Atsuko Takashima",
+       "orcid": "https://orcid.org/0000-0003-1114-6526",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1114-6526"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I145872427",
+        "display_name": "Radboud University Nijmegen",
+        "ror": "https://ror.org/016xsfp80",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I145872427"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Atsuko Takashima",
+      "raw_affiliation_strings": [
+       "Behavioural Science Institute, Radboud University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Behavioural Science Institute, Radboud University",
+        "institution_ids": [
+         "https://openalex.org/I145872427"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5053668579",
+       "display_name": "Ludo T. W. Verhoeven",
+       "orcid": "https://orcid.org/0000-0002-5108-4705",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5108-4705"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I145872427",
+        "display_name": "Radboud University Nijmegen",
+        "ror": "https://ror.org/016xsfp80",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I145872427"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Ludo Verhoeven",
+      "raw_affiliation_strings": [
+       "Behavioural Science Institute, Radboud University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Behavioural Science Institute, Radboud University",
+        "institution_ids": [
+         "https://openalex.org/I145872427"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1037/xap0000212",
+     "doi": "https://doi.org/10.1037/xap0000212",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1037/xap0000212",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S79587319",
+      "display_name": "Journal of Experimental Psychology Applied",
+      "issn_l": "1076-898X",
+      "issn": [
+       "1076-898X",
+       "1939-2192"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-a",
+       "cwts-core",
+       "dongbi-b",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320262",
+      "host_organization_name": "American Psychological Association",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320262"
+      ],
+      "host_organization_lineage_names": [
+       "American Psychological Association"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Experimental Psychology: Applied",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4295013531",
+    "doi": "https://doi.org/10.1080/00461520.2022.2108426",
+    "title": "A developmental perspective on feedback: How corrective feedback influences children\u2019s literacy, mathematics, and problem solving",
+    "display_name": "A developmental perspective on feedback: How corrective feedback influences children\u2019s literacy, mathematics, and problem solving",
+    "publication_year": 2022,
+    "cited_by_count": 49,
+    "abstract_inverted_index": {
+     "Research": [
+      0
+     ],
+     "in": [
+      1,
+      29,
+      57,
+      107
+     ],
+     "psychology": [
+      2
+     ],
+     "and": [
+      3,
+      46,
+      69,
+      87,
+      97,
+      120,
+      140
+     ],
+     "education": [
+      4
+     ],
+     "indicates": [
+      5
+     ],
+     "that": [
+      6
+     ],
+     "corrective": [
+      7,
+      25,
+      52,
+      92,
+      105
+     ],
+     "feedback": [
+      8,
+      26,
+      53,
+      93,
+      106,
+      115,
+      149
+     ],
+     "can": [
+      9,
+      146
+     ],
+     "be": [
+      10
+     ],
+     "a": [
+      11,
+      17,
+      35
+     ],
+     "powerful": [
+      12
+     ],
+     "learning": [
+      13,
+      28
+     ],
+     "tool.": [
+      14
+     ],
+     "We": [
+      15,
+      128
+     ],
+     "provide": [
+      16,
+      95,
+      147
+     ],
+     "developmental": [
+      18
+     ],
+     "perspective": [
+      19
+     ],
+     "to": [
+      20,
+      85,
+      94,
+      150
+     ],
+     "focus": [
+      21
+     ],
+     "specifically": [
+      22
+     ],
+     "on": [
+      23,
+      34,
+      54,
+      81,
+      136,
+      143
+     ],
+     "how": [
+      24,
+      82
+     ],
+     "influences": [
+      27
+     ],
+     "childhood": [
+      30
+     ],
+     "(\u223cages": [
+      31
+     ],
+     "3\u201311).": [
+      32
+     ],
+     "Based": [
+      33
+     ],
+     "systematic": [
+      36
+     ],
+     "search,": [
+      37
+     ],
+     "we": [
+      38,
+      78
+     ],
+     "review": [
+      39
+     ],
+     "44": [
+      40
+     ],
+     "empirical": [
+      41
+     ],
+     "papers": [
+      42
+     ],
+     "published": [
+      43
+     ],
+     "between": [
+      44
+     ],
+     "1990": [
+      45
+     ],
+     "2022": [
+      47
+     ],
+     "examining": [
+      48
+     ],
+     "the": [
+      49,
+      58,
+      102,
+      111,
+      122
+     ],
+     "effects": [
+      50
+     ],
+     "of": [
+      51,
+      60,
+      104,
+      113,
+      124
+     ],
+     "children\u2019s": [
+      55
+     ],
+     "performance": [
+      56
+     ],
+     "domains": [
+      59
+     ],
+     "literacy": [
+      61
+     ],
+     "(n": [
+      62,
+      66,
+      72
+     ],
+     "=": [
+      63,
+      67,
+      73
+     ],
+     "18),": [
+      64
+     ],
+     "mathematics": [
+      65
+     ],
+     "14),": [
+      68
+     ],
+     "problem": [
+      70
+     ],
+     "solving": [
+      71
+     ],
+     "12).": [
+      74
+     ],
+     "Across": [
+      75
+     ],
+     "these": [
+      76
+     ],
+     "domains,": [
+      77
+     ],
+     "synthesize": [
+      79
+     ],
+     "research": [
+      80,
+      138
+     ],
+     "children": [
+      83
+     ],
+     "respond": [
+      84
+     ],
+     "lessons": [
+      86
+     ],
+     "practice": [
+      88
+     ],
+     "with,": [
+      89
+     ],
+     "versus": [
+      90
+     ],
+     "without,": [
+      91
+     ],
+     "theoretical": [
+      96
+     ],
+     "practical": [
+      98
+     ],
+     "insights": [
+      99
+     ],
+     "into": [
+      100
+     ],
+     "(1)": [
+      101
+     ],
+     "effectiveness": [
+      103
+     ],
+     "early": [
+      108
+     ],
+     "childhood,": [
+      109
+     ],
+     "(2)": [
+      110
+     ],
+     "features": [
+      112
+     ],
+     "effective": [
+      114,
+      148
+     ],
+     "messages": [
+      116
+     ],
+     "at": [
+      117
+     ],
+     "different": [
+      118
+     ],
+     "ages,": [
+      119
+     ],
+     "(3)": [
+      121
+     ],
+     "role": [
+      123
+     ],
+     "individual": [
+      125
+     ],
+     "learner": [
+      126
+     ],
+     "differences.": [
+      127
+     ],
+     "make": [
+      129
+     ],
+     "several": [
+      130
+     ],
+     "novel": [
+      131
+     ],
+     "recommendations": [
+      132
+     ],
+     "with": [
+      133
+     ],
+     "some": [
+      134
+     ],
+     "focused": [
+      135,
+      142
+     ],
+     "future": [
+      137
+     ],
+     "questions": [
+      139
+     ],
+     "others": [
+      141
+     ],
+     "ways": [
+      144
+     ],
+     "teachers": [
+      145
+     ],
+     "children.": [
+      151
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5013182641",
+       "display_name": "Emily R. Fyfe",
+       "orcid": "https://orcid.org/0000-0002-5420-360X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5420-360X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210119109",
+        "display_name": "Indiana University Bloomington",
+        "ror": "https://ror.org/02k40bc56",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210119109",
+         "https://openalex.org/I592451"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I592451",
+        "display_name": "Indiana University",
+        "ror": "https://ror.org/01kg8sb98",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I592451"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Emily R. Fyfe",
+      "raw_affiliation_strings": [
+       "Department of Psychological and Brain Sciences, Indiana University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychological and Brain Sciences, Indiana University",
+        "institution_ids": [
+         "https://openalex.org/I4210119109",
+         "https://openalex.org/I592451"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5043771959",
+       "display_name": "Giulia A. Borriello",
+       "orcid": "https://orcid.org/0000-0003-1374-8256",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1374-8256"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210119109",
+        "display_name": "Indiana University Bloomington",
+        "ror": "https://ror.org/02k40bc56",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210119109",
+         "https://openalex.org/I592451"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I592451",
+        "display_name": "Indiana University",
+        "ror": "https://ror.org/01kg8sb98",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I592451"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Giulia A. Borriello",
+      "raw_affiliation_strings": [
+       "Department of Psychological and Brain Sciences, Indiana University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychological and Brain Sciences, Indiana University",
+        "institution_ids": [
+         "https://openalex.org/I4210119109",
+         "https://openalex.org/I592451"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5044714844",
+       "display_name": "Megan Merrick",
+       "orcid": "https://orcid.org/0000-0002-9890-7924",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9890-7924"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210119109",
+        "display_name": "Indiana University Bloomington",
+        "ror": "https://ror.org/02k40bc56",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210119109",
+         "https://openalex.org/I592451"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I592451",
+        "display_name": "Indiana University",
+        "ror": "https://ror.org/01kg8sb98",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I592451"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Megan Merrick",
+      "raw_affiliation_strings": [
+       "Department of Psychological and Brain Sciences, Indiana University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychological and Brain Sciences, Indiana University",
+        "institution_ids": [
+         "https://openalex.org/I4210119109",
+         "https://openalex.org/I592451"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1080/00461520.2022.2108426",
+     "doi": "https://doi.org/10.1080/00461520.2022.2108426",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1080/00461520.2022.2108426",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S168863630",
+      "display_name": "Educational Psychologist",
+      "issn_l": "0046-1520",
+      "issn": [
+       "0046-1520",
+       "1532-6985"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-a",
+       "erih-plus",
+       "jufo-3",
+       "ki-jl-2",
+       "norway-2",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319847",
+      "host_organization_name": "Routledge",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319847",
+       "https://openalex.org/P4310320547",
+       "https://openalex.org/P4310320449"
+      ],
+      "host_organization_lineage_names": [
+       "Routledge",
+       "Taylor & Francis",
+       "Informa"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Educational Psychologist",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W1709146059",
+    "doi": "https://doi.org/10.1111/j.1467-9922.2011.00639.x",
+    "title": "Effects of Form\u2010Focused Instruction and Corrective Feedback on L2 Pronunciation Development of /\u0279/ by Japanese Learners of English",
+    "display_name": "Effects of Form\u2010Focused Instruction and Corrective Feedback on L2 Pronunciation Development of /\u0279/ by Japanese Learners of English",
+    "publication_year": 2011,
+    "cited_by_count": 544,
+    "abstract_inverted_index": {
+     "Sixty\u2010five": [
+      0
+     ],
+     "Japanese": [
+      1
+     ],
+     "learners": [
+      2
+     ],
+     "of": [
+      3,
+      15,
+      47,
+      99,
+      123,
+      128,
+      155,
+      178,
+      187,
+      203
+     ],
+     "English": [
+      4,
+      48,
+      71,
+      129
+     ],
+     "participated": [
+      5
+     ],
+     "in": [
+      6,
+      50,
+      55,
+      82,
+      108,
+      184
+     ],
+     "the": [
+      7,
+      12,
+      44,
+      56,
+      75,
+      83,
+      109,
+      124,
+      156,
+      164,
+      188,
+      192,
+      201
+     ],
+     "current": [
+      8
+     ],
+     "study,": [
+      9
+     ],
+     "which": [
+      10
+     ],
+     "investigated": [
+      11
+     ],
+     "acquisitional": [
+      13
+     ],
+     "value": [
+      14
+     ],
+     "form\u2010focused": [
+      16
+     ],
+     "instruction": [
+      17,
+      66
+     ],
+     "(FFI)": [
+      18
+     ],
+     "with": [
+      19
+     ],
+     "and": [
+      20,
+      42,
+      135,
+      141,
+      191,
+      199
+     ],
+     "without": [
+      21,
+      68
+     ],
+     "corrective": [
+      22
+     ],
+     "feedback": [
+      23
+     ],
+     "(CF)": [
+      24
+     ],
+     "on": [
+      25,
+      70,
+      120
+     ],
+     "learners\u2019": [
+      26
+     ],
+     "pronunciation": [
+      27,
+      98
+     ],
+     "development.": [
+      28
+     ],
+     "All": [
+      29
+     ],
+     "students": [
+      30,
+      81
+     ],
+     "received": [
+      31,
+      64
+     ],
+     "a": [
+      32,
+      142,
+      169,
+      174
+     ],
+     "4\u2010hr": [
+      33
+     ],
+     "FFI": [
+      34,
+      69,
+      84,
+      157,
+      204
+     ],
+     "treatment": [
+      35
+     ],
+     "designed": [
+      36
+     ],
+     "to": [
+      37,
+      40,
+      80,
+      106,
+      205
+     ],
+     "encourage": [
+      38
+     ],
+     "them": [
+      39
+     ],
+     "notice": [
+      41
+     ],
+     "practice": [
+      43
+     ],
+     "target": [
+      45
+     ],
+     "feature": [
+      46
+     ],
+     "/\u0279/": [
+      49,
+      130
+     ],
+     "meaningful": [
+      51
+     ],
+     "discourse,": [
+      52
+     ],
+     "except": [
+      53
+     ],
+     "those": [
+      54,
+      107
+     ],
+     "control": [
+      57,
+      193
+     ],
+     "group": [
+      58,
+      87,
+      111,
+      160,
+      190,
+      194
+     ],
+     "(": [
+      59,
+      88,
+      112
+     ],
+     "n": [
+      60,
+      89,
+      113
+     ],
+     "=": [
+      61,
+      90,
+      114
+     ],
+     "11),": [
+      62
+     ],
+     "who": [
+      63
+     ],
+     "comparable": [
+      65
+     ],
+     "but": [
+      67,
+      172
+     ],
+     "/\u0279/.": [
+      72
+     ],
+     "During": [
+      73
+     ],
+     "FFI,": [
+      74
+     ],
+     "instructors": [
+      76
+     ],
+     "provided": [
+      77,
+      105
+     ],
+     "CF": [
+      78,
+      86,
+      103,
+      159
+     ],
+     "only": [
+      79,
+      167
+     ],
+     "+": [
+      85,
+      158
+     ],
+     "29)": [
+      91
+     ],
+     "by": [
+      92
+     ],
+     "recasting": [
+      93
+     ],
+     "their": [
+      94
+     ],
+     "mispronunciation": [
+      95
+     ],
+     "or": [
+      96
+     ],
+     "unclear": [
+      97
+     ],
+     "/\u0279/,": [
+      100
+     ],
+     "whereas": [
+      101
+     ],
+     "no": [
+      102
+     ],
+     "was": [
+      104,
+      195
+     ],
+     "FFI\u2010only": [
+      110,
+      189
+     ],
+     "25).": [
+      115
+     ],
+     "Acoustic": [
+      116
+     ],
+     "analyses": [
+      117
+     ],
+     "were": [
+      118
+     ],
+     "conducted": [
+      119
+     ],
+     "frequency": [
+      121
+     ],
+     "values": [
+      122,
+      154,
+      186
+     ],
+     "third": [
+      125
+     ],
+     "formant": [
+      126
+     ],
+     "(F3)": [
+      127
+     ],
+     "tokens": [
+      131,
+      207
+     ],
+     "elicited": [
+      132
+     ],
+     "via": [
+      133
+     ],
+     "pretest": [
+      134
+     ],
+     "posttest": [
+      136
+     ],
+     "measures": [
+      137
+     ],
+     "targeting": [
+      138,
+      145
+     ],
+     "familiar": [
+      139
+     ],
+     "items": [
+      140
+     ],
+     "generalizability": [
+      143,
+      202
+     ],
+     "test": [
+      144
+     ],
+     "unfamiliar": [
+      146
+     ],
+     "items.": [
+      147
+     ],
+     "The": [
+      148
+     ],
+     "results": [
+      149
+     ],
+     "showed": [
+      150
+     ],
+     "that:": [
+      151
+     ],
+     "(a)": [
+      152
+     ],
+     "F3": [
+      153,
+      185
+     ],
+     "significantly": [
+      161
+     ],
+     "declined": [
+      162
+     ],
+     "after": [
+      163
+     ],
+     "intervention,": [
+      165
+     ],
+     "not": [
+      166,
+      196
+     ],
+     "at": [
+      168
+     ],
+     "controlled\u2010speech": [
+      170
+     ],
+     "level": [
+      171
+     ],
+     "also": [
+      173
+     ],
+     "spontaneous\u2010speech": [
+      175
+     ],
+     "level,": [
+      176
+     ],
+     "regardless": [
+      177
+     ],
+     "following": [
+      179
+     ],
+     "vowel": [
+      180
+     ],
+     "contexts;": [
+      181
+     ],
+     "(b)": [
+      182
+     ],
+     "change": [
+      183
+     ],
+     "statistically": [
+      197
+     ],
+     "significant;": [
+      198
+     ],
+     "(c)": [
+      200
+     ],
+     "novel": [
+      206
+     ],
+     "remained": [
+      208
+     ],
+     "unclear.": [
+      209
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5062056175",
+       "display_name": "Kazuya Saito",
+       "orcid": "https://orcid.org/0000-0002-4718-2943",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4718-2943"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I5023651",
+        "display_name": "McGill University",
+        "ror": "https://ror.org/01pxwe438",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I5023651"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Kazuya Saito",
+      "raw_affiliation_strings": [
+       "McGill University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "McGill University",
+        "institution_ids": [
+         "https://openalex.org/I5023651"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5063823704",
+       "display_name": "Roy Lyster",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I5023651",
+        "display_name": "McGill University",
+        "ror": "https://ror.org/01pxwe438",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I5023651"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Roy Lyster",
+      "raw_affiliation_strings": [
+       "McGill University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "McGill University",
+        "institution_ids": [
+         "https://openalex.org/I5023651"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1111/j.1467-9922.2011.00639.x",
+     "doi": "https://doi.org/10.1111/j.1467-9922.2011.00639.x",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1111/j.1467-9922.2011.00639.x",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S82334308",
+      "display_name": "Language Learning",
+      "issn_l": "0023-8333",
+      "issn": [
+       "0023-8333",
+       "1467-9922"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "erih-plus",
+       "jufo-3",
+       "norway-2",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Language Learning",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

@@ -1,0 +1,530 @@
+{
+ "status": 200,
+ "json": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      11,
+      4
+     ]
+    ],
+    "date-time": "2026-11-04T16:12:02Z",
+    "timestamp": 1793808722805,
+    "version": "4.6.1"
+   },
+   "reference-count": 30,
+   "publisher": "Frontiers Media SA",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2026,
+        1,
+        29
+       ]
+      ],
+      "date-time": "2026-01-29T00:00:00Z",
+      "timestamp": 1769644800000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "frontiersin.org"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "Front. Psychol."
+   ],
+   "abstract": "<jats:p>The testing effect\u2014whereby retrieving information through testing improves long-term retention more than restudying\u2014is one of the most robust and well-documented phenomena in educational psychology. However, its replicability in online crowdsourced settings remains uncertain. In this paper, we report two preliminary experiments examining whether the testing effect can be detected in studies conducted on Prolific, a platform widely used for behavioral and educational research. Although not conceived as direct replications, both studies relied on validated learning materials and incorporated key methodological features known to enhance the testing effect, including delayed posttests, corrective feedback, and both factual and application-based outcome measures. In both experiments, participants were randomly assigned to a retrieval-practice (test) or restudy condition. No significant differences were found between groups at delayed test, despite multiple safeguards aimed at promoting participant engagement (e.g., prescreening filters, attention checks, fair compensation). These null findings suggest that investigating learning phenomena that require sustained cognitive engagement may be more challenging with crowdsource samples. We argue that the absence of the testing effect in our studies is unlikely to reflect a theoretical limitation of the effect itself, but rather highlights challenges inherent to online research environments. While platforms like Prolific offer valuable advantages in terms of speed and sample diversity, their constraints should be carefully considered when studying learning effects that depend on deep engagement with learning material.</jats:p>",
+   "DOI": "10.3389/fpsyg.2026.1727423",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      29
+     ]
+    ],
+    "date-time": "2026-01-29T06:42:30Z",
+    "timestamp": 1769668950000
+   },
+   "update-policy": "https://doi.org/10.3389/crossmark-policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 1,
+   "title": [
+    "Testing the testing effect on prolific: when retrieval practice fails to boost learning"
+   ],
+   "prefix": "10.3389",
+   "volume": "17",
+   "author": [
+    {
+     "given": "Kevin",
+     "family": "Sigayret",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "IRIT, Universit\u00e9 de Toulouse, CNRS, Toulouse INP, Universit\u00e9 Toulouse Capitole",
+       "place": [
+        "Toulouse, France"
+       ]
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jean-Fran\u00e7ois",
+     "family": "Parmentier",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "IRIT, Universit\u00e9 de Toulouse, CNRS, Toulouse INP, IPSA",
+       "place": [
+        "Toulouse, France"
+       ]
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Franck",
+     "family": "Silvestre",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "IRIT, Universit\u00e9 de Toulouse, CNRS, Toulouse INP",
+       "place": [
+        "Toulouse, France"
+       ]
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "1965",
+   "published-online": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      29
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "ref1",
+     "doi-asserted-by": "publisher",
+     "first-page": "659",
+     "DOI": "10.3102/0034654316689306",
+     "article-title": "Rethinking the use of tests: a meta-analysis of practice testing",
+     "volume": "87",
+     "author": "Adesope",
+     "year": "2017",
+     "journal-title": "Rev. Educ. Res."
+    },
+    {
+     "key": "ref2",
+     "doi-asserted-by": "publisher",
+     "first-page": "861",
+     "DOI": "10.1002/acp.1391",
+     "article-title": "Examining the testing effect with open-and closed-book tests",
+     "volume": "22",
+     "author": "Agarwal",
+     "year": "2008",
+     "journal-title": "Appl. Cogn. Psychol."
+    },
+    {
+     "key": "ref3",
+     "doi-asserted-by": "publisher",
+     "first-page": "20574",
+     "DOI": "10.1038/s41598-023-46048-5",
+     "article-title": "Comparing attentional disengagement between prolific and MTurk samples",
+     "volume": "13",
+     "author": "Albert",
+     "year": "2023",
+     "journal-title": "Sci. Rep."
+    },
+    {
+     "key": "ref4",
+     "doi-asserted-by": "publisher",
+     "first-page": "948",
+     "DOI": "10.1002/acp.3822",
+     "article-title": "When and how seductive details harm learning. a study using cued retrospective reporting",
+     "volume": "35",
+     "author": "Bender",
+     "year": "2021",
+     "journal-title": "Appl. Cogn. Psychol."
+    },
+    {
+     "key": "ref5",
+     "doi-asserted-by": "publisher",
+     "first-page": "433",
+     "DOI": "10.1037/xap0000142",
+     "article-title": "Retrieving and applying knowledge to different examples promotes transfer of learning",
+     "volume": "23",
+     "author": "Butler",
+     "year": "2017",
+     "journal-title": "J. Exp. Psychol. Appl."
+    },
+    {
+     "key": "ref6",
+     "doi-asserted-by": "publisher",
+     "first-page": "347",
+     "DOI": "10.1007/s10869-016-9458-5",
+     "article-title": "Amazon mechanical Turk in organizational psychology: an evaluation and practical recommendations",
+     "volume": "32",
+     "author": "Cheung",
+     "year": "2017",
+     "journal-title": "J. Bus. Psychol."
+    },
+    {
+     "key": "ref7",
+     "doi-asserted-by": "publisher",
+     "first-page": "464",
+     "DOI": "10.1177/1948550619875149",
+     "article-title": "An MTurk crisis? Shifts in data quality and the impact on study results",
+     "volume": "11",
+     "author": "Chmielewski",
+     "year": "2020",
+     "journal-title": "Soc. Psychol. Personal. Sci."
+    },
+    {
+     "key": "ref8",
+     "doi-asserted-by": "publisher",
+     "first-page": "e0279720",
+     "DOI": "10.1371/journal.pone.0279720",
+     "article-title": "Data quality in online human-subjects research: comparisons between MTurk, prolific, CloudResearch, Qualtrics, and SONA",
+     "volume": "18",
+     "author": "Douglas",
+     "year": "2023",
+     "journal-title": "PLoS One"
+    },
+    {
+     "key": "ref9",
+     "first-page": "319",
+     "article-title": "Common concerns with MTurk as a participant pool: evidence and solutions",
+     "volume-title": "Handbook of research methods in consumer psychology",
+     "author": "Hauser",
+     "year": "2019"
+    },
+    {
+     "key": "ref10",
+     "doi-asserted-by": "publisher",
+     "first-page": "528",
+     "DOI": "10.1080/09541440601056620",
+     "article-title": "Test format and corrective feedback modify the effect of testing on long-term retention",
+     "volume": "19",
+     "author": "Kang",
+     "year": "2007",
+     "journal-title": "Eur. J. Cogn. Psychol."
+    },
+    {
+     "key": "ref11",
+     "doi-asserted-by": "publisher",
+     "first-page": "1359",
+     "DOI": "10.3389/fpsyg.2017.01359",
+     "article-title": "Systems perspective of Amazon mechanical Turk for organizational research: review and recommendations",
+     "volume": "8",
+     "author": "Keith",
+     "year": "2017",
+     "journal-title": "Front. Psychol."
+    },
+    {
+     "key": "ref12",
+     "doi-asserted-by": "publisher",
+     "first-page": "517",
+     "DOI": "10.2224/sbp.7054",
+     "article-title": "Relationships between student engagement and academic achievement: a meta-analysis",
+     "volume": "46",
+     "author": "Lei",
+     "year": "2018",
+     "journal-title": "Soc. Behav. Personal."
+    },
+    {
+     "key": "ref13",
+     "doi-asserted-by": "crossref",
+     "first-page": "43",
+     "DOI": "10.1017/CBO9781139547369.005",
+     "article-title": "Cognitive theory of multimedia learning",
+     "volume-title": "The Cambridge handbook of multimedia learning",
+     "author": "Mayer",
+     "year": "2014"
+    },
+    {
+     "key": "ref14",
+     "doi-asserted-by": "publisher",
+     "first-page": "390",
+     "DOI": "10.1037/0022-0663.93.2.390",
+     "article-title": "When learning is just a click away: Does simple user interaction foster deeper understanding of multimedia messages?",
+     "volume": "93",
+     "author": "Mayer",
+     "year": "2001",
+     "journal-title": "J. Educ. Psychol."
+    },
+    {
+     "key": "ref15",
+     "doi-asserted-by": "publisher",
+     "first-page": "419",
+     "DOI": "10.1037/0022-0663.95.2.419",
+     "article-title": "Social cues in multimedia learning: role of speaker\u2019s voice",
+     "volume": "95",
+     "author": "Mayer",
+     "year": "2003",
+     "journal-title": "J. Educ. Psychol."
+    },
+    {
+     "key": "ref16",
+     "doi-asserted-by": "publisher",
+     "first-page": "752",
+     "DOI": "10.1037/xlm0000490",
+     "article-title": "The replicability of the negative testing effect: differences across participant populations",
+     "volume": "44",
+     "author": "Mulligan",
+     "year": "2018",
+     "journal-title": "J. Exp. Psychol. Learn. Mem. Cogn."
+    },
+    {
+     "key": "ref17",
+     "doi-asserted-by": "publisher",
+     "first-page": "710",
+     "DOI": "10.1037/bul0000151",
+     "article-title": "Transfer of test-enhanced learning: meta-analytic review and synthesis",
+     "volume": "144",
+     "author": "Pan",
+     "year": "2018",
+     "journal-title": "Psychol. Bull."
+    },
+    {
+     "key": "ref18",
+     "doi-asserted-by": "publisher",
+     "first-page": "574",
+     "DOI": "10.1037/mac0000083",
+     "article-title": "User-generated digital flashcards yield better learning than premade flashcards",
+     "volume": "12",
+     "author": "Pan",
+     "year": "2023",
+     "journal-title": "J. Appl. Res. Mem. Cogn."
+    },
+    {
+     "key": "ref19",
+     "doi-asserted-by": "publisher",
+     "first-page": "411",
+     "DOI": "10.1017/S1930297500002205",
+     "article-title": "Running experiments on Amazon mechanical Turk",
+     "volume": "5",
+     "author": "Paolacci",
+     "year": "2010",
+     "journal-title": "Judgm. Decis. Mak."
+    },
+    {
+     "key": "ref20",
+     "doi-asserted-by": "publisher",
+     "first-page": "21",
+     "DOI": "10.1080/15305058.2011.602920",
+     "article-title": "The effect of testing on student achievement, 1910\u20132010",
+     "volume": "12",
+     "author": "Phelps",
+     "year": "2012",
+     "journal-title": "Int. J. Test."
+    },
+    {
+     "key": "ref21",
+     "doi-asserted-by": "publisher",
+     "first-page": "8",
+     "DOI": "10.1007/s11251-025-09758-z",
+     "article-title": "Testing the testing effect with advanced materials while accounting for individual differences",
+     "volume": "54",
+     "author": "Redifer",
+     "year": "2026",
+     "journal-title": "Instr. Sci."
+    },
+    {
+     "key": "ref22",
+     "first-page": "27",
+     "article-title": "Benefits of testing memory: best practices and boundary conditions",
+     "volume-title": "Current issues in applied memory research",
+     "author": "Roediger",
+     "year": "2009"
+    },
+    {
+     "key": "ref23",
+     "doi-asserted-by": "publisher",
+     "first-page": "249",
+     "DOI": "10.1111/j.1467-9280.2006.01693.x",
+     "article-title": "Test-enhanced learning: taking memory tests improves long-term retention",
+     "volume": "17",
+     "author": "Roediger",
+     "year": "2006",
+     "journal-title": "Psychol. Sci."
+    },
+    {
+     "key": "ref24",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1016/B978-0-12-387691-1.00001-6",
+     "article-title": "Ten benefits of testing and their applications to educational practice",
+     "volume": "55",
+     "author": "Roediger",
+     "year": "2011",
+     "journal-title": "Psychol. Learn. Motiv."
+    },
+    {
+     "key": "ref25",
+     "doi-asserted-by": "publisher",
+     "first-page": "1432",
+     "DOI": "10.1037/a0037559",
+     "article-title": "The effect of testing versus restudy on retention: a meta-analytic review of the testing effect",
+     "volume": "140",
+     "author": "Rowland",
+     "year": "2014",
+     "journal-title": "Psychol. Bull."
+    },
+    {
+     "key": "ref26",
+     "doi-asserted-by": "publisher",
+     "first-page": "102761",
+     "DOI": "10.1016/j.lindif.2025.102761",
+     "article-title": "Differential use and effectiveness of practice testing: Who benefits and who engages?",
+     "volume": "123",
+     "author": "Schwerter",
+     "year": "2025",
+     "journal-title": "Learn. Individ. Differ."
+    },
+    {
+     "key": "ref27",
+     "doi-asserted-by": "publisher",
+     "first-page": "605",
+     "DOI": "10.1016/j.tics.2016.05.010",
+     "article-title": "Mind-wandering with and without intention",
+     "volume": "20",
+     "author": "Seli",
+     "year": "2016",
+     "journal-title": "Trends Cogn. Sci."
+    },
+    {
+     "key": "ref28",
+     "doi-asserted-by": "publisher",
+     "first-page": "736",
+     "DOI": "10.1016/j.tics.2017.06.007",
+     "article-title": "Crowdsourcing samples in cognitive science",
+     "volume": "21",
+     "author": "Stewart",
+     "year": "2017",
+     "journal-title": "Trends Cogn. Sci."
+    },
+    {
+     "key": "ref29",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1145/3636555.3636897",
+     "article-title": "Can crowdsourcing platforms be useful for educational research?",
+     "author": "Wang",
+     "year": "2024"
+    },
+    {
+     "key": "ref30",
+     "doi-asserted-by": "publisher",
+     "first-page": "399",
+     "DOI": "10.1037/bul0000309",
+     "article-title": "Testing (quizzing) boosts classroom learning: a systematic and meta-analytic review",
+     "volume": "147",
+     "author": "Yang",
+     "year": "2021",
+     "journal-title": "Psychol. Bull."
+    }
+   ],
+   "container-title": [
+    "Frontiers in Psychology"
+   ],
+   "original-title": [],
+   "link": [
+    {
+     "URL": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1727423/full",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      29
+     ]
+    ],
+    "date-time": "2026-01-29T06:42:31Z",
+    "timestamp": 1769668951000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1727423/full"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      29
+     ]
+    ]
+   },
+   "references-count": 30,
+   "alternative-id": [
+    "10.3389/fpsyg.2026.1727423"
+   ],
+   "URL": "https://doi.org/10.3389/fpsyg.2026.1727423",
+   "relation": {},
+   "ISSN": [
+    "1664-1078"
+   ],
+   "issn-type": [
+    {
+     "value": "1664-1078",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      29
+     ]
+    ]
+   },
+   "article-number": "1727423"
+  }
+ }
+}

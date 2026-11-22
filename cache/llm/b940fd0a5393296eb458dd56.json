@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a2023a-3b3d-7f52-a63b-efa2eca43a3d",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795333700,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\":\"The system indicates no sources have been fetched in this session, so I will search again and then fetch each source before citing it.\",\"action\":\"search_papers\",\"args\":{\"query\":\"prior knowledge moderates testing effect versus restudying delayed assessment\"}}",
+    "reasoning_content": "We need respond to observation. It says not fetched any source yet, but we did fetch in prior turns? Maybe system resets? Need comply: search then fetch. We need call search_papers again, then fetch sources. We must not finish until fetched. We have source IDs from earlier but observation says not fetched. Need search. Use query. Then fetch. We can call one tool per message. Need search first.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 2669,
+  "completion_tokens": 142,
+  "total_tokens": 2811,
+  "prompt_tokens_details": {
+   "cached_tokens": 2560
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 87
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.23
+}

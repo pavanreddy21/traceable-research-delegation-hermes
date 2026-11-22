@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201ff-49aa-74a7-acff-823ebe1e3117",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795329837,
+ "model": "zai-org/GLM-5.3-Flash",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 directly states that the ISI producing maximal retention increased as retention interval increased, matching the claim's direction and outcome.\"}",
+    "reasoning_content": "The claim: \"The interstudy interval that produced maximal retention increased as the retention interval increased.\"\n\nPassage [1] states: \"the ISI producing maximal retention increased as retention interval increased.\" This directly matches the claim. ISI = interstudy interval. Same direction, same outcome.\n\nVerdict: supported, passage 1.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 299,
+  "completion_tokens": 112,
+  "total_tokens": 411,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 66
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.23
+}

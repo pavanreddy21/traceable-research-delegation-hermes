@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a2020b-ebf1-73ef-bb1b-4f304e9e0e15",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330665,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"not_supported\", \"passage\": 3, \"reason\": \"The source states that overall effects were weak and only some students at risk might benefit, contradicting the claim of large gains for students in general.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 322,
+  "completion_tokens": 51,
+  "total_tokens": 373,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 1.19
+}

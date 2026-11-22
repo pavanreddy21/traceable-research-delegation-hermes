@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a2020d-0534-728f-a669-cd156e2a61b5",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330737,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"not_supported\", \"passage\": 2, \"reason\": \"The source states background music has small detrimental effects on memory, contradicting the claim that it improves memory.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 287,
+  "completion_tokens": 43,
+  "total_tokens": 330,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 1.25
+}

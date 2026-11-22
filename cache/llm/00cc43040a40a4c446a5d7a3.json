@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201ff-d643-7a83-9063-4df2222b6be4",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795329873,
+ "model": "zai-org/GLM-5.3-Flash",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"not_supported\", \"passage\": 1, \"reason\": \"Passage 1 states the review found 839 assessments in 317 experiments, which reverses the numbers in the claim (317 assessments from 839 experiments).\"}",
+    "reasoning_content": "The claim: \"The review analyzed 317 assessments of distributed practice drawn from 839 experiments.\"\n\nPassage [1]: \"This review found 839 assessments of distributed practice in 317 experiments located in 184 articles.\"\n\nSo the claim swaps the numbers: it says 317 assessments from 839 experiments, but the source says 839 assessments in 317 experiments. The numbers are reversed. So the claim contradicts the source \u2014 the numbers are transposed. This is not supported (contradicts).\n\nVerdict: not_supported, passage 1, reason: the passage states 839 assessments in 317 experiments, reversing the claim's numbers.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 301,
+  "completion_tokens": 198,
+  "total_tokens": 499,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 141
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.23
+}

@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201ea-a1a7-7ac4-b3ae-9ab23d41641d",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795328483,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Search for evidence that acute aerobic exercise does not improve cognition or has boundary conditions in young adults.\", \"action\": \"search_papers\", \"args\": {\"query\": \"acute aerobic exercise no benefit cognitive performance young adults\"}}",
+    "reasoning_content": "We need answer only JSON. Need search contrary evidence. Need use tools. Start search.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 379,
+  "completion_tokens": 69,
+  "total_tokens": 448,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 19
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.23
+}

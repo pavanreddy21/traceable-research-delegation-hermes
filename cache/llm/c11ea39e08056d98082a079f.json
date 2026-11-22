@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a20209-b975-775f-ba8c-497085b95f78",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330521,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"not_supported\", \"passage\": 1, \"reason\": \"The source states that repeated studying, not practice testing, increased students' confidence in their ability to remember the material.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 269,
+  "completion_tokens": 45,
+  "total_tokens": 314,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 1.2
+}

@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201ec-18a1-7437-99b2-a11dade8ddde",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795328579,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"This study supports benefits, so I need sources with null or limited effects; fetch the ERP study with a 30-min recovery delay.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W2963991764\"}}",
+    "reasoning_content": "This one actually supports benefits. Need contrary evidence. Fetch W2963991764 (ERP study, 30-min recovery) and W2483062838.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1408,
+  "completion_tokens": 87,
+  "total_tokens": 1495,
+  "prompt_tokens_details": {
+   "cached_tokens": 1024
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 33
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.23
+}

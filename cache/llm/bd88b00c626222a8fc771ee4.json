@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201ae-e403-74a6-a0f8-7644c272965f",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795324568,
+ "model": "google/gemma-4-12B-it",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "```json\n{\"verdict\": \"not_supported\", \"passage\": 3, \"reason\": \"The passage contradicts the claim by stating that the optimal interstudy interval (ISI) increased as the retention interval increased.\"}\n```",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 326,
+  "completion_tokens": 49,
+  "total_tokens": 375,
+  "prompt_tokens_details": {
+   "cached_tokens": 16
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.23
+}

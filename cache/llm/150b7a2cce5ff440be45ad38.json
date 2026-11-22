@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201d6-e598-71f9-b0a6-ec63f5998f1d",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327190,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"I'll fetch the Frontiers study to see if it identifies additional mediating mechanisms such as motivation or self-efficacy.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W4361225460\"}}",
+    "reasoning_content": "Let me fetch one more source, the Frontiers psychology one, to see if it has mediation mechanisms.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1711,
+  "completion_tokens": 69,
+  "total_tokens": 1780,
+  "prompt_tokens_details": {
+   "cached_tokens": 1280
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 21
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.27
+}

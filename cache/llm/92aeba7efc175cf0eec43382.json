@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20237-1469-7ce7-a3ad-53253a3c5920",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795333493,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Search returned no results across multiple queries and no sources could be fetched, so no credible evidence can be cited.\", \"action\": \"finish\", \"args\": {\"findings\": []}}",
+    "reasoning_content": "No sources fetched, so no findings. Finish with empty list.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 746,
+  "completion_tokens": 57,
+  "total_tokens": 803,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 14
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.22
+}

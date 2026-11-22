@@ -1,0 +1,3403 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 6044,
+   "db_response_time_ms": 116,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (adolescents media multitasking attention) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (adolescents media multitasking attention) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "adolescents media multitasking attention",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:adolescents media multitasking attention,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2625836805",
+    "doi": "https://doi.org/10.1093/hcre.12111",
+    "title": "The Relationship Between Media Multitasking and Attention Problems in Adolescents: Results of Two Longitudinal Studies",
+    "display_name": "The Relationship Between Media Multitasking and Attention Problems in Adolescents: Results of Two Longitudinal Studies",
+    "publication_year": 2017,
+    "cited_by_count": 174,
+    "abstract_inverted_index": {
+     "The": [
+      0
+     ],
+     "increased": [
+      1
+     ],
+     "prevalence": [
+      2
+     ],
+     "of": [
+      3,
+      21,
+      101
+     ],
+     "media": [
+      4,
+      12,
+      25,
+      69,
+      83,
+      102
+     ],
+     "multitasking": [
+      5,
+      13,
+      26,
+      70,
+      84,
+      103
+     ],
+     "among": [
+      6,
+      110,
+      115
+     ],
+     "adolescents": [
+      7,
+      63,
+      112
+     ],
+     "has": [
+      8,
+      32
+     ],
+     "raised": [
+      9
+     ],
+     "concerns": [
+      10
+     ],
+     "that": [
+      11,
+      82
+     ],
+     "may": [
+      14
+     ],
+     "cause": [
+      15
+     ],
+     "attention": [
+      16,
+      28,
+      72,
+      86,
+      105
+     ],
+     "problems.": [
+      17,
+      73
+     ],
+     "Despite": [
+      18
+     ],
+     "cross-sectional": [
+      19
+     ],
+     "evidence": [
+      20,
+      94
+     ],
+     "the": [
+      22
+     ],
+     "relationship": [
+      23,
+      36
+     ],
+     "between": [
+      24,
+      91
+     ],
+     "and": [
+      27,
+      54,
+      71,
+      85
+     ],
+     "problems,": [
+      29
+     ],
+     "no": [
+      30
+     ],
+     "study": [
+      31
+     ],
+     "yet": [
+      33
+     ],
+     "investigated": [
+      34
+     ],
+     "this": [
+      35
+     ],
+     "longitudinally.": [
+      37
+     ],
+     "It": [
+      38
+     ],
+     "is": [
+      39
+     ],
+     "therefore": [
+      40
+     ],
+     "unclear": [
+      41
+     ],
+     "how": [
+      42
+     ],
+     "these": [
+      43
+     ],
+     "two": [
+      44
+     ],
+     "variables": [
+      45
+     ],
+     "are": [
+      46
+     ],
+     "related.": [
+      47
+     ],
+     "Two": [
+      48
+     ],
+     "3-wave": [
+      49
+     ],
+     "longitudinal": [
+      50
+     ],
+     "studies": [
+      51
+     ],
+     "with": [
+      52
+     ],
+     "3-": [
+      53
+     ],
+     "6-month": [
+      55
+     ],
+     "time": [
+      56
+     ],
+     "lags": [
+      57
+     ],
+     "were": [
+      58,
+      88
+     ],
+     "conducted.": [
+      59
+     ],
+     "In": [
+      60
+     ],
+     "total,": [
+      61
+     ],
+     "2,390": [
+      62
+     ],
+     "aged": [
+      64
+     ],
+     "11\u201316": [
+      65
+     ],
+     "provided": [
+      66
+     ],
+     "data": [
+      67
+     ],
+     "on": [
+      68,
+      104
+     ],
+     "Findings": [
+      74
+     ],
+     "from": [
+      75
+     ],
+     "random": [
+      76
+     ],
+     "intercept": [
+      77
+     ],
+     "autoregressive": [
+      78
+     ],
+     "cross-lagged": [
+      79
+     ],
+     "models": [
+      80
+     ],
+     "suggest": [
+      81
+     ],
+     "problems": [
+      87,
+      106
+     ],
+     "strongly": [
+      89
+     ],
+     "related": [
+      90
+     ],
+     "individuals.": [
+      92
+     ],
+     "Empirical": [
+      93
+     ],
+     "for": [
+      95
+     ],
+     "a": [
+      96
+     ],
+     "potential": [
+      97
+     ],
+     "detrimental": [
+      98
+     ],
+     "long-term": [
+      99
+     ],
+     "effect": [
+      100
+     ],
+     "was": [
+      107
+     ],
+     "only": [
+      108
+     ],
+     "found": [
+      109
+     ],
+     "early": [
+      111
+     ],
+     "but": [
+      113
+     ],
+     "not": [
+      114
+     ],
+     "middle": [
+      116
+     ],
+     "adolescents.": [
+      117
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5033471397",
+       "display_name": "Susanne E. Baumgartner",
+       "orcid": "https://orcid.org/0000-0001-6031-8836",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6031-8836"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I887064364",
+        "display_name": "University of Amsterdam",
+        "ror": "https://ror.org/04dkp9463",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I887064364"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Susanne E Baumgartner",
+      "raw_affiliation_strings": [
+       "Amsterdam School of Communication Research, University of Amsterdam,1018 WV Amsterdam, the Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Amsterdam School of Communication Research, University of Amsterdam,1018 WV Amsterdam, the Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I887064364"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5069453932",
+       "display_name": "Winneke A. van der Schuur",
+       "orcid": "https://orcid.org/0000-0003-3049-9298",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3049-9298"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I887064364",
+        "display_name": "University of Amsterdam",
+        "ror": "https://ror.org/04dkp9463",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I887064364"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Winneke A van der Schuur",
+      "raw_affiliation_strings": [
+       "Amsterdam School of Communication Research, University of Amsterdam,1018 WV Amsterdam, the Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Amsterdam School of Communication Research, University of Amsterdam,1018 WV Amsterdam, the Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I887064364"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5041231901",
+       "display_name": "Jeroen S. Lemmens",
+       "orcid": "https://orcid.org/0000-0001-6088-8249",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6088-8249"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I887064364",
+        "display_name": "University of Amsterdam",
+        "ror": "https://ror.org/04dkp9463",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I887064364"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jeroen S Lemmens",
+      "raw_affiliation_strings": [
+       "Amsterdam School of Communication Research, University of Amsterdam,1018 WV Amsterdam, the Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Amsterdam School of Communication Research, University of Amsterdam,1018 WV Amsterdam, the Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I887064364"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5084269079",
+       "display_name": "Fam te Poel",
+       "orcid": "https://orcid.org/0000-0001-9573-7467",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9573-7467"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I887064364",
+        "display_name": "University of Amsterdam",
+        "ror": "https://ror.org/04dkp9463",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I887064364"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Fam te Poel",
+      "raw_affiliation_strings": [
+       "Department of Communication Science, University of Amsterdam,1018 WV Amsterdam, the Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Communication Science, University of Amsterdam,1018 WV Amsterdam, the Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I887064364"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1093/hcre.12111",
+     "doi": "https://doi.org/10.1093/hcre.12111",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1093/hcre.12111",
+     "pdf_url": "https://academic.oup.com/hcr/article-pdf/44/1/3/24697731/hqw001.pdf",
+     "source": {
+      "id": "https://openalex.org/S195553305",
+      "display_name": "Human Communication Research",
+      "issn_l": "0360-3989",
+      "issn": [
+       "0360-3989",
+       "1468-2958"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "jufo-3",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Human Communication Research",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3157487421",
+    "doi": "https://doi.org/10.1111/sjop.12731",
+    "title": "The mediating role of attention control in the link between multitasking with social media and academic performances among adolescents",
+    "display_name": "The mediating role of attention control in the link between multitasking with social media and academic performances among adolescents",
+    "publication_year": 2021,
+    "cited_by_count": 77,
+    "abstract_inverted_index": {
+     "Prevalence": [
+      0
+     ],
+     "of": [
+      1,
+      28,
+      38,
+      46,
+      54,
+      60,
+      75,
+      120,
+      134,
+      146,
+      176,
+      190,
+      198
+     ],
+     "using": [
+      2,
+      105
+     ],
+     "social": [
+      3,
+      31,
+      39,
+      66,
+      129,
+      139,
+      164,
+      193
+     ],
+     "media": [
+      4,
+      40,
+      67,
+      130,
+      140,
+      165,
+      194
+     ],
+     "services": [
+      5
+     ],
+     "while": [
+      6
+     ],
+     "learning,": [
+      7
+     ],
+     "studying": [
+      8
+     ],
+     "and": [
+      9,
+      69,
+      131,
+      170,
+      205
+     ],
+     "doing": [
+      10
+     ],
+     "homework": [
+      11
+     ],
+     "is": [
+      12,
+      23,
+      34
+     ],
+     "increasing": [
+      13
+     ],
+     "rapidly": [
+      14
+     ],
+     "among": [
+      15
+     ],
+     "adolescents": [
+      16,
+      76,
+      199
+     ],
+     "in": [
+      17,
+      62,
+      72,
+      93,
+      109,
+      186,
+      200
+     ],
+     "the": [
+      18,
+      51,
+      63,
+      94,
+      123,
+      135,
+      177
+     ],
+     "digital": [
+      19
+     ],
+     "age.": [
+      20
+     ],
+     "Although": [
+      21
+     ],
+     "there": [
+      22
+     ],
+     "evidence": [
+      24
+     ],
+     "for": [
+      25,
+      183,
+      207
+     ],
+     "negative": [
+      26,
+      124,
+      188
+     ],
+     "consequences": [
+      27
+     ],
+     "multitasking": [
+      29,
+      41,
+      68,
+      127,
+      161,
+      191
+     ],
+     "with": [
+      30,
+      128,
+      138,
+      163,
+      192
+     ],
+     "media,": [
+      32
+     ],
+     "little": [
+      33
+     ],
+     "known": [
+      35
+     ],
+     "about": [
+      36
+     ],
+     "impact": [
+      37
+     ],
+     "from": [
+      42,
+      80
+     ],
+     "perspective": [
+      43
+     ],
+     "attention": [
+      44,
+      55,
+      118,
+      150,
+      168,
+      184
+     ],
+     "control": [
+      45,
+      56,
+      119,
+      151,
+      169,
+      185
+     ],
+     "self-regulation.": [
+      47
+     ],
+     "This": [
+      48
+     ],
+     "study": [
+      49,
+      98,
+      178
+     ],
+     "examined": [
+      50
+     ],
+     "mediating": [
+      52
+     ],
+     "role": [
+      53,
+      182
+     ],
+     "as": [
+      57
+     ],
+     "a": [
+      58,
+      73,
+      100,
+      142,
+      180
+     ],
+     "component": [
+      59
+     ],
+     "self-regulation": [
+      61,
+      121
+     ],
+     "link": [
+      64
+     ],
+     "between": [
+      65,
+      126
+     ],
+     "academic": [
+      70,
+      132,
+      147,
+      154,
+      172,
+      196
+     ],
+     "performances": [
+      71,
+      133,
+      197
+     ],
+     "sample": [
+      74
+     ],
+     "who": [
+      77
+     ],
+     "were": [
+      78
+     ],
+     "recruited": [
+      79
+     ],
+     "high": [
+      81,
+      201
+     ],
+     "school": [
+      82,
+      202
+     ],
+     "students": [
+      83
+     ],
+     "(N": [
+      84
+     ],
+     "=": [
+      85
+     ],
+     "637).": [
+      86
+     ],
+     "A": [
+      87
+     ],
+     "correlational": [
+      88
+     ],
+     "research": [
+      89
+     ],
+     "design": [
+      90
+     ],
+     "was": [
+      91,
+      103,
+      141
+     ],
+     "used": [
+      92
+     ],
+     "study.": [
+      95
+     ],
+     "To": [
+      96
+     ],
+     "examine": [
+      97
+     ],
+     "hypothesis,": [
+      99
+     ],
+     "mediation": [
+      101,
+      107
+     ],
+     "model": [
+      102
+     ],
+     "tested": [
+      104
+     ],
+     "simple": [
+      106
+     ],
+     "analysis": [
+      108
+     ],
+     "macro": [
+      110
+     ],
+     "PROCESS": [
+      111
+     ],
+     "(model": [
+      112
+     ],
+     "4).": [
+      113
+     ],
+     "Results": [
+      114
+     ],
+     "have": [
+      115
+     ],
+     "revealed": [
+      116
+     ],
+     "that": [
+      117,
+      158
+     ],
+     "mediated": [
+      122
+     ],
+     "relationship": [
+      125
+     ],
+     "students.": [
+      136
+     ],
+     "Multitasking": [
+      137
+     ],
+     "negatively": [
+      143
+     ],
+     "significant": [
+      144
+     ],
+     "predictor": [
+      145
+     ],
+     "performance,": [
+      148
+     ],
+     "whereas": [
+      149
+     ],
+     "positively": [
+      152
+     ],
+     "predicted": [
+      153
+     ],
+     "performance.": [
+      155
+     ],
+     "It": [
+      156
+     ],
+     "implies": [
+      157
+     ],
+     "more": [
+      159
+     ],
+     "frequent": [
+      160
+     ],
+     "behavior": [
+      162
+     ],
+     "had": [
+      166
+     ],
+     "lower": [
+      167
+     ],
+     "poorer": [
+      171
+     ],
+     "performances.": [
+      173
+     ],
+     "The": [
+      174
+     ],
+     "conclusions": [
+      175
+     ],
+     "suggest": [
+      179
+     ],
+     "critical": [
+      181
+     ],
+     "decreasing": [
+      187
+     ],
+     "effect": [
+      189
+     ],
+     "on": [
+      195
+     ],
+     "setting.": [
+      203
+     ],
+     "Implications": [
+      204
+     ],
+     "suggestions": [
+      206
+     ],
+     "future": [
+      208
+     ],
+     "studies": [
+      209
+     ],
+     "are": [
+      210
+     ],
+     "proposed.": [
+      211
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5032971273",
+       "display_name": "Mehmet Koko\u00e7",
+       "orcid": "https://orcid.org/0000-0002-1347-8033",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1347-8033"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4387152860",
+        "display_name": "Trabzon University",
+        "ror": "https://ror.org/04mmwq306",
+        "country_code": "TR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4387152860"
+        ]
+       }
+      ],
+      "countries": [
+       "TR"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Mehmet Koko\u00e7",
+      "raw_affiliation_strings": [
+       "Department of Management Information Systems, Trabzon University, School of Applied Sciences, Trabzon, Turkey"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-1347-8033",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Management Information Systems, Trabzon University, School of Applied Sciences, Trabzon, Turkey",
+        "institution_ids": [
+         "https://openalex.org/I4387152860"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1111/sjop.12731",
+     "doi": "https://doi.org/10.1111/sjop.12731",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1111/sjop.12731",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S34816297",
+      "display_name": "Scandinavian Journal of Psychology",
+      "issn_l": "0036-5564",
+      "issn": [
+       "0036-5564",
+       "1467-9450"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-d",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Scandinavian Journal of Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4309933523",
+    "doi": "https://doi.org/10.3389/fpsyg.2022.992450",
+    "title": "Attention to food cues following media multitasking is associated with cross-sectional BMI among adolescents",
+    "display_name": "Attention to food cues following media multitasking is associated with cross-sectional BMI among adolescents",
+    "publication_year": 2022,
+    "cited_by_count": 7,
+    "abstract_inverted_index": {
+     "Purpose:": [
+      0
+     ],
+     "To": [
+      1
+     ],
+     "measure": [
+      2,
+      75
+     ],
+     "attention": [
+      3,
+      13,
+      42,
+      53,
+      131,
+      149,
+      186,
+      192,
+      200,
+      222,
+      237
+     ],
+     "to": [
+      4,
+      18,
+      43,
+      74,
+      90,
+      108,
+      132,
+      152,
+      187,
+      201,
+      221,
+      223,
+      235,
+      238
+     ],
+     "food": [
+      5,
+      44,
+      91,
+      133,
+      188,
+      202,
+      224,
+      239
+     ],
+     "cues": [
+      6,
+      45,
+      92,
+      134,
+      189,
+      203,
+      225
+     ],
+     "following": [
+      7,
+      47,
+      137,
+      143,
+      168,
+      226
+     ],
+     "a": [
+      8,
+      11,
+      35,
+      50,
+      58,
+      138,
+      144,
+      153,
+      169,
+      227
+     ],
+     "multitask": [
+      9,
+      140
+     ],
+     "or": [
+      10,
+      57,
+      193
+     ],
+     "sustained": [
+      12,
+      52,
+      148
+     ],
+     "single": [
+      14,
+      51
+     ],
+     "task,": [
+      15,
+      54,
+      195
+     ],
+     "and": [
+      16,
+      26,
+      38,
+      104,
+      123,
+      141,
+      160,
+      185,
+      204
+     ],
+     "further,": [
+      17
+     ],
+     "examine": [
+      19
+     ],
+     "the": [
+      20,
+      69,
+      114,
+      191,
+      207,
+      232
+     ],
+     "associations": [
+      21,
+      182
+     ],
+     "with": [
+      22,
+      164,
+      177
+     ],
+     "current": [
+      23,
+      217
+     ],
+     "weight": [
+      24,
+      124
+     ],
+     "status": [
+      25
+     ],
+     "excess": [
+      27,
+      77
+     ],
+     "consumption.": [
+      28,
+      78
+     ],
+     "Methods:": [
+      29
+     ],
+     "Ninety-six": [
+      30
+     ],
+     "13-to": [
+      31
+     ],
+     "17-year-olds": [
+      32
+     ],
+     "were": [
+      33,
+      180
+     ],
+     "fed": [
+      34
+     ],
+     "standardized": [
+      36
+     ],
+     "meal": [
+      37
+     ],
+     "then": [
+      39,
+      64
+     ],
+     "had": [
+      40,
+      120
+     ],
+     "their": [
+      41,
+      76,
+      121
+     ],
+     "measured": [
+      46,
+      94,
+      167
+     ],
+     "completion": [
+      48
+     ],
+     "of": [
+      49,
+      71,
+      99,
+      209
+     ],
+     "media": [
+      55,
+      139
+     ],
+     "multitask,": [
+      56
+     ],
+     "passive": [
+      59
+     ],
+     "viewing": [
+      60
+     ],
+     "control": [
+      61,
+      194
+     ],
+     "task.": [
+      62
+     ],
+     "Participants": [
+      63,
+      118
+     ],
+     "completed": [
+      65,
+      80
+     ],
+     "an": [
+      66
+     ],
+     "eating": [
+      67,
+      205
+     ],
+     "in": [
+      68,
+      86,
+      206
+     ],
+     "absence": [
+      70,
+      208
+     ],
+     "hunger": [
+      72
+     ],
+     "paradigm": [
+      73
+     ],
+     "Adolescents": [
+      79
+     ],
+     "each": [
+      81
+     ],
+     "condition": [
+      82
+     ],
+     "on": [
+      83
+     ],
+     "separate": [
+      84
+     ],
+     "visits": [
+      85
+     ],
+     "randomized": [
+      87
+     ],
+     "order.": [
+      88
+     ],
+     "Attention": [
+      89
+     ],
+     "was": [
+      93,
+      135,
+      158,
+      174,
+      219
+     ],
+     "by": [
+      95
+     ],
+     "computing": [
+      96
+     ],
+     "eye-tracking": [
+      97
+     ],
+     "measures": [
+      98
+     ],
+     "attention,": [
+      100
+     ],
+     "first": [
+      101
+     ],
+     "fixation": [
+      102,
+      106,
+      156,
+      172
+     ],
+     "duration,": [
+      103
+     ],
+     "cumulative": [
+      105
+     ],
+     "duration": [
+      107,
+      157,
+      173
+     ],
+     "distractor": [
+      109
+     ],
+     "images": [
+      110
+     ],
+     "while": [
+      111
+     ],
+     "participants": [
+      112
+     ],
+     "played": [
+      113
+     ],
+     "video": [
+      115
+     ],
+     "game,": [
+      116
+     ],
+     "Tetris.": [
+      117
+     ],
+     "also": [
+      119
+     ],
+     "height": [
+      122
+     ],
+     "measured.": [
+      125
+     ],
+     "Results:": [
+      126
+     ],
+     "Although": [
+      127
+     ],
+     "not": [
+      128,
+      175
+     ],
+     "statistically": [
+      129,
+      161
+     ],
+     "significant,": [
+      130
+     ],
+     "greatest": [
+      136
+     ],
+     "weakest": [
+      142
+     ],
+     "task": [
+      145
+     ],
+     "that": [
+      146,
+      216
+     ],
+     "engaged": [
+      147
+     ],
+     "when": [
+      150,
+      166
+     ],
+     "compared": [
+      151
+     ],
+     "control.": [
+      154
+     ],
+     "First": [
+      155
+     ],
+     "positively": [
+      159
+     ],
+     "significantly": [
+      162
+     ],
+     "associated": [
+      163,
+      176
+     ],
+     "BMI-Z": [
+      165,
+      184
+     ],
+     "multitask.": [
+      170,
+      228
+     ],
+     "Cumulative": [
+      171
+     ],
+     "BMI-Z.": [
+      178
+     ],
+     "There": [
+      179
+     ],
+     "no": [
+      181
+     ],
+     "between": [
+      183,
+      199
+     ],
+     "after": [
+      190
+     ],
+     "nor": [
+      196
+     ],
+     "any": [
+      197
+     ],
+     "association": [
+      198
+     ],
+     "hunger.": [
+      210
+     ],
+     "Conclusion:": [
+      211
+     ],
+     "Among": [
+      212
+     ],
+     "adolescents,": [
+      213
+     ],
+     "we": [
+      214
+     ],
+     "found": [
+      215
+     ],
+     "adiposity": [
+      218
+     ],
+     "related": [
+      220
+     ],
+     "Multitasking": [
+      229
+     ],
+     "may": [
+      230
+     ],
+     "perturb": [
+      231
+     ],
+     "cognitive": [
+      233
+     ],
+     "system": [
+      234
+     ],
+     "increase": [
+      236
+     ],
+     "cues.": [
+      240
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5066486813",
+       "display_name": "John Brand",
+       "orcid": "https://orcid.org/0000-0002-5544-4157",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5544-4157"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I107672454",
+        "display_name": "Dartmouth College",
+        "ror": "https://ror.org/049s0rh22",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I107672454"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4390039337",
+        "display_name": "Dartmouth Health",
+        "ror": "https://ror.org/01pa9ed26",
+        "country_code": "US",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I107672454",
+         "https://openalex.org/I4390039337"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4390039367",
+        "display_name": "Dartmouth Cancer Center",
+        "ror": "https://ror.org/044b05b34",
+        "country_code": "US",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4390039367"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "John Brand",
+      "raw_affiliation_strings": [
+       "Dartmouth Cancer Center, Geisel School of Medicine at Dartmouth College, Hanover, NH, United States",
+       "Department of Epidemiology, Geisel School of Medicine at Dartmouth College, Hanover, NH, United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Dartmouth Cancer Center, Geisel School of Medicine at Dartmouth College, Hanover, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I107672454",
+         "https://openalex.org/I4390039337",
+         "https://openalex.org/I4390039367"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Epidemiology, Geisel School of Medicine at Dartmouth College, Hanover, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I107672454"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5063892338",
+       "display_name": "Delaina D. Carlson",
+       "orcid": "https://orcid.org/0009-0000-1928-6967",
+       "observed_orcids": [
+        "https://orcid.org/0009-0000-1928-6967"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I107672454",
+        "display_name": "Dartmouth College",
+        "ror": "https://ror.org/049s0rh22",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I107672454"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Delaina Carlson",
+      "raw_affiliation_strings": [
+       "Department of Epidemiology, Geisel School of Medicine at Dartmouth College, Hanover, NH, United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Epidemiology, Geisel School of Medicine at Dartmouth College, Hanover, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I107672454"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5026436837",
+       "display_name": "Grace A. Ballarino",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I107672454",
+        "display_name": "Dartmouth College",
+        "ror": "https://ror.org/049s0rh22",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I107672454"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Grace Ballarino",
+      "raw_affiliation_strings": [
+       "Department of Epidemiology, Geisel School of Medicine at Dartmouth College, Hanover, NH, United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Epidemiology, Geisel School of Medicine at Dartmouth College, Hanover, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I107672454"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5004024125",
+       "display_name": "Reina Kato Lansigan",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I107672454",
+        "display_name": "Dartmouth College",
+        "ror": "https://ror.org/049s0rh22",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I107672454"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Reina Kato Lansigan",
+      "raw_affiliation_strings": [
+       "Department of Epidemiology, Geisel School of Medicine at Dartmouth College, Hanover, NH, United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Epidemiology, Geisel School of Medicine at Dartmouth College, Hanover, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I107672454"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5069838055",
+       "display_name": "Jennifer A. Emond",
+       "orcid": "https://orcid.org/0000-0001-8684-7330",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8684-7330"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I107672454",
+        "display_name": "Dartmouth College",
+        "ror": "https://ror.org/049s0rh22",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I107672454"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jennifer Emond",
+      "raw_affiliation_strings": [
+       "Department of Biomedical Data Sciences, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Biomedical Data Sciences, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I107672454"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5057155042",
+       "display_name": "Diane Gilbert\u2010Diamond",
+       "orcid": "https://orcid.org/0000-0003-3560-7171",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3560-7171"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I107672454",
+        "display_name": "Dartmouth College",
+        "ror": "https://ror.org/049s0rh22",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I107672454"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I1289422878",
+        "display_name": "Dartmouth\u2013Hitchcock Medical Center",
+        "ror": "https://ror.org/00d1dhh09",
+        "country_code": "US",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I107672454",
+         "https://openalex.org/I1289422878",
+         "https://openalex.org/I4390039337"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4390039337",
+        "display_name": "Dartmouth Health",
+        "ror": "https://ror.org/01pa9ed26",
+        "country_code": "US",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I107672454",
+         "https://openalex.org/I4390039337"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4390039367",
+        "display_name": "Dartmouth Cancer Center",
+        "ror": "https://ror.org/044b05b34",
+        "country_code": "US",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4390039367"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Diane Gilbert-Diamond",
+      "raw_affiliation_strings": [
+       "Dartmouth Cancer Center, Geisel School of Medicine at Dartmouth College, Hanover, NH, United States",
+       "Department of Epidemiology, Geisel School of Medicine at Dartmouth College, Hanover, NH, United States",
+       "Department of Medicine Weight and Wellness Center, Dartmouth Health, Lebanon, NH, United States",
+       "Department of Pediatrics, Geisel School of Medicine at Dartmouth College, Hanover, NH, United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Dartmouth Cancer Center, Geisel School of Medicine at Dartmouth College, Hanover, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I107672454",
+         "https://openalex.org/I4390039337",
+         "https://openalex.org/I4390039367"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Epidemiology, Geisel School of Medicine at Dartmouth College, Hanover, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I107672454"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Medicine Weight and Wellness Center, Dartmouth Health, Lebanon, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I1289422878",
+         "https://openalex.org/I4390039337"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Pediatrics, Geisel School of Medicine at Dartmouth College, Hanover, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I107672454"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2022.992450",
+     "doi": "https://doi.org/10.3389/fpsyg.2022.992450",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2022.992450",
+     "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2022.992450/pdf",
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4210486006",
+    "doi": "https://doi.org/10.3389/fpsyg.2021.804931",
+    "title": "Completing a Sustained Attention Task Is Associated With Decreased Distractibility and Increased Task Performance Among Adolescents With Low Levels of Media Multitasking",
+    "display_name": "Completing a Sustained Attention Task Is Associated With Decreased Distractibility and Increased Task Performance Among Adolescents With Low Levels of Media Multitasking",
+    "publication_year": 2022,
+    "cited_by_count": 15,
+    "abstract_inverted_index": {
+     "Objective": [
+      0
+     ],
+     "To": [
+      1
+     ],
+     "assess": [
+      2
+     ],
+     "distracted": [
+      3
+     ],
+     "attention": [
+      4,
+      16,
+      49,
+      75,
+      88,
+      102,
+      135,
+      150,
+      183,
+      268
+     ],
+     "and": [
+      5,
+      17,
+      138,
+      209,
+      250,
+      272
+     ],
+     "performance": [
+      6,
+      211,
+      251,
+      275
+     ],
+     "on": [
+      7,
+      68
+     ],
+     "a": [
+      8,
+      14,
+      43,
+      60,
+      145,
+      158,
+      179,
+      237,
+      266
+     ],
+     "computer": [
+      9
+     ],
+     "task": [
+      10,
+      21,
+      81,
+      93,
+      128,
+      203,
+      269,
+      274
+     ],
+     "following": [
+      11,
+      40
+     ],
+     "completion": [
+      12,
+      41
+     ],
+     "of": [
+      13,
+      42,
+      53,
+      85,
+      101,
+      263,
+      282
+     ],
+     "sustained": [
+      15,
+      48,
+      134,
+      149,
+      182,
+      267
+     ],
+     "acute": [
+      18,
+      56,
+      244
+     ],
+     "media": [
+      19,
+      28,
+      57,
+      123,
+      141,
+      154,
+      174,
+      228,
+      245,
+      257,
+      284
+     ],
+     "multitasking": [
+      20,
+      229
+     ],
+     "among": [
+      22,
+      136,
+      151,
+      223,
+      255,
+      276
+     ],
+     "adolescents": [
+      23
+     ],
+     "with": [
+      24,
+      225
+     ],
+     "varying": [
+      25
+     ],
+     "self-reported": [
+      26,
+      120
+     ],
+     "usual": [
+      27,
+      140,
+      153,
+      173,
+      227,
+      283
+     ],
+     "multitasking.": [
+      29,
+      124,
+      285
+     ],
+     "Methods": [
+      30
+     ],
+     "Ninety-six": [
+      31
+     ],
+     "13-": [
+      32
+     ],
+     "to": [
+      33,
+      46,
+      109,
+      216
+     ],
+     "17-year-olds": [
+      34
+     ],
+     "played": [
+      35
+     ],
+     "the": [
+      36,
+      51,
+      66,
+      79,
+      91,
+      115,
+      201,
+      217,
+      243
+     ],
+     "video": [
+      37
+     ],
+     "game": [
+      38
+     ],
+     "Tetris": [
+      39,
+      92,
+      116,
+      214,
+      254
+     ],
+     "Go/No-go": [
+      44,
+      80,
+      127,
+      202
+     ],
+     "paradigm": [
+      45
+     ],
+     "measure": [
+      47
+     ],
+     "in": [
+      50,
+      71,
+      133,
+      148,
+      162,
+      181
+     ],
+     "presence": [
+      52
+     ],
+     "distractors,": [
+      54
+     ],
+     "an": [
+      55,
+      192
+     ],
+     "multitasking,": [
+      58
+     ],
+     "or": [
+      59
+     ],
+     "passive": [
+      61,
+      218
+     ],
+     "viewing": [
+      62,
+      219
+     ],
+     "condition.": [
+      63
+     ],
+     "Adolescents": [
+      64
+     ],
+     "completed": [
+      65
+     ],
+     "conditions": [
+      67
+     ],
+     "separate": [
+      69
+     ],
+     "visits": [
+      70
+     ],
+     "randomized": [
+      72
+     ],
+     "order.": [
+      73
+     ],
+     "Sustained": [
+      74
+     ],
+     "was": [
+      76,
+      94,
+      144,
+      177,
+      236
+     ],
+     "measured": [
+      77,
+      95
+     ],
+     "within": [
+      78
+     ],
+     "by": [
+      82,
+      96,
+      157,
+      191
+     ],
+     "measuring": [
+      83
+     ],
+     "errors": [
+      84,
+      164
+     ],
+     "omission.": [
+      86
+     ],
+     "Distracted": [
+      87
+     ],
+     "while": [
+      89,
+      212,
+      252
+     ],
+     "playing": [
+      90,
+      213,
+      253
+     ],
+     "computing": [
+      97
+     ],
+     "eye": [
+      98
+     ],
+     "tracking": [
+      99
+     ],
+     "measures": [
+      100
+     ],
+     "(first": [
+      103
+     ],
+     "fixation": [
+      104,
+      107
+     ],
+     "duration,": [
+      105
+     ],
+     "cumulative": [
+      106
+     ],
+     "duration)": [
+      108
+     ],
+     "irrelevant": [
+      110
+     ],
+     "distractor": [
+      111
+     ],
+     "images": [
+      112
+     ],
+     "that": [
+      113,
+      241
+     ],
+     "bordered": [
+      114
+     ],
+     "game.": [
+      117
+     ],
+     "Participants": [
+      118
+     ],
+     "also": [
+      119,
+      204
+     ],
+     "their": [
+      121
+     ],
+     "daily": [
+      122
+     ],
+     "Results": [
+      125
+     ],
+     "The": [
+      126
+     ],
+     "revealed": [
+      129
+     ],
+     "important": [
+      130
+     ],
+     "qualitative": [
+      131
+     ],
+     "differences": [
+      132
+     ],
+     "low": [
+      137,
+      152,
+      226,
+      280
+     ],
+     "high": [
+      139,
+      172,
+      256
+     ],
+     "multitaskers.": [
+      142,
+      258
+     ],
+     "There": [
+      143,
+      235
+     ],
+     "uniform": [
+      146
+     ],
+     "improvement": [
+      147
+     ],
+     "multitaskers,": [
+      155,
+      175
+     ],
+     "demonstrated": [
+      156
+     ],
+     "consistent": [
+      159
+     ],
+     "linear": [
+      160
+     ],
+     "decrease": [
+      161,
+      180
+     ],
+     "omission": [
+      163
+     ],
+     "(\u03b2": [
+      165,
+      184,
+      194
+     ],
+     "=": [
+      166,
+      185,
+      188,
+      195
+     ],
+     "\u22120.01;": [
+      167,
+      186
+     ],
+     "P": [
+      168,
+      187,
+      197,
+      231
+     ],
+     "<": [
+      169,
+      198
+     ],
+     "0.05).": [
+      170,
+      234
+     ],
+     "Among": [
+      171
+     ],
+     "there": [
+      176
+     ],
+     "initially": [
+      178
+     ],
+     "0.05)": [
+      189
+     ],
+     "followed": [
+      190
+     ],
+     "increase": [
+      193
+     ],
+     "0.16;": [
+      196
+     ],
+     "0.001).": [
+      199
+     ],
+     "Completing": [
+      200
+     ],
+     "statistically": [
+      205
+     ],
+     "significantly": [
+      206
+     ],
+     "reduced": [
+      207
+     ],
+     "distractibility": [
+      208,
+      249,
+      271
+     ],
+     "increased": [
+      210,
+      247
+     ],
+     "compared": [
+      215
+     ],
+     "condition,": [
+      220
+     ],
+     "but": [
+      221
+     ],
+     "only": [
+      222
+     ],
+     "those": [
+      224,
+      277
+     ],
+     "(all": [
+      230
+     ],
+     "s": [
+      232
+     ],
+     "\u2264": [
+      233
+     ],
+     "non-statistically": [
+      238
+     ],
+     "significant": [
+      239
+     ],
+     "trend": [
+      240
+     ],
+     "completing": [
+      242
+     ],
+     "multitask": [
+      246
+     ],
+     "subsequent": [
+      248
+     ],
+     "Conclusion": [
+      259
+     ],
+     "In": [
+      260
+     ],
+     "this": [
+      261
+     ],
+     "sample": [
+      262
+     ],
+     "adolescents,": [
+      264
+     ],
+     "practicing": [
+      265
+     ],
+     "reduces": [
+      270
+     ],
+     "improves": [
+      273
+     ],
+     "who": [
+      278
+     ],
+     "have": [
+      279
+     ],
+     "levels": [
+      281
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5066486813",
+       "display_name": "John Brand",
+       "orcid": "https://orcid.org/0000-0002-5544-4157",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5544-4157"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I107672454",
+        "display_name": "Dartmouth College",
+        "ror": "https://ror.org/049s0rh22",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I107672454"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "John Brand",
+      "raw_affiliation_strings": [
+       "Department of Epidemiology, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States",
+       "Norris Cotton Cancer Center, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Epidemiology, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I107672454"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Norris Cotton Cancer Center, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I107672454"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5004024125",
+       "display_name": "Reina Kato Lansigan",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I107672454",
+        "display_name": "Dartmouth College",
+        "ror": "https://ror.org/049s0rh22",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I107672454"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Reina Kato Lansigan",
+      "raw_affiliation_strings": [
+       "Department of Epidemiology, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States",
+       "Norris Cotton Cancer Center, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Epidemiology, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I107672454"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Norris Cotton Cancer Center, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I107672454"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5053044860",
+       "display_name": "Natalie Thomas",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I107672454",
+        "display_name": "Dartmouth College",
+        "ror": "https://ror.org/049s0rh22",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I107672454"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Natalie Thomas",
+      "raw_affiliation_strings": [
+       "Department of Epidemiology, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States",
+       "Norris Cotton Cancer Center, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Epidemiology, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I107672454"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Norris Cotton Cancer Center, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I107672454"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5069838055",
+       "display_name": "Jennifer A. Emond",
+       "orcid": "https://orcid.org/0000-0001-8684-7330",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8684-7330"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I107672454",
+        "display_name": "Dartmouth College",
+        "ror": "https://ror.org/049s0rh22",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I107672454"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jennifer Emond",
+      "raw_affiliation_strings": [
+       "Department of Biomedical Data Sciences, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Biomedical Data Sciences, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I107672454"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5057155042",
+       "display_name": "Diane Gilbert\u2010Diamond",
+       "orcid": "https://orcid.org/0000-0003-3560-7171",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3560-7171"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I107672454",
+        "display_name": "Dartmouth College",
+        "ror": "https://ror.org/049s0rh22",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I107672454"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Diane Gilbert-Diamond",
+      "raw_affiliation_strings": [
+       "Department of Epidemiology, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States",
+       "Department of Medicine, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States",
+       "Department of Pediatrics, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States",
+       "Norris Cotton Cancer Center, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Epidemiology, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I107672454"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Medicine, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I107672454"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Pediatrics, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I107672454"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Norris Cotton Cancer Center, Geisel School of Medicine, Dartmouth College, Hanover, NH, United States",
+        "institution_ids": [
+         "https://openalex.org/I107672454"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2021.804931",
+     "doi": "https://doi.org/10.3389/fpsyg.2021.804931",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2021.804931",
+     "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2021.804931/pdf",
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4413170939",
+    "doi": "https://doi.org/10.21608/ejes.2025.446743",
+    "title": "Digital Media Multitasking and its Relationship to Cognitive Representation Efficiency and Attentional Control in Adolescents with Low and High Digital Resilience.",
+    "display_name": "Digital Media Multitasking and its Relationship to Cognitive Representation Efficiency and Attentional Control in Adolescents with Low and High Digital Resilience.",
+    "publication_year": 2025,
+    "cited_by_count": 4,
+    "abstract_inverted_index": {
+     "This": [
+      0
+     ],
+     "research": [
+      1
+     ],
+     "examined": [
+      2
+     ],
+     "the": [
+      3,
+      144,
+      150,
+      153,
+      196
+     ],
+     "relationship": [
+      4,
+      91
+     ],
+     "between": [
+      5,
+      92,
+      137,
+      189
+     ],
+     "digital": [
+      6,
+      21,
+      36,
+      46,
+      93,
+      111,
+      122,
+      129,
+      146,
+      174,
+      181,
+      198,
+      210
+     ],
+     "media": [
+      7,
+      47,
+      94,
+      112
+     ],
+     "multitasking,": [
+      8,
+      48
+     ],
+     "cognitive": [
+      9,
+      49,
+      98,
+      160
+     ],
+     "representation": [
+      10,
+      50,
+      99,
+      161
+     ],
+     "efficiency,": [
+      11,
+      51
+     ],
+     "and": [
+      12,
+      19,
+      42,
+      52,
+      67,
+      79,
+      82,
+      96,
+      101,
+      119,
+      139,
+      163,
+      171,
+      191,
+      209
+     ],
+     "attentional": [
+      13,
+      53,
+      102,
+      164
+     ],
+     "control": [
+      14,
+      165
+     ],
+     "among": [
+      15
+     ],
+     "adolescents": [
+      16,
+      58
+     ],
+     "with": [
+      17,
+      127,
+      179
+     ],
+     "high": [
+      18,
+      180,
+      197
+     ],
+     "low": [
+      20,
+      128,
+      145
+     ],
+     "resilience.": [
+      22,
+      130,
+      182
+     ],
+     "It": [
+      23
+     ],
+     "also": [
+      24,
+      105
+     ],
+     "sought": [
+      25
+     ],
+     "to": [
+      26
+     ],
+     "identify": [
+      27
+     ],
+     "significant": [
+      28,
+      108,
+      157
+     ],
+     "differences": [
+      29,
+      109,
+      158
+     ],
+     "based": [
+      30,
+      114,
+      120,
+      166,
+      172
+     ],
+     "on": [
+      31,
+      115,
+      121,
+      167,
+      173,
+      202
+     ],
+     "gender": [
+      32,
+      138,
+      190
+     ],
+     "(male": [
+      33
+     ],
+     "-": [
+      34,
+      40
+     ],
+     "female),": [
+      35
+     ],
+     "resilience": [
+      37,
+      123,
+      147,
+      175,
+      199,
+      211
+     ],
+     "level": [
+      38
+     ],
+     "(low": [
+      39
+     ],
+     "high),": [
+      41
+     ],
+     "their": [
+      43
+     ],
+     "interaction": [
+      44,
+      135,
+      185
+     ],
+     "in": [
+      45,
+      70,
+      110,
+      143,
+      159,
+      195
+     ],
+     "control.": [
+      54,
+      103
+     ],
+     "Participants": [
+      55
+     ],
+     "included": [
+      56
+     ],
+     "120": [
+      57
+     ],
+     "(55": [
+      59
+     ],
+     "males,": [
+      60,
+      118
+     ],
+     "65": [
+      61
+     ],
+     "females)": [
+      62
+     ],
+     "recruited": [
+      63
+     ],
+     "from": [
+      64
+     ],
+     "selected": [
+      65
+     ],
+     "preparatory": [
+      66
+     ],
+     "secondary": [
+      68
+     ],
+     "schools": [
+      69
+     ],
+     "Kafrelsheikh": [
+      71
+     ],
+     "City.": [
+      72
+     ],
+     "Data": [
+      73
+     ],
+     "were": [
+      74
+     ],
+     "analyzed": [
+      75
+     ],
+     "using": [
+      76
+     ],
+     "appropriate": [
+      77
+     ],
+     "scales": [
+      78
+     ],
+     "descriptive,": [
+      80
+     ],
+     "correlational,": [
+      81
+     ],
+     "comparative": [
+      83
+     ],
+     "methods": [
+      84
+     ],
+     "through": [
+      85
+     ],
+     "SPSS.": [
+      86
+     ],
+     "Results": [
+      87
+     ],
+     "revealed": [
+      88
+     ],
+     "a": [
+      89
+     ],
+     "negative": [
+      90
+     ],
+     "multitasking": [
+      95,
+      113
+     ],
+     "both": [
+      97
+     ],
+     "efficiency": [
+      100,
+      162
+     ],
+     "They": [
+      104
+     ],
+     "indicated": [
+      106
+     ],
+     "statistically": [
+      107,
+      156
+     ],
+     "gender,": [
+      116,
+      168
+     ],
+     "favoring": [
+      117,
+      125,
+      141,
+      169,
+      177,
+      193
+     ],
+     "level,": [
+      124,
+      176
+     ],
+     "those": [
+      126,
+      178
+     ],
+     "Additionally,": [
+      131
+     ],
+     "there": [
+      132
+     ],
+     "was": [
+      133,
+      187
+     ],
+     "an": [
+      134,
+      184
+     ],
+     "effect": [
+      136,
+      186
+     ],
+     "group,": [
+      140,
+      192
+     ],
+     "males": [
+      142
+     ],
+     "group.": [
+      148,
+      200
+     ],
+     "On": [
+      149
+     ],
+     "other": [
+      151
+     ],
+     "hand,": [
+      152
+     ],
+     "results": [
+      154
+     ],
+     "showed": [
+      155
+     ],
+     "females,": [
+      170
+     ],
+     "Moreover,": [
+      183
+     ],
+     "observed": [
+      188
+     ],
+     "females": [
+      194
+     ],
+     "Based": [
+      201
+     ],
+     "these": [
+      203
+     ],
+     "findings,": [
+      204
+     ],
+     "recommendations": [
+      205
+     ],
+     "for": [
+      206
+     ],
+     "adolescent": [
+      207
+     ],
+     "education": [
+      208
+     ],
+     "development": [
+      212
+     ],
+     "are": [
+      213
+     ],
+     "discussed.": [
+      214
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5052363593",
+       "display_name": "Amal Mohamed Zayed",
+       "orcid": "https://orcid.org/0000-0002-8355-3297",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8355-3297"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I130309236",
+        "display_name": "Kafrelsheikh University",
+        "ror": "https://ror.org/04a97mm30",
+        "country_code": "EG",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I130309236"
+        ]
+       }
+      ],
+      "countries": [
+       "EG"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Amal Mohamed Zayed",
+      "raw_affiliation_strings": [
+       "Assistant Professor of Educational Psychology, College of Education, Kafrelsheikh University, Egypt"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Assistant Professor of Educational Psychology, College of Education, Kafrelsheikh University, Egypt",
+        "institution_ids": [
+         "https://openalex.org/I130309236"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.21608/ejes.2025.446743",
+     "doi": "https://doi.org/10.21608/ejes.2025.446743",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.21608/ejes.2025.446743",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4210224882",
+      "display_name": "Egyptian Journal of Educational Sciences /Egyptian Journal of Educational Sciences",
+      "issn_l": "2785-9924",
+      "issn": [
+       "2785-9924",
+       "2785-9932"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Egyptian Journal of Educational Sciences",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a2020e-7c36-70ee-a1ea-c4ce673b5514",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330833,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"not_supported\", \"passage\": 1, \"reason\": \"The source discusses cognitive control and task-switching performance, not academic grades in college students.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 281,
+  "completion_tokens": 40,
+  "total_tokens": 321,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.21
+}

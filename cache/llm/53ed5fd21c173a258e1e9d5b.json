@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201f6-ae77-774f-95f0-747ddf28f1ce",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795329273,
+ "model": "google/gemma-4-12B-it",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "```json\n{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"The passage explicitly states that heavy media multitaskers performed worse on a test of task-switching ability compared to the results of the study's comparisons.\"}\n```",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 320,
+  "completion_tokens": 54,
+  "total_tokens": 374,
+  "prompt_tokens_details": {
+   "cached_tokens": 16
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.21
+}

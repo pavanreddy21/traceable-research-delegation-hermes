@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201eb-5d39-737b-b8cc-44178f751fc7",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795328531,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Fetch the higher-education-setting study and the ERP study to check for null or limited effects.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W2790298500\"}}",
+    "reasoning_content": "Let me fetch a couple of these sources, particularly W2790298500 (higher education setting, long-term memory less supported) and W2963991764 (30-min recovery, shifting).",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1043,
+  "completion_tokens": 86,
+  "total_tokens": 1129,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 40
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.25
+}

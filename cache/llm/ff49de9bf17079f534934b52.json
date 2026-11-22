@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201ec-7699-73e7-a2de-b0462c0981e9",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795328603,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"These results don't directly address persistence after a delay, so I will search with terms about the time course of post-exercise cognitive benefits.\", \"action\": \"search_papers\", \"args\": {\"query\": \"time course of cognitive benefits after acute exercise persists minutes post-exercise\"}}",
+    "reasoning_content": "These results aren't great. Let me search more specifically for \"delayed\" or \"persisting\" effects, e.g., \"exercise cognitive enhancement lasts minutes after\".",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1951,
+  "completion_tokens": 98,
+  "total_tokens": 2049,
+  "prompt_tokens_details": {
+   "cached_tokens": 1280
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 35
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.28
+}

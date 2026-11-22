@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20207-b5da-7756-9cda-f2609ccfa681",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330389,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"not_supported\", \"passage\": 1, \"reason\": \"The passages indicate recent work emphasizes slow-wave sleep for memory consolidation, not that REM sleep is the main stage.\"}",
+    "reasoning_content": "We need answer JSON only. Need evaluate claim: \"The review concludes that REM sleep rather than slow-wave sleep is the main stage for memory consolidation.\" Source passages. Passage 1 says older research concentrated on REM, recent work revealed importance of SWS for memory consolidation. Passage 3 says consolidation originates from reactivation during SWS. This contradicts claim that REM rather than SWS main. So not_supported. Need passage number? Could cite [1] or [3]. Reason one sentence. JSON only. Ensure valid JSON.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 345,
+  "completion_tokens": 152,
+  "total_tokens": 497,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 108
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.21
+}

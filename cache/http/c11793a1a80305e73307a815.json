@@ -1,0 +1,3546 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 1012,
+   "db_response_time_ms": 172,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (delayed review handwritten typed lecture notes transfer test) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (delayed review handwritten typed lecture notes transfer test) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "delayed review handwritten typed lecture notes transfer test",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:delayed review handwritten typed lecture notes transfer test,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4417470555",
+    "doi": "https://doi.org/10.1109/tpami.2025.3646002",
+    "title": "Handwritten Text Recognition: A Survey",
+    "display_name": "Handwritten Text Recognition: A Survey",
+    "publication_year": 2025,
+    "cited_by_count": 86,
+    "abstract_inverted_index": {
+     "Handwritten": [
+      0
+     ],
+     "Text": [
+      1
+     ],
+     "Recognition": [
+      2
+     ],
+     "(HTR)": [
+      3
+     ],
+     "has": [
+      4,
+      78
+     ],
+     "become": [
+      5
+     ],
+     "an": [
+      6
+     ],
+     "essential": [
+      7
+     ],
+     "field": [
+      8,
+      77
+     ],
+     "within": [
+      9
+     ],
+     "pattern": [
+      10
+     ],
+     "recognition": [
+      11,
+      46
+     ],
+     "and": [
+      12,
+      25,
+      113,
+      116,
+      122,
+      143,
+      159,
+      168
+     ],
+     "machine": [
+      13
+     ],
+     "learning,": [
+      14
+     ],
+     "with": [
+      15,
+      81,
+      170
+     ],
+     "applications": [
+      16
+     ],
+     "spanning": [
+      17
+     ],
+     "historical": [
+      18
+     ],
+     "document": [
+      19
+     ],
+     "preservation": [
+      20
+     ],
+     "to": [
+      21,
+      43,
+      63,
+      91,
+      109,
+      165
+     ],
+     "modern": [
+      22
+     ],
+     "data": [
+      23
+     ],
+     "entry": [
+      24
+     ],
+     "accessibility": [
+      26
+     ],
+     "solutions.": [
+      27
+     ],
+     "The": [
+      28,
+      73
+     ],
+     "complexity": [
+      29
+     ],
+     "of": [
+      30,
+      37,
+      53,
+      75,
+      85,
+      105,
+      146
+     ],
+     "HTR": [
+      31,
+      54
+     ],
+     "lies": [
+      32
+     ],
+     "in": [
+      33,
+      136,
+      140,
+      150
+     ],
+     "the": [
+      34,
+      51,
+      76,
+      141,
+      147,
+      151,
+      175
+     ],
+     "high": [
+      35
+     ],
+     "variability": [
+      36
+     ],
+     "handwriting,": [
+      38
+     ],
+     "which": [
+      39,
+      68
+     ],
+     "makes": [
+      40
+     ],
+     "it": [
+      41
+     ],
+     "challenging": [
+      42
+     ],
+     "develop": [
+      44
+     ],
+     "robust": [
+      45
+     ],
+     "systems.": [
+      47
+     ],
+     "This": [
+      48
+     ],
+     "survey": [
+      49
+     ],
+     "examines": [
+      50,
+      131
+     ],
+     "evolution": [
+      52
+     ],
+     "models,": [
+      55,
+      67
+     ],
+     "tracing": [
+      56
+     ],
+     "their": [
+      57
+     ],
+     "progression": [
+      58
+     ],
+     "from": [
+      59
+     ],
+     "early": [
+      60
+     ],
+     "heuristic-based": [
+      61
+     ],
+     "approaches": [
+      62
+     ],
+     "contemporary": [
+      64
+     ],
+     "state-of-the-art": [
+      65
+     ],
+     "neural": [
+      66
+     ],
+     "leverage": [
+      69
+     ],
+     "deep": [
+      70
+     ],
+     "learning": [
+      71
+     ],
+     "techniques.": [
+      72
+     ],
+     "scope": [
+      74
+     ],
+     "also": [
+      79
+     ],
+     "expanded,": [
+      80
+     ],
+     "models": [
+      82
+     ],
+     "initially": [
+      83
+     ],
+     "capable": [
+      84
+     ],
+     "recognizing": [
+      86
+     ],
+     "only": [
+      87
+     ],
+     "word-level": [
+      88
+     ],
+     "content": [
+      89
+     ],
+     "progressing": [
+      90
+     ],
+     "recent": [
+      92,
+      134
+     ],
+     "end-to-end": [
+      93
+     ],
+     "document-level": [
+      94,
+      123
+     ],
+     "approaches.": [
+      95
+     ],
+     "Our": [
+      96
+     ],
+     "paper": [
+      97
+     ],
+     "categorizes": [
+      98
+     ],
+     "existing": [
+      99
+     ],
+     "work": [
+      100
+     ],
+     "into": [
+      101
+     ],
+     "two": [
+      102
+     ],
+     "primary": [
+      103
+     ],
+     "levels": [
+      104
+     ],
+     "recognition:": [
+      106
+     ],
+     "(1)": [
+      107
+     ],
+     "up": [
+      108
+     ],
+     "line-level,": [
+      110,
+      119
+     ],
+     "encompassing": [
+      111
+     ],
+     "word": [
+      112
+     ],
+     "line": [
+      114
+     ],
+     "recognition,": [
+      115
+     ],
+     "(2)": [
+      117
+     ],
+     "beyond": [
+      118
+     ],
+     "addressing": [
+      120
+     ],
+     "paragraph-": [
+      121
+     ],
+     "challenges.": [
+      124
+     ],
+     "We": [
+      125
+     ],
+     "provide": [
+      126
+     ],
+     "a": [
+      127,
+      144,
+      171
+     ],
+     "unified": [
+      128
+     ],
+     "framework": [
+      129
+     ],
+     "that": [
+      130
+     ],
+     "research": [
+      132,
+      157
+     ],
+     "methodologies,": [
+      133
+     ],
+     "advances": [
+      135
+     ],
+     "benchmarking,": [
+      137
+     ],
+     "key": [
+      138
+     ],
+     "datasets": [
+      139
+     ],
+     "field,": [
+      142
+     ],
+     "discussion": [
+      145
+     ],
+     "results": [
+      148
+     ],
+     "reported": [
+      149
+     ],
+     "literature.": [
+      152
+     ],
+     "Finally,": [
+      153
+     ],
+     "we": [
+      154
+     ],
+     "identify": [
+      155
+     ],
+     "pressing": [
+      156
+     ],
+     "challenges": [
+      158
+     ],
+     "outline": [
+      160
+     ],
+     "promising": [
+      161
+     ],
+     "future": [
+      162
+     ],
+     "directions,": [
+      163
+     ],
+     "aiming": [
+      164
+     ],
+     "equip": [
+      166
+     ],
+     "researchers": [
+      167
+     ],
+     "practitioners": [
+      169
+     ],
+     "roadmap": [
+      172
+     ],
+     "for": [
+      173
+     ],
+     "advancing": [
+      174
+     ],
+     "field.": [
+      176
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5018555933",
+       "display_name": "Carlos Garrido-Munoz",
+       "orcid": "https://orcid.org/0000-0002-0245-5311",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0245-5311"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I130194489",
+        "display_name": "University of Alicante",
+        "ror": "https://ror.org/05t8bcz72",
+        "country_code": "ES",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I130194489"
+        ]
+       }
+      ],
+      "countries": [
+       "ES"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Carlos Garrido-Munoz",
+      "raw_affiliation_strings": [
+       "Pattern Recognition and Artificial Intelligence Group, University of Alicante, Spain"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-0245-5311",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Pattern Recognition and Artificial Intelligence Group, University of Alicante, Spain",
+        "institution_ids": [
+         "https://openalex.org/I130194489"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5051070601",
+       "display_name": "Antonio R\u00edos-Vila",
+       "orcid": "https://orcid.org/0000-0002-7770-9726",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7770-9726"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I130194489",
+        "display_name": "University of Alicante",
+        "ror": "https://ror.org/05t8bcz72",
+        "country_code": "ES",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I130194489"
+        ]
+       }
+      ],
+      "countries": [
+       "ES"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Antonio Rios-Vila",
+      "raw_affiliation_strings": [
+       "Pattern Recognition and Artificial Intelligence Group, University of Alicante, Spain"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Pattern Recognition and Artificial Intelligence Group, University of Alicante, Spain",
+        "institution_ids": [
+         "https://openalex.org/I130194489"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5085151278",
+       "display_name": "Jorge Calvo-Zaragoza",
+       "orcid": "https://orcid.org/0000-0003-3183-2232",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3183-2232"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I130194489",
+        "display_name": "University of Alicante",
+        "ror": "https://ror.org/05t8bcz72",
+        "country_code": "ES",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I130194489"
+        ]
+       }
+      ],
+      "countries": [
+       "ES"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jorge Calvo-Zaragoza",
+      "raw_affiliation_strings": [
+       "Pattern Recognition and Artificial Intelligence Group, University of Alicante, Spain"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-3183-2232",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Pattern Recognition and Artificial Intelligence Group, University of Alicante, Spain",
+        "institution_ids": [
+         "https://openalex.org/I130194489"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1109/tpami.2025.3646002",
+     "doi": "https://doi.org/10.1109/tpami.2025.3646002",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1109/tpami.2025.3646002",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S199944782",
+      "display_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "issn_l": "0162-8828",
+      "issn": [
+       "0162-8828",
+       "1939-3539",
+       "2160-9292"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "ccf-a",
+       "cwts-core",
+       "dongbi-a",
+       "doyens",
+       "jufo-3",
+       "medline",
+       "norway-2",
+       "poland-200",
+       "russia-white-list-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320439",
+      "host_organization_name": "IEEE Computer Society",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320439",
+       "https://openalex.org/P4310319808"
+      ],
+      "host_organization_lineage_names": [
+       "IEEE Computer Society",
+       "Institute of Electrical and Electronics Engineers"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2776643811",
+    "doi": "https://doi.org/10.7916/d85m6j31",
+    "title": "An Investigation of Cognitive Processes Associated with Notetaking and Notes-Review",
+    "display_name": "An Investigation of Cognitive Processes Associated with Notetaking and Notes-Review",
+    "publication_year": 2017,
+    "cited_by_count": 10,
+    "abstract_inverted_index": {
+     "Notetaking": [
+      0
+     ],
+     "is": [
+      1
+     ],
+     "a": [
+      2,
+      16,
+      110,
+      148,
+      158,
+      266,
+      358
+     ],
+     "cognitively": [
+      3
+     ],
+     "complex": [
+      4
+     ],
+     "academic": [
+      5
+     ],
+     "task": [
+      6
+     ],
+     "that": [
+      7,
+      70,
+      113,
+      224,
+      277,
+      316,
+      329
+     ],
+     "requires": [
+      8
+     ],
+     "the": [
+      9,
+      67,
+      73,
+      153,
+      352,
+      366,
+      379
+     ],
+     "execution": [
+      10
+     ],
+     "of": [
+      11,
+      75,
+      160,
+      171,
+      206,
+      211,
+      335,
+      354,
+      368,
+      378,
+      381
+     ],
+     "multiple": [
+      12
+     ],
+     "cognitive": [
+      13,
+      38,
+      100,
+      279,
+      292,
+      348
+     ],
+     "processes": [
+      14,
+      39,
+      280,
+      293
+     ],
+     "within": [
+      15,
+      357
+     ],
+     "limited": [
+      17,
+      85,
+      359
+     ],
+     "capacity": [
+      18,
+      360
+     ],
+     "working": [
+      19,
+      361
+     ],
+     "memory": [
+      20,
+      115
+     ],
+     "(Peverly": [
+      21
+     ],
+     "et": [
+      22
+     ],
+     "al.,": [
+      23
+     ],
+     "2007;": [
+      24
+     ],
+     "Peverly": [
+      25
+     ],
+     "&": [
+      26,
+      31,
+      55,
+      90,
+      94
+     ],
+     "Sumowski,": [
+      27
+     ],
+     "2012;": [
+      28
+     ],
+     "Piolat,": [
+      29
+     ],
+     "Olive,": [
+      30
+     ],
+     "Kellogg,": [
+      32
+     ],
+     "2005).": [
+      33
+     ],
+     "Several": [
+      34
+     ],
+     "studies": [
+      35,
+      60,
+      69,
+      341
+     ],
+     "have": [
+      36,
+      61,
+      71,
+      83
+     ],
+     "investigated": [
+      37
+     ],
+     "related": [
+      40,
+      50,
+      102,
+      237,
+      250,
+      321
+     ],
+     "to": [
+      41,
+      51,
+      103,
+      139,
+      238,
+      251,
+      284,
+      294,
+      322,
+      338,
+      344,
+      350
+     ],
+     "notetaking,": [
+      42,
+      105,
+      239
+     ],
+     "but": [
+      43,
+      192
+     ],
+     "only": [
+      44
+     ],
+     "one": [
+      45
+     ],
+     "has": [
+      46
+     ],
+     "looked": [
+      47
+     ],
+     "at": [
+      48
+     ],
+     "variables": [
+      49,
+      349
+     ],
+     "notes-review": [
+      52,
+      217,
+      252,
+      275,
+      309,
+      374
+     ],
+     "(Hadwin,": [
+      53
+     ],
+     "Kirby,": [
+      54
+     ],
+     "Woodhouse,": [
+      56
+     ],
+     "1999).": [
+      57
+     ],
+     "Also,": [
+      58
+     ],
+     "most": [
+      59
+     ],
+     "focused": [
+      62
+     ],
+     "on": [
+      63,
+      81,
+      109,
+      129,
+      152,
+      303,
+      365,
+      371,
+      385
+     ],
+     "handwritten": [
+      64,
+      254
+     ],
+     "notes,": [
+      65,
+      143
+     ],
+     "and": [
+      66,
+      86,
+      107,
+      116,
+      127,
+      131,
+      146,
+      178,
+      189,
+      209,
+      216,
+      227,
+      235,
+      242,
+      265,
+      301,
+      310,
+      373,
+      383
+     ],
+     "few": [
+      68
+     ],
+     "evaluated": [
+      72
+     ],
+     "effect": [
+      74
+     ],
+     "writing": [
+      76,
+      243,
+      311,
+      369
+     ],
+     "medium": [
+      77,
+      370
+     ],
+     "(handwriting": [
+      78
+     ],
+     "or": [
+      79,
+      141,
+      199
+     ],
+     "typing)": [
+      80
+     ],
+     "notes": [
+      82,
+      130,
+      246,
+      372
+     ],
+     "been": [
+      84
+     ],
+     "equivocal": [
+      87
+     ],
+     "(Bui,": [
+      88
+     ],
+     "Myerson": [
+      89
+     ],
+     "Hale,": [
+      91
+     ],
+     "2013;": [
+      92
+     ],
+     "Mueller": [
+      93
+     ],
+     "Oppenheimer,": [
+      95
+     ],
+     "2014).": [
+      96
+     ],
+     "This": [
+      97
+     ],
+     "study": [
+      98,
+      122
+     ],
+     "examined": [
+      99
+     ],
+     "differences": [
+      101,
+      124,
+      183,
+      195
+     ],
+     "lecture": [
+      104,
+      212
+     ],
+     "notes-review,": [
+      106
+     ],
+     "performance": [
+      108,
+      299,
+      302,
+      324
+     ],
+     "multiple-choice": [
+      111,
+      149
+     ],
+     "test": [
+      112,
+      150,
+      323
+     ],
+     "included": [
+      114
+     ],
+     "inference": [
+      117,
+      304
+     ],
+     "items.": [
+      118
+     ],
+     "In": [
+      119
+     ],
+     "addition,": [
+      120
+     ],
+     "this": [
+      121
+     ],
+     "explored": [
+      123
+     ],
+     "between": [
+      125,
+      187,
+      214,
+      347
+     ],
+     "handwriting": [
+      126,
+      188,
+      202,
+      317,
+      330,
+      382
+     ],
+     "typing": [
+      128,
+      190,
+      384
+     ],
+     "notes-review.": [
+      132,
+      200
+     ],
+     "Eighty": [
+      133
+     ],
+     "undergraduate": [
+      134
+     ],
+     "students": [
+      135
+     ],
+     "were": [
+      136,
+      247,
+      306
+     ],
+     "randomly": [
+      137
+     ],
+     "assigned": [
+      138
+     ],
+     "handwrite": [
+      140
+     ],
+     "type": [
+      142
+     ],
+     "review": [
+      144
+     ],
+     "them,": [
+      145
+     ],
+     "complete": [
+      147
+     ],
+     "based": [
+      151
+     ],
+     "lecture.": [
+      154
+     ],
+     "They": [
+      155
+     ],
+     "also": [
+      156
+     ],
+     "completed": [
+      157
+     ],
+     "measure": [
+      159
+     ],
+     "letter": [
+      161,
+      185,
+      225,
+      258,
+      268
+     ],
+     "speed": [
+      162,
+      186,
+      226,
+      259,
+      269
+     ],
+     "consistent": [
+      163
+     ],
+     "with": [
+      164,
+      169,
+      219
+     ],
+     "their": [
+      165
+     ],
+     "experimental": [
+      166
+     ],
+     "condition,": [
+      167
+     ],
+     "along": [
+      168
+     ],
+     "measures": [
+      170
+     ],
+     "language": [
+      172,
+      228,
+      240
+     ],
+     "comprehension,": [
+      173,
+      241
+     ],
+     "sustained": [
+      174,
+      271
+     ],
+     "attention,": [
+      175
+     ],
+     "background": [
+      176
+     ],
+     "knowledge,": [
+      177
+     ],
+     "metacognition.": [
+      179
+     ],
+     "MANOVAs": [
+      180
+     ],
+     "found": [
+      181,
+      223
+     ],
+     "significant": [
+      182,
+      194,
+      257,
+      267
+     ],
+     "in": [
+      184,
+      196,
+      288
+     ],
+     "groups,": [
+      191
+     ],
+     "no": [
+      193
+     ],
+     "overall": [
+      197,
+      300
+     ],
+     "notetaking": [
+      198,
+      215,
+      264
+     ],
+     "The": [
+      201,
+      313
+     ],
+     "condition": [
+      203
+     ],
+     "showed": [
+      204
+     ],
+     "evidence": [
+      205
+     ],
+     "more": [
+      207,
+      248,
+      319
+     ],
+     "transformation": [
+      208
+     ],
+     "organization": [
+      210
+     ],
+     "information": [
+      213,
+      336
+     ],
+     "than": [
+      218,
+      253,
+      325
+     ],
+     "typing.": [
+      220,
+      326,
+      339
+     ],
+     "Regression": [
+      221
+     ],
+     "analyses": [
+      222
+     ],
+     "comprehension": [
+      229
+     ],
+     "predicted": [
+      230,
+      307
+     ],
+     "notetaking.": [
+      231
+     ],
+     "Notes-review": [
+      232
+     ],
+     "was": [
+      233,
+      318
+     ],
+     "positively": [
+      234
+     ],
+     "significantly": [
+      236
+     ],
+     "medium.": [
+      244,
+      312
+     ],
+     "Typed": [
+      245
+     ],
+     "strongly": [
+      249,
+      320
+     ],
+     "notes.": [
+      255
+     ],
+     "A": [
+      256
+     ],
+     "x": [
+      260,
+      270
+     ],
+     "metacognition": [
+      261
+     ],
+     "interaction": [
+      262,
+      273
+     ],
+     "for": [
+      263,
+      274,
+      290
+     ],
+     "attention": [
+      272
+     ],
+     "suggest": [
+      276,
+      328
+     ],
+     "basic": [
+      278
+     ],
+     "(letter": [
+      281
+     ],
+     "speed)": [
+      282
+     ],
+     "need": [
+      283
+     ],
+     "be": [
+      285,
+      295
+     ],
+     "sufficiently": [
+      286
+     ],
+     "automatized": [
+      287
+     ],
+     "order": [
+      289
+     ],
+     "higher": [
+      291
+     ],
+     "applied": [
+      296
+     ],
+     "effectively.": [
+      297
+     ],
+     "Test": [
+      298
+     ],
+     "items": [
+      305
+     ],
+     "by": [
+      308
+     ],
+     "latter": [
+      314
+     ],
+     "indicated": [
+      315
+     ],
+     "Findings": [
+      327
+     ],
+     "may": [
+      331
+     ],
+     "enable": [
+      332
+     ],
+     "deeper": [
+      333
+     ],
+     "processing": [
+      334,
+      356
+     ],
+     "compared": [
+      337
+     ],
+     "Future": [
+      340
+     ],
+     "should": [
+      342
+     ],
+     "continue": [
+      343
+     ],
+     "include": [
+      345
+     ],
+     "interactions": [
+      346
+     ],
+     "support": [
+      351
+     ],
+     "theory": [
+      353
+     ],
+     "hierarchical": [
+      355
+     ],
+     "memory.": [
+      362
+     ],
+     "Further": [
+      363
+     ],
+     "research": [
+      364
+     ],
+     "effects": [
+      367,
+      380
+     ],
+     "will": [
+      375
+     ],
+     "improve": [
+      376
+     ],
+     "understanding": [
+      377
+     ],
+     "these": [
+      386
+     ],
+     "processes.": [
+      387
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5112338435",
+       "display_name": "Yoko Kodaira",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Kodaira, Yoko",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.7916/d85m6j31",
+     "doi": "https://doi.org/10.7916/d85m6j31",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.7916/d85m6j31",
+     "pdf_url": "https://academiccommons.columbia.edu/doi/10.7916/D81V5SC9/download",
+     "source": {
+      "id": "https://openalex.org/S4306402601",
+      "display_name": "Columbia Academic Commons (Columbia University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I78577930",
+      "host_organization_name": "Columbia University",
+      "host_organization_lineage": [
+       "https://openalex.org/I78577930"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": null,
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": null,
+     "raw_type": "article-journal"
+    }
+   },
+   {
+    "id": "https://openalex.org/W7203957666",
+    "doi": null,
+    "title": "A Quantitative Causal-Comparative Investigation of the Intrinsic Goal Orientation, Self-Efficacy for Learning and Performance, and Metacognitive Self-Regulation Among the Handwritten, Typed, or No Note-Taking Strategies of Korean University Students",
+    "display_name": "A Quantitative Causal-Comparative Investigation of the Intrinsic Goal Orientation, Self-Efficacy for Learning and Performance, and Metacognitive Self-Regulation Among the Handwritten, Typed, or No Note-Taking Strategies of Korean University Students",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "The": [
+      0,
+      163
+     ],
+     "purpose": [
+      1
+     ],
+     "of": [
+      2,
+      31,
+      34,
+      124,
+      157
+     ],
+     "this": [
+      3
+     ],
+     "non-experimental": [
+      4
+     ],
+     "quantitative": [
+      5,
+      190
+     ],
+     "causal-comparative": [
+      6
+     ],
+     "study": [
+      7,
+      46
+     ],
+     "was": [
+      8,
+      13
+     ],
+     "to": [
+      9,
+      52,
+      137
+     ],
+     "determine": [
+      10,
+      173
+     ],
+     "if": [
+      11,
+      139
+     ],
+     "there": [
+      12,
+      140
+     ],
+     "a": [
+      14,
+      57,
+      73,
+      153
+     ],
+     "difference": [
+      15
+     ],
+     "in": [
+      16,
+      64,
+      75,
+      131
+     ],
+     "intrinsic": [
+      17
+     ],
+     "goal": [
+      18
+     ],
+     "orientation,": [
+      19
+     ],
+     "self-efficacy": [
+      20
+     ],
+     "for": [
+      21,
+      98,
+      128
+     ],
+     "learning": [
+      22,
+      143,
+      174
+     ],
+     "and": [
+      23,
+      25,
+      37,
+      69,
+      86,
+      159,
+      176,
+      191
+     ],
+     "performance,": [
+      24
+     ],
+     "metacognitive": [
+      26
+     ],
+     "self-regulation": [
+      27
+     ],
+     "between": [
+      28,
+      146
+     ],
+     "the": [
+      29,
+      53,
+      125,
+      132,
+      147,
+      167,
+      196
+     ],
+     "choice": [
+      30
+     ],
+     "note-taking": [
+      32,
+      39,
+      59,
+      96,
+      168,
+      181
+     ],
+     "strategies": [
+      33
+     ],
+     "handwritten,": [
+      35
+     ],
+     "typed,": [
+      36,
+      105
+     ],
+     "no": [
+      38,
+      109,
+      161
+     ],
+     "methods": [
+      40
+     ],
+     "among": [
+      41
+     ],
+     "Korean": [
+      42,
+      81
+     ],
+     "university": [
+      43,
+      74
+     ],
+     "students.": [
+      44
+     ],
+     "This": [
+      45
+     ],
+     "is": [
+      47
+     ],
+     "important": [
+      48
+     ],
+     "because": [
+      49
+     ],
+     "it": [
+      50
+     ],
+     "adds": [
+      51
+     ],
+     "discussion": [
+      54
+     ],
+     "about": [
+      55
+     ],
+     "whether": [
+      56
+     ],
+     "student's": [
+      58
+     ],
+     "method": [
+      60,
+      169
+     ],
+     "reflects": [
+      61
+     ],
+     "underlying": [
+      62
+     ],
+     "differences": [
+      63,
+      145
+     ],
+     "self-regulated": [
+      65,
+      142
+     ],
+     "learning.": [
+      66
+     ],
+     "Using": [
+      67,
+      114
+     ],
+     "purposive": [
+      68
+     ],
+     "convenience": [
+      70
+     ],
+     "sampling": [
+      71
+     ],
+     "at": [
+      72
+     ],
+     "South": [
+      76
+     ],
+     "Korea,": [
+      77
+     ],
+     "129": [
+      78
+     ],
+     "currently": [
+      79
+     ],
+     "enrolled": [
+      80
+     ],
+     "undergraduate": [
+      82
+     ],
+     "students": [
+      83
+     ],
+     "were": [
+      84,
+      141,
+      150
+     ],
+     "recruited": [
+      85
+     ],
+     "self-sorted": [
+      87
+     ],
+     "into": [
+      88
+     ],
+     "three": [
+      89,
+      122
+     ],
+     "groups": [
+      90
+     ],
+     "based": [
+      91
+     ],
+     "on": [
+      92,
+      180
+     ],
+     "their": [
+      93,
+      99
+     ],
+     "most": [
+      94
+     ],
+     "used": [
+      95
+     ],
+     "strategy": [
+      97
+     ],
+     "studies": [
+      100
+     ],
+     "(handwritten,": [
+      101
+     ],
+     "n": [
+      102,
+      106,
+      111
+     ],
+     "=": [
+      103,
+      107,
+      112
+     ],
+     "81;": [
+      104
+     ],
+     "31;": [
+      108
+     ],
+     "notes,": [
+      110
+     ],
+     "17).": [
+      113
+     ],
+     "an": [
+      115
+     ],
+     "online": [
+      116
+     ],
+     "survey": [
+      117
+     ],
+     "through": [
+      118
+     ],
+     "Qualtrics,": [
+      119
+     ],
+     "participants": [
+      120
+     ],
+     "completed": [
+      121
+     ],
+     "subscales": [
+      123
+     ],
+     "Motivated": [
+      126
+     ],
+     "Strategies": [
+      127
+     ],
+     "Learning": [
+      129
+     ],
+     "Questionnaire": [
+      130
+     ],
+     "weeks": [
+      133
+     ],
+     "preceding": [
+      134
+     ],
+     "midterm": [
+      135
+     ],
+     "examinations": [
+      136
+     ],
+     "see": [
+      138
+     ],
+     "score": [
+      144
+     ],
+     "groups.": [
+      148
+     ],
+     "Data": [
+      149
+     ],
+     "analyzed": [
+      151
+     ],
+     "using": [
+      152,
+      187
+     ],
+     "one-way": [
+      154
+     ],
+     "multivariate": [
+      155
+     ],
+     "analysis": [
+      156
+     ],
+     "variance": [
+      158
+     ],
+     "found": [
+      160
+     ],
+     "differences.": [
+      162
+     ],
+     "conclusion": [
+      164
+     ],
+     "suggests": [
+      165
+     ],
+     "that": [
+      166,
+      177
+     ],
+     "alone": [
+      170
+     ],
+     "may": [
+      171
+     ],
+     "not": [
+      172
+     ],
+     "effectiveness,": [
+      175
+     ],
+     "future": [
+      178
+     ],
+     "research": [
+      179
+     ],
+     "should": [
+      182
+     ],
+     "include": [
+      183
+     ],
+     "other": [
+      184
+     ],
+     "learning-related": [
+      185
+     ],
+     "variables": [
+      186
+     ],
+     "experimental,": [
+      188
+     ],
+     "mixed-methods,": [
+      189
+     ],
+     "qualitative": [
+      192
+     ],
+     "designs.": [
+      193
+     ],
+     "Limitations,": [
+      194
+     ],
+     "including": [
+      195
+     ],
+     "unbalanced": [
+      197
+     ],
+     "group": [
+      198
+     ],
+     "sizes,": [
+      199
+     ],
+     "are": [
+      200
+     ],
+     "also": [
+      201
+     ],
+     "discussed.": [
+      202
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5037107738",
+       "display_name": "Terrill Reid McLain",
+       "orcid": "https://orcid.org/0000-0002-4720-2692",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4720-2692"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I67789559",
+        "display_name": "Liberty University",
+        "ror": "https://ror.org/00w4qrc49",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I67789559"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "McLain, Terrill Reid",
+      "raw_affiliation_strings": [
+       "Liberty University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Liberty University",
+        "institution_ids": [
+         "https://openalex.org/I67789559"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "pmh:oai:digitalcommons.liberty.edu:doctoral-9796",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://digitalcommons.liberty.edu/context/doctoral/article/9796/viewcontent/18_Mclain_2C_20Terrill_20_28L33675151_29.pdf",
+     "pdf_url": "https://digitalcommons.liberty.edu/cgi/viewcontent.cgi?article=9796&context=doctoral",
+     "source": {
+      "id": "https://openalex.org/S4306400581",
+      "display_name": "Digital Commons (Liberty University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I67789559",
+      "host_organization_name": "Liberty University",
+      "host_organization_lineage": [
+       "https://openalex.org/I67789559"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "public-domain",
+     "license_id": "https://openalex.org/licenses/public-domain",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "Doctoral Dissertations and Projects",
+     "raw_type": "text"
+    }
+   },
+   {
+    "id": "https://openalex.org/W1547070526",
+    "doi": "https://doi.org/10.7936/k77m0620",
+    "title": "Individual Differences and Notetaking: Exploring Alternative Strategies for Improved Test Performance",
+    "display_name": "Individual Differences and Notetaking: Exploring Alternative Strategies for Improved Test Performance",
+    "publication_year": 2011,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "Three": [
+      0
+     ],
+     "experiments": [
+      1,
+      72,
+      152
+     ],
+     "examined": [
+      2
+     ],
+     "notetaking": [
+      3,
+      75,
+      230,
+      240
+     ],
+     "strategies": [
+      4
+     ],
+     "and": [
+      5,
+      20,
+      124,
+      171
+     ],
+     "their": [
+      6,
+      25,
+      100
+     ],
+     "relation": [
+      7
+     ],
+     "to": [
+      8,
+      23,
+      28,
+      36,
+      54,
+      201
+     ],
+     "test": [
+      9,
+      38,
+      51,
+      68,
+      133
+     ],
+     "performance.": [
+      10
+     ],
+     "In": [
+      11
+     ],
+     "Experiment": [
+      12,
+      78,
+      103
+     ],
+     "1,": [
+      13
+     ],
+     "participants": [
+      14,
+      98
+     ],
+     "handwrote": [
+      15
+     ],
+     "or": [
+      16,
+      27
+     ],
+     "typed": [
+      17
+     ],
+     "lecture": [
+      18
+     ],
+     "notes,": [
+      19,
+      160,
+      179,
+      209
+     ],
+     "were": [
+      21
+     ],
+     "instructed": [
+      22
+     ],
+     "organize": [
+      24
+     ],
+     "notes": [
+      26,
+      59,
+      83,
+      101,
+      107
+     ],
+     "transcribe": [
+      29
+     ],
+     "the": [
+      30,
+      66,
+      70,
+      85,
+      93,
+      109,
+      117,
+      125,
+      143,
+      212,
+      218,
+      226,
+      238
+     ],
+     "lecture.": [
+      31
+     ],
+     "Notetaking": [
+      32
+     ],
+     "with": [
+      33,
+      46,
+      60,
+      92,
+      193
+     ],
+     "computers": [
+      34,
+      47,
+      63
+     ],
+     "led": [
+      35
+     ],
+     "better": [
+      37,
+      50
+     ],
+     "performance": [
+      39,
+      52
+     ],
+     "than": [
+      40
+     ],
+     "taking": [
+      41
+     ],
+     "handwritten": [
+      42
+     ],
+     "notes.": [
+      43
+     ],
+     "Moreover,": [
+      44
+     ],
+     "transcribing": [
+      45
+     ],
+     "resulted": [
+      48,
+      64
+     ],
+     "in": [
+      49,
+      65,
+      102,
+      180
+     ],
+     "compared": [
+      53
+     ],
+     "those": [
+      55,
+      156,
+      175
+     ],
+     "who": [
+      56,
+      157,
+      176
+     ],
+     "took": [
+      57,
+      158,
+      177
+     ],
+     "organized": [
+      58,
+      82,
+      159
+     ],
+     "computers.": [
+      61,
+      77
+     ],
+     "Because": [
+      62
+     ],
+     "best": [
+      67,
+      86,
+      110
+     ],
+     "performance,": [
+      69,
+      134
+     ],
+     "subsequent": [
+      71
+     ],
+     "focused": [
+      73
+     ],
+     "on": [
+      74,
+      168
+     ],
+     "using": [
+      76
+     ],
+     "2": [
+      79
+     ],
+     "showed": [
+      80
+     ],
+     "that": [
+      81,
+      115,
+      154,
+      191,
+      233
+     ],
+     "produced": [
+      84,
+      108
+     ],
+     "recall": [
+      87,
+      167
+     ],
+     "after": [
+      88
+     ],
+     "a": [
+      89,
+      140,
+      185,
+      197,
+      229
+     ],
+     "delay,": [
+      90
+     ],
+     "consistent": [
+      91
+     ],
+     "levels-of-processing": [
+      94,
+      126
+     ],
+     "framework.": [
+      95
+     ],
+     "However,": [
+      96
+     ],
+     "when": [
+      97
+     ],
+     "restudied": [
+      99
+     ],
+     "3,": [
+      104
+     ],
+     "typing": [
+      105
+     ],
+     "transcribed": [
+      106,
+      178
+     ],
+     "recall.": [
+      111
+     ],
+     "Our": [
+      112
+     ],
+     "results": [
+      113,
+      138,
+      189
+     ],
+     "suggest": [
+      114,
+      190
+     ],
+     "both": [
+      116,
+      169
+     ],
+     "translation": [
+      118
+     ],
+     "effect:": [
+      119,
+      127
+     ],
+     "Gathercole": [
+      120
+     ],
+     "&": [
+      121,
+      129
+     ],
+     "Conway,": [
+      122
+     ],
+     "1988)": [
+      123
+     ],
+     "Craik": [
+      128
+     ],
+     "Lockhart,": [
+      130
+     ],
+     "1972)": [
+      131
+     ],
+     "improve": [
+      132
+     ],
+     "but": [
+      135
+     ],
+     "optimal": [
+      136
+     ],
+     "learning": [
+      137
+     ],
+     "from": [
+      139,
+      149
+     ],
+     "combination": [
+      141
+     ],
+     "of": [
+      142,
+      147,
+      220,
+      245
+     ],
+     "two.": [
+      144
+     ],
+     "Correlational": [
+      145
+     ],
+     "analyses": [
+      146
+     ],
+     "data": [
+      148
+     ],
+     "all": [
+      150
+     ],
+     "three": [
+      151
+     ],
+     "revealed": [
+      153
+     ],
+     "for": [
+      155,
+      204,
+      215,
+      243
+     ],
+     "working": [
+      161,
+      195,
+      221
+     ],
+     "memory": [
+      162,
+      222
+     ],
+     "predicted": [
+      163,
+      166
+     ],
+     "note-quantity,": [
+      164
+     ],
+     "which": [
+      165
+     ],
+     "immediate": [
+      170
+     ],
+     "delayed": [
+      172
+     ],
+     "tests.": [
+      173
+     ],
+     "For": [
+      174
+     ],
+     "contrast,": [
+      181
+     ],
+     "only": [
+      182
+     ],
+     "note-quantity": [
+      183
+     ],
+     "was": [
+      184
+     ],
+     "significant": [
+      186
+     ],
+     "predictor.": [
+      187
+     ],
+     "These": [
+      188
+     ],
+     "individuals": [
+      192,
+      216
+     ],
+     "poor": [
+      194
+     ],
+     "memory:": [
+      196
+     ],
+     "skill": [
+      198
+     ],
+     "traditionally": [
+      199
+     ],
+     "thought": [
+      200
+     ],
+     "be": [
+      202,
+      235
+     ],
+     "needed": [
+      203
+     ],
+     "notetaking)": [
+      205
+     ],
+     "can": [
+      206,
+      234
+     ],
+     "take": [
+      207
+     ],
+     "effective": [
+      208,
+      236
+     ],
+     "essentially": [
+      210
+     ],
+     "\u201cleveling": [
+      211
+     ],
+     "playing": [
+      213
+     ],
+     "field\u201d": [
+      214
+     ],
+     "across": [
+      217
+     ],
+     "range": [
+      219
+     ],
+     "abilities.": [
+      223,
+      248
+     ],
+     "Taken": [
+      224
+     ],
+     "together,": [
+      225
+     ],
+     "study": [
+      227
+     ],
+     "introduces": [
+      228
+     ],
+     "strategy:": [
+      231
+     ],
+     "transcribing)": [
+      232
+     ],
+     "given": [
+      237
+     ],
+     "proper": [
+      239
+     ],
+     "method:": [
+      241
+     ],
+     "computers)": [
+      242
+     ],
+     "students": [
+      244
+     ],
+     "diverse": [
+      246
+     ],
+     "cognitive": [
+      247
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": null,
+       "display_name": "Bui, Dung",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204465549",
+        "display_name": "Washington University in St. Louis",
+        "ror": "https://ror.org/01yc7t268",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Bui, Dung",
+      "raw_affiliation_strings": [
+       "(, Washington University in St. Louis)"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "(, Washington University in St. Louis)",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "pmh:oai:repository.library.washu.edu:etd-1756",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://repository.library.washu.edu/etd/757",
+     "pdf_url": "https://repository.library.washu.edu/context/etd/article/1756/viewcontent/dbu406753.pdf",
+     "source": {
+      "id": "https://openalex.org/S4377196400",
+      "display_name": "Open Scholarship Institutional Repository (Washington University in St. Louis)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I204465549",
+      "host_organization_name": "Washington University in St. Louis",
+      "host_organization_lineage": [
+       "https://openalex.org/I204465549"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "All Theses and Dissertations (ETDs)",
+     "raw_type": "text"
+    }
+   },
+   {
+    "id": "https://openalex.org/W7164831480",
+    "doi": "https://doi.org/10.1587/transinf.2025edp7256",
+    "title": "A Moodle Plugin for Handwritten Answer Input, Management, and Recognition Supporting Japanese, English, Mathematical, and Chemical Formulas",
+    "display_name": "A Moodle Plugin for Handwritten Answer Input, Management, and Recognition Supporting Japanese, English, Mathematical, and Chemical Formulas",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "This": [
+      0,
+      122
+     ],
+     "study": [
+      1,
+      123
+     ],
+     "presents": [
+      2
+     ],
+     "the": [
+      3,
+      125,
+      139,
+      153,
+      156,
+      164,
+      171
+     ],
+     "development": [
+      4
+     ],
+     "of": [
+      5,
+      143,
+      155
+     ],
+     "a": [
+      6,
+      11,
+      88,
+      181
+     ],
+     "Moodle": [
+      7,
+      89,
+      165
+     ],
+     "plugin": [
+      8,
+      90,
+      102,
+      172
+     ],
+     "that": [
+      9,
+      47,
+      91
+     ],
+     "integrates": [
+      10
+     ],
+     "web-based": [
+      12
+     ],
+     "handwriting": [
+      13,
+      113
+     ],
+     "input": [
+      14,
+      21,
+      66,
+      99
+     ],
+     "interface": [
+      15
+     ],
+     "with": [
+      16
+     ],
+     "handwriting-to-text": [
+      17
+     ],
+     "recognition,": [
+      18
+     ],
+     "supporting": [
+      19
+     ],
+     "handwritten": [
+      20,
+      107
+     ],
+     "in": [
+      22,
+      37
+     ],
+     "Japanese,": [
+      23
+     ],
+     "English,": [
+      24
+     ],
+     "and": [
+      25,
+      27,
+      51,
+      60,
+      71,
+      95,
+      115,
+      131,
+      141,
+      159,
+      177,
+      185
+     ],
+     "mathematical": [
+      26,
+      59
+     ],
+     "chemical": [
+      28,
+      61
+     ],
+     "formulas.": [
+      29
+     ],
+     "Although": [
+      30
+     ],
+     "computer-based": [
+      31
+     ],
+     "learning": [
+      32,
+      134
+     ],
+     "systems": [
+      33
+     ],
+     "are": [
+      34,
+      75
+     ],
+     "widely": [
+      35
+     ],
+     "used": [
+      36
+     ],
+     "education,": [
+      38
+     ],
+     "they": [
+      39
+     ],
+     "predominantly": [
+      40
+     ],
+     "emphasize": [
+      41
+     ],
+     "multiple-choice": [
+      42
+     ],
+     "or": [
+      43
+     ],
+     "short-answer": [
+      44
+     ],
+     "question": [
+      45
+     ],
+     "types": [
+      46
+     ],
+     "require": [
+      48,
+      64
+     ],
+     "conventional": [
+      49
+     ],
+     "keyboard": [
+      50
+     ],
+     "mouse": [
+      52
+     ],
+     "input.": [
+      53
+     ],
+     "Conversely,": [
+      54
+     ],
+     "structured": [
+      55
+     ],
+     "responses,": [
+      56
+     ],
+     "such": [
+      57,
+      68
+     ],
+     "as": [
+      58,
+      69
+     ],
+     "expressions,": [
+      62
+     ],
+     "often": [
+      63
+     ],
+     "specialized": [
+      65
+     ],
+     "methods,": [
+      67
+     ],
+     "LaTeX": [
+      70
+     ],
+     "Equation": [
+      72
+     ],
+     "Editor,": [
+      73
+     ],
+     "which": [
+      74
+     ],
+     "challenging": [
+      76
+     ],
+     "for": [
+      77
+     ],
+     "many": [
+      78
+     ],
+     "learners": [
+      79,
+      104
+     ],
+     "to": [
+      80,
+      105,
+      118
+     ],
+     "use.": [
+      81
+     ],
+     "To": [
+      82
+     ],
+     "address": [
+      83
+     ],
+     "these": [
+      84
+     ],
+     "limitations,": [
+      85
+     ],
+     "we": [
+      86
+     ],
+     "developed": [
+      87
+     ],
+     "provides": [
+      92
+     ],
+     "an": [
+      93
+     ],
+     "intuitive": [
+      94
+     ],
+     "cognitively": [
+      96
+     ],
+     "efficient": [
+      97
+     ],
+     "handwriting-based": [
+      98
+     ],
+     "interface.": [
+      100
+     ],
+     "The": [
+      101
+     ],
+     "enables": [
+      103
+     ],
+     "produce": [
+      106
+     ],
+     "responses": [
+      108
+     ],
+     "naturally": [
+      109
+     ],
+     "while": [
+      110
+     ],
+     "preserving": [
+      111
+     ],
+     "raw": [
+      112
+     ],
+     "data": [
+      114
+     ],
+     "recognition": [
+      116
+     ],
+     "texts": [
+      117
+     ],
+     "support": [
+      119
+     ],
+     "transparent": [
+      120
+     ],
+     "scoring.": [
+      121
+     ],
+     "bridges": [
+      124
+     ],
+     "gap": [
+      126
+     ],
+     "between": [
+      127
+     ],
+     "traditional": [
+      128
+     ],
+     "pencil-and-paper": [
+      129
+     ],
+     "assessments": [
+      130,
+      144
+     ],
+     "contemporary": [
+      132
+     ],
+     "digital": [
+      133,
+      187
+     ],
+     "environments.": [
+      135
+     ],
+     "It": [
+      136
+     ],
+     "also": [
+      137
+     ],
+     "enhances": [
+      138
+     ],
+     "authenticity": [
+      140
+     ],
+     "interactivity": [
+      142
+     ],
+     "conducted": [
+      145
+     ],
+     "within": [
+      146,
+      163
+     ],
+     "Moodle.": [
+      147
+     ],
+     "In": [
+      148
+     ],
+     "particular,": [
+      149
+     ],
+     "this": [
+      150
+     ],
+     "paper": [
+      151
+     ],
+     "describes": [
+      152
+     ],
+     "architecture": [
+      154
+     ],
+     "plugin,": [
+      157
+     ],
+     "implementation,": [
+      158
+     ],
+     "integration": [
+      160
+     ],
+     "challenges": [
+      161
+     ],
+     "encountered": [
+      162
+     ],
+     "system.": [
+      166
+     ],
+     "Usability": [
+      167
+     ],
+     "testing": [
+      168
+     ],
+     "results": [
+      169
+     ],
+     "indicate": [
+      170
+     ],
+     "can": [
+      173
+     ],
+     "enhance": [
+      174
+     ],
+     "learner": [
+      175
+     ],
+     "engagement": [
+      176
+     ],
+     "assessment": [
+      178
+     ],
+     "accuracy,": [
+      179
+     ],
+     "representing": [
+      180
+     ],
+     "step": [
+      182
+     ],
+     "toward": [
+      183
+     ],
+     "personalized": [
+      184
+     ],
+     "interactive": [
+      186
+     ],
+     "education.": [
+      188
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5109480574",
+       "display_name": "Thanh-Nghia Truong",
+       "orcid": "https://orcid.org/0000-0002-8635-8534",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8635-8534"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I92614990",
+        "display_name": "Tokyo University of Agriculture and Technology",
+        "ror": "https://ror.org/00qg0kr10",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I92614990"
+        ]
+       }
+      ],
+      "countries": [
+       "JP"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Thanh-Nghia TRUONG",
+      "raw_affiliation_strings": [
+       "Tokyo University of Agriculture and Technology"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Tokyo University of Agriculture and Technology",
+        "institution_ids": [
+         "https://openalex.org/I92614990"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5012567085",
+       "display_name": "Hung Tuan Nguyen",
+       "orcid": "https://orcid.org/0000-0003-4751-1302",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4751-1302"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I92614990",
+        "display_name": "Tokyo University of Agriculture and Technology",
+        "ror": "https://ror.org/00qg0kr10",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I92614990"
+        ]
+       }
+      ],
+      "countries": [
+       "JP"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Hung Tuan NGUYEN",
+      "raw_affiliation_strings": [
+       "Tokyo University of Agriculture and Technology"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Tokyo University of Agriculture and Technology",
+        "institution_ids": [
+         "https://openalex.org/I92614990"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5107102002",
+       "display_name": "Fumiko Yasuno",
+       "orcid": "https://orcid.org/0000-0001-9547-3131",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9547-3131"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210090328",
+        "display_name": "National Institute for Educational Policy Research",
+        "ror": "https://ror.org/007h0zf03",
+        "country_code": "JP",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I1319490839",
+         "https://openalex.org/I4210090328"
+        ]
+       }
+      ],
+      "countries": [
+       "JP"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Fumiko YASUNO",
+      "raw_affiliation_strings": [
+       "National Institute for Educational Policy Research"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "National Institute for Educational Policy Research",
+        "institution_ids": [
+         "https://openalex.org/I4210090328"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5041646980",
+       "display_name": "Vu Ngoc Thanh Sang",
+       "orcid": "https://orcid.org/0000-0001-6973-0499",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6973-0499"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I47807185",
+        "display_name": "Saigon University",
+        "ror": "https://ror.org/01f1fsr30",
+        "country_code": "VN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I47807185"
+        ]
+       }
+      ],
+      "countries": [
+       "VN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Vu Ngoc Thanh SANG",
+      "raw_affiliation_strings": [
+       "Information Science Faculty, Saigon University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Information Science Faculty, Saigon University",
+        "institution_ids": [
+         "https://openalex.org/I47807185"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5033893320",
+       "display_name": "Pham The Bao",
+       "orcid": "https://orcid.org/0000-0002-4847-4366",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4847-4366"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I47807185",
+        "display_name": "Saigon University",
+        "ror": "https://ror.org/01f1fsr30",
+        "country_code": "VN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I47807185"
+        ]
+       }
+      ],
+      "countries": [
+       "VN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Pham The BAO",
+      "raw_affiliation_strings": [
+       "Information Science Faculty, Saigon University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Information Science Faculty, Saigon University",
+        "institution_ids": [
+         "https://openalex.org/I47807185"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5138686233",
+       "display_name": "Cuong Tuan NGUYEN",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I8775707",
+        "display_name": "Vietnamese-German University",
+        "ror": "https://ror.org/01jxtqc31",
+        "country_code": "VN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I8775707"
+        ]
+       }
+      ],
+      "countries": [
+       "VN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Cuong Tuan NGUYEN",
+      "raw_affiliation_strings": [
+       "Vietnamese-German University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Vietnamese-German University",
+        "institution_ids": [
+         "https://openalex.org/I8775707"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5125670211",
+       "display_name": "Masaki Nakagawa",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I92614990",
+        "display_name": "Tokyo University of Agriculture and Technology",
+        "ror": "https://ror.org/00qg0kr10",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I92614990"
+        ]
+       }
+      ],
+      "countries": [
+       "JP"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Masaki NAKAGAWA",
+      "raw_affiliation_strings": [
+       "Tokyo University of Agriculture and Technology"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Tokyo University of Agriculture and Technology",
+        "institution_ids": [
+         "https://openalex.org/I92614990"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1587/transinf.2025edp7256",
+     "doi": "https://doi.org/10.1587/transinf.2025edp7256",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1587/transinf.2025edp7256",
+     "pdf_url": "https://www.jstage.jst.go.jp/article/transinf/advpub/0/advpub_2025EDP7256/_pdf",
+     "source": {
+      "id": "https://openalex.org/S2486202937",
+      "display_name": "IEICE Transactions on Information and Systems",
+      "issn_l": "0916-8532",
+      "issn": [
+       "0916-8532",
+       "1745-1361"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-c",
+       "jufo-1",
+       "norway-1",
+       "poland-20",
+       "russia-white-list-3"
+      ],
+      "host_organization": "https://openalex.org/P4320800604",
+      "host_organization_name": "Institute of Electronics, Information and Communication Engineers",
+      "host_organization_lineage": [
+       "https://openalex.org/P4320800604"
+      ],
+      "host_organization_lineage_names": [
+       "Institute of Electronics, Information and Communication Engineers"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "IEICE Transactions on Information and Systems",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

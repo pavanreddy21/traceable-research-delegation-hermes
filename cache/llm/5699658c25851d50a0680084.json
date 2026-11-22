@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a2020e-1e80-79b7-b183-d1cfaca15901",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330809,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 directly states that heavy media multitaskers performed worse on a test of task-switching ability than light media multitaskers.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 310,
+  "completion_tokens": 49,
+  "total_tokens": 359,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.21
+}

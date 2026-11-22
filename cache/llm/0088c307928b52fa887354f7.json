@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a2020c-49d0-7596-a350-dad2099874a7",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330689,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 directly states that a short online growth mindset intervention improved grades among lower-achieving students in a nationally representative US secondary sample.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 304,
+  "completion_tokens": 49,
+  "total_tokens": 353,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 1.23
+}

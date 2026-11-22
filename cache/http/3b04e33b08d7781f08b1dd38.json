@@ -1,0 +1,1296 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 3853,
+   "db_response_time_ms": 77,
+   "page": 1,
+   "per_page": 2,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (consequences of media multitasking for youth review) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (consequences of media multitasking for youth review) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "consequences of media multitasking for youth review",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:consequences of media multitasking for youth review,has_abstract:true,language:en,type:article|review&per_page=2",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W3177334086",
+    "doi": "https://doi.org/10.3389/fpsyg.2021.623643",
+    "title": "Media Multitasking: A Bibliometric Approach and Literature Review",
+    "display_name": "Media Multitasking: A Bibliometric Approach and Literature Review",
+    "publication_year": 2021,
+    "cited_by_count": 87,
+    "abstract_inverted_index": {
+     "Media": [
+      0
+     ],
+     "multitasking": [
+      1,
+      80,
+      112,
+      133,
+      137,
+      180,
+      210
+     ],
+     "became": [
+      2
+     ],
+     "increasingly": [
+      3
+     ],
+     "popular": [
+      4
+     ],
+     "over": [
+      5
+     ],
+     "the": [
+      6,
+      47,
+      50,
+      76,
+      95,
+      107,
+      130,
+      150,
+      156,
+      176,
+      182,
+      206,
+      226
+     ],
+     "past": [
+      7
+     ],
+     "decade.": [
+      8
+     ],
+     "As": [
+      9
+     ],
+     "this": [
+      10,
+      159
+     ],
+     "behavior": [
+      11,
+      51,
+      162
+     ],
+     "is": [
+      12
+     ],
+     "intensely": [
+      13
+     ],
+     "taxing": [
+      14
+     ],
+     "cognitive": [
+      15,
+      165,
+      220
+     ],
+     "resources,": [
+      16
+     ],
+     "it": [
+      17
+     ],
+     "has": [
+      18,
+      43
+     ],
+     "raised": [
+      19
+     ],
+     "interest": [
+      20
+     ],
+     "and": [
+      21,
+      38,
+      46,
+      86,
+      116,
+      127,
+      145,
+      167,
+      186,
+      219
+     ],
+     "concerns": [
+      22
+     ],
+     "among": [
+      23
+     ],
+     "academics": [
+      24
+     ],
+     "in": [
+      25,
+      31,
+      106,
+      129,
+      155,
+      172
+     ],
+     "a": [
+      26,
+      53,
+      99,
+      212
+     ],
+     "variety": [
+      27,
+      55
+     ],
+     "of": [
+      28,
+      49,
+      56,
+      78,
+      110,
+      158,
+      178,
+      184,
+      208
+     ],
+     "fields.": [
+      29
+     ],
+     "Consequently,": [
+      30
+     ],
+     "recent": [
+      32
+     ],
+     "years,": [
+      33
+     ],
+     "research": [
+      34,
+      81,
+      92,
+      125,
+      138,
+      148,
+      204
+     ],
+     "on": [
+      35,
+      90,
+      163,
+      171,
+      181,
+      192,
+      215,
+      223
+     ],
+     "how,": [
+      36
+     ],
+     "when,": [
+      37
+     ],
+     "why": [
+      39
+     ],
+     "people": [
+      40
+     ],
+     "media": [
+      41,
+      79,
+      111,
+      132,
+      136,
+      160,
+      179,
+      209
+     ],
+     "multitask": [
+      42
+     ],
+     "strongly": [
+      44
+     ],
+     "emerged,": [
+      45
+     ],
+     "consequences": [
+      48
+     ],
+     "for": [
+      52,
+      232
+     ],
+     "great": [
+      54
+     ],
+     "outcomes": [
+      57
+     ],
+     "(such": [
+      58
+     ],
+     "as": [
+      59
+     ],
+     "working": [
+      60
+     ],
+     "memory,": [
+      61
+     ],
+     "task": [
+      62
+     ],
+     "performance,": [
+      63
+     ],
+     "or": [
+      64
+     ],
+     "socioemotional": [
+      65,
+      193
+     ],
+     "outcomes)": [
+      66
+     ],
+     "have": [
+      67
+     ],
+     "been": [
+      68
+     ],
+     "explored.": [
+      69
+     ],
+     "While": [
+      70,
+      135
+     ],
+     "efforts": [
+      71
+     ],
+     "are": [
+      72
+     ],
+     "made": [
+      73
+     ],
+     "to": [
+      74,
+      102
+     ],
+     "summarize": [
+      75
+     ],
+     "findings": [
+      77
+     ],
+     "until": [
+      82
+     ],
+     "date,": [
+      83
+     ],
+     "these": [
+      84,
+      224
+     ],
+     "meta,": [
+      85
+     ],
+     "literature": [
+      87
+     ],
+     "studies": [
+      88,
+      105
+     ],
+     "focused": [
+      89
+     ],
+     "specific": [
+      91
+     ],
+     "subdomains.": [
+      93
+     ],
+     "Therefore,": [
+      94
+     ],
+     "current": [
+      96
+     ],
+     "study": [
+      97
+     ],
+     "adopted": [
+      98
+     ],
+     "quantitative": [
+      100
+     ],
+     "method": [
+      101
+     ],
+     "map": [
+      103
+     ],
+     "all": [
+      104
+     ],
+     "broad": [
+      108
+     ],
+     "field": [
+      109,
+      207
+     ],
+     "research.": [
+      113,
+      234
+     ],
+     "The": [
+      114
+     ],
+     "bibliometric": [
+      115
+     ],
+     "thematic": [
+      117
+     ],
+     "content": [
+      118
+     ],
+     "analyses": [
+      119,
+      201
+     ],
+     "helped": [
+      120
+     ],
+     "us": [
+      121
+     ],
+     "identifying": [
+      122
+     ],
+     "five": [
+      123
+     ],
+     "major": [
+      124
+     ],
+     "topics": [
+      126
+     ],
+     "trends": [
+      128
+     ],
+     "overall": [
+      131
+     ],
+     "domain.": [
+      134
+     ],
+     "started": [
+      139
+     ],
+     "by": [
+      140,
+      229
+     ],
+     "studying": [
+      141
+     ],
+     "its": [
+      142,
+      190
+     ],
+     "prevalence,": [
+      143
+     ],
+     "appearance,": [
+      144
+     ],
+     "predictors,": [
+      146
+     ],
+     "early": [
+      147
+     ],
+     "within": [
+      149,
+      205
+     ],
+     "domain": [
+      151
+     ],
+     "was": [
+      152
+     ],
+     "also": [
+      153
+     ],
+     "interested": [
+      154
+     ],
+     "impact": [
+      157,
+      191
+     ],
+     "consumption": [
+      161
+     ],
+     "individuals'": [
+      164
+     ],
+     "control": [
+      166
+     ],
+     "academic": [
+      168
+     ],
+     "performance.": [
+      169
+     ],
+     "Later": [
+      170
+     ],
+     "2007,": [
+      173
+     ],
+     "scholars": [
+      174
+     ],
+     "investigated": [
+      175
+     ],
+     "implications": [
+      177
+     ],
+     "processing": [
+      183
+     ],
+     "media-": [
+      185
+     ],
+     "persuasive": [
+      187
+     ],
+     "content,": [
+      188
+     ],
+     "while": [
+      189
+     ],
+     "well-being": [
+      194
+     ],
+     "received": [
+      195
+     ],
+     "attention": [
+      196
+     ],
+     "ever": [
+      197
+     ],
+     "since": [
+      198
+     ],
+     "2009.": [
+      199
+     ],
+     "Our": [
+      200
+     ],
+     "indicate": [
+      202
+     ],
+     "that": [
+      203
+     ],
+     "knows": [
+      211
+     ],
+     "dominant": [
+      213
+     ],
+     "focus": [
+      214
+     ],
+     "adolescents,": [
+      216
+     ],
+     "television": [
+      217
+     ],
+     "watching,": [
+      218
+     ],
+     "depletion.": [
+      221
+     ],
+     "Based": [
+      222
+     ],
+     "findings,": [
+      225
+     ],
+     "paper": [
+      227
+     ],
+     "concludes": [
+      228
+     ],
+     "discussing": [
+      230
+     ],
+     "directions": [
+      231
+     ],
+     "future": [
+      233
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5045082282",
+       "display_name": "Emma Beuckels",
+       "orcid": "https://orcid.org/0000-0002-5799-3475",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5799-3475"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I32597200",
+        "display_name": "Ghent University",
+        "ror": "https://ror.org/00cv9y106",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I32597200"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Emma Beuckels",
+      "raw_affiliation_strings": [
+       "Center of Persuasive Communication, Ghent University, Ghent, Belgium"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center of Persuasive Communication, Ghent University, Ghent, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I32597200"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5024110176",
+       "display_name": "Guoquan Ye",
+       "orcid": "https://orcid.org/0000-0002-0623-9157",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0623-9157"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I9224756",
+        "display_name": "Northeastern University",
+        "ror": "https://ror.org/03awzbc87",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I9224756"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Guoquan Ye",
+      "raw_affiliation_strings": [
+       "School of Business Administration, Northeastern University, Shenyang, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Business Administration, Northeastern University, Shenyang, China",
+        "institution_ids": [
+         "https://openalex.org/I9224756"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5028800885",
+       "display_name": "Liselot Hudders",
+       "orcid": "https://orcid.org/0000-0002-9585-7175",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9585-7175"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I32597200",
+        "display_name": "Ghent University",
+        "ror": "https://ror.org/00cv9y106",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I32597200"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Liselot Hudders",
+      "raw_affiliation_strings": [
+       "Center of Persuasive Communication, Ghent University, Ghent, Belgium",
+       "Department of Marketing, Ghent University, Ghent, Belgium"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center of Persuasive Communication, Ghent University, Ghent, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I32597200"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Marketing, Ghent University, Ghent, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I32597200"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5031050101",
+       "display_name": "Veroline Cauberghe",
+       "orcid": "https://orcid.org/0000-0003-0713-8486",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0713-8486"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I32597200",
+        "display_name": "Ghent University",
+        "ror": "https://ror.org/00cv9y106",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I32597200"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Veroline Cauberghe",
+      "raw_affiliation_strings": [
+       "Center of Persuasive Communication, Ghent University, Ghent, Belgium"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center of Persuasive Communication, Ghent University, Ghent, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I32597200"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2021.623643",
+     "doi": "https://doi.org/10.3389/fpsyg.2021.623643",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2021.623643",
+     "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2021.623643/pdf",
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2902619321",
+    "doi": "https://doi.org/10.1177/0959354318815766",
+    "title": "Multitasking as distraction: A conceptual analysis of media multitasking research",
+    "display_name": "Multitasking as distraction: A conceptual analysis of media multitasking research",
+    "publication_year": 2018,
+    "cited_by_count": 132,
+    "abstract_inverted_index": {
+     "The": [
+      0,
+      56
+     ],
+     "word": [
+      1,
+      70
+     ],
+     "\u201cmultitasking\u201d": [
+      2,
+      71
+     ],
+     "gets": [
+      3
+     ],
+     "thrown": [
+      4
+     ],
+     "around": [
+      5
+     ],
+     "a": [
+      6,
+      20,
+      105,
+      111
+     ],
+     "lot": [
+      7
+     ],
+     "these": [
+      8
+     ],
+     "days.": [
+      9
+     ],
+     "For": [
+      10
+     ],
+     "years": [
+      11
+     ],
+     "it": [
+      12
+     ],
+     "was": [
+      13
+     ],
+     "touted": [
+      14
+     ],
+     "as": [
+      15
+     ],
+     "the": [
+      16,
+      48,
+      69,
+      82,
+      88,
+      95,
+      135
+     ],
+     "cognitive": [
+      17
+     ],
+     "default": [
+      18
+     ],
+     "for": [
+      19,
+      147
+     ],
+     "new": [
+      21
+     ],
+     "generation": [
+      22
+     ],
+     "of": [
+      23,
+      40,
+      50,
+      58,
+      84,
+      108,
+      138
+     ],
+     "digital": [
+      24
+     ],
+     "natives,": [
+      25
+     ],
+     "but": [
+      26,
+      110
+     ],
+     "psychologists": [
+      27
+     ],
+     "are": [
+      28
+     ],
+     "increasingly": [
+      29
+     ],
+     "warning": [
+      30
+     ],
+     "us": [
+      31
+     ],
+     "against": [
+      32
+     ],
+     "its": [
+      33
+     ],
+     "harmful": [
+      34
+     ],
+     "effects": [
+      35
+     ],
+     "on": [
+      36
+     ],
+     "many": [
+      37
+     ],
+     "different": [
+      38
+     ],
+     "forms": [
+      39
+     ],
+     "human": [
+      41
+     ],
+     "activity.": [
+      42,
+      118
+     ],
+     "What": [
+      43
+     ],
+     "exactly": [
+      44
+     ],
+     "is": [
+      45,
+      61,
+      72,
+      123
+     ],
+     "meant": [
+      46
+     ],
+     "by": [
+      47
+     ],
+     "concept": [
+      49
+     ],
+     "multitasking,": [
+      51
+     ],
+     "however,": [
+      52
+     ],
+     "remains": [
+      53
+     ],
+     "peculiarly": [
+      54
+     ],
+     "taken-for-granted.": [
+      55
+     ],
+     "purpose": [
+      57
+     ],
+     "this": [
+      59,
+      132
+     ],
+     "article": [
+      60,
+      89,
+      129
+     ],
+     "therefore": [
+      62
+     ],
+     "to": [
+      63,
+      126
+     ],
+     "analyze,": [
+      64
+     ],
+     "evaluate,": [
+      65
+     ],
+     "and": [
+      66,
+      116,
+      143
+     ],
+     "interpret": [
+      67
+     ],
+     "how": [
+      68,
+      131
+     ],
+     "currently": [
+      73
+     ],
+     "being": [
+      74
+     ],
+     "used": [
+      75
+     ],
+     "in": [
+      76,
+      81,
+      94,
+      102
+     ],
+     "scientific": [
+      77,
+      136
+     ],
+     "practice.": [
+      78
+     ],
+     "Taking": [
+      79
+     ],
+     "departure": [
+      80
+     ],
+     "domain": [
+      83
+     ],
+     "media": [
+      85,
+      140
+     ],
+     "multitasking": [
+      86,
+      122,
+      141
+     ],
+     "research,": [
+      87
+     ],
+     "reveals": [
+      90
+     ],
+     "an": [
+      91
+     ],
+     "unacknowledged": [
+      92
+     ],
+     "normativity": [
+      93
+     ],
+     "empirical": [
+      96
+     ],
+     "research": [
+      97,
+      142
+     ],
+     "literature:": [
+      98
+     ],
+     "Multitasking": [
+      99
+     ],
+     "does": [
+      100
+     ],
+     "not": [
+      101
+     ],
+     "fact": [
+      103
+     ],
+     "denote": [
+      104
+     ],
+     "quantitative": [
+      106
+     ],
+     "enumeration": [
+      107
+     ],
+     "tasks,": [
+      109
+     ],
+     "qualitative": [
+      112
+     ],
+     "distinction": [
+      113
+     ],
+     "between": [
+      114
+     ],
+     "on-": [
+      115
+     ],
+     "off-task": [
+      117
+     ],
+     "In": [
+      119
+     ],
+     "other": [
+      120
+     ],
+     "words,": [
+      121
+     ],
+     "functionally": [
+      124
+     ],
+     "equivalent": [
+      125
+     ],
+     "distraction.": [
+      127
+     ],
+     "This": [
+      128
+     ],
+     "discusses": [
+      130
+     ],
+     "insight": [
+      133
+     ],
+     "challenges": [
+      134
+     ],
+     "rationality": [
+      137
+     ],
+     "current": [
+      139
+     ],
+     "concludes": [
+      144
+     ],
+     "with": [
+      145
+     ],
+     "implications": [
+      146
+     ],
+     "future": [
+      148
+     ],
+     "research.": [
+      149
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5041030859",
+       "display_name": "Jesper Aagaard",
+       "orcid": "https://orcid.org/0000-0002-3260-7005",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3260-7005"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204337017",
+        "display_name": "Aarhus University",
+        "ror": "https://ror.org/01aj84f44",
+        "country_code": "DK",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204337017"
+        ]
+       }
+      ],
+      "countries": [
+       "DK"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Jesper Aagaard",
+      "raw_affiliation_strings": [
+       "Aarhus University"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-3260-7005",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Aarhus University",
+        "institution_ids": [
+         "https://openalex.org/I204337017"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1177/0959354318815766",
+     "doi": "https://doi.org/10.1177/0959354318815766",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1177/0959354318815766",
+     "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/0959354318815766",
+     "source": {
+      "id": "https://openalex.org/S110667073",
+      "display_name": "Theory & Psychology",
+      "issn_l": "0959-3543",
+      "issn": [
+       "0959-3543",
+       "1461-7447"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-b",
+       "erih-plus",
+       "jufo-2",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320017",
+      "host_organization_name": "SAGE Publishing",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320017"
+      ],
+      "host_organization_lineage_names": [
+       "SAGE Publishing"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Theory &amp; Psychology",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

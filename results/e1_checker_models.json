@@ -1,0 +1,818 @@
+{
+ "google/gemma-4-12B-it": {
+  "accuracy": 0.969,
+  "true_accept_rate": 0.941,
+  "false_accept_rate": 0.0,
+  "errors": 0,
+  "mean_request_seconds": 7.6,
+  "recorded_llm_seconds": 242.4,
+  "prompt_tokens": 10440,
+  "completion_tokens": 1588,
+  "items": [
+   {
+    "id": "C01",
+    "label": "supported",
+    "verdict": "not_supported",
+    "reason": "checker reply unparseable; treated as unsupported"
+   },
+   {
+    "id": "C02",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "checker reply unparseable; treated as unsupported"
+   },
+   {
+    "id": "C03",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "checker reply unparseable; treated as unsupported"
+   },
+   {
+    "id": "C04",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage [1] explicitly states that when the final test was given after 5 minutes, repeated studying improved recall relative to repeated testing."
+   },
+   {
+    "id": "C05",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage [1] explicitly states that students who took notes on laptops performed worse on conceptual questions than those who took notes longhand."
+   },
+   {
+    "id": "C06",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source suggests that laptops impair learning due to shallower processing even when used solely for note-taking, rather than primarily because of browsing or multitasking."
+   },
+   {
+    "id": "C07",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "The passage explicitly states that laptop note takers have a tendency to transcribe lectures verbatim rather than processing and reframing the information in their own words."
+   },
+   {
+    "id": "C08",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "checker reply unparseable; treated as unsupported"
+   },
+   {
+    "id": "C09",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "The passage explicitly states that immediate post-test performance showed no significant differences across the different notetaking conditions."
+   },
+   {
+    "id": "C10",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "checker reply unparseable; treated as unsupported"
+   },
+   {
+    "id": "C11",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "The passage explicitly states that the ISI producing maximal retention increased as the retention interval increased."
+   },
+   {
+    "id": "C12",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The passage contradicts the claim by stating that the optimal interstudy interval (ISI) increased as the retention interval increased."
+   },
+   {
+    "id": "C13",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage [1] explicitly states that the review found 839 assessments of distributed practice in 317 experiments."
+   },
+   {
+    "id": "C14",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source states there were 317 experiments and 839 assessments, which is the inverse of the numbers provided in the claim."
+   },
+   {
+    "id": "C15",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "The passage explicitly states that overall effects were weak for both meta-analyses."
+   },
+   {
+    "id": "C16",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source states that the overall effects of growth mind-set interventions were weak, contradicting the claim that they produced large gains."
+   },
+   {
+    "id": "C17",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "The passage explicitly states that some results supported the idea that students with low socioeconomic status or who are academically at risk might benefit from mind-set interventions."
+   },
+   {
+    "id": "C18",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage [1] explicitly states that a short, online growth mindset intervention improved grades among lower-achieving students in a nationally representative sample of US secondary students."
+   },
+   {
+    "id": "C19",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source states that the intervention changed grades specifically when peer norms aligned with the intervention messages, rather than improving grades equally regardless of peer norms."
+   },
+   {
+    "id": "C20",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 explicitly states that the growth mindset intervention increased overall enrolment to advanced mathematics courses in a nationally representative sample of students."
+   },
+   {
+    "id": "C21",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "The passage explicitly states that a comparison of studies shows background music disturbs the reading process compared to no music."
+   },
+   {
+    "id": "C22",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source states that background music has 'some small detrimental effects on memory' rather than improving it."
+   },
+   {
+    "id": "C23",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "The passage explicitly states that a global analysis shows a null effect."
+   },
+   {
+    "id": "C24",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage [1] explicitly states that recent work has revealed the importance of slow-wave sleep for memory consolidation."
+   },
+   {
+    "id": "C25",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source states that consolidation occurs during slow-wave sleep (SWS) rather than identifying REM sleep as the main stage."
+   },
+   {
+    "id": "C26",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "The passage explicitly states that the beneficial after-effects of acute aerobic exercise on cognitive performance were greater in participants with lower cognitive performance at pre-test."
+   },
+   {
+    "id": "C27",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "checker reply unparseable; treated as unsupported"
+   },
+   {
+    "id": "C28",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "The passage explicitly states that heavy media multitaskers performed worse on a test of task-switching ability compared to the results of the study's comparisons."
+   },
+   {
+    "id": "C29",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "checker reply unparseable; treated as unsupported"
+   },
+   {
+    "id": "C30",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "checker reply unparseable; treated as unsupported"
+   },
+   {
+    "id": "C31",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage [1] explicitly states that example-problem pairs did not promote delayed test performance compared with restudying examples."
+   },
+   {
+    "id": "C32",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "checker reply unparseable; treated as unsupported"
+   }
+  ]
+ },
+ "zai-org/GLM-5.3-Flash": {
+  "accuracy": 0.969,
+  "true_accept_rate": 1.0,
+  "false_accept_rate": 0.067,
+  "errors": 0,
+  "mean_request_seconds": 6.0,
+  "recorded_llm_seconds": 192.4,
+  "prompt_tokens": 9957,
+  "completion_tokens": 6797,
+  "items": [
+   {
+    "id": "C01",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 3 states that on delayed tests prior testing produced substantially greater retention than studying, and passage 1 establishes those delayed final tests were given 2 days or 1 week later with students studying prose passages and taking practice recall tests versus restudying."
+   },
+   {
+    "id": "C02",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source states the opposite: on delayed tests including one week, prior testing produced substantially greater retention than studying, with repeated studying beating testing only at the 5-minute delay (passage 2)."
+   },
+   {
+    "id": "C03",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The passage states that repeated studying (restudying), not practice testing, increased students' confidence in their ability to remember the material, while testing produced greater retention, which contradicts the claim."
+   },
+   {
+    "id": "C04",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that when the final test was given after 5 minutes, repeated studying improved recall relative to repeated testing, matching the claim's direction, task, and outcome."
+   },
+   {
+    "id": "C05",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 states verbatim that students who took notes on laptops performed worse on conceptual questions than students who took notes longhand, matching the claim's population, task, and outcome exactly."
+   },
+   {
+    "id": "C06",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source explicitly argues that laptop note takers learned less even when using laptops solely for note taking, attributing the deficit to shallower processing and verbatim transcription rather than distraction or multitasking."
+   },
+   {
+    "id": "C07",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that laptop note takers tend to transcribe lectures verbatim rather than processing information and reframing it in their own words."
+   },
+   {
+    "id": "C08",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The passage states the opposite\u2014that taking more notes can be beneficial\u2014and attributes harm to verbatim transcription rather than note volume, contradicting the claim."
+   },
+   {
+    "id": "C09",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 explicitly states that immediate post-test performance showed no significant differences across the notetaking device conditions (ink pens, digital pens, keyboards), matching the claim's population, task, and outcome."
+   },
+   {
+    "id": "C10",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "Passage 1 explicitly states that immediate post-test performance showed no significant differences across conditions, directly contradicting the claim that pen users scored significantly higher than keyboard users."
+   },
+   {
+    "id": "C11",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that the ISI producing maximal retention increased as retention interval increased, matching the claim's direction and outcome."
+   },
+   {
+    "id": "C12",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "Passage 3 states the opposite of the claim: the ISI producing maximal retention increased as the retention interval increased, meaning the optimal spacing interval varies with retention duration rather than staying the same."
+   },
+   {
+    "id": "C13",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that the review found 839 assessments of distributed practice in 317 experiments, matching the claim's numbers and scope."
+   },
+   {
+    "id": "C14",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "Passage 1 states the review found 839 assessments in 317 experiments, which reverses the numbers in the claim (317 assessments from 839 experiments)."
+   },
+   {
+    "id": "C15",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that overall effects were weak for both meta-analyses, matching the claim's scope (mind-sets and mind-set interventions on academic achievement) and direction."
+   },
+   {
+    "id": "C16",
+    "label": "not_supported",
+    "verdict": "partial",
+    "reason": "The source reports overall effects were weak, supporting only a narrower qualified version of the claim\u2014that low-SES or academically at-risk students might benefit\u2014rather than large gains for students in general."
+   },
+   {
+    "id": "C17",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that students with low socioeconomic status or who are academically at risk might benefit from mind-set interventions, matching the claim's population, intervention, and hedged direction."
+   },
+   {
+    "id": "C18",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that a short online growth mindset intervention improved grades among lower-achieving students in a nationally representative sample of US secondary students, matching the claim's population, intervention, and outcome."
+   },
+   {
+    "id": "C19",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "Passage 1 states the intervention changed grades only when peer norms aligned with the intervention's messages, directly contradicting the claim that grades improved equally in every school regardless of peer norms."
+   },
+   {
+    "id": "C20",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 explicitly states that the growth mindset intervention 'increased overall enrolment to advanced mathematics courses,' matching the claim's direction, population, and outcome."
+   },
+   {
+    "id": "C21",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that a comparison of background music versus no music indicates background music disturbs the reading process, matching the claim's comparison, direction, and outcome."
+   },
+   {
+    "id": "C22",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source states that background music has some small detrimental effects on memory, which contradicts the claim that it improves memory."
+   },
+   {
+    "id": "C23",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 3 directly states that a global analysis shows a null effect, matching the claim's direction, population, and outcome."
+   },
+   {
+    "id": "C24",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that recent work has revealed the importance of slow-wave sleep (SWS) for memory consolidation, matching the claim's direction and content."
+   },
+   {
+    "id": "C25",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source states that recent work has revealed the importance of slow-wave sleep (SWS) for memory consolidation, with reactivation occurring during SWS, which contradicts the claim that REM sleep rather than SWS is the main stage."
+   },
+   {
+    "id": "C26",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that the beneficial after-effects of acute aerobic exercise on cognitive performance were greater in participants with lower pre-test cognitive performance, matching the claim's direction, population, and outcome."
+   },
+   {
+    "id": "C27",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source states the opposite: benefits of acute aerobic exercise were greater in participants with lower cognitive performance at pre-test, not only in those with high performance."
+   },
+   {
+    "id": "C28",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that heavy media multitaskers performed worse on a test of task-switching ability, matching the claim's population, task, and direction of effect."
+   },
+   {
+    "id": "C29",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The passage states the opposite: heavy media multitaskers were more susceptible to interference from irrelevant stimuli, indicating a reduced (not better) ability to filter out irrelevant stimuli."
+   },
+   {
+    "id": "C30",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The passages only report that heavy media multitaskers performed worse on cognitive task-switching due to interference filtering deficits, with no mention of academic grades and no causal evidence linking multitasking to academic outcomes."
+   },
+   {
+    "id": "C31",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that compared with restudying examples (SSSS), example-problem pairs (STST) did not promote delayed test performance, matching the claim's direction, task (math word problems per passage 3), and outcome."
+   },
+   {
+    "id": "C32",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "Passage 2 directly contradicts the claim, stating that across all three experiments there was no evidence of retrieval practice affecting delayed test performance on problem-solving skills."
+   }
+  ]
+ },
+ "deepseek-ai/DeepSeek-V4.1-Flash-1017": {
+  "accuracy": 1.0,
+  "true_accept_rate": 1.0,
+  "false_accept_rate": 0.0,
+  "errors": 0,
+  "mean_request_seconds": 4.7,
+  "recorded_llm_seconds": 150.5,
+  "prompt_tokens": 10598,
+  "completion_tokens": 5402,
+  "items": [
+   {
+    "id": "C01",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 3 states that on delayed tests, prior testing produced substantially greater retention than studying, matching the claim for the two-day and one-week delayed tests described in passage 1."
+   },
+   {
+    "id": "C02",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "Passage 1 states that on delayed tests prior testing produced greater retention than studying, contradicting the claim that repeated studying was better one week later."
+   },
+   {
+    "id": "C03",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The passage says repeated studying increased students' confidence, not that practice testing increased confidence more than restudying did."
+   },
+   {
+    "id": "C04",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 states that when the final test was given after 5 minutes, repeated studying improved recall relative to repeated testing."
+   },
+   {
+    "id": "C05",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that laptop note takers performed worse on conceptual questions than longhand note takers."
+   },
+   {
+    "id": "C06",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "Passage 1 says laptops may impair learning even when used solely for note taking because of shallower processing, not mainly because of browsing or multitasking distraction."
+   },
+   {
+    "id": "C07",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 states that laptop note takers had a tendency to transcribe lectures verbatim rather than processing and reframing the information in their own words."
+   },
+   {
+    "id": "C08",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "Passage 1 says taking more notes can be beneficial and that the detrimental factor is verbatim transcription rather than note volume."
+   },
+   {
+    "id": "C09",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 states that immediate post-test performance showed no significant differences across conditions, matching the claim about the writing-device conditions."
+   },
+   {
+    "id": "C10",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "Passage 1 states that immediate post-test performance showed no significant differences across conditions, contradicting the claim that pen users scored significantly higher than keyboard users."
+   },
+   {
+    "id": "C11",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 states that the ISI producing maximal retention increased as retention interval increased, matching the claim."
+   },
+   {
+    "id": "C12",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "Passage 3 states that the optimal interstudy interval increased as retention interval increased, contradicting the claim that the best spacing interval is the same regardless of retention length."
+   },
+   {
+    "id": "C13",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 states the review found 839 assessments of distributed practice in 317 experiments."
+   },
+   {
+    "id": "C14",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "Passage 1 states the review found 839 assessments in 317 experiments, which reverses the numbers in the claim."
+   },
+   {
+    "id": "C15",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 states that overall effects were weak for both meta-analyses, matching the claim."
+   },
+   {
+    "id": "C16",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source states that overall effects were weak and only some at-risk or low-SES students might benefit, contradicting the claim of large gains for students in general."
+   },
+   {
+    "id": "C17",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that students with low socioeconomic status or who are academically at risk might benefit from mind-set interventions."
+   },
+   {
+    "id": "C18",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 states that a short online growth mindset intervention improved grades among lower-achieving students in a nationally representative US secondary student sample."
+   },
+   {
+    "id": "C19",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "Passage 1 states the intervention changed grades when peer norms aligned with its messages, contradicting the claim that it improved grades equally in every school regardless of peer norms."
+   },
+   {
+    "id": "C20",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 states that the growth mindset intervention increased overall enrolment to advanced mathematics courses in a nationally representative sample."
+   },
+   {
+    "id": "C21",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 states that compared with no music, background music disturbs the reading process."
+   },
+   {
+    "id": "C22",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "Passage 2 states that background music has some small detrimental effects on memory, contradicting the claim that it improves memory."
+   },
+   {
+    "id": "C23",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 3 explicitly states that a global analysis shows a null effect."
+   },
+   {
+    "id": "C24",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that recent work has revealed the importance of slow-wave sleep for memory consolidation."
+   },
+   {
+    "id": "C25",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The passages indicate recent work emphasizes slow-wave sleep for memory consolidation, not that REM sleep is the main stage."
+   },
+   {
+    "id": "C26",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that the beneficial after-effects of acute aerobic exercise on cognitive performance were greater in participants with lower pre-test cognitive performance."
+   },
+   {
+    "id": "C27",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "Passage 1 states benefits were greater in participants with lower pre-test cognitive performance and were general when pre-test performance was controlled, contradicting the claim that only high performers benefited."
+   },
+   {
+    "id": "C28",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that heavy media multitaskers performed worse on a test of task-switching ability."
+   },
+   {
+    "id": "C29",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "Passage 1 states heavy media multitaskers were more susceptible to interference from irrelevant stimuli, contradicting the claim that they were better at filtering it out."
+   },
+   {
+    "id": "C30",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The passages discuss cognitive control and task-switching performance in heavy media multitaskers, not academic grades or a causal effect on college students' grades."
+   },
+   {
+    "id": "C31",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 states that compared with restudying examples, example-problem pairs did not promote delayed test performance."
+   },
+   {
+    "id": "C32",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "Passage 2 states that across the three experiments there was no evidence of retrieval practice affecting delayed test results, contradicting the claim."
+   }
+  ]
+ },
+ "deepseek-ai/DeepSeek-V4-Pro-0813": {
+  "accuracy": 0.969,
+  "true_accept_rate": 1.0,
+  "false_accept_rate": 0.067,
+  "errors": 0,
+  "mean_request_seconds": 2.4,
+  "recorded_llm_seconds": 77.9,
+  "prompt_tokens": 9766,
+  "completion_tokens": 1498,
+  "items": [
+   {
+    "id": "C01",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 3 states that on delayed tests, prior testing produced substantially greater retention than studying, matching the claim's direction and outcome for delayed retention."
+   },
+   {
+    "id": "C02",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "Passage 2 states repeated studying improved recall only when the final test was given after 5 minutes, not one week later, so the claim contradicts the source."
+   },
+   {
+    "id": "C03",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source states that repeated studying, not practice testing, increased students' confidence in their ability to remember the material."
+   },
+   {
+    "id": "C04",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that when the final test was given after 5 minutes, repeated studying improved recall relative to repeated testing."
+   },
+   {
+    "id": "C05",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that students who took notes on laptops performed worse on conceptual questions than students who took notes longhand."
+   },
+   {
+    "id": "C06",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source explicitly says the present research suggests laptops impair learning even when used solely to take notes, due to shallower processing, not mainly because of distraction or multitasking."
+   },
+   {
+    "id": "C07",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 explicitly states that laptop note takers tended to transcribe lectures verbatim rather than processing and reframing information in their own words."
+   },
+   {
+    "id": "C08",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source says taking more notes can be beneficial and that verbatim transcription is detrimental, not that a larger volume of notes is harmful."
+   },
+   {
+    "id": "C09",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 explicitly states that immediate post-test performance showed no significant differences across conditions, directly supporting the claim."
+   },
+   {
+    "id": "C10",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source states that immediate post-test performance showed no significant differences across conditions, directly contradicting the claim that pen users scored significantly higher."
+   },
+   {
+    "id": "C11",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that the ISI producing maximal retention increased as retention interval increased."
+   },
+   {
+    "id": "C12",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source states that the optimal interstudy interval increases as retention interval increases, which contradicts the claim that the best spacing interval is the same regardless of retention duration."
+   },
+   {
+    "id": "C13",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 states the review found 839 assessments of distributed practice in 317 experiments, directly matching the claim."
+   },
+   {
+    "id": "C14",
+    "label": "not_supported",
+    "verdict": "supported",
+    "reason": "Passage 1 states the review found 839 assessments of distributed practice in 317 experiments, matching the claim."
+   },
+   {
+    "id": "C15",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 explicitly states that overall effects were weak for both meta-analyses, directly supporting the claim."
+   },
+   {
+    "id": "C16",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source states that overall effects were weak and only some students at risk might benefit, contradicting the claim of large gains for students in general."
+   },
+   {
+    "id": "C17",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that students with low socioeconomic status or who are academically at risk might benefit from mind-set interventions."
+   },
+   {
+    "id": "C18",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that a short online growth mindset intervention improved grades among lower-achieving students in a nationally representative US secondary sample."
+   },
+   {
+    "id": "C19",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source says the intervention changed grades only when peer norms aligned with the intervention, contradicting the claim that it improved grades equally in every school regardless of peer norms."
+   },
+   {
+    "id": "C20",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 explicitly states that the growth mindset intervention increased overall enrolment to advanced mathematics courses."
+   },
+   {
+    "id": "C21",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 explicitly states that background music compared to no music disturbs the reading process."
+   },
+   {
+    "id": "C22",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source states background music has small detrimental effects on memory, contradicting the claim that it improves memory."
+   },
+   {
+    "id": "C23",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 3 explicitly states that a global analysis shows a null effect."
+   },
+   {
+    "id": "C24",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 explicitly states that recent work has revealed the importance of slow-wave sleep for memory consolidation."
+   },
+   {
+    "id": "C25",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source emphasizes the importance of slow-wave sleep (SWS) for memory consolidation, contradicting the claim that REM sleep is the main stage."
+   },
+   {
+    "id": "C26",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that the beneficial after-effects of acute aerobic exercise on cognitive performance were greater in participants with lower cognitive performance at pre-test."
+   },
+   {
+    "id": "C27",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source states the opposite: benefits were greater in participants with lower cognitive performance at pre-test, not only in those with high pre-test performance."
+   },
+   {
+    "id": "C28",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that heavy media multitaskers performed worse on a test of task-switching ability than light media multitaskers."
+   },
+   {
+    "id": "C29",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source states heavy media multitaskers were worse at filtering out irrelevant stimuli, directly contradicting the claim."
+   },
+   {
+    "id": "C30",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source discusses cognitive control and task-switching performance, not academic grades in college students."
+   },
+   {
+    "id": "C31",
+    "label": "supported",
+    "verdict": "supported",
+    "reason": "Passage 1 directly states that compared with restudying examples, example-problem pairs did not promote delayed test performance on math word problems."
+   },
+   {
+    "id": "C32",
+    "label": "not_supported",
+    "verdict": "not_supported",
+    "reason": "The source explicitly states that across the three experiments, there was no evidence of retrieval practice affecting delayed test results, contradicting the claim that it reliably improved problem-solving."
+   }
+  ]
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a2020c-d683-79e2-9d8d-46df5a7dafa6",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330725,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 explicitly states that background music compared to no music disturbs the reading process.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 287,
+  "completion_tokens": 39,
+  "total_tokens": 326,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 1.24
+}

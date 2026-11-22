@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a2023c-e0c3-7b3c-99ab-56505f2d25b1",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795333873,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"My first search did return candidate sources, so I will fetch the most relevant one to verify its abstract.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W2052218930\"}}",
+    "reasoning_content": "The searches returned empty results. The system says I haven't fetched any source. But there are no sources to fetch. However, the earlier first search (in the conversation) returned results with IDs \u2014 but that was part of the prompt's example? Actually looking at the conversation: the first assistant message called search_papers and got results with W2052218930 etc. Then subsequent searches returned empty. Wait \u2014 the first tool response with results was in the conversation history. But then the observation says \"No results\" for later searches. The first result set is real evidence from the conversation. I could fetch W2052218930 and W3012345678.\n\nLet me try fetching those IDs.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 861,
+  "completion_tokens": 190,
+  "total_tokens": 1051,
+  "prompt_tokens_details": {
+   "cached_tokens": 768
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 142
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 7.22
+}

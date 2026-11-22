@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201ad-ecf7-7a04-b46e-fb32adaab713",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795324505,
+ "model": "google/gemma-4-12B-it",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "```json\n{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage [1] explicitly states that students who took notes on laptops performed worse on conceptual questions than those who took notes longhand.\"}\n```",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 337,
+  "completion_tokens": 51,
+  "total_tokens": 388,
+  "prompt_tokens_details": {
+   "cached_tokens": 16
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.23
+}

@@ -1,0 +1,906 @@
+{
+ "status": 200,
+ "json": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      11,
+      4
+     ]
+    ],
+    "date-time": "2026-11-04T20:19:01Z",
+    "timestamp": 1793823541675,
+    "version": "4.6.1"
+   },
+   "reference-count": 61,
+   "publisher": "Elsevier BV",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2025,
+        1,
+        1
+       ]
+      ],
+      "date-time": "2025-01-01T00:00:00Z",
+      "timestamp": 1735689600000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2025,
+        1,
+        1
+       ]
+      ],
+      "date-time": "2025-01-01T00:00:00Z",
+      "timestamp": 1735689600000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2025,
+        5,
+        22
+       ]
+      ],
+      "date-time": "2025-05-22T00:00:00Z",
+      "timestamp": 1747872000000
+     },
+     "content-version": "vor",
+     "delay-in-days": 141,
+     "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "elsevier.com",
+     "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "Social Sciences &amp; Humanities Open"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2025
+     ]
+    ]
+   },
+   "DOI": "10.1016/j.ssaho.2025.101623",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2025,
+      6,
+      2
+     ]
+    ],
+    "date-time": "2025-06-02T07:33:06Z",
+    "timestamp": 1748849586000
+   },
+   "page": "101623",
+   "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 5,
+   "special_numbering": "C",
+   "title": [
+    "The academic implications of social media use and multitasking: Evidence from university students in a developing nation"
+   ],
+   "prefix": "10.1016",
+   "volume": "11",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-7600-6826",
+     "authenticated-orcid": false,
+     "given": "Emon Kalyan",
+     "family": "Chowdhury",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Rahima",
+     "family": "Begum",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "78",
+   "reference": [
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib1",
+     "doi-asserted-by": "crossref",
+     "first-page": "5261",
+     "DOI": "10.1007/s10639-020-10219-y",
+     "article-title": "Exploring the critical challenges and factors influencing the E-learning system usage during COVID-19 pandemic",
+     "volume": "25",
+     "author": "Almaiah",
+     "year": "2020",
+     "journal-title": "Education and Information Technologies"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib2",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1016/j.chbr.2020.100013",
+     "article-title": "The meaning of the experience of being an online video game player",
+     "volume": "2",
+     "author": "Arbeau",
+     "year": "2020",
+     "journal-title": "Computers in Human Behavior Reports"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/j.ssaho.2025.101623_bib3",
+     "doi-asserted-by": "crossref",
+     "first-page": "651",
+     "DOI": "10.1080/13032917.2020.1816187",
+     "article-title": "The effects of professional competency and workplace social networking on hotel employees' career success",
+     "volume": "31",
+     "author": "Avci",
+     "year": "2020",
+     "journal-title": "Anatolia"
+    },
+    {
+     "issue": "18",
+     "key": "10.1016/j.ssaho.2025.101623_bib4",
+     "first-page": "1",
+     "article-title": "Assessment of medical students' attitudes on social media use in medicine: A cross-sectional study",
+     "volume": "15",
+     "author": "Avc\u0131",
+     "year": "2015",
+     "journal-title": "BMC Medical Education"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib5",
+     "first-page": "40",
+     "article-title": "Analyzing effect of social media on academic performance of university graduates",
+     "volume": "18",
+     "author": "Bajpai",
+     "year": "2018",
+     "journal-title": "ICIEI\u2019"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/j.ssaho.2025.101623_bib6",
+     "doi-asserted-by": "crossref",
+     "first-page": "463",
+     "DOI": "10.1108/YC-07-2020-1186",
+     "article-title": "Uses and gratifications sought by pre-adolescent and adolescent TikTok consumers",
+     "volume": "21",
+     "author": "Bossen",
+     "year": "2020",
+     "journal-title": "Young Consumers"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/j.ssaho.2025.101623_bib7",
+     "doi-asserted-by": "crossref",
+     "first-page": "927",
+     "DOI": "10.1016/j.compedu.2009.09.024",
+     "article-title": "Can students really multitask? An experimental study of instant messaging while reading",
+     "volume": "54",
+     "author": "Bowman",
+     "year": "2010",
+     "journal-title": "Computers & Education"
+    },
+    {
+     "issue": "5",
+     "key": "10.1016/j.ssaho.2025.101623_bib8",
+     "doi-asserted-by": "crossref",
+     "first-page": "601",
+     "DOI": "10.1080/0309877X.2020.1804536",
+     "article-title": "Acknowledging another face in the virtual crowd: Reimagining the online experience in higher education through an online pedagogy of care",
+     "volume": "45",
+     "author": "Burke",
+     "year": "2021",
+     "journal-title": "Journal of Further and Higher Education"
+    },
+    {
+     "issue": "14",
+     "key": "10.1016/j.ssaho.2025.101623_bib9",
+     "doi-asserted-by": "crossref",
+     "first-page": "18621",
+     "DOI": "10.1007/s10639-024-12553-x",
+     "article-title": "Effectiveness of AI-assisted game-based learning on science learning outcomes, intrinsic motivation, cognitive load, and learning behavior",
+     "volume": "29",
+     "author": "Chen",
+     "year": "2024",
+     "journal-title": "Education and Information Technologies"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib10",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1016/j.tsc.2021.100921",
+     "article-title": "The effect of a scientific board game on improving creative problem solving skills",
+     "volume": "41",
+     "author": "Chen",
+     "year": "2021",
+     "journal-title": "Thinking Skills and Creativity"
+    },
+    {
+     "issue": "6",
+     "key": "10.1016/j.ssaho.2025.101623_bib11",
+     "doi-asserted-by": "crossref",
+     "first-page": "893",
+     "DOI": "10.1097/ACM.0b013e31828ffc23",
+     "article-title": "Social media use in medical education: A systematic review",
+     "volume": "88",
+     "author": "Cheston",
+     "year": "2013",
+     "journal-title": "Academic Medicine: Journal of the Association of American Medical Colleges"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib12",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1108/JCMS-05-2022-0015",
+     "article-title": "Strategic approach to analyze the effect of covid-19 on the stock market volatility and uncertainty: A first and second wave perspective",
+     "author": "Chowdhury",
+     "year": "2022",
+     "journal-title": "Journal of Capital Markets Studies"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib13",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1108/JRIT-07-2023-0097",
+     "article-title": "Examining the benefits and drawbacks of social media usage on academic performance: A study among university students in Bangladesh",
+     "author": "Chowdhury",
+     "year": "2024",
+     "journal-title": "Journal of Research in Innovative Teaching & Learning"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib14",
+     "first-page": "1",
+     "article-title": "Role of financial inclusion in human development: Evidence from Bangladesh, India and Pakistan",
+     "author": "Chowdhury",
+     "year": "2023",
+     "journal-title": "Journal of the Knowledge Economy"
+    },
+    {
+     "issue": "252",
+     "key": "10.1016/j.ssaho.2025.101623_bib15",
+     "doi-asserted-by": "crossref",
+     "first-page": "561",
+     "DOI": "10.1111/issj.12470",
+     "article-title": "Transformation of investor attitude towards financial markets: A perspective on the Russia\u2013Ukraine conflict",
+     "volume": "74",
+     "author": "Chowdhury",
+     "year": "2024",
+     "journal-title": "International Social Science Journal"
+    },
+    {
+     "issue": "8",
+     "key": "10.1016/j.ssaho.2025.101623_bib16",
+     "doi-asserted-by": "crossref",
+     "first-page": "549",
+     "DOI": "10.1503/cmaj.141417",
+     "article-title": "Advancing social media in medical education",
+     "volume": "187",
+     "author": "Davis",
+     "year": "2015",
+     "journal-title": "Canadian Medical Association Journal"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib17",
+     "series-title": "Individual differences in multi-tasking ability: Exploring a nomological network",
+     "author": "Delbridge",
+     "year": "2001"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib18",
+     "series-title": "Discovering statistics using IBM SPSS statistics",
+     "author": "Field",
+     "year": "2013"
+    },
+    {
+     "issue": "5",
+     "key": "10.1016/j.ssaho.2025.101623_bib19",
+     "doi-asserted-by": "crossref",
+     "first-page": "621",
+     "DOI": "10.1080/00220272.2021.1902569",
+     "article-title": "Principles for the design of a fully-resourced, coherent, research-informed school mathematics curriculum",
+     "volume": "53",
+     "author": "Foster",
+     "year": "2021",
+     "journal-title": "Journal of Curriculum Studies"
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/j.ssaho.2025.101623_bib20",
+     "doi-asserted-by": "crossref",
+     "first-page": "906",
+     "DOI": "10.1016/j.compedu.2006.09.006",
+     "article-title": "In-class laptop use and its effects on student learning",
+     "volume": "50",
+     "author": "Fried",
+     "year": "2008",
+     "journal-title": "Computers & Education"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib21",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1016/j.jclepro.2020.122817",
+     "article-title": "Digital sustainable entrepreneurship: A business model perspective on embedding digital technologies for social and environmental value creation",
+     "volume": "272",
+     "author": "Gregori",
+     "year": "2020",
+     "journal-title": "Journal of Cleaner Production"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.ssaho.2025.101623_bib22",
+     "first-page": "5",
+     "article-title": "The instructional network: Using Facebook to enhance undergraduate mathematics instruction",
+     "volume": "33",
+     "author": "Gregory",
+     "year": "2014",
+     "journal-title": "Journal of Computers in Mathematics and Science Teaching"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib23",
+     "series-title": "Handbook of research on future of work and education: Implications for curriculum delivery and work design",
+     "first-page": "111",
+     "article-title": "Academic motivation and self-discipline strategies for online learners",
+     "author": "Guetzoian",
+     "year": "2022"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib24",
+     "doi-asserted-by": "crossref",
+     "first-page": "275",
+     "DOI": "10.1016/j.susoc.2022.05.004",
+     "article-title": "Understanding the role of digital technologies in education: A review",
+     "volume": "3",
+     "author": "Haleem",
+     "year": "2022",
+     "journal-title": "Sustainable operations and computers"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib25",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1016/j.compedu.2020.103901",
+     "article-title": "On or off task: The negative influence of laptops on neighboring students' learning depends on how they are used",
+     "volume": "153",
+     "author": "Hall",
+     "year": "2020",
+     "journal-title": "Computers & Education"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.ssaho.2025.101623_bib26",
+     "doi-asserted-by": "crossref",
+     "first-page": "12",
+     "DOI": "10.1108/OTH-04-2021-0054",
+     "article-title": "Social media usage and academic performance from a cognitive loading perspective",
+     "volume": "30",
+     "author": "Hameed",
+     "year": "2022",
+     "journal-title": "On the Horizon"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib27",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1016/j.iheduc.2015.02.004",
+     "article-title": "Understanding students' perceptions of the benefits of online social networking use for teaching and learning",
+     "volume": "26",
+     "author": "Hamid",
+     "year": "2015",
+     "journal-title": "The Internet and higher education"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib28",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1016/j.compedu.2021.104262",
+     "article-title": "Individual motivation and social media influence on student knowledge sharing and learning performance: Evidence from an emerging economy",
+     "volume": "172",
+     "author": "Hosen",
+     "year": "2021",
+     "journal-title": "Computers in Education Journal"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.ssaho.2025.101623_bib29",
+     "doi-asserted-by": "crossref",
+     "first-page": "2241",
+     "DOI": "10.1007/s10639-021-10707-9",
+     "article-title": "Predicting behavioral intention to use e-learning system: A case-study in Begum rokeya university, rangpur, Bangladesh",
+     "volume": "27",
+     "author": "Humida",
+     "year": "2022",
+     "journal-title": "Education and Information Technologies"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.ssaho.2025.101623_bib30",
+     "doi-asserted-by": "crossref",
+     "first-page": "149",
+     "DOI": "10.1108/IGDR-10-2019-0110",
+     "article-title": "Perceived vulnerability of cyberbullying on social networking sites: Effects of security measures, addiction and self-disclosure",
+     "volume": "14",
+     "author": "Jain",
+     "year": "2021",
+     "journal-title": "Indian Growth and Development Review"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.ssaho.2025.101623_bib31",
+     "doi-asserted-by": "crossref",
+     "first-page": "505",
+     "DOI": "10.1016/j.compedu.2011.12.023",
+     "article-title": "No A 4 U: The relationship between multitasking and academic performance",
+     "volume": "59",
+     "author": "Junco",
+     "year": "2012",
+     "journal-title": "Computers & Education"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.ssaho.2025.101623_bib32",
+     "doi-asserted-by": "crossref",
+     "first-page": "119",
+     "DOI": "10.1111/j.1365-2729.2010.00387.x",
+     "article-title": "The effect of Twitter on college student engagement and grades",
+     "volume": "27",
+     "author": "Junco",
+     "year": "2011",
+     "journal-title": "Journal of Computer Assisted Learning"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.ssaho.2025.101623_bib33",
+     "doi-asserted-by": "crossref",
+     "first-page": "59",
+     "DOI": "10.1016/j.bushor.2009.09.003",
+     "article-title": "Users of the world, unite! The challenges and opportunities of social media",
+     "volume": "53",
+     "author": "Kaplan",
+     "year": "2010",
+     "journal-title": "Business Horizons"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib34",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.3389/fpsyg.2021.648253",
+     "article-title": "Social media for knowledge acquisition and dissemination: The impact of the COVID-19 pandemic on collaborative learning driven social media adoption",
+     "volume": "12",
+     "author": "Khan",
+     "year": "2021",
+     "journal-title": "Frontiers in Psychology"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib35",
+     "first-page": "1",
+     "article-title": "Using unfamiliar cues to engage multitasking audiences: Giving attentional breakthrough",
+     "author": "Kim",
+     "year": "2025",
+     "journal-title": "Journal of Advertising Research"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.ssaho.2025.101623_bib36",
+     "doi-asserted-by": "crossref",
+     "first-page": "199",
+     "DOI": "10.1007/s11423-021-10060-1",
+     "article-title": "Using social media affordances to support ill-structured problem-solving skills: Considering possibilities and challenges",
+     "volume": "71",
+     "author": "Koehler",
+     "year": "2023",
+     "journal-title": "Educational Technology Research & Development"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.ssaho.2025.101623_bib37",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1111/spc3.12509",
+     "article-title": "The pursuit of multiple goals",
+     "volume": "14",
+     "author": "Kung",
+     "year": "2020",
+     "journal-title": "Social and Personality Psychology Compass"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib38",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1016/j.ijinfomgt.2020.102280",
+     "article-title": "The influence of informal social media practices on knowledge sharing and work processes within organizations",
+     "volume": "58",
+     "author": "Kwayu",
+     "year": "2021",
+     "journal-title": "International Journal of Information Management"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib39",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1016/j.compedu.2020.104099",
+     "article-title": "Can digital technologies improve students' efficiency? Exploring the role of virtual learning environment and social media use in higher education",
+     "volume": "163",
+     "author": "Lacka",
+     "year": "2021",
+     "journal-title": "Computers in Education Journal"
+    },
+    {
+     "issue": "16",
+     "key": "10.1016/j.ssaho.2025.101623_bib40",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1093/femsle/fnv128",
+     "article-title": "Considering the changing face of social media in higher education",
+     "volume": "362",
+     "author": "Legaree",
+     "year": "2015",
+     "journal-title": "FEMS Microbiology Letters"
+    },
+    {
+     "issue": "4",
+     "key": "10.1016/j.ssaho.2025.101623_bib41",
+     "doi-asserted-by": "crossref",
+     "first-page": "560",
+     "DOI": "10.1089/cpb.2007.9990",
+     "article-title": "Electronic media use, reading, and academic distractibility in college youth",
+     "volume": "10",
+     "author": "Levine",
+     "year": "2007",
+     "journal-title": "CyberPsychology and Behavior"
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/j.ssaho.2025.101623_bib42",
+     "doi-asserted-by": "crossref",
+     "first-page": "394",
+     "DOI": "10.36941/ajis-2021-0093",
+     "article-title": "The use of social media as a platform in education: Ramifications of COVID-19 in Iraq",
+     "volume": "10",
+     "author": "Makki",
+     "year": "2021",
+     "journal-title": "Academic Journal of Interdisciplinary Studies"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib43",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1016/j.eswa.2019.112986",
+     "article-title": "Fake news, rumor, information pollution in social media and web: A contemporary survey of state-of-the-arts, challenges and opportunities",
+     "volume": "153",
+     "author": "Meel",
+     "year": "2020",
+     "journal-title": "Expert Systems with Applications"
+    },
+    {
+     "issue": "37",
+     "key": "10.1016/j.ssaho.2025.101623_bib44",
+     "doi-asserted-by": "crossref",
+     "first-page": "15583",
+     "DOI": "10.1073/pnas.0903620106",
+     "article-title": "Cognitive control in media multitaskers",
+     "volume": "106",
+     "author": "Ophir",
+     "year": "2009",
+     "journal-title": "Proceedings of the National Academy of Sciences"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.ssaho.2025.101623_bib45",
+     "doi-asserted-by": "crossref",
+     "first-page": "24",
+     "DOI": "10.24297/ijct.v2i1.2612",
+     "article-title": "Model of perceived influence of academic performance using social networking",
+     "volume": "2",
+     "author": "Oye",
+     "year": "2012",
+     "journal-title": "International Journal of Computers and Technology"
+    },
+    {
+     "issue": "1\u20132",
+     "key": "10.1016/j.ssaho.2025.101623_bib46",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1023/B:TRUC.0000021806.17516.d0",
+     "article-title": "Cognitive load theory: Instructional implications of the interaction between information structures and cognitive architecture",
+     "volume": "32",
+     "author": "Paas",
+     "year": "2004",
+     "journal-title": "Instructional Science"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.ssaho.2025.101623_bib47",
+     "doi-asserted-by": "crossref",
+     "first-page": "67",
+     "DOI": "10.1016/j.emj.2021.03.004",
+     "article-title": "Work-related social media use: The mediating role of social media communication self-efficacy",
+     "volume": "40",
+     "author": "Pekkala",
+     "year": "2021",
+     "journal-title": "European Management Journal"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.ssaho.2025.101623_bib48",
+     "doi-asserted-by": "crossref",
+     "first-page": "78",
+     "DOI": "10.1016/j.compedu.2014.05.002",
+     "article-title": "Unregulated use of laptops over time in large lecture classes",
+     "volume": "78",
+     "author": "Ragan",
+     "year": "2014",
+     "journal-title": "Computers & Education"
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/j.ssaho.2025.101623_bib49",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.9734/ajess/2021/v20i330484",
+     "article-title": "Effect of social media use on academic performance among university students in Bangladesh",
+     "volume": "20",
+     "author": "Rahman",
+     "year": "2021",
+     "journal-title": "Asian Journal of Education and Social Studies"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib50",
+     "doi-asserted-by": "crossref",
+     "first-page": "109",
+     "DOI": "10.1016/j.compedu.2014.05.007",
+     "article-title": "Non-academic internet use in the classroom is negatively related to classroom learning regardless of intellectual ability",
+     "volume": "78",
+     "author": "Ravizza",
+     "year": "2014",
+     "journal-title": "Computers & Education"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib51",
+     "doi-asserted-by": "crossref",
+     "first-page": "419",
+     "DOI": "10.1007/978-3-030-64987-6_24",
+     "article-title": "What impacts the acceptance of e-learning through social media? An empirical study. Studies in systems",
+     "author": "Salloum",
+     "year": "2021",
+     "journal-title": "Decision and Control Recent Advances in Technology Acceptance Models and Theories"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib52",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1016/j.lindif.2021.102035",
+     "article-title": "The relationship between smartphone use and studentsacademic performance",
+     "volume": "89",
+     "author": "Sapci",
+     "year": "2021",
+     "journal-title": "Learning and Individual Differences"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.ssaho.2025.101623_bib53",
+     "doi-asserted-by": "crossref",
+     "first-page": "315",
+     "DOI": "10.1093/jamia/ocz162",
+     "article-title": "Mining social media for prescription medication abuse monitoring: A review and proposal for a data-centric framework",
+     "volume": "27",
+     "author": "Sarker",
+     "year": "2020",
+     "journal-title": "Journal of the American Medical Informatics Association"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib54",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1016/j.ijedudev.2023.102738",
+     "article-title": "Social media usage: Analyzing its effect on academic performance and engagement of higher education students",
+     "volume": "98",
+     "author": "Shafiq",
+     "year": "2023",
+     "journal-title": "International Journal of Educational Development"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib55",
+     "doi-asserted-by": "crossref",
+     "first-page": "66",
+     "DOI": "10.1515/edu-2020-0102",
+     "article-title": "A systematic review of higher education academics' use of microblogging for professional development: Case of Twitter",
+     "volume": "2",
+     "author": "Singh",
+     "year": "2020",
+     "journal-title": "Open Education Studies"
+    },
+    {
+     "issue": "2",
+     "key": "10.1016/j.ssaho.2025.101623_bib56",
+     "doi-asserted-by": "crossref",
+     "first-page": "257",
+     "DOI": "10.1207/s15516709cog1202_4",
+     "article-title": "Cognitive load during problem solving: Effects on learning",
+     "volume": "12",
+     "author": "Sweller",
+     "year": "1988",
+     "journal-title": "Cognitive Science"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib57",
+     "first-page": "2755",
+     "article-title": "Investigating the prevalence and predictors of media multitasking across countries",
+     "volume": "8",
+     "author": "Voorveld",
+     "year": "2014",
+     "journal-title": "International Journal of Communication"
+    },
+    {
+     "issue": "3",
+     "key": "10.1016/j.ssaho.2025.101623_bib58",
+     "doi-asserted-by": "crossref",
+     "first-page": "392",
+     "DOI": "10.1080/08838151.2013.816709",
+     "article-title": "Age differences in media multitasking: A diary study",
+     "volume": "57",
+     "author": "Voorveld",
+     "year": "2013",
+     "journal-title": "Journal of Broadcasting & Electronic Media"
+    },
+    {
+     "issue": "1",
+     "key": "10.1016/j.ssaho.2025.101623_bib59",
+     "doi-asserted-by": "crossref",
+     "first-page": "365",
+     "DOI": "10.1016/j.compedu.2011.08.029",
+     "article-title": "Examining the impact of off-task multi-tasking with technology on real-time classroom learning",
+     "volume": "58",
+     "author": "Wood",
+     "year": "2012",
+     "journal-title": "Computers & Education"
+    },
+    {
+     "key": "10.1016/j.ssaho.2025.101623_bib60",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.1016/j.ijinfomgt.2021.102315",
+     "article-title": "Continuance intention of online technologies: A systematic literature review",
+     "volume": "58",
+     "author": "Yan",
+     "year": "2021",
+     "journal-title": "International Journal of Information Management"
+    },
+    {
+     "issue": "9",
+     "key": "10.1016/j.ssaho.2025.101623_bib61",
+     "doi-asserted-by": "crossref",
+     "first-page": "1941",
+     "DOI": "10.1080/0144929X.2021.1909140",
+     "article-title": "Social media on blended learning: The effect of rapport and motivation",
+     "volume": "41",
+     "author": "Zheng",
+     "year": "2022",
+     "journal-title": "Behaviour & Information Technology"
+    }
+   ],
+   "container-title": [
+    "Social Sciences &amp; Humanities Open"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S2590291125003511?httpAccept=text/xml",
+     "content-type": "text/xml",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://api.elsevier.com/content/article/PII:S2590291125003511?httpAccept=text/plain",
+     "content-type": "text/plain",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      6,
+      18
+     ]
+    ],
+    "date-time": "2025-06-18T02:41:20Z",
+    "timestamp": 1750214480000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2590291125003511"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2025
+     ]
+    ]
+   },
+   "references-count": 61,
+   "alternative-id": [
+    "S2590291125003511"
+   ],
+   "URL": "https://doi.org/10.1016/j.ssaho.2025.101623",
+   "relation": {},
+   "ISSN": [
+    "2590-2911"
+   ],
+   "issn-type": [
+    {
+     "value": "2590-2911",
+     "type": "print"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2025
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "Elsevier",
+     "name": "publisher",
+     "label": "This article is maintained by"
+    },
+    {
+     "value": "The academic implications of social media use and multitasking: Evidence from university students in a developing nation",
+     "name": "articletitle",
+     "label": "Article Title"
+    },
+    {
+     "value": "Social Sciences & Humanities Open",
+     "name": "journaltitle",
+     "label": "Journal Title"
+    },
+    {
+     "value": "https://doi.org/10.1016/j.ssaho.2025.101623",
+     "name": "articlelink",
+     "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+     "value": "article",
+     "name": "content_type",
+     "label": "Content Type"
+    },
+    {
+     "value": "\u00a9 2025 The Authors. Published by Elsevier Ltd.",
+     "name": "copyright",
+     "label": "Copyright"
+    }
+   ],
+   "article-number": "101623"
+  }
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201df-112a-788f-877e-9c1b006fbc86",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327725,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"W3161707120 suggests brief rest equals sleep, challenging sleep-specific consolidation; I will fetch it.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W3161707120\"}}",
+    "reasoning_content": "W3161707120 is a strong challenge: brief rest and sleep equivalent benefit, questioning sleep-specific consolidation. Fetch it.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 2743,
+  "completion_tokens": 74,
+  "total_tokens": 2817,
+  "prompt_tokens_details": {
+   "cached_tokens": 2048
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 26
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.2
+}

@@ -1,0 +1,2655 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 260855,
+   "db_response_time_ms": 388,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (testing effect long-term retention interval) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (testing effect long-term retention interval) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "testing effect long-term retention interval",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:testing effect long-term retention interval,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2133289650",
+    "doi": "https://doi.org/10.1037/0278-7393.33.4.704",
+    "title": "Expanding retrieval practice promotes short-term retention, but equally spaced retrieval enhances long-term retention.",
+    "display_name": "Expanding retrieval practice promotes short-term retention, but equally spaced retrieval enhances long-term retention.",
+    "publication_year": 2007,
+    "cited_by_count": 505,
+    "abstract_inverted_index": {
+     "Expanding": [
+      0,
+      141
+     ],
+     "retrieval": [
+      1,
+      25,
+      37,
+      59,
+      123,
+      135
+     ],
+     "practice": [
+      2,
+      38
+     ],
+     "(T.": [
+      3
+     ],
+     "K.": [
+      4
+     ],
+     "Landauer": [
+      5,
+      52
+     ],
+     "&": [
+      6
+     ],
+     "R.": [
+      7
+     ],
+     "A.": [
+      8
+     ],
+     "Bjork,": [
+      9
+     ],
+     "1978)": [
+      10
+     ],
+     "is": [
+      11,
+      120,
+      130
+     ],
+     "regarded": [
+      12
+     ],
+     "as": [
+      13,
+      129
+     ],
+     "a": [
+      14,
+      87
+     ],
+     "superior": [
+      15,
+      61
+     ],
+     "technique": [
+      16
+     ],
+     "for": [
+      17,
+      116
+     ],
+     "promoting": [
+      18,
+      117
+     ],
+     "long-term": [
+      19,
+      103,
+      118,
+      151
+     ],
+     "retention": [
+      20,
+      62,
+      119,
+      152
+     ],
+     "relative": [
+      21
+     ],
+     "to": [
+      22,
+      124
+     ],
+     "equally": [
+      23,
+      57,
+      96,
+      133
+     ],
+     "spaced": [
+      24,
+      58,
+      134
+     ],
+     "practice.": [
+      26
+     ],
+     "In": [
+      27,
+      77
+     ],
+     "Experiments": [
+      28
+     ],
+     "1": [
+      29
+     ],
+     "and": [
+      30,
+      53,
+      71,
+      90
+     ],
+     "2,": [
+      31
+     ],
+     "the": [
+      32,
+      80,
+      99,
+      108,
+      142
+     ],
+     "authors": [
+      33
+     ],
+     "found": [
+      34
+     ],
+     "that": [
+      35
+     ],
+     "expanding": [
+      36,
+      94,
+      139
+     ],
+     "of": [
+      39,
+      106
+     ],
+     "vocabulary": [
+      40
+     ],
+     "word": [
+      41
+     ],
+     "pairs": [
+      42
+     ],
+     "produced": [
+      43,
+      60
+     ],
+     "short-term": [
+      44
+     ],
+     "benefits": [
+      45
+     ],
+     "10": [
+      46
+     ],
+     "min": [
+      47
+     ],
+     "after": [
+      48,
+      74,
+      86
+     ],
+     "learning,": [
+      49
+     ],
+     "conceptually": [
+      50
+     ],
+     "replicating": [
+      51
+     ],
+     "Bjork's": [
+      54
+     ],
+     "results.": [
+      55
+     ],
+     "However,": [
+      56
+     ],
+     "2": [
+      63
+     ],
+     "days": [
+      64
+     ],
+     "later.": [
+      65
+     ],
+     "This": [
+      66
+     ],
+     "pattern": [
+      67
+     ],
+     "occurred": [
+      68,
+      83
+     ],
+     "both": [
+      69
+     ],
+     "with": [
+      70
+     ],
+     "without": [
+      72
+     ],
+     "feedback": [
+      73
+     ],
+     "test": [
+      75,
+      82,
+      101
+     ],
+     "trials.": [
+      76
+     ],
+     "Experiment": [
+      78
+     ],
+     "3,": [
+      79
+     ],
+     "1st": [
+      81
+     ],
+     "immediately": [
+      84
+     ],
+     "or": [
+      85,
+      95
+     ],
+     "brief": [
+      88
+     ],
+     "delay,": [
+      89
+     ],
+     "repeated": [
+      91,
+      109,
+      145
+     ],
+     "tests": [
+      92,
+      110,
+      146
+     ],
+     "were": [
+      93,
+      111
+     ],
+     "spaced.": [
+      97,
+      112
+     ],
+     "Delaying": [
+      98
+     ],
+     "first": [
+      100
+     ],
+     "improved": [
+      102
+     ],
+     "retention,": [
+      104
+     ],
+     "regardless": [
+      105
+     ],
+     "how": [
+      107
+     ],
+     "The": [
+      113
+     ],
+     "important": [
+      114
+     ],
+     "factor": [
+      115
+     ],
+     "delaying": [
+      121
+     ],
+     "initial": [
+      122
+     ],
+     "make": [
+      125
+     ],
+     "it": [
+      126
+     ],
+     "more": [
+      127
+     ],
+     "difficult,": [
+      128
+     ],
+     "done": [
+      131
+     ],
+     "in": [
+      132,
+      138,
+      153
+     ],
+     "but": [
+      136
+     ],
+     "not": [
+      137
+     ],
+     "retrieval.": [
+      140
+     ],
+     "interval": [
+      143
+     ],
+     "between": [
+      144
+     ],
+     "had": [
+      147
+     ],
+     "little": [
+      148
+     ],
+     "effect": [
+      149
+     ],
+     "on": [
+      150
+     ],
+     "3": [
+      154
+     ],
+     "experiments.": [
+      155
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5057268847",
+       "display_name": "Jeffrey D. Karpicke",
+       "orcid": "https://orcid.org/0009-0003-3307-9894",
+       "observed_orcids": [
+        "https://orcid.org/0009-0003-3307-9894"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204465549",
+        "display_name": "Washington University in St. Louis",
+        "ror": "https://ror.org/01yc7t268",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jeffrey D. Karpicke",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Washington University, St. Louis, MO 63130, USA. karpicke@wustl.edu",
+       "Department of Psychology, Washington University, St Louis, MO, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Washington University, St. Louis, MO 63130, USA. karpicke@wustl.edu",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, Washington University, St Louis, MO, US",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5002269200",
+       "display_name": "Henry Lederer Roediger III",
+       "orcid": "https://orcid.org/0000-0002-3314-2895",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3314-2895"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Henry L. Roediger",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1037/0278-7393.33.4.704",
+     "doi": "https://doi.org/10.1037/0278-7393.33.4.704",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1037/0278-7393.33.4.704",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S18666220",
+      "display_name": "Journal of Experimental Psychology Learning Memory and Cognition",
+      "issn_l": "0278-7393",
+      "issn": [
+       "0278-7393",
+       "1939-1285"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-a",
+       "anvur-class-a",
+       "cwts-core",
+       "dongbi-b",
+       "erih-plus",
+       "jufo-2",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320262",
+      "host_organization_name": "American Psychological Association",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320262"
+      ],
+      "host_organization_lineage_names": [
+       "American Psychological Association"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2054198550",
+    "doi": "https://doi.org/10.1002/dev.420230603",
+    "title": "The effect of multiple reminders on long\u2010term retention in human infants",
+    "display_name": "The effect of multiple reminders on long\u2010term retention in human infants",
+    "publication_year": 1990,
+    "cited_by_count": 96,
+    "abstract_inverted_index": {
+     "The": [
+      0
+     ],
+     "present": [
+      1
+     ],
+     "series": [
+      2
+     ],
+     "of": [
+      3,
+      8,
+      17,
+      61,
+      86,
+      119,
+      154,
+      174,
+      181
+     ],
+     "experiments": [
+      4
+     ],
+     "compared": [
+      5
+     ],
+     "the": [
+      6,
+      14,
+      25,
+      31,
+      40,
+      55,
+      59,
+      75,
+      84,
+      106,
+      124,
+      156,
+      161,
+      166,
+      172,
+      179,
+      200
+     ],
+     "effects": [
+      7
+     ],
+     "single-": [
+      9
+     ],
+     "and": [
+      10,
+      30,
+      163,
+      168
+     ],
+     "multiple-reminder": [
+      11
+     ],
+     "procedures": [
+      12
+     ],
+     "on": [
+      13,
+      185
+     ],
+     "long-term": [
+      15
+     ],
+     "memory": [
+      16
+     ],
+     "3-month-old": [
+      18
+     ],
+     "human": [
+      19
+     ],
+     "infants.": [
+      20
+     ],
+     "Subjects": [
+      21
+     ],
+     "were": [
+      22,
+      65,
+      158,
+      195
+     ],
+     "trained": [
+      23
+     ],
+     "in": [
+      24
+     ],
+     "mobile": [
+      26
+     ],
+     "conjugate": [
+      27
+     ],
+     "reinforcement": [
+      28
+     ],
+     "paradigm,": [
+      29
+     ],
+     "reminder": [
+      32,
+      52,
+      79,
+      98,
+      108,
+      114,
+      130,
+      151,
+      183,
+      216
+     ],
+     "treatment": [
+      33,
+      115
+     ],
+     "was": [
+      34,
+      90,
+      102,
+      145,
+      187,
+      191,
+      207
+     ],
+     "a": [
+      35,
+      112,
+      214
+     ],
+     "brief,": [
+      36
+     ],
+     "noncontingent": [
+      37
+     ],
+     "exposure": [
+      38
+     ],
+     "to": [
+      39
+     ],
+     "moving": [
+      41
+     ],
+     "mobile.": [
+      42
+     ],
+     "In": [
+      43,
+      141,
+      176
+     ],
+     "Experiment": [
+      44,
+      142,
+      177
+     ],
+     "1,": [
+      45,
+      67
+     ],
+     "independent": [
+      46
+     ],
+     "groups": [
+      47,
+      64
+     ],
+     "received": [
+      48
+     ],
+     "one": [
+      49,
+      95
+     ],
+     "or": [
+      50,
+      71,
+      96,
+      165
+     ],
+     "two": [
+      51,
+      97,
+      129,
+      150
+     ],
+     "treatments": [
+      53,
+      131,
+      152,
+      157,
+      184
+     ],
+     "during": [
+      54,
+      160
+     ],
+     "3": [
+      56
+     ],
+     "weeks": [
+      57,
+      170
+     ],
+     "following": [
+      58,
+      74,
+      171
+     ],
+     "conclusion": [
+      60,
+      173
+     ],
+     "training.": [
+      62,
+      175
+     ],
+     "Independent": [
+      63
+     ],
+     "tested": [
+      66,
+      196
+     ],
+     "3,": [
+      68,
+      178
+     ],
+     "7,": [
+      69
+     ],
+     "14,": [
+      70
+     ],
+     "22": [
+      72
+     ],
+     "days": [
+      73,
+      82,
+      122,
+      139,
+      148
+     ],
+     "last": [
+      76
+     ],
+     "(or": [
+      77
+     ],
+     "only)": [
+      78
+     ],
+     "(i.e.,": [
+      80
+     ],
+     "21-42": [
+      81
+     ],
+     "after": [
+      83,
+      94,
+      123,
+      149,
+      199,
+      204,
+      213
+     ],
+     "end": [
+      85
+     ],
+     "training).": [
+      87
+     ],
+     "Although": [
+      88,
+      189
+     ],
+     "retention": [
+      89,
+      101,
+      120,
+      134,
+      144,
+      186,
+      190,
+      203
+     ],
+     "equivalent": [
+      91
+     ],
+     "1": [
+      92,
+      197
+     ],
+     "day": [
+      93,
+      198
+     ],
+     "treatments,": [
+      99
+     ],
+     "subsequent": [
+      100
+     ],
+     "significantly": [
+      103
+     ],
+     "prolonged": [
+      104
+     ],
+     "by": [
+      105
+     ],
+     "second": [
+      107,
+      164
+     ],
+     "treatment:": [
+      109
+     ],
+     "infants": [
+      110,
+      127,
+      194
+     ],
+     "receiving": [
+      111,
+      128
+     ],
+     "single": [
+      113,
+      215
+     ],
+     "demonstrated": [
+      116,
+      132
+     ],
+     "no": [
+      117,
+      208
+     ],
+     "evidence": [
+      118
+     ],
+     "7": [
+      121
+     ],
+     "reminder,": [
+      125,
+      202
+     ],
+     "but": [
+      126
+     ],
+     "perfect": [
+      133
+     ],
+     "as": [
+      135,
+      137
+     ],
+     "long": [
+      136
+     ],
+     "14": [
+      138,
+      147
+     ],
+     "later.": [
+      140
+     ],
+     "2,": [
+      143
+     ],
+     "observed": [
+      146,
+      212
+     ],
+     "irrespective": [
+      153
+     ],
+     "whether": [
+      155
+     ],
+     "presented": [
+      159
+     ],
+     "first": [
+      162
+     ],
+     "third": [
+      167,
+      201
+     ],
+     "fourth": [
+      169
+     ],
+     "effect": [
+      180
+     ],
+     "three": [
+      182
+     ],
+     "examined.": [
+      188
+     ],
+     "excellent": [
+      192
+     ],
+     "when": [
+      193
+     ],
+     "longer": [
+      205
+     ],
+     "intervals": [
+      206
+     ],
+     "better": [
+      209
+     ],
+     "than": [
+      210
+     ],
+     "that": [
+      211
+     ],
+     "treatment.": [
+      217
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5006048926",
+       "display_name": "Harlene Hayne",
+       "orcid": "https://orcid.org/0000-0002-1970-7191",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1970-7191"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I102322142",
+        "display_name": "Rutgers, The State University of New Jersey",
+        "ror": "https://ror.org/05vt9qd57",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I102322142"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Harlene Hayne",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Rutgers University, New Brunswick, New Jersey"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Rutgers University, New Brunswick, New Jersey",
+        "institution_ids": [
+         "https://openalex.org/I102322142"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1002/dev.420230603",
+     "doi": "https://doi.org/10.1002/dev.420230603",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1002/dev.420230603",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S119146558",
+      "display_name": "Developmental Psychobiology",
+      "issn_l": "0012-1630",
+      "issn": [
+       "0012-1630",
+       "1098-2302"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-b",
+       "doyens",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Developmental Psychobiology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2029665548",
+    "doi": "https://doi.org/10.1002/acp.1083",
+    "title": "The effect of overlearning on long\u2010term retention",
+    "display_name": "The effect of overlearning on long\u2010term retention",
+    "publication_year": 2004,
+    "cited_by_count": 125,
+    "abstract_inverted_index": {
+     "Once": [
+      0
+     ],
+     "material": [
+      1,
+      117
+     ],
+     "has": [
+      2
+     ],
+     "been": [
+      3
+     ],
+     "learned": [
+      4,
+      42
+     ],
+     "to": [
+      5
+     ],
+     "a": [
+      6,
+      23,
+      68
+     ],
+     "criterion": [
+      7
+     ],
+     "of": [
+      8,
+      54,
+      122
+     ],
+     "one": [
+      9
+     ],
+     "perfect": [
+      10
+     ],
+     "trial,": [
+      11
+     ],
+     "further": [
+      12
+     ],
+     "study": [
+      13,
+      109
+     ],
+     "within": [
+      14
+     ],
+     "the": [
+      15,
+      85,
+      89
+     ],
+     "same": [
+      16
+     ],
+     "session": [
+      17
+     ],
+     "constitutes": [
+      18
+     ],
+     "overlearning.": [
+      19
+     ],
+     "Although": [
+      20
+     ],
+     "overlearning": [
+      21,
+      102
+     ],
+     "is": [
+      22,
+      32,
+      111
+     ],
+     "popular": [
+      24
+     ],
+     "learning": [
+      25,
+      55,
+      116
+     ],
+     "strategy,": [
+      26
+     ],
+     "its": [
+      27,
+      104
+     ],
+     "effect": [
+      28
+     ],
+     "on": [
+      29
+     ],
+     "long\u2010term": [
+      30
+     ],
+     "retention": [
+      31
+     ],
+     "unclear.": [
+      33
+     ],
+     "In": [
+      34
+     ],
+     "two": [
+      35
+     ],
+     "experiments": [
+      36
+     ],
+     "presented": [
+      37
+     ],
+     "here,": [
+      38
+     ],
+     "218": [
+      39
+     ],
+     "college": [
+      40
+     ],
+     "students": [
+      41
+     ],
+     "geography": [
+      43
+     ],
+     "facts": [
+      44
+     ],
+     "(Experiment": [
+      45,
+      50
+     ],
+     "1)": [
+      46
+     ],
+     "or": [
+      47
+     ],
+     "word": [
+      48
+     ],
+     "definitions": [
+      49
+     ],
+     "2).": [
+      51
+     ],
+     "The": [
+      52,
+      79
+     ],
+     "degree": [
+      53
+     ],
+     "was": [
+      56
+     ],
+     "manipulated": [
+      57
+     ],
+     "and": [
+      58,
+      64,
+      75
+     ],
+     "measured": [
+      59
+     ],
+     "via": [
+      60
+     ],
+     "multiple": [
+      61
+     ],
+     "test\u2010with\u2010feedback": [
+      62
+     ],
+     "trials,": [
+      63
+     ],
+     "participants": [
+      65
+     ],
+     "returned": [
+      66
+     ],
+     "for": [
+      67,
+      107,
+      115,
+      118
+     ],
+     "final": [
+      69
+     ],
+     "cued": [
+      70
+     ],
+     "recall": [
+      71
+     ],
+     "test": [
+      72
+     ],
+     "between": [
+      73
+     ],
+     "1": [
+      74
+     ],
+     "9": [
+      76
+     ],
+     "weeks": [
+      77
+     ],
+     "later.": [
+      78
+     ],
+     "overlearners": [
+      80
+     ],
+     "recalled": [
+      81
+     ],
+     "far": [
+      82
+     ],
+     "more": [
+      83
+     ],
+     "than": [
+      84
+     ],
+     "low": [
+      86
+     ],
+     "learners": [
+      87
+     ],
+     "at": [
+      88
+     ],
+     "1\u2010week": [
+      90
+     ],
+     "test,": [
+      91
+     ],
+     "but": [
+      92
+     ],
+     "this": [
+      93
+     ],
+     "difference": [
+      94
+     ],
+     "decreased": [
+      95
+     ],
+     "dramatically": [
+      96
+     ],
+     "thereafter.": [
+      97
+     ],
+     "These": [
+      98
+     ],
+     "data": [
+      99
+     ],
+     "suggest": [
+      100
+     ],
+     "that": [
+      101
+     ],
+     "(and": [
+      103
+     ],
+     "concomitant": [
+      105
+     ],
+     "demand": [
+      106
+     ],
+     "additional": [
+      108
+     ],
+     "time)": [
+      110
+     ],
+     "an": [
+      112
+     ],
+     "inefficient": [
+      113
+     ],
+     "strategy": [
+      114
+     ],
+     "meaningfully": [
+      119
+     ],
+     "long": [
+      120
+     ],
+     "periods": [
+      121
+     ],
+     "time.": [
+      123
+     ],
+     "Copyright": [
+      124
+     ],
+     "\u00a9": [
+      125
+     ],
+     "2004": [
+      126
+     ],
+     "John": [
+      127
+     ],
+     "Wiley": [
+      128
+     ],
+     "&": [
+      129
+     ],
+     "Sons,": [
+      130
+     ],
+     "Ltd.": [
+      131
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5038433616",
+       "display_name": "Doug Rohrer",
+       "orcid": "https://orcid.org/0000-0002-0059-545X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0059-545X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I2613432",
+        "display_name": "University of South Florida",
+        "ror": "https://ror.org/032db5x82",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I2613432"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Doug Rohrer",
+      "raw_affiliation_strings": [
+       "University of South Florida, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of South Florida, USA",
+        "institution_ids": [
+         "https://openalex.org/I2613432"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5041035966",
+       "display_name": "Kelli Taylor",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I2613432",
+        "display_name": "University of South Florida",
+        "ror": "https://ror.org/032db5x82",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I2613432"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Kelli Taylor",
+      "raw_affiliation_strings": [
+       "University of South Florida, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of South Florida, USA",
+        "institution_ids": [
+         "https://openalex.org/I2613432"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5008952472",
+       "display_name": "Harold Pashler",
+       "orcid": "https://orcid.org/0000-0003-3644-4909",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3644-4909"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Harold Pashler",
+      "raw_affiliation_strings": [
+       "University of California, San Diego, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of California, San Diego, USA",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5068581901",
+       "display_name": "John Timothy Wixted",
+       "orcid": "https://orcid.org/0000-0001-6282-5479",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6282-5479"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "John T. Wixted",
+      "raw_affiliation_strings": [
+       "University of California, San Diego, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of California, San Diego, USA",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5071554223",
+       "display_name": "Nicholas J. Cepeda",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Nicholas J. Cepeda",
+      "raw_affiliation_strings": [
+       "University of California, San Diego, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of California, San Diego, USA",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1002/acp.1083",
+     "doi": "https://doi.org/10.1002/acp.1083",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1002/acp.1083",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S91386000",
+      "display_name": "Applied Cognitive Psychology",
+      "issn_l": "0888-4080",
+      "issn": [
+       "0888-4080",
+       "1099-0720"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-b",
+       "cwts-core",
+       "dongbi-c",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Applied Cognitive Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2135372128",
+    "doi": "https://doi.org/10.1080/09658210903405737",
+    "title": "Long-term effects of testing on the recall of nontested materials",
+    "display_name": "Long-term effects of testing on the recall of nontested materials",
+    "publication_year": 2009,
+    "cited_by_count": 127,
+    "abstract_inverted_index": {
+     "Testing,": [
+      0
+     ],
+     "or": [
+      1
+     ],
+     "memory": [
+      2
+     ],
+     "retrieval,": [
+      3
+     ],
+     "is": [
+      4,
+      49
+     ],
+     "a": [
+      5
+     ],
+     "powerful": [
+      6
+     ],
+     "way": [
+      7
+     ],
+     "to": [
+      8,
+      64
+     ],
+     "enhance": [
+      9
+     ],
+     "long-term": [
+      10,
+      44
+     ],
+     "retention": [
+      11,
+      25,
+      56
+     ],
+     "of": [
+      12,
+      26,
+      46,
+      68,
+      73,
+      83,
+      88,
+      96,
+      129
+     ],
+     "studied": [
+      13
+     ],
+     "material.": [
+      14,
+      76
+     ],
+     "Recent": [
+      15
+     ],
+     "studies": [
+      16
+     ],
+     "have": [
+      17
+     ],
+     "shown": [
+      18
+     ],
+     "that": [
+      19,
+      80,
+      87
+     ],
+     "testing": [
+      20,
+      69,
+      90,
+      97
+     ],
+     "can": [
+      21
+     ],
+     "also": [
+      22
+     ],
+     "benefit": [
+      23,
+      48,
+      95
+     ],
+     "later": [
+      24
+     ],
+     "related": [
+      27
+     ],
+     "but": [
+      28,
+      42,
+      115
+     ],
+     "nontested": [
+      29,
+      75
+     ],
+     "material": [
+      30
+     ],
+     "(a": [
+      31
+     ],
+     "finding": [
+      32,
+      131
+     ],
+     "known": [
+      33
+     ],
+     "as": [
+      34
+     ],
+     "retrieval-induced": [
+      35,
+      84
+     ],
+     "facilitation,": [
+      36,
+      85
+     ],
+     "Chan,": [
+      37
+     ],
+     "McDermott,": [
+      38
+     ],
+     "&": [
+      39
+     ],
+     "Roediger,": [
+      40
+     ],
+     "2006),": [
+      41
+     ],
+     "the": [
+      43,
+      52,
+      66,
+      74,
+      81,
+      89,
+      93,
+      99,
+      106
+     ],
+     "consequences": [
+      45
+     ],
+     "this": [
+      47,
+      130
+     ],
+     "unknown.": [
+      50
+     ],
+     "In": [
+      51
+     ],
+     "current": [
+      53
+     ],
+     "experiment": [
+      54
+     ],
+     "three": [
+      55
+     ],
+     "intervals-20": [
+      57
+     ],
+     "minutes,": [
+      58
+     ],
+     "24": [
+      59,
+      113,
+      120
+     ],
+     "hours,": [
+      60
+     ],
+     "7": [
+      61,
+      123
+     ],
+     "days-were": [
+      62
+     ],
+     "used": [
+      63
+     ],
+     "assess": [
+      65
+     ],
+     "effects": [
+      67
+     ],
+     "on": [
+      70,
+      98
+     ],
+     "subsequent": [
+      71
+     ],
+     "recall": [
+      72
+     ],
+     "The": [
+      77
+     ],
+     "results": [
+      78
+     ],
+     "indicate": [
+      79
+     ],
+     "magnitude": [
+      82
+     ],
+     "like": [
+      86
+     ],
+     "effect": [
+      91
+     ],
+     "(i.e.,": [
+      92,
+      108,
+      118
+     ],
+     "memorial": [
+      94
+     ],
+     "tested": [
+      100
+     ],
+     "material),": [
+      101
+     ],
+     "increases": [
+      102
+     ],
+     "with": [
+      103
+     ],
+     "delay": [
+      104
+     ],
+     "at": [
+      105
+     ],
+     "beginning": [
+      107
+     ],
+     "between": [
+      109,
+      119
+     ],
+     "20": [
+      110
+     ],
+     "minutes": [
+      111
+     ],
+     "and": [
+      112,
+      122,
+      126
+     ],
+     "hours)": [
+      114
+     ],
+     "asymptotes": [
+      116
+     ],
+     "afterward": [
+      117
+     ],
+     "hours": [
+      121
+     ],
+     "days).": [
+      124
+     ],
+     "Theoretical": [
+      125
+     ],
+     "applied": [
+      127
+     ],
+     "implications": [
+      128
+     ],
+     "are": [
+      132
+     ],
+     "discussed.": [
+      133
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5041522430",
+       "display_name": "Jason C. K. Chan",
+       "orcid": "https://orcid.org/0000-0003-4221-2979",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4221-2979"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I173911158",
+        "display_name": "Iowa State University",
+        "ror": "https://ror.org/04rswrd78",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I173911158"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Jason C. K. Chan",
+      "raw_affiliation_strings": [
+       "Iowa State University of Science and Technology, USA",
+       "Iowa State University of Science and Technology, Ames, IA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Iowa State University of Science and Technology, USA",
+        "institution_ids": [
+         "https://openalex.org/I173911158"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Iowa State University of Science and Technology, Ames, IA, USA",
+        "institution_ids": [
+         "https://openalex.org/I173911158"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1080/09658210903405737",
+     "doi": "https://doi.org/10.1080/09658210903405737",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1080/09658210903405737",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S47258695",
+      "display_name": "Memory",
+      "issn_l": "0965-8211",
+      "issn": [
+       "0965-8211",
+       "1464-0686"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-d",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-2",
+       "poland-70",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320547",
+      "host_organization_name": "Taylor & Francis",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320547",
+       "https://openalex.org/P4310320449"
+      ],
+      "host_organization_lineage_names": [
+       "Taylor & Francis",
+       "Informa"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Memory",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2439010438",
+    "doi": "https://doi.org/10.4992/psycholres1954.26.194",
+    "title": "Priming effects in word-fragment completion for short- and long-term retention intervals",
+    "display_name": "Priming effects in word-fragment completion for short- and long-term retention intervals",
+    "publication_year": 1984,
+    "cited_by_count": 38,
+    "abstract_inverted_index": {
+     "Two": [
+      0
+     ],
+     "experiments": [
+      1
+     ],
+     "were": [
+      2,
+      105
+     ],
+     "conducted": [
+      3
+     ],
+     "to": [
+      4,
+      17,
+      68,
+      88
+     ],
+     "examine": [
+      5
+     ],
+     "the": [
+      6,
+      54,
+      69,
+      136,
+      141,
+      160
+     ],
+     "priming": [
+      7,
+      90,
+      128,
+      142
+     ],
+     "effect": [
+      8,
+      91,
+      129,
+      143
+     ],
+     "in": [
+      9,
+      59,
+      130,
+      144
+     ],
+     "word-fragment": [
+      10,
+      145
+     ],
+     "completion": [
+      11,
+      36,
+      61,
+      112,
+      132,
+      146
+     ],
+     "for": [
+      12,
+      93,
+      135,
+      150
+     ],
+     "intervals": [
+      13
+     ],
+     "from": [
+      14,
+      173
+     ],
+     "1": [
+      15,
+      43,
+      117,
+      119,
+      122
+     ],
+     "min": [
+      16
+     ],
+     "5": [
+      18,
+      46,
+      157
+     ],
+     "weeks.": [
+      19,
+      47
+     ],
+     "In": [
+      20,
+      56,
+      97
+     ],
+     "Experiment": [
+      21,
+      98
+     ],
+     "I,": [
+      22
+     ],
+     "36": [
+      23
+     ],
+     "subjects": [
+      24
+     ],
+     "studied": [
+      25,
+      106
+     ],
+     "a": [
+      26,
+      100,
+      151
+     ],
+     "list": [
+      27,
+      101
+     ],
+     "of": [
+      28,
+      102,
+      168
+     ],
+     "90": [
+      29
+     ],
+     "words.": [
+      30
+     ],
+     "Then": [
+      31
+     ],
+     "either": [
+      32
+     ],
+     "recognition": [
+      33
+     ],
+     "or": [
+      34
+     ],
+     "fragment": [
+      35,
+      60,
+      111,
+      131
+     ],
+     "test": [
+      37,
+      62,
+      113
+     ],
+     "was": [
+      38,
+      74,
+      114
+     ],
+     "performed": [
+      39
+     ],
+     "after": [
+      40,
+      116
+     ],
+     "8": [
+      41
+     ],
+     "min,": [
+      42,
+      118
+     ],
+     "week,": [
+      44
+     ],
+     "and": [
+      45,
+      121,
+      159
+     ],
+     "Recognition": [
+      48
+     ],
+     "memory": [
+      49
+     ],
+     "showed": [
+      50,
+      63,
+      81,
+      126
+     ],
+     "significant": [
+      51
+     ],
+     "decrement": [
+      52
+     ],
+     "over": [
+      53
+     ],
+     "intervals.": [
+      55,
+      137
+     ],
+     "contrast,": [
+      57
+     ],
+     "performance": [
+      58
+     ],
+     "almost": [
+      64
+     ],
+     "no": [
+      65
+     ],
+     "change": [
+      66
+     ],
+     "up": [
+      67
+     ],
+     "1-week": [
+      70
+     ],
+     "retention": [
+      71
+     ],
+     "interval.": [
+      72,
+      96
+     ],
+     "It": [
+      73
+     ],
+     "not": [
+      75
+     ],
+     "until": [
+      76
+     ],
+     "5-week": [
+      77
+     ],
+     "later": [
+      78
+     ],
+     "that": [
+      79,
+      127,
+      140
+     ],
+     "it": [
+      80
+     ],
+     "about": [
+      82
+     ],
+     "10": [
+      83
+     ],
+     "percent": [
+      84
+     ],
+     "decrease.": [
+      85
+     ],
+     "That": [
+      86
+     ],
+     "is": [
+      87,
+      171
+     ],
+     "say,": [
+      89
+     ],
+     "lasted": [
+      92
+     ],
+     "such": [
+      94
+     ],
+     "long": [
+      95,
+      153
+     ],
+     "II,": [
+      99
+     ],
+     "75": [
+      103
+     ],
+     "words": [
+      104
+     ],
+     "by": [
+      107
+     ],
+     "48": [
+      108
+     ],
+     "subjects.": [
+      109
+     ],
+     "Only": [
+      110
+     ],
+     "done": [
+      115
+     ],
+     "h,": [
+      120
+     ],
+     "week.": [
+      123
+     ],
+     "The": [
+      124
+     ],
+     "results": [
+      125
+     ],
+     "remained": [
+      133
+     ],
+     "unchanged": [
+      134
+     ],
+     "This": [
+      138
+     ],
+     "suggests": [
+      139
+     ],
+     "may": [
+      147,
+      163
+     ],
+     "be": [
+      148
+     ],
+     "retained": [
+      149
+     ],
+     "fairly": [
+      152
+     ],
+     "term": [
+      154
+     ],
+     "(at": [
+      155
+     ],
+     "least": [
+      156
+     ],
+     "weeks),": [
+      158
+     ],
+     "cognitive": [
+      161
+     ],
+     "system": [
+      162
+     ],
+     "use": [
+      164
+     ],
+     "some": [
+      165
+     ],
+     "other": [
+      166
+     ],
+     "kind": [
+      167
+     ],
+     "information": [
+      169
+     ],
+     "which": [
+      170
+     ],
+     "different": [
+      172
+     ],
+     "episodic": [
+      174
+     ],
+     "memory.": [
+      175
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5014939544",
+       "display_name": "SHIN-IGHI KOMATSU",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I146399215",
+        "display_name": "University of Tsukuba",
+        "ror": "https://ror.org/02956yf07",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I146399215"
+        ]
+       }
+      ],
+      "countries": [
+       "JP"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "SHIN-IGHI KOMATSU",
+      "raw_affiliation_strings": [
+       "Institute of Psychology, University of Tsukuba"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute of Psychology, University of Tsukuba",
+        "institution_ids": [
+         "https://openalex.org/I146399215"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": null,
+       "display_name": "NOBUO OHTA",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I146399215",
+        "display_name": "University of Tsukuba",
+        "ror": "https://ror.org/02956yf07",
+        "country_code": "JP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I146399215"
+        ]
+       }
+      ],
+      "countries": [
+       "JP"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "NOBUO OHTA",
+      "raw_affiliation_strings": [
+       "Institute of Psychology, University of Tsukuba"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute of Psychology, University of Tsukuba",
+        "institution_ids": [
+         "https://openalex.org/I146399215"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.4992/psycholres1954.26.194",
+     "doi": "https://doi.org/10.4992/psycholres1954.26.194",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.4992/psycholres1954.26.194",
+     "pdf_url": "https://www.jstage.jst.go.jp/article/psycholres1954/26/4/26_4_194/_pdf",
+     "source": {
+      "id": "https://openalex.org/S88884646",
+      "display_name": "Japanese Psychological Research",
+      "issn_l": "0021-5368",
+      "issn": [
+       "0021-5368",
+       "1468-5884"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-d",
+       "jufo-1",
+       "norway-1",
+       "poland-40",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Japanese Psychological Research",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

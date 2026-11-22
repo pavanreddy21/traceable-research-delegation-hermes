@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a2024a-ca77-7e8a-aba8-0d9b178a358c",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795334785,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Every search returned zero results, so no source could be fetched or cited; I finish with an empty findings list.\", \"action\": \"finish\", \"args\": {\"findings\": []}}",
+    "reasoning_content": "The searches all returned empty results, so I cannot cite anything. I must finish with empty findings.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 860,
+  "completion_tokens": 65,
+  "total_tokens": 925,
+  "prompt_tokens_details": {
+   "cached_tokens": 768
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 21
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.2
+}

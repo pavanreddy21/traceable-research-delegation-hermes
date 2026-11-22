@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201b0-aa9b-7b76-a1ea-8c115f6f583b",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795324684,
+ "model": "google/gemma-4-12B-it",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "```json\n{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"The passage explicitly states that a comparison of studies shows background music disturbs the reading process compared to no music.\"}\n```",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 306,
+  "completion_tokens": 45,
+  "total_tokens": 351,
+  "prompt_tokens_details": {
+   "cached_tokens": 16
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.24
+}

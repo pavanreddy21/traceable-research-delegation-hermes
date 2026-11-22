@@ -1,0 +1,779 @@
+{
+ "status": 200,
+ "json": {
+  "id": "https://openalex.org/W2949898304",
+  "doi": "https://doi.org/10.1371/journal.pcbi.1006322",
+  "title": "Differential roles of sleep spindles and sleep slow oscillations in memory consolidation",
+  "display_name": "Differential roles of sleep spindles and sleep slow oscillations in memory consolidation",
+  "publication_year": 2018,
+  "cited_by_count": 118,
+  "abstract_inverted_index": {
+   "Sleep": [
+    0
+   ],
+   "plays": [
+    1
+   ],
+   "an": [
+    2,
+    200
+   ],
+   "important": [
+    3
+   ],
+   "role": [
+    4,
+    37,
+    180
+   ],
+   "in": [
+    5,
+    44,
+    74,
+    102,
+    139,
+    184
+   ],
+   "the": [
+    6,
+    11,
+    31,
+    36,
+    70,
+    75,
+    83,
+    98,
+    108,
+    112,
+    121,
+    136,
+    143,
+    152,
+    169,
+    179,
+    193
+   ],
+   "consolidation": [
+    7,
+    17,
+    186
+   ],
+   "of": [
+    8,
+    16,
+    30,
+    38,
+    53,
+    62,
+    69,
+    92,
+    111,
+    120,
+    135,
+    142,
+    151,
+    181,
+    196
+   ],
+   "recent": [
+    9
+   ],
+   "memories.However,": [
+    10
+   ],
+   "cellular": [
+    12
+   ],
+   "and": [
+    13,
+    57,
+    78,
+    187
+   ],
+   "synaptic": [
+    14
+   ],
+   "mechanisms": [
+    15
+   ],
+   "during": [
+    18,
+    116,
+    168
+   ],
+   "sleep": [
+    19,
+    43,
+    49,
+    94,
+    157,
+    171,
+    182,
+    197
+   ],
+   "remain": [
+    20
+   ],
+   "poorly": [
+    21
+   ],
+   "understood.In": [
+    22
+   ],
+   "this": [
+    23
+   ],
+   "study,": [
+    24
+   ],
+   "using": [
+    25
+   ],
+   "a": [
+    26,
+    90,
+    140,
+    175,
+    189
+   ],
+   "realistic": [
+    27
+   ],
+   "computational": [
+    28
+   ],
+   "model": [
+    29
+   ],
+   "thalamocortical": [
+    32
+   ],
+   "network,": [
+    33
+   ],
+   "we": [
+    34
+   ],
+   "tested": [
+    35
+   ],
+   "Non-Rapid": [
+    39
+   ],
+   "Eye": [
+    40
+   ],
+   "Movement": [
+    41
+   ],
+   "(NREM)": [
+    42
+   ],
+   "memory": [
+    45,
+    123,
+    145,
+    185
+   ],
+   "consolidation.We": [
+    46
+   ],
+   "found": [
+    47
+   ],
+   "that": [
+    48,
+    131
+   ],
+   "spindles": [
+    50,
+    117,
+    158
+   ],
+   "(the": [
+    51,
+    60
+   ],
+   "hallmark": [
+    52,
+    61
+   ],
+   "N2": [
+    54
+   ],
+   "stage": [
+    55,
+    64
+   ],
+   "sleep)": [
+    56,
+    65,
+    160
+   ],
+   "slow": [
+    58,
+    127,
+    162
+   ],
+   "oscillations": [
+    59,
+    128,
+    163
+   ],
+   "N3": [
+    63
+   ],
+   "both": [
+    66
+   ],
+   "promote": [
+    67
+   ],
+   "replay": [
+    68,
+    79,
+    115,
+    119,
+    134
+   ],
+   "spike": [
+    71,
+    113
+   ],
+   "sequences": [
+    72
+   ],
+   "learned": [
+    73
+   ],
+   "awake": [
+    76
+   ],
+   "state": [
+    77
+   ],
+   "was": [
+    80
+   ],
+   "localized": [
+    81
+   ],
+   "at": [
+    82
+   ],
+   "trained": [
+    84
+   ],
+   "network": [
+    85
+   ],
+   "locations.Memory": [
+    86
+   ],
+   "performance": [
+    87
+   ],
+   "improved": [
+    88
+   ],
+   "after": [
+    89,
+    97
+   ],
+   "period": [
+    91,
+    101
+   ],
+   "NREM": [
+    93
+   ],
+   "but": [
+    95
+   ],
+   "not": [
+    96
+   ],
+   "same": [
+    99
+   ],
+   "time": [
+    100
+   ],
+   "awake.When": [
+    103
+   ],
+   "multiple": [
+    104
+   ],
+   "memories": [
+    105,
+    138,
+    154
+   ],
+   "were": [
+    106
+   ],
+   "trained,": [
+    107
+   ],
+   "local": [
+    109
+   ],
+   "nature": [
+    110
+   ],
+   "sequence": [
+    114
+   ],
+   "allowed": [
+    118
+   ],
+   "distinct": [
+    122
+   ],
+   "traces": [
+    124
+   ],
+   "independently,": [
+    125
+   ],
+   "while": [
+    126
+   ],
+   "promoted": [
+    129
+   ],
+   "competition": [
+    130
+   ],
+   "could": [
+    132,
+    147
+   ],
+   "prevent": [
+    133
+   ],
+   "weak": [
+    137,
+    153
+   ],
+   "presence": [
+    141
+   ],
+   "stronger": [
+    144
+   ],
+   "traces.This": [
+    146
+   ],
+   "lead": [
+    148
+   ],
+   "to": [
+    149,
+    203
+   ],
+   "extinction": [
+    150
+   ],
+   "unless": [
+    155
+   ],
+   "when": [
+    156
+   ],
+   "(N2": [
+    159
+   ],
+   "preceded": [
+    161
+   ],
+   "(N3": [
+    164
+   ],
+   "sleep),": [
+    165
+   ],
+   "as": [
+    166
+   ],
+   "observed": [
+    167
+   ],
+   "natural": [
+    170,
+    194
+   ],
+   "cycle.Our": [
+    172
+   ],
+   "study": [
+    173
+   ],
+   "presents": [
+    174
+   ],
+   "mechanistic": [
+    176
+   ],
+   "explanation": [
+    177
+   ],
+   "for": [
+    178
+   ],
+   "rhythms": [
+    183
+   ],
+   "proposes": [
+    188
+   ],
+   "testable": [
+    190
+   ],
+   "hypothesis": [
+    191
+   ],
+   "how": [
+    192
+   ],
+   "structure": [
+    195
+   ],
+   "stages": [
+    198
+   ],
+   "provides": [
+    199
+   ],
+   "optimal": [
+    201
+   ],
+   "environment": [
+    202
+   ],
+   "consolidate": [
+    204
+   ],
+   "memories.": [
+    205
+   ]
+  },
+  "authorships": [
+   {
+    "author_position": "first",
+    "author": {
+     "id": "https://openalex.org/A5031787427",
+     "display_name": "Yina Wei",
+     "orcid": "https://orcid.org/0000-0001-8715-5715",
+     "observed_orcids": [
+      "https://orcid.org/0000-0001-8715-5715",
+      "https://orcid.org/0000-0002-9684-0113"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I36258959",
+      "display_name": "University of California San Diego",
+      "ror": "https://ror.org/0168r3w48",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I36258959"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "contributor_roles": [
+     {
+      "id": "https://openalex.org/contributor-roles/formal-analysis",
+      "display_name": "Formal analysis"
+     },
+     {
+      "id": "https://openalex.org/contributor-roles/investigation",
+      "display_name": "Investigation"
+     },
+     {
+      "id": "https://openalex.org/contributor-roles/methodology",
+      "display_name": "Methodology"
+     },
+     {
+      "id": "https://openalex.org/contributor-roles/validation",
+      "display_name": "Validation"
+     },
+     {
+      "id": "https://openalex.org/contributor-roles/visualization",
+      "display_name": "Visualization"
+     },
+     {
+      "id": "https://openalex.org/contributor-roles/writing-original-draft",
+      "display_name": "Writing \u2013 original draft"
+     },
+     {
+      "id": "https://openalex.org/contributor-roles/writing-review-editing",
+      "display_name": "Writing \u2013 review & editing"
+     }
+    ],
+    "raw_author_name": "Yina Wei",
+    "raw_affiliation_strings": [
+     "Department of Medicine, University of California at San Diego, La Jolla, CA 92093",
+     "Department of Medicine, University of California at San Diego, La Jolla, CA, United States of America"
+    ],
+    "raw_orcid": "https://orcid.org/0000-0001-8715-5715",
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Medicine, University of California at San Diego, La Jolla, CA 92093",
+      "institution_ids": [
+       "https://openalex.org/I36258959"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Medicine, University of California at San Diego, La Jolla, CA, United States of America",
+      "institution_ids": [
+       "https://openalex.org/I36258959"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5069038802",
+     "display_name": "Giri P. Krishnan",
+     "orcid": "https://orcid.org/0000-0002-1128-2483",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-1128-2483"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I36258959",
+      "display_name": "University of California San Diego",
+      "ror": "https://ror.org/0168r3w48",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I36258959"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "contributor_roles": [
+     {
+      "id": "https://openalex.org/contributor-roles/formal-analysis",
+      "display_name": "Formal analysis"
+     },
+     {
+      "id": "https://openalex.org/contributor-roles/methodology",
+      "display_name": "Methodology"
+     },
+     {
+      "id": "https://openalex.org/contributor-roles/software",
+      "display_name": "Software"
+     },
+     {
+      "id": "https://openalex.org/contributor-roles/validation",
+      "display_name": "Validation"
+     },
+     {
+      "id": "https://openalex.org/contributor-roles/writing-review-editing",
+      "display_name": "Writing \u2013 review & editing"
+     }
+    ],
+    "raw_author_name": "Giri P Krishnan",
+    "raw_affiliation_strings": [
+     "Department of Medicine, University of California at San Diego, La Jolla, CA 92093",
+     "Department of Medicine, University of California at San Diego, La Jolla, CA, United States of America"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Medicine, University of California at San Diego, La Jolla, CA 92093",
+      "institution_ids": [
+       "https://openalex.org/I36258959"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Medicine, University of California at San Diego, La Jolla, CA, United States of America",
+      "institution_ids": [
+       "https://openalex.org/I36258959"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "middle",
+    "author": {
+     "id": "https://openalex.org/A5109479091",
+     "display_name": "Maxim Komarov",
+     "orcid": null,
+     "observed_orcids": []
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I36258959",
+      "display_name": "University of California San Diego",
+      "ror": "https://ror.org/0168r3w48",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I36258959"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": false,
+    "contributor_roles": [
+     {
+      "id": "https://openalex.org/contributor-roles/formal-analysis",
+      "display_name": "Formal analysis"
+     },
+     {
+      "id": "https://openalex.org/contributor-roles/methodology",
+      "display_name": "Methodology"
+     }
+    ],
+    "raw_author_name": "Maxim Komarov",
+    "raw_affiliation_strings": [
+     "Department of Medicine, University of California at San Diego, La Jolla, CA 92093",
+     "Department of Medicine, University of California at San Diego, La Jolla, CA, United States of America"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Medicine, University of California at San Diego, La Jolla, CA 92093",
+      "institution_ids": [
+       "https://openalex.org/I36258959"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Medicine, University of California at San Diego, La Jolla, CA, United States of America",
+      "institution_ids": [
+       "https://openalex.org/I36258959"
+      ]
+     }
+    ]
+   },
+   {
+    "author_position": "last",
+    "author": {
+     "id": "https://openalex.org/A5046684253",
+     "display_name": "Maxim Bazhenov",
+     "orcid": "https://orcid.org/0000-0002-1936-0570",
+     "observed_orcids": [
+      "https://orcid.org/0000-0002-1936-0570"
+     ]
+    },
+    "institutions": [
+     {
+      "id": "https://openalex.org/I36258959",
+      "display_name": "University of California San Diego",
+      "ror": "https://ror.org/0168r3w48",
+      "country_code": "US",
+      "type": "education",
+      "lineage": [
+       "https://openalex.org/I36258959"
+      ]
+     }
+    ],
+    "countries": [
+     "US"
+    ],
+    "is_corresponding": true,
+    "contributor_roles": [
+     {
+      "id": "https://openalex.org/contributor-roles/project-administration",
+      "display_name": "Project administration"
+     },
+     {
+      "id": "https://openalex.org/contributor-roles/supervision",
+      "display_name": "Supervision"
+     },
+     {
+      "id": "https://openalex.org/contributor-roles/writing-review-editing",
+      "display_name": "Writing \u2013 review & editing"
+     }
+    ],
+    "raw_author_name": "Maxim Bazhenov",
+    "raw_affiliation_strings": [
+     "Department of Medicine, University of California at San Diego, La Jolla, CA 92093",
+     "Department of Medicine, University of California at San Diego, La Jolla, CA, United States of America"
+    ],
+    "raw_orcid": null,
+    "affiliations": [
+     {
+      "raw_affiliation_string": "Department of Medicine, University of California at San Diego, La Jolla, CA 92093",
+      "institution_ids": [
+       "https://openalex.org/I36258959"
+      ]
+     },
+     {
+      "raw_affiliation_string": "Department of Medicine, University of California at San Diego, La Jolla, CA, United States of America",
+      "institution_ids": [
+       "https://openalex.org/I36258959"
+      ]
+     }
+    ]
+   }
+  ],
+  "primary_location": {
+   "id": "doi:10.1371/journal.pcbi.1006322",
+   "doi": "https://doi.org/10.1371/journal.pcbi.1006322",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1371/journal.pcbi.1006322",
+   "pdf_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1006322&type=printable",
+   "source": {
+    "id": "https://openalex.org/S86033158",
+    "display_name": "PLoS Computational Biology",
+    "issn_l": "1553-734X",
+    "issn": [
+     "1553-734X",
+     "1553-7358"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "anvur-scientific",
+     "ccf-b",
+     "cwts-core",
+     "doaj",
+     "dongbi-b",
+     "doyens",
+     "jufo-3",
+     "ki-jl-2",
+     "medline",
+     "norway-2",
+     "oarl",
+     "poland-140",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310315706",
+    "host_organization_name": "Public Library of Science",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310315706"
+    ],
+    "host_organization_lineage_names": [
+     "Public Library of Science"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "PLOS Computational Biology",
+   "raw_type": "journal-article"
+  }
+ }
+}

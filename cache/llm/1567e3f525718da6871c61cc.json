@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20205-e110-7480-8c00-dc6f931387b5",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330269,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 states that overall effects were weak for both meta-analyses, matching the claim.\"}",
+    "reasoning_content": "We need answer JSON only. Need evaluate claim: \"Across two meta-analyses, the overall effects of mind-sets and mind-set interventions on academic achievement were weak.\" Source passage [1] says \"Overall effects were weak for both meta-analyses. However...\" This directly supports. Need passage number 1. Verdict supported. Reason one sentence. Ensure JSON only.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 356,
+  "completion_tokens": 116,
+  "total_tokens": 472,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 76
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.18
+}

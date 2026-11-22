@@ -1,0 +1,1474 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 6532,
+   "db_response_time_ms": 204,
+   "page": 1,
+   "per_page": 2,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (distributed practice in verbal recall tasks review quantitative synthesis) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (distributed practice in verbal recall tasks review quantitative synthesis) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "distributed practice in verbal recall tasks review quantitative synthesis",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:distributed practice in verbal recall tasks review quantitative synthesis,has_abstract:true,language:en,type:article|review&per_page=2",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2049428464",
+    "doi": "https://doi.org/10.1037/0033-2909.132.3.354",
+    "title": "Distributed practice in verbal recall tasks: A review and quantitative synthesis.",
+    "display_name": "Distributed practice in verbal recall tasks: A review and quantitative synthesis.",
+    "publication_year": 2006,
+    "cited_by_count": 2595,
+    "abstract_inverted_index": {
+     "The": [
+      0
+     ],
+     "authors": [
+      1
+     ],
+     "performed": [
+      2
+     ],
+     "a": [
+      3
+     ],
+     "meta-analysis": [
+      4
+     ],
+     "of": [
+      5,
+      14,
+      29,
+      40
+     ],
+     "the": [
+      6,
+      12,
+      81
+     ],
+     "distributed": [
+      7,
+      30
+     ],
+     "practice": [
+      8,
+      31
+     ],
+     "effect": [
+      9
+     ],
+     "to": [
+      10,
+      76
+     ],
+     "illuminate": [
+      11
+     ],
+     "effects": [
+      13
+     ],
+     "temporal": [
+      15
+     ],
+     "variables": [
+      16
+     ],
+     "that": [
+      17,
+      69
+     ],
+     "have": [
+      18
+     ],
+     "been": [
+      19
+     ],
+     "neglected": [
+      20
+     ],
+     "in": [
+      21,
+      32,
+      36
+     ],
+     "previous": [
+      22
+     ],
+     "reviews.": [
+      23
+     ],
+     "This": [
+      24
+     ],
+     "review": [
+      25
+     ],
+     "found": [
+      26
+     ],
+     "839": [
+      27
+     ],
+     "assessments": [
+      28
+     ],
+     "317": [
+      33
+     ],
+     "experiments": [
+      34
+     ],
+     "located": [
+      35
+     ],
+     "184": [
+      37
+     ],
+     "articles.": [
+      38
+     ],
+     "Effects": [
+      39
+     ],
+     "spacing": [
+      41
+     ],
+     "(consecutive": [
+      42
+     ],
+     "massed": [
+      43
+     ],
+     "presentations": [
+      44
+     ],
+     "vs.": [
+      45,
+      53
+     ],
+     "spaced": [
+      46,
+      52,
+      55
+     ],
+     "learning": [
+      47,
+      56
+     ],
+     "episodes)": [
+      48,
+      57
+     ],
+     "and": [
+      49,
+      71,
+      95
+     ],
+     "lag": [
+      50
+     ],
+     "(less": [
+      51
+     ],
+     "more": [
+      54
+     ],
+     "were": [
+      58,
+      61
+     ],
+     "examined,": [
+      59
+     ],
+     "as": [
+      60,
+      87
+     ],
+     "expanding": [
+      62
+     ],
+     "interstudy": [
+      63
+     ],
+     "interval": [
+      64,
+      73,
+      89
+     ],
+     "(ISI)": [
+      65
+     ],
+     "effects.": [
+      66
+     ],
+     "Analyses": [
+      67
+     ],
+     "suggest": [
+      68
+     ],
+     "ISI": [
+      70,
+      82
+     ],
+     "retention": [
+      72,
+      85,
+      88
+     ],
+     "operate": [
+      74
+     ],
+     "jointly": [
+      75
+     ],
+     "affect": [
+      77
+     ],
+     "final-test": [
+      78
+     ],
+     "retention;": [
+      79
+     ],
+     "specifically,": [
+      80
+     ],
+     "producing": [
+      83
+     ],
+     "maximal": [
+      84
+     ],
+     "increased": [
+      86
+     ],
+     "increased.": [
+      90
+     ],
+     "Areas": [
+      91
+     ],
+     "needing": [
+      92
+     ],
+     "future": [
+      93
+     ],
+     "research": [
+      94
+     ],
+     "theoretical": [
+      96
+     ],
+     "implications": [
+      97
+     ],
+     "are": [
+      98
+     ],
+     "discussed.": [
+      99
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5071554223",
+       "display_name": "Nicholas J. Cepeda",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Nicholas J. Cepeda",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of California, San Diego, CA, USA. ncepeda@psy.ucsd.edu",
+       "University of California-San Diego, CA, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California, San Diego, CA, USA. ncepeda@psy.ucsd.edu",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of California-San Diego, CA, US",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5008952472",
+       "display_name": "Harold Pashler",
+       "orcid": "https://orcid.org/0000-0003-3644-4909",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3644-4909"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I188538660",
+        "display_name": "University of Colorado Boulder",
+        "ror": "https://ror.org/02ttsq026",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Harold Pashler",
+      "raw_affiliation_strings": [
+       "Department of Psychology , University of California , San Diego ;",
+       "University of Colorado , Boulder",
+       "Department of Psychology, University of California, San Diego, CA, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology , University of California , San Diego ;",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Colorado , Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California, San Diego, CA, US",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5090905459",
+       "display_name": "Edward Vul",
+       "orcid": "https://orcid.org/0000-0002-6217-1273",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6217-1273"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I188538660",
+        "display_name": "University of Colorado Boulder",
+        "ror": "https://ror.org/02ttsq026",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Edward Vul",
+      "raw_affiliation_strings": [
+       "Department of Psychology , University of California , San Diego ;",
+       "University of Colorado , Boulder",
+       "Department of Psychology, University of California, San Diego, CA, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology , University of California , San Diego ;",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Colorado , Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California, San Diego, CA, US",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5068581901",
+       "display_name": "John Timothy Wixted",
+       "orcid": "https://orcid.org/0000-0001-6282-5479",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6282-5479"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I2613432",
+        "display_name": "University of South Florida",
+        "ror": "https://ror.org/032db5x82",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I2613432"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "John T. Wixted",
+      "raw_affiliation_strings": [
+       "Department of Psychology , University of California , San Diego ;",
+       "University of South Florida University of California , San Diego",
+       "Department of Psychology, University of California, San Diego, CA, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology , University of California , San Diego ;",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of South Florida University of California , San Diego",
+        "institution_ids": [
+         "https://openalex.org/I2613432",
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California, San Diego, CA, US",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5038433616",
+       "display_name": "Doug Rohrer",
+       "orcid": "https://orcid.org/0000-0002-0059-545X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0059-545X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I188538660",
+        "display_name": "University of Colorado Boulder",
+        "ror": "https://ror.org/02ttsq026",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2613432",
+        "display_name": "University of South Florida",
+        "ror": "https://ror.org/032db5x82",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I2613432"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Doug Rohrer",
+      "raw_affiliation_strings": [
+       "Department of Psychology , University of South Florida",
+       "University of Colorado , Boulder",
+       "Department of Psychology, University of South Florida, Tampa, FL, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology , University of South Florida",
+        "institution_ids": [
+         "https://openalex.org/I2613432"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Colorado , Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, University of South Florida, Tampa, FL, US",
+        "institution_ids": [
+         "https://openalex.org/I2613432"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1037/0033-2909.132.3.354",
+     "doi": "https://doi.org/10.1037/0033-2909.132.3.354",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1037/0033-2909.132.3.354",
+     "pdf_url": "https://escholarship.org/content/qt3rr6q10c/qt3rr6q10c.pdf?t=lnr1h0",
+     "source": {
+      "id": "https://openalex.org/S75627607",
+      "display_name": "Psychological Bulletin",
+      "issn_l": "0033-2909",
+      "issn": [
+       "0033-2909",
+       "1939-1455"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-a-star",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-a",
+       "erih-plus",
+       "jufo-3",
+       "ki-jl-2",
+       "medline",
+       "norway-2",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320262",
+      "host_organization_name": "American Psychological Association",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320262"
+      ],
+      "host_organization_lineage_names": [
+       "American Psychological Association"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Psychological Bulletin",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4386116899",
+    "doi": "https://doi.org/10.1007/s10459-023-10274-3",
+    "title": "Systematic review of distributed practice and retrieval practice in health professions education",
+    "display_name": "Systematic review of distributed practice and retrieval practice in health professions education",
+    "publication_year": 2023,
+    "cited_by_count": 78,
+    "abstract_inverted_index": {
+     "To": [
+      0
+     ],
+     "determine": [
+      1
+     ],
+     "the": [
+      2,
+      136,
+      145,
+      184,
+      189,
+      195,
+      205,
+      229,
+      240
+     ],
+     "effect": [
+      3
+     ],
+     "of": [
+      4,
+      9,
+      32,
+      43,
+      78,
+      107,
+      117,
+      133,
+      142,
+      154,
+      191,
+      197,
+      207,
+      231,
+      239
+     ],
+     "distributed": [
+      5,
+      118,
+      232
+     ],
+     "practice": [
+      6,
+      15,
+      119,
+      122,
+      162,
+      165,
+      233
+     ],
+     "(spacing": [
+      7
+     ],
+     "out": [
+      8,
+      132,
+      141
+     ],
+     "study": [
+      10,
+      38,
+      177,
+      209,
+      214
+     ],
+     "over": [
+      11,
+      123
+     ],
+     "time)": [
+      12
+     ],
+     "and": [
+      13,
+      27,
+      65,
+      89,
+      91,
+      103,
+      125,
+      138,
+      158,
+      163,
+      211,
+      221,
+      234,
+      247
+     ],
+     "retrieval": [
+      14,
+      121,
+      164,
+      235
+     ],
+     "(recalling": [
+      16
+     ],
+     "information": [
+      17
+     ],
+     "from": [
+      18
+     ],
+     "memory)": [
+      19
+     ],
+     "on": [
+      20,
+      135,
+      144,
+      224
+     ],
+     "academic": [
+      21,
+      170
+     ],
+     "grades": [
+      22,
+      171
+     ],
+     "in": [
+      23,
+      46,
+      172,
+      200
+     ],
+     "health": [
+      24,
+      173
+     ],
+     "professions": [
+      25,
+      174
+     ],
+     "education": [
+      26
+     ],
+     "to": [
+      28,
+      53,
+      71,
+      187
+     ],
+     "summarise": [
+      29
+     ],
+     "a": [
+      30,
+      105,
+      152
+     ],
+     "range": [
+      31
+     ],
+     "interventional": [
+      33,
+      79
+     ],
+     "variables": [
+      34,
+      80
+     ],
+     "that": [
+      35
+     ],
+     "may": [
+      36,
+      203,
+      212,
+      227,
+      243
+     ],
+     "affect": [
+      37,
+      244
+     ],
+     "outcomes.": [
+      39
+     ],
+     "A": [
+      40,
+      76
+     ],
+     "systematic": [
+      41
+     ],
+     "search": [
+      42
+     ],
+     "seven": [
+      44
+     ],
+     "databases": [
+      45
+     ],
+     "November": [
+      47
+     ],
+     "2022": [
+      48
+     ],
+     "which": [
+      49,
+      226,
+      242
+     ],
+     "were": [
+      50,
+      69,
+      99,
+      149
+     ],
+     "screened": [
+      51
+     ],
+     "according": [
+      52
+     ],
+     "predefined": [
+      54
+     ],
+     "inclusion": [
+      55,
+      102
+     ],
+     "criteria.": [
+      56
+     ],
+     "The": [
+      57,
+      237
+     ],
+     "Medical": [
+      58
+     ],
+     "Education": [
+      59
+     ],
+     "Research": [
+      60
+     ],
+     "Study": [
+      61,
+      147
+     ],
+     "Quality": [
+      62
+     ],
+     "Instrument": [
+      63
+     ],
+     "(MERSQI)": [
+      64
+     ],
+     "Newcastle-Ottawa": [
+      66
+     ],
+     "Scale-Education": [
+      67
+     ],
+     "(NOS-E)": [
+      68
+     ],
+     "used": [
+      70
+     ],
+     "critically": [
+      72
+     ],
+     "appraise": [
+      73
+     ],
+     "eligible": [
+      74,
+      100
+     ],
+     "articles.": [
+      75
+     ],
+     "summary": [
+      77
+     ],
+     "includes": [
+      81
+     ],
+     "article": [
+      82
+     ],
+     "content": [
+      83
+     ],
+     "type,": [
+      84,
+      86
+     ],
+     "strategy": [
+      85
+     ],
+     "assessment": [
+      87,
+      159,
+      185
+     ],
+     "type": [
+      88
+     ],
+     "delay": [
+      90
+     ],
+     "statistical": [
+      92
+     ],
+     "significance.": [
+      93
+     ],
+     "Of": [
+      94,
+      110
+     ],
+     "1818": [
+      95
+     ],
+     "records": [
+      96
+     ],
+     "retrieved,": [
+      97
+     ],
+     "56": [
+      98
+     ],
+     "for": [
+      101
+     ],
+     "included": [
+      104,
+      199
+     ],
+     "total": [
+      106
+     ],
+     "63": [
+      108
+     ],
+     "experiments.": [
+      109
+     ],
+     "these": [
+      111
+     ],
+     "studies,": [
+      112
+     ],
+     "43": [
+      113
+     ],
+     "demonstrated": [
+      114
+     ],
+     "significant": [
+      115
+     ],
+     "benefits": [
+      116
+     ],
+     "and/or": [
+      120
+     ],
+     "control": [
+      124
+     ],
+     "comparison": [
+      126,
+      156
+     ],
+     "groups.": [
+      127
+     ],
+     "Included": [
+      128
+     ],
+     "studies": [
+      129,
+      202,
+      217
+     ],
+     "averaged": [
+      130,
+      139
+     ],
+     "12.23": [
+      131
+     ],
+     "18": [
+      134
+     ],
+     "MERSQI": [
+      137
+     ],
+     "4.55": [
+      140
+     ],
+     "6": [
+      143
+     ],
+     "NOS-E.": [
+      146
+     ],
+     "designs": [
+      148
+     ],
+     "heterogeneous": [
+      150
+     ],
+     "with": [
+      151
+     ],
+     "variety": [
+      153
+     ],
+     "interventions,": [
+      155
+     ],
+     "groups": [
+      157
+     ],
+     "types.": [
+      160
+     ],
+     "Distributed": [
+      161
+     ],
+     "are": [
+      166
+     ],
+     "effective": [
+      167
+     ],
+     "at": [
+      168
+     ],
+     "improving": [
+      169
+     ],
+     "education.": [
+      175
+     ],
+     "Future": [
+      176,
+      216
+     ],
+     "quality": [
+      178
+     ],
+     "can": [
+      179
+     ],
+     "be": [
+      180,
+      252
+     ],
+     "improved": [
+      181
+     ],
+     "by": [
+      182
+     ],
+     "validating": [
+      183
+     ],
+     "instruments,": [
+      186
+     ],
+     "demonstrate": [
+      188
+     ],
+     "reliability": [
+      190
+     ],
+     "outcome": [
+      192
+     ],
+     "measures.": [
+      193
+     ],
+     "Increasing": [
+      194
+     ],
+     "number": [
+      196
+     ],
+     "institutions": [
+      198
+     ],
+     "future": [
+      201
+     ],
+     "improve": [
+      204
+     ],
+     "diversity": [
+      206
+     ],
+     "represented": [
+      208
+     ],
+     "participants": [
+      210
+     ],
+     "enhance": [
+      213
+     ],
+     "quality.": [
+      215
+     ],
+     "should": [
+      218,
+      250
+     ],
+     "consider": [
+      219
+     ],
+     "measuring": [
+      220
+     ],
+     "reporting": [
+      222
+     ],
+     "time": [
+      223
+     ],
+     "task": [
+      225
+     ],
+     "clarify": [
+      228
+     ],
+     "effectiveness": [
+      230
+     ],
+     "practice.": [
+      236
+     ],
+     "stakes": [
+      238
+     ],
+     "assessments,": [
+      241
+     ],
+     "student": [
+      245
+     ],
+     "motivation": [
+      246
+     ],
+     "therefore": [
+      248
+     ],
+     "outcomes,": [
+      249
+     ],
+     "also": [
+      251
+     ],
+     "considered.": [
+      253
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5092810354",
+       "display_name": "Emma Trumble",
+       "orcid": "https://orcid.org/0000-0003-2119-8776",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2119-8776"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165143802",
+        "display_name": "The University of Queensland",
+        "ror": "https://ror.org/00rqy9422",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165143802"
+        ]
+       }
+      ],
+      "countries": [
+       "AU"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Emma Trumble",
+      "raw_affiliation_strings": [
+       "School of Education, The University of Queensland, Queensland, Australia. e.trumble@uqconnect.edu.au",
+       "School of Education, The University of Queensland, Queensland, Australia"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-2119-8776",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Education, The University of Queensland, Queensland, Australia. e.trumble@uqconnect.edu.au",
+        "institution_ids": [
+         "https://openalex.org/I165143802"
+        ]
+       },
+       {
+        "raw_affiliation_string": "School of Education, The University of Queensland, Queensland, Australia",
+        "institution_ids": [
+         "https://openalex.org/I165143802"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5069874026",
+       "display_name": "Jason M. Lodge",
+       "orcid": "https://orcid.org/0000-0001-6330-6160",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6330-6160"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165143802",
+        "display_name": "The University of Queensland",
+        "ror": "https://ror.org/00rqy9422",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165143802"
+        ]
+       }
+      ],
+      "countries": [
+       "AU"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jason Lodge",
+      "raw_affiliation_strings": [
+       "School of Education, The University of Queensland, Queensland, Australia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Education, The University of Queensland, Queensland, Australia",
+        "institution_ids": [
+         "https://openalex.org/I165143802"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5022337661",
+       "display_name": "Allison Mandrusiak",
+       "orcid": "https://orcid.org/0000-0003-4180-9167",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4180-9167"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165143802",
+        "display_name": "The University of Queensland",
+        "ror": "https://ror.org/00rqy9422",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165143802"
+        ]
+       }
+      ],
+      "countries": [
+       "AU"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Allison Mandrusiak",
+      "raw_affiliation_strings": [
+       "School of Health and Rehabilitation Sciences, The University of Queensland, Queensland, Australia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Health and Rehabilitation Sciences, The University of Queensland, Queensland, Australia",
+        "institution_ids": [
+         "https://openalex.org/I165143802"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5045741012",
+       "display_name": "Roma Forbes",
+       "orcid": "https://orcid.org/0000-0002-9959-3875",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9959-3875"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165143802",
+        "display_name": "The University of Queensland",
+        "ror": "https://ror.org/00rqy9422",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165143802"
+        ]
+       }
+      ],
+      "countries": [
+       "AU"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Roma Forbes",
+      "raw_affiliation_strings": [
+       "School of Health and Rehabilitation Sciences, The University of Queensland, Queensland, Australia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Health and Rehabilitation Sciences, The University of Queensland, Queensland, Australia",
+        "institution_ids": [
+         "https://openalex.org/I165143802"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1007/s10459-023-10274-3",
+     "doi": "https://doi.org/10.1007/s10459-023-10274-3",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1007/s10459-023-10274-3",
+     "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10459-023-10274-3.pdf",
+     "source": {
+      "id": "https://openalex.org/S129194695",
+      "display_name": "Advances in Health Sciences Education",
+      "issn_l": "1382-4996",
+      "issn": [
+       "1382-4996",
+       "1573-1677"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-c",
+       "doyens",
+       "erih-plus",
+       "jufo-2",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319900",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer Science+Business Media",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Advances in Health Sciences Education",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201ae-f393-7b9d-be2e-d8ab39c5268e",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795324572,
+ "model": "google/gemma-4-12B-it",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "```json\n{\"verdict\": \"not_supported\", \"passage\": \"[1]\", \"reason\": \"The passage explicitly states that immediate post-test performance showed no significant differences across the different notetaking conditions.\"}\n```",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 327,
+  "completion_tokens": 48,
+  "total_tokens": 375,
+  "prompt_tokens_details": {
+   "cached_tokens": 16
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.22
+}

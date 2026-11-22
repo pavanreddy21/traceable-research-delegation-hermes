@@ -1,0 +1,2964 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 130,
+   "db_response_time_ms": 117,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (retrieval practice no benefit compared rereading long-term retention boundary conditions) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (retrieval practice no benefit compared rereading long-term retention boundary conditions) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "retrieval practice no benefit compared rereading long-term retention boundary conditions",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:retrieval practice no benefit compared rereading long-term retention boundary conditions,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W6977847697",
+    "doi": "https://doi.org/10.7936/k7319t0v",
+    "title": "Covert Retrieval Practice Benefits Retention As Much As Overt Retrieval Practice",
+    "display_name": "Covert Retrieval Practice Benefits Retention As Much As Overt Retrieval Practice",
+    "publication_year": 2011,
+    "cited_by_count": 1,
+    "abstract_inverted_index": {
+     "A": [
+      0
+     ],
+     "plethora": [
+      1
+     ],
+     "of": [
+      2,
+      29
+     ],
+     "previous": [
+      3
+     ],
+     "research": [
+      4,
+      18,
+      68
+     ],
+     "shows": [
+      5
+     ],
+     "that": [
+      6,
+      56,
+      138
+     ],
+     "testing": [
+      7,
+      17
+     ],
+     "benefits": [
+      8
+     ],
+     "retention": [
+      9,
+      40,
+      65,
+      95,
+      104,
+      157
+     ],
+     "(see": [
+      10
+     ],
+     "Roediger": [
+      11
+     ],
+     "&": [
+      12
+     ],
+     "Karpicke,": [
+      13
+     ],
+     "2006b);": [
+      14
+     ],
+     "however,": [
+      15
+     ],
+     "most": [
+      16
+     ],
+     "has": [
+      19
+     ],
+     "employed": [
+      20
+     ],
+     "tests": [
+      21
+     ],
+     "requiring": [
+      22
+     ],
+     "overt": [
+      23,
+      52,
+      57,
+      77,
+      89,
+      106,
+      127,
+      150,
+      170
+     ],
+     "responses.Does": [
+      24
+     ],
+     "covert": [
+      25,
+      59,
+      98,
+      108,
+      129,
+      152
+     ],
+     "retrieval": [
+      26,
+      37,
+      60,
+      109,
+      130,
+      143,
+      153
+     ],
+     "during": [
+      27,
+      79,
+      87,
+      125
+     ],
+     "testing-thinking": [
+      28
+     ],
+     "but": [
+      30,
+      44
+     ],
+     "not": [
+      31
+     ],
+     "producing": [
+      32,
+      75
+     ],
+     "responses-produce": [
+      33
+     ],
+     "the": [
+      34,
+      83
+     ],
+     "same": [
+      35,
+      84
+     ],
+     "benefit?Covert": [
+      36
+     ],
+     "can": [
+      38,
+      159
+     ],
+     "benefit": [
+      39
+     ],
+     "(e.g.,": [
+      41
+     ],
+     "Kang,": [
+      42
+     ],
+     "2010),": [
+      43
+     ],
+     "does": [
+      45
+     ],
+     "it": [
+      46
+     ],
+     "do": [
+      47
+     ],
+     "so": [
+      48
+     ],
+     "as": [
+      49,
+      51,
+      161,
+      166
+     ],
+     "well": [
+      50
+     ],
+     "retrieval?Tulving": [
+      53
+     ],
+     "(1983)": [
+      54
+     ],
+     "hypothesized": [
+      55
+     ],
+     "and": [
+      58,
+      71,
+      107,
+      128,
+      133,
+      151
+     ],
+     "should": [
+      61
+     ],
+     "result": [
+      62,
+      154
+     ],
+     "in": [
+      63,
+      155
+     ],
+     "comparable": [
+      64,
+      156
+     ],
+     "benefits,": [
+      66
+     ],
+     "yet": [
+      67
+     ],
+     "by": [
+      69
+     ],
+     "MacLeod": [
+      70
+     ],
+     "collaborators": [
+      72
+     ],
+     "(2010)": [
+      73
+     ],
+     "suggests": [
+      74
+     ],
+     "an": [
+      76
+     ],
+     "response": [
+      78
+     ],
+     "encoding": [
+      80
+     ],
+     "aids": [
+      81
+     ],
+     "retention.If": [
+      82
+     ],
+     "principle": [
+      85
+     ],
+     "operates": [
+      86
+     ],
+     "testing,": [
+      88
+     ],
+     "responding": [
+      90
+     ],
+     "may": [
+      91
+     ],
+     "lead": [
+      92
+     ],
+     "to": [
+      93,
+      97,
+      120,
+      123
+     ],
+     "enhanced": [
+      94
+     ],
+     "relative": [
+      96
+     ],
+     "retrieval.We": [
+      99
+     ],
+     "report": [
+      100
+     ],
+     "three": [
+      101
+     ],
+     "experiments": [
+      102
+     ],
+     "comparing": [
+      103
+     ],
+     "after": [
+      105
+     ],
+     "on": [
+      110
+     ],
+     "a": [
+      111,
+      116,
+      136
+     ],
+     "first": [
+      112
+     ],
+     "test.Experiment": [
+      113
+     ],
+     "1": [
+      114
+     ],
+     "uses": [
+      115
+     ],
+     "novel": [
+      117
+     ],
+     "procedure": [
+      118,
+      137
+     ],
+     "designed": [
+      119
+     ],
+     "motivate": [
+      121
+     ],
+     "subjects": [
+      122
+     ],
+     "retrieve": [
+      124
+     ],
+     "both": [
+      126
+     ],
+     "trials.Experiments": [
+      131
+     ],
+     "2": [
+      132
+     ],
+     "3": [
+      134
+     ],
+     "employ": [
+      135
+     ],
+     "more": [
+      139
+     ],
+     "closely": [
+      140
+     ],
+     "mirrors": [
+      141
+     ],
+     "natural": [
+      142
+     ],
+     "processes.The": [
+      144
+     ],
+     "results": [
+      145
+     ],
+     "generally": [
+      146
+     ],
+     "confirm": [
+      147
+     ],
+     "Tulving's": [
+      148
+     ],
+     "hypothesis:": [
+      149
+     ],
+     "benefits.Students": [
+      158
+     ],
+     "learn": [
+      160
+     ],
+     "much": [
+      162
+     ],
+     "from": [
+      163,
+      169
+     ],
+     "covertly": [
+      164
+     ],
+     "selftesting": [
+      165
+     ],
+     "they": [
+      167
+     ],
+     "would": [
+      168
+     ],
+     "responding.": [
+      171
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": null,
+       "display_name": "Smith, Megan",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204465549",
+        "display_name": "Washington University in St. Louis",
+        "ror": "https://ror.org/01yc7t268",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Smith, Megan",
+      "raw_affiliation_strings": [
+       "Washington University in St. Louis"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Washington University in St. Louis",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "pmh:oai:repository.library.washu.edu:etd-1488",
+     "doi": "https://doi.org/10.7936/k7319t0v",
+     "is_oa": true,
+     "landing_page_url": "https://repository.library.washu.edu/etd/489",
+     "pdf_url": "https://repository.library.washu.edu/context/etd/article/1488/viewcontent/msm406757.pdf",
+     "source": {
+      "id": "https://openalex.org/S4377196400",
+      "display_name": "Open Scholarship Institutional Repository (Washington University in St. Louis)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I204465549",
+      "host_organization_name": "Washington University in St. Louis",
+      "host_organization_lineage": [
+       "https://openalex.org/I204465549"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "All Theses and Dissertations (ETDs)",
+     "raw_type": "text"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3091645833",
+    "doi": "https://doi.org/10.1146/annurev-psych-010419-051019",
+    "title": "Practicing Retrieval Facilitates Learning",
+    "display_name": "Practicing Retrieval Facilitates Learning",
+    "publication_year": 2020,
+    "cited_by_count": 165,
+    "abstract_inverted_index": {
+     "How": [
+      0
+     ],
+     "do": [
+      1
+     ],
+     "we": [
+      2
+     ],
+     "go": [
+      3
+     ],
+     "about": [
+      4
+     ],
+     "learning": [
+      5,
+      38,
+      77
+     ],
+     "new": [
+      6
+     ],
+     "information?": [
+      7
+     ],
+     "This": [
+      8,
+      44
+     ],
+     "article": [
+      9
+     ],
+     "reviews": [
+      10
+     ],
+     "the": [
+      11,
+      31,
+      41,
+      93
+     ],
+     "importance": [
+      12
+     ],
+     "of": [
+      13,
+      16,
+      67,
+      86
+     ],
+     "practicing": [
+      14,
+      34
+     ],
+     "retrieval": [
+      15,
+      35
+     ],
+     "newly": [
+      17
+     ],
+     "experienced": [
+      18
+     ],
+     "information": [
+      19
+     ],
+     "if": [
+      20
+     ],
+     "one": [
+      21
+     ],
+     "wants": [
+      22
+     ],
+     "to": [
+      23,
+      26,
+      74,
+      91
+     ],
+     "be": [
+      24,
+      47,
+      72
+     ],
+     "able": [
+      25
+     ],
+     "retrieve": [
+      27
+     ],
+     "it": [
+      28,
+      54
+     ],
+     "again": [
+      29
+     ],
+     "in": [
+      30,
+      57,
+      78
+     ],
+     "future.": [
+      32
+     ],
+     "Specifically,": [
+      33
+     ],
+     "shortly": [
+      36
+     ],
+     "after": [
+      37
+     ],
+     "can": [
+      39,
+      46,
+      70
+     ],
+     "slow": [
+      40
+     ],
+     "forgetting": [
+      42
+     ],
+     "process.": [
+      43
+     ],
+     "benefit": [
+      45
+     ],
+     "seen": [
+      48
+     ],
+     "across": [
+      49
+     ],
+     "various": [
+      50
+     ],
+     "material": [
+      51
+     ],
+     "types,": [
+      52
+     ],
+     "and": [
+      53,
+      60,
+      63,
+      100
+     ],
+     "seems": [
+      55
+     ],
+     "prevalent": [
+      56
+     ],
+     "all": [
+      58,
+      65
+     ],
+     "ages": [
+      59
+     ],
+     "learner": [
+      61
+     ],
+     "abilities": [
+      62
+     ],
+     "on": [
+      64
+     ],
+     "types": [
+      66
+     ],
+     "test.": [
+      68
+     ],
+     "It": [
+      69
+     ],
+     "also": [
+      71
+     ],
+     "used": [
+      73
+     ],
+     "enhance": [
+      75
+     ],
+     "student": [
+      76
+     ],
+     "a": [
+      79
+     ],
+     "classroom": [
+      80
+     ],
+     "setting.": [
+      81
+     ],
+     "I": [
+      82
+     ],
+     "review": [
+      83
+     ],
+     "theoretical": [
+      84
+     ],
+     "understanding": [
+      85
+     ],
+     "this": [
+      87
+     ],
+     "phenomenon": [
+      88
+     ],
+     "(sometimes": [
+      89
+     ],
+     "referred": [
+      90
+     ],
+     "as": [
+      92,
+      97
+     ],
+     "testing": [
+      94
+     ],
+     "effect": [
+      95
+     ],
+     "or": [
+      96
+     ],
+     "retrieval-based": [
+      98
+     ],
+     "learning)": [
+      99
+     ],
+     "consider": [
+      101
+     ],
+     "directions": [
+      102
+     ],
+     "for": [
+      103
+     ],
+     "future": [
+      104
+     ],
+     "research.": [
+      105
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5019005209",
+       "display_name": "Kathleen B. McDermott",
+       "orcid": "https://orcid.org/0000-0003-1736-5674",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1736-5674"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204465549",
+        "display_name": "Washington University in St. Louis",
+        "ror": "https://ror.org/01yc7t268",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Kathleen B. McDermott",
+      "raw_affiliation_strings": [
+       "Department of Psychological and Brain Sciences, Washington University in St. Louis, St. Louis, Missouri 63130, USA;"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychological and Brain Sciences, Washington University in St. Louis, St. Louis, Missouri 63130, USA;",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1146/annurev-psych-010419-051019",
+     "doi": "https://doi.org/10.1146/annurev-psych-010419-051019",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1146/annurev-psych-010419-051019",
+     "pdf_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-psych-010419-051019",
+     "source": {
+      "id": "https://openalex.org/S90670110",
+      "display_name": "Annual Review of Psychology",
+      "issn_l": "0066-4308",
+      "issn": [
+       "0066-4308",
+       "1545-2085"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-a-star",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-a",
+       "jufo-3",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320373",
+      "host_organization_name": "Annual Reviews",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320373"
+      ],
+      "host_organization_lineage_names": [
+       "Annual Reviews"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Annual Review of Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3038587040",
+    "doi": "https://doi.org/10.14349/rlp.2020.v52.3",
+    "title": "Improving retention by placing retrieval practice at the end of class: a naturalistic study",
+    "display_name": "Improving retention by placing retrieval practice at the end of class: a naturalistic study",
+    "publication_year": 2020,
+    "cited_by_count": 5,
+    "abstract_inverted_index": {
+     "Attempting": [
+      0
+     ],
+     "to": [
+      1,
+      31,
+      145
+     ],
+     "recall": [
+      2
+     ],
+     "previously": [
+      3
+     ],
+     "encountered": [
+      4
+     ],
+     "information": [
+      5
+     ],
+     "by": [
+      6,
+      46,
+      111,
+      141
+     ],
+     "being": [
+      7
+     ],
+     "tested": [
+      8,
+      36
+     ],
+     "or": [
+      9,
+      61
+     ],
+     "quizzed": [
+      10
+     ],
+     "(retrieval": [
+      11
+     ],
+     "practice:": [
+      12
+     ],
+     "RP)": [
+      13
+     ],
+     "enhances": [
+      14
+     ],
+     "memory.": [
+      15
+     ],
+     "In": [
+      16
+     ],
+     "real": [
+      17
+     ],
+     "classrooms,": [
+      18
+     ],
+     "however,": [
+      19
+     ],
+     "it": [
+      20
+     ],
+     "is": [
+      21
+     ],
+     "unclear": [
+      22
+     ],
+     "when": [
+      23
+     ],
+     "testing": [
+      24
+     ],
+     "should": [
+      25
+     ],
+     "take": [
+      26
+     ],
+     "place": [
+      27
+     ],
+     "(placement)": [
+      28
+     ],
+     "in": [
+      29,
+      56,
+      118,
+      133
+     ],
+     "order": [
+      30
+     ],
+     "elicit": [
+      32
+     ],
+     "better": [
+      33
+     ],
+     "learning.": [
+      34
+     ],
+     "We": [
+      35
+     ],
+     "students": [
+      37,
+      116
+     ],
+     "using": [
+      38
+     ],
+     "authentic": [
+      39
+     ],
+     "undergraduate-course": [
+      40
+     ],
+     "materials": [
+      41
+     ],
+     "with": [
+      42
+     ],
+     "two": [
+      43
+     ],
+     "placements,": [
+      44
+     ],
+     "followed": [
+      45
+     ],
+     "collective": [
+      47
+     ],
+     "feedback:": [
+      48
+     ],
+     "(a)": [
+      49
+     ],
+     "at": [
+      50,
+      63,
+      78,
+      126
+     ],
+     "the": [
+      51,
+      54,
+      64,
+      67,
+      72,
+      79,
+      127,
+      130,
+      146
+     ],
+     "end": [
+      52,
+      128
+     ],
+     "of": [
+      53,
+      66,
+      96,
+      129
+     ],
+     "class": [
+      55,
+      132
+     ],
+     "which": [
+      57,
+      107,
+      134
+     ],
+     "content": [
+      58,
+      74,
+      135
+     ],
+     "was": [
+      59,
+      82,
+      109,
+      136
+     ],
+     "taught;": [
+      60
+     ],
+     "(b)": [
+      62
+     ],
+     "beginning": [
+      65
+     ],
+     "next": [
+      68
+     ],
+     "class.": [
+      69
+     ],
+     "Re-teaching": [
+      70
+     ],
+     "(RT)": [
+      71
+     ],
+     "same": [
+      73,
+      80,
+      131
+     ],
+     "through": [
+      75
+     ],
+     "lecturer": [
+      76
+     ],
+     "led-reviews": [
+      77
+     ],
+     "placements": [
+      81
+     ],
+     "used": [
+      83
+     ],
+     "as": [
+      84
+     ],
+     "a": [
+      85,
+      119
+     ],
+     "control": [
+      86
+     ],
+     "condition.": [
+      87
+     ],
+     "RP": [
+      88
+     ],
+     "and": [
+      89,
+      100
+     ],
+     "RT": [
+      90
+     ],
+     "plus": [
+      91
+     ],
+     "feedback": [
+      92
+     ],
+     "took": [
+      93
+     ],
+     "15": [
+      94
+     ],
+     "min": [
+      95
+     ],
+     "100": [
+      97
+     ],
+     "min-long": [
+      98
+     ],
+     "classes": [
+      99,
+      105
+     ],
+     "were": [
+      101,
+      114
+     ],
+     "applied": [
+      102
+     ],
+     "during": [
+      103
+     ],
+     "12": [
+      104
+     ],
+     "after": [
+      106
+     ],
+     "retention": [
+      108
+     ],
+     "assessed": [
+      110
+     ],
+     "exams.": [
+      112
+     ],
+     "Participants": [
+      113
+     ],
+     "114": [
+      115
+     ],
+     "enrolled": [
+      117
+     ],
+     "biweekly": [
+      120
+     ],
+     "taught": [
+      121,
+      137
+     ],
+     "course.": [
+      122
+     ],
+     "Testing": [
+      123
+     ],
+     "(RP)": [
+      124
+     ],
+     "once": [
+      125
+     ],
+     "boosted": [
+      138
+     ],
+     "academic": [
+      139
+     ],
+     "scores": [
+      140
+     ],
+     "around": [
+      142
+     ],
+     "10%": [
+      143
+     ],
+     "compared": [
+      144
+     ],
+     "other": [
+      147
+     ],
+     "manipulations.": [
+      148
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5027486587",
+       "display_name": "Roberta Ekuni",
+       "orcid": "https://orcid.org/0000-0003-1490-0184",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1490-0184"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210114476",
+        "display_name": "Universidade Estadual do Norte do Paran\u00e1",
+        "ror": "https://ror.org/0261qja04",
+        "country_code": "BR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210114476"
+        ]
+       }
+      ],
+      "countries": [
+       "BR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Roberta Ekuni",
+      "raw_affiliation_strings": [
+       "Universidade Estadual do Norte do Paran\u00e1",
+       "Universidade Estadual Do Norte Do Paran\u00e1,  Brazil"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-1490-0184",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Universidade Estadual do Norte do Paran\u00e1",
+        "institution_ids": [
+         "https://openalex.org/I4210114476"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Universidade Estadual Do Norte Do Paran\u00e1,  Brazil",
+        "institution_ids": [
+         "https://openalex.org/I4210114476"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5016827871",
+       "display_name": "Sabine Pomp\u00e9ia",
+       "orcid": "https://orcid.org/0000-0002-5208-8003",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5208-8003"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I88273585",
+        "display_name": "Universidade Federal de S\u00e3o Paulo",
+        "ror": "https://ror.org/02k5swt12",
+        "country_code": "BR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I88273585"
+        ]
+       }
+      ],
+      "countries": [
+       "BR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Sabine Pompeia",
+      "raw_affiliation_strings": [
+       "Universidade Federal de S\u00e3o Paulo",
+       "Universidade Federal de S\u00e3o Paulo , Brazil"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-5208-8003",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Universidade Federal de S\u00e3o Paulo",
+        "institution_ids": [
+         "https://openalex.org/I88273585"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Universidade Federal de S\u00e3o Paulo , Brazil",
+        "institution_ids": [
+         "https://openalex.org/I88273585"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.14349/rlp.2020.v52.3",
+     "doi": "https://doi.org/10.14349/rlp.2020.v52.3",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.14349/rlp.2020.v52.3",
+     "pdf_url": "http://revistalatinoamericanadepsicologia.konradlorenz.edu.co/wp-content/uploads/2020/07/03_19074.pdf",
+     "source": {
+      "id": "https://openalex.org/S178348653",
+      "display_name": "Revista Latinoamericana de Psicolog\u00eda",
+      "issn_l": "0120-0534",
+      "issn": [
+       "0120-0534"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-d",
+       "norway-1",
+       "poland-40",
+       "publindex-a2",
+       "russia-white-list-3",
+       "scielo"
+      ],
+      "host_organization": "https://openalex.org/P4310318843",
+      "host_organization_name": "Konrad Lorenz Fundaci\u00f3n Universitaria",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310318843"
+      ],
+      "host_organization_lineage_names": [
+       "Konrad Lorenz Fundaci\u00f3n Universitaria"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Revista Latinoamericana de Psicolog\u00eda",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4313043229",
+    "doi": "https://doi.org/10.1026/0049-8637/a000261",
+    "title": "Combining Retrieval Practice and Generative Learning in Educational Contexts: Promises and Challenges",
+    "display_name": "Combining Retrieval Practice and Generative Learning in Educational Contexts: Promises and Challenges",
+    "publication_year": 2022,
+    "cited_by_count": 48,
+    "abstract_inverted_index": {
+     "Engaging": [
+      0
+     ],
+     "learners": [
+      1
+     ],
+     "in": [
+      2
+     ],
+     "practicing": [
+      3
+     ],
+     "the": [
+      4,
+      10,
+      25,
+      44,
+      55,
+      67,
+      88,
+      123,
+      139,
+      143
+     ],
+     "retrieval": [
+      5,
+      70,
+      102,
+      140
+     ],
+     "of": [
+      6,
+      12,
+      33,
+      38,
+      46,
+      90,
+      111
+     ],
+     "learned": [
+      7
+     ],
+     "information": [
+      8
+     ],
+     "fosters": [
+      9
+     ],
+     "consolidation": [
+      11
+     ],
+     "learners\u2019": [
+      13
+     ],
+     "mental": [
+      14,
+      78,
+      92
+     ],
+     "representations": [
+      15
+     ],
+     "and": [
+      16,
+      41,
+      72,
+      101,
+      142
+     ],
+     "hence": [
+      17
+     ],
+     "long-term": [
+      18
+     ],
+     "retention.": [
+      19
+     ],
+     "Retrieval": [
+      20
+     ],
+     "practice": [
+      21,
+      71,
+      103,
+      141
+     ],
+     "research": [
+      22
+     ],
+     "has": [
+      23
+     ],
+     "enriched": [
+      24
+     ],
+     "instructional": [
+      26
+     ],
+     "design": [
+      27
+     ],
+     "literature": [
+      28
+     ],
+     "by": [
+      29
+     ],
+     "providing": [
+      30
+     ],
+     "a": [
+      31,
+      58,
+      96
+     ],
+     "wealth": [
+      32
+     ],
+     "evidence": [
+      34
+     ],
+     "for": [
+      35
+     ],
+     "these": [
+      36,
+      128
+     ],
+     "benefits": [
+      37
+     ],
+     "retrieval-based": [
+      39
+     ],
+     "learning": [
+      40,
+      145
+     ],
+     "thus": [
+      42
+     ],
+     "emphasizing": [
+      43
+     ],
+     "value": [
+      45
+     ],
+     "means": [
+      47
+     ],
+     "to": [
+      48,
+      64,
+      118,
+      125
+     ],
+     "consolidate": [
+      49
+     ],
+     "knowledge.": [
+      50
+     ],
+     "The": [
+      51
+     ],
+     "present": [
+      52
+     ],
+     "article": [
+      53
+     ],
+     "makes": [
+      54
+     ],
+     "case": [
+      56
+     ],
+     "that": [
+      57,
+      134
+     ],
+     "fruitful": [
+      59
+     ],
+     "next": [
+      60
+     ],
+     "step": [
+      61
+     ],
+     "could": [
+      62,
+      135
+     ],
+     "be": [
+      63,
+      115
+     ],
+     "focus": [
+      65
+     ],
+     "on": [
+      66
+     ],
+     "interplay": [
+      68
+     ],
+     "between": [
+      69
+     ],
+     "generative": [
+      73,
+      80,
+      99,
+      144
+     ],
+     "activities.": [
+      74
+     ],
+     "Rather": [
+      75
+     ],
+     "than": [
+      76
+     ],
+     "consolidating": [
+      77
+     ],
+     "representations,": [
+      79
+     ],
+     "activities": [
+      81,
+      100,
+      113
+     ],
+     "should": [
+      82,
+      104
+     ],
+     "have": [
+      83
+     ],
+     "as": [
+      84
+     ],
+     "their": [
+      85
+     ],
+     "main": [
+      86
+     ],
+     "function": [
+      87
+     ],
+     "construction": [
+      89
+     ],
+     "coherent": [
+      91
+     ],
+     "representations.": [
+      93
+     ],
+     "Hence,": [
+      94
+     ],
+     "from": [
+      95
+     ],
+     "theoretical": [
+      97
+     ],
+     "perspective,": [
+      98
+     ],
+     "functionally": [
+      105
+     ],
+     "complement": [
+      106
+     ],
+     "each": [
+      107
+     ],
+     "other;": [
+      108
+     ],
+     "hence,": [
+      109
+     ],
+     "combinations": [
+      110
+     ],
+     "both": [
+      112,
+      138
+     ],
+     "might": [
+      114
+     ],
+     "particularly": [
+      116
+     ],
+     "suitable": [
+      117
+     ],
+     "promote": [
+      119
+     ],
+     "lasting": [
+      120
+     ],
+     "learning.": [
+      121
+     ],
+     "Given": [
+      122
+     ],
+     "challenge": [
+      124
+     ],
+     "beneficially": [
+      126
+     ],
+     "combine": [
+      127
+     ],
+     "activities,": [
+      129
+     ],
+     "we": [
+      130
+     ],
+     "discuss": [
+      131
+     ],
+     "open": [
+      132
+     ],
+     "questions": [
+      133
+     ],
+     "substantially": [
+      136
+     ],
+     "advance": [
+      137
+     ],
+     "field.": [
+      146
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5016590067",
+       "display_name": "Julian Roelle",
+       "orcid": "https://orcid.org/0000-0001-9581-9120",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9581-9120"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I904495901",
+        "display_name": "Ruhr University Bochum",
+        "ror": "https://ror.org/04tsk2644",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I904495901"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Julian Roelle",
+      "raw_affiliation_strings": [
+       "Faculty of Philosophy and Educational Research, Ruhr University Bochum, Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-9581-9120",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Philosophy and Educational Research, Ruhr University Bochum, Germany",
+        "institution_ids": [
+         "https://openalex.org/I904495901"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5030758637",
+       "display_name": "Judith Schweppe",
+       "orcid": "https://orcid.org/0000-0002-8661-3072",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8661-3072"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I186354981",
+        "display_name": "University of Passau",
+        "ror": "https://ror.org/05ydjnb78",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I186354981"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Judith Schweppe",
+      "raw_affiliation_strings": [
+       "Faculty of Arts and Humanities, University of Passau, Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-8661-3072",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Arts and Humanities, University of Passau, Germany",
+        "institution_ids": [
+         "https://openalex.org/I186354981"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5032369522",
+       "display_name": "Tino Endres",
+       "orcid": "https://orcid.org/0000-0003-3334-4064",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3334-4064"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I161046081",
+        "display_name": "University of Freiburg",
+        "ror": "https://ror.org/0245cg223",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I161046081"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Tino Endres",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of Freiburg, Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-3334-4064",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of Freiburg, Germany",
+        "institution_ids": [
+         "https://openalex.org/I161046081"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5010620594",
+       "display_name": "Andreas Lachner",
+       "orcid": "https://orcid.org/0000-0001-5866-7164",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5866-7164"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I8087733",
+        "display_name": "University of T\u00fcbingen",
+        "ror": "https://ror.org/03a1kwz48",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I8087733"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Andreas Lachner",
+      "raw_affiliation_strings": [
+       "Faculty of Economics and Social Sciences,           University of T\u00fcbingen, Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-5866-7164",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Economics and Social Sciences,           University of T\u00fcbingen, Germany",
+        "institution_ids": [
+         "https://openalex.org/I8087733"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5047035216",
+       "display_name": "Claudia von Aufschnaiter",
+       "orcid": "https://orcid.org/0000-0002-6522-7084",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6522-7084"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I200763008",
+        "display_name": "Justus-Liebig-Universit\u00e4t Gie\u00dfen",
+        "ror": "https://ror.org/033eqas34",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I200763008"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Claudia von Aufschnaiter",
+      "raw_affiliation_strings": [
+       "Department of Physics, Justus Liebig University Giessen, Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-6522-7084",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physics, Justus Liebig University Giessen, Germany",
+        "institution_ids": [
+         "https://openalex.org/I200763008"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5061656502",
+       "display_name": "Alexander Renkl",
+       "orcid": "https://orcid.org/0000-0001-7971-0619",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7971-0619"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I161046081",
+        "display_name": "University of Freiburg",
+        "ror": "https://ror.org/0245cg223",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I161046081"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Alexander Renkl",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of Freiburg, Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-7971-0619",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of Freiburg, Germany",
+        "institution_ids": [
+         "https://openalex.org/I161046081"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5090387409",
+       "display_name": "Alexander Eitel",
+       "orcid": "https://orcid.org/0000-0001-6403-3467",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6403-3467"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I200763008",
+        "display_name": "Justus-Liebig-Universit\u00e4t Gie\u00dfen",
+        "ror": "https://ror.org/033eqas34",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I200763008"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Alexander Eitel",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Justus Liebig University Giessen, Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-6403-3467",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Justus Liebig University Giessen, Germany",
+        "institution_ids": [
+         "https://openalex.org/I200763008"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5009521559",
+       "display_name": "Detlev Leutner",
+       "orcid": "https://orcid.org/0000-0001-5308-9094",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5308-9094"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I62318514",
+        "display_name": "University of Duisburg-Essen",
+        "ror": "https://ror.org/04mz5ra38",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I62318514"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Detlev Leutner",
+      "raw_affiliation_strings": [
+       "Faculty of Educational Sciences, University Duisburg-Essen, Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-5308-9094",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Educational Sciences, University Duisburg-Essen, Germany",
+        "institution_ids": [
+         "https://openalex.org/I62318514"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5061763840",
+       "display_name": "Ralf Rummer",
+       "orcid": "https://orcid.org/0000-0002-2568-0925",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2568-0925"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I106157433",
+        "display_name": "University of Kassel",
+        "ror": "https://ror.org/04zc7p361",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I106157433"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Ralf Rummer",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of Kassel, Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-2568-0925",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of Kassel, Germany",
+        "institution_ids": [
+         "https://openalex.org/I106157433"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5055559619",
+       "display_name": "Katharina Scheiter",
+       "orcid": "https://orcid.org/0000-0002-9397-7544",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9397-7544"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I176453806",
+        "display_name": "University of Potsdam",
+        "ror": "https://ror.org/03bnmw459",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I176453806"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Katharina Scheiter",
+      "raw_affiliation_strings": [
+       "Department of Educational Sciences, University of Potsdam, Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-9397-7544",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Educational Sciences, University of Potsdam, Germany",
+        "institution_ids": [
+         "https://openalex.org/I176453806"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5059202958",
+       "display_name": "Andreas Vorholzer",
+       "orcid": "https://orcid.org/0000-0002-0915-2516",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0915-2516"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I62916508",
+        "display_name": "Technical University of Munich",
+        "ror": "https://ror.org/02kkvpp62",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I62916508"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Andreas Vorholzer",
+      "raw_affiliation_strings": [
+       "School of Social Sciences and Technology, Technical University of Munich, Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-0915-2516",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Social Sciences and Technology, Technical University of Munich, Germany",
+        "institution_ids": [
+         "https://openalex.org/I62916508"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1026/0049-8637/a000261",
+     "doi": "https://doi.org/10.1026/0049-8637/a000261",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1026/0049-8637/a000261",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S175962947",
+      "display_name": "Zeitschrift f\u00fcr Entwicklungspsychologie und P\u00e4dagogische Psychologie",
+      "issn_l": "0049-8637",
+      "issn": [
+       "0049-8637",
+       "2190-6262"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-c",
+       "erih-plus",
+       "jufo-1",
+       "norway-1",
+       "poland-40",
+       "russia-white-list-3"
+      ],
+      "host_organization": "https://openalex.org/P4310319871",
+      "host_organization_name": "Hogrefe Verlag",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319871"
+      ],
+      "host_organization_lineage_names": [
+       "Hogrefe Verlag"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc",
+     "license_id": "https://openalex.org/licenses/cc-by-nc",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Zeitschrift f\u00fcr Entwicklungspsychologie und P\u00e4dagogische Psychologie",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4411386724",
+    "doi": "https://doi.org/10.1007/s10648-025-10040-4",
+    "title": "Does Retrieval Demand Moderate the Effectiveness of Covert Retrieval Practice? Comparing Covert and Overt Retrieval Practice for Learning Key Terms and Definitions",
+    "display_name": "Does Retrieval Demand Moderate the Effectiveness of Covert Retrieval Practice? Comparing Covert and Overt Retrieval Practice for Learning Key Terms and Definitions",
+    "publication_year": 2025,
+    "cited_by_count": 1,
+    "abstract_inverted_index": {
+     "Prior": [
+      0
+     ],
+     "research": [
+      1,
+      180
+     ],
+     "suggests": [
+      2
+     ],
+     "that": [
+      3,
+      59,
+      158
+     ],
+     "the": [
+      4,
+      53,
+      121,
+      128,
+      186
+     ],
+     "effectiveness": [
+      5,
+      187
+     ],
+     "of": [
+      6,
+      37,
+      64,
+      99,
+      188
+     ],
+     "retrieval": [
+      7,
+      16,
+      23,
+      38,
+      54,
+      129,
+      151,
+      160,
+      171,
+      198
+     ],
+     "practice": [
+      8,
+      161
+     ],
+     "may": [
+      9,
+      82,
+      172
+     ],
+     "be": [
+      10,
+      84,
+      173
+     ],
+     "moderated": [
+      11
+     ],
+     "by": [
+      12,
+      52
+     ],
+     "response": [
+      13
+     ],
+     "format:": [
+      14
+     ],
+     "overt": [
+      15,
+      105,
+      136,
+      159,
+      197
+     ],
+     "(e.g.,": [
+      17,
+      24,
+      76
+     ],
+     "typing": [
+      18
+     ],
+     "a": [
+      19,
+      27,
+      61,
+      116,
+      142
+     ],
+     "response)": [
+      20,
+      28
+     ],
+     "outperforms": [
+      21
+     ],
+     "covert": [
+      22,
+      107,
+      139,
+      170,
+      189
+     ],
+     "mentally": [
+      25
+     ],
+     "recalling": [
+      26
+     ],
+     "for": [
+      29,
+      42,
+      135,
+      145,
+      165
+     ],
+     "complex": [
+      30,
+      201
+     ],
+     "materials": [
+      31,
+      44
+     ],
+     "like": [
+      32,
+      45
+     ],
+     "definitions,": [
+      33
+     ],
+     "but": [
+      34
+     ],
+     "both": [
+      35
+     ],
+     "forms": [
+      36
+     ],
+     "are": [
+      39,
+      50
+     ],
+     "equally": [
+      40
+     ],
+     "effective": [
+      41
+     ],
+     "simple": [
+      43
+     ],
+     "single": [
+      46,
+      62
+     ],
+     "words.": [
+      47
+     ],
+     "These": [
+      48,
+      155
+     ],
+     "differences": [
+      49
+     ],
+     "explained": [
+      51
+     ],
+     "dynamics": [
+      55,
+      130
+     ],
+     "hypothesis,": [
+      56
+     ],
+     "which": [
+      57
+     ],
+     "posits": [
+      58
+     ],
+     "retrieving": [
+      60,
+      72
+     ],
+     "unit": [
+      63
+     ],
+     "information": [
+      65
+     ],
+     "is": [
+      66,
+      78,
+      162
+     ],
+     "relatively": [
+      67
+     ],
+     "automatic": [
+      68
+     ],
+     "and": [
+      69,
+      81,
+      102
+     ],
+     "easy,": [
+      70
+     ],
+     "while": [
+      71
+     ],
+     "multiple": [
+      73
+     ],
+     "interconnected": [
+      74
+     ],
+     "units": [
+      75
+     ],
+     "definitions)": [
+      77
+     ],
+     "more": [
+      79,
+      174
+     ],
+     "demanding": [
+      80,
+      167
+     ],
+     "not": [
+      83
+     ],
+     "exhaustive": [
+      85
+     ],
+     "when": [
+      86,
+      199
+     ],
+     "done": [
+      87
+     ],
+     "covertly.": [
+      88
+     ],
+     "In": [
+      89
+     ],
+     "two": [
+      90
+     ],
+     "experiments,": [
+      91
+     ],
+     "undergraduates": [
+      92
+     ],
+     "studied": [
+      93
+     ],
+     "either": [
+      94,
+      120
+     ],
+     "key": [
+      95,
+      122,
+      148
+     ],
+     "terms": [
+      96,
+      123
+     ],
+     "or": [
+      97,
+      109,
+      124
+     ],
+     "definitions": [
+      98,
+      146
+     ],
+     "declarative": [
+      100
+     ],
+     "concepts": [
+      101
+     ],
+     "practiced": [
+      103
+     ],
+     "via": [
+      104
+     ],
+     "retrieval,": [
+      106,
+      108,
+      140
+     ],
+     "restudy.": [
+      110,
+      154
+     ],
+     "Two": [
+      111
+     ],
+     "days": [
+      112
+     ],
+     "later,": [
+      113
+     ],
+     "students": [
+      114,
+      195
+     ],
+     "completed": [
+      115
+     ],
+     "criterion": [
+      117
+     ],
+     "test": [
+      118
+     ],
+     "on": [
+      119
+     ],
+     "definitions.": [
+      125
+     ],
+     "Results": [
+      126
+     ],
+     "supported": [
+      127
+     ],
+     "hypothesis:": [
+      131
+     ],
+     "performance": [
+      132
+     ],
+     "was": [
+      133
+     ],
+     "higher": [
+      134
+     ],
+     "compared": [
+      137
+     ],
+     "to": [
+      138,
+      184
+     ],
+     "with": [
+      141
+     ],
+     "larger": [
+      143
+     ],
+     "advantage": [
+      144
+     ],
+     "than": [
+      147
+     ],
+     "terms.": [
+      149
+     ],
+     "Both": [
+      150
+     ],
+     "formats": [
+      152
+     ],
+     "outperformed": [
+      153
+     ],
+     "findings": [
+      156
+     ],
+     "suggest": [
+      157
+     ],
+     "particularly": [
+      163
+     ],
+     "beneficial": [
+      164
+     ],
+     "learning": [
+      166
+     ],
+     "material,": [
+      168
+     ],
+     "whereas": [
+      169
+     ],
+     "efficient,": [
+      175
+     ],
+     "though": [
+      176
+     ],
+     "less": [
+      177
+     ],
+     "thorough.": [
+      178
+     ],
+     "Future": [
+      179
+     ],
+     "should": [
+      181
+     ],
+     "explore": [
+      182
+     ],
+     "methods": [
+      183
+     ],
+     "enhance": [
+      185
+     ],
+     "retrieval.": [
+      190
+     ],
+     "Until": [
+      191
+     ],
+     "then,": [
+      192
+     ],
+     "we": [
+      193
+     ],
+     "recommend": [
+      194
+     ],
+     "prioritize": [
+      196
+     ],
+     "mastering": [
+      200
+     ],
+     "information.": [
+      202
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5070865030",
+       "display_name": "Michelle L. Rivers",
+       "orcid": "https://orcid.org/0000-0002-4931-2895",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4931-2895"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I128956969",
+        "display_name": "Texas Christian University",
+        "ror": "https://ror.org/054b0b564",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I128956969"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I16269868",
+        "display_name": "Santa Clara University",
+        "ror": "https://ror.org/03ypqe447",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I16269868"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Michelle L. Rivers",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Santa Clara University, Santa Clara, CA, 95053, USA",
+       "Department of Psychology, Texas Christian University, Fort Worth, TX, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-4931-2895",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Santa Clara University, Santa Clara, CA, 95053, USA",
+        "institution_ids": [
+         "https://openalex.org/I16269868"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, Texas Christian University, Fort Worth, TX, USA",
+        "institution_ids": [
+         "https://openalex.org/I128956969"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5073246303",
+       "display_name": "Paige E. Northern",
+       "orcid": "https://orcid.org/0000-0002-0608-1978",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0608-1978"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I128956969",
+        "display_name": "Texas Christian University",
+        "ror": "https://ror.org/054b0b564",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I128956969"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I161165907",
+        "display_name": "Southeast Missouri State University",
+        "ror": "https://ror.org/010n41y16",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I161165907"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Paige E. Northern",
+      "raw_affiliation_strings": [
+       "Department of Psychology & Counseling, Southeast Missouri State University, Cape Girardeau, MO, USA",
+       "Department of Psychology, Texas Christian University, Fort Worth, TX, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-0608-1978",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology & Counseling, Southeast Missouri State University, Cape Girardeau, MO, USA",
+        "institution_ids": [
+         "https://openalex.org/I161165907"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, Texas Christian University, Fort Worth, TX, USA",
+        "institution_ids": [
+         "https://openalex.org/I128956969"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5038938165",
+       "display_name": "Sarah K. Tauber",
+       "orcid": "https://orcid.org/0000-0002-6965-6548",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6965-6548"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I128956969",
+        "display_name": "Texas Christian University",
+        "ror": "https://ror.org/054b0b564",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I128956969"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Sarah K. Tauber",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Texas Christian University, Fort Worth, TX, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-6965-6548",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Texas Christian University, Fort Worth, TX, USA",
+        "institution_ids": [
+         "https://openalex.org/I128956969"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1007/s10648-025-10040-4",
+     "doi": "https://doi.org/10.1007/s10648-025-10040-4",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1007/s10648-025-10040-4",
+     "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10648-025-10040-4.pdf",
+     "source": {
+      "id": "https://openalex.org/S187318745",
+      "display_name": "Educational Psychology Review",
+      "issn_l": "1040-726X",
+      "issn": [
+       "1040-726X",
+       "1573-336X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-a",
+       "erih-plus",
+       "jufo-2",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319900",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer Science+Business Media",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Educational Psychology Review",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

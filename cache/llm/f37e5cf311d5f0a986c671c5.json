@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201b0-ba2b-7460-ba7a-234ec3810ea4",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795324688,
+ "model": "google/gemma-4-12B-it",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "```json\n{\"verdict\": \"not_supported\", \"passage\": \"1\", \"reason\": \"The source states that the intervention changed grades specifically when peer norms aligned with the intervention messages, rather than improving grades equally regardless of peer norms.\"}\n```",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 315,
+  "completion_tokens": 54,
+  "total_tokens": 369,
+  "prompt_tokens_details": {
+   "cached_tokens": 16
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.24
+}

@@ -1,0 +1,5211 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 3334,
+   "db_response_time_ms": 206,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (meta-analysis acute exercise no significant effect executive function null findings) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (meta-analysis acute exercise no significant effect executive function null findings) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "meta-analysis acute exercise no significant effect executive function null findings",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:meta-analysis acute exercise no significant effect executive function null findings,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W7119155730",
+    "doi": "https://doi.org/10.3389/fpsyg.2025.1714707",
+    "title": "Does music support executive functions and affective responses during acute exercise? A systematic review and meta-analysis",
+    "display_name": "Does music support executive functions and affective responses during acute exercise? A systematic review and meta-analysis",
+    "publication_year": 2026,
+    "cited_by_count": 10,
+    "abstract_inverted_index": {
+     "Introduction": [
+      0
+     ],
+     "Maintaining": [
+      1
+     ],
+     "a": [
+      2,
+      171,
+      194
+     ],
+     "steady": [
+      3
+     ],
+     "running": [
+      4
+     ],
+     "pace": [
+      5
+     ],
+     "despite": [
+      6
+     ],
+     "physical": [
+      7,
+      33
+     ],
+     "or": [
+      8
+     ],
+     "mental": [
+      9
+     ],
+     "fatigue": [
+      10
+     ],
+     "often": [
+      11
+     ],
+     "engages": [
+      12
+     ],
+     "executive": [
+      13,
+      46,
+      66,
+      83,
+      239
+     ],
+     "functions.": [
+      14
+     ],
+     "These": [
+      15
+     ],
+     "functions": [
+      16,
+      47,
+      67,
+      84,
+      240
+     ],
+     "may": [
+      17,
+      80
+     ],
+     "contribute": [
+      18
+     ],
+     "to": [
+      19,
+      29,
+      223
+     ],
+     "sustaining": [
+      20
+     ],
+     "exercise": [
+      21,
+      41,
+      52,
+      64,
+      119,
+      124,
+      134,
+      155,
+      198
+     ],
+     "participation": [
+      22
+     ],
+     "by": [
+      23
+     ],
+     "regulating": [
+      24
+     ],
+     "cognitive": [
+      25
+     ],
+     "and": [
+      26,
+      39,
+      48,
+      62,
+      68,
+      85,
+      117,
+      132,
+      140,
+      157,
+      169,
+      182,
+      216,
+      241
+     ],
+     "affective": [
+      27,
+      49,
+      69,
+      86,
+      242
+     ],
+     "responses": [
+      28,
+      87,
+      243
+     ],
+     "the": [
+      30,
+      57,
+      95,
+      217
+     ],
+     "demands": [
+      31
+     ],
+     "of": [
+      32,
+      45,
+      60,
+      130,
+      167,
+      174
+     ],
+     "exercise.": [
+      34,
+      90,
+      246
+     ],
+     "Research": [
+      35
+     ],
+     "on": [
+      36,
+      65,
+      135,
+      238
+     ],
+     "both": [
+      37
+     ],
+     "music": [
+      38,
+      61,
+      79,
+      116,
+      131,
+      168
+     ],
+     "acute": [
+      40,
+      63,
+      89,
+      118,
+      133,
+      245
+     ],
+     "independently": [
+      42
+     ],
+     "shows": [
+      43
+     ],
+     "engagement": [
+      44
+     ],
+     "responses,": [
+      50
+     ],
+     "with": [
+      51,
+      82,
+      98,
+      164
+     ],
+     "intensities": [
+      53,
+      156,
+      199
+     ],
+     "influencing": [
+      54
+     ],
+     "outcomes.": [
+      55
+     ],
+     "However,": [
+      56
+     ],
+     "combined": [
+      58
+     ],
+     "effects": [
+      59,
+      129,
+      166,
+      219
+     ],
+     "outcomes": [
+      70
+     ],
+     "remain": [
+      71
+     ],
+     "underexplored.": [
+      72
+     ],
+     "Methods": [
+      73
+     ],
+     "Accordingly,": [
+      74
+     ],
+     "this": [
+      75
+     ],
+     "review": [
+      76,
+      248
+     ],
+     "examines": [
+      77
+     ],
+     "how": [
+      78
+     ],
+     "interact": [
+      81
+     ],
+     "during": [
+      88,
+      244
+     ],
+     "Results": [
+      91
+     ],
+     "Ten": [
+      92
+     ],
+     "studies": [
+      93,
+      151
+     ],
+     "met": [
+      94
+     ],
+     "inclusion": [
+      96
+     ],
+     "criteria,": [
+      97
+     ],
+     "nine": [
+      99,
+      150
+     ],
+     "providing": [
+      100
+     ],
+     "data": [
+      101
+     ],
+     "for": [
+      102
+     ],
+     "effect": [
+      103,
+      147
+     ],
+     "size": [
+      104
+     ],
+     "calculations": [
+      105
+     ],
+     "across": [
+      106,
+      197,
+      226
+     ],
+     "21": [
+      107
+     ],
+     "intervention": [
+      108
+     ],
+     "arms.": [
+      109
+     ],
+     "Narrative": [
+      110
+     ],
+     "synthesis": [
+      111
+     ],
+     "indicated": [
+      112
+     ],
+     "context-dependent": [
+      113
+     ],
+     "patterns": [
+      114
+     ],
+     "between": [
+      115
+     ],
+     "combinations,": [
+      120
+     ],
+     "particularly": [
+      121
+     ],
+     "at": [
+      122
+     ],
+     "low-to-moderate": [
+      123
+     ],
+     "intensities.": [
+      125
+     ],
+     "Meta-analyses": [
+      126
+     ],
+     "report": [
+      127
+     ],
+     "non-significant": [
+      128
+     ],
+     "attention": [
+      136
+     ],
+     "allocation,": [
+      137
+     ],
+     "inhibitory": [
+      138
+     ],
+     "control,": [
+      139
+     ],
+     "core": [
+      141
+     ],
+     "affect.": [
+      142
+     ],
+     "A": [
+      143,
+      189
+     ],
+     "meta-regression": [
+      144
+     ],
+     "pooling": [
+      145
+     ],
+     "18": [
+      146
+     ],
+     "sizes": [
+      148
+     ],
+     "from": [
+      149
+     ],
+     "suggested": [
+      152
+     ],
+     "that": [
+      153
+     ],
+     "higher": [
+      154
+     ],
+     "older": [
+      158
+     ],
+     "mean": [
+      159
+     ],
+     "participant": [
+      160
+     ],
+     "age": [
+      161
+     ],
+     "were": [
+      162
+     ],
+     "associated": [
+      163
+     ],
+     "smaller": [
+      165
+     ],
+     "explained": [
+      170
+     ],
+     "substantial": [
+      172,
+      213
+     ],
+     "proportion": [
+      173
+     ],
+     "between-study": [
+      175
+     ],
+     "variance,": [
+      176
+     ],
+     "although": [
+      177
+     ],
+     "residual": [
+      178
+     ],
+     "heterogeneity": [
+      179,
+      214
+     ],
+     "remained": [
+      180
+     ],
+     "high": [
+      181
+     ],
+     "these": [
+      183
+     ],
+     "findings": [
+      184
+     ],
+     "should": [
+      185
+     ],
+     "be": [
+      186
+     ],
+     "interpreted": [
+      187
+     ],
+     "cautiously.": [
+      188
+     ],
+     "descriptive": [
+      190
+     ],
+     "subgroup": [
+      191
+     ],
+     "analysis": [
+      192
+     ],
+     "showed": [
+      193
+     ],
+     "decreasing": [
+      195
+     ],
+     "pattern": [
+      196
+     ],
+     "(low:": [
+      200
+     ],
+     "g": [
+      201,
+      205,
+      209
+     ],
+     "=": [
+      202,
+      206,
+      210
+     ],
+     "3.99;": [
+      203
+     ],
+     "moderate:": [
+      204
+     ],
+     "0.99;": [
+      207
+     ],
+     "high:": [
+      208
+     ],
+     "0.28),": [
+      211
+     ],
+     "though": [
+      212
+     ],
+     "persisted,": [
+      215
+     ],
+     "reported": [
+      218
+     ],
+     "do": [
+      220
+     ],
+     "not": [
+      221
+     ],
+     "appear": [
+      222
+     ],
+     "generalize": [
+      224
+     ],
+     "consistently": [
+      225
+     ],
+     "studies.": [
+      227
+     ],
+     "Discussion": [
+      228
+     ],
+     "The": [
+      229
+     ],
+     "current": [
+      230
+     ],
+     "synthesised": [
+      231
+     ],
+     "evidence": [
+      232
+     ],
+     "appears": [
+      233
+     ],
+     "inconclusive": [
+      234
+     ],
+     "regarding": [
+      235
+     ],
+     "music\u2019s": [
+      236
+     ],
+     "influence": [
+      237
+     ],
+     "Systematic": [
+      247
+     ],
+     "registration": [
+      249
+     ],
+     "https://www.crd.york.ac.uk/PROSPERO/view/CRD42023465958": [
+      250
+     ],
+     ".": [
+      251
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5010038217",
+       "display_name": "Andrew Danso",
+       "orcid": "https://orcid.org/0009-0008-6461-7831",
+       "observed_orcids": [
+        "https://orcid.org/0009-0008-6461-7831"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94722563",
+        "display_name": "University of Jyv\u00e4skyl\u00e4",
+        "ror": "https://ror.org/05n3dz165",
+        "country_code": "FI",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94722563"
+        ]
+       }
+      ],
+      "countries": [
+       "FI"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/project-administration",
+        "display_name": "Project administration"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/software",
+        "display_name": "Software"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/visualization",
+        "display_name": "Visualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Andrew Danso",
+      "raw_affiliation_strings": [
+       "University of Jyvaskyla;"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0008-6461-7831",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Jyvaskyla;",
+        "institution_ids": [
+         "https://openalex.org/I94722563"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5061412106",
+       "display_name": "Julia Vigl",
+       "orcid": "https://orcid.org/0000-0003-2152-7584",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2152-7584"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I190249584",
+        "display_name": "Universit\u00e4t Innsbruck",
+        "ror": "https://ror.org/054pv6659",
+        "country_code": "AT",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I190249584"
+        ]
+       }
+      ],
+      "countries": [
+       "AT"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/software",
+        "display_name": "Software"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Julia Vigl",
+      "raw_affiliation_strings": [
+       "University of Innsbruck;"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-2152-7584",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Innsbruck;",
+        "institution_ids": [
+         "https://openalex.org/I190249584"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5055259426",
+       "display_name": "Friederike Koehler",
+       "orcid": "https://orcid.org/0000-0002-0877-7100",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0877-7100"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94722563",
+        "display_name": "University of Jyv\u00e4skyl\u00e4",
+        "ror": "https://ror.org/05n3dz165",
+        "country_code": "FI",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94722563"
+        ]
+       }
+      ],
+      "countries": [
+       "FI"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Friederike Koehler",
+      "raw_affiliation_strings": [
+       "University of Jyvaskyla;"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-0877-7100",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Jyvaskyla;",
+        "institution_ids": [
+         "https://openalex.org/I94722563"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5012374784",
+       "display_name": "Keegan Phillip Knittle",
+       "orcid": "https://orcid.org/0000-0002-2108-7112",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2108-7112"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94722563",
+        "display_name": "University of Jyv\u00e4skyl\u00e4",
+        "ror": "https://ror.org/05n3dz165",
+        "country_code": "FI",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94722563"
+        ]
+       }
+      ],
+      "countries": [
+       "FI"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Keegan Knittle",
+      "raw_affiliation_strings": [
+       "University of Jyvaskyla;"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-2108-7112",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Jyvaskyla;",
+        "institution_ids": [
+         "https://openalex.org/I94722563"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5077473630",
+       "display_name": "Joshua Silberstein Bamford",
+       "orcid": "https://orcid.org/0000-0002-8204-7915",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8204-7915"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94722563",
+        "display_name": "University of Jyv\u00e4skyl\u00e4",
+        "ror": "https://ror.org/05n3dz165",
+        "country_code": "FI",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94722563"
+        ]
+       }
+      ],
+      "countries": [
+       "FI"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Joshua S. Bamford",
+      "raw_affiliation_strings": [
+       "University of Jyvaskyla;"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-8204-7915",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Jyvaskyla;",
+        "institution_ids": [
+         "https://openalex.org/I94722563"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5059781324",
+       "display_name": "Patti Nijhuis",
+       "orcid": "https://orcid.org/0000-0002-1416-305X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1416-305X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94722563",
+        "display_name": "University of Jyv\u00e4skyl\u00e4",
+        "ror": "https://ror.org/05n3dz165",
+        "country_code": "FI",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94722563"
+        ]
+       }
+      ],
+      "countries": [
+       "FI"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Patti Nijhuis",
+      "raw_affiliation_strings": [
+       "University of Jyvaskyla;"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-1416-305X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Jyvaskyla;",
+        "institution_ids": [
+         "https://openalex.org/I94722563"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5066200016",
+       "display_name": "Eero A. Haapala",
+       "orcid": "https://orcid.org/0000-0001-5096-851X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5096-851X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94722563",
+        "display_name": "University of Jyv\u00e4skyl\u00e4",
+        "ror": "https://ror.org/05n3dz165",
+        "country_code": "FI",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94722563"
+        ]
+       }
+      ],
+      "countries": [
+       "FI"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Eero A. Haapala",
+      "raw_affiliation_strings": [
+       "University of Jyvaskyla;"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-5096-851X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Jyvaskyla;",
+        "institution_ids": [
+         "https://openalex.org/I94722563"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5052700597",
+       "display_name": "Ming Yu Claudia Wong",
+       "orcid": "https://orcid.org/0000-0001-8390-8898",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8390-8898"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210086892",
+        "display_name": "Education University of Hong Kong",
+        "ror": "https://ror.org/000t0f062",
+        "country_code": "HK",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210086892"
+        ]
+       }
+      ],
+      "countries": [
+       "HK"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Ming Yu Claudia Wong",
+      "raw_affiliation_strings": [
+       "The Education University of Hong Kong;"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-8390-8898",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "The Education University of Hong Kong;",
+        "institution_ids": [
+         "https://openalex.org/I4210086892"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5068153593",
+       "display_name": "Shannon Wright",
+       "orcid": "https://orcid.org/0000-0001-8159-7467",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8159-7467"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I170606269",
+        "display_name": "University of the Fraser Valley",
+        "ror": "https://ror.org/04h6w7946",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I170606269"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Shannon E. Wright",
+      "raw_affiliation_strings": [
+       "University of the Fraser Valley;"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-8159-7467",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of the Fraser Valley;",
+        "institution_ids": [
+         "https://openalex.org/I170606269"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5032301846",
+       "display_name": "Margarida Baltazar",
+       "orcid": "https://orcid.org/0000-0003-3790-9106",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3790-9106"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94722563",
+        "display_name": "University of Jyv\u00e4skyl\u00e4",
+        "ror": "https://ror.org/05n3dz165",
+        "country_code": "FI",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94722563"
+        ]
+       }
+      ],
+      "countries": [
+       "FI"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Margarida Baltazar",
+      "raw_affiliation_strings": [
+       "University of Jyvaskyla;"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-3790-9106",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Jyvaskyla;",
+        "institution_ids": [
+         "https://openalex.org/I94722563"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5116071429",
+       "display_name": "Nora R. Serres",
+       "orcid": "https://orcid.org/0000-0002-2294-741X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2294-741X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I184942183",
+        "display_name": "University of Oslo",
+        "ror": "https://ror.org/01xtthb56",
+        "country_code": "NO",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I184942183"
+        ]
+       }
+      ],
+      "countries": [
+       "NO"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Nora Serres",
+      "raw_affiliation_strings": [
+       "University of Oslo;"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-2294-741X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Oslo;",
+        "institution_ids": [
+         "https://openalex.org/I184942183"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5119004115",
+       "display_name": "Niels Chr. Hansen",
+       "orcid": "https://orcid.org/0000-0003-2142-6484",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2142-6484"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94722563",
+        "display_name": "University of Jyv\u00e4skyl\u00e4",
+        "ror": "https://ror.org/05n3dz165",
+        "country_code": "FI",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94722563"
+        ]
+       }
+      ],
+      "countries": [
+       "FI"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Niels Chr. Hansen",
+      "raw_affiliation_strings": [
+       "University of Jyvaskyla;"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-2142-6484",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Jyvaskyla;",
+        "institution_ids": [
+         "https://openalex.org/I94722563"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5039266599",
+       "display_name": "Andrea Schiavio",
+       "orcid": "https://orcid.org/0000-0001-8109-9185",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8109-9185"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I52099693",
+        "display_name": "University of York",
+        "ror": "https://ror.org/04m01e293",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I52099693"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Andrea Schiavio",
+      "raw_affiliation_strings": [
+       "University of York"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-8109-9185",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of York",
+        "institution_ids": [
+         "https://openalex.org/I52099693"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5007264746",
+       "display_name": "Suvi Helin\u00e4 Saarikallio",
+       "orcid": "https://orcid.org/0000-0002-4647-8048",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4647-8048"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94722563",
+        "display_name": "University of Jyv\u00e4skyl\u00e4",
+        "ror": "https://ror.org/05n3dz165",
+        "country_code": "FI",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94722563"
+        ]
+       }
+      ],
+      "countries": [
+       "FI"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Suvi Saarikallio",
+      "raw_affiliation_strings": [
+       "University of Jyvaskyla;"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-4647-8048",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Jyvaskyla;",
+        "institution_ids": [
+         "https://openalex.org/I94722563"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5027957755",
+       "display_name": "Geoff Luck",
+       "orcid": "https://orcid.org/0000-0003-4057-022X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4057-022X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94722563",
+        "display_name": "University of Jyv\u00e4skyl\u00e4",
+        "ror": "https://ror.org/05n3dz165",
+        "country_code": "FI",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94722563"
+        ]
+       }
+      ],
+      "countries": [
+       "FI"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Geoff Luck",
+      "raw_affiliation_strings": [
+       "University of Jyvaskyla;"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-4057-022X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Jyvaskyla;",
+        "institution_ids": [
+         "https://openalex.org/I94722563"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2025.1714707",
+     "doi": "https://doi.org/10.3389/fpsyg.2025.1714707",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2025.1714707",
+     "pdf_url": "https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1714707/pdf",
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4311079749",
+    "doi": "https://doi.org/10.1186/s40798-022-00527-7",
+    "title": "Effects of Acute Resistance Exercise on Executive Function: A Systematic Review of the Moderating Role of Intensity and Executive Function Domain",
+    "display_name": "Effects of Acute Resistance Exercise on Executive Function: A Systematic Review of the Moderating Role of Intensity and Executive Function Domain",
+    "publication_year": 2022,
+    "cited_by_count": 60,
+    "abstract_inverted_index": {
+     "BACKGROUND:": [
+      0
+     ],
+     "Research": [
+      1
+     ],
+     "has": [
+      2,
+      258
+     ],
+     "demonstrated": [
+      3
+     ],
+     "that": [
+      4,
+      170
+     ],
+     "there": [
+      5
+     ],
+     "is": [
+      6
+     ],
+     "a": [
+      7,
+      111,
+      156,
+      174,
+      259,
+      293
+     ],
+     "beneficial": [
+      8,
+      260
+     ],
+     "effect": [
+      9,
+      25,
+      49,
+      178,
+      261
+     ],
+     "of": [
+      10,
+      19,
+      40,
+      50,
+      137,
+      158,
+      164,
+      184,
+      296,
+      299
+     ],
+     "acute": [
+      11,
+      21,
+      41,
+      98,
+      171,
+      192,
+      203,
+      300
+     ],
+     "exercise": [
+      12,
+      23,
+      51,
+      279
+     ],
+     "on": [
+      13,
+      26,
+      43,
+      179,
+      262,
+      302
+     ],
+     "cognitive": [
+      14,
+      65,
+      221,
+      241
+     ],
+     "function;": [
+      15
+     ],
+     "however,": [
+      16
+     ],
+     "the": [
+      17,
+      20,
+      38,
+      47,
+      124,
+      138,
+      145,
+      165,
+      297
+     ],
+     "moderators": [
+      18,
+      225,
+      290
+     ],
+     "resistance": [
+      22
+     ],
+     "(RE)": [
+      24
+     ],
+     "executive": [
+      27
+     ],
+     "function": [
+      28
+     ],
+     "(EF)": [
+      29
+     ],
+     "are": [
+      30
+     ],
+     "underestimated.": [
+      31
+     ],
+     "This": [
+      32
+     ],
+     "systematic": [
+      33
+     ],
+     "review": [
+      34
+     ],
+     "aims": [
+      35
+     ],
+     "to": [
+      36,
+      88,
+      123,
+      144,
+      291
+     ],
+     "clarify": [
+      37
+     ],
+     "effects": [
+      39
+     ],
+     "RE": [
+      42,
+      99,
+      172,
+      185,
+      193,
+      235,
+      246,
+      257,
+      301
+     ],
+     "EF": [
+      44,
+      58,
+      126,
+      188,
+      195,
+      207,
+      282
+     ],
+     "by": [
+      45
+     ],
+     "examining": [
+      46
+     ],
+     "moderating": [
+      48
+     ],
+     "intensity": [
+      52,
+      186,
+      191,
+      202,
+      234,
+      245,
+      272
+     ],
+     "(light,": [
+      53
+     ],
+     "moderate,": [
+      54
+     ],
+     "and": [
+      55,
+      57,
+      64,
+      84,
+      105,
+      128,
+      187,
+      200,
+      220,
+      236,
+      281
+     ],
+     "vigorous)": [
+      56
+     ],
+     "domains": [
+      59,
+      283
+     ],
+     "(inhibitory": [
+      60
+     ],
+     "control,": [
+      61
+     ],
+     "working": [
+      62,
+      218,
+      238
+     ],
+     "memory,": [
+      63
+     ],
+     "flexibility),": [
+      66
+     ],
+     "as": [
+      67,
+      69,
+      284,
+      286
+     ],
+     "well": [
+      68,
+      285
+     ],
+     "their": [
+      70
+     ],
+     "interactions.": [
+      71
+     ],
+     "METHODS:": [
+      72
+     ],
+     "The": [
+      73,
+      134
+     ],
+     "search": [
+      74
+     ],
+     "strategy": [
+      75
+     ],
+     "was": [
+      76,
+      141
+     ],
+     "conducted": [
+      77
+     ],
+     "in": [
+      78,
+      100,
+      132,
+      250
+     ],
+     "four": [
+      79
+     ],
+     "databases": [
+      80
+     ],
+     "(PubMed,": [
+      81
+     ],
+     "Scopus,": [
+      82
+     ],
+     "PsycARTICLES,": [
+      83
+     ],
+     "Cochrane": [
+      85
+     ],
+     "Library)": [
+      86
+     ],
+     "prior": [
+      87
+     ],
+     "January": [
+      89
+     ],
+     "29,": [
+      90
+     ],
+     "2022.": [
+      91
+     ],
+     "Included": [
+      92
+     ],
+     "studies": [
+      93,
+      140,
+      151,
+      275
+     ],
+     "had": [
+      94,
+      173
+     ],
+     "to:": [
+      95
+     ],
+     "(1)": [
+      96
+     ],
+     "investigate": [
+      97,
+      287
+     ],
+     "adults": [
+      101
+     ],
+     "with": [
+      102
+     ],
+     "normal": [
+      103
+     ],
+     "cognition": [
+      104
+     ],
+     "without": [
+      106
+     ],
+     "diagnosed": [
+      107
+     ],
+     "disease;": [
+      108
+     ],
+     "(2)": [
+      109
+     ],
+     "include": [
+      110,
+      120,
+      277
+     ],
+     "control": [
+      112,
+      115,
+      215,
+      229,
+      269
+     ],
+     "group": [
+      113
+     ],
+     "or": [
+      114,
+      232,
+      240
+     ],
+     "session": [
+      116
+     ],
+     "for": [
+      117,
+      213,
+      217,
+      267
+     ],
+     "comparison;": [
+      118
+     ],
+     "(3)": [
+      119
+     ],
+     "outcomes": [
+      121,
+      166
+     ],
+     "related": [
+      122
+     ],
+     "core": [
+      125
+     ],
+     "domains;": [
+      127
+     ],
+     "(4)": [
+      129
+     ],
+     "be": [
+      130
+     ],
+     "published": [
+      131
+     ],
+     "English.": [
+      133
+     ],
+     "methodological": [
+      135
+     ],
+     "quality": [
+      136
+     ],
+     "included": [
+      139,
+      153,
+      155
+     ],
+     "judged": [
+      142
+     ],
+     "according": [
+      143
+     ],
+     "PEDro": [
+      146
+     ],
+     "scale": [
+      147
+     ],
+     "guidelines.": [
+      148
+     ],
+     "RESULTS:": [
+      149
+     ],
+     "Nineteen": [
+      150
+     ],
+     "were": [
+      152,
+      209
+     ],
+     "which": [
+      154
+     ],
+     "total": [
+      157
+     ],
+     "692": [
+      159
+     ],
+     "participants.": [
+      160
+     ],
+     "More": [
+      161
+     ],
+     "than": [
+      162,
+      198,
+      216
+     ],
+     "half": [
+      163
+     ],
+     "(24/42,": [
+      167
+     ],
+     "57.14%)": [
+      168
+     ],
+     "indicate": [
+      169
+     ],
+     "statistically": [
+      175,
+      251
+     ],
+     "significant": [
+      176,
+      252
+     ],
+     "positive": [
+      177,
+      253
+     ],
+     "overall": [
+      180
+     ],
+     "EF.": [
+      181,
+      303
+     ],
+     "In": [
+      182
+     ],
+     "terms": [
+      183
+     ],
+     "domain,": [
+      189
+     ],
+     "moderate": [
+      190,
+      233,
+      244,
+      271
+     ],
+     "benefited": [
+      194
+     ],
+     "more": [
+      196,
+      210
+     ],
+     "consistently": [
+      197,
+      266
+     ],
+     "light": [
+      199,
+      231
+     ],
+     "vigorous": [
+      201
+     ],
+     "RE.": [
+      204,
+      273
+     ],
+     "Acute": [
+      205,
+      256
+     ],
+     "RE-induced": [
+      206
+     ],
+     "benefits": [
+      208,
+      298
+     ],
+     "often": [
+      211,
+      248
+     ],
+     "found": [
+      212
+     ],
+     "inhibitory": [
+      214,
+      228,
+      268
+     ],
+     "memory": [
+      219,
+      239
+     ],
+     "flexibility.": [
+      222
+     ],
+     "When": [
+      223
+     ],
+     "considering": [
+      224
+     ],
+     "simultaneously,": [
+      226
+     ],
+     "measuring": [
+      227,
+      237
+     ],
+     "after": [
+      230,
+      243
+     ],
+     "flexibility": [
+      242
+     ],
+     "most": [
+      247,
+      265
+     ],
+     "resulted": [
+      249
+     ],
+     "outcomes.": [
+      254
+     ],
+     "CONCLUSION:": [
+      255
+     ],
+     "EF,": [
+      263
+     ],
+     "observed": [
+      264
+     ],
+     "following": [
+      270
+     ],
+     "Future": [
+      274
+     ],
+     "should": [
+      276
+     ],
+     "all": [
+      278
+     ],
+     "intensities": [
+      280
+     ],
+     "other": [
+      288
+     ],
+     "potential": [
+      289
+     ],
+     "enable": [
+      292
+     ],
+     "better": [
+      294
+     ],
+     "understanding": [
+      295
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5050780133",
+       "display_name": "Tzu\u2010Yu Huang",
+       "orcid": "https://orcid.org/0009-0002-0140-3680",
+       "observed_orcids": [
+        "https://orcid.org/0009-0002-0140-3680",
+        "https://orcid.org/0000-0002-4353-1923"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I134161618",
+        "display_name": "National Taiwan Normal University",
+        "ror": "https://ror.org/059dkdx38",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I134161618"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Tzu-Yu Huang",
+      "raw_affiliation_strings": [
+       "Department of Physical Education and Sport Sciences, National Taiwan Normal University, 162, Section 1, Heping E. Road., Taipei, 106, Taiwan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Education and Sport Sciences, National Taiwan Normal University, 162, Section 1, Heping E. Road., Taipei, 106, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I134161618"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5045438862",
+       "display_name": "Feng\u2010Tzu Chen",
+       "orcid": "https://orcid.org/0000-0002-1628-2175",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1628-2175"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I184693016",
+        "display_name": "China Medical University",
+        "ror": "https://ror.org/00v408z34",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I184693016"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Feng-Tzu Chen",
+      "raw_affiliation_strings": [
+       "Department of Sports Medicine, China Medical University, Taichung, Taiwan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Sports Medicine, China Medical University, Taichung, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I184693016"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5017529657",
+       "display_name": "Ruei\u2010Hong Li",
+       "orcid": "https://orcid.org/0000-0001-8185-3571",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8185-3571"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I134161618",
+        "display_name": "National Taiwan Normal University",
+        "ror": "https://ror.org/059dkdx38",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I134161618"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Ruei-Hong Li",
+      "raw_affiliation_strings": [
+       "Department of Physical Education and Sport Sciences, National Taiwan Normal University, 162, Section 1, Heping E. Road., Taipei, 106, Taiwan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Education and Sport Sciences, National Taiwan Normal University, 162, Section 1, Heping E. Road., Taipei, 106, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I134161618"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5052684252",
+       "display_name": "Charles H. Hillman",
+       "orcid": "https://orcid.org/0000-0002-3722-5612",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3722-5612"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I12912129",
+        "display_name": "Northeastern University",
+        "ror": "https://ror.org/04t5xt781",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I12912129"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Charles H. Hillman",
+      "raw_affiliation_strings": [
+       "Department of Physical Therapy, Movement, and Rehabilitation Sciences, Northeastern University, Boston, MA, USA",
+       "Department of Psychology, Northeastern University, Boston, MA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Therapy, Movement, and Rehabilitation Sciences, Northeastern University, Boston, MA, USA",
+        "institution_ids": [
+         "https://openalex.org/I12912129"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, Northeastern University, Boston, MA, USA",
+        "institution_ids": [
+         "https://openalex.org/I12912129"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5059910386",
+       "display_name": "Trevor Lee Cline",
+       "orcid": "https://orcid.org/0009-0003-0174-1863",
+       "observed_orcids": [
+        "https://orcid.org/0009-0003-0174-1863"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I12912129",
+        "display_name": "Northeastern University",
+        "ror": "https://ror.org/04t5xt781",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I12912129"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Trevor L. Cline",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Northeastern University, Boston, MA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Northeastern University, Boston, MA, USA",
+        "institution_ids": [
+         "https://openalex.org/I12912129"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5090858359",
+       "display_name": "Chien\u2010Heng Chu",
+       "orcid": "https://orcid.org/0000-0003-4138-1439",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4138-1439"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I134161618",
+        "display_name": "National Taiwan Normal University",
+        "ror": "https://ror.org/059dkdx38",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I134161618"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Chien-Heng Chu",
+      "raw_affiliation_strings": [
+       "Department of Physical Education and Sport Sciences, National Taiwan Normal University, 162, Section 1, Heping E. Road., Taipei, 106, Taiwan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Education and Sport Sciences, National Taiwan Normal University, 162, Section 1, Heping E. Road., Taipei, 106, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I134161618"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5109372632",
+       "display_name": "Tsung\u2010Min Hung",
+       "orcid": "https://orcid.org/0000-0002-8118-0837",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8118-0837"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I134161618",
+        "display_name": "National Taiwan Normal University",
+        "ror": "https://ror.org/059dkdx38",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I134161618"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Tsung-Min Hung",
+      "raw_affiliation_strings": [
+       "Department of Physical Education and Sport Sciences, National Taiwan Normal University, 162, Section 1, Heping E. Road., Taipei, 106, Taiwan",
+       "Institute for Research Excellence in Learning Science, National Taiwan Normal University, Taipei, Taiwan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Education and Sport Sciences, National Taiwan Normal University, 162, Section 1, Heping E. Road., Taipei, 106, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I134161618"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Institute for Research Excellence in Learning Science, National Taiwan Normal University, Taipei, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I134161618"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5109311812",
+       "display_name": "Yu\u2010Kai Chang",
+       "orcid": "https://orcid.org/0000-0002-2675-5706",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2675-5706"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I134161618",
+        "display_name": "National Taiwan Normal University",
+        "ror": "https://ror.org/059dkdx38",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I134161618"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Yu-Kai Chang",
+      "raw_affiliation_strings": [
+       "Department of Physical Education and Sport Sciences, National Taiwan Normal University, 162, Section 1, Heping E. Road., Taipei, 106, Taiwan. yukaichangnew@gmail.com",
+       "Institute for Research Excellence in Learning Science, National Taiwan Normal University, Taipei, Taiwan. yukaichangnew@gmail.com",
+       "Institute for Research Excellence in Learning Science, National Taiwan Normal University, Taipei, Taiwan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Education and Sport Sciences, National Taiwan Normal University, 162, Section 1, Heping E. Road., Taipei, 106, Taiwan. yukaichangnew@gmail.com",
+        "institution_ids": [
+         "https://openalex.org/I134161618"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Institute for Research Excellence in Learning Science, National Taiwan Normal University, Taipei, Taiwan. yukaichangnew@gmail.com",
+        "institution_ids": [
+         "https://openalex.org/I134161618"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Institute for Research Excellence in Learning Science, National Taiwan Normal University, Taipei, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I134161618"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1186/s40798-022-00527-7",
+     "doi": "https://doi.org/10.1186/s40798-022-00527-7",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1186/s40798-022-00527-7",
+     "pdf_url": "https://sportsmedicine-open.springeropen.com/counter/pdf/10.1186/s40798-022-00527-7",
+     "source": {
+      "id": "https://openalex.org/S2736513330",
+      "display_name": "Sports Medicine - Open",
+      "issn_l": "2198-9761",
+      "issn": [
+       "2198-9761",
+       "2199-1170"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "dongbi-b",
+       "doyens",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "oarl",
+       "poland-20",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Sports Medicine - Open",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3020555163",
+    "doi": "https://doi.org/10.1016/j.jshs.2020.04.004",
+    "title": "Does exercise have a protective effect on cognitive function under hypoxia? A systematic review with meta-analysis",
+    "display_name": "Does exercise have a protective effect on cognitive function under hypoxia? A systematic review with meta-analysis",
+    "publication_year": 2020,
+    "cited_by_count": 87,
+    "abstract_inverted_index": {
+     "This": [
+      0,
+      196
+     ],
+     "study": [
+      1
+     ],
+     "aimed": [
+      2
+     ],
+     "to": [
+      3,
+      101,
+      191,
+      199
+     ],
+     "examine": [
+      4
+     ],
+     "(1)": [
+      5
+     ],
+     "the": [
+      6,
+      16,
+      56,
+      75,
+      92,
+      179
+     ],
+     "independent": [
+      7
+     ],
+     "effects": [
+      8,
+      17,
+      57,
+      76,
+      180
+     ],
+     "of": [
+      9,
+      18,
+      35,
+      58,
+      77,
+      181
+     ],
+     "hypoxia": [
+      10,
+      66,
+      78,
+      102,
+      138,
+      176,
+      182,
+      192
+     ],
+     "on": [
+      11,
+      20,
+      63,
+      79,
+      144,
+      185
+     ],
+     "cognitive": [
+      12,
+      145,
+      166,
+      186,
+      194
+     ],
+     "function": [
+      13,
+      113,
+      119
+     ],
+     "and": [
+      14,
+      38,
+      50,
+      95,
+      117,
+      175,
+      183,
+      204
+     ],
+     "(2)": [
+      15
+     ],
+     "exercise": [
+      19,
+      62,
+      135,
+      169,
+      171,
+      184
+     ],
+     "cognition": [
+      21,
+      64,
+      80
+     ],
+     "while": [
+      22
+     ],
+     "under": [
+      23,
+      65,
+      136
+     ],
+     "hypoxia.": [
+      24
+     ],
+     "Design:": [
+      25
+     ],
+     "Systematic": [
+      26
+     ],
+     "review": [
+      27
+     ],
+     "with": [
+      28
+     ],
+     "meta-analysis.": [
+      29
+     ],
+     "Data": [
+      30
+     ],
+     "sources:": [
+      31
+     ],
+     "PubMed,": [
+      32
+     ],
+     "Scopus,": [
+      33
+     ],
+     "Web": [
+      34
+     ],
+     "Science,": [
+      36
+     ],
+     "PsychInfo,": [
+      37
+     ],
+     "SPORTDiscus": [
+      39
+     ],
+     "were": [
+      40,
+      67,
+      72,
+      98
+     ],
+     "searched.": [
+      41
+     ],
+     "Eligibility": [
+      42
+     ],
+     "criteria": [
+      43,
+      90
+     ],
+     "for": [
+      44,
+      91
+     ],
+     "selecting": [
+      45
+     ],
+     "studies:": [
+      46
+     ],
+     "randomized": [
+      47
+     ],
+     "controlled": [
+      48,
+      52
+     ],
+     "trials": [
+      49
+     ],
+     "nonrandomized": [
+      51
+     ],
+     "studies": [
+      53,
+      73,
+      86,
+      97
+     ],
+     "that": [
+      54,
+      133
+     ],
+     "investigated": [
+      55
+     ],
+     "chronic": [
+      59
+     ],
+     "or": [
+      60
+     ],
+     "acute": [
+      61
+     ],
+     "considered": [
+      68
+     ],
+     "(Aim": [
+      69,
+      81
+     ],
+     "2),": [
+      70
+     ],
+     "as": [
+      71
+     ],
+     "investigating": [
+      74
+     ],
+     "1).": [
+      82
+     ],
+     "In": [
+      83
+     ],
+     "total,": [
+      84
+     ],
+     "18": [
+      85
+     ],
+     "met": [
+      87
+     ],
+     "our": [
+      88
+     ],
+     "inclusionary": [
+      89
+     ],
+     "systematic": [
+      93
+     ],
+     "review,": [
+      94
+     ],
+     "12": [
+      96
+     ],
+     "meta-analyzed.": [
+      99
+     ],
+     "Exposure": [
+      100
+     ],
+     "impaired": [
+      103
+     ],
+     "attentional": [
+      104
+     ],
+     "ability": [
+      105
+     ],
+     "(standardized": [
+      106
+     ],
+     "mean": [
+      107
+     ],
+     "difference": [
+      108
+     ],
+     "(SMD)": [
+      109
+     ],
+     "=": [
+      110,
+      115,
+      121,
+      128,
+      148,
+      157
+     ],
+     "\u20130.4),": [
+      111
+     ],
+     "executive": [
+      112
+     ],
+     "(SMD": [
+      114,
+      120,
+      127,
+      147
+     ],
+     "\u20130.18),": [
+      116
+     ],
+     "memory": [
+      118
+     ],
+     "\u20130.26),": [
+      122
+     ],
+     "but": [
+      123
+     ],
+     "not": [
+      124
+     ],
+     "information": [
+      125
+     ],
+     "processing": [
+      126
+     ],
+     "0.27).": [
+      129
+     ],
+     "Aggregated": [
+      130
+     ],
+     "results": [
+      131
+     ],
+     "indicated": [
+      132
+     ],
+     "performing": [
+      134
+     ],
+     "a": [
+      137,
+      141
+     ],
+     "setting": [
+      139
+     ],
+     "had": [
+      140
+     ],
+     "significant": [
+      142
+     ],
+     "effect": [
+      143
+     ],
+     "improvement": [
+      146
+     ],
+     "0.3,": [
+      149
+     ],
+     "95%": [
+      150
+     ],
+     "confidence": [
+      151
+     ],
+     "interval:": [
+      152
+     ],
+     "0.14": [
+      153
+     ],
+     "\u2013": [
+      154
+     ],
+     "0.45,": [
+      155
+     ],
+     "I2": [
+      156
+     ],
+     "54%,": [
+      158
+     ],
+     "p": [
+      159
+     ],
+     "<": [
+      160
+     ],
+     "0.001).": [
+      161
+     ],
+     "Various": [
+      162
+     ],
+     "characteristics": [
+      163
+     ],
+     "(e.g.,": [
+      164
+     ],
+     "age,": [
+      165
+     ],
+     "task": [
+      167
+     ],
+     "type,": [
+      168,
+      170,
+      174
+     ],
+     "intensity,": [
+      172
+     ],
+     "training": [
+      173
+     ],
+     "level)": [
+      177
+     ],
+     "moderated": [
+      178,
+      201
+     ],
+     "function.": [
+      187,
+      195
+     ],
+     "Exercise": [
+      188
+     ],
+     "during": [
+      189
+     ],
+     "exposure": [
+      190
+     ],
+     "improves": [
+      193
+     ],
+     "association": [
+      197
+     ],
+     "appears": [
+      198
+     ],
+     "be": [
+      200
+     ],
+     "by": [
+      202
+     ],
+     "individual": [
+      203
+     ],
+     "exercise/hypoxia-related": [
+      205
+     ],
+     "characteristics.": [
+      206
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5101541389",
+       "display_name": "Myungjin Jung",
+       "orcid": "https://orcid.org/0009-0008-9264-2735",
+       "observed_orcids": [
+        "https://orcid.org/0009-0008-9264-2735",
+        "https://orcid.org/0000-0003-3493-578X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I368840534",
+        "display_name": "University of Mississippi",
+        "ror": "https://ror.org/02teq1165",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I368840534",
+         "https://openalex.org/I4210141039"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Myungjin Jung",
+      "raw_affiliation_strings": [
+       "Health and Sport Analytics Laboratory, Department of Health, Exercise Science and Recreation Management, University of Mississippi, University Park, MS 38677, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Health and Sport Analytics Laboratory, Department of Health, Exercise Science and Recreation Management, University of Mississippi, University Park, MS 38677, USA",
+        "institution_ids": [
+         "https://openalex.org/I368840534"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5088351921",
+       "display_name": "Liye Zou",
+       "orcid": "https://orcid.org/0000-0001-6411-5710",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6411-5710"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I180726961",
+        "display_name": "Shenzhen University",
+        "ror": "https://ror.org/01vy4gh70",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I180726961"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Liye Zou",
+      "raw_affiliation_strings": [
+       "Exercise and Mental Health Laboratory, School of Psychology, Shenzhen University, Shenzhen 518060, China. Electronic address: liyezou123@szu.edu.cn",
+       "Exercise and Mental Health Laboratory, School of Psychology, Shenzhen University, Shenzhen 518060, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Exercise and Mental Health Laboratory, School of Psychology, Shenzhen University, Shenzhen 518060, China. Electronic address: liyezou123@szu.edu.cn",
+        "institution_ids": [
+         "https://openalex.org/I180726961"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Exercise and Mental Health Laboratory, School of Psychology, Shenzhen University, Shenzhen 518060, China",
+        "institution_ids": [
+         "https://openalex.org/I180726961"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5080870456",
+       "display_name": "Jane Jie Yu",
+       "orcid": "https://orcid.org/0000-0001-9783-2740",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9783-2740"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I177725633",
+        "display_name": "Chinese University of Hong Kong",
+        "ror": "https://ror.org/00t33hh48",
+        "country_code": "HK",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I177725633"
+        ]
+       }
+      ],
+      "countries": [
+       "HK"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jane Jie Yu",
+      "raw_affiliation_strings": [
+       "Department of Sports Science and Physical Education, The Chinese University of Hong Kong, Shatin, New Territories, Hong Kong 999077, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Sports Science and Physical Education, The Chinese University of Hong Kong, Shatin, New Territories, Hong Kong 999077, China",
+        "institution_ids": [
+         "https://openalex.org/I177725633"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5101874471",
+       "display_name": "Seungho Ryu",
+       "orcid": "https://orcid.org/0009-0006-7988-6263",
+       "observed_orcids": [
+        "https://orcid.org/0009-0006-7988-6263"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I368840534",
+        "display_name": "University of Mississippi",
+        "ror": "https://ror.org/02teq1165",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I368840534",
+         "https://openalex.org/I4210141039"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Seungho Ryu",
+      "raw_affiliation_strings": [
+       "Health and Sport Analytics Laboratory, Department of Health, Exercise Science and Recreation Management, University of Mississippi, University Park, MS 38677, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Health and Sport Analytics Laboratory, Department of Health, Exercise Science and Recreation Management, University of Mississippi, University Park, MS 38677, USA",
+        "institution_ids": [
+         "https://openalex.org/I368840534"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5054104599",
+       "display_name": "Zhaowei Kong",
+       "orcid": "https://orcid.org/0000-0002-9999-1312",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9999-1312"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204512498",
+        "display_name": "University of Macau",
+        "ror": "https://ror.org/01r4q9n85",
+        "country_code": "MO",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204512498"
+        ]
+       }
+      ],
+      "countries": [
+       "MO"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Zhaowei Kong",
+      "raw_affiliation_strings": [
+       "Faculty of Education, University of Macau, Taipa, Macau 999078, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Education, University of Macau, Taipa, Macau 999078, China",
+        "institution_ids": [
+         "https://openalex.org/I204512498"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5059270375",
+       "display_name": "Lin Yang",
+       "orcid": "https://orcid.org/0000-0002-1698-6666",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1698-6666"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I126859394",
+        "display_name": "Alberta Health Services",
+        "ror": "https://ror.org/02nt5es71",
+        "country_code": "CA",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I126859394"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I168635309",
+        "display_name": "University of Calgary",
+        "ror": "https://ror.org/03yjb2x39",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I168635309"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Lin Yang",
+      "raw_affiliation_strings": [
+       "Department of Cancer Epidemiology and Prevention Research, CancerControl Alberta, Alberta Health Services, Calgary, AB T2S 3C3, Canada; Departments of Oncology and Community Health Sciences, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 4Z6, Canada",
+       "Department of Cancer Epidemiology and Prevention Research, CancerControl Alberta, Alberta Health Services, Calgary, AB T2S 3C3, Canada",
+       "Departments of Oncology and Community Health Sciences, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 4Z6, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Cancer Epidemiology and Prevention Research, CancerControl Alberta, Alberta Health Services, Calgary, AB T2S 3C3, Canada; Departments of Oncology and Community Health Sciences, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 4Z6, Canada",
+        "institution_ids": [
+         "https://openalex.org/I126859394",
+         "https://openalex.org/I168635309"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Cancer Epidemiology and Prevention Research, CancerControl Alberta, Alberta Health Services, Calgary, AB T2S 3C3, Canada",
+        "institution_ids": [
+         "https://openalex.org/I126859394"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Departments of Oncology and Community Health Sciences, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 4Z6, Canada",
+        "institution_ids": [
+         "https://openalex.org/I168635309"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5038987364",
+       "display_name": "Minsoo Kang",
+       "orcid": "https://orcid.org/0000-0002-9225-1004",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9225-1004",
+        "https://orcid.org/0000-0003-4719-3076"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I368840534",
+        "display_name": "University of Mississippi",
+        "ror": "https://ror.org/02teq1165",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I368840534",
+         "https://openalex.org/I4210141039"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Minsoo Kang",
+      "raw_affiliation_strings": [
+       "Health and Sport Analytics Laboratory, Department of Health, Exercise Science and Recreation Management, University of Mississippi, University Park, MS 38677, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Health and Sport Analytics Laboratory, Department of Health, Exercise Science and Recreation Management, University of Mississippi, University Park, MS 38677, USA",
+        "institution_ids": [
+         "https://openalex.org/I368840534"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5048621336",
+       "display_name": "Jingyuan Lin",
+       "orcid": "https://orcid.org/0000-0001-6547-2111",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6547-2111"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I180726961",
+        "display_name": "Shenzhen University",
+        "ror": "https://ror.org/01vy4gh70",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I180726961"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jingyuan Lin",
+      "raw_affiliation_strings": [
+       "Exercise and Mental Health Laboratory, School of Psychology, Shenzhen University, Shenzhen 518060, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Exercise and Mental Health Laboratory, School of Psychology, Shenzhen University, Shenzhen 518060, China",
+        "institution_ids": [
+         "https://openalex.org/I180726961"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5100339381",
+       "display_name": "Hong Li",
+       "orcid": "https://orcid.org/0000-0002-3620-5548",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3620-5548"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I180726961",
+        "display_name": "Shenzhen University",
+        "ror": "https://ror.org/01vy4gh70",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I180726961"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Hong Li",
+      "raw_affiliation_strings": [
+       "Exercise and Mental Health Laboratory, School of Psychology, Shenzhen University, Shenzhen 518060, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Exercise and Mental Health Laboratory, School of Psychology, Shenzhen University, Shenzhen 518060, China",
+        "institution_ids": [
+         "https://openalex.org/I180726961"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5059447980",
+       "display_name": "Lee Smith",
+       "orcid": "https://orcid.org/0000-0002-5340-9833",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5340-9833",
+        "https://orcid.org/0000-0003-0890-7566",
+        "https://orcid.org/0000-0002-1364-0600"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I51216347",
+        "display_name": "Anglia Ruskin University",
+        "ror": "https://ror.org/0009t4v78",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I51216347"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Lee Smith",
+      "raw_affiliation_strings": [
+       "The Cambridge Centre for Sport and Exercise Sciences, Anglia Ruskin University, Cambridge, CB1 1PT, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "The Cambridge Centre for Sport and Exercise Sciences, Anglia Ruskin University, Cambridge, CB1 1PT, UK",
+        "institution_ids": [
+         "https://openalex.org/I51216347"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5024092944",
+       "display_name": "Paul Dinneen Loprinzi",
+       "orcid": "https://orcid.org/0000-0001-7711-4741",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7711-4741"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I368840534",
+        "display_name": "University of Mississippi",
+        "ror": "https://ror.org/02teq1165",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I368840534",
+         "https://openalex.org/I4210141039"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Paul D. Loprinzi",
+      "raw_affiliation_strings": [
+       "Exercise and Memory Laboratory, Department of Health, Exercise Science and Recreation Management, University of Mississippi, Oxford, MS 38677, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Exercise and Memory Laboratory, Department of Health, Exercise Science and Recreation Management, University of Mississippi, Oxford, MS 38677, USA",
+        "institution_ids": [
+         "https://openalex.org/I368840534"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1016/j.jshs.2020.04.004",
+     "doi": "https://doi.org/10.1016/j.jshs.2020.04.004",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1016/j.jshs.2020.04.004",
+     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2095254620300508/pdf",
+     "source": {
+      "id": "https://openalex.org/S2485047394",
+      "display_name": "Journal of sport and health science/Journal of Sport and Health Science",
+      "issn_l": "2213-2961",
+      "issn": [
+       "2213-2961",
+       "2095-2546"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "dongbi-a",
+       "doyens",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "oarl",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+       "Elsevier BV"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Sport and Health Science",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W1558715850",
+    "doi": "https://doi.org/10.1016/j.jshs.2014.09.002",
+    "title": "The strength model of self-control revisited: Linking acute and chronic effects of exercise on executive functions",
+    "display_name": "The strength model of self-control revisited: Linking acute and chronic effects of exercise on executive functions",
+    "publication_year": 2014,
+    "cited_by_count": 170,
+    "abstract_inverted_index": {
+     "Since": [
+      0
+     ],
+     "the": [
+      1,
+      10,
+      61,
+      74,
+      80,
+      92,
+      114
+     ],
+     "1960's,": [
+      2
+     ],
+     "hundreds": [
+      3
+     ],
+     "of": [
+      4,
+      12,
+      25,
+      53,
+      73,
+      83,
+      116,
+      131
+     ],
+     "articles": [
+      5
+     ],
+     "have": [
+      6,
+      27,
+      39
+     ],
+     "been": [
+      7,
+      28,
+      40
+     ],
+     "published": [
+      8
+     ],
+     "on": [
+      9,
+      14,
+      19,
+      121
+     ],
+     "effects": [
+      11,
+      26,
+      45,
+      115
+     ],
+     "exercise": [
+      13,
+      101,
+      120,
+      132
+     ],
+     "cognition": [
+      15
+     ],
+     "and": [
+      16,
+      88,
+      112,
+      118
+     ],
+     "more": [
+      17,
+      150
+     ],
+     "recently": [
+      18
+     ],
+     "executive": [
+      20,
+      127
+     ],
+     "functions.": [
+      21,
+      128
+     ],
+     "A": [
+      22,
+      129,
+      141
+     ],
+     "large": [
+      23
+     ],
+     "variety": [
+      24
+     ],
+     "observed:": [
+      29
+     ],
+     "acute": [
+      30,
+      117
+     ],
+     "or": [
+      31,
+      34,
+      126
+     ],
+     "long-lasting,": [
+      32
+     ],
+     "facilitating": [
+      33
+     ],
+     "debilitating.": [
+      35
+     ],
+     "Several": [
+      36
+     ],
+     "theoretical": [
+      37
+     ],
+     "frameworks": [
+      38
+     ],
+     "proposed": [
+      41
+     ],
+     "to": [
+      42,
+      78,
+      96,
+      100
+     ],
+     "explain": [
+      43,
+      111
+     ],
+     "these": [
+      44,
+      54
+     ],
+     "with": [
+      46
+     ],
+     "plausible": [
+      47
+     ],
+     "mechanisms.": [
+      48
+     ],
+     "However,": [
+      49
+     ],
+     "as": [
+      50,
+      133
+     ],
+     "yet": [
+      51
+     ],
+     "none": [
+      52
+     ],
+     "models": [
+      55
+     ],
+     "has": [
+      56
+     ],
+     "succeeded": [
+      57
+     ],
+     "in": [
+      58,
+      63,
+      91,
+      94
+     ],
+     "unifying": [
+      59
+     ],
+     "all": [
+      60,
+      69
+     ],
+     "observations": [
+      62
+     ],
+     "a": [
+      64,
+      106,
+      134
+     ],
+     "single": [
+      65
+     ],
+     "framework": [
+      66,
+      108
+     ],
+     "that": [
+      67,
+      109
+     ],
+     "subsumes": [
+      68
+     ],
+     "effects.": [
+      70
+     ],
+     "The": [
+      71
+     ],
+     "aim": [
+      72
+     ],
+     "present": [
+      75
+     ],
+     "review": [
+      76
+     ],
+     "is": [
+      77,
+      147
+     ],
+     "revisit": [
+      79
+     ],
+     "strength": [
+      81
+     ],
+     "model": [
+      82,
+      104
+     ],
+     "self-control": [
+      84,
+      135
+     ],
+     "initiated": [
+      85
+     ],
+     "by": [
+      86
+     ],
+     "Baumeister": [
+      87
+     ],
+     "his": [
+      89
+     ],
+     "colleagues": [
+      90
+     ],
+     "1990's": [
+      93
+     ],
+     "order": [
+      95
+     ],
+     "extend": [
+      97
+     ],
+     "its": [
+      98
+     ],
+     "assumptions": [
+      99
+     ],
+     "psychology.": [
+      102
+     ],
+     "This": [
+      103
+     ],
+     "provides": [
+      105
+     ],
+     "heuristic": [
+      107
+     ],
+     "can": [
+      110
+     ],
+     "predict": [
+      113
+     ],
+     "chronic": [
+      119
+     ],
+     "effortful": [
+      122
+     ],
+     "tasks": [
+      123
+     ],
+     "tapping": [
+      124
+     ],
+     "self-regulation": [
+      125
+     ],
+     "reconsideration": [
+      130
+     ],
+     "task": [
+      136
+     ],
+     "results": [
+      137
+     ],
+     "from": [
+      138
+     ],
+     "this": [
+      139
+     ],
+     "perspective.": [
+      140
+     ],
+     "new": [
+      142
+     ],
+     "avenue": [
+      143
+     ],
+     "for": [
+      144
+     ],
+     "future": [
+      145
+     ],
+     "research": [
+      146
+     ],
+     "delineated": [
+      148
+     ],
+     "besides": [
+      149
+     ],
+     "traditional": [
+      151
+     ],
+     "approaches.": [
+      152
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5003027174",
+       "display_name": "Michel Francis Audiffren",
+       "orcid": "https://orcid.org/0000-0002-2488-8089",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2488-8089"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1294671590",
+        "display_name": "Centre National de la Recherche Scientifique",
+        "ror": "https://ror.org/02feahw73",
+        "country_code": "FR",
+        "type": "government",
+        "lineage": [
+         "https://openalex.org/I1294671590"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I32881790",
+        "display_name": "Universit\u00e9 de Poitiers",
+        "ror": "https://ror.org/04xhy8q59",
+        "country_code": "FR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I32881790"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210108291",
+        "display_name": "Centre de Recherches sur la Cognition et l'Apprentissage",
+        "ror": "https://ror.org/01sdp1y98",
+        "country_code": "FR",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I110017253",
+         "https://openalex.org/I1294671590",
+         "https://openalex.org/I32881790",
+         "https://openalex.org/I4210096427",
+         "https://openalex.org/I4210108291"
+        ]
+       }
+      ],
+      "countries": [
+       "FR"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Michel Audiffren",
+      "raw_affiliation_strings": [
+       "Research Institute on Cognition and Learning (UMR CNRS 7295), University of Poitiers, Poitiers 86000, France",
+       "Axe 2 (2011-2016) : \u00ab March\u00e9s, Cultures de consommation, Autonomie et Migrations \u00bb (MSHS Poitiers) (MSHS Poitiers. B\u00e2timent A5. 5, rue Th\u00e9odore Lefebvre. TSA 21103. 86073 Poitiers Cedex 9 - France)",
+       "CeRCA [Poitiers, Tours] - Centre de recherches sur la cognition et l'apprentissage [UMR 7295] (99, avenue du Recteur Pineau 86000 Poitiers et 116 Boulevard B\u00e9ranger 37000 Tours - France)"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Research Institute on Cognition and Learning (UMR CNRS 7295), University of Poitiers, Poitiers 86000, France",
+        "institution_ids": [
+         "https://openalex.org/I1294671590",
+         "https://openalex.org/I32881790",
+         "https://openalex.org/I4210108291"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Axe 2 (2011-2016) : \u00ab March\u00e9s, Cultures de consommation, Autonomie et Migrations \u00bb (MSHS Poitiers) (MSHS Poitiers. B\u00e2timent A5. 5, rue Th\u00e9odore Lefebvre. TSA 21103. 86073 Poitiers Cedex 9 - France)",
+        "institution_ids": []
+       },
+       {
+        "raw_affiliation_string": "CeRCA [Poitiers, Tours] - Centre de recherches sur la cognition et l'apprentissage [UMR 7295] (99, avenue du Recteur Pineau 86000 Poitiers et 116 Boulevard B\u00e9ranger 37000 Tours - France)",
+        "institution_ids": [
+         "https://openalex.org/I4210108291"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5103095066",
+       "display_name": "Nathalie Andr\u00e9",
+       "orcid": "https://orcid.org/0000-0003-0132-3154",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0132-3154"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1294671590",
+        "display_name": "Centre National de la Recherche Scientifique",
+        "ror": "https://ror.org/02feahw73",
+        "country_code": "FR",
+        "type": "government",
+        "lineage": [
+         "https://openalex.org/I1294671590"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I32881790",
+        "display_name": "Universit\u00e9 de Poitiers",
+        "ror": "https://ror.org/04xhy8q59",
+        "country_code": "FR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I32881790"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210108291",
+        "display_name": "Centre de Recherches sur la Cognition et l'Apprentissage",
+        "ror": "https://ror.org/01sdp1y98",
+        "country_code": "FR",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I110017253",
+         "https://openalex.org/I1294671590",
+         "https://openalex.org/I32881790",
+         "https://openalex.org/I4210096427",
+         "https://openalex.org/I4210108291"
+        ]
+       }
+      ],
+      "countries": [
+       "FR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Nathalie Andr\u00e9",
+      "raw_affiliation_strings": [
+       "Research Institute on Cognition and Learning (UMR CNRS 7295), University of Poitiers, Poitiers 86000, France",
+       "Axe 2 (2011-2016) : \u00ab March\u00e9s, Cultures de consommation, Autonomie et Migrations \u00bb (MSHS Poitiers) (MSHS Poitiers. B\u00e2timent A5. 5, rue Th\u00e9odore Lefebvre. TSA 21103. 86073 Poitiers Cedex 9 - France)",
+       "CeRCA [Poitiers, Tours] - Centre de recherches sur la cognition et l'apprentissage [UMR 7295] (99, avenue du Recteur Pineau 86000 Poitiers et 116 Boulevard B\u00e9ranger 37000 Tours - France)"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Research Institute on Cognition and Learning (UMR CNRS 7295), University of Poitiers, Poitiers 86000, France",
+        "institution_ids": [
+         "https://openalex.org/I1294671590",
+         "https://openalex.org/I32881790",
+         "https://openalex.org/I4210108291"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Axe 2 (2011-2016) : \u00ab March\u00e9s, Cultures de consommation, Autonomie et Migrations \u00bb (MSHS Poitiers) (MSHS Poitiers. B\u00e2timent A5. 5, rue Th\u00e9odore Lefebvre. TSA 21103. 86073 Poitiers Cedex 9 - France)",
+        "institution_ids": []
+       },
+       {
+        "raw_affiliation_string": "CeRCA [Poitiers, Tours] - Centre de recherches sur la cognition et l'apprentissage [UMR 7295] (99, avenue du Recteur Pineau 86000 Poitiers et 116 Boulevard B\u00e9ranger 37000 Tours - France)",
+        "institution_ids": [
+         "https://openalex.org/I4210108291"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1016/j.jshs.2014.09.002",
+     "doi": "https://doi.org/10.1016/j.jshs.2014.09.002",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1016/j.jshs.2014.09.002",
+     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2095254614001185/pdf",
+     "source": {
+      "id": "https://openalex.org/S2485047394",
+      "display_name": "Journal of sport and health science/Journal of Sport and Health Science",
+      "issn_l": "2213-2961",
+      "issn": [
+       "2213-2961",
+       "2095-2546"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "dongbi-a",
+       "doyens",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "oarl",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+       "Elsevier BV"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Sport and Health Science",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W7161653344",
+    "doi": "https://doi.org/10.3389/fpsyg.2026.1853294",
+    "title": "The effects of an acute exercise on executive function in Chinese undergraduate students",
+    "display_name": "The effects of an acute exercise on executive function in Chinese undergraduate students",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "Introduction:": [
+      0
+     ],
+     "Previous": [
+      1
+     ],
+     "studies": [
+      2
+     ],
+     "have": [
+      3
+     ],
+     "shown": [
+      4
+     ],
+     "that": [
+      5,
+      185
+     ],
+     "acute": [
+      6,
+      29,
+      52,
+      92,
+      186
+     ],
+     "exercise": [
+      7,
+      30,
+      53,
+      78,
+      88,
+      161,
+      187,
+      237
+     ],
+     "may": [
+      8,
+      188,
+      202
+     ],
+     "be": [
+      9,
+      189,
+      269
+     ],
+     "associated": [
+      10,
+      190
+     ],
+     "with": [
+      11,
+      181,
+      191,
+      208
+     ],
+     "short-term": [
+      12
+     ],
+     "changes": [
+      13,
+      192,
+      230
+     ],
+     "in": [
+      14,
+      57,
+      86,
+      96,
+      101,
+      193,
+      199,
+      220
+     ],
+     "executive": [
+      15,
+      18,
+      55,
+      194,
+      212,
+      224
+     ],
+     "function.": [
+      16,
+      195,
+      213
+     ],
+     "However,": [
+      17
+     ],
+     "function": [
+      19,
+      56,
+      107,
+      225
+     ],
+     "is": [
+      20
+     ],
+     "a": [
+      21,
+      70,
+      76,
+      82,
+      102,
+      204
+     ],
+     "multidimensional": [
+      22
+     ],
+     "construct,": [
+      23
+     ],
+     "and": [
+      24,
+      39,
+      66,
+      118,
+      128,
+      159
+     ],
+     "it": [
+      25
+     ],
+     "remains": [
+      26
+     ],
+     "unclear": [
+      27
+     ],
+     "whether": [
+      28
+     ],
+     "influences": [
+      31
+     ],
+     "specific": [
+      32,
+      221,
+      234
+     ],
+     "components,": [
+      33
+     ],
+     "including": [
+      34
+     ],
+     "inhibitory": [
+      35,
+      114,
+      144,
+      260
+     ],
+     "control,": [
+      36,
+      115
+     ],
+     "working": [
+      37,
+      116,
+      147,
+      263
+     ],
+     "memory,": [
+      38,
+      117
+     ],
+     "cognitive": [
+      40,
+      111,
+      119,
+      125,
+      150,
+      200,
+      250
+     ],
+     "flexibility.": [
+      41,
+      120
+     ],
+     "Therefore,": [
+      42,
+      265
+     ],
+     "the": [
+      43,
+      49,
+      87,
+      97,
+      124,
+      130,
+      152,
+      167,
+      236
+     ],
+     "present": [
+      44
+     ],
+     "study": [
+      45
+     ],
+     "aimed": [
+      46
+     ],
+     "to": [
+      47,
+      69,
+      235
+     ],
+     "examine": [
+      48
+     ],
+     "effects": [
+      50,
+      141,
+      256
+     ],
+     "of": [
+      51,
+      211,
+      223
+     ],
+     "on": [
+      54
+     ],
+     "undergraduate": [
+      58,
+      62,
+      227
+     ],
+     "students.": [
+      59
+     ],
+     "Methods:": [
+      60
+     ],
+     "Forty-four": [
+      61
+     ],
+     "students": [
+      63
+     ],
+     "were": [
+      64,
+      218,
+      231,
+      246,
+      257
+     ],
+     "recruited": [
+      65
+     ],
+     "randomly": [
+      67
+     ],
+     "assigned": [
+      68
+     ],
+     "high-intensity": [
+      71
+     ],
+     "interval": [
+      72
+     ],
+     "training": [
+      73
+     ],
+     "(HIIT)": [
+      74
+     ],
+     "group,": [
+      75,
+      80
+     ],
+     "moderate-intensity": [
+      77
+     ],
+     "(MIAE)": [
+      79
+     ],
+     "or": [
+      81,
+      146,
+      262
+     ],
+     "Control": [
+      83,
+      98,
+      168
+     ],
+     "group.": [
+      84
+     ],
+     "Participants": [
+      85
+     ],
+     "groups": [
+      89,
+      162
+     ],
+     "completed": [
+      90,
+      123
+     ],
+     "an": [
+      91
+     ],
+     "exercise,": [
+      93
+     ],
+     "whereas": [
+      94,
+      166
+     ],
+     "those": [
+      95
+     ],
+     "group": [
+      99,
+      169
+     ],
+     "remained": [
+      100
+     ],
+     "non-exercise": [
+      103
+     ],
+     "resting": [
+      104
+     ],
+     "condition.": [
+      105
+     ],
+     "Executive": [
+      106
+     ],
+     "was": [
+      108,
+      157
+     ],
+     "assessed": [
+      109
+     ],
+     "using": [
+      110
+     ],
+     "tasks": [
+      112,
+      126
+     ],
+     "targeting": [
+      113
+     ],
+     "All": [
+      121
+     ],
+     "participants": [
+      122
+     ],
+     "before": [
+      127
+     ],
+     "after": [
+      129
+     ],
+     "intervention.": [
+      131
+     ],
+     "Results:": [
+      132
+     ],
+     "Analysis": [
+      133
+     ],
+     "revealed": [
+      134
+     ],
+     "no": [
+      135,
+      253
+     ],
+     "significant": [
+      136,
+      241,
+      254
+     ],
+     "Time": [
+      137,
+      153,
+      244
+     ],
+     "\u00d7": [
+      138,
+      154,
+      243
+     ],
+     "Group": [
+      139,
+      155,
+      242
+     ],
+     "interaction": [
+      140,
+      156,
+      255
+     ],
+     "for": [
+      142,
+      249,
+      259
+     ],
+     "either": [
+      143
+     ],
+     "control": [
+      145,
+      261
+     ],
+     "memory.": [
+      148,
+      264
+     ],
+     "For": [
+      149
+     ],
+     "flexibility,": [
+      151,
+      251
+     ],
+     "significant,": [
+      158
+     ],
+     "both": [
+      160
+     ],
+     "exhibited": [
+      163
+     ],
+     "enhanced": [
+      164
+     ],
+     "performance,": [
+      165
+     ],
+     "did": [
+      170
+     ],
+     "not": [
+      171,
+      232
+     ],
+     "show": [
+      172
+     ],
+     "similar": [
+      173
+     ],
+     "improvements.": [
+      174
+     ],
+     "Discussion:": [
+      175
+     ],
+     "These": [
+      176
+     ],
+     "findings": [
+      177
+     ],
+     "are": [
+      178
+     ],
+     "generally": [
+      179
+     ],
+     "consistent": [
+      180
+     ],
+     "previous": [
+      182
+     ],
+     "evidence": [
+      183
+     ],
+     "suggesting": [
+      184
+     ],
+     "The": [
+      196
+     ],
+     "observed": [
+      197,
+      219,
+      247
+     ],
+     "patterns": [
+      198
+     ],
+     "flexibility": [
+      201
+     ],
+     "indicate": [
+      203
+     ],
+     "potential": [
+      205
+     ],
+     "selective": [
+      206
+     ],
+     "association": [
+      207
+     ],
+     "certain": [
+      209
+     ],
+     "components": [
+      210
+     ],
+     "Although": [
+      214
+     ],
+     "some": [
+      215
+     ],
+     "positive": [
+      216
+     ],
+     "trends": [
+      217
+     ],
+     "aspects": [
+      222
+     ],
+     "among": [
+      226
+     ],
+     "students,": [
+      228
+     ],
+     "these": [
+      229
+     ],
+     "consistently": [
+      233
+     ],
+     "conditions.": [
+      238
+     ],
+     "In": [
+      239
+     ],
+     "particular,": [
+      240
+     ],
+     "interactions": [
+      245
+     ],
+     "only": [
+      248
+     ],
+     "while": [
+      252
+     ],
+     "found": [
+      258
+     ],
+     "descriptive": [
+      266
+     ],
+     "results": [
+      267
+     ],
+     "should": [
+      268
+     ],
+     "interpreted": [
+      270
+     ],
+     "cautiously.": [
+      271
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5020736403",
+       "display_name": "Zhanshuang Bai",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I3131721959",
+        "display_name": "Bangkokthonburi University",
+        "ror": "https://ror.org/01nrcma38",
+        "country_code": "TH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I3131721959"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210155828",
+        "display_name": "Hezhou University",
+        "ror": "https://ror.org/04nm9ed20",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210155828"
+        ]
+       }
+      ],
+      "countries": [
+       "CN",
+       "TH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Zhanshuang Bai",
+      "raw_affiliation_strings": [
+       "School of Sports Science and Technology, Bangkokthonburi University, Bangkok, Thailand",
+       "School of Tourism and Sports Health, Hezhou University, Hezhou, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Sports Science and Technology, Bangkokthonburi University, Bangkok, Thailand",
+        "institution_ids": [
+         "https://openalex.org/I3131721959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "School of Tourism and Sports Health, Hezhou University, Hezhou, China",
+        "institution_ids": [
+         "https://openalex.org/I4210155828"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5109435150",
+       "display_name": "Yuanqi Huang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I111753288",
+        "display_name": "Fujian Normal University",
+        "ror": "https://ror.org/020azk594",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I111753288"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Yuanqi Huang",
+      "raw_affiliation_strings": [
+       "School of Physical Education and Sport Sciences, Fujian Normal University, Fuzhou, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Physical Education and Sport Sciences, Fujian Normal University, Fuzhou, China",
+        "institution_ids": [
+         "https://openalex.org/I111753288"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5146608422",
+       "display_name": "Linjun Li",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210155828",
+        "display_name": "Hezhou University",
+        "ror": "https://ror.org/04nm9ed20",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210155828"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Linjun Li",
+      "raw_affiliation_strings": [
+       "School of Tourism and Sports Health, Hezhou University, Hezhou, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Tourism and Sports Health, Hezhou University, Hezhou, China",
+        "institution_ids": [
+         "https://openalex.org/I4210155828"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5159981315",
+       "display_name": "Jinhao Ding",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210155828",
+        "display_name": "Hezhou University",
+        "ror": "https://ror.org/04nm9ed20",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210155828"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Jinhao Ding",
+      "raw_affiliation_strings": [
+       "School of Tourism and Sports Health, Hezhou University, Hezhou, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Tourism and Sports Health, Hezhou University, Hezhou, China",
+        "institution_ids": [
+         "https://openalex.org/I4210155828"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5146737413",
+       "display_name": "Jiamiao Li",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210155828",
+        "display_name": "Hezhou University",
+        "ror": "https://ror.org/04nm9ed20",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210155828"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Jiamiao Li",
+      "raw_affiliation_strings": [
+       "School of Tourism and Sports Health, Hezhou University, Hezhou, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Tourism and Sports Health, Hezhou University, Hezhou, China",
+        "institution_ids": [
+         "https://openalex.org/I4210155828"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5100708464",
+       "display_name": "Hongxin Li",
+       "orcid": "https://orcid.org/0000-0001-9377-722X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9377-722X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210155828",
+        "display_name": "Hezhou University",
+        "ror": "https://ror.org/04nm9ed20",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210155828"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Hongxin Li",
+      "raw_affiliation_strings": [
+       "School of Tourism and Sports Health, Hezhou University, Hezhou, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Tourism and Sports Health, Hezhou University, Hezhou, China",
+        "institution_ids": [
+         "https://openalex.org/I4210155828"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5130659082",
+       "display_name": "LiMing Zhang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I3131721959",
+        "display_name": "Bangkokthonburi University",
+        "ror": "https://ror.org/01nrcma38",
+        "country_code": "TH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I3131721959"
+        ]
+       }
+      ],
+      "countries": [
+       "TH"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Liming Zhang",
+      "raw_affiliation_strings": [
+       "School of Sports Science and Technology, Bangkokthonburi University, Bangkok, Thailand"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Sports Science and Technology, Bangkokthonburi University, Bangkok, Thailand",
+        "institution_ids": [
+         "https://openalex.org/I3131721959"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2026.1853294",
+     "doi": "https://doi.org/10.3389/fpsyg.2026.1853294",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2026.1853294",
+     "pdf_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1853294/pdf",
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

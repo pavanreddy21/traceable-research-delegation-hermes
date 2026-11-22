@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201ff-a770-7f71-92b4-e62d0dd07dfa",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795329861,
+ "model": "zai-org/GLM-5.3-Flash",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 directly states that the review found 839 assessments of distributed practice in 317 experiments, matching the claim's numbers and scope.\"}",
+    "reasoning_content": "The claim: \"The review analyzed 839 assessments of distributed practice drawn from 317 experiments.\"\n\nPassage [1]: \"This review found 839 assessments of distributed practice in 317 experiments located in 184 articles.\"\n\nThis directly states the claim. The claim says \"analyzed\" while the passage says \"found\" \u2014 but the review found/identified 839 assessments in 317 experiments, which is essentially the same. The claim is supported by passage 1.\n\nVerdict: supported, passage 1.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 301,
+  "completion_tokens": 161,
+  "total_tokens": 462,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 110
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.23
+}

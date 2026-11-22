@@ -1,0 +1,4046 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 421,
+   "db_response_time_ms": 135,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (testing effect fails to replicate no benefit of testing over restudy) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (testing effect fails to replicate no benefit of testing over restudy) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "testing effect fails to replicate no benefit of testing over restudy",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:testing effect fails to replicate no benefit of testing over restudy,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2082988750",
+    "doi": "https://doi.org/10.1007/s10648-015-9297-3",
+    "title": "Testing After Worked Example Study Does Not Enhance Delayed Problem-Solving Performance Compared to Restudy",
+    "display_name": "Testing After Worked Example Study Does Not Enhance Delayed Problem-Solving Performance Compared to Restudy",
+    "publication_year": 2015,
+    "cited_by_count": 79,
+    "abstract_inverted_index": {
+     "Four": [
+      0
+     ],
+     "experiments": [
+      1
+     ],
+     "investigated": [
+      2
+     ],
+     "whether": [
+      3,
+      172
+     ],
+     "the": [
+      4,
+      10,
+      135,
+      253
+     ],
+     "testing": [
+      5,
+      29,
+      66,
+      101,
+      155,
+      215,
+      241,
+      254
+     ],
+     "effect": [
+      6,
+      216,
+      255
+     ],
+     "also": [
+      7
+     ],
+     "applies": [
+      8
+     ],
+     "to": [
+      9,
+      49,
+      73,
+      247,
+      259
+     ],
+     "acquisition": [
+      11,
+      115
+     ],
+     "of": [
+      12,
+      28,
+      31,
+      44,
+      52,
+      65,
+      68,
+      113,
+      133,
+      171,
+      213,
+      226
+     ],
+     "problem-solving": [
+      13,
+      230,
+      261
+     ],
+     "skills": [
+      14,
+      262
+     ],
+     "from": [
+      15,
+      263
+     ],
+     "worked": [
+      16,
+      264
+     ],
+     "examples.": [
+      17,
+      54,
+      122,
+      265
+     ],
+     "Experiment": [
+      18,
+      55,
+      138,
+      179
+     ],
+     "1": [
+      19
+     ],
+     "(": [
+      20,
+      57,
+      140,
+      181
+     ],
+     "n": [
+      21,
+      58,
+      141,
+      182
+     ],
+     "=": [
+      22,
+      59,
+      142,
+      183
+     ],
+     "120)": [
+      23
+     ],
+     "showed": [
+      24,
+      61
+     ],
+     "no": [
+      25,
+      62,
+      127,
+      152,
+      211,
+      238
+     ],
+     "beneficial": [
+      26,
+      63,
+      104
+     ],
+     "effects": [
+      27,
+      64
+     ],
+     "consisting": [
+      30,
+      67
+     ],
+     "isomorphic": [
+      32,
+      45,
+      53,
+      176
+     ],
+     "problem": [
+      33,
+      46,
+      70
+     ],
+     "solving": [
+      34,
+      71
+     ],
+     "or": [
+      35,
+      177
+     ],
+     "example": [
+      36
+     ],
+     "recall": [
+      37
+     ],
+     "on": [
+      38,
+      200
+     ],
+     "final": [
+      39,
+      88,
+      164
+     ],
+     "test": [
+      40,
+      89,
+      166,
+      244
+     ],
+     "performance,": [
+      41
+     ],
+     "which": [
+      42
+     ],
+     "consisted": [
+      43
+     ],
+     "solving,": [
+      47
+     ],
+     "compared": [
+      48,
+      72,
+      246
+     ],
+     "continued": [
+      50
+     ],
+     "study": [
+      51
+     ],
+     "2": [
+      56,
+      125
+     ],
+     "124)": [
+      60
+     ],
+     "identical": [
+      69,
+      76
+     ],
+     "restudying": [
+      74,
+      120,
+      130
+     ],
+     "an": [
+      75,
+      83
+     ],
+     "example.": [
+      77
+     ],
+     "Interestingly,": [
+      78
+     ],
+     "participants": [
+      79
+     ],
+     "who": [
+      80
+     ],
+     "took": [
+      81
+     ],
+     "both": [
+      82
+     ],
+     "immediate": [
+      84,
+      136
+     ],
+     "and": [
+      85,
+      149,
+      204,
+      232
+     ],
+     "a": [
+      86,
+      94,
+      110,
+      146,
+      186,
+      201,
+      206,
+      214
+     ],
+     "delayed": [
+      87,
+      95,
+      165,
+      243
+     ],
+     "outperformed": [
+      90
+     ],
+     "those": [
+      91
+     ],
+     "taking": [
+      92,
+      134
+     ],
+     "only": [
+      93,
+      108
+     ],
+     "test.": [
+      96,
+      137
+     ],
+     "This": [
+      97
+     ],
+     "finding": [
+      98
+     ],
+     "suggested": [
+      99
+     ],
+     "that": [
+      100,
+      154,
+      240,
+      252
+     ],
+     "might": [
+      102,
+      256
+     ],
+     "become": [
+      103
+     ],
+     "for": [
+      105,
+      163
+     ],
+     "retention": [
+      106
+     ],
+     "but": [
+      107,
+      197
+     ],
+     "after": [
+      109,
+      156,
+      194
+     ],
+     "certain": [
+      111
+     ],
+     "level": [
+      112
+     ],
+     "schema": [
+      114
+     ],
+     "has": [
+      116
+     ],
+     "taken": [
+      117
+     ],
+     "place": [
+      118
+     ],
+     "through": [
+      119
+     ],
+     "several": [
+      121
+     ],
+     "However,": [
+      123
+     ],
+     "experiment": [
+      124,
+      190
+     ],
+     "had": [
+      126
+     ],
+     "control": [
+      128
+     ],
+     "condition": [
+      129
+     ],
+     "examples": [
+      131,
+      159,
+      199
+     ],
+     "instead": [
+      132
+     ],
+     "3": [
+      139,
+      191
+     ],
+     "129)": [
+      143
+     ],
+     "included": [
+      144
+     ],
+     "such": [
+      145
+     ],
+     "restudy": [
+      147
+     ],
+     "condition,": [
+      148
+     ],
+     "there": [
+      150
+     ],
+     "was": [
+      151,
+      160,
+      217
+     ],
+     "evidence": [
+      153,
+      212,
+      239
+     ],
+     "studying": [
+      157
+     ],
+     "four": [
+      158,
+      195,
+      221
+     ],
+     "more": [
+      161
+     ],
+     "effective": [
+      162
+     ],
+     "performance": [
+      167,
+      245
+     ],
+     "than": [
+      168
+     ],
+     "restudying,": [
+      169
+     ],
+     "regardless": [
+      170
+     ],
+     "restudied/tested": [
+      173
+     ],
+     "problems": [
+      174
+     ],
+     "were": [
+      175
+     ],
+     "identical.": [
+      178
+     ],
+     "4": [
+      180
+     ],
+     "75)": [
+      184
+     ],
+     "used": [
+      185
+     ],
+     "similar": [
+      187
+     ],
+     "design": [
+      188
+     ],
+     "as": [
+      189
+     ],
+     "(i.e.,": [
+      192
+     ],
+     "testing/restudy": [
+      193
+     ],
+     "examples),": [
+      196
+     ],
+     "with": [
+      198,
+      205,
+      223
+     ],
+     "different": [
+      202,
+      207,
+      224,
+      229,
+      233
+     ],
+     "topic": [
+      203
+     ],
+     "participant": [
+      208,
+      234
+     ],
+     "population.": [
+      209
+     ],
+     "Again,": [
+      210
+     ],
+     "found.": [
+      218
+     ],
+     "Thus,": [
+      219
+     ],
+     "across": [
+      220
+     ],
+     "experiments,": [
+      222
+     ],
+     "types": [
+      225
+     ],
+     "initial": [
+      227
+     ],
+     "tests,": [
+      228
+     ],
+     "domains,": [
+      231
+     ],
+     "populations,": [
+      235
+     ],
+     "we": [
+      236
+     ],
+     "found": [
+      237
+     ],
+     "enhanced": [
+      242
+     ],
+     "restudy.": [
+      248
+     ],
+     "These": [
+      249
+     ],
+     "findings": [
+      250
+     ],
+     "suggest": [
+      251
+     ],
+     "not": [
+      257
+     ],
+     "apply": [
+      258
+     ],
+     "acquiring": [
+      260
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5074159259",
+       "display_name": "Tamara van Gog",
+       "orcid": "https://orcid.org/0000-0003-3766-6255",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3766-6255"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I913958620",
+        "display_name": "Erasmus University Rotterdam",
+        "ror": "https://ror.org/057w15z03",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I913958620"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Tamara van Gog",
+      "raw_affiliation_strings": [
+       "Institute of Psychology, Erasmus University Rotterdam, P.O. Box 1738, 3000 DR, Rotterdam, The Netherlands",
+       "Erasmus University Rotterdam"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute of Psychology, Erasmus University Rotterdam, P.O. Box 1738, 3000 DR, Rotterdam, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I913958620"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Erasmus University Rotterdam",
+        "institution_ids": [
+         "https://openalex.org/I913958620"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5048010099",
+       "display_name": "Liesbeth Kester",
+       "orcid": "https://orcid.org/0000-0003-0482-0391",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0482-0391"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I193662353",
+        "display_name": "Utrecht University",
+        "ror": "https://ror.org/04pp8hn57",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I193662353"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I7876267",
+        "display_name": "Open University of the Netherlands",
+        "ror": "https://ror.org/018dfmf50",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Liesbeth Kester",
+      "raw_affiliation_strings": [
+       "Department of Pedagogical and Educational Sciences, Utrecht University, Utrecht, The Netherlands",
+       "Welten Institute, Open University of The Netherlands, Heerlen, The Netherlands",
+       "Open University of The Netherlands",
+       "Utrecht University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Pedagogical and Educational Sciences, Utrecht University, Utrecht, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I193662353"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Welten Institute, Open University of The Netherlands, Heerlen, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I7876267"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Open University of The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I7876267"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Utrecht University",
+        "institution_ids": [
+         "https://openalex.org/I193662353"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5003768292",
+       "display_name": "Kim Dirkx",
+       "orcid": "https://orcid.org/0000-0001-8014-0916",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8014-0916"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I21516984",
+        "display_name": "Fontys University of Applied Sciences",
+        "ror": "https://ror.org/01jwcme05",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I21516984"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I7876267",
+        "display_name": "Open University of the Netherlands",
+        "ror": "https://ror.org/018dfmf50",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Kim Dirkx",
+      "raw_affiliation_strings": [
+       "Fontys Educatief Centrum, Fontys University of Applied Sciences, Eindhoven, The Netherlands",
+       "Welten Institute, Open University of The Netherlands, Heerlen, The Netherlands",
+       "Fontys University of Applied Sciences",
+       "Open University of The Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Fontys Educatief Centrum, Fontys University of Applied Sciences, Eindhoven, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I21516984"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Welten Institute, Open University of The Netherlands, Heerlen, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I7876267"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Fontys University of Applied Sciences",
+        "institution_ids": [
+         "https://openalex.org/I21516984"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Open University of The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5074328478",
+       "display_name": "Vincent Hoogerheide",
+       "orcid": "https://orcid.org/0000-0003-4176-0973",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4176-0973"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I913958620",
+        "display_name": "Erasmus University Rotterdam",
+        "ror": "https://ror.org/057w15z03",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I913958620"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Vincent Hoogerheide",
+      "raw_affiliation_strings": [
+       "Institute of Psychology, Erasmus University Rotterdam, P.O. Box 1738, 3000 DR, Rotterdam, The Netherlands",
+       "Erasmus University Rotterdam"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute of Psychology, Erasmus University Rotterdam, P.O. Box 1738, 3000 DR, Rotterdam, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I913958620"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Erasmus University Rotterdam",
+        "institution_ids": [
+         "https://openalex.org/I913958620"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5015403655",
+       "display_name": "Joris Boerboom",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I913958620",
+        "display_name": "Erasmus University Rotterdam",
+        "ror": "https://ror.org/057w15z03",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I913958620"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Joris Boerboom",
+      "raw_affiliation_strings": [
+       "Institute of Psychology, Erasmus University Rotterdam, P.O. Box 1738, 3000 DR, Rotterdam, The Netherlands",
+       "Erasmus University Rotterdam"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute of Psychology, Erasmus University Rotterdam, P.O. Box 1738, 3000 DR, Rotterdam, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I913958620"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Erasmus University Rotterdam",
+        "institution_ids": [
+         "https://openalex.org/I913958620"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5051780305",
+       "display_name": "Peter P. J. L. Verkoeijen",
+       "orcid": "https://orcid.org/0000-0002-8085-5038",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8085-5038"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I913958620",
+        "display_name": "Erasmus University Rotterdam",
+        "ror": "https://ror.org/057w15z03",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I913958620"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Peter P. J. L. Verkoeijen",
+      "raw_affiliation_strings": [
+       "Institute of Psychology, Erasmus University Rotterdam, P.O. Box 1738, 3000 DR, Rotterdam, The Netherlands",
+       "Erasmus University Rotterdam"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute of Psychology, Erasmus University Rotterdam, P.O. Box 1738, 3000 DR, Rotterdam, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I913958620"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Erasmus University Rotterdam",
+        "institution_ids": [
+         "https://openalex.org/I913958620"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1007/s10648-015-9297-3",
+     "doi": "https://doi.org/10.1007/s10648-015-9297-3",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1007/s10648-015-9297-3",
+     "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10648-015-9297-3.pdf",
+     "source": {
+      "id": "https://openalex.org/S187318745",
+      "display_name": "Educational Psychology Review",
+      "issn_l": "1040-726X",
+      "issn": [
+       "1040-726X",
+       "1573-336X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-a",
+       "erih-plus",
+       "jufo-2",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319900",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer Science+Business Media",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Educational Psychology Review",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W7127620879",
+    "doi": "https://doi.org/10.1080/03054985.2026.2618588",
+    "title": "Test preparation in a high-stakes setting: experiments with testing and restudy strategies",
+    "display_name": "Test preparation in a high-stakes setting: experiments with testing and restudy strategies",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "This": [
+      0
+     ],
+     "study": [
+      1
+     ],
+     "investigated": [
+      2
+     ],
+     "the": [
+      3,
+      6,
+      49,
+      59,
+      65,
+      82,
+      113,
+      129,
+      153,
+      157,
+      178,
+      190,
+      194,
+      197
+     ],
+     "transferability": [
+      4
+     ],
+     "of": [
+      5,
+      8,
+      48,
+      58,
+      200
+     ],
+     "effects": [
+      7,
+      166
+     ],
+     "testing": [
+      9,
+      94,
+      201
+     ],
+     "(with": [
+      10
+     ],
+     "and": [
+      11,
+      16,
+      51,
+      97
+     ],
+     "without": [
+      12
+     ],
+     "feedback": [
+      13,
+      96,
+      123,
+      203
+     ],
+     "on": [
+      14,
+      19,
+      108,
+      128
+     ],
+     "performance)": [
+      15
+     ],
+     "restudy": [
+      17,
+      98,
+      161
+     ],
+     "strategies": [
+      18,
+      50,
+      103
+     ],
+     "test": [
+      20,
+      25,
+      72,
+      101,
+      110,
+      131,
+      186
+     ],
+     "performance": [
+      21,
+      111
+     ],
+     "in": [
+      22,
+      32,
+      40,
+      64,
+      70,
+      86,
+      112,
+      170,
+      189,
+      204,
+      208
+     ],
+     "an": [
+      23
+     ],
+     "authentic": [
+      24,
+      209
+     ],
+     "preparation": [
+      26,
+      73,
+      102,
+      115,
+      172,
+      187
+     ],
+     "context.": [
+      27
+     ],
+     "Three": [
+      28
+     ],
+     "experiments": [
+      29,
+      61
+     ],
+     "were": [
+      30,
+      68,
+      99,
+      167
+     ],
+     "conducted": [
+      31,
+      85,
+      133
+     ],
+     "which": [
+      33
+     ],
+     "students": [
+      34,
+      175
+     ],
+     "from": [
+      35
+     ],
+     "a": [
+      36,
+      53,
+      87,
+      125
+     ],
+     "teacher": [
+      37
+     ],
+     "training": [
+      38
+     ],
+     "college": [
+      39
+     ],
+     "China": [
+      41
+     ],
+     "reviewed": [
+      42
+     ],
+     "educational": [
+      43
+     ],
+     "psychology": [
+      44
+     ],
+     "concepts": [
+      45
+     ],
+     "using": [
+      46
+     ],
+     "one": [
+      47
+     ],
+     "took": [
+      52
+     ],
+     "post-intervention": [
+      54
+     ],
+     "test.": [
+      55,
+      181
+     ],
+     "The": [
+      56
+     ],
+     "design": [
+      57
+     ],
+     "three": [
+      60
+     ],
+     "differed": [
+      62
+     ],
+     "only": [
+      63,
+      168
+     ],
+     "settings:": [
+      66
+     ],
+     "two": [
+      67,
+      135
+     ],
+     "undertaken": [
+      69
+     ],
+     "high-stakes": [
+      71,
+      114,
+      171,
+      179,
+      210
+     ],
+     "settings": [
+      74
+     ],
+     "(n": [
+      75,
+      90
+     ],
+     "=": [
+      76,
+      79,
+      91,
+      141,
+      150
+     ],
+     "172;": [
+      77
+     ],
+     "n": [
+      78
+     ],
+     "257)": [
+      80
+     ],
+     "while": [
+      81,
+      160
+     ],
+     "third": [
+      83
+     ],
+     "was": [
+      84,
+      183
+     ],
+     "low-stakes": [
+      88,
+      191
+     ],
+     "setting": [
+      89
+     ],
+     "115).": [
+      92
+     ],
+     "Both": [
+      93
+     ],
+     "with": [
+      95,
+      104,
+      122,
+      202
+     ],
+     "effective": [
+      100
+     ],
+     "comparable": [
+      105
+     ],
+     "effect": [
+      106,
+      127,
+      188
+     ],
+     "sizes": [
+      107
+     ],
+     "immediate": [
+      109
+     ],
+     "conditions": [
+      116
+     ],
+     "(Cohen\u2019s": [
+      117
+     ],
+     "d": [
+      118,
+      140,
+      149
+     ],
+     ">": [
+      119
+     ],
+     "0.57).": [
+      120
+     ],
+     "Testing": [
+      121
+     ],
+     "had": [
+      124
+     ],
+     "significant": [
+      126,
+      165,
+      185
+     ],
+     "course": [
+      130,
+      180
+     ],
+     "results": [
+      132
+     ],
+     "either": [
+      134
+     ],
+     "days": [
+      136,
+      145
+     ],
+     "(Experiment": [
+      137,
+      146
+     ],
+     "1,": [
+      138
+     ],
+     "Cohen\u2019s": [
+      139,
+      148
+     ],
+     "0.58)": [
+      142
+     ],
+     "or": [
+      143
+     ],
+     "seven": [
+      144
+     ],
+     "2,": [
+      147
+     ],
+     "0.91)": [
+      151
+     ],
+     "after": [
+      152
+     ],
+     "intervention": [
+      154
+     ],
+     "compared": [
+      155
+     ],
+     "to": [
+      156
+     ],
+     "control": [
+      158
+     ],
+     "group": [
+      159
+     ],
+     "did": [
+      162
+     ],
+     "not.": [
+      163
+     ],
+     "These": [
+      164
+     ],
+     "observed": [
+      169
+     ],
+     "conditions,": [
+      173
+     ],
+     "where": [
+      174
+     ],
+     "prepared": [
+      176
+     ],
+     "for": [
+      177
+     ],
+     "There": [
+      182
+     ],
+     "no": [
+      184
+     ],
+     "condition.": [
+      192
+     ],
+     "Overall,": [
+      193
+     ],
+     "findings": [
+      195
+     ],
+     "highlight": [
+      196
+     ],
+     "critical": [
+      198
+     ],
+     "role": [
+      199
+     ],
+     "sustaining": [
+      205
+     ],
+     "learning": [
+      206
+     ],
+     "gains": [
+      207
+     ],
+     "contexts.": [
+      211
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5092296002",
+       "display_name": "Zhanxin Hao",
+       "orcid": "https://orcid.org/0000-0002-1526-8515",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1526-8515"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99065089",
+        "display_name": "Tsinghua University",
+        "ror": "https://ror.org/03cve4549",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I99065089"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Zhanxin Hao",
+      "raw_affiliation_strings": [
+       "Tsinghua University, Beijing, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Tsinghua University, Beijing, China",
+        "institution_ids": [
+         "https://openalex.org/I99065089"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5047482019",
+       "display_name": "Jo\u2010Anne Baird",
+       "orcid": "https://orcid.org/0000-0001-5974-3237",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5974-3237"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I40120149",
+        "display_name": "University of Oxford",
+        "ror": "https://ror.org/052gg0110",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I40120149"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Jo-Anne Baird",
+      "raw_affiliation_strings": [
+       "University of Oxford, Oxford, UK"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-5974-3237",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Oxford, Oxford, UK",
+        "institution_ids": [
+         "https://openalex.org/I40120149"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5013636069",
+       "display_name": "Yasmine El Masri",
+       "orcid": "https://orcid.org/0000-0003-2811-2840",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2811-2840"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I40120149",
+        "display_name": "University of Oxford",
+        "ror": "https://ror.org/052gg0110",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I40120149"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Yasmine El Masri",
+      "raw_affiliation_strings": [
+       "University of Oxford, Oxford, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Oxford, Oxford, UK",
+        "institution_ids": [
+         "https://openalex.org/I40120149"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1080/03054985.2026.2618588",
+     "doi": "https://doi.org/10.1080/03054985.2026.2618588",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1080/03054985.2026.2618588",
+     "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/03054985.2026.2618588?needAccess=true",
+     "source": {
+      "id": "https://openalex.org/S55586218",
+      "display_name": "Oxford Review of Education",
+      "issn_l": "0305-4985",
+      "issn": [
+       "0305-4985",
+       "1465-3915"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "erih-plus",
+       "jufo-2",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320547",
+      "host_organization_name": "Taylor & Francis",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320547",
+       "https://openalex.org/P4310320449"
+      ],
+      "host_organization_lineage_names": [
+       "Taylor & Francis",
+       "Informa"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Oxford Review of Education",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W7125926383",
+    "doi": "https://doi.org/10.3389/fpsyg.2026.1727423",
+    "title": "Testing the testing effect on prolific: when retrieval practice fails to boost learning",
+    "display_name": "Testing the testing effect on prolific: when retrieval practice fails to boost learning",
+    "publication_year": 2026,
+    "cited_by_count": 2,
+    "abstract_inverted_index": {
+     "The": [
+      0
+     ],
+     "testing": [
+      1,
+      6,
+      44,
+      85,
+      165
+     ],
+     "effect-whereby": [
+      2
+     ],
+     "retrieving": [
+      3
+     ],
+     "information": [
+      4
+     ],
+     "through": [
+      5
+     ],
+     "improves": [
+      7
+     ],
+     "long-term": [
+      8
+     ],
+     "retention": [
+      9
+     ],
+     "more": [
+      10,
+      153
+     ],
+     "than": [
+      11
+     ],
+     "restudying-is": [
+      12
+     ],
+     "one": [
+      13
+     ],
+     "of": [
+      14,
+      163,
+      177,
+      199
+     ],
+     "the": [
+      15,
+      43,
+      84,
+      161,
+      164,
+      178
+     ],
+     "most": [
+      16
+     ],
+     "robust": [
+      17
+     ],
+     "and": [
+      18,
+      60,
+      76,
+      92,
+      95,
+      201
+     ],
+     "well-documented": [
+      19
+     ],
+     "phenomena": [
+      20,
+      145
+     ],
+     "in": [
+      21,
+      27,
+      49,
+      167,
+      197
+     ],
+     "educational": [
+      22,
+      61
+     ],
+     "psychology.": [
+      23
+     ],
+     "However,": [
+      24
+     ],
+     "its": [
+      25
+     ],
+     "replicability": [
+      26
+     ],
+     "online": [
+      28,
+      187
+     ],
+     "crowdsourced": [
+      29
+     ],
+     "settings": [
+      30
+     ],
+     "remains": [
+      31
+     ],
+     "uncertain.": [
+      32
+     ],
+     "In": [
+      33,
+      99
+     ],
+     "this": [
+      34
+     ],
+     "paper,": [
+      35
+     ],
+     "we": [
+      36
+     ],
+     "report": [
+      37
+     ],
+     "two": [
+      38
+     ],
+     "preliminary": [
+      39
+     ],
+     "experiments": [
+      40
+     ],
+     "examining": [
+      41
+     ],
+     "whether": [
+      42
+     ],
+     "effect": [
+      45,
+      166,
+      179
+     ],
+     "can": [
+      46
+     ],
+     "be": [
+      47,
+      152,
+      207
+     ],
+     "detected": [
+      48
+     ],
+     "studies": [
+      50,
+      70,
+      169
+     ],
+     "conducted": [
+      51
+     ],
+     "on": [
+      52,
+      72,
+      216
+     ],
+     "Prolific,": [
+      53
+     ],
+     "a": [
+      54,
+      107,
+      174
+     ],
+     "platform": [
+      55
+     ],
+     "widely": [
+      56
+     ],
+     "used": [
+      57
+     ],
+     "for": [
+      58
+     ],
+     "behavioral": [
+      59
+     ],
+     "research.": [
+      62
+     ],
+     "Although": [
+      63
+     ],
+     "not": [
+      64
+     ],
+     "conceived": [
+      65
+     ],
+     "as": [
+      66
+     ],
+     "direct": [
+      67
+     ],
+     "replications,": [
+      68
+     ],
+     "both": [
+      69,
+      93,
+      100
+     ],
+     "relied": [
+      71
+     ],
+     "validated": [
+      73
+     ],
+     "learning": [
+      74,
+      144,
+      212,
+      220
+     ],
+     "materials": [
+      75
+     ],
+     "incorporated": [
+      77
+     ],
+     "key": [
+      78
+     ],
+     "methodological": [
+      79
+     ],
+     "features": [
+      80
+     ],
+     "known": [
+      81
+     ],
+     "to": [
+      82,
+      106,
+      172,
+      186
+     ],
+     "enhance": [
+      83
+     ],
+     "effect,": [
+      86
+     ],
+     "including": [
+      87
+     ],
+     "delayed": [
+      88,
+      121
+     ],
+     "posttests,": [
+      89
+     ],
+     "corrective": [
+      90
+     ],
+     "feedback,": [
+      91
+     ],
+     "factual": [
+      94
+     ],
+     "application-based": [
+      96
+     ],
+     "outcome": [
+      97
+     ],
+     "measures.": [
+      98
+     ],
+     "experiments,": [
+      101
+     ],
+     "participants": [
+      102
+     ],
+     "were": [
+      103,
+      116
+     ],
+     "randomly": [
+      104
+     ],
+     "assigned": [
+      105
+     ],
+     "retrieval-practice": [
+      108
+     ],
+     "(test)": [
+      109
+     ],
+     "or": [
+      110
+     ],
+     "restudy": [
+      111
+     ],
+     "condition.": [
+      112
+     ],
+     "No": [
+      113
+     ],
+     "significant": [
+      114
+     ],
+     "differences": [
+      115
+     ],
+     "found": [
+      117
+     ],
+     "between": [
+      118
+     ],
+     "groups": [
+      119
+     ],
+     "at": [
+      120,
+      127
+     ],
+     "test,": [
+      122
+     ],
+     "despite": [
+      123
+     ],
+     "multiple": [
+      124
+     ],
+     "safeguards": [
+      125
+     ],
+     "aimed": [
+      126
+     ],
+     "promoting": [
+      128
+     ],
+     "participant": [
+      129
+     ],
+     "engagement": [
+      130,
+      150,
+      218
+     ],
+     "(e.g.,": [
+      131
+     ],
+     "prescreening": [
+      132
+     ],
+     "filters,": [
+      133
+     ],
+     "attention": [
+      134
+     ],
+     "checks,": [
+      135
+     ],
+     "fair": [
+      136
+     ],
+     "compensation).": [
+      137
+     ],
+     "These": [
+      138
+     ],
+     "null": [
+      139
+     ],
+     "findings": [
+      140
+     ],
+     "suggest": [
+      141
+     ],
+     "that": [
+      142,
+      146,
+      160,
+      214
+     ],
+     "investigating": [
+      143
+     ],
+     "require": [
+      147
+     ],
+     "sustained": [
+      148
+     ],
+     "cognitive": [
+      149
+     ],
+     "may": [
+      151
+     ],
+     "challenging": [
+      154
+     ],
+     "with": [
+      155,
+      219
+     ],
+     "crowdsource": [
+      156
+     ],
+     "samples.": [
+      157
+     ],
+     "We": [
+      158
+     ],
+     "argue": [
+      159
+     ],
+     "absence": [
+      162
+     ],
+     "our": [
+      168
+     ],
+     "is": [
+      170
+     ],
+     "unlikely": [
+      171
+     ],
+     "reflect": [
+      173
+     ],
+     "theoretical": [
+      175
+     ],
+     "limitation": [
+      176
+     ],
+     "itself,": [
+      180
+     ],
+     "but": [
+      181
+     ],
+     "rather": [
+      182
+     ],
+     "highlights": [
+      183
+     ],
+     "challenges": [
+      184
+     ],
+     "inherent": [
+      185
+     ],
+     "research": [
+      188
+     ],
+     "environments.": [
+      189
+     ],
+     "While": [
+      190
+     ],
+     "platforms": [
+      191
+     ],
+     "like": [
+      192
+     ],
+     "Prolific": [
+      193
+     ],
+     "offer": [
+      194
+     ],
+     "valuable": [
+      195
+     ],
+     "advantages": [
+      196
+     ],
+     "terms": [
+      198
+     ],
+     "speed": [
+      200
+     ],
+     "sample": [
+      202
+     ],
+     "diversity,": [
+      203
+     ],
+     "their": [
+      204
+     ],
+     "constraints": [
+      205
+     ],
+     "should": [
+      206
+     ],
+     "carefully": [
+      208
+     ],
+     "considered": [
+      209
+     ],
+     "when": [
+      210
+     ],
+     "studying": [
+      211
+     ],
+     "effects": [
+      213
+     ],
+     "depend": [
+      215
+     ],
+     "deep": [
+      217
+     ],
+     "material.": [
+      221
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5061360634",
+       "display_name": "Kevin Sigayret",
+       "orcid": "https://orcid.org/0009-0007-8208-2562",
+       "observed_orcids": [
+        "https://orcid.org/0009-0007-8208-2562"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1294671590",
+        "display_name": "Centre National de la Recherche Scientifique",
+        "ror": "https://ror.org/02feahw73",
+        "country_code": "FR",
+        "type": "government",
+        "lineage": [
+         "https://openalex.org/I1294671590"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I205747304",
+        "display_name": "Institut National Polytechnique de Toulouse",
+        "ror": "https://ror.org/033p9g875",
+        "country_code": "FR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I205747304"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210119061",
+        "display_name": "Institut de Recherche en Informatique de Toulouse",
+        "ror": "https://ror.org/01rx4qw44",
+        "country_code": "FR",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I1294671590",
+         "https://openalex.org/I205747304",
+         "https://openalex.org/I4210119061",
+         "https://openalex.org/I4210152422",
+         "https://openalex.org/I4405258862",
+         "https://openalex.org/I4405259414"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4405258862",
+        "display_name": "Universit\u00e9 de Toulouse",
+        "ror": "https://ror.org/01ahyrz84",
+        "country_code": "FR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4405258862"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4405259414",
+        "display_name": "Universit\u00e9 Toulouse Capitole",
+        "ror": "https://ror.org/027ankh97",
+        "country_code": "FR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4405259414"
+        ]
+       }
+      ],
+      "countries": [
+       "FR"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Kevin Sigayret",
+      "raw_affiliation_strings": [
+       "IRIT, Universit\u00e9 de Toulouse, CNRS, Toulouse INP, Universit\u00e9 Toulouse Capitole, Toulouse, France"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "IRIT, Universit\u00e9 de Toulouse, CNRS, Toulouse INP, Universit\u00e9 Toulouse Capitole, Toulouse, France",
+        "institution_ids": [
+         "https://openalex.org/I1294671590",
+         "https://openalex.org/I205747304",
+         "https://openalex.org/I4210119061",
+         "https://openalex.org/I4405258862",
+         "https://openalex.org/I4405259414"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5075246147",
+       "display_name": "Jean\u2010Fran\u00e7ois Parmentier",
+       "orcid": "https://orcid.org/0000-0002-5593-7461",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5593-7461"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1294671590",
+        "display_name": "Centre National de la Recherche Scientifique",
+        "ror": "https://ror.org/02feahw73",
+        "country_code": "FR",
+        "type": "government",
+        "lineage": [
+         "https://openalex.org/I1294671590"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I205747304",
+        "display_name": "Institut National Polytechnique de Toulouse",
+        "ror": "https://ror.org/033p9g875",
+        "country_code": "FR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I205747304"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210119061",
+        "display_name": "Institut de Recherche en Informatique de Toulouse",
+        "ror": "https://ror.org/01rx4qw44",
+        "country_code": "FR",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I1294671590",
+         "https://openalex.org/I205747304",
+         "https://openalex.org/I4210119061",
+         "https://openalex.org/I4210152422",
+         "https://openalex.org/I4405258862",
+         "https://openalex.org/I4405259414"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4405258862",
+        "display_name": "Universit\u00e9 de Toulouse",
+        "ror": "https://ror.org/01ahyrz84",
+        "country_code": "FR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4405258862"
+        ]
+       }
+      ],
+      "countries": [
+       "FR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/project-administration",
+        "display_name": "Project administration"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Jean-Fran\u00e7ois Parmentier",
+      "raw_affiliation_strings": [
+       "IRIT, Universit\u00e9 de Toulouse, CNRS, Toulouse INP, IPSA, Toulouse, France"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "IRIT, Universit\u00e9 de Toulouse, CNRS, Toulouse INP, IPSA, Toulouse, France",
+        "institution_ids": [
+         "https://openalex.org/I1294671590",
+         "https://openalex.org/I205747304",
+         "https://openalex.org/I4210119061",
+         "https://openalex.org/I4405258862"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5055766584",
+       "display_name": "Franck Silvestre",
+       "orcid": "https://orcid.org/0000-0002-1134-8200",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1134-8200"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1294671590",
+        "display_name": "Centre National de la Recherche Scientifique",
+        "ror": "https://ror.org/02feahw73",
+        "country_code": "FR",
+        "type": "government",
+        "lineage": [
+         "https://openalex.org/I1294671590"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I205747304",
+        "display_name": "Institut National Polytechnique de Toulouse",
+        "ror": "https://ror.org/033p9g875",
+        "country_code": "FR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I205747304"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210119061",
+        "display_name": "Institut de Recherche en Informatique de Toulouse",
+        "ror": "https://ror.org/01rx4qw44",
+        "country_code": "FR",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I1294671590",
+         "https://openalex.org/I205747304",
+         "https://openalex.org/I4210119061",
+         "https://openalex.org/I4210152422",
+         "https://openalex.org/I4405258862",
+         "https://openalex.org/I4405259414"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4405258862",
+        "display_name": "Universit\u00e9 de Toulouse",
+        "ror": "https://ror.org/01ahyrz84",
+        "country_code": "FR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4405258862"
+        ]
+       }
+      ],
+      "countries": [
+       "FR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/project-administration",
+        "display_name": "Project administration"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Franck Silvestre",
+      "raw_affiliation_strings": [
+       "IRIT, Universit\u00e9 de Toulouse, CNRS, Toulouse INP, Toulouse, France"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "IRIT, Universit\u00e9 de Toulouse, CNRS, Toulouse INP, Toulouse, France",
+        "institution_ids": [
+         "https://openalex.org/I1294671590",
+         "https://openalex.org/I205747304",
+         "https://openalex.org/I4210119061",
+         "https://openalex.org/I4405258862"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2026.1727423",
+     "doi": "https://doi.org/10.3389/fpsyg.2026.1727423",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2026.1727423",
+     "pdf_url": "https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1727423/pdf",
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4387580672",
+    "doi": "https://doi.org/10.3389/fcogn.2023.1258955",
+    "title": "A combination of restudy and retrieval practice maximizes retention of briefly encountered facts",
+    "display_name": "A combination of restudy and retrieval practice maximizes retention of briefly encountered facts",
+    "publication_year": 2023,
+    "cited_by_count": 1,
+    "abstract_inverted_index": {
+     "Introduction": [
+      0
+     ],
+     "Is": [
+      1
+     ],
+     "retrieval": [
+      2,
+      203,
+      214
+     ],
+     "practice": [
+      3
+     ],
+     "always": [
+      4
+     ],
+     "superior": [
+      5,
+      167
+     ],
+     "to": [
+      6,
+      26,
+      31,
+      37,
+      62,
+      89,
+      124,
+      161,
+      175,
+      195,
+      210,
+      271
+     ],
+     "restudy?": [
+      7
+     ],
+     "In": [
+      8,
+      94
+     ],
+     "a": [
+      9,
+      63,
+      67,
+      81,
+      103,
+      149,
+      188,
+      202,
+      213,
+      227
+     ],
+     "classic": [
+      10
+     ],
+     "study": [
+      11,
+      57
+     ],
+     "by": [
+      12
+     ],
+     "Roediger": [
+      13
+     ],
+     "and": [
+      14,
+      138,
+      274,
+      287,
+      300
+     ],
+     "Karpicke,": [
+      15
+     ],
+     "long-term": [
+      16,
+      164,
+      288
+     ],
+     "retention": [
+      17
+     ],
+     "of": [
+      18,
+      52,
+      66,
+      105,
+      240,
+      244,
+      257,
+      297
+     ],
+     "information": [
+      19,
+      270
+     ],
+     "contained": [
+      20
+     ],
+     "in": [
+      21,
+      69,
+      77,
+      128,
+      173
+     ],
+     "prose": [
+      22
+     ],
+     "passages": [
+      23
+     ],
+     "was": [
+      24,
+      166
+     ],
+     "found": [
+      25
+     ],
+     "be": [
+      27,
+      272
+     ],
+     "best": [
+      28
+     ],
+     "when": [
+      29,
+      56
+     ],
+     "opportunities": [
+      30,
+      36,
+      58
+     ],
+     "restudy": [
+      32,
+      54,
+      186,
+      196,
+      234
+     ],
+     "were": [
+      33,
+      40,
+      74,
+      123,
+      171
+     ],
+     "replaced": [
+      34
+     ],
+     "with": [
+      35,
+      264
+     ],
+     "self-test.": [
+      38
+     ],
+     "We": [
+      39,
+      73,
+      182
+     ],
+     "interested": [
+      41,
+      76
+     ],
+     "whether": [
+      42,
+      78,
+      185
+     ],
+     "this": [
+      43,
+      221
+     ],
+     "striking": [
+      44
+     ],
+     "benefit": [
+      45,
+      208,
+      222
+     ],
+     "for": [
+      46,
+      168,
+      268,
+      293,
+      304
+     ],
+     "repeated": [
+      47,
+      258
+     ],
+     "testing": [
+      48,
+      263,
+      298
+     ],
+     "at": [
+      49
+     ],
+     "the": [
+      50,
+      95,
+      129,
+      170,
+      238,
+      255,
+      282
+     ],
+     "expense": [
+      51
+     ],
+     "any": [
+      53,
+      85
+     ],
+     "replicates": [
+      55
+     ],
+     "are": [
+      59
+     ],
+     "brief,": [
+      60
+     ],
+     "akin": [
+      61
+     ],
+     "single": [
+      64
+     ],
+     "mention": [
+      65
+     ],
+     "fact": [
+      68,
+      127
+     ],
+     "an": [
+      70,
+      206,
+      217
+     ],
+     "academic": [
+      71
+     ],
+     "lecture.": [
+      72
+     ],
+     "also": [
+      75
+     ],
+     "restudying": [
+      79,
+      90,
+      211
+     ],
+     "after": [
+      80,
+      148,
+      187,
+      201,
+      235
+     ],
+     "test": [
+      82,
+      144,
+      189,
+      198,
+      236
+     ],
+     "would": [
+      83
+     ],
+     "provide": [
+      84,
+      290
+     ],
+     "additional": [
+      86,
+      192,
+      207
+     ],
+     "benefits": [
+      87,
+      193,
+      256
+     ],
+     "compared": [
+      88,
+      194,
+      209
+     ],
+     "before": [
+      91,
+      197,
+      212
+     ],
+     "test.": [
+      92
+     ],
+     "Method": [
+      93
+     ],
+     "current": [
+      96
+     ],
+     "study,": [
+      97,
+      117
+     ],
+     "participants": [
+      98,
+      118,
+      133
+     ],
+     "encountered": [
+      99
+     ],
+     "academically": [
+      100
+     ],
+     "relevant": [
+      101
+     ],
+     "facts": [
+      102,
+      169
+     ],
+     "total": [
+      104
+     ],
+     "three": [
+      106
+     ],
+     "times;": [
+      107
+     ],
+     "each": [
+      108,
+      126
+     ],
+     "time": [
+      109
+     ],
+     "either": [
+      110
+     ],
+     "studied": [
+      111
+     ],
+     "(S)": [
+      112
+     ],
+     "or": [
+      113,
+      147
+     ],
+     "self-tested": [
+      114,
+      176
+     ],
+     "(T).": [
+      115
+     ],
+     "During": [
+      116,
+      131
+     ],
+     "predicted": [
+      119
+     ],
+     "how": [
+      120
+     ],
+     "likely": [
+      121
+     ],
+     "they": [
+      122
+     ],
+     "remember": [
+      125
+     ],
+     "future.": [
+      130
+     ],
+     "self-test,": [
+      132
+     ],
+     "performed": [
+      134
+     ],
+     "covert": [
+      135
+     ],
+     "cued": [
+      136
+     ],
+     "recall": [
+      137,
+      141
+     ],
+     "self-reported": [
+      139
+     ],
+     "their": [
+      140
+     ],
+     "success.": [
+      142,
+      246
+     ],
+     "Final": [
+      143
+     ],
+     "followed": [
+      145
+     ],
+     "immediately": [
+      146
+     ],
+     "delay": [
+      150
+     ],
+     "(Experiment": [
+      151
+     ],
+     "1:": [
+      152
+     ],
+     "2": [
+      153
+     ],
+     "days,": [
+      154
+     ],
+     "Experiment": [
+      155
+     ],
+     "2:": [
+      156
+     ],
+     "7": [
+      157
+     ],
+     "days).": [
+      158
+     ],
+     "Results": [
+      159
+     ],
+     "Contrary": [
+      160
+     ],
+     "prior": [
+      162,
+      252
+     ],
+     "work,": [
+      163
+     ],
+     "memory": [
+      165
+     ],
+     "restudied": [
+      172
+     ],
+     "addition": [
+      174
+     ],
+     "(SST": [
+      177
+     ],
+     ">": [
+      178
+     ],
+     "STT": [
+      179
+     ],
+     "=": [
+      180
+     ],
+     "SSS).": [
+      181
+     ],
+     "further": [
+      183
+     ],
+     "investigated": [
+      184
+     ],
+     "(STS)": [
+      190
+     ],
+     "provides": [
+      191
+     ],
+     "(SST).": [
+      199
+     ],
+     "Restudying": [
+      200
+     ],
+     "attempt": [
+      204,
+      215
+     ],
+     "provided": [
+      205
+     ],
+     "on": [
+      216,
+      254
+     ],
+     "immediate": [
+      218
+     ],
+     "test,": [
+      219
+     ],
+     "but": [
+      220
+     ],
+     "did": [
+      223
+     ],
+     "not": [
+      224
+     ],
+     "carry": [
+      225
+     ],
+     "over": [
+      226
+     ],
+     "delay.": [
+      228
+     ],
+     "Finally,": [
+      229
+     ],
+     "exploratory": [
+      230
+     ],
+     "analyses": [
+      231
+     ],
+     "indicated": [
+      232
+     ],
+     "that": [
+      233,
+      261,
+      284
+     ],
+     "improved": [
+      237
+     ],
+     "accuracy": [
+      239
+     ],
+     "participants'": [
+      241
+     ],
+     "subjective": [
+      242
+     ],
+     "predictions": [
+      243
+     ],
+     "encoding": [
+      245,
+      286
+     ],
+     "Discussion": [
+      247
+     ],
+     "Together,": [
+      248
+     ],
+     "our": [
+      249
+     ],
+     "results": [
+      250
+     ],
+     "qualify": [
+      251
+     ],
+     "work": [
+      253
+     ],
+     "testing,": [
+      259
+     ],
+     "indicating": [
+      260
+     ],
+     "balancing": [
+      262
+     ],
+     "repetition": [
+      265
+     ],
+     "may": [
+      266
+     ],
+     "allow": [
+      267
+     ],
+     "more": [
+      269
+     ],
+     "learned": [
+      273
+     ],
+     "retained.": [
+      275
+     ],
+     "These": [
+      276
+     ],
+     "findings": [
+      277
+     ],
+     "offer": [
+      278
+     ],
+     "new": [
+      279,
+      291
+     ],
+     "insights": [
+      280
+     ],
+     "into": [
+      281
+     ],
+     "conditions": [
+      283
+     ],
+     "promote": [
+      285
+     ],
+     "retention,": [
+      289
+     ],
+     "constraints": [
+      292
+     ],
+     "existing": [
+      294
+     ],
+     "cognitive": [
+      295
+     ],
+     "theories": [
+      296
+     ],
+     "effects,": [
+      299
+     ],
+     "have": [
+      301
+     ],
+     "practical": [
+      302
+     ],
+     "implications": [
+      303
+     ],
+     "education.": [
+      305
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5035539094",
+       "display_name": "Stefania Rene Ashby",
+       "orcid": "https://orcid.org/0000-0001-8480-6105",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8480-6105"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I100005738",
+        "display_name": "Brigham Young University",
+        "ror": "https://ror.org/047rhhm47",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I100005738"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I181233156",
+        "display_name": "University of Oregon",
+        "ror": "https://ror.org/0293rh119",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I181233156"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/project-administration",
+        "display_name": "Project administration"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/visualization",
+        "display_name": "Visualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Stefania Rene Ashby",
+      "raw_affiliation_strings": [
+       "Department of Psychology , 1227 University of Oregon , Eugene , OR 97403",
+       "University of Oregon",
+       "Department of Psychology, Brigham Young University, Provo, UT, United States",
+       "Neuroscience Center, Brigham Young University, Provo, UT, United States"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-8480-6105",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology , 1227 University of Oregon , Eugene , OR 97403",
+        "institution_ids": [
+         "https://openalex.org/I181233156"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Oregon",
+        "institution_ids": [
+         "https://openalex.org/I181233156"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, Brigham Young University, Provo, UT, United States",
+        "institution_ids": [
+         "https://openalex.org/I100005738"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Neuroscience Center, Brigham Young University, Provo, UT, United States",
+        "institution_ids": [
+         "https://openalex.org/I100005738"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5072988458",
+       "display_name": "Dagmar Zeithamov\u00e1",
+       "orcid": "https://orcid.org/0000-0002-0310-5030",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0310-5030"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I181233156",
+        "display_name": "University of Oregon",
+        "ror": "https://ror.org/0293rh119",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I181233156"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Dagmar Zeithamova",
+      "raw_affiliation_strings": [
+       "Department of Psychology , University of Oregon ,",
+       "University of Oregon",
+       "Department of Psychology, University of Oregon, Eugene, OR, United States"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-0310-5030",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology , University of Oregon ,",
+        "institution_ids": [
+         "https://openalex.org/I181233156"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Oregon",
+        "institution_ids": [
+         "https://openalex.org/I181233156"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, University of Oregon, Eugene, OR, United States",
+        "institution_ids": [
+         "https://openalex.org/I181233156"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fcogn.2023.1258955",
+     "doi": "https://doi.org/10.3389/fcogn.2023.1258955",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fcogn.2023.1258955",
+     "pdf_url": "https://www.frontiersin.org/articles/10.3389/fcogn.2023.1258955/pdf?isPublishedV2=False",
+     "source": {
+      "id": "https://openalex.org/S4387284350",
+      "display_name": "Frontiers in Cognition",
+      "issn_l": "2813-4532",
+      "issn": [
+       "2813-4532"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "doaj"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Cognition",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W1970007127",
+    "doi": "https://doi.org/10.1007/s10648-015-9300-z",
+    "title": "The Effect of Testing on the Retention of Coherent and Incoherent Text Material",
+    "display_name": "The Effect of Testing on the Retention of Coherent and Incoherent Text Material",
+    "publication_year": 2015,
+    "cited_by_count": 27,
+    "abstract_inverted_index": {
+     "Research": [
+      0
+     ],
+     "has": [
+      1
+     ],
+     "shown": [
+      2
+     ],
+     "that": [
+      3,
+      110
+     ],
+     "testing": [
+      4,
+      21,
+      47,
+      94,
+      125
+     ],
+     "during": [
+      5
+     ],
+     "learning": [
+      6
+     ],
+     "can": [
+      7,
+      115
+     ],
+     "enhance": [
+      8
+     ],
+     "the": [
+      9,
+      20,
+      28,
+      64,
+      67,
+      70,
+      88,
+      92,
+      97,
+      111,
+      122
+     ],
+     "long-term": [
+      10,
+      128
+     ],
+     "retention": [
+      11,
+      29,
+      44
+     ],
+     "of": [
+      12,
+      30,
+      46,
+      66,
+      80,
+      91,
+      99,
+      113,
+      124
+     ],
+     "text": [
+      13,
+      31,
+      58
+     ],
+     "material.": [
+      14,
+      32
+     ],
+     "In": [
+      15,
+      33,
+      54
+     ],
+     "two": [
+      16
+     ],
+     "experiments,": [
+      17
+     ],
+     "we": [
+      18,
+      41
+     ],
+     "investigated": [
+      19
+     ],
+     "effect": [
+      22
+     ],
+     "with": [
+      23,
+      131
+     ],
+     "a": [
+      24,
+      38,
+      50,
+      78,
+      103,
+      132
+     ],
+     "fill-in-the-blank": [
+      25
+     ],
+     "test": [
+      26,
+      134
+     ],
+     "on": [
+      27
+     ],
+     "Experiment": [
+      34,
+      55
+     ],
+     "1": [
+      35
+     ],
+     ",": [
+      36,
+      57
+     ],
+     "using": [
+      37
+     ],
+     "coherent": [
+      39
+     ],
+     "text,": [
+      40,
+      93
+     ],
+     "found": [
+      42
+     ],
+     "no": [
+      43
+     ],
+     "benefit": [
+      45
+     ],
+     "compared": [
+      48,
+      101
+     ],
+     "to": [
+      49,
+      84,
+      102
+     ],
+     "restudy": [
+      51,
+      104
+     ],
+     "(control)": [
+      52,
+      105
+     ],
+     "condition.": [
+      53,
+      106
+     ],
+     "2": [
+      56
+     ],
+     "coherence": [
+      59
+     ],
+     "was": [
+      60,
+      74
+     ],
+     "disrupted": [
+      61
+     ],
+     "by": [
+      62
+     ],
+     "scrambling": [
+      63
+     ],
+     "order": [
+      65
+     ],
+     "sentences": [
+      68
+     ],
+     "from": [
+      69
+     ],
+     "text.": [
+      71
+     ],
+     "The": [
+      72,
+      107
+     ],
+     "material": [
+      73
+     ],
+     "subsequently": [
+      75
+     ],
+     "presented": [
+      76
+     ],
+     "as": [
+      77,
+      82
+     ],
+     "list": [
+      79
+     ],
+     "facts": [
+      81
+     ],
+     "opposed": [
+      83
+     ],
+     "connected": [
+      85
+     ],
+     "discourse.": [
+      86
+     ],
+     "For": [
+      87
+     ],
+     "incoherent": [
+      89
+     ],
+     "version": [
+      90
+     ],
+     "slowed": [
+      95
+     ],
+     "down": [
+      96
+     ],
+     "rate": [
+      98
+     ],
+     "forgetting": [
+      100
+     ],
+     "results": [
+      108
+     ],
+     "suggest": [
+      109
+     ],
+     "connectedness": [
+      112
+     ],
+     "materials": [
+      114,
+      140
+     ],
+     "play": [
+      116
+     ],
+     "an": [
+      117
+     ],
+     "important": [
+      118
+     ],
+     "role": [
+      119
+     ],
+     "in": [
+      120
+     ],
+     "determining": [
+      121
+     ],
+     "magnitude": [
+      123
+     ],
+     "benefits": [
+      126
+     ],
+     "for": [
+      127,
+      138,
+      144
+     ],
+     "retention.": [
+      129
+     ],
+     "Testing": [
+      130
+     ],
+     "completion": [
+      133
+     ],
+     "seems": [
+      135
+     ],
+     "most": [
+      136
+     ],
+     "beneficial": [
+      137
+     ],
+     "unconnected": [
+      139
+     ],
+     "and": [
+      141
+     ],
+     "less": [
+      142
+     ],
+     "so": [
+      143
+     ],
+     "highly": [
+      145
+     ],
+     "structured": [
+      146
+     ],
+     "materials.": [
+      147
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5065829855",
+       "display_name": "Mario de Jonge",
+       "orcid": "https://orcid.org/0000-0002-8764-7688",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8764-7688"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I913958620",
+        "display_name": "Erasmus University Rotterdam",
+        "ror": "https://ror.org/057w15z03",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I913958620"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Mario de Jonge",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Institute of Psychology, Erasmus University Rotterdam, Woudestein, T12-45, P.O. Box 1738, 3000, Rotterdam, Netherlands",
+       "Department of Psychology, Institute of Psychology, Erasmus University Rotterdam, Rotterdam, Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Institute of Psychology, Erasmus University Rotterdam, Woudestein, T12-45, P.O. Box 1738, 3000, Rotterdam, Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I913958620"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, Institute of Psychology, Erasmus University Rotterdam, Rotterdam, Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I913958620"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5053754479",
+       "display_name": "Huib Karel Tabbers",
+       "orcid": "https://orcid.org/0009-0003-6912-7683",
+       "observed_orcids": [
+        "https://orcid.org/0009-0003-6912-7683"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I913958620",
+        "display_name": "Erasmus University Rotterdam",
+        "ror": "https://ror.org/057w15z03",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I913958620"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Huib K. Tabbers",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Institute of Psychology, Erasmus University Rotterdam, Woudestein, T12-45, P.O. Box 1738, 3000, Rotterdam, Netherlands",
+       "Department of Psychology, Institute of Psychology, Erasmus University Rotterdam, Rotterdam, Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Institute of Psychology, Erasmus University Rotterdam, Woudestein, T12-45, P.O. Box 1738, 3000, Rotterdam, Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I913958620"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, Institute of Psychology, Erasmus University Rotterdam, Rotterdam, Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I913958620"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5030053570",
+       "display_name": "Remy M. J. P. Rikers",
+       "orcid": "https://orcid.org/0000-0002-4722-1455",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4722-1455"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I913958620",
+        "display_name": "Erasmus University Rotterdam",
+        "ror": "https://ror.org/057w15z03",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I913958620"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Remy M. J. P. Rikers",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Institute of Psychology, Erasmus University Rotterdam, Woudestein, T12-45, P.O. Box 1738, 3000, Rotterdam, Netherlands",
+       "Department of Psychology, Institute of Psychology, Erasmus University Rotterdam, Rotterdam, Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Institute of Psychology, Erasmus University Rotterdam, Woudestein, T12-45, P.O. Box 1738, 3000, Rotterdam, Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I913958620"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, Institute of Psychology, Erasmus University Rotterdam, Rotterdam, Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I913958620"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1007/s10648-015-9300-z",
+     "doi": "https://doi.org/10.1007/s10648-015-9300-z",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1007/s10648-015-9300-z",
+     "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10648-015-9300-z.pdf",
+     "source": {
+      "id": "https://openalex.org/S187318745",
+      "display_name": "Educational Psychology Review",
+      "issn_l": "1040-726X",
+      "issn": [
+       "1040-726X",
+       "1573-336X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-a",
+       "erih-plus",
+       "jufo-2",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319900",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer Science+Business Media",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Educational Psychology Review",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

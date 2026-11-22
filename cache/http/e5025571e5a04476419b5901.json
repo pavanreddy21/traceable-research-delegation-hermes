@@ -1,0 +1,3019 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 297332,
+   "db_response_time_ms": 365,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (prior knowledge note taking medium) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (prior knowledge note taking medium) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "prior knowledge note taking medium",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:prior knowledge note taking medium,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2953531079",
+    "doi": "https://doi.org/10.1080/10494820.2019.1631193",
+    "title": "The influence of prior knowledge on the effectiveness of guided experiment design",
+    "display_name": "The influence of prior knowledge on the effectiveness of guided experiment design",
+    "publication_year": 2019,
+    "cited_by_count": 71,
+    "abstract_inverted_index": {
+     "Inquiry": [
+      0
+     ],
+     "learning": [
+      1,
+      5,
+      114,
+      132
+     ],
+     "is": [
+      2
+     ],
+     "an": [
+      3,
+      30,
+      130,
+      139
+     ],
+     "effective": [
+      4
+     ],
+     "approach": [
+      6
+     ],
+     "if": [
+      7
+     ],
+     "learners": [
+      8,
+      36,
+      71,
+      92,
+      117,
+      157,
+      169,
+      179,
+      192
+     ],
+     "are": [
+      9
+     ],
+     "properly": [
+      10
+     ],
+     "guided.": [
+      11
+     ],
+     "Its": [
+      12
+     ],
+     "effectiveness": [
+      13
+     ],
+     "depends": [
+      14
+     ],
+     "on": [
+      15
+     ],
+     "learners\u2019": [
+      16
+     ],
+     "prior": [
+      17,
+      45,
+      60,
+      122,
+      155,
+      167,
+      177,
+      197
+     ],
+     "knowledge,": [
+      18
+     ],
+     "the": [
+      19,
+      49,
+      52,
+      67,
+      88,
+      143,
+      149,
+      162,
+      171
+     ],
+     "domain,": [
+      20
+     ],
+     "and": [
+      21,
+      78,
+      87,
+      101,
+      126,
+      175
+     ],
+     "their": [
+      22,
+      85
+     ],
+     "relationship.": [
+      23
+     ],
+     "In": [
+      24
+     ],
+     "a": [
+      25
+     ],
+     "previous": [
+      26
+     ],
+     "study": [
+      27,
+      51
+     ],
+     "we": [
+      28
+     ],
+     "developed": [
+      29
+     ],
+     "Experiment": [
+      31
+     ],
+     "Design": [
+      32
+     ],
+     "Tool": [
+      33
+     ],
+     "(EDT)": [
+      34
+     ],
+     "guiding": [
+      35
+     ],
+     "in": [
+      37,
+      111
+     ],
+     "designing": [
+      38
+     ],
+     "experiments.": [
+      39
+     ],
+     "The": [
+      40
+     ],
+     "EDT": [
+      41,
+      53,
+      164,
+      173,
+      182
+     ],
+     "significantly": [
+      42
+     ],
+     "benefited": [
+      43
+     ],
+     "low": [
+      44,
+      154
+     ],
+     "knowledge": [
+      46,
+      61,
+      156,
+      168,
+      178
+     ],
+     "learners.": [
+      47,
+      62
+     ],
+     "For": [
+      48
+     ],
+     "current": [
+      50
+     ],
+     "was": [
+      54
+     ],
+     "refined": [
+      55
+     ],
+     "to": [
+      56,
+      72,
+      93,
+      158,
+      187,
+      190
+     ],
+     "also": [
+      57
+     ],
+     "serve": [
+      58,
+      191
+     ],
+     "higher": [
+      59
+     ],
+     "Two": [
+      63
+     ],
+     "versions": [
+      64
+     ],
+     "were": [
+      65,
+      109
+     ],
+     "created;": [
+      66
+     ],
+     "\u201cConstrained": [
+      68
+     ],
+     "EDT\u201d": [
+      69,
+      90
+     ],
+     "required": [
+      70
+     ],
+     "design": [
+      73,
+      94
+     ],
+     "minimally": [
+      74
+     ],
+     "three": [
+      75
+     ],
+     "experimental": [
+      76
+     ],
+     "trials": [
+      77,
+      97
+     ],
+     "apply": [
+      79
+     ],
+     "CVS": [
+      80
+     ],
+     "before": [
+      81
+     ],
+     "they": [
+      82,
+      99
+     ],
+     "could": [
+      83
+     ],
+     "conduct": [
+      84
+     ],
+     "experiment,": [
+      86
+     ],
+     "\u201cOpen": [
+      89
+     ],
+     "allowed": [
+      91
+     ],
+     "as": [
+      95,
+      98
+     ],
+     "many": [
+      96
+     ],
+     "wanted,": [
+      100
+     ],
+     "vary": [
+      102
+     ],
+     "more": [
+      103
+     ],
+     "than": [
+      104
+     ],
+     "one": [
+      105
+     ],
+     "variable.": [
+      106
+     ],
+     "Three": [
+      107
+     ],
+     "conditions": [
+      108
+     ],
+     "compared": [
+      110
+     ],
+     "terms": [
+      112
+     ],
+     "of": [
+      113,
+      121,
+      196
+     ],
+     "gains": [
+      115
+     ],
+     "for": [
+      116
+     ],
+     "having": [
+      118
+     ],
+     "distinct": [
+      119
+     ],
+     "levels": [
+      120,
+      195
+     ],
+     "knowledge.": [
+      123,
+      198
+     ],
+     "Participants": [
+      124
+     ],
+     "designed": [
+      125
+     ],
+     "conducted": [
+      127
+     ],
+     "experiments": [
+      128
+     ],
+     "within": [
+      129
+     ],
+     "online": [
+      131
+     ],
+     "environment": [
+      133
+     ],
+     "that": [
+      134
+     ],
+     "(1)": [
+      135
+     ],
+     "did": [
+      136
+     ],
+     "not": [
+      137
+     ],
+     "include": [
+      138
+     ],
+     "EDT,": [
+      140,
+      145
+     ],
+     "(2)": [
+      141
+     ],
+     "included": [
+      142,
+      148
+     ],
+     "Constrained": [
+      144,
+      163
+     ],
+     "or": [
+      146
+     ],
+     "(3)": [
+      147
+     ],
+     "Open": [
+      150,
+      172
+     ],
+     "EDT.": [
+      151
+     ],
+     "Results": [
+      152
+     ],
+     "indicated": [
+      153
+     ],
+     "benefit": [
+      159
+     ],
+     "most": [
+      160
+     ],
+     "from": [
+      161,
+      170,
+      180
+     ],
+     "(non-significant),": [
+      165
+     ],
+     "low-intermediate": [
+      166
+     ],
+     "(significant),": [
+      174
+     ],
+     "high-intermediate": [
+      176
+     ],
+     "no": [
+      181
+     ],
+     "(non-significant).": [
+      183
+     ],
+     "We": [
+      184
+     ],
+     "advocate": [
+      185
+     ],
+     "guidance": [
+      186
+     ],
+     "be": [
+      188
+     ],
+     "configurable": [
+      189
+     ],
+     "with": [
+      193
+     ],
+     "varying": [
+      194
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5068424535",
+       "display_name": "Siswa A. N. van Riesen",
+       "orcid": "https://orcid.org/0000-0002-1801-3024",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1801-3024"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94624287",
+        "display_name": "University of Twente",
+        "ror": "https://ror.org/006hf6230",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94624287"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Siswa A. N. van Riesen",
+      "raw_affiliation_strings": [
+       "Behavioral, Management, and Social Sciences (BMS), University of Twente, Enschede, The Netherlands",
+       "Department of Instructional Technology, University of Twente, Enschede, The Netherlands"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-1801-3024",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Behavioral, Management, and Social Sciences (BMS), University of Twente, Enschede, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I94624287"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Instructional Technology, University of Twente, Enschede, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I94624287"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5056442418",
+       "display_name": "Hannie Gijlers",
+       "orcid": "https://orcid.org/0000-0003-2406-6541",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2406-6541"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94624287",
+        "display_name": "University of Twente",
+        "ror": "https://ror.org/006hf6230",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94624287"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Hannie Gijlers",
+      "raw_affiliation_strings": [
+       "Behavioral, Management, and Social Sciences (BMS), University of Twente, Enschede, The Netherlands",
+       "Department of Instructional Technology, University of Twente, Enschede, The Netherlands"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-2406-6541",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Behavioral, Management, and Social Sciences (BMS), University of Twente, Enschede, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I94624287"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Instructional Technology, University of Twente, Enschede, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I94624287"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5056061655",
+       "display_name": "Anjo A. Anjewierden",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94624287",
+        "display_name": "University of Twente",
+        "ror": "https://ror.org/006hf6230",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94624287"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Anjo A. Anjewierden",
+      "raw_affiliation_strings": [
+       "Behavioral, Management, and Social Sciences (BMS), University of Twente, Enschede, The Netherlands",
+       "Department of Instructional Technology, University of Twente, Enschede, The Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Behavioral, Management, and Social Sciences (BMS), University of Twente, Enschede, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I94624287"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Instructional Technology, University of Twente, Enschede, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I94624287"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5019196767",
+       "display_name": "Ton de Jong",
+       "orcid": "https://orcid.org/0000-0003-0416-4304",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0416-4304"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94624287",
+        "display_name": "University of Twente",
+        "ror": "https://ror.org/006hf6230",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94624287"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Ton de Jong",
+      "raw_affiliation_strings": [
+       "Behavioral, Management, and Social Sciences (BMS), University of Twente, Enschede, The Netherlands",
+       "Department of Instructional Technology, University of Twente, Enschede, The Netherlands"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-0416-4304",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Behavioral, Management, and Social Sciences (BMS), University of Twente, Enschede, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I94624287"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Instructional Technology, University of Twente, Enschede, The Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I94624287"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1080/10494820.2019.1631193",
+     "doi": "https://doi.org/10.1080/10494820.2019.1631193",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1080/10494820.2019.1631193",
+     "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/10494820.2019.1631193?needAccess=true",
+     "source": {
+      "id": "https://openalex.org/S90466346",
+      "display_name": "Interactive Learning Environments",
+      "issn_l": "1049-4820",
+      "issn": [
+       "1049-4820",
+       "1744-5191"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320547",
+      "host_organization_name": "Taylor & Francis",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320547",
+       "https://openalex.org/P4310320449"
+      ],
+      "host_organization_lineage_names": [
+       "Taylor & Francis",
+       "Informa"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Interactive Learning Environments",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2145137125",
+    "doi": "https://doi.org/10.1111/j.1365-2729.2005.00113.x",
+    "title": "Hypermedia learning and prior knowledge: domain expertise vs. system expertise",
+    "display_name": "Hypermedia learning and prior knowledge: domain expertise vs. system expertise",
+    "publication_year": 2005,
+    "cited_by_count": 136,
+    "abstract_inverted_index": {
+     "Prior": [
+      0
+     ],
+     "knowledge": [
+      1,
+      79,
+      126
+     ],
+     "is": [
+      2
+     ],
+     "often": [
+      3
+     ],
+     "argued": [
+      4
+     ],
+     "to": [
+      5,
+      43,
+      104,
+      114
+     ],
+     "be": [
+      6,
+      15
+     ],
+     "an": [
+      7,
+      41
+     ],
+     "important": [
+      8,
+      21
+     ],
+     "determinant": [
+      9
+     ],
+     "in": [
+      10,
+      84
+     ],
+     "hypermedia": [
+      11,
+      69
+     ],
+     "learning,": [
+      12
+     ],
+     "and": [
+      13,
+      25,
+      57,
+      65
+     ],
+     "may": [
+      14
+     ],
+     "thought": [
+      16
+     ],
+     "of": [
+      17,
+      34,
+      108,
+      119,
+      124
+     ],
+     "as": [
+      18
+     ],
+     "including": [
+      19
+     ],
+     "two": [
+      20
+     ],
+     "elements:": [
+      22
+     ],
+     "domain": [
+      23,
+      55,
+      78,
+      92
+     ],
+     "expertise": [
+      24,
+      56,
+      59
+     ],
+     "system": [
+      26,
+      58
+     ],
+     "expertise.": [
+      27
+     ],
+     "However,": [
+      28
+     ],
+     "there": [
+      29
+     ],
+     "has": [
+      30
+     ],
+     "been": [
+      31
+     ],
+     "a": [
+      32,
+      50,
+      68,
+      81
+     ],
+     "lack": [
+      33
+     ],
+     "research": [
+      35
+     ],
+     "considering": [
+      36
+     ],
+     "these": [
+      37
+     ],
+     "issues": [
+      38
+     ],
+     "together.": [
+      39
+     ],
+     "In": [
+      40
+     ],
+     "attempt": [
+      42
+     ],
+     "address": [
+      44
+     ],
+     "this": [
+      45,
+      47
+     ],
+     "shortcoming,": [
+      46
+     ],
+     "paper": [
+      48
+     ],
+     "presents": [
+      49
+     ],
+     "study": [
+      51
+     ],
+     "that": [
+      52,
+      74
+     ],
+     "examines": [
+      53
+     ],
+     "how": [
+      54,
+      113
+     ],
+     "influence": [
+      60
+     ],
+     "students'": [
+      61
+     ],
+     "learning": [
+      62,
+      86
+     ],
+     "performance": [
+      63,
+      87
+     ],
+     "in,": [
+      64
+     ],
+     "perceptions": [
+      66,
+      107
+     ],
+     "of,": [
+      67
+     ],
+     "system.": [
+      70
+     ],
+     "The": [
+      71
+     ],
+     "results": [
+      72
+     ],
+     "indicate": [
+      73
+     ],
+     "participants": [
+      75
+     ],
+     "with": [
+      76,
+      90,
+      121
+     ],
+     "lower": [
+      77
+     ],
+     "show": [
+      80
+     ],
+     "greater": [
+      82
+     ],
+     "improvement": [
+      83
+     ],
+     "their": [
+      85
+     ],
+     "than": [
+      88
+     ],
+     "those": [
+      89,
+      95
+     ],
+     "higher": [
+      91
+     ],
+     "knowledge.": [
+      93
+     ],
+     "Furthermore,": [
+      94
+     ],
+     "who": [
+      96
+     ],
+     "enjoy": [
+      97
+     ],
+     "using": [
+      98
+     ],
+     "the": [
+      99,
+      116,
+      131
+     ],
+     "Web": [
+      100
+     ],
+     "more": [
+      101
+     ],
+     "are": [
+      102,
+      127
+     ],
+     "likely": [
+      103
+     ],
+     "have": [
+      105
+     ],
+     "positive": [
+      106
+     ],
+     "non\u2010linear": [
+      109
+     ],
+     "interaction.": [
+      110
+     ],
+     "Discussions": [
+      111
+     ],
+     "on": [
+      112,
+      130
+     ],
+     "accommodate": [
+      115
+     ],
+     "different": [
+      117
+     ],
+     "needs": [
+      118
+     ],
+     "students": [
+      120
+     ],
+     "varying": [
+      122
+     ],
+     "levels": [
+      123
+     ],
+     "prior": [
+      125
+     ],
+     "provided": [
+      128
+     ],
+     "based": [
+      129
+     ],
+     "results.": [
+      132
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5057182717",
+       "display_name": "Timothy J. F. Mitchell",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I59433898",
+        "display_name": "Brunel University of London",
+        "ror": "https://ror.org/00dn4t376",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I124357947",
+         "https://openalex.org/I59433898"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Timothy J. F. Mitchell",
+      "raw_affiliation_strings": [
+       "Department of Information Systems and Computing, Brunel University, Uxbridge, Middlesex, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Information Systems and Computing, Brunel University, Uxbridge, Middlesex, UK",
+        "institution_ids": [
+         "https://openalex.org/I59433898"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5010976921",
+       "display_name": "Sherry Y. Chen",
+       "orcid": "https://orcid.org/0000-0002-3321-9362",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3321-9362"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I59433898",
+        "display_name": "Brunel University of London",
+        "ror": "https://ror.org/00dn4t376",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I124357947",
+         "https://openalex.org/I59433898"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Sherry Y. Chen",
+      "raw_affiliation_strings": [
+       "Department of Information Systems and Computing, Brunel University, Uxbridge, Middlesex, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Information Systems and Computing, Brunel University, Uxbridge, Middlesex, UK",
+        "institution_ids": [
+         "https://openalex.org/I59433898"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5013014704",
+       "display_name": "Robert D. Macredie",
+       "orcid": "https://orcid.org/0000-0001-5066-425X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5066-425X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I59433898",
+        "display_name": "Brunel University of London",
+        "ror": "https://ror.org/00dn4t376",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I124357947",
+         "https://openalex.org/I59433898"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Robert D. Macredie",
+      "raw_affiliation_strings": [
+       "Department of Information Systems and Computing, Brunel University, Uxbridge, Middlesex, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Information Systems and Computing, Brunel University, Uxbridge, Middlesex, UK",
+        "institution_ids": [
+         "https://openalex.org/I59433898"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1111/j.1365-2729.2005.00113.x",
+     "doi": "https://doi.org/10.1111/j.1365-2729.2005.00113.x",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1111/j.1365-2729.2005.00113.x",
+     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1365-2729.2005.00113.x",
+     "source": {
+      "id": "https://openalex.org/S5743915",
+      "display_name": "Journal of Computer Assisted Learning",
+      "issn_l": "0266-4909",
+      "issn": [
+       "0266-4909",
+       "1365-2729"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "erih-plus",
+       "jufo-2",
+       "norway-2",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Computer Assisted Learning",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2072319759",
+    "doi": "https://doi.org/10.1088/0022-3727/19/3/006",
+    "title": "Prior knowledge in synthetic-aperture radar processing",
+    "display_name": "Prior knowledge in synthetic-aperture radar processing",
+    "publication_year": 1986,
+    "cited_by_count": 27,
+    "abstract_inverted_index": {
+     "The": [
+      0
+     ],
+     "authors": [
+      1
+     ],
+     "briefly": [
+      2
+     ],
+     "review": [
+      3,
+      32,
+      69
+     ],
+     "the": [
+      4,
+      23,
+      33,
+      53,
+      70,
+      76,
+      79,
+      85,
+      89,
+      106
+     ],
+     "role": [
+      5,
+      43
+     ],
+     "of": [
+      6,
+      11,
+      26,
+      36,
+      55,
+      72,
+      78,
+      114,
+      124
+     ],
+     "models": [
+      7
+     ],
+     "as": [
+      8
+     ],
+     "a": [
+      9,
+      56,
+      111,
+      115
+     ],
+     "means": [
+      10
+     ],
+     "encoding": [
+      12
+     ],
+     "prior": [
+      13
+     ],
+     "knowledge": [
+      14
+     ],
+     "with": [
+      15,
+      63,
+      98
+     ],
+     "which": [
+      16,
+      51,
+      119
+     ],
+     "to": [
+      17,
+      87,
+      95
+     ],
+     "interpret": [
+      18,
+      121
+     ],
+     "data.": [
+      19,
+      66,
+      101
+     ],
+     "They": [
+      20,
+      31,
+      47,
+      67,
+      83
+     ],
+     "then": [
+      21,
+      68
+     ],
+     "examine": [
+      22
+     ],
+     "specific": [
+      24
+     ],
+     "case": [
+      25,
+      113
+     ],
+     "synthetic-aperture": [
+      27
+     ],
+     "radar": [
+      28
+     ],
+     "(SAR)": [
+      29
+     ],
+     "images.": [
+      30
+     ],
+     "current": [
+      34
+     ],
+     "state": [
+      35
+     ],
+     "SAR": [
+      37,
+      64,
+      99,
+      133
+     ],
+     "terrain": [
+      38,
+      65
+     ],
+     "clutter": [
+      39
+     ],
+     "models,": [
+      40
+     ],
+     "and": [
+      41
+     ],
+     "their": [
+      42
+     ],
+     "in": [
+      44,
+      93,
+      122
+     ],
+     "target": [
+      45,
+      73,
+      100
+     ],
+     "detection.": [
+      46
+     ],
+     "present": [
+      48
+     ],
+     "numerical": [
+      49
+     ],
+     "results": [
+      50,
+      130
+     ],
+     "demonstrate": [
+      52,
+      104
+     ],
+     "consistency": [
+      54
+     ],
+     "correlated": [
+      57
+     ],
+     "gamma-distributed": [
+      58
+     ],
+     "surface": [
+      59
+     ],
+     "cross": [
+      60
+     ],
+     "section": [
+      61
+     ],
+     "model": [
+      62
+     ],
+     "theory": [
+      71
+     ],
+     "super-resolution": [
+      74,
+      129
+     ],
+     "by": [
+      75
+     ],
+     "use": [
+      77
+     ],
+     "singular-value": [
+      80
+     ],
+     "decomposition": [
+      81
+     ],
+     "(SVD).": [
+      82
+     ],
+     "emphasise": [
+      84
+     ],
+     "need": [
+      86
+     ],
+     "generalise": [
+      88
+     ],
+     "basic": [
+      90
+     ],
+     "SVD": [
+      91,
+      108
+     ],
+     "technique": [
+      92,
+      109
+     ],
+     "order": [
+      94
+     ],
+     "achieve": [
+      96
+     ],
+     "success": [
+      97
+     ],
+     "Furthermore": [
+      102
+     ],
+     "they": [
+      103,
+      120
+     ],
+     "that": [
+      105
+     ],
+     "general": [
+      107
+     ],
+     "is": [
+      110
+     ],
+     "special": [
+      112
+     ],
+     "Bayesian": [
+      116
+     ],
+     "reconstruction": [
+      117
+     ],
+     "scheme": [
+      118
+     ],
+     "terms": [
+      123
+     ],
+     "Shannon": [
+      125
+     ],
+     "information": [
+      126
+     ],
+     "theory.": [
+      127
+     ],
+     "Numerical": [
+      128
+     ],
+     "from": [
+      131
+     ],
+     "simulated": [
+      132
+     ],
+     "data": [
+      134
+     ],
+     "are": [
+      135
+     ],
+     "presented.": [
+      136
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5049509455",
+       "display_name": "Stephen P Luttrell",
+       "orcid": "https://orcid.org/0000-0002-5012-4154",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5012-4154"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "S P Luttrell",
+      "raw_affiliation_strings": [
+       "R. Signals & Radar Establ., Great Malvern, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "R. Signals & Radar Establ., Great Malvern, UK",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5070877551",
+       "display_name": "Christopher J. Oliver",
+       "orcid": "https://orcid.org/0009-0003-3135-5592",
+       "observed_orcids": [
+        "https://orcid.org/0009-0003-3135-5592"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "C J Oliver",
+      "raw_affiliation_strings": [
+       "R. Signals & Radar Establ., Great Malvern, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "R. Signals & Radar Establ., Great Malvern, UK",
+        "institution_ids": []
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1088/0022-3727/19/3/006",
+     "doi": "https://doi.org/10.1088/0022-3727/19/3/006",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1088/0022-3727/19/3/006",
+     "pdf_url": "https://iopscience.iop.org/article/10.1088/0022-3727/19/3/006/pdf",
+     "source": {
+      "id": "https://openalex.org/S111927887",
+      "display_name": "Journal of Physics D Applied Physics",
+      "issn_l": "0022-3727",
+      "issn": [
+       "0022-3727",
+       "1361-6463"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-d",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310311669",
+      "host_organization_name": "Institute of Physics",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310311669"
+      ],
+      "host_organization_lineage_names": [
+       "Institute of Physics"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Physics D: Applied Physics",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3215299296",
+    "doi": "https://doi.org/10.54475/jlt.2021.020",
+    "title": "An analysis of note-taking strategies: The effect of translanguaging on content comprehension and knowledge retention",
+    "display_name": "An analysis of note-taking strategies: The effect of translanguaging on content comprehension and knowledge retention",
+    "publication_year": 2021,
+    "cited_by_count": 19,
+    "abstract_inverted_index": {
+     "Purpose": [
+      0
+     ],
+     "This": [
+      1
+     ],
+     "study": [
+      2,
+      55,
+      208
+     ],
+     "investigates": [
+      3
+     ],
+     "the": [
+      4,
+      49,
+      52,
+      65,
+      132,
+      142,
+      162,
+      166,
+      181,
+      193,
+      198,
+      221
+     ],
+     "effectiveness": [
+      5
+     ],
+     "of": [
+      6,
+      51,
+      68,
+      153,
+      220
+     ],
+     "using": [
+      7,
+      90,
+      124
+     ],
+     "translanguaging": [
+      8,
+      194,
+      229,
+      240
+     ],
+     "for": [
+      9,
+      189,
+      245
+     ],
+     "note-taking": [
+      10,
+      73
+     ],
+     "on": [
+      11,
+      21,
+      127
+     ],
+     "students\u2019": [
+      12,
+      206,
+      216
+     ],
+     "lecture": [
+      13,
+      223
+     ],
+     "comprehension": [
+      14,
+      99,
+      133,
+      217
+     ],
+     "and": [
+      15,
+      76,
+      87,
+      148,
+      158,
+      161,
+      184,
+      218
+     ],
+     "retention": [
+      16,
+      107,
+      167,
+      219
+     ],
+     "by": [
+      17
+     ],
+     "measuring": [
+      18
+     ],
+     "their": [
+      19,
+      91
+     ],
+     "scores": [
+      20
+     ],
+     "two": [
+      22,
+      25,
+      102
+     ],
+     "tests": [
+      23
+     ],
+     "administered": [
+      24
+     ],
+     "weeks": [
+      26
+     ],
+     "apart.": [
+      27
+     ],
+     "Methods": [
+      28
+     ],
+     "The": [
+      29,
+      54,
+      110
+     ],
+     "participants": [
+      30,
+      79,
+      95,
+      104
+     ],
+     "were": [
+      31
+     ],
+     "English": [
+      32,
+      118,
+      173
+     ],
+     "L2": [
+      33,
+      234,
+      248
+     ],
+     "Chinese": [
+      34,
+      125,
+      179,
+      199
+     ],
+     "graduate": [
+      35
+     ],
+     "students": [
+      36
+     ],
+     "(n": [
+      37
+     ],
+     "=": [
+      38
+     ],
+     "101)": [
+      39
+     ],
+     "studying": [
+      40
+     ],
+     "in": [
+      41,
+      44,
+      117,
+      131,
+      150,
+      172,
+      178,
+      180,
+      201,
+      236
+     ],
+     "English-language": [
+      42,
+      83
+     ],
+     "programs": [
+      43
+     ],
+     "various": [
+      45
+     ],
+     "English-speaking": [
+      46
+     ],
+     "countries": [
+      47
+     ],
+     "at": [
+      48
+     ],
+     "time": [
+      50
+     ],
+     "study.": [
+      53
+     ],
+     "used": [
+      56
+     ],
+     "a": [
+      57,
+      81,
+      98,
+      106
+     ],
+     "quasi-experimental": [
+      58
+     ],
+     "three-arm": [
+      59
+     ],
+     "parallel": [
+      60
+     ],
+     "groups": [
+      61,
+      145,
+      195
+     ],
+     "design": [
+      62
+     ],
+     "to": [
+      63,
+      72,
+      214
+     ],
+     "compare": [
+      64
+     ],
+     "relative": [
+      66
+     ],
+     "effects": [
+      67
+     ],
+     "three": [
+      69,
+      143
+     ],
+     "alternative": [
+      70
+     ],
+     "approaches": [
+      71
+     ],
+     "(Chinese,": [
+      74,
+      146
+     ],
+     "English,": [
+      75,
+      147
+     ],
+     "translanguaging).": [
+      77
+     ],
+     "All": [
+      78
+     ],
+     "watched": [
+      80
+     ],
+     "five-minute": [
+      82
+     ],
+     "video": [
+      84,
+      222
+     ],
+     "without": [
+      85
+     ],
+     "subtitles": [
+      86
+     ],
+     "took": [
+      88,
+      97,
+      105
+     ],
+     "notes": [
+      89,
+      116,
+      123,
+      171,
+      177
+     ],
+     "assigned": [
+      92
+     ],
+     "strategies.": [
+      93
+     ],
+     "Then": [
+      94
+     ],
+     "immediately": [
+      96
+     ],
+     "test.": [
+      100,
+      108,
+      134
+     ],
+     "After": [
+      101
+     ],
+     "weeks,": [
+      103
+     ],
+     "Results": [
+      109
+     ],
+     "results": [
+      111
+     ],
+     "showed": [
+      112
+     ],
+     "that": [
+      113,
+      228
+     ],
+     "those": [
+      114,
+      121,
+      169,
+      175
+     ],
+     "taking": [
+      115,
+      122,
+      170,
+      176
+     ],
+     "only": [
+      119,
+      126
+     ],
+     "outperformed": [
+      120,
+      174
+     ],
+     "low-level,": [
+      128
+     ],
+     "fact-based": [
+      129,
+      202
+     ],
+     "questions": [
+      130,
+      154,
+      157
+     ],
+     "There": [
+      135
+     ],
+     "was": [
+      136,
+      211
+     ],
+     "no": [
+      137
+     ],
+     "significant": [
+      138
+     ],
+     "difference": [
+      139
+     ],
+     "found": [
+      140,
+      213
+     ],
+     "among": [
+      141
+     ],
+     "language": [
+      144
+     ],
+     "translanguaging)": [
+      149
+     ],
+     "other": [
+      151
+     ],
+     "types": [
+      152,
+      187
+     ],
+     "(main": [
+      155
+     ],
+     "topic": [
+      156
+     ],
+     "numerical": [
+      159
+     ],
+     "questions)": [
+      160
+     ],
+     "overall": [
+      163,
+      182
+     ],
+     "score.": [
+      164
+     ],
+     "In": [
+      165,
+      204
+     ],
+     "test,": [
+      168
+     ],
+     "score": [
+      183
+     ],
+     "all": [
+      185
+     ],
+     "question": [
+      186
+     ],
+     "except": [
+      188
+     ],
+     "number-based": [
+      190
+     ],
+     "questions,": [
+      191
+     ],
+     "with": [
+      192
+     ],
+     "also": [
+      196
+     ],
+     "outperforming": [
+      197
+     ],
+     "group": [
+      200
+     ],
+     "questions.": [
+      203
+     ],
+     "addition,": [
+      205
+     ],
+     "previous": [
+      207
+     ],
+     "abroad": [
+      209
+     ],
+     "experience": [
+      210
+     ],
+     "not": [
+      212,
+      231
+     ],
+     "impact": [
+      215
+     ],
+     "content.": [
+      224
+     ],
+     "Conclusion": [
+      225
+     ],
+     "It": [
+      226
+     ],
+     "seems": [
+      227
+     ],
+     "does": [
+      230
+     ],
+     "aid": [
+      232
+     ],
+     "advanced": [
+      233
+     ],
+     "learners": [
+      235
+     ],
+     "immersion": [
+      237
+     ],
+     "contexts;": [
+      238
+     ],
+     "instead,": [
+      239
+     ],
+     "may": [
+      241
+     ],
+     "be": [
+      242
+     ],
+     "more": [
+      243
+     ],
+     "helpful": [
+      244
+     ],
+     "lower": [
+      246
+     ],
+     "proficiency": [
+      247
+     ],
+     "learners.": [
+      249
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5100382972",
+       "display_name": "Xinyi Wang",
+       "orcid": "https://orcid.org/0009-0008-4477-6130",
+       "observed_orcids": [
+        "https://orcid.org/0009-0008-4477-6130"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I40120149",
+        "display_name": "University of Oxford",
+        "ror": "https://ror.org/052gg0110",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I40120149"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Xinyi Wang",
+      "raw_affiliation_strings": [
+       "The University of Oxford"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "The University of Oxford",
+        "institution_ids": [
+         "https://openalex.org/I40120149"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.54475/jlt.2021.020",
+     "doi": "https://doi.org/10.54475/jlt.2021.020",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.54475/jlt.2021.020",
+     "pdf_url": "https://jlt.ac/index.php/home/article/download/20/17",
+     "source": {
+      "id": "https://openalex.org/S4210180180",
+      "display_name": "Journal of Language Teaching",
+      "issn_l": "2770-4602",
+      "issn": [
+       "2770-4602"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core"
+      ],
+      "host_organization": "https://openalex.org/P4404683331",
+      "host_organization_name": "Pioneer Publications",
+      "host_organization_lineage": [
+       "https://openalex.org/P4404683331"
+      ],
+      "host_organization_lineage_names": [
+       "Pioneer Publications"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Language Teaching",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2146748395",
+    "doi": "https://doi.org/10.1111/j.1468-2370.2005.00116.x",
+    "title": "Using knowledge within small and medium\u2010sized firms: A systematic review of the evidence",
+    "display_name": "Using knowledge within small and medium\u2010sized firms: A systematic review of the evidence",
+    "publication_year": 2005,
+    "cited_by_count": 1057,
+    "abstract_inverted_index": {
+     "This": [
+      0
+     ],
+     "paper": [
+      1,
+      39
+     ],
+     "provides": [
+      2,
+      46
+     ],
+     "a": [
+      3,
+      47,
+      137,
+      170,
+      190
+     ],
+     "systematic": [
+      4,
+      42
+     ],
+     "review": [
+      5,
+      21,
+      43,
+      141
+     ],
+     "of": [
+      6,
+      26,
+      34,
+      50,
+      71,
+      100,
+      128,
+      182,
+      199,
+      214
+     ],
+     "the": [
+      7,
+      27,
+      41,
+      51,
+      55,
+      67,
+      96,
+      101,
+      115,
+      126,
+      140,
+      158,
+      175,
+      194
+     ],
+     "literature": [
+      8
+     ],
+     "on": [
+      9,
+      66,
+      95,
+      111,
+      125
+     ],
+     "how": [
+      10
+     ],
+     "small": [
+      11
+     ],
+     "and": [
+      12,
+      17,
+      29,
+      45,
+      69,
+      98,
+      106,
+      114,
+      122,
+      130,
+      147,
+      155,
+      173,
+      178,
+      196
+     ],
+     "medium\u2010sized": [
+      13
+     ],
+     "enterprises": [
+      14
+     ],
+     "(SMEs)": [
+      15
+     ],
+     "use": [
+      16,
+      70,
+      105
+     ],
+     "acquire": [
+      18
+     ],
+     "knowledge.": [
+      19
+     ],
+     "The": [
+      20,
+      38,
+      83
+     ],
+     "was": [
+      22
+     ],
+     "undertaken": [
+      23
+     ],
+     "as": [
+      24,
+      75,
+      211
+     ],
+     "part": [
+      25
+     ],
+     "Economic": [
+      28
+     ],
+     "Social": [
+      30
+     ],
+     "Research": [
+      31
+     ],
+     "Council's": [
+      32
+     ],
+     "Evolution": [
+      33
+     ],
+     "Business": [
+      35
+     ],
+     "Knowledge": [
+      36
+     ],
+     "Programme.": [
+      37
+     ],
+     "describes": [
+      40
+     ],
+     "protocol": [
+      44
+     ],
+     "detailed": [
+      48
+     ],
+     "explanation": [
+      49
+     ],
+     "methods": [
+      52
+     ],
+     "used.": [
+      53
+     ],
+     "From": [
+      54,
+      136,
+      169
+     ],
+     "review,": [
+      56
+     ],
+     "it": [
+      57,
+      74
+     ],
+     "is": [
+      58,
+      79,
+      88,
+      165,
+      189
+     ],
+     "evident": [
+      59
+     ],
+     "that": [
+      60,
+      78,
+      86,
+      118,
+      143,
+      208
+     ],
+     "SME": [
+      61
+     ],
+     "knowledge": [
+      62,
+      108,
+      120,
+      129,
+      164,
+      200
+     ],
+     "research": [
+      63,
+      87,
+      171
+     ],
+     "concentrates": [
+      64
+     ],
+     "primarily": [
+      65
+     ],
+     "acquisition": [
+      68
+     ],
+     "knowledge,": [
+      72
+     ],
+     "treating": [
+      73
+     ],
+     "an": [
+      76
+     ],
+     "asset": [
+      77
+     ],
+     "transferred": [
+      80
+     ],
+     "by": [
+      81,
+      167,
+      201
+     ],
+     "routines.": [
+      82
+     ],
+     "findings": [
+      84
+     ],
+     "suggest": [
+      85
+     ],
+     "focused": [
+      89
+     ],
+     "in": [
+      90,
+      185
+     ],
+     "three": [
+      91
+     ],
+     "main": [
+      92
+     ],
+     "areas.": [
+      93
+     ],
+     "First,": [
+      94
+     ],
+     "influence": [
+      97
+     ],
+     "abilities": [
+      99
+     ],
+     "entrepreneur": [
+      102
+     ],
+     "to": [
+      103,
+      151,
+      157,
+      192
+     ],
+     "extract,": [
+      104
+     ],
+     "develop": [
+      107
+     ],
+     "resources.": [
+      109
+     ],
+     "Secondly,": [
+      110
+     ],
+     "firm\u2010wide": [
+      112
+     ],
+     "systems": [
+      113
+     ],
+     "social": [
+      116
+     ],
+     "capital": [
+      117
+     ],
+     "facilitates": [
+      119
+     ],
+     "exploration": [
+      121
+     ],
+     "exploitation.": [
+      123
+     ],
+     "Thirdly,": [
+      124
+     ],
+     "provision": [
+      127
+     ],
+     "learning": [
+      131
+     ],
+     "experiences": [
+      132
+     ],
+     "through": [
+      133
+     ],
+     "government": [
+      134
+     ],
+     "policy.": [
+      135
+     ],
+     "practical": [
+      138
+     ],
+     "perspective,": [
+      139,
+      172
+     ],
+     "concludes": [
+      142
+     ],
+     "policies": [
+      144
+     ],
+     "encouraging": [
+      145
+     ],
+     "entrepreneurship": [
+      146
+     ],
+     "economic": [
+      148
+     ],
+     "regeneration": [
+      149
+     ],
+     "need": [
+      150,
+      191
+     ],
+     "be": [
+      152
+     ],
+     "more": [
+      153
+     ],
+     "flexible": [
+      154
+     ],
+     "sensitive": [
+      156
+     ],
+     "often": [
+      159,
+      179
+     ],
+     "complex": [
+      160
+     ],
+     "contexts": [
+      161
+     ],
+     "within": [
+      162
+     ],
+     "which": [
+      163,
+      202
+     ],
+     "used": [
+      166
+     ],
+     "SMEs.": [
+      168
+     ],
+     "given": [
+      174
+     ],
+     "flexible,": [
+      176
+     ],
+     "opportunity\u2010oriented": [
+      177
+     ],
+     "novel": [
+      180
+     ],
+     "nature": [
+      181
+     ],
+     "SMEs": [
+      183
+     ],
+     "identified": [
+      184
+     ],
+     "these": [
+      186,
+      203
+     ],
+     "studies,": [
+      187
+     ],
+     "there": [
+      188
+     ],
+     "consider": [
+      193
+     ],
+     "relational": [
+      195
+     ],
+     "embedded": [
+      197
+     ],
+     "qualities": [
+      198,
+      207
+     ],
+     "characteristics": [
+      204
+     ],
+     "are": [
+      205
+     ],
+     "framed;": [
+      206
+     ],
+     "resist": [
+      209
+     ],
+     "conceptualization": [
+      210
+     ],
+     "some": [
+      212
+     ],
+     "form": [
+      213
+     ],
+     "separable,": [
+      215
+     ],
+     "material": [
+      216
+     ],
+     "asset.": [
+      217
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5112328017",
+       "display_name": "Richard Thorpe",
+       "orcid": "https://orcid.org/0000-0001-5883-9544",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5883-9544"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I130828816",
+        "display_name": "University of Leeds",
+        "ror": "https://ror.org/024mrxd33",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I130828816"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Richard Thorpe",
+      "raw_affiliation_strings": [
+       "Richard Thorpe and Robin Holt are from Leeds University Business School, Maurice Keyworth Building, Leeds, LS2 9JT, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Richard Thorpe and Robin Holt are from Leeds University Business School, Maurice Keyworth Building, Leeds, LS2 9JT, UK",
+        "institution_ids": [
+         "https://openalex.org/I130828816"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5045829432",
+       "display_name": "Robin Holt",
+       "orcid": "https://orcid.org/0000-0003-0610-4049",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0610-4049"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I130828816",
+        "display_name": "University of Leeds",
+        "ror": "https://ror.org/024mrxd33",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I130828816"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Robin Holt",
+      "raw_affiliation_strings": [
+       "Richard Thorpe and Robin Holt are from Leeds University Business School, Maurice Keyworth Building, Leeds, LS2 9JT, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Richard Thorpe and Robin Holt are from Leeds University Business School, Maurice Keyworth Building, Leeds, LS2 9JT, UK",
+        "institution_ids": [
+         "https://openalex.org/I130828816"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5089266169",
+       "display_name": "Allan Macpherson",
+       "orcid": "https://orcid.org/0000-0002-6172-3339",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6172-3339"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I11983389",
+        "display_name": "Manchester Metropolitan University",
+        "ror": "https://ror.org/02hstj355",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I11983389"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Allan Macpherson",
+      "raw_affiliation_strings": [
+       "Allan Macpherson is from Manchester Metropolitan Business School, Aytoun Street, Manchester, M1 3GH, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Allan Macpherson is from Manchester Metropolitan Business School, Aytoun Street, Manchester, M1 3GH, UK",
+        "institution_ids": [
+         "https://openalex.org/I11983389"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5064939586",
+       "display_name": "Luke Pittaway",
+       "orcid": "https://orcid.org/0000-0002-7545-9030",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7545-9030"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I91136226",
+        "display_name": "University of Sheffield",
+        "ror": "https://ror.org/05krs5044",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I91136226"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Luke Pittaway",
+      "raw_affiliation_strings": [
+       "Luke Pittaway is from The University of Sheffield Management School, 9 Mappin Street, Sheffield, S1 4DT, UK. Copies of the full review are available from Prof. Richard Thorpe. A copy has also been lodged with Advanced Institute of Management (AIM)"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Luke Pittaway is from The University of Sheffield Management School, 9 Mappin Street, Sheffield, S1 4DT, UK. Copies of the full review are available from Prof. Richard Thorpe. A copy has also been lodged with Advanced Institute of Management (AIM)",
+        "institution_ids": [
+         "https://openalex.org/I91136226"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1111/j.1468-2370.2005.00116.x",
+     "doi": "https://doi.org/10.1111/j.1468-2370.2005.00116.x",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1111/j.1468-2370.2005.00116.x",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S87745625",
+      "display_name": "International Journal of Management Reviews",
+      "issn_l": "1460-8545",
+      "issn": [
+       "1460-8545",
+       "1468-2370"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-a-star",
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "erih-plus",
+       "fnege-2",
+       "jufo-2",
+       "norway-2",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "International Journal of Management Reviews",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

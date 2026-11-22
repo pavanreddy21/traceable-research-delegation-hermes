@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201ad-dd54-75e3-82bb-25f5a666266d",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795324501,
+ "model": "google/gemma-4-12B-it",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "```json\n{\"verdict\": \"not_supported\", \"passage\": \"[1]\", \"reason\": \"The source states that prior testing produced substantially greater retention than studying on delayed tests, which contradicts the claim.\"}\n```",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 312,
+  "completion_tokens": 47,
+  "total_tokens": 359,
+  "prompt_tokens_details": {
+   "cached_tokens": 311
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.21
+}

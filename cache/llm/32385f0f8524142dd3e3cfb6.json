@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20234-7a75-7afc-b5b5-afd96d08a056",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795333323,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Search is returning empty, so I will fetch the hinted source IDs directly to verify their relevance.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W2071538318\"}}",
+    "reasoning_content": "Search seems flaky. Try the hinted source IDs directly via fetch_source.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1192,
+  "completion_tokens": 62,
+  "total_tokens": 1254,
+  "prompt_tokens_details": {
+   "cached_tokens": 1024
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 16
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 81.25
+}

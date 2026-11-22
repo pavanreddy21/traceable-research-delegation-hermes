@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201ca-9b0d-7ea5-9f02-517dc5a1387c",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795326384,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 states that 39 children were taught unfamiliar English words with massed and spaced learning, and one-week spacing produced superior vocabulary recall five weeks later.\"}",
+    "reasoning_content": "We need answer JSON only. Need evaluate claim vs passages. Claim: In real fifth-grade classroom study (N=39) teaching unfamiliar English words, one-week spaced learning produced better vocabulary recall five weeks later than massed learning.\n\nPassage [1] says taught 39 children unfamiliar English words using both massed and spaced. Five weeks later tested vocabulary recall. One-week spacing produced superior long-term retention compared to massed. Passage [3] says real-world fifth-grade classrooms. So supported. Need passage number likely 1? It states core claim. Reason one sentence. JSON only. Ensure exact keys.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 337,
+  "completion_tokens": 177,
+  "total_tokens": 514,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 124
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.2
+}

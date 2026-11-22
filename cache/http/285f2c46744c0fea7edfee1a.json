@@ -1,0 +1,727 @@
+{
+ "status": 200,
+ "json": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      1,
+      8
+     ]
+    ],
+    "date-time": "2026-01-08T10:03:25Z",
+    "timestamp": 1767866605095,
+    "version": "3.49.0"
+   },
+   "reference-count": 39,
+   "publisher": "Springer Science and Business Media LLC",
+   "issue": "7",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        16
+       ]
+      ],
+      "date-time": "2020-05-16T00:00:00Z",
+      "timestamp": 1589587200000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2020,
+        5,
+        16
+       ]
+      ],
+      "date-time": "2020-05-16T00:00:00Z",
+      "timestamp": 1589587200000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ],
+   "funder": [
+    {
+     "name": "National Brain Research Program, Hungary",
+     "award": [
+      "2017-1.2.1-NKP-2017-00002"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "2017-1.2.1-NKP-2017-00002"
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/501100011019",
+     "name": "Nemzeti Kutat\u00e1si Fejleszt\u00e9si \u00e9s Innov\u00e1ci\u00f3s Hivatal",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "K124098"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "K124098"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100011019",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "link.springer.com"
+    ],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Mem Cogn"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2020,
+      10
+     ]
+    ]
+   },
+   "abstract": "<jats:title>Abstract</jats:title><jats:p>Retrieval practice is generally considered to be one of the most effective long-term learning strategies and is presumed to be more favorable than repeated study. However, a few recent studies have demonstrated that repetitive feedback at final recall can reverse the long-term advantage of testing over restudy. The result that feedback at long-term tests can dramatically decrease the relative effectiveness of retrieval-based learning could be important for both theoretical and practical reasons. Considering that these earlier studies administered low retrieval success at retrieval practice, we investigated whether the effect of feedback on the testing effect is modulated by the level of retrieval success during practice. In three experiments the level of success at retrieval practice was manipulated by multiple pre-practice learning trials, and multiple tests with feedback were applied after a 1-week retention interval at final recall. Our results have demonstrated that a feedback-induced reversed testing effect was present only at low retrieval success during practice (Experiment 1), whereas with moderate (Experiment 2) and high retrieval success (Experiment 3) during practice a significant testing effect emerged and no reversed testing effect was found even after repeated cycles of feedback. These results point to the conclusion that the level of retrieval success was the key factor in reversing the testing effect in earlier studies. Application of high retrieval success during practice can produce long-lasting accessible memories even in learning settings applying multiple tests with feedback.</jats:p>",
+   "DOI": "10.3758/s13421-020-01041-5",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2020,
+      5,
+      16
+     ]
+    ],
+    "date-time": "2020-05-16T20:05:24Z",
+    "timestamp": 1589659524000
+   },
+   "page": "1161-1170",
+   "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 13,
+   "title": [
+    "Reversing the testing effect by feedback is a matter of performance criterion at practice"
+   ],
+   "prefix": "10.3758",
+   "volume": "48",
+   "author": [
+    {
+     "given": "Mih\u00e1ly",
+     "family": "Racsm\u00e1ny",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "\u00c1gnes",
+     "family": "Sz\u0151ll\u0151si",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    },
+    {
+     "given": "Mikl\u00f3s",
+     "family": "Mari\u00e1n",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "role": "author",
+       "vocabulary": "crossref"
+      }
+     ]
+    }
+   ],
+   "member": "297",
+   "published-online": {
+    "date-parts": [
+     [
+      2020,
+      5,
+      16
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "1041_CR1",
+     "doi-asserted-by": "publisher",
+     "first-page": "861",
+     "DOI": "10.1002/acp.1391",
+     "volume": "22",
+     "author": "PK Agarwal",
+     "year": "2008",
+     "unstructured": "Agarwal, P. K., Karpicke, J. D., Kang, S. H., Roediger III, H. L., & McDermott, K. B. (2008). Examining the testing effect with open- and closed-book tests. Applied Cognitive Psychology, 22, 861-876. https://doi.org/10.1002/acp.1391",
+     "journal-title": "Applied Cognitive Psychology"
+    },
+    {
+     "key": "1041_CR2",
+     "first-page": "123",
+     "volume-title": "Information processing and cognition: The Loyola Symposium",
+     "author": "RA Bjork",
+     "year": "1975",
+     "unstructured": "Bjork, R. A. (1975). Retrieval as a memory modifier: An interpretation of negative recency and related phenomena. In R. L. Solso (Ed.), Information processing and cognition: The Loyola Symposium (pp. 123-144). New York, NY: Halsted Press."
+    },
+    {
+     "key": "1041_CR3",
+     "first-page": "35",
+     "volume-title": "From learning processes to cognitive processes: Essays in honor of William K. Estes",
+     "author": "RA Bjork",
+     "year": "1992",
+     "unstructured": "Bjork, R. A., & Bjork, E. L. (1992). A new theory of disuse and an old theory of stimulus fluctuation. In A. F. Healy, S. M. Kosslyn, & R. M. Shiffrin (Eds.), From learning processes to cognitive processes: Essays in honor of William K. Estes (Vol. 2, pp. 35-67). Hillsdale, NJ: Erlbaum."
+    },
+    {
+     "key": "1041_CR4",
+     "doi-asserted-by": "publisher",
+     "first-page": "918",
+     "DOI": "10.1037/0278-7393.34.4.918",
+     "volume": "34",
+     "author": "AC Butler",
+     "year": "2008",
+     "unstructured": "Butler, A. C., Karpicke, J. D., & Roediger III, H. L. (2008). Correcting a metacognitive error: Feedback increases retention of low-confidence correct responses. Journal of Experimental Psychology: Learning, Memory, and Cognition, 34, 918-928. https://doi.org/10.1037/0278-7393.34.4.918",
+     "journal-title": "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+    },
+    {
+     "key": "1041_CR5",
+     "doi-asserted-by": "publisher",
+     "first-page": "604",
+     "DOI": "10.3758/MC.36.3.604",
+     "volume": "36",
+     "author": "AC Butler",
+     "year": "2008",
+     "unstructured": "Butler, A. C., & Roediger III, H. L. (2008). Feedback enhances the positive effects and reduces the negative effects of multiple-choice testing. Memory and Cognition, 36, 604-616. https://doi.org/10.3758/MC.36.3.604",
+     "journal-title": "Memory and Cognition"
+    },
+    {
+     "key": "1041_CR6",
+     "doi-asserted-by": "publisher",
+     "first-page": "1563",
+     "DOI": "10.1037/a0017021",
+     "volume": "35",
+     "author": "SK Carpenter",
+     "year": "2009",
+     "unstructured": "Carpenter, S. K. (2009). Cue strength as a moderator of the testing effect: The benefits of elaborative retrieval. Journal of Experimental Psychology: Learning, Memory, and Cognition, 35, 1563-1569. https://doi.org/10.1037/a0017021",
+     "journal-title": "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+    },
+    {
+     "key": "1041_CR7",
+     "doi-asserted-by": "publisher",
+     "first-page": "1547",
+     "DOI": "10.1037/a0024140",
+     "volume": "37",
+     "author": "SK Carpenter",
+     "year": "2011",
+     "unstructured": "Carpenter, S. K. (2011). Semantic information activated during retrieval contributes to later retention: Support for the mediator effectiveness hypothesis of the testing effect. Journal of Experimental Psychology: Learning, Memory, and Cognition, 37, 1547-1552. https://doi.org/10.1037/a0024140",
+     "journal-title": "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+    },
+    {
+     "key": "1041_CR8",
+     "doi-asserted-by": "publisher",
+     "first-page": "633",
+     "DOI": "10.3758/BF03202713",
+     "volume": "20",
+     "author": "M Carrier",
+     "year": "1992",
+     "unstructured": "Carrier, M., & Pashler, H. (1992). The influence of retrieval on retention. Memory and Cognition, 20, 633-642. https://doi.org/10.3758/BF03202713",
+     "journal-title": "Memory and Cognition"
+    },
+    {
+     "key": "1041_CR9",
+     "doi-asserted-by": "publisher",
+     "first-page": "4",
+     "DOI": "10.1177/1529100612453266",
+     "volume": "14",
+     "author": "J Dunlosky",
+     "year": "2013",
+     "unstructured": "Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students\u2019 learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14, 4-58. https://doi.org/10.1177/1529100612453266",
+     "journal-title": "Psychological Science in the Public Interest"
+    },
+    {
+     "key": "1041_CR10",
+     "doi-asserted-by": "publisher",
+     "first-page": "175",
+     "DOI": "10.3758/BF03193146",
+     "volume": "39",
+     "author": "F Faul",
+     "year": "2007",
+     "unstructured": "Faul, F., Erdfelder, E., Lang, A. G., & Buchner, A. (2007). G* Power 3: A flexible statistical power analysis program for the social, behavioral, and biomedical sciences. Behavior Research Methods, 39, 175-191. https://doi.org/10.3758/BF03193146",
+     "journal-title": "Behavior Research Methods"
+    },
+    {
+     "key": "1041_CR11",
+     "doi-asserted-by": "publisher",
+     "first-page": "801",
+     "DOI": "10.1037/a0023219",
+     "volume": "37",
+     "author": "V Halamish",
+     "year": "2011",
+     "unstructured": "Halamish, V., & Bjork, R. A. (2011). When does testing enhance retention? A distribution-based interpretation of retrieval as a memory modifier. Journal of Experimental Psychology: Learning, Memory, and Cognition, 37, 801-812. https://doi.org/10.1037/a0023219",
+     "journal-title": "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+    },
+    {
+     "key": "1041_CR12",
+     "doi-asserted-by": "publisher",
+     "first-page": "1441",
+     "DOI": "10.1037/a0020636",
+     "volume": "36",
+     "author": "LL Jacoby",
+     "year": "2010",
+     "unstructured": "Jacoby, L. L., Wahlheim, C. N., & Coane, J. H. (2010). Test-enhanced learning of natural concepts: Effects on recognition memory, classification, and metacognition. Journal of Experimental Psychology: Learning, Memory, and Cognition, 36, 1441-1451. https://doi.org/10.1037/a0020636",
+     "journal-title": "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+    },
+    {
+     "key": "1041_CR13",
+     "doi-asserted-by": "publisher",
+     "first-page": "528",
+     "DOI": "10.1080/09541440601056620",
+     "volume": "19",
+     "author": "SH Kang",
+     "year": "2007",
+     "unstructured": "Kang, S. H., McDermott, K. B., & Roediger III, H. L. (2007). Test format and corrective feedback modify the effect of testing on long-term retention. European Journal of Cognitive Psychology, 19, 528-558. https://doi.org/10.1080/09541440601056620",
+     "journal-title": "European Journal of Cognitive Psychology"
+    },
+    {
+     "key": "1041_CR14",
+     "doi-asserted-by": "publisher",
+     "first-page": "237",
+     "DOI": "10.1016/B978-0-12-800283-4.00007-1",
+     "volume": "61",
+     "author": "JD Karpicke",
+     "year": "2014",
+     "unstructured": "Karpicke, J. D., Lehman, M., & Aue, W. R. (2014). Retrieval-based learning: An episodic context account. Psychology of Learning and Motivation, 61, 237-284. https://doi.org/10.1016/B978-0-12-800283-4.00007-1",
+     "journal-title": "Psychology of Learning and Motivation"
+    },
+    {
+     "key": "1041_CR15",
+     "doi-asserted-by": "publisher",
+     "first-page": "151",
+     "DOI": "10.1016/j.jml.2006.09.004",
+     "volume": "57",
+     "author": "JD Karpicke",
+     "year": "2007",
+     "unstructured": "Karpicke, J. D., & Roediger III, H. L. (2007). Repeated retrieval during learning is the key to long-term retention. Journal of Memory and Language, 57, 151-162. https://doi.org/10.1016/j.jml.2006.09.004",
+     "journal-title": "Journal of Memory and Language"
+    },
+    {
+     "key": "1041_CR16",
+     "doi-asserted-by": "publisher",
+     "first-page": "202",
+     "DOI": "10.1037/xlm0000172",
+     "volume": "42",
+     "author": "O Kliegl",
+     "year": "2016",
+     "unstructured": "Kliegl, O., & B\u00e4uml, K. H. T. (2016). Retrieval practice can insulate items against intralist interference: Evidence from the list-length effect, output interference, and retrieval-induced forgetting. Journal of Experimental Psychology: Learning, Memory, and Cognition, 42, 202-214. https://doi.org/10.1037/xlm0000172",
+     "journal-title": "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+    },
+    {
+     "key": "1041_CR17",
+     "doi-asserted-by": "publisher",
+     "first-page": "1863",
+     "DOI": "10.3389/fpsyg.2019.01863",
+     "volume": "10",
+     "author": "O Kliegl",
+     "year": "2019",
+     "unstructured": "Kliegl, O., Bjork, R. A., & B\u00e4uml, K. H. T. (2019). Feedback at test can reverse the retrieval-effort effect. Frontiers in Psychology, 10, 1863. https://doi.org/10.3389/fpsyg.2019.01863",
+     "journal-title": "Frontiers in Psychology"
+    },
+    {
+     "key": "1041_CR18",
+     "doi-asserted-by": "publisher",
+     "first-page": "85",
+     "DOI": "10.1016/j.jml.2011.04.002",
+     "volume": "65",
+     "author": "N Kornell",
+     "year": "2011",
+     "unstructured": "Kornell, N., Bjork, R. A., & Garcia, M. A. (2011). Why tests appear to prevent forgetting: A distribution-based bifurcation model. Journal of Memory and Language, 65, 85-97. https://doi.org/10.1016/j.jml.2011.04.002",
+     "journal-title": "Journal of Memory and Language"
+    },
+    {
+     "key": "1041_CR19",
+     "doi-asserted-by": "publisher",
+     "first-page": "3",
+     "DOI": "10.1037/xap0000004",
+     "volume": "20",
+     "author": "KB McDermott",
+     "year": "2014",
+     "unstructured": "McDermott, K. B., Agarwal, P. K., D'Antonio, L., Roediger III, H. L., & McDaniel, M. A. (2014). Both multiple-choice and short-answer quizzes enhance later exam performance in middle and high school classes. Journal of Experimental Psychology: Applied, 20, 3-210. https://doi.org/10.1037/xap0000004",
+     "journal-title": "Journal of Experimental Psychology: Applied"
+    },
+    {
+     "key": "1041_CR20",
+     "doi-asserted-by": "publisher",
+     "first-page": "1403",
+     "DOI": "10.1037/a0031789",
+     "volume": "39",
+     "author": "NW Mulligan",
+     "year": "2013",
+     "unstructured": "Mulligan, N. W., & Peterson, D. J. (2013). The negative repetition effect. Journal of Experimental Psychology: Learning, Memory, and Cognition, 39, 1403-1416. https://doi.org/10.1037/a0031789",
+     "journal-title": "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+    },
+    {
+     "key": "1041_CR21",
+     "doi-asserted-by": "publisher",
+     "first-page": "859",
+     "DOI": "10.1037/xlm0000056",
+     "volume": "41",
+     "author": "NW Mulligan",
+     "year": "2015",
+     "unstructured": "Mulligan, N. W., & Peterson, D. J. (2015a). Negative and positive testing effects in terms of item-specific and relational information. Journal of Experimental Psychology: Learning, Memory, and Cognition, 41, 859-871. https://doi.org/10.1037/xlm0000056",
+     "journal-title": "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+    },
+    {
+     "key": "1041_CR22",
+     "doi-asserted-by": "publisher",
+     "first-page": "1014",
+     "DOI": "10.1037/xlm0000070",
+     "volume": "41",
+     "author": "NW Mulligan",
+     "year": "2015",
+     "unstructured": "Mulligan, N. W., & Peterson, D. J. (2015b). The negative testing and negative generation effects are eliminated by delay. Journal of Experimental Psychology: Learning, Memory, and Cognition, 41, 1014-1025. https://doi.org/10.1037/xlm0000070",
+     "journal-title": "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+    },
+    {
+     "key": "1041_CR23",
+     "doi-asserted-by": "publisher",
+     "first-page": "325",
+     "DOI": "10.1080/09658219408258951",
+     "volume": "2",
+     "author": "TO Nelson",
+     "year": "1994",
+     "unstructured": "Nelson, T. O., & Dunlosky, J. (1994). Norms of paired-associate recall during multitrial learning of Swahili-English translation equivalents. Memory, 2, 325-335. https://doi.org/10.1080/09658219408258951",
+     "journal-title": "Memory"
+    },
+    {
+     "key": "1041_CR24",
+     "doi-asserted-by": "publisher",
+     "first-page": "3",
+     "DOI": "10.1037/0278-7393.31.1.3",
+     "volume": "31",
+     "author": "H Pashler",
+     "year": "2005",
+     "unstructured": "Pashler, H., Cepeda, N. J., Wixted, J. T., & Rohrer, D. (2005). When does feedback facilitate learning of words? Journal of Experimental Psychology: Learning, Memory, and Cognition, 31, 3-8. https://doi.org/10.1037/0278-7393.31.1.3",
+     "journal-title": "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+    },
+    {
+     "key": "1041_CR25",
+     "doi-asserted-by": "publisher",
+     "first-page": "473",
+     "DOI": "10.3758/s13415-016-0407-6",
+     "volume": "16",
+     "author": "B Past\u00f6tter",
+     "year": "2016",
+     "unstructured": "Past\u00f6tter, B., & B\u00e4uml, K. H. T. (2016). Reversing the testing effect by feedback: Behavioral and electrophysiological evidence. Cognitive, Affective, and Behavioral Neuroscience, 16, 473-488. https://doi.org/10.3758/s13415-016-0407-6",
+     "journal-title": "Cognitive, Affective, and Behavioral Neuroscience"
+    },
+    {
+     "key": "1041_CR26",
+     "doi-asserted-by": "publisher",
+     "first-page": "1287",
+     "DOI": "10.1037/a0031337",
+     "volume": "39",
+     "author": "DJ Peterson",
+     "year": "2013",
+     "unstructured": "Peterson, D. J., & Mulligan, N. W. (2013). The negative testing effect and multifactor account. Journal of Experimental Psychology: Learning, Memory, and Cognition, 39, 1287-1293. https://doi.org/10.1037/a0031337",
+     "journal-title": "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+    },
+    {
+     "key": "1041_CR27",
+     "doi-asserted-by": "publisher",
+     "first-page": "437",
+     "DOI": "10.1016/j.jml.2009.01.004",
+     "volume": "60",
+     "author": "MA Pyc",
+     "year": "2009",
+     "unstructured": "Pyc, M. A., & Rawson, K. A. (2009). Testing the retrieval effort hypothesis: Does greater difficulty correctly recalling information lead to higher levels of memory? Journal of Memory and Language, 60, 437-447. https://doi.org/10.1016/j.jml.2009.01.004",
+     "journal-title": "Journal of Memory and Language"
+    },
+    {
+     "key": "1041_CR28",
+     "doi-asserted-by": "publisher",
+     "first-page": "657",
+     "DOI": "10.3389/fpsyg",
+     "volume": "6",
+     "author": "M Racsm\u00e1ny",
+     "year": "2015",
+     "unstructured": "Racsm\u00e1ny, M., & Keresztes, A. (2015). Initial retrieval shields against retrieval-induced forgetting. Frontiers in Psychology, 6, 657. https://doi.org/10.3389/fpsyg",
+     "journal-title": "Frontiers in Psychology"
+    },
+    {
+     "key": "1041_CR29",
+     "doi-asserted-by": "publisher",
+     "first-page": "157",
+     "DOI": "10.1037/xlm0000423",
+     "volume": "44",
+     "author": "M Racsm\u00e1ny",
+     "year": "2018",
+     "unstructured": "Racsm\u00e1ny, M., Sz\u0151ll\u0151si, \u00c1., & Bencze, D. (2018). Retrieval practice makes procedure from remembering: An automatization account of the testing effect. Journal of Experimental Psychology: Learning, Memory, and Cognition, 44, 157-166. https://doi.org/10.1037/xlm0000423",
+     "journal-title": "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+    },
+    {
+     "key": "1041_CR30",
+     "doi-asserted-by": "publisher",
+     "first-page": "20",
+     "DOI": "10.1016/j.tics.2010.09.003",
+     "volume": "15",
+     "author": "HL Roediger III",
+     "year": "2011",
+     "unstructured": "Roediger III, H. L., & Butler, A. C. (2011). The critical role of retrieval practice in long-term retention. Trends in Cognitive Sciences, 15, 20-27. https://doi.org/10.1016/j.tics.2010.09.003",
+     "journal-title": "Trends in Cognitive Sciences"
+    },
+    {
+     "key": "1041_CR31",
+     "doi-asserted-by": "publisher",
+     "first-page": "249",
+     "DOI": "10.1111/j.1467-9280.2006.01693.x",
+     "volume": "17",
+     "author": "HL Roediger III",
+     "year": "2006",
+     "unstructured": "Roediger III, H. L., & Karpicke, J. D. (2006a). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17, 249-255. https://doi.org/10.1111/j.1467-9280.2006.01693.x",
+     "journal-title": "Psychological Science"
+    },
+    {
+     "key": "1041_CR32",
+     "doi-asserted-by": "publisher",
+     "first-page": "181",
+     "DOI": "10.1111/j.1745-6916.2006.00012.x",
+     "volume": "1",
+     "author": "HL Roediger III",
+     "year": "2006",
+     "unstructured": "Roediger III, H. L., & Karpicke, J. D. (2006b). The power of testing memory: Basic research and implications for educational practice. Perspectives on Psychological Science, 1, 181-210. https://doi.org/10.1111/j.1745-6916.2006.00012.x",
+     "journal-title": "Perspectives on Psychological Science"
+    },
+    {
+     "key": "1041_CR33",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1016/B978-0-12-387691-1.00001-6",
+     "volume": "55",
+     "author": "HL Roediger III",
+     "year": "2011",
+     "unstructured": "Roediger III, H. L., Putnam, A. L., & Smith, M. A. (2011). Ten benefits of testing and their applications to educational practice. Psychology of Learning and Motivation, 55, 1-36. https://doi.org/10.1016/B978-0-12-387691-1.00001-6",
+     "journal-title": "Psychology of Learning and Motivation"
+    },
+    {
+     "key": "1041_CR34",
+     "doi-asserted-by": "publisher",
+     "unstructured": "Siler, J., & Benjamin, A. S. (2019). Long-term inference and memory following retrieval practice. Memory and Cognition. https://doi.org/10.3758/s13421-019-00997-3",
+     "DOI": "10.3758/s13421-019-00997-3"
+    },
+    {
+     "key": "1041_CR35",
+     "doi-asserted-by": "publisher",
+     "first-page": "115",
+     "DOI": "10.1037/a0034252",
+     "volume": "40",
+     "author": "BC Storm",
+     "year": "2014",
+     "unstructured": "Storm, B. C., Friedman, M. C., Murayama, K., & Bjork, R. A. (2014). On the transfer of prior tests or study events to subsequent study. Journal of Experimental Psychology: Learning, Memory, and Cognition, 40, 115-124. https://doi.org/10.1037/a0034252",
+     "journal-title": "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+    },
+    {
+     "key": "1041_CR36",
+     "doi-asserted-by": "publisher",
+     "first-page": "1392",
+     "DOI": "10.1037/a0013082",
+     "volume": "34",
+     "author": "KK Szpunar",
+     "year": "2008",
+     "unstructured": "Szpunar, K. K., McDermott, K. B., & Roediger III, H. L. (2008). Testing during study insulates against the buildup of proactive interference. Journal of Experimental Psychology: Learning, Memory, and Cognition, 34, 1392-1399. https://doi.org/10.1037/a0013082",
+     "journal-title": "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+    },
+    {
+     "key": "1041_CR37",
+     "doi-asserted-by": "publisher",
+     "first-page": "571",
+     "DOI": "10.1080/09658210244000414",
+     "volume": "11",
+     "author": "M Wheeler",
+     "year": "2003",
+     "unstructured": "Wheeler, M., Ewers, M., & Buonanno, J. (2003). Different rates of forgetting following study versus test trials. Memory, 11, 571-580. https://doi.org/10.1080/09658210244000414",
+     "journal-title": "Memory"
+    },
+    {
+     "key": "1041_CR38",
+     "doi-asserted-by": "publisher",
+     "first-page": "240",
+     "DOI": "10.1111/j.1467-9280.1992.tb00036.x",
+     "volume": "3",
+     "author": "MA Wheeler",
+     "year": "1992",
+     "unstructured": "Wheeler, M. A., & Roediger III, H. L. (1992). Disparate effects of repeated testing: Reconciling Ballard's (1913) and Bartlett's (1932) results. Psychological Science, 3, 240-246. https://doi.org/10.1111/j.1467-9280.1992.tb00036.x",
+     "journal-title": "Psychological Science"
+    },
+    {
+     "key": "1041_CR39",
+     "doi-asserted-by": "publisher",
+     "first-page": "995",
+     "DOI": "10.3758/MC.38.8.995",
+     "volume": "38",
+     "author": "FM Zaromb",
+     "year": "2010",
+     "unstructured": "Zaromb, F. M., & Roediger, H. L. (2010). The testing effect in free recall is associated with enhanced organizational processes. Memory and Cognition, 38, 995-1008. https://doi.org/10.3758/MC.38.8.995",
+     "journal-title": "Memory and Cognition"
+    }
+   ],
+   "container-title": [
+    "Memory &amp; Cognition"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://link.springer.com/content/pdf/10.3758/s13421-020-01041-5.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://link.springer.com/article/10.3758/s13421-020-01041-5/fulltext.html",
+     "content-type": "text/html",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://link.springer.com/content/pdf/10.3758/s13421-020-01041-5.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      15
+     ]
+    ],
+    "date-time": "2021-05-15T23:05:35Z",
+    "timestamp": 1621119935000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://link.springer.com/10.3758/s13421-020-01041-5"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2020,
+      5,
+      16
+     ]
+    ]
+   },
+   "references-count": 39,
+   "journal-issue": {
+    "issue": "7",
+    "published-print": {
+     "date-parts": [
+      [
+       2020,
+       10
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "1041"
+   ],
+   "URL": "https://doi.org/10.3758/s13421-020-01041-5",
+   "relation": {},
+   "ISSN": [
+    "0090-502X",
+    "1532-5946"
+   ],
+   "issn-type": [
+    {
+     "value": "0090-502X",
+     "type": "print"
+    },
+    {
+     "value": "1532-5946",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2020,
+      5,
+      16
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "16 May 2020",
+     "order": 1,
+     "name": "first_online",
+     "label": "First Online",
+     "group": {
+      "name": "ArticleHistory",
+      "label": "Article History"
+     }
+    },
+    {
+     "order": 1,
+     "name": "Ethics",
+     "group": {
+      "name": "EthicsHeading",
+      "label": "Compliance with ethical standards"
+     }
+    },
+    {
+     "value": "The authors declare no conflicts of interest.",
+     "order": 2,
+     "name": "Ethics",
+     "group": {
+      "name": "EthicsHeading",
+      "label": "Conflict of interest"
+     }
+    }
+   ]
+  }
+ }
+}

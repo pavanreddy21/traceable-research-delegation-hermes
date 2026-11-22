@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a2024c-e3f5-7652-abba-18d3a97b9f34",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795334923,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"I will try the canonical study title terms to locate the Mueller and Oppenheimer paper.\", \"action\": \"search_papers\", \"args\": {\"query\": \"pen is mightier than the keyboard\"}}",
+    "reasoning_content": "The search tool keeps returning empty. Let me try a few more variations, maybe the classic Mueller & Oppenheimer paper.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 578,
+  "completion_tokens": 71,
+  "total_tokens": 649,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 25
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.28
+}

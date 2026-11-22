@@ -1,0 +1,863 @@
+{
+ "question": "Does self-testing (retrieval practice) improve long-term retention more than rereading?",
+ "scope": {
+  "decision": "allow",
+  "reason": "public-information research question",
+  "layer": "rules"
+ },
+ "plan": {
+  "ambiguity": "What retention interval and learner population should be assumed?",
+  "subquestions": [
+   {
+    "q": "Does retrieval practice improve delayed recall compared with rereading?",
+    "query": "retrieval practice versus rereading delayed recall"
+   },
+   {
+    "q": "How long does the testing effect persist over retention intervals?",
+    "query": "testing effect long-term retention interval"
+   },
+   {
+    "q": "Do feedback and spacing moderate retrieval practice benefits?",
+    "query": "feedback spacing retrieval practice retention"
+   }
+  ]
+ },
+ "sources": {
+  "W3091645833": {
+   "source_id": "W3091645833",
+   "title": "Practicing Retrieval Facilitates Learning",
+   "year": 2020,
+   "authors": [
+    "Kathleen B. McDermott"
+   ],
+   "venue": "Annual Review of Psychology",
+   "doi": "https://doi.org/10.1146/annurev-psych-010419-051019",
+   "cited_by": 165,
+   "abstract": "How do we go about learning new information? This article reviews the importance of practicing retrieval of newly experienced information if one wants to be able to retrieve it again in the future. Specifically, practicing retrieval shortly after learning can slow the forgetting process. This benefit can be seen across various material types, and it seems prevalent in all ages and learner abilities and on all types of test. It can also be used to enhance student learning in a classroom setting. I review theoretical understanding of this phenomenon (sometimes referred to as the testing effect or as retrieval-based learning) and consider directions for future research.",
+   "injection_flags": []
+  },
+  "W2152957004": {
+   "source_id": "W2152957004",
+   "title": "Test\u2010enhanced learning in medical education",
+   "year": 2008,
+   "authors": [
+    "Douglas P. Larsen",
+    "Andrew C. Butler",
+    "Henry Lederer Roediger III"
+   ],
+   "venue": "Medical Education",
+   "doi": "https://doi.org/10.1111/j.1365-2923.2008.03124.x",
+   "cited_by": 684,
+   "abstract": "CONTEXT: In education, tests are primarily used for assessment, thus permitting teachers to assess the efficacy of their curriculum and to assign grades. However, research in cognitive psychology has shown that tests can also directly affect learning by promoting better retention of information, a phenomenon known as the testing effect. COGNITIVE PSYCHOLOGY RESEARCH: Cognitive psychology laboratory studies show that repeated testing of information produces superior retention relative to repeated study, especially when testing is spaced out over time. Tests that require effortful retrieval of information, such as short-answer tests, promote better retention than tests that require recognition, such as multiple-choice tests. The mnemonic benefits of testing are further enhanced by feedback, which helps students to correct errors and confirm correct answers. APPLICATION TO MEDICAL EDUCATION: Medical educational research has focused extensively on assessment issues. Such assessment research permits the conclusion that clinical expertise is founded on a broad fund of knowledge and effective memory networks that allow easy access to that knowledge. Test-enhanced learning can potentially strengthen clinical knowledge that will lead to improved expertise. CONCLUSIONS: Tests should be given often and spaced out in time to promote better retention of information. Questions that require effortful recall produce the greatest gains in memory. Feedback is crucial to learning from tests. Test-enhanced learning may be an effective tool for medical educators to use in promoting retention of clinical knowledge.",
+   "injection_flags": []
+  },
+  "W2888571438": {
+   "source_id": "W2888571438",
+   "title": "Planning Education for Long-Term Retention: The Cognitive Science and Implementation of Retrieval Practice",
+   "year": 2018,
+   "authors": [
+    "Douglas P. Larsen"
+   ],
+   "venue": "Seminars in Neurology",
+   "doi": "https://doi.org/10.1055/s-0038-1666983",
+   "cited_by": 68,
+   "abstract": "Educational systems are rarely designed for long-term retention of information. Strong evidence has emerged from cognitive psychology and applied education studies that repeated retrieval of information significantly improves retention compared to repeated studying. This effect likely emerges from the processes of memory consolidation and reconsolidation. Consolidation and reconsolidation are the means by which memories are organized into associational networks or schemas that are created and recreated as memories are formed and recalled. As educators implement retrieval practice, they should consider how various test formats lead to different degrees of schema activation. Repeated acts of retrieval provide opportunities for schemas to be updated and strengthened. Spacing of retrieval allows more consolidated schemas to be reactivated. Feedback provides metacognitive monitoring to ensure retrieval accuracy and can lead to shifts from ineffective to effective retrieval strategies. By using the principles of retrieval practice, educators can improve the likelihood that learners will retain information for longer periods of time.",
+   "injection_flags": []
+  },
+  "W2975380695": {
+   "source_id": "W2975380695",
+   "title": "Does pre-testing promote better retention than post-testing?",
+   "year": 2019,
+   "authors": [
+    "Alice Latimier",
+    "Arnaud Riegert",
+    "Hugo Peyre"
+   ],
+   "venue": "npj Science of Learning",
+   "doi": "https://doi.org/10.1038/s41539-019-0053-1",
+   "cited_by": 86,
+   "abstract": "Compared with other learning strategies, retrieval practice seems to promote superior long-term retention. This has been found mostly in conditions where learners take tests after being exposed to learning content. However, a pre-testing effect has also been demonstrated, with promising results. This raises the question, for a given amount of time dedicated to retrieval practice, whether learners should be tested before or after an initial exposure to learning content. Our experiment directly compares the benefits of post-testing and pre-testing relative to an extended reading condition, on a retention test 7 days later. We replicated both post-testing (d = 0.74) and pre-testing effects (d = 0.35), with significantly better retention in the former condition. Post-testing also promoted knowledge transfer to previously untested questions, whereas pre-testing did not. Our results thus suggest that it may be more fruitful to test students after than before exposure to learning content.",
+   "injection_flags": []
+  },
+  "W2913221302": {
+   "source_id": "W2913221302",
+   "title": "Retrieval Practice in Classroom Settings: A Review of Applied Research",
+   "year": 2019,
+   "authors": [
+    "Bruna Fernanda Tolentino Moreira",
+    "Tatiana Salazar Silva Pinto",
+    "Daniela Siqueira Veloso Starling"
+   ],
+   "venue": "Frontiers in Education",
+   "doi": "https://doi.org/10.3389/feduc.2019.00005",
+   "cited_by": 120,
+   "abstract": "Tests have been vastly used for the assessment of learning in educational contexts. Recently, however, a growing body of research have shown that the practice of remembering previously studied information (i.e., retrieval practice) is more advantageous for long-term retention than restudying that same information; a phenomenon often termed \u201ctesting effect\u201d. The question remains, however, whether such practice can be useful to improve learning in actual educational contexts, and whether in these contexts specific types of tests are particularly beneficial. We address these issues by reviewing studies that investigated the use of retrieval practice as a learning strategy in actual educational contexts. The reviewed studies adopted from free-recall to multiple-choice tests, and involved from elementary school children to medical school students. In general, their results are favorable to the use of retrieval practice in classroom settings, regardless of whether feedback is provided or not. Importantly, however, the majority of the reviewed studies compared retrieval practice to repeated study or to \u201cno-activity\u201d. The results of the studies comparing retrieval practice to alternative control conditions were less conclusive, and a subset of them found no advantage for tests. These findings raise the question whether retrieval practice is more beneficial than alternative learning strategies, especially learning strategies and activities already adopted in classroom settings (e.g., concept mapping). Thus, even though retrieval practice emerges as a promising strategy to improve learning in classroom environments, there is not enough evidence available at this moment to determine whether it is as beneficial as alternative learning activities frequently adopted in classroom settings.",
+   "injection_flags": []
+  },
+  "W2082988750": {
+   "source_id": "W2082988750",
+   "title": "Testing After Worked Example Study Does Not Enhance Delayed Problem-Solving Performance Compared to Restudy",
+   "year": 2015,
+   "authors": [
+    "Tamara van Gog",
+    "Liesbeth Kester",
+    "Kim Dirkx"
+   ],
+   "venue": "Educational Psychology Review",
+   "doi": "https://doi.org/10.1007/s10648-015-9297-3",
+   "cited_by": 79,
+   "abstract": "Four experiments investigated whether the testing effect also applies to the acquisition of problem-solving skills from worked examples. Experiment 1 ( n = 120) showed no beneficial effects of testing consisting of isomorphic problem solving or example recall on final test performance, which consisted of isomorphic problem solving, compared to continued study of isomorphic examples. Experiment 2 ( n = 124) showed no beneficial effects of testing consisting of identical problem solving compared to restudying an identical example. Interestingly, participants who took both an immediate and a delayed final test outperformed those taking only a delayed test. This finding suggested that testing might become beneficial for retention but only after a certain level of schema acquisition has taken place through restudying several examples. However, experiment 2 had no control condition restudying examples instead of taking the immediate test. Experiment 3 ( n = 129) included such a restudy condition, and there was no evidence that testing after studying four examples was more effective for final delayed test performance than restudying, regardless of whether restudied/tested problems were isomorphic or identical. Experiment 4 ( n = 75) used a similar design as experiment 3 (i.e., testing/restudy after four examples), but with examples on a different topic and with a different participant population. Again, no evidence of a testing effect was found. Thus, across four experiments, with different types of initial tests, different problem-solving domains, and different participant populations, we found no evidence that testing enhanced delayed test performance compared to restudy. These findings suggest that the testing effect might not apply to acquiring problem-solving skills from worked examples.",
+   "injection_flags": []
+  },
+  "W7125926383": {
+   "source_id": "W7125926383",
+   "title": "Testing the testing effect on prolific: when retrieval practice fails to boost learning",
+   "year": 2026,
+   "authors": [
+    "Kevin Sigayret",
+    "Jean\u2010Fran\u00e7ois Parmentier",
+    "Franck Silvestre"
+   ],
+   "venue": "Frontiers in Psychology",
+   "doi": "https://doi.org/10.3389/fpsyg.2026.1727423",
+   "cited_by": 2,
+   "abstract": "The testing effect-whereby retrieving information through testing improves long-term retention more than restudying-is one of the most robust and well-documented phenomena in educational psychology. However, its replicability in online crowdsourced settings remains uncertain. In this paper, we report two preliminary experiments examining whether the testing effect can be detected in studies conducted on Prolific, a platform widely used for behavioral and educational research. Although not conceived as direct replications, both studies relied on validated learning materials and incorporated key methodological features known to enhance the testing effect, including delayed posttests, corrective feedback, and both factual and application-based outcome measures. In both experiments, participants were randomly assigned to a retrieval-practice (test) or restudy condition. No significant differences were found between groups at delayed test, despite multiple safeguards aimed at promoting participant engagement (e.g., prescreening filters, attention checks, fair compensation). These null findings suggest that investigating learning phenomena that require sustained cognitive engagement may be more challenging with crowdsource samples. We argue that the absence of the testing effect in our studies is unlikely to reflect a theoretical limitation of the effect itself, but rather highlights challenges inherent to online research environments. While platforms like Prolific offer valuable advantages in terms of speed and sample diversity, their constraints should be carefully considered when studying learning effects that depend on deep engagement with learning material.",
+   "injection_flags": []
+  },
+  "W7224189015": {
+   "source_id": "W7224189015",
+   "title": "A Meta-Analysis of the Effectiveness and Boundary Conditions of Retrieval Practice, Distributed Practice, and Interleaved Practice in Authentic School Classrooms",
+   "year": 2026,
+   "authors": [
+    "Sterre K. Ruitenburg",
+    "Mieke Goos",
+    "Guus Lambert"
+   ],
+   "venue": "Educational Psychology Review",
+   "doi": "https://doi.org/10.1007/s10648-026-10225-5",
+   "cited_by": 1,
+   "abstract": "While retrieval practice, distributed practice, and interleaved practice are considered three promising strategies for how, when, and in what sequence to practice after initial instruction or self-study, little is known about the average effects of these strategies in authentic classrooms in primary and secondary education and their moderators. Therefore, in the present study, we investigated the effectiveness and boundary conditions of retrieval, distributed, and interleaved practice in such classrooms. We did this using a three-level meta-analysis comprising 233 effect sizes from 53 studies (published 2006\u20132024) including 7,303 participants. We found (a) an average testing effect of g = 0.37, moderated by type of knowledge, posttest format, format matching between practice and test phase, and type of learning outcome, (b) an average spacing effect of g = 0.20, moderated by type of comparison condition, retention interval, the ISI/RI ratio (i.e., the interstudy interval expressed as proportion of the retention interval), and posttest format, and (c) an average interleaving effect of g = 0.40, moderated by provision and timing of feedback. Average effects suggest that the effectiveness of the three strategies extends to authentic school classrooms. Observed moderator patterns suggest that the testing, spacing, and interleaving effects only occur reliably if their underlying cognitive processes are elicited during practice. This, in turn, implies that we need to shift from a one-size-fits-all instructional approach to a context-dependent instructional approach.",
+   "injection_flags": []
+  },
+  "W2071538318": {
+   "source_id": "W2071538318",
+   "title": "Strengthening concept learning by repeated testing",
+   "year": 2013,
+   "authors": [
+    "Carola Wiklund\u2010H\u00f6rnqvist",
+    "Bert Jonsson",
+    "Lars H Nyberg"
+   ],
+   "venue": "Scandinavian Journal of Psychology",
+   "doi": "https://doi.org/10.1111/sjop.12093",
+   "cited_by": 126,
+   "abstract": "The aim of this study was to examine whether repeated testing with feedback benefits learning compared to rereading of introductory psychology key-concepts in an educational context. The testing effect was examined immediately after practice, after 18 days, and at a five-week delay in a sample of undergraduate students (n = 83). The results revealed that repeated testing with feedback significantly enhanced learning compared to rereading at all delays, demonstrating that repeated retrieval enhances retention compared to repeated encoding in the short- and the long-term. In addition, the effect of repeated testing was beneficial for students irrespectively of working memory capacity. It is argued that teaching methods involving repeated retrieval are important to consider by the educational system.",
+   "injection_flags": []
+  },
+  "W4387580672": {
+   "source_id": "W4387580672",
+   "title": "A combination of restudy and retrieval practice maximizes retention of briefly encountered facts",
+   "year": 2023,
+   "authors": [
+    "Stefania Rene Ashby",
+    "Dagmar Zeithamov\u00e1"
+   ],
+   "venue": "Frontiers in Cognition",
+   "doi": "https://doi.org/10.3389/fcogn.2023.1258955",
+   "cited_by": 1,
+   "abstract": "Introduction Is retrieval practice always superior to restudy? In a classic study by Roediger and Karpicke, long-term retention of information contained in prose passages was found to be best when opportunities to restudy were replaced with opportunities to self-test. We were interested whether this striking benefit for repeated testing at the expense of any restudy replicates when study opportunities are brief, akin to a single mention of a fact in an academic lecture. We were also interested in whether restudying after a test would provide any additional benefits compared to restudying before test. Method In the current study, participants encountered academically relevant facts a total of three times; each time either studied (S) or self-tested (T). During study, participants predicted how likely they were to remember each fact in the future. During self-test, participants performed covert cued recall and self-reported their recall success. Final test followed immediately or after a delay (Experiment 1: 2 days, Experiment 2: 7 days). Results Contrary to prior work, long-term memory was superior for facts the were restudied in addition to self-tested (SST > STT = SSS). We further investigated whether restudy after a test (STS) provides additional benefits compared to restudy before test (SST). Restudying after a retrieval attempt provided an additional benefit compared to restudying before a retrieval attempt on an immediate test, but this benefit did not carry over a delay. Finally, exploratory analyses indicated that restudy after test improved the accuracy of participants' subjective predictions of encoding success. Discussion Together, our results qualify prior work on the benefits of repeated testing, indicating that balancing testing with repetition may allow for more information to be learned and retained. These findings offer new insights into the conditions that promote encoding and long-term retention, provide new constraints for existing cognitive theories of testing effects, and have practical implications for education.",
+   "injection_flags": []
+  }
+ },
+ "findings": [
+  {
+   "id": "E1",
+   "role": "source_finder",
+   "subquestion": "Does retrieval practice improve delayed recall compared with rereading? (suggested query: retrieval practice versus rereading delayed recall)",
+   "claim": "In an experiment with 83 undergraduate students learning introductory psychology concepts, repeated testing with feedback produced significantly better retention than rereading at immediate, 18-day, and five-week delays.",
+   "source_id": "W2071538318",
+   "stance": "supports",
+   "quote": "The results revealed that repeated testing with feedback significantly enhanced learning compared to rereading at all delays, demonstrating that repeated retrieval enhances retention compared to repeated encoding in the short- and the long-term.",
+   "check": {
+    "verdict": "partial",
+    "passage": "The results revealed that repeated testing with feedback significantly enhanced learning compared to rereading at all delays, demonstrating that repeated retrieval enhances retention compared to repeated encoding in the short- and the long-term.",
+    "reason": "Passage 2 supports that repeated testing with feedback significantly enhanced learning versus rereading at all delays, but the passages do not specify 83 undergraduate students or the exact immediate, 18-day, and five-week delays.",
+    "retrieval_score": 0.865,
+    "quote_found": true,
+    "citation": {
+     "resolves": true,
+     "title_match": true,
+     "registry": "crossref",
+     "registry_title": "Strengthening concept learning by repeated testing"
+    }
+   }
+  },
+  {
+   "id": "E2",
+   "role": "source_finder",
+   "subquestion": "Does retrieval practice improve delayed recall compared with rereading? (suggested query: retrieval practice versus rereading delayed recall)",
+   "claim": "A review of applied classroom research concludes that retrieval practice is more advantageous for long-term retention than restudying the same information, though most reviewed studies compared retrieval to repeated study or no activity.",
+   "source_id": "W2913221302",
+   "stance": "supports",
+   "quote": "Recently, however, a growing body of research have shown that the practice of remembering previously studied information (i.e., retrieval practice) is more advantageous for long-term retention than restudying that same information; a phenomenon often termed \u201ctesting effect\u201d.",
+   "check": {
+    "verdict": "partial",
+    "passage": "In general, their results are favorable to the use of retrieval practice in classroom settings, regardless of whether feedback is provided or not. Importantly, however, the majority of the reviewed studies compared retrieval practice to repeated study or to \u201cno-activity\u201d.",
+    "reason": "Passage 1 supports that the review found retrieval practice favorable in classroom settings and that most reviewed studies compared it with repeated study or no activity, but it does not explicitly state the long-term retention advantage over restudying.",
+    "retrieval_score": 0.884,
+    "quote_found": true,
+    "citation": {
+     "resolves": true,
+     "title_match": true,
+     "registry": "crossref",
+     "registry_title": "Retrieval Practice in Classroom Settings: A Review of Applied Research"
+    }
+   }
+  },
+  {
+   "id": "E3",
+   "role": "source_finder",
+   "subquestion": "Does retrieval practice improve delayed recall compared with rereading? (suggested query: retrieval practice versus rereading delayed recall)",
+   "claim": "Practicing retrieval shortly after learning slows the forgetting process, and this benefit appears across material types, ages, learner abilities, and test types.",
+   "source_id": "W3091645833",
+   "stance": "supports",
+   "quote": "Specifically, practicing retrieval shortly after learning can slow the forgetting process. This benefit can be seen across various material types, and it seems prevalent in all ages and learner abilities and on all types of test.",
+   "check": {
+    "verdict": "supported",
+    "passage": "Specifically, practicing retrieval shortly after learning can slow the forgetting process. This benefit can be seen across various material types, and it seems prevalent in all ages and learner abilities and on all types of test.",
+    "reason": "Passage 1 states that practicing retrieval shortly after learning can slow forgetting and that this benefit appears across material types, ages, learner abilities, and test types.",
+    "retrieval_score": 0.92,
+    "quote_found": true,
+    "citation": {
+     "resolves": true,
+     "title_match": true,
+     "registry": "crossref",
+     "registry_title": "Practicing Retrieval Facilitates Learning"
+    }
+   }
+  },
+  {
+   "id": "E4",
+   "role": "source_finder",
+   "subquestion": "How long does the testing effect persist over retention intervals? (suggested query: testing effect long-term retention interval)",
+   "claim": "In an experiment comparing post-testing, pre-testing, and extended reading, post-testing produced significantly better retention than pre-testing on a retention test administered 7 days later (d = 0.74 for post-testing, d = 0.35 for pre-testing).",
+   "source_id": "W2975380695",
+   "stance": "supports",
+   "quote": "We replicated both post-testing (d = 0.74) and pre-testing effects (d = 0.35), with significantly better retention in the former condition.",
+   "check": {
+    "verdict": "supported",
+    "passage": "Our experiment directly compares the benefits of post-testing and pre-testing relative to an extended reading condition, on a retention test 7 days later. We replicated both post-testing (d = 0.74) and pre-testing effects (d = 0.35), with significantly better retention in the former condition.",
+    "reason": "Passage 1 directly states that on a 7-day retention test, post-testing (d = 0.74) and pre-testing (d = 0.35) effects were replicated, with significantly better retention in the post-testing condition.",
+    "retrieval_score": 0.948,
+    "quote_found": true,
+    "citation": {
+     "resolves": true,
+     "title_match": true,
+     "registry": "crossref",
+     "registry_title": "Does pre-testing promote better retention than post-testing?"
+    }
+   }
+  },
+  {
+   "id": "E5",
+   "role": "source_finder",
+   "subquestion": "How long does the testing effect persist over retention intervals? (suggested query: testing effect long-term retention interval)",
+   "claim": "Laboratory studies in cognitive psychology show that repeated testing of information yields superior retention relative to repeated study, particularly when testing is spaced out over time.",
+   "source_id": "W2152957004",
+   "stance": "supports",
+   "quote": "Cognitive psychology laboratory studies show that repeated testing of information produces superior retention relative to repeated study, especially when testing is spaced out over time.",
+   "check": {
+    "verdict": "supported",
+    "passage": "COGNITIVE PSYCHOLOGY RESEARCH: Cognitive psychology laboratory studies show that repeated testing of information produces superior retention relative to repeated study, especially when testing is spaced out over time.",
+    "reason": "Passage 1 states that cognitive psychology laboratory studies show repeated testing produces superior retention relative to repeated study, especially when testing is spaced out over time.",
+    "retrieval_score": 0.938,
+    "quote_found": true,
+    "citation": {
+     "resolves": true,
+     "title_match": true,
+     "registry": "crossref",
+     "registry_title": "Test\u2010enhanced learning in medical education"
+    }
+   }
+  },
+  {
+   "id": "E6",
+   "role": "source_finder",
+   "subquestion": "Do feedback and spacing moderate retrieval practice benefits? (suggested query: feedback spacing retrieval practice retention)",
+   "claim": "In a three-level meta-analysis of 53 classroom studies (233 effect sizes, 7,303 participants, 2006\u20132024), the average spacing effect was g = 0.20 and was moderated by type of comparison condition, retention interval, the interstudy interval/retention interval ratio, and posttest format.",
+   "source_id": "W7224189015",
+   "stance": "supports",
+   "quote": "an average spacing effect of g = 0.20, moderated by type of comparison condition, retention interval, the ISI/RI ratio (i.e., the interstudy interval expressed as proportion of the retention interval), and posttest format",
+   "check": {
+    "verdict": "supported",
+    "passage": "We found (a) an average testing effect of g = 0.37, moderated by type of knowledge, posttest format, format matching between practice and test phase, and type of learning outcome, (b) an average spacing effect of g = 0.20, moderated by type of comparison condition, retention interval, the ISI/RI ratio (i.e., the interstudy interval expressed as proportion of the retention interval), and posttest format, and (c) an average interleaving effect of g = 0.40, moderated by provision and timing of feedback.",
+    "reason": "Passage 1 states the g = 0.20 spacing effect and the exact moderators, while passage 2 supplies the three-level meta-analysis details of 53 studies, 233 effect sizes, 7,303 participants, and 2006\u20132024.",
+    "retrieval_score": 0.864,
+    "quote_found": true,
+    "citation": {
+     "resolves": true,
+     "title_match": true,
+     "registry": "crossref",
+     "registry_title": "A Meta-Analysis of the Effectiveness and Boundary Conditions of Retrieval Practice, Distributed Practice, and Interleaved Practice in Authentic School Classrooms"
+    }
+   }
+  },
+  {
+   "id": "E7",
+   "role": "source_finder",
+   "subquestion": "Do feedback and spacing moderate retrieval practice benefits? (suggested query: feedback spacing retrieval practice retention)",
+   "claim": "In the same classroom meta-analysis, provision and timing of feedback moderated the interleaving effect (average g = 0.40), not the retrieval practice effect, whose moderators were knowledge type, posttest format, practice-test format matching, and learning outcome type.",
+   "source_id": "W7224189015",
+   "stance": "supports",
+   "quote": "an average interleaving effect of g = 0.40, moderated by provision and timing of feedback",
+   "check": {
+    "verdict": "supported",
+    "passage": "We found (a) an average testing effect of g = 0.37, moderated by type of knowledge, posttest format, format matching between practice and test phase, and type of learning outcome, (b) an average spacing effect of g = 0.20, moderated by type of comparison condition, retention interval, the ISI/RI ratio (i.e., the interstudy interval expressed as proportion of the retention interval), and posttest format, and (c) an average interleaving effect of g = 0.40, moderated by provision and timing of feedback.",
+    "reason": "Passage 1 states the average interleaving effect was g = 0.40 moderated by provision and timing of feedback, while the testing effect was moderated by knowledge type, posttest format, practice-test format matching, and learning outcome type.",
+    "retrieval_score": 0.82,
+    "quote_found": true,
+    "citation": {
+     "resolves": true,
+     "title_match": true,
+     "registry": "crossref",
+     "registry_title": "A Meta-Analysis of the Effectiveness and Boundary Conditions of Retrieval Practice, Distributed Practice, and Interleaved Practice in Authentic School Classrooms"
+    }
+   }
+  },
+  {
+   "id": "E8",
+   "role": "source_finder",
+   "subquestion": "Do feedback and spacing moderate retrieval practice benefits? (suggested query: feedback spacing retrieval practice retention)",
+   "claim": "A review of retrieval practice for long-term retention argues that spacing retrieval allows more consolidated schemas to be reactivated and that feedback supports metacognitive monitoring of retrieval accuracy and shifts toward more effective retrieval strategies.",
+   "source_id": "W2888571438",
+   "stance": "supports",
+   "quote": "Feedback provides metacognitive monitoring to ensure retrieval accuracy and can lead to shifts from ineffective to effective retrieval strategies.",
+   "check": {
+    "verdict": "supported",
+    "passage": "Spacing of retrieval allows more consolidated schemas to be reactivated. Feedback provides metacognitive monitoring to ensure retrieval accuracy and can lead to shifts from ineffective to effective retrieval strategies.",
+    "reason": "Passage 1 states that spacing retrieval allows more consolidated schemas to be reactivated and that feedback provides metacognitive monitoring for retrieval accuracy and can shift learners to more effective retrieval strategies.",
+    "retrieval_score": 0.946,
+    "quote_found": true,
+    "citation": {
+     "resolves": true,
+     "title_match": true,
+     "registry": "crossref",
+     "registry_title": "Planning Education for Long-Term Retention: The Cognitive Science and Implementation of Retrieval Practice"
+    }
+   }
+  },
+  {
+   "id": "E9",
+   "role": "counterexample",
+   "subquestion": "Does self-testing (retrieval practice) improve long-term retention more than rereading? (look for evidence against or limits)",
+   "claim": "Across four experiments with different initial test types, problem-solving domains, and participant populations, testing after studying worked examples did not improve delayed problem-solving performance compared to restudy.",
+   "source_id": "W2082988750",
+   "stance": "challenges",
+   "quote": "Thus, across four experiments, with different types of initial tests, different problem-solving domains, and different participant populations, we found no evidence that testing enhanced delayed test performance compared to restudy.",
+   "check": {
+    "verdict": "supported",
+    "passage": "Again, no evidence of a testing effect was found. Thus, across four experiments, with different types of initial tests, different problem-solving domains, and different participant populations, we found no evidence that testing enhanced delayed test performance compared to restudy.",
+    "reason": "Passage 1 states that across four experiments with different initial tests, domains, and populations, testing did not enhance delayed test performance compared to restudy.",
+    "retrieval_score": 0.883,
+    "quote_found": true,
+    "citation": {
+     "resolves": true,
+     "title_match": true,
+     "registry": "crossref",
+     "registry_title": "Testing After Worked Example Study Does Not Enhance Delayed Problem-Solving Performance Compared to Restudy"
+    }
+   }
+  },
+  {
+   "id": "E10",
+   "role": "counterexample",
+   "subquestion": "Does self-testing (retrieval practice) improve long-term retention more than rereading? (look for evidence against or limits)",
+   "claim": "In two online Prolific experiments using validated materials, delayed posttests, corrective feedback, and factual plus application measures, retrieval practice produced no significant advantage over restudy at delayed test.",
+   "source_id": "W7125926383",
+   "stance": "limits",
+   "quote": "No significant differences were found between groups at delayed test, despite multiple safeguards aimed at promoting participant engagement (e.g., prescreening filters, attention checks, fair compensation).",
+   "check": {
+    "verdict": "supported",
+    "passage": "In both experiments, participants were randomly assigned to a retrieval-practice (test) or restudy condition. No significant differences were found between groups at delayed test, despite multiple safeguards aimed at promoting participant engagement (e.g., prescreening filters, attention checks, fair compensation).",
+    "reason": "Passage 1 states that both experiments found no significant differences between retrieval-practice and restudy groups at delayed test, and passage 2 confirms the validated materials and key methodological features named in the claim.",
+    "retrieval_score": 0.757,
+    "quote_found": true,
+    "citation": {
+     "resolves": true,
+     "title_match": true,
+     "registry": "crossref",
+     "registry_title": "Testing the testing effect on prolific: when retrieval practice fails to boost learning"
+    }
+   }
+  },
+  {
+   "id": "E11",
+   "role": "counterexample",
+   "subquestion": "Does self-testing (retrieval practice) improve long-term retention more than rereading? (look for evidence against or limits)",
+   "claim": "For briefly encountered academically relevant facts, long-term retention was best when restudy was combined with self-testing rather than replacing restudy with repeated testing.",
+   "source_id": "W4387580672",
+   "stance": "limits",
+   "quote": "Contrary to prior work, long-term memory was superior for facts the were restudied in addition to self-tested (SST > STT = SSS).",
+   "check": {
+    "verdict": "not_supported",
+    "passage": "We were also interested in whether restudying after a test would provide any additional benefits compared to restudying before test. Method In the current study, participants encountered academically relevant facts a total of three times; each time either studied (S) or self-tested (T).",
+    "reason": "The passages describe the study design and research questions but do not state that combined restudy and self-testing produced the best long-term retention for briefly encountered academically relevant facts.",
+    "retrieval_score": 0.765,
+    "quote_found": true,
+    "citation": {
+     "resolves": true,
+     "title_match": true,
+     "registry": "crossref",
+     "registry_title": "A combination of restudy and retrieval practice maximizes retention of briefly encountered facts"
+    }
+   }
+  }
+ ],
+ "queries_tried": [
+  "retrieval practice versus rereading delayed recall",
+  "testing effect long-term retention interval",
+  "test-enhanced learning long-term retention Roediger Karpicke retention interval",
+  "retrieval practice no benefit compared rereading long-term retention boundary conditions",
+  "feedback spacing retrieval practice retention",
+  "testing effect fails to replicate no benefit of testing over restudy",
+  "testing effect feedback moderator spacing retention meta-analysis",
+  "testing effect rereading delayed recall one week experiment",
+  "testing effect retention interval meta-analysis moderators delay",
+  "feedback moderates testing effect retrieval practice meta-analysis corrective feedback"
+ ],
+ "decisions": [
+  {
+   "decision": "plan",
+   "candidates": [
+    {
+     "subquestions": [
+      {
+       "q": "Does retrieval practice improve delayed recall compared with rereading?",
+       "query": "retrieval practice versus rereading delayed recall"
+      },
+      {
+       "q": "How long does the testing effect persist over retention intervals?",
+       "query": "testing effect long-term retention interval"
+      },
+      {
+       "q": "Do feedback and spacing moderate retrieval practice benefits?",
+       "query": "feedback spacing retrieval practice retention"
+      }
+     ]
+    },
+    {
+     "subquestions": [
+      {
+       "q": "What do meta-analyses conclude about the testing effect versus rereading?",
+       "query": "meta-analysis testing effect rereading"
+      },
+      {
+       "q": "Does retrieval practice outperform rereading in classroom settings?",
+       "query": "classroom retrieval practice versus rereading"
+      },
+      {
+       "q": "Is the testing effect moderated by learning material type?",
+       "query": "material type testing effect retention"
+      }
+     ]
+    },
+    {
+     "subquestions": [
+      {
+       "q": "Do individual differences moderate retrieval practice effects on retention?",
+       "query": "retrieval practice individual differences retention"
+      },
+      {
+       "q": "Does test format influence the long-term benefits of retrieval practice?",
+       "query": "test format retrieval practice retention"
+      },
+      {
+       "q": "How does combined rereading plus retrieval practice compare with rereading alone?",
+       "query": "combined rereading retrieval practice retention"
+      }
+     ]
+    }
+   ],
+   "scores": [
+    10.0,
+    9.0,
+    8.0
+   ],
+   "chosen": 0,
+   "why": "Candidate 1 best targets the direct comparison, long-term retention intervals, and key moderators; Candidate 2 is strong but less explicit about retention intervals; Candidate 3 is specific but only indirectly addresses retrieval practice versus rereading alone."
+  }
+ ],
+ "trace": [
+  {
+   "t": 0.0,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 0,
+   "action": "search_papers",
+   "thought": "I need to search for peer-reviewed studies comparing retrieval practice and rereading on delayed recall.",
+   "args": {
+    "query": "retrieval practice versus rereading delayed recall"
+   }
+  },
+  {
+   "t": 0.0,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 0,
+   "action": "search_papers",
+   "thought": "I will search for studies on the testing effect and long-term retention intervals to identify relevant peer-reviewed sources.",
+   "args": {
+    "query": "testing effect long-term retention interval"
+   }
+  },
+  {
+   "t": 0.0,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 0,
+   "action": "search_papers",
+   "thought": "I will search for peer-reviewed studies on feedback, spacing, and retrieval practice retention to identify sources that directly address moderators.",
+   "args": {
+    "query": "feedback spacing retrieval practice retention"
+   }
+  },
+  {
+   "t": 0.0,
+   "agent": "counterexample",
+   "event": "act",
+   "step": 0,
+   "action": "search_papers",
+   "thought": "Search for evidence that retrieval practice fails to outperform rereading or has boundary conditions.",
+   "args": {
+    "query": "retrieval practice no benefit compared rereading long-term retention boundary conditions"
+   }
+  },
+  {
+   "t": 0.0,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 1,
+   "action": "search_papers",
+   "thought": "The initial results include relevant testing-effect papers, but I need sources that directly quantify persistence across retention intervals, so I will search for classic test-enhanced learning studie",
+   "args": {
+    "query": "test-enhanced learning long-term retention Roediger Karpicke retention interval"
+   }
+  },
+  {
+   "t": 0.0,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 1,
+   "action": "fetch_source",
+   "thought": "The two review articles likely directly compare retrieval practice to rereading on delayed tests, so I'll fetch them first.",
+   "args": {
+    "source_id": "W3091645833"
+   }
+  },
+  {
+   "t": 0.0,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 2,
+   "action": "fetch_source",
+   "thought": "I will fetch the test-enhanced learning review and the pre-testing study, which likely report retention-interval comparisons.",
+   "args": {
+    "source_id": "W2152957004"
+   }
+  },
+  {
+   "t": 0.0,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 1,
+   "action": "fetch_source",
+   "thought": "I will open the most relevant review on retrieval practice and long-term retention to see whether it discusses feedback and spacing as moderators.",
+   "args": {
+    "source_id": "W2888571438"
+   }
+  },
+  {
+   "t": 0.0,
+   "agent": "counterexample",
+   "event": "act",
+   "step": 1,
+   "action": "search_papers",
+   "thought": "These results mostly support retrieval practice; I need searches with explicit contrary phrasing like 'no benefit' or 'fails to replicate'.",
+   "args": {
+    "query": "testing effect fails to replicate no benefit of testing over restudy"
+   }
+  },
+  {
+   "t": 0.0,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 2,
+   "action": "fetch_source",
+   "thought": "The McDermott review is general; I'll fetch the classroom review which likely contrasts retrieval practice with rereading on delayed tests.",
+   "args": {
+    "source_id": "W2913221302"
+   }
+  },
+  {
+   "t": 0.01,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 3,
+   "action": "fetch_source",
+   "thought": "The review is general; I need studies quantifying retention intervals, so I will fetch the pre-testing study and search for interval-specific testing-effect experiments.",
+   "args": {
+    "source_id": "W2975380695"
+   }
+  },
+  {
+   "t": 0.01,
+   "agent": "counterexample",
+   "event": "act",
+   "step": 2,
+   "action": "fetch_source",
+   "thought": "Several promising contrary sources; fetch the worked-example and Prolific replication failures first.",
+   "args": {
+    "source_id": "W2082988750"
+   }
+  },
+  {
+   "t": 0.01,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 2,
+   "action": "search_papers",
+   "thought": "This review mentions spacing and feedback as implementation considerations but lacks specific moderation evidence, so I will search for studies directly testing feedback and spacing as moderators of t",
+   "args": {
+    "query": "testing effect feedback moderator spacing retention meta-analysis"
+   }
+  },
+  {
+   "t": 0.01,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 4,
+   "action": "search_papers",
+   "thought": "I need a source that directly manipulates retention interval length, so I will search for the classic Roediger & Karpicke study and meta-analyses on retention interval moderators.",
+   "args": {
+    "query": "testing effect retention interval meta-analysis moderators delay"
+   }
+  },
+  {
+   "t": 0.01,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 3,
+   "action": "search_papers",
+   "thought": "I have two supporting reviews; one more search for a direct empirical delayed-recall comparison would strengthen the findings.",
+   "args": {
+    "query": "testing effect rereading delayed recall one week experiment"
+   }
+  },
+  {
+   "t": 0.01,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 3,
+   "action": "fetch_source",
+   "thought": "The 2026 meta-analysis on boundary conditions in classrooms likely tests feedback and spacing as moderators, so I will fetch it.",
+   "args": {
+    "source_id": "W7224189015"
+   }
+  },
+  {
+   "t": 0.01,
+   "agent": "counterexample",
+   "event": "act",
+   "step": 3,
+   "action": "fetch_source",
+   "thought": "Fetch the Prolific replication-failure paper for a second contrary finding.",
+   "args": {
+    "source_id": "W7125926383"
+   }
+  },
+  {
+   "t": 0.01,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 4,
+   "action": "fetch_source",
+   "thought": "The repeated-testing-vs-rereading study in an educational context directly addresses the subquestion, so I'll fetch it.",
+   "args": {
+    "source_id": "W2071538318"
+   }
+  },
+  {
+   "t": 0.01,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 5,
+   "action": "finish",
+   "thought": "Only two sources were fetched; I will report their specific claims about testing effects and retention intervals.",
+   "args": {}
+  },
+  {
+   "t": 0.01,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 4,
+   "action": "search_papers",
+   "thought": "This meta-analysis covers spacing moderators but attributes feedback moderation to interleaving, so I need a source specifically testing feedback as a moderator of the testing/retrieval practice effec",
+   "args": {
+    "query": "feedback moderates testing effect retrieval practice meta-analysis corrective feedback"
+   }
+  },
+  {
+   "t": 0.01,
+   "agent": "counterexample",
+   "event": "act",
+   "step": 4,
+   "action": "fetch_source",
+   "thought": "Fetch the paper suggesting restudy+retrieval combos beat retrieval alone, to add a limiting finding.",
+   "args": {
+    "source_id": "W4387580672"
+   }
+  },
+  {
+   "t": 0.01,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 5,
+   "action": "finish",
+   "thought": "Three fetched sources support that retrieval practice beats rereading, including at delayed tests.",
+   "args": {}
+  },
+  {
+   "t": 0.01,
+   "agent": "source_finder",
+   "event": "act",
+   "step": 5,
+   "action": "finish",
+   "thought": "I have fetched two sources; I will report the spacing moderation evidence and the feedback-related findings exactly as stated, noting the feedback moderation applied to interleaving rather than retrie",
+   "args": {}
+  },
+  {
+   "t": 0.01,
+   "agent": "counterexample",
+   "event": "act",
+   "step": 5,
+   "action": "finish",
+   "thought": "Three fetched sources provide credible limits/challenges to the claim that self-testing beats rereading for long-term retention.",
+   "args": {}
+  },
+  {
+   "t": 0.01,
+   "agent": "claim_checker",
+   "event": "check",
+   "finding": "E2",
+   "verdict": "partial",
+   "quote_found": true,
+   "doi_ok": true
+  },
+  {
+   "t": 0.01,
+   "agent": "claim_checker",
+   "event": "check",
+   "finding": "E3",
+   "verdict": "supported",
+   "quote_found": true,
+   "doi_ok": true
+  },
+  {
+   "t": 0.01,
+   "agent": "claim_checker",
+   "event": "check",
+   "finding": "E1",
+   "verdict": "partial",
+   "quote_found": true,
+   "doi_ok": true
+  },
+  {
+   "t": 0.01,
+   "agent": "claim_checker",
+   "event": "check",
+   "finding": "E4",
+   "verdict": "supported",
+   "quote_found": true,
+   "doi_ok": true
+  },
+  {
+   "t": 0.01,
+   "agent": "claim_checker",
+   "event": "check",
+   "finding": "E5",
+   "verdict": "supported",
+   "quote_found": true,
+   "doi_ok": true
+  },
+  {
+   "t": 0.01,
+   "agent": "claim_checker",
+   "event": "check",
+   "finding": "E8",
+   "verdict": "supported",
+   "quote_found": true,
+   "doi_ok": true
+  },
+  {
+   "t": 0.01,
+   "agent": "claim_checker",
+   "event": "check",
+   "finding": "E6",
+   "verdict": "supported",
+   "quote_found": true,
+   "doi_ok": true
+  },
+  {
+   "t": 0.01,
+   "agent": "claim_checker",
+   "event": "check",
+   "finding": "E7",
+   "verdict": "supported",
+   "quote_found": true,
+   "doi_ok": true
+  },
+  {
+   "t": 0.01,
+   "agent": "claim_checker",
+   "event": "check",
+   "finding": "E9",
+   "verdict": "supported",
+   "quote_found": true,
+   "doi_ok": true
+  },
+  {
+   "t": 0.01,
+   "agent": "claim_checker",
+   "event": "check",
+   "finding": "E10",
+   "verdict": "supported",
+   "quote_found": true,
+   "doi_ok": true
+  },
+  {
+   "t": 0.01,
+   "agent": "claim_checker",
+   "event": "check",
+   "finding": "E11",
+   "verdict": "not_supported",
+   "quote_found": true,
+   "doi_ok": true
+  },
+  {
+   "t": 0.01,
+   "agent": "coordinator",
+   "event": "review",
+   "round": 0,
+   "verified": 10,
+   "gaps": []
+  }
+ ],
+ "gaps": [
+  "Ambiguity not clarified (non-interactive run): What retention interval and learner population should be assumed?"
+ ],
+ "conflicts": [
+  "Writer reported credible sources that contradict each other without explanation."
+ ],
+ "needs_human_review": true,
+ "started": 1795333128.309493
+}

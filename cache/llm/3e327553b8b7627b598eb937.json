@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201d4-e1b7-7940-9fb6-451fb4e22e2a",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327058,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Search for evidence that growth mindset interventions fail or have limited effects on achievement.\", \"action\": \"search_papers\", \"args\": {\"query\": \"growth mindset intervention no effect academic achievement randomized trial\"}}",
+    "reasoning_content": "We need answer only JSON. Need search contrary evidence. Need use tools. Start search.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 375,
+  "completion_tokens": 65,
+  "total_tokens": 440,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 19
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 19.21
+}

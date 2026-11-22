@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201e9-8a21-719e-9d69-335b9e525751",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795328412,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"ambiguity\": \"Which cognitive domain and post-exercise timing should define 'cognitive performance'?\", \"candidates\": [{\"subquestions\": [{\"q\": \"Does acute aerobic exercise improve executive function in young adults?\", \"query\": \"acute aerobic exercise executive function young adults\"}, {\"q\": \"Does acute aerobic exercise improve episodic memory in young adults?\", \"query\": \"acute aerobic exercise episodic memory young adults\"}, {\"q\": \"Does acute aerobic exercise improve attention in young adults?\", \"query\": \"acute aerobic exercise attention young adults\"}]}, {\"subquestions\": [{\"q\": \"What is the effect of acute aerobic exercise on cognitive performance immediately after exercise?\", \"query\": \"acute exercise cognitive performance immediate post-exercise\"}, {\"q\": \"Does the cognitive effect persist after a delay following acute aerobic exercise?\", \"query\": \"acute exercise cognitive performance delayed assessment\"}, {\"q\": \"Does exercise intensity moderate acute cognitive effects in young adults?\", \"query\": \"exercise intensity acute cognitive effects young adults\"}]}, {\"subquestions\": [{\"q\": \"Does baseline fitness moderate acute exercise cognitive benefits in young adults?\", \"query\": \"baseline fitness acute exercise cognition young adults\"}, {\"q\": \"Does exercise duration moderate acute cognitive effects in young adults?\", \"query\": \"exercise duration acute cognitive effects young adults\"}, {\"q\": \"Are acute cognitive effects observed compared with seated rest?\", \"query\": \"acute exercise versus rest cognitive performance\"}]}]}",
+    "reasoning_content": "We need answer JSON only. Need propose 3 different plans. Each plan breaks question into 2 or 3 subquestions researchable independently in scholarly literature, each with one short search query 4-8 words. Ambiguity if question ambiguous in way changes answer. Need identify ambiguity: \"single bout aerobic exercise improve cognitive performance in young adults\" ambiguous: what cognitive domain? timing of assessment? intensity/duration? definition young adults? \"improve\" compared to what? Need set ambiguity to clarifying question. Since asks if ambiguous in way would change answer. We can include one clarifying question. Need JSON only. Need 3 candidates each with subquestions. Need ensure queries 4-8 words. Need subquestions distinct plans. Plan 1 maybe domain-specific: executive function, memory, attention. Plan 2 timing: acute effects immediately post, after delay, dose-response. Plan 3 population/moderators: fitness level, exercise intensity, comparison control. Need each plan 2-3 subquestions. Queries 4-8 words. Need JSON valid. Ambiguity string. Let's craft.\n\nNeed \"single bout\" acute exercise. Young adults. Cognitive performance. Ambiguity: \"Which cognitive domain and post-exercise timing should define 'cognitive performance'?\" That's clarifying. Could be one question. JSON only.\n\nNeed candidates array with subquestions q and query. Each plan 2 or 3. Queries 4-8 words. Count words. Need avoid too long. Let's formulate.\n\nPlan 1: cognitive domains:\n- Does acute aerobic exercise improve executive function in young adults? query: \"acute aerobic exercise executive function young adults\" (6? acute1 aerobic2 exercise3 executive4 function5 young6 adults7) 7.\n- Does acute aerobic exercise improve episodic memory in young adults? query: \"acute aerobic exercise episodic memory young adults\" 7.\n- Does acute aerobic exercise improve attention in young adults? query: \"acute aerobic exercise attention young adults\" 6.\n\nPlan 2: timing/dose:\n- What is effect of acute aerobic exercise on cognitive performance immediately after exercise? query: \"acute exercise cognitive performance immediate post-exercise\" (5? acute1 exercise2 cognitive3 performance4 immediate5 post-exercise6) 6.\n- Does effect persist after delay? query: \"acute exercise cognitive performance delayed assessment\" 6.\n- Does exercise intensity moderate acute cognitive effects? query: \"exercise intensity acute cognitive effects young adults\" 7.\n\nPlan 3: moderators/comparison:\n- Does baseline fitness moderate acute exercise cognitive benefits? query: \"baseline fitness acute exercise cognition young adults\" 7.\n- Does exercise duration moderate acute cognitive effects? query: \"exercise duration acute cognitive effects young adults\" 7.\n- Are effects compared with seated rest? query: \"acute exercise versus rest cognitive performance\" 6.\n\nNeed maybe \"aerobic\" in queries. Plan 3 first query lacks aerobic but okay. Need 4-8 words. Good.\n\nNeed JSON only. Ensure no markdown. Use null? ambiguity not null. String. Final.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 163,
+  "completion_tokens": 934,
+  "total_tokens": 1097,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 639
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 13.22
+}

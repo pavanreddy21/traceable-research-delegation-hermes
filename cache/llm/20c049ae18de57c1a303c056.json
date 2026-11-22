@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201e5-08e7-7c7e-93dc-2273183585c6",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795328116,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"I will fetch the experimental study comparing adolescents with low versus high media multitasking on distracted attention.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W4210486006\"}}",
+    "reasoning_content": "I have two sources. Maybe fetch one more for the experimental/behavioral evidence. Let me fetch W4210486006.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1646,
+  "completion_tokens": 73,
+  "total_tokens": 1719,
+  "prompt_tokens_details": {
+   "cached_tokens": 1280
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 27
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.23
+}

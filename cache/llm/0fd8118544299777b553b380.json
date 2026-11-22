@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201af-dee6-7acc-9c08-125bf40085a2",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795324632,
+ "model": "google/gemma-4-12B-it",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "```json\n{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"The passage explicitly states that overall effects were weak for both meta-analyses.\"}\n```",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 366,
+  "completion_tokens": 39,
+  "total_tokens": 405,
+  "prompt_tokens_details": {
+   "cached_tokens": 16
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.26
+}

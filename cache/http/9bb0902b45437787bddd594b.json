@@ -1,0 +1,3304 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 48,
+   "db_response_time_ms": 104,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (working memory capacity extraversion background music reading comprehension moderation) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (working memory capacity extraversion background music reading comprehension moderation) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "working memory capacity extraversion background music reading comprehension moderation",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:working memory capacity extraversion background music reading comprehension moderation,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4395479383",
+    "doi": "https://doi.org/10.1038/s41598-024-60218-z",
+    "title": "The role of mood and arousal in the effect of background music on attentional state and performance during a sustained attention task",
+    "display_name": "The role of mood and arousal in the effect of background music on attentional state and performance during a sustained attention task",
+    "publication_year": 2024,
+    "cited_by_count": 40,
+    "abstract_inverted_index": {
+     "Across": [
+      0
+     ],
+     "two": [
+      1
+     ],
+     "online": [
+      2
+     ],
+     "experiments,": [
+      3,
+      111
+     ],
+     "this": [
+      4
+     ],
+     "study": [
+      5
+     ],
+     "explored": [
+      6
+     ],
+     "the": [
+      7,
+      61,
+      85,
+      100,
+      157,
+      186,
+      190
+     ],
+     "effect": [
+      8
+     ],
+     "of": [
+      9,
+      102,
+      189,
+      192
+     ],
+     "preferred": [
+      10
+     ],
+     "background": [
+      11,
+      56,
+      193
+     ],
+     "music": [
+      12,
+      57,
+      73,
+      90,
+      98,
+      112,
+      126,
+      144,
+      194
+     ],
+     "on": [
+      13,
+      21,
+      152
+     ],
+     "attentional": [
+      14,
+      77,
+      160
+     ],
+     "state": [
+      15
+     ],
+     "and": [
+      16,
+      23,
+      38,
+      69,
+      74,
+      81,
+      94,
+      115,
+      140,
+      145,
+      155,
+      164,
+      179,
+      182
+     ],
+     "performance,": [
+      17
+     ],
+     "as": [
+      18,
+      20
+     ],
+     "well": [
+      19
+     ],
+     "mood": [
+      22,
+      82,
+      139,
+      175
+     ],
+     "arousal,": [
+      24,
+      80
+     ],
+     "during": [
+      25,
+      58
+     ],
+     "a": [
+      26
+     ],
+     "vigilance": [
+      27,
+      62
+     ],
+     "task.": [
+      28,
+      86
+     ],
+     "It": [
+      29
+     ],
+     "extended": [
+      30
+     ],
+     "recent": [
+      31
+     ],
+     "laboratory": [
+      32,
+      121
+     ],
+     "findings-showing": [
+      33
+     ],
+     "an": [
+      34
+     ],
+     "increase": [
+      35
+     ],
+     "in": [
+      36,
+      40,
+      64,
+      119,
+      123
+     ],
+     "task-focus": [
+      37
+     ],
+     "decrease": [
+      39
+     ],
+     "mind-wandering": [
+      41,
+      114
+     ],
+     "states": [
+      42
+     ],
+     "with": [
+      43,
+      46,
+      68,
+      143,
+      185
+     ],
+     "music-to": [
+      44
+     ],
+     "environments": [
+      45
+     ],
+     "more": [
+      47
+     ],
+     "distractions": [
+      48
+     ],
+     "around": [
+      49
+     ],
+     "participants.": [
+      50
+     ],
+     "Participants-people": [
+      51
+     ],
+     "who": [
+      52
+     ],
+     "normally": [
+      53
+     ],
+     "listen": [
+      54
+     ],
+     "to": [
+      55,
+      91,
+      105,
+      129,
+      148,
+      172
+     ],
+     "attention-demanding": [
+      59
+     ],
+     "tasks-completed": [
+      60
+     ],
+     "task": [
+      63
+     ],
+     "their": [
+      65,
+      71,
+      76
+     ],
+     "homes": [
+      66
+     ],
+     "both": [
+      67,
+      110,
+      124,
+      162
+     ],
+     "without": [
+      70
+     ],
+     "chosen": [
+      72
+     ],
+     "reported": [
+      75
+     ],
+     "state,": [
+      78,
+      161
+     ],
+     "subjective": [
+      79
+     ],
+     "valence": [
+      83
+     ],
+     "throughout": [
+      84
+     ],
+     "Experiment": [
+      87,
+      95
+     ],
+     "1": [
+      88
+     ],
+     "compared": [
+      89,
+      97
+     ],
+     "relative": [
+      92
+     ],
+     "silence": [
+      93
+     ],
+     "2": [
+      96
+     ],
+     "against": [
+      99
+     ],
+     "backdrop": [
+      101
+     ],
+     "continuous": [
+      103,
+      106
+     ],
+     "noise": [
+      104,
+      107
+     ],
+     "alone.": [
+      108
+     ],
+     "In": [
+      109
+     ],
+     "decreased": [
+      113
+     ],
+     "increased": [
+      116,
+      142
+     ],
+     "task-focus.": [
+      117
+     ],
+     "Unlike": [
+      118
+     ],
+     "previous": [
+      120
+     ],
+     "studies,": [
+      122
+     ],
+     "experiments": [
+      125
+     ],
+     "also": [
+      127
+     ],
+     "led": [
+      128
+     ],
+     "faster": [
+      130
+     ],
+     "reaction": [
+      131,
+      153
+     ],
+     "times": [
+      132
+     ],
+     "while": [
+      133
+     ],
+     "increasing": [
+      134
+     ],
+     "low-arousal": [
+      135
+     ],
+     "external-distraction": [
+      136
+     ],
+     "states.": [
+      137
+     ],
+     "Importantly,": [
+      138
+     ],
+     "arousal": [
+      141,
+      180
+     ],
+     "were": [
+      146,
+      169,
+      183
+     ],
+     "shown": [
+      147
+     ],
+     "mediate": [
+      149
+     ],
+     "its": [
+      150
+     ],
+     "effects": [
+      151,
+      168
+     ],
+     "time": [
+      154,
+      159
+     ],
+     "for": [
+      156
+     ],
+     "first": [
+      158,
+      178
+     ],
+     "separately": [
+      163
+     ],
+     "together.": [
+      165
+     ],
+     "Serial": [
+      166
+     ],
+     "mediation": [
+      167
+     ],
+     "mostly": [
+      170
+     ],
+     "confined": [
+      171
+     ],
+     "models": [
+      173
+     ],
+     "where": [
+      174
+     ],
+     "was": [
+      176
+     ],
+     "entered": [
+      177
+     ],
+     "second": [
+      181
+     ],
+     "consistent": [
+      184
+     ],
+     "mood-arousal": [
+      187
+     ],
+     "account": [
+      188
+     ],
+     "impact": [
+      191
+     ],
+     "listening.": [
+      195
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5002719922",
+       "display_name": "Luca Kiss",
+       "orcid": "https://orcid.org/0000-0001-8439-2934",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8439-2934"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I55521800",
+        "display_name": "Goldsmiths University of London",
+        "ror": "https://ror.org/01khx4a30",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I124357947",
+         "https://openalex.org/I55521800"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Luca Kiss",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Goldsmiths University of London, 8 Lewisham Way, New Cross, London, SE14 6NW, UK. lkiss001@gold.ac.uk",
+       "OPEN Department of Psychology, Goldsmiths University of London, 8 Lewisham Way, New Cross, London SE14 6NW, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Goldsmiths University of London, 8 Lewisham Way, New Cross, London, SE14 6NW, UK. lkiss001@gold.ac.uk",
+        "institution_ids": [
+         "https://openalex.org/I55521800"
+        ]
+       },
+       {
+        "raw_affiliation_string": "OPEN Department of Psychology, Goldsmiths University of London, 8 Lewisham Way, New Cross, London SE14 6NW, UK",
+        "institution_ids": [
+         "https://openalex.org/I55521800"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5022727092",
+       "display_name": "Karina J. Linnell",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I55521800",
+        "display_name": "Goldsmiths University of London",
+        "ror": "https://ror.org/01khx4a30",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I124357947",
+         "https://openalex.org/I55521800"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Karina J. Linnell",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Goldsmiths University of London, 8 Lewisham Way, New Cross, London, SE14 6NW, UK",
+       "OPEN Department of Psychology, Goldsmiths University of London, 8 Lewisham Way, New Cross, London SE14 6NW, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Goldsmiths University of London, 8 Lewisham Way, New Cross, London, SE14 6NW, UK",
+        "institution_ids": [
+         "https://openalex.org/I55521800"
+        ]
+       },
+       {
+        "raw_affiliation_string": "OPEN Department of Psychology, Goldsmiths University of London, 8 Lewisham Way, New Cross, London SE14 6NW, UK",
+        "institution_ids": [
+         "https://openalex.org/I55521800"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1038/s41598-024-60218-z",
+     "doi": "https://doi.org/10.1038/s41598-024-60218-z",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1038/s41598-024-60218-z",
+     "pdf_url": "https://www.nature.com/articles/s41598-024-60218-z.pdf",
+     "source": {
+      "id": "https://openalex.org/S196734849",
+      "display_name": "Scientific Reports",
+      "issn_l": "2045-2322",
+      "issn": [
+       "2045-2322"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "dongbi-c",
+       "doyens",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319908",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Nature Portfolio",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Scientific Reports",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3144694578",
+    "doi": "https://doi.org/10.25215/0901.144",
+    "title": "Effects of Auditory Simulation and Personality Types on Working Memory",
+    "display_name": "Effects of Auditory Simulation and Personality Types on Working Memory",
+    "publication_year": 2021,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "Working": [
+      0
+     ],
+     "memory": [
+      1,
+      20,
+      113
+     ],
+     "is": [
+      2
+     ],
+     "very": [
+      3
+     ],
+     "crucial": [
+      4
+     ],
+     "as": [
+      5,
+      35
+     ],
+     "it": [
+      6
+     ],
+     "influences": [
+      7
+     ],
+     "higher": [
+      8
+     ],
+     "cognition.": [
+      9
+     ],
+     "We": [
+      10,
+      67
+     ],
+     "conducted": [
+      11
+     ],
+     "a": [
+      12,
+      36,
+      41
+     ],
+     "study": [
+      13
+     ],
+     "testing": [
+      14
+     ],
+     "auditory": [
+      15,
+      45,
+      85
+     ],
+     "simulations": [
+      16,
+      86
+     ],
+     "effect": [
+      17
+     ],
+     "on": [
+      18,
+      62,
+      94
+     ],
+     "working": [
+      19,
+      95
+     ],
+     "while": [
+      21
+     ],
+     "considering": [
+      22
+     ],
+     "personality": [
+      23,
+      32,
+      101
+     ],
+     "type.": [
+      24
+     ],
+     "161": [
+      25
+     ],
+     "participants": [
+      26
+     ],
+     "college": [
+      27
+     ],
+     "students": [
+      28
+     ],
+     "did": [
+      29,
+      74
+     ],
+     "the": [
+      30,
+      63,
+      77
+     ],
+     "Eysenck": [
+      31
+     ],
+     "questionnaire": [
+      33
+     ],
+     "(EPQ-R)": [
+      34
+     ],
+     "pretest,": [
+      37
+     ],
+     "followed": [
+      38
+     ],
+     "by": [
+      39
+     ],
+     "reading": [
+      40
+     ],
+     "prose": [
+      42,
+      64
+     ],
+     "with": [
+      43
+     ],
+     "an": [
+      44
+     ],
+     "simulation": [
+      46
+     ],
+     "based": [
+      47,
+      61
+     ],
+     "assigned": [
+      48
+     ],
+     "group": [
+      49
+     ],
+     "(pop,": [
+      50
+     ],
+     "classical,": [
+      51
+     ],
+     "white": [
+      52
+     ],
+     "noise": [
+      53
+     ],
+     "and": [
+      54,
+      71,
+      111
+     ],
+     "silence).": [
+      55
+     ],
+     "Then": [
+      56
+     ],
+     "they": [
+      57
+     ],
+     "answered": [
+      58
+     ],
+     "multiple-choice": [
+      59
+     ],
+     "questions": [
+      60
+     ],
+     "in": [
+      65
+     ],
+     "silence.": [
+      66
+     ],
+     "found": [
+      68
+     ],
+     "that": [
+      69
+     ],
+     "pop": [
+      70
+     ],
+     "classical": [
+      72
+     ],
+     "groups": [
+      73,
+      80
+     ],
+     "better,": [
+      75
+     ],
+     "although": [
+      76
+     ],
+     "difference": [
+      78
+     ],
+     "across": [
+      79
+     ],
+     "was": [
+      81
+     ],
+     "not": [
+      82
+     ],
+     "significant.": [
+      83
+     ],
+     "Hence": [
+      84
+     ],
+     "have": [
+      87
+     ],
+     "no": [
+      88
+     ],
+     "negative": [
+      89
+     ],
+     "or": [
+      90
+     ],
+     "significant": [
+      91
+     ],
+     "positive": [
+      92
+     ],
+     "effects": [
+      93
+     ],
+     "memory,": [
+      96
+     ],
+     "furthermore,": [
+      97
+     ],
+     "unlike": [
+      98
+     ],
+     "previous": [
+      99
+     ],
+     "studies,": [
+      100
+     ],
+     "didn\u2019t": [
+      102
+     ],
+     "affect": [
+      103
+     ],
+     "performance.": [
+      104
+     ],
+     "Future": [
+      105
+     ],
+     "studies": [
+      106
+     ],
+     "can": [
+      107
+     ],
+     "consider": [
+      108
+     ],
+     "participants\u2019": [
+      109
+     ],
+     "preferences": [
+      110
+     ],
+     "context-dependent": [
+      112
+     ],
+     "to": [
+      114
+     ],
+     "better": [
+      115
+     ],
+     "explore": [
+      116
+     ],
+     "this": [
+      117
+     ],
+     "phenomenon.": [
+      118
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5023010345",
+       "display_name": "Nancy David",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I48018076",
+        "display_name": "Christ University",
+        "ror": "https://ror.org/022tv9y30",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I48018076"
+        ]
+       }
+      ],
+      "countries": [
+       "IN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Nancy David",
+      "raw_affiliation_strings": [
+       "BA, final year,Department of Music, CHRIST (Deemed to be University), Bangalore, Karnataka,  India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "BA, final year,Department of Music, CHRIST (Deemed to be University), Bangalore, Karnataka,  India",
+        "institution_ids": [
+         "https://openalex.org/I48018076"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5042764298",
+       "display_name": "Kimberley Muzeyi",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I48018076",
+        "display_name": "Christ University",
+        "ror": "https://ror.org/022tv9y30",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I48018076"
+        ]
+       }
+      ],
+      "countries": [
+       "IN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Kimberley Muzeyi",
+      "raw_affiliation_strings": [
+       "BA, final year,Department of Music, CHRIST (Deemed to be University), Bangalore, Karnataka,  India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "BA, final year,Department of Music, CHRIST (Deemed to be University), Bangalore, Karnataka,  India",
+        "institution_ids": [
+         "https://openalex.org/I48018076"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5091510287",
+       "display_name": "Sonia Elizabeth Prasadam",
+       "orcid": "https://orcid.org/0000-0002-0412-4145",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0412-4145"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I48018076",
+        "display_name": "Christ University",
+        "ror": "https://ror.org/022tv9y30",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I48018076"
+        ]
+       }
+      ],
+      "countries": [
+       "IN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Sonia Elizabeth Prasadam",
+      "raw_affiliation_strings": [
+       "Assistant Professor, Department of Psychology, CHRIST (Deemed to be University), Bangalore, Karnataka, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Assistant Professor, Department of Psychology, CHRIST (Deemed to be University), Bangalore, Karnataka, India",
+        "institution_ids": [
+         "https://openalex.org/I48018076"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.25215/0901.144",
+     "doi": "https://doi.org/10.25215/0901.144",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.25215/0901.144",
+     "pdf_url": "https://ijip.in/wp-content/uploads/2021/04/18.01.144.20210901.pdf",
+     "source": {
+      "id": "https://openalex.org/S4210240362",
+      "display_name": "International Journal of Indian Psychology",
+      "issn_l": "2348-5396",
+      "issn": [
+       "2348-5396",
+       "2349-3429"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4328135222",
+      "host_organization_name": "Redshine Publication",
+      "host_organization_lineage": [
+       "https://openalex.org/P4328135222"
+      ],
+      "host_organization_lineage_names": [
+       "Redshine Publication"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "International Journal of Indian Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4399282864",
+    "doi": "https://doi.org/10.3390/jintelligence12060058",
+    "title": "Personality Traits and Family SES Moderate the Relationship between Media Multitasking and Reasoning Performance",
+    "display_name": "Personality Traits and Family SES Moderate the Relationship between Media Multitasking and Reasoning Performance",
+    "publication_year": 2024,
+    "cited_by_count": 9,
+    "abstract_inverted_index": {
+     "The": [
+      0,
+      170
+     ],
+     "prevalence": [
+      1
+     ],
+     "of": [
+      2,
+      71,
+      80,
+      146,
+      163,
+      207
+     ],
+     "media": [
+      3,
+      28,
+      60,
+      114,
+      133,
+      189,
+      208
+     ],
+     "multitasking": [
+      4,
+      29,
+      61,
+      115,
+      134,
+      190
+     ],
+     "has": [
+      5
+     ],
+     "raised": [
+      6
+     ],
+     "concerns": [
+      7
+     ],
+     "regarding": [
+      8,
+      187
+     ],
+     "its": [
+      9
+     ],
+     "potential": [
+      10
+     ],
+     "impact": [
+      11
+     ],
+     "on": [
+      12,
+      26,
+      41
+     ],
+     "cognitive": [
+      13,
+      33,
+      193
+     ],
+     "abilities.": [
+      14
+     ],
+     "Despite": [
+      15
+     ],
+     "increasing": [
+      16
+     ],
+     "attention": [
+      17
+     ],
+     "given": [
+      18
+     ],
+     "to": [
+      19,
+      32,
+      38,
+      138,
+      158,
+      192
+     ],
+     "this": [
+      20,
+      42,
+      66,
+      120
+     ],
+     "topic,": [
+      21
+     ],
+     "there": [
+      22
+     ],
+     "remains": [
+      23
+     ],
+     "no": [
+      24
+     ],
+     "consensus": [
+      25
+     ],
+     "how": [
+      27,
+      48,
+      188
+     ],
+     "is": [
+      30
+     ],
+     "related": [
+      31
+     ],
+     "performance.": [
+      34,
+      64,
+      118
+     ],
+     "This": [
+      35
+     ],
+     "study": [
+      36
+     ],
+     "aims": [
+      37
+     ],
+     "shed": [
+      39
+     ],
+     "light": [
+      40
+     ],
+     "issue": [
+      43
+     ],
+     "by": [
+      44,
+      125
+     ],
+     "examining": [
+      45
+     ],
+     "whether": [
+      46
+     ],
+     "and": [
+      47,
+      51,
+      62,
+      103,
+      116,
+      129,
+      150,
+      167
+     ],
+     "personality": [
+      49,
+      165
+     ],
+     "traits": [
+      50,
+      166
+     ],
+     "family": [
+      52,
+      130,
+      151,
+      168
+     ],
+     "socioeconomic": [
+      53
+     ],
+     "status": [
+      54
+     ],
+     "(SES)": [
+      55
+     ],
+     "moderate": [
+      56
+     ],
+     "the": [
+      57,
+      83,
+      88,
+      92,
+      96,
+      100,
+      104,
+      175,
+      184,
+      198,
+      204
+     ],
+     "relationship": [
+      58,
+      121
+     ],
+     "between": [
+      59,
+      113
+     ],
+     "reasoning": [
+      63,
+      117,
+      139
+     ],
+     "To": [
+      65
+     ],
+     "end,": [
+      67
+     ],
+     "a": [
+      68,
+      78,
+      110
+     ],
+     "large": [
+      69
+     ],
+     "sample": [
+      70
+     ],
+     "university": [
+      72
+     ],
+     "students": [
+      73
+     ],
+     "(n": [
+      74
+     ],
+     "=": [
+      75
+     ],
+     "777)": [
+      76
+     ],
+     "completed": [
+      77
+     ],
+     "battery": [
+      79
+     ],
+     "measures,": [
+      81
+     ],
+     "including": [
+      82
+     ],
+     "Raven\u2019s": [
+      84
+     ],
+     "Advanced": [
+      85
+     ],
+     "Progressive": [
+      86
+     ],
+     "Matrices,": [
+      87
+     ],
+     "Media": [
+      89
+     ],
+     "Multitasking": [
+      90
+     ],
+     "Inventory,": [
+      91,
+      95
+     ],
+     "Big": [
+      93
+     ],
+     "Five": [
+      94
+     ],
+     "Barratt": [
+      97
+     ],
+     "Impulsiveness": [
+      98
+     ],
+     "Scale,": [
+      99,
+      102
+     ],
+     "Grit": [
+      101
+     ],
+     "Family": [
+      105
+     ],
+     "SES": [
+      106
+     ],
+     "Questionnaire.": [
+      107
+     ],
+     "Results": [
+      108
+     ],
+     "revealed": [
+      109
+     ],
+     "negative": [
+      111,
+      205
+     ],
+     "correlation": [
+      112
+     ],
+     "However,": [
+      119
+     ],
+     "was": [
+      122,
+      135,
+      155
+     ],
+     "substantially": [
+      123
+     ],
+     "moderated": [
+      124
+     ],
+     "conscientiousness,": [
+      126,
+      147
+     ],
+     "extraversion,": [
+      127,
+      148
+     ],
+     "openness,": [
+      128,
+      149
+     ],
+     "SES.": [
+      131,
+      169
+     ],
+     "Specifically,": [
+      132
+     ],
+     "more": [
+      136
+     ],
+     "detrimental": [
+      137,
+      157
+     ],
+     "performance": [
+      140
+     ],
+     "among": [
+      141
+     ],
+     "individuals": [
+      142
+     ],
+     "with": [
+      143,
+      160
+     ],
+     "lower": [
+      144
+     ],
+     "levels": [
+      145,
+      162
+     ],
+     "SES,": [
+      152
+     ],
+     "whereas": [
+      153
+     ],
+     "it": [
+      154
+     ],
+     "less": [
+      156
+     ],
+     "counterparts": [
+      159
+     ],
+     "higher": [
+      161
+     ],
+     "these": [
+      164
+     ],
+     "proposed": [
+      171
+     ],
+     "moderation": [
+      172
+     ],
+     "model,": [
+      173
+     ],
+     "for": [
+      174
+     ],
+     "first": [
+      176
+     ],
+     "time,": [
+      177
+     ],
+     "not": [
+      178
+     ],
+     "only": [
+      179
+     ],
+     "offers": [
+      180
+     ],
+     "novel": [
+      181
+     ],
+     "insights": [
+      182
+     ],
+     "into": [
+      183
+     ],
+     "theoretical": [
+      185
+     ],
+     "accounts": [
+      186
+     ],
+     "relates": [
+      191
+     ],
+     "abilities,": [
+      194
+     ],
+     "but": [
+      195
+     ],
+     "also": [
+      196
+     ],
+     "identifies": [
+      197
+     ],
+     "protective": [
+      199
+     ],
+     "factors": [
+      200
+     ],
+     "that": [
+      201
+     ],
+     "may": [
+      202
+     ],
+     "buffer": [
+      203
+     ],
+     "impacts": [
+      206
+     ],
+     "multitasking.": [
+      209
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": null,
+       "display_name": "Yuning Ma",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I76130692",
+        "display_name": "Zhejiang University",
+        "ror": "https://ror.org/00a2xv884",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I76130692"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       }
+      ],
+      "raw_author_name": "Yuning Ma",
+      "raw_affiliation_strings": [
+       "Department of Psychology and Behavioral Sciences, Zhejiang University, Hangzhou 310058, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology and Behavioral Sciences, Zhejiang University, Hangzhou 310058, China",
+        "institution_ids": [
+         "https://openalex.org/I76130692"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5113240331",
+       "display_name": "Jinrong Yin",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I76130692",
+        "display_name": "Zhejiang University",
+        "ror": "https://ror.org/00a2xv884",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I76130692"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/project-administration",
+        "display_name": "Project administration"
+       }
+      ],
+      "raw_author_name": "Jinrong Yin",
+      "raw_affiliation_strings": [
+       "Department of Psychology and Behavioral Sciences, Zhejiang University, Hangzhou 310058, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology and Behavioral Sciences, Zhejiang University, Hangzhou 310058, China",
+        "institution_ids": [
+         "https://openalex.org/I76130692"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5101370999",
+       "display_name": "Hongzhou Xuan",
+       "orcid": "https://orcid.org/0009-0000-4597-9775",
+       "observed_orcids": [
+        "https://orcid.org/0009-0000-4597-9775"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I76130692",
+        "display_name": "Zhejiang University",
+        "ror": "https://ror.org/00a2xv884",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I76130692"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       }
+      ],
+      "raw_author_name": "Hongzhou Xuan",
+      "raw_affiliation_strings": [
+       "Department of Psychology and Behavioral Sciences, Zhejiang University, Hangzhou 310058, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology and Behavioral Sciences, Zhejiang University, Hangzhou 310058, China",
+        "institution_ids": [
+         "https://openalex.org/I76130692"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5100605999",
+       "display_name": "Xuezhu Ren",
+       "orcid": "https://orcid.org/0000-0002-3703-3194",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3703-3194"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I47720641",
+        "display_name": "Huazhong University of Science and Technology",
+        "ror": "https://ror.org/00p991c53",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I47720641"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Xuezhu Ren",
+      "raw_affiliation_strings": [
+       "School of Education, Huazhong University of Science & Technology, Wuhan 430074, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Education, Huazhong University of Science & Technology, Wuhan 430074, China",
+        "institution_ids": [
+         "https://openalex.org/I47720641"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5036692603",
+       "display_name": "Jie He",
+       "orcid": "https://orcid.org/0000-0002-7789-3084",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7789-3084"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I76130692",
+        "display_name": "Zhejiang University",
+        "ror": "https://ror.org/00a2xv884",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I76130692"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/project-administration",
+        "display_name": "Project administration"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Jie He",
+      "raw_affiliation_strings": [
+       "Department of Psychology and Behavioral Sciences, Zhejiang University, Hangzhou 310058, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-7789-3084",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology and Behavioral Sciences, Zhejiang University, Hangzhou 310058, China",
+        "institution_ids": [
+         "https://openalex.org/I76130692"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5100416148",
+       "display_name": "Tengfei Wang",
+       "orcid": "https://orcid.org/0000-0002-1585-4143",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1585-4143"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I76130692",
+        "display_name": "Zhejiang University",
+        "ror": "https://ror.org/00a2xv884",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I76130692"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Tengfei Wang",
+      "raw_affiliation_strings": [
+       "Department of Psychology and Behavioral Sciences, Zhejiang University, Hangzhou 310058, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-1585-4143",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology and Behavioral Sciences, Zhejiang University, Hangzhou 310058, China",
+        "institution_ids": [
+         "https://openalex.org/I76130692"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3390/jintelligence12060058",
+     "doi": "https://doi.org/10.3390/jintelligence12060058",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3390/jintelligence12060058",
+     "pdf_url": "https://www.mdpi.com/2079-3200/12/6/58/pdf?version=1717424479",
+     "source": {
+      "id": "https://openalex.org/S2737368440",
+      "display_name": "Journal of Intelligence",
+      "issn_l": "2079-3200",
+      "issn": [
+       "2079-3200"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "norway-1",
+       "poland-40",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310310987",
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310310987"
+      ],
+      "host_organization_lineage_names": [
+       "Multidisciplinary Digital Publishing Institute"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Intelligence",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W7214166985",
+    "doi": "https://doi.org/10.3389/fpsyg.2026.1950103",
+    "title": "Music listening patterns and their associations with mood regulation, emotional processing, and cognitive performance: an intensive longitudinal questionnaire study",
+    "display_name": "Music listening patterns and their associations with mood regulation, emotional processing, and cognitive performance: an intensive longitudinal questionnaire study",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "Background": [
+      0
+     ],
+     "Music": [
+      1,
+      245
+     ],
+     "is": [
+      2
+     ],
+     "often": [
+      3
+     ],
+     "played": [
+      4
+     ],
+     "when": [
+      5
+     ],
+     "university": [
+      6,
+      85,
+      249
+     ],
+     "students": [
+      7,
+      86,
+      250
+     ],
+     "are": [
+      8,
+      42,
+      47,
+      251
+     ],
+     "studying": [
+      9
+     ],
+     "and": [
+      10,
+      28,
+      39,
+      53,
+      83,
+      96,
+      102,
+      113,
+      257,
+      274,
+      288
+     ],
+     "during": [
+      11,
+      208
+     ],
+     "their": [
+      12
+     ],
+     "daily": [
+      13,
+      262
+     ],
+     "activities,": [
+      14
+     ],
+     "but": [
+      15
+     ],
+     "most": [
+      16
+     ],
+     "of": [
+      17,
+      25,
+      63,
+      138,
+      281
+     ],
+     "the": [
+      18,
+      23,
+      79,
+      135,
+      177,
+      233,
+      279
+     ],
+     "research": [
+      19
+     ],
+     "to": [
+      20,
+      49,
+      118,
+      205
+     ],
+     "date": [
+      21
+     ],
+     "in": [
+      22,
+      57,
+      116,
+      261
+     ],
+     "field": [
+      24
+     ],
+     "music": [
+      26,
+      109,
+      130
+     ],
+     "listening": [
+      27,
+      45,
+      110,
+      246
+     ],
+     "academic": [
+      29,
+      40,
+      54,
+      119,
+      164,
+      210,
+      258,
+      289
+     ],
+     "performance": [
+      30,
+      56,
+      166,
+      207,
+      223,
+      235,
+      260
+     ],
+     "has": [
+      31
+     ],
+     "used": [
+      32,
+      48
+     ],
+     "self-report": [
+      33
+     ],
+     "techniques.": [
+      34
+     ],
+     "Implications": [
+      35
+     ],
+     "for": [
+      36,
+      131,
+      285
+     ],
+     "student": [
+      37,
+      286
+     ],
+     "wellbeing": [
+      38,
+      287
+     ],
+     "success": [
+      41
+     ],
+     "summarized": [
+      43
+     ],
+     "where": [
+      44
+     ],
+     "patterns": [
+      46,
+      247
+     ],
+     "understand": [
+      50
+     ],
+     "mood": [
+      51,
+      98,
+      132,
+      139,
+      178,
+      255
+     ],
+     "regulation": [
+      52,
+      99,
+      133,
+      256
+     ],
+     "cognitive": [
+      55,
+      165,
+      206,
+      259
+     ],
+     "real-world": [
+      58
+     ],
+     "settings.": [
+      59
+     ],
+     "Method": [
+      60
+     ],
+     "The": [
+      61
+     ],
+     "design": [
+      62
+     ],
+     "this": [
+      64
+     ],
+     "study": [
+      65
+     ],
+     "was": [
+      66,
+      134,
+      203
+     ],
+     "intensive": [
+      67
+     ],
+     "longitudinal": [
+      68
+     ],
+     "(IL)": [
+      69
+     ],
+     "using": [
+      70,
+      125
+     ],
+     "experience": [
+      71
+     ],
+     "sampling": [
+      72,
+      77
+     ],
+     "methodology": [
+      73
+     ],
+     "(ESM)": [
+      74
+     ],
+     "with": [
+      75,
+      254,
+      264
+     ],
+     "event-contingent": [
+      76
+     ],
+     "over": [
+      78
+     ],
+     "14-day": [
+      80
+     ],
+     "period.": [
+      81
+     ],
+     "Hundred": [
+      82
+     ],
+     "twenty-eight": [
+      84
+     ],
+     "filled": [
+      87
+     ],
+     "out": [
+      88
+     ],
+     "questionnaires": [
+      89
+     ],
+     "that": [
+      90
+     ],
+     "measured": [
+      91
+     ],
+     "musical": [
+      92,
+      271
+     ],
+     "sophistication,": [
+      93,
+      272
+     ],
+     "alexithymia,": [
+      94,
+      273
+     ],
+     "personality": [
+      95
+     ],
+     "trait": [
+      97
+     ],
+     "at": [
+      100
+     ],
+     "baseline,": [
+      101
+     ],
+     "then": [
+      103
+     ],
+     "answered": [
+      104
+     ],
+     "short": [
+      105
+     ],
+     "questions": [
+      106
+     ],
+     "on": [
+      107
+     ],
+     "5,448": [
+      108
+     ],
+     "episodes.": [
+      111
+     ],
+     "Within-person": [
+      112
+     ],
+     "between-person": [
+      114
+     ],
+     "associations": [
+      115
+     ],
+     "relation": [
+      117
+     ],
+     "versus": [
+      120
+     ],
+     "non-academic": [
+      121
+     ],
+     "contexts": [
+      122
+     ],
+     "were": [
+      123
+     ],
+     "examined": [
+      124
+     ],
+     "multilevel": [
+      126
+     ],
+     "modeling.": [
+      127
+     ],
+     "Results": [
+      128
+     ],
+     "Using": [
+      129
+     ],
+     "strongest": [
+      136
+     ],
+     "predictor": [
+      137
+     ],
+     "improvement": [
+      140
+     ],
+     "(": [
+      141,
+      152,
+      167,
+      182,
+      194,
+      212,
+      224,
+      237
+     ],
+     "\u03b2": [
+      142,
+      153,
+      168,
+      183,
+      195,
+      213,
+      225,
+      238
+     ],
+     "=": [
+      143,
+      154,
+      169,
+      184,
+      187,
+      196,
+      199,
+      214,
+      217,
+      226,
+      229,
+      239,
+      242
+     ],
+     "0.87,": [
+      144
+     ],
+     "p": [
+      145,
+      156,
+      171,
+      186,
+      198,
+      216,
+      228,
+      241
+     ],
+     "<": [
+      146,
+      157,
+      172
+     ],
+     "0.001),": [
+      147,
+      158
+     ],
+     "followed": [
+      148
+     ],
+     "by": [
+      149,
+      267
+     ],
+     "active": [
+      150
+     ],
+     "enjoyment": [
+      151
+     ],
+     "0.54,": [
+      155
+     ],
+     "while": [
+      159,
+      189
+     ],
+     "focus": [
+      160
+     ],
+     "purposes": [
+      161
+     ],
+     "predicted": [
+      162
+     ],
+     "perceived": [
+      163
+     ],
+     "0.56,": [
+      170
+     ],
+     "0.001).": [
+      173
+     ],
+     "Musical": [
+      174
+     ],
+     "sophistication": [
+      175
+     ],
+     "moderated": [
+      176,
+      232,
+      266
+     ],
+     "regulation-mood": [
+      179
+     ],
+     "change": [
+      180
+     ],
+     "relationship": [
+      181,
+      236
+     ],
+     "0.22,": [
+      185
+     ],
+     "0.006),": [
+      188
+     ],
+     "alexithymia": [
+      190
+     ],
+     "reduced": [
+      191
+     ],
+     "its": [
+      192
+     ],
+     "effectiveness": [
+      193
+     ],
+     "\u22120.19,": [
+      197
+     ],
+     "0.035).": [
+      200,
+      230
+     ],
+     "Lyrics": [
+      201
+     ],
+     "presence": [
+      202
+     ],
+     "detrimental": [
+      204
+     ],
+     "high-demand": [
+      209
+     ],
+     "tasks": [
+      211
+     ],
+     "\u22120.28,": [
+      215
+     ],
+     "0.005),": [
+      218
+     ],
+     "whereas": [
+      219
+     ],
+     "faster": [
+      220
+     ],
+     "tempos": [
+      221
+     ],
+     "enhanced": [
+      222
+     ],
+     "0.19,": [
+      227
+     ],
+     "Conscientiousness": [
+      231
+     ],
+     "focus-cognitive": [
+      234
+     ],
+     "0.21,": [
+      240
+     ],
+     "0.018).": [
+      243
+     ],
+     "Conclusion": [
+      244
+     ],
+     "among": [
+      248
+     ],
+     "dynamically": [
+      252
+     ],
+     "associated": [
+      253
+     ],
+     "life,": [
+      263
+     ],
+     "effects": [
+      265
+     ],
+     "individual": [
+      268
+     ],
+     "differences": [
+      269
+     ],
+     "including": [
+      270
+     ],
+     "conscientiousness.": [
+      275
+     ],
+     "These": [
+      276
+     ],
+     "findings": [
+      277
+     ],
+     "inform": [
+      278
+     ],
+     "development": [
+      280
+     ],
+     "personalized": [
+      282
+     ],
+     "music-based": [
+      283
+     ],
+     "interventions": [
+      284
+     ],
+     "success.": [
+      290
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5152763265",
+       "display_name": "Yanyan Wang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210117164",
+        "display_name": "Luoyang Normal University",
+        "ror": "https://ror.org/029man787",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210117164"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/software",
+        "display_name": "Software"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       }
+      ],
+      "raw_author_name": "Yanyan Wang",
+      "raw_affiliation_strings": [
+       "Preschool Education College, Luoyang Normal University, Luoyang, Henan, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Preschool Education College, Luoyang Normal University, Luoyang, Henan, China",
+        "institution_ids": [
+         "https://openalex.org/I4210117164"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5080575609",
+       "display_name": "Ge Cai",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210117164",
+        "display_name": "Luoyang Normal University",
+        "ror": "https://ror.org/029man787",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210117164"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/software",
+        "display_name": "Software"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Ge Cai",
+      "raw_affiliation_strings": [
+       "Preschool Education College, Luoyang Normal University, Luoyang, Henan, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Preschool Education College, Luoyang Normal University, Luoyang, Henan, China",
+        "institution_ids": [
+         "https://openalex.org/I4210117164"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5152757717",
+       "display_name": "Tingting Wang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210146584",
+        "display_name": "Henan Forestry Vocational College",
+        "ror": "https://ror.org/050g87e49",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210146584"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/software",
+        "display_name": "Software"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/visualization",
+        "display_name": "Visualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Tingting Wang",
+      "raw_affiliation_strings": [
+       "Student Affairs Office, Henan College of Forestry, Luoyang, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Student Affairs Office, Henan College of Forestry, Luoyang, China",
+        "institution_ids": [
+         "https://openalex.org/I4210146584"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2026.1950103",
+     "doi": "https://doi.org/10.3389/fpsyg.2026.1950103",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2026.1950103",
+     "pdf_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1950103/pdf",
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4321788676",
+    "doi": "https://doi.org/10.3389/fpsyg.2023.998460",
+    "title": "Slower tempo makes worse performance? The effect of musical tempo on cognitive processing speed",
+    "display_name": "Slower tempo makes worse performance? The effect of musical tempo on cognitive processing speed",
+    "publication_year": 2023,
+    "cited_by_count": 37,
+    "abstract_inverted_index": {
+     "The": [
+      0,
+      51,
+      70,
+      88
+     ],
+     "effects": [
+      1
+     ],
+     "of": [
+      2,
+      15,
+      57
+     ],
+     "musical": [
+      3,
+      58,
+      133
+     ],
+     "tempo": [
+      4,
+      59,
+      90,
+      134
+     ],
+     "on": [
+      5,
+      60
+     ],
+     "cognitive": [
+      6,
+      37,
+      136
+     ],
+     "processing": [
+      7,
+      38,
+      45,
+      49,
+      61,
+      75,
+      97,
+      109,
+      137
+     ],
+     "speed": [
+      8,
+      39,
+      62,
+      76,
+      98
+     ],
+     "were": [
+      9,
+      24
+     ],
+     "investigated,": [
+      10
+     ],
+     "and": [
+      11,
+      31,
+      34,
+      47,
+      63,
+      77,
+      135
+     ],
+     "the": [
+      12,
+      81,
+      103,
+      107,
+      123,
+      130
+     ],
+     "mediating": [
+      13
+     ],
+     "effect": [
+      14,
+      56
+     ],
+     "arousal": [
+      16
+     ],
+     "was": [
+      17
+     ],
+     "empirically": [
+      18
+     ],
+     "tested.": [
+      19
+     ],
+     "In": [
+      20,
+      106
+     ],
+     "an": [
+      21
+     ],
+     "experiment,": [
+      22
+     ],
+     "participants": [
+      23
+     ],
+     "divided": [
+      25
+     ],
+     "into": [
+      26
+     ],
+     "fast": [
+      27,
+      89
+     ],
+     "tempo,": [
+      28,
+      30
+     ],
+     "slow": [
+      29
+     ],
+     "no-music": [
+      32,
+      82,
+      104
+     ],
+     "groups": [
+      33
+     ],
+     "completed": [
+      35
+     ],
+     "three": [
+      36,
+      68,
+      86
+     ],
+     "tests": [
+      40
+     ],
+     "measuring": [
+      41
+     ],
+     "motor": [
+      42
+     ],
+     "speed,": [
+      43,
+      46
+     ],
+     "visuospatial": [
+      44
+     ],
+     "linguistic": [
+      48,
+      108
+     ],
+     "speed.": [
+      50,
+      138
+     ],
+     "results": [
+      52
+     ],
+     "indicated": [
+      53
+     ],
+     "a": [
+      54
+     ],
+     "significant": [
+      55,
+      94
+     ],
+     "task": [
+      64
+     ],
+     "performance": [
+      65,
+      79,
+      100
+     ],
+     "in": [
+      66,
+      84,
+      96,
+      122
+     ],
+     "all": [
+      67,
+      85
+     ],
+     "tasks.": [
+      69,
+      87
+     ],
+     "slow-tempo": [
+      71,
+      115
+     ],
+     "group": [
+      72,
+      83,
+      91
+     ],
+     "exhibited": [
+      73
+     ],
+     "slower": [
+      74
+     ],
+     "worse": [
+      78
+     ],
+     "than": [
+      80,
+      120
+     ],
+     "displayed": [
+      92
+     ],
+     "no": [
+      93
+     ],
+     "difference": [
+      95
+     ],
+     "or": [
+      99
+     ],
+     "compared": [
+      101
+     ],
+     "with": [
+      102
+     ],
+     "group.": [
+      105
+     ],
+     "task,": [
+      110
+     ],
+     "those": [
+      111,
+      121
+     ],
+     "who": [
+      112
+     ],
+     "listened": [
+      113
+     ],
+     "to": [
+      114
+     ],
+     "music": [
+      116
+     ],
+     "had": [
+      117
+     ],
+     "better": [
+      118
+     ],
+     "accuracy": [
+      119
+     ],
+     "other": [
+      124
+     ],
+     "conditions.": [
+      125
+     ],
+     "Arousal": [
+      126
+     ],
+     "did": [
+      127
+     ],
+     "not": [
+      128
+     ],
+     "mediate": [
+      129
+     ],
+     "relationship": [
+      131
+     ],
+     "between": [
+      132
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5059286632",
+       "display_name": "Hung\u2010Ming Lin",
+       "orcid": "https://orcid.org/0000-0002-3250-003X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3250-003X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I143003336",
+        "display_name": "Minghsin University of Science and Technology",
+        "ror": "https://ror.org/054etzm63",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I143003336"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Hung-Ming Lin",
+      "raw_affiliation_strings": [
+       "Department of Business Administration, Minghsin University of Science and Technology, Xinfeng, Hsinchu, Taiwan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Business Administration, Minghsin University of Science and Technology, Xinfeng, Hsinchu, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I143003336"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5008902646",
+       "display_name": "Su\u2010Hui Kuo",
+       "orcid": "https://orcid.org/0000-0001-7277-1435",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7277-1435"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I70522481",
+        "display_name": "National Changhua University of Education",
+        "ror": "https://ror.org/005gkfa10",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I70522481"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Su-Hui Kuo",
+      "raw_affiliation_strings": [
+       "Department of Business Administration, National Changhua University of Education, Changhua City, Taiwan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Business Administration, National Changhua University of Education, Changhua City, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I70522481"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": null,
+       "display_name": "Thao Phuong Mai",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I143003336",
+        "display_name": "Minghsin University of Science and Technology",
+        "ror": "https://ror.org/054etzm63",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I143003336"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Thao Phuong Mai",
+      "raw_affiliation_strings": [
+       "Department of Business Administration, Minghsin University of Science and Technology, Xinfeng, Hsinchu, Taiwan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Business Administration, Minghsin University of Science and Technology, Xinfeng, Hsinchu, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I143003336"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2023.998460",
+     "doi": "https://doi.org/10.3389/fpsyg.2023.998460",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2023.998460",
+     "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2023.998460/pdf",
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

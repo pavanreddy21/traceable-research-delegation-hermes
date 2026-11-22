@@ -1,0 +1,841 @@
+{
+ "status": 200,
+ "json": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      29
+     ]
+    ],
+    "date-time": "2026-09-29T03:56:00Z",
+    "timestamp": 1790654160818,
+    "version": "4.1.0"
+   },
+   "reference-count": 62,
+   "publisher": "Frontiers Media SA",
+   "content-domain": {
+    "domain": [
+     "frontiersin.org"
+    ],
+    "crossmark-restriction": true
+   },
+   "short-container-title": [
+    "Front. Psychol."
+   ],
+   "DOI": "10.3389/fpsyg.2017.00406",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2017,
+      3,
+      20
+     ]
+    ],
+    "date-time": "2017-03-20T23:36:48Z",
+    "timestamp": 1490053008000
+   },
+   "update-policy": "https://doi.org/10.3389/crossmark-policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 46,
+   "title": [
+    "Exercise Intensity-Dependent Effects on Cognitive Control Function during and after Acute Treadmill Running in Young Healthy Adults"
+   ],
+   "prefix": "10.3389",
+   "volume": "8",
+   "author": [
+    {
+     "given": "Martin",
+     "family": "Wohlwend",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Alexander",
+     "family": "Olsen",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Asta K.",
+     "family": "H\u00e5berg",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Helen S.",
+     "family": "Palmer",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "1965",
+   "published-online": {
+    "date-parts": [
+     [
+      2017,
+      3,
+      21
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "B1",
+     "doi-asserted-by": "publisher",
+     "first-page": "771",
+     "DOI": "10.2466/pms.1998.87.3.771",
+     "article-title": "Influence of exercise on visual search: implications for mediating cognitive mechanisms.",
+     "volume": "87(3 Pt 1)",
+     "author": "Aks",
+     "year": "1998",
+     "journal-title": "Percept. Mot. Skills"
+    },
+    {
+     "key": "B2",
+     "doi-asserted-by": "publisher",
+     "first-page": "1973",
+     "DOI": "10.1007/s00421-011-1827-1",
+     "article-title": "Does cerebral oxygenation affect cognitive function during exercise?",
+     "volume": "111",
+     "author": "Ando",
+     "year": "2011",
+     "journal-title": "Eur. J. Appl. Physiol."
+    },
+    {
+     "key": "B3",
+     "doi-asserted-by": "publisher",
+     "first-page": "436",
+     "DOI": "10.1080/02701367.2003.10609113",
+     "article-title": "Arousal, anxiety, and performance: a reexamination of the Inverted-U hypothesis.",
+     "volume": "74",
+     "author": "Arent",
+     "year": "2003",
+     "journal-title": "Res. Q. Exerc. Sport"
+    },
+    {
+     "key": "B4",
+     "doi-asserted-by": "publisher",
+     "first-page": "410",
+     "DOI": "10.1016/j.actpsy.2008.09.006",
+     "article-title": "Acute aerobic exercise and information processing: energizing motor processes during a choice reaction time task.",
+     "volume": "129",
+     "author": "Audiffren",
+     "year": "2008",
+     "journal-title": "Acta Psychol."
+    },
+    {
+     "issue": "e108828",
+     "key": "B5",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pone.0108828",
+     "article-title": "Short and long term effects of left and bilateral repetitive transcranial magnetic stimulation in schizophrenia patients with auditory verbal hallucinations: a randomized controlled trial.",
+     "volume": "9",
+     "author": "Bais",
+     "year": "2014",
+     "journal-title": "PLoS ONE"
+    },
+    {
+     "key": "B6",
+     "doi-asserted-by": "publisher",
+     "first-page": "176",
+     "DOI": "10.1038/jcbfm.2014.206",
+     "article-title": "Lactate transport and signaling in the brain: potential therapeutic targets and roles in body-brain interaction.",
+     "volume": "35",
+     "author": "Bergersen",
+     "year": "2015",
+     "journal-title": "J. Cereb. Blood Flow Metab."
+    },
+    {
+     "key": "B7",
+     "doi-asserted-by": "publisher",
+     "first-page": "405",
+     "DOI": "10.1249/01.mss.0000205117.11882.65",
+     "article-title": "Physically active subjects should be the control group.",
+     "volume": "38",
+     "author": "Booth",
+     "year": "2006",
+     "journal-title": "Med. Sci. Sports Exerc."
+    },
+    {
+     "key": "B8",
+     "doi-asserted-by": "publisher",
+     "first-page": "1019",
+     "DOI": "10.2466/pms.1997.85.3.1019",
+     "article-title": "Influence of physical exercise on simple reaction time: effect of physical fitness.",
+     "volume": "85(3 Pt 1)",
+     "author": "Brisswalter",
+     "year": "1997",
+     "journal-title": "Percept. Mot. Skills"
+    },
+    {
+     "key": "B9",
+     "doi-asserted-by": "publisher",
+     "first-page": "555",
+     "DOI": "10.2165/00007256-200232090-00002",
+     "article-title": "Effects of acute physical exercise characteristics on cognitive performance.",
+     "volume": "32",
+     "author": "Brisswalter",
+     "year": "2002",
+     "journal-title": "Sports Med."
+    },
+    {
+     "key": "B10",
+     "doi-asserted-by": "publisher",
+     "first-page": "110",
+     "DOI": "10.1080/23267402.1936.10761762",
+     "article-title": "Measuring reaction time of athletes.",
+     "volume": "7",
+     "author": "Burpee",
+     "year": "1936",
+     "journal-title": "Res. Q. Am. Phys. Educ. Assoc."
+    },
+    {
+     "key": "B11",
+     "doi-asserted-by": "publisher",
+     "first-page": "87",
+     "DOI": "10.1016/j.brainres.2012.02.068",
+     "article-title": "The effects of acute exercise on cognitive performance: a meta-analysis.",
+     "volume": "1453",
+     "author": "Chang",
+     "year": "2012",
+     "journal-title": "Brain Res."
+    },
+    {
+     "key": "B12",
+     "doi-asserted-by": "publisher",
+     "first-page": "3316",
+     "DOI": "10.1073/pnas.0400266101",
+     "article-title": "Cardiovascular fitness, cortical plasticity, and aging.",
+     "volume": "101",
+     "author": "Colcombe",
+     "year": "2004a",
+     "journal-title": "Proc. Natl. Acad. Sci. U.S.A."
+    },
+    {
+     "key": "B13",
+     "doi-asserted-by": "publisher",
+     "first-page": "9",
+     "DOI": "10.1385/jmn:24:1:009",
+     "article-title": "Neurocognitive aging and cardiovascular fitness: recent findings and future directions.",
+     "volume": "24",
+     "author": "Colcombe",
+     "year": "2004b",
+     "journal-title": "J. Mol. Neurosci."
+    },
+    {
+     "key": "B14",
+     "doi-asserted-by": "publisher",
+     "first-page": "679",
+     "DOI": "10.2466/pms.2001.93.3.679",
+     "article-title": "Effects of a prolonged run on simple reaction time of well trained runners.",
+     "volume": "93",
+     "author": "Collardeau",
+     "year": "2001",
+     "journal-title": "Percept. Mot. Skills"
+    },
+    {
+     "key": "B15",
+     "author": "Conners",
+     "year": "2000",
+     "journal-title": "CPT-II: Continuous Performance Test II: Computer Program for Windows Technical Guide and Software Manual."
+    },
+    {
+     "key": "B16",
+     "doi-asserted-by": "publisher",
+     "first-page": "601",
+     "DOI": "10.1080/00140137308924551",
+     "article-title": "Anatomical and physiological mechanisms of arousal, with special reference to the effects of exercise.",
+     "volume": "16",
+     "author": "Cooper",
+     "year": "1973",
+     "journal-title": "Ergonomics"
+    },
+    {
+     "key": "B17",
+     "doi-asserted-by": "publisher",
+     "first-page": "855",
+     "DOI": "10.2466/pms.1994.78.3.855",
+     "article-title": "Influence of an added perceptual motor task on perceived exertion: a test of the dissociation effect.",
+     "volume": "78(3 Pt 1)",
+     "author": "Delignieres",
+     "year": "1994",
+     "journal-title": "Percept. Mot. Skills"
+    },
+    {
+     "key": "B18",
+     "doi-asserted-by": "publisher",
+     "first-page": "62",
+     "DOI": "10.1037/0882-7974.21.1.62",
+     "article-title": "Age and sex differences in reaction time in adulthood: results from the United Kingdom Health and Lifestyle Survey.",
+     "volume": "21",
+     "author": "Der",
+     "year": "2006",
+     "journal-title": "Psychol. Aging"
+    },
+    {
+     "key": "B19",
+     "doi-asserted-by": "publisher",
+     "first-page": "1305",
+     "DOI": "10.1016/j.neubiorev.2011.02.001",
+     "article-title": "The reticular-activating hypofrontality (RAH) model of acute exercise.",
+     "volume": "35",
+     "author": "Dietrich",
+     "year": "2011",
+     "journal-title": "Neurosci. Biobehav. Rev."
+    },
+    {
+     "key": "B20",
+     "doi-asserted-by": "publisher",
+     "first-page": "249",
+     "DOI": "10.1123/jsep.19.3.249",
+     "article-title": "The influence of physical fitness and exercise upon cognitive functioning: a meta-analysis.",
+     "volume": "19",
+     "author": "Etnier",
+     "year": "1997",
+     "journal-title": "J. Sport Exerc. Psychol."
+    },
+    {
+     "key": "B21",
+     "doi-asserted-by": "publisher",
+     "first-page": "1606",
+     "DOI": "10.3109/02699052.2013.831127",
+     "article-title": "Differentiated patterns of cognitive impairment 12 months after severe and moderate traumatic brain injury.",
+     "volume": "27",
+     "author": "Finnanger",
+     "year": "2013",
+     "journal-title": "Brain Inj."
+    },
+    {
+     "key": "B22",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1016/j.bbr.2010.04.017",
+     "article-title": "Ventral prefrontal cortex and serotonergic system activation during pedaling exercise induces negative mood improvement and increased alpha band in EEG.",
+     "volume": "213",
+     "author": "Fumoto",
+     "year": "2010",
+     "journal-title": "Behav. Brain Res."
+    },
+    {
+     "issue": "26",
+     "key": "B23",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3389/neuro.09.026.2009",
+     "article-title": "Cognitive functioning in major depression\u2013a summary.",
+     "volume": "3",
+     "author": "Hammar",
+     "year": "2009",
+     "journal-title": "Front. Hum. Neurosci."
+    },
+    {
+     "key": "B24",
+     "doi-asserted-by": "publisher",
+     "first-page": "58",
+     "DOI": "10.1038/nrn2298",
+     "article-title": "Be smart, exercise your heart: exercise effects on brain and cognition.",
+     "volume": "9",
+     "author": "Hillman",
+     "year": "2008",
+     "journal-title": "Nat. Rev. Neurosci."
+    },
+    {
+     "key": "B25",
+     "doi-asserted-by": "publisher",
+     "first-page": "479",
+     "DOI": "10.2466/pms.1996.83.2.479",
+     "article-title": "Cognitive performance after strenuous physical exercise.",
+     "volume": "83",
+     "author": "Hogervorst",
+     "year": "1996",
+     "journal-title": "Percept. Mot. Skills"
+    },
+    {
+     "key": "B26",
+     "doi-asserted-by": "publisher",
+     "first-page": "59",
+     "DOI": "10.1016/j.neuroscience.2012.04.056",
+     "article-title": "Differential effects of acute and regular physical exercise on cognition and affect.",
+     "volume": "215",
+     "author": "Hopkins",
+     "year": "2012",
+     "journal-title": "Neuroscience"
+    },
+    {
+     "key": "B27",
+     "doi-asserted-by": "publisher",
+     "first-page": "14",
+     "DOI": "10.1016/j.bandc.2009.03.004",
+     "article-title": "The time course effect of moderate intensity exercise on response execution and response inhibition.",
+     "volume": "71",
+     "author": "Joyce",
+     "year": "2009",
+     "journal-title": "Brain Cogn."
+    },
+    {
+     "key": "B28",
+     "doi-asserted-by": "publisher",
+     "first-page": "305",
+     "DOI": "10.1007/s00421-004-1097-2",
+     "article-title": "Differential influences of exercise intensity on information processing in the central nervous system.",
+     "volume": "92",
+     "author": "Kamijo",
+     "year": "2004",
+     "journal-title": "Eur. J. Appl. Physiol."
+    },
+    {
+     "key": "B29",
+     "doi-asserted-by": "publisher",
+     "first-page": "114",
+     "DOI": "10.1016/j.ijpsycho.2007.04.001",
+     "article-title": "The interactive effect of exercise intensity and task difficulty on human cognitive processing.",
+     "volume": "65",
+     "author": "Kamijo",
+     "year": "2007",
+     "journal-title": "Int. J. Psychophysiol."
+    },
+    {
+     "key": "B30",
+     "doi-asserted-by": "publisher",
+     "first-page": "275",
+     "DOI": "10.2466/pms.100.2.275-291",
+     "article-title": "Short-term effect of physical exercise at lactate threshold on choice reaction time.",
+     "volume": "100",
+     "author": "Kashihara",
+     "year": "2005",
+     "journal-title": "Percept. Mot. Skills"
+    },
+    {
+     "key": "B31",
+     "doi-asserted-by": "publisher",
+     "first-page": "12",
+     "DOI": "10.1016/j.brainres.2010.03.091",
+     "article-title": "The effect of exercise-induced arousal on cognitive task performance: a meta-regression analysis.",
+     "volume": "1341",
+     "author": "Lambourne",
+     "year": "2010",
+     "journal-title": "Brain Res."
+    },
+    {
+     "key": "B32",
+     "author": "Lawther",
+     "year": "1951",
+     "journal-title": "Psychology of Coaching."
+    },
+    {
+     "key": "B33",
+     "first-page": "405",
+     "article-title": "Multiple choice reaction time and movement time during physical exertion.",
+     "volume": "42",
+     "author": "Levitt",
+     "year": "1971",
+     "journal-title": "Res. Q."
+    },
+    {
+     "issue": "38",
+     "key": "B34",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/1479-5868-9-38",
+     "article-title": "Acute effects of aerobic exercise on mood and hunger feelings in male obese adolescents: a crossover study.",
+     "volume": "9",
+     "author": "Lofrano-Prado",
+     "year": "2012",
+     "journal-title": "Int. J. Behav. Nutr. Phys. Act"
+    },
+    {
+     "key": "B35",
+     "doi-asserted-by": "publisher",
+     "first-page": "199",
+     "DOI": "10.1159/000213793",
+     "article-title": "Simple physiological and clinical tests for the accurate prediction of falling in older people.",
+     "volume": "42",
+     "author": "Lord",
+     "year": "1996",
+     "journal-title": "Gerontology"
+    },
+    {
+     "key": "B36",
+     "doi-asserted-by": "publisher",
+     "first-page": "1194",
+     "DOI": "10.1111/j.1532-5415.1991.tb03574.x",
+     "article-title": "Physiological factors associated with falls in an elderly population.",
+     "volume": "39",
+     "author": "Lord",
+     "year": "1991",
+     "journal-title": "J. Am. Geriatr. Soc."
+    },
+    {
+     "key": "B37",
+     "doi-asserted-by": "publisher",
+     "first-page": "1110",
+     "DOI": "10.1111/j.1532-5415.1994.tb06218.x",
+     "article-title": "Physiological factors associated with falls in older community-dwelling women.",
+     "volume": "42",
+     "author": "Lord",
+     "year": "1994",
+     "journal-title": "J. Am. Geriatr. Soc."
+    },
+    {
+     "key": "B38",
+     "doi-asserted-by": "publisher",
+     "first-page": "1315",
+     "DOI": "10.1111/j.1530-0277.2006.00159.x",
+     "article-title": "Factor structure of the alcohol urge questionnaire under neutral conditions and during a cue-elicited urge state.",
+     "volume": "30",
+     "author": "MacKillop",
+     "year": "2006",
+     "journal-title": "Alcohol. Clin. Exp. Res."
+    },
+    {
+     "key": "B39",
+     "doi-asserted-by": "publisher",
+     "first-page": "415",
+     "DOI": "10.1023/A:1005127504982",
+     "article-title": "Does the Conners\u2019 continuous performance test aid in ADHD diagnosis?",
+     "volume": "28",
+     "author": "McGee",
+     "year": "2000",
+     "journal-title": "J. Abnorm. Child Psychol."
+    },
+    {
+     "key": "B40",
+     "doi-asserted-by": "publisher",
+     "first-page": "407",
+     "DOI": "10.1080/00140137908924625",
+     "article-title": "The effect of increasing levels of exercise on mental performance.",
+     "volume": "22",
+     "author": "McGlynn",
+     "year": "1979",
+     "journal-title": "Ergonomics"
+    },
+    {
+     "key": "B41",
+     "doi-asserted-by": "publisher",
+     "first-page": "106",
+     "DOI": "10.1016/j.pbb.2007.11.007",
+     "article-title": "A test of the catecholamines hypothesis for an acute exercise-cognition interaction.",
+     "volume": "89",
+     "author": "McMorris",
+     "year": "2008",
+     "journal-title": "Pharmacol. Biochem. Behav."
+    },
+    {
+     "key": "B42",
+     "doi-asserted-by": "publisher",
+     "first-page": "334",
+     "DOI": "10.1016/j.ijpsycho.2009.05.004",
+     "article-title": "Acute incremental exercise, performance of a central executive task, and sympathoadrenal system and hypothalamic-pituitary-adrenal axis activity.",
+     "volume": "73",
+     "author": "McMorris",
+     "year": "2009",
+     "journal-title": "Int. J. Psychophysiol."
+    },
+    {
+     "key": "B43",
+     "doi-asserted-by": "publisher",
+     "first-page": "338",
+     "DOI": "10.1016/j.bandc.2012.09.001",
+     "article-title": "Differential effects of differing intensities of acute exercise on speed and accuracy of cognition: a meta-analytical investigation.",
+     "volume": "80",
+     "author": "McMorris",
+     "year": "2012",
+     "journal-title": "Brain Cogn."
+    },
+    {
+     "key": "B44",
+     "first-page": "344",
+     "article-title": "Simple and choice reaction times under varying levels of physical load in high skilled fencers.",
+     "volume": "46",
+     "author": "Mouelhi Guizani",
+     "year": "2006",
+     "journal-title": "J. Sports Med. Phys. Fitness"
+    },
+    {
+     "key": "B45",
+     "doi-asserted-by": "publisher",
+     "first-page": "903",
+     "DOI": "10.1162/jocn_a_00358",
+     "article-title": "The functional topography and temporal dynamics of overlapping and distinct brain activations for adaptive task control and stable task-set maintenance during performance of an fMRI-adapted clinical continuous performance test.",
+     "volume": "25",
+     "author": "Olsen",
+     "year": "2013",
+     "journal-title": "J. Cogn. Neurosci."
+    },
+    {
+     "key": "B46",
+     "doi-asserted-by": "publisher",
+     "first-page": "140",
+     "DOI": "10.1016/j.neuroscience.2013.12.016",
+     "article-title": "Effect of type of cognitive task and walking speed on cognitive-motor interference during dual-task walking.",
+     "volume": "260",
+     "author": "Patel",
+     "year": "2014",
+     "journal-title": "Neuroscience"
+    },
+    {
+     "key": "B47",
+     "first-page": "574",
+     "article-title": "Effects of acute aerobic exercise on executive function in older women.",
+     "volume": "14",
+     "author": "Peiffer",
+     "year": "2015",
+     "journal-title": "J. Sports Sci. Med."
+    },
+    {
+     "key": "B48",
+     "doi-asserted-by": "publisher",
+     "first-page": "418",
+     "DOI": "10.1093/geronj/13.4.418",
+     "article-title": "Movement time, reaction time, and age.",
+     "volume": "13",
+     "author": "Pierson",
+     "year": "1958",
+     "journal-title": "J. Gerontol."
+    },
+    {
+     "key": "B49",
+     "doi-asserted-by": "publisher",
+     "first-page": "33",
+     "DOI": "10.1016/j.acn.2004.02.005",
+     "article-title": "Assessment practices of clinical neuropsychologists in the United States and Canada: a survey of INS, NAN, and APA Division 40 members.",
+     "volume": "20",
+     "author": "Rabin",
+     "year": "2005",
+     "journal-title": "Arch. Clin. Neuropsychol."
+    },
+    {
+     "key": "B50",
+     "article-title": "\u201cHandbook of psychological & educational assessment of children,\u201d in",
+     "volume": "718",
+     "author": "Reynolds",
+     "year": "2003",
+     "journal-title": "Personality, Behavior, and Context"
+    },
+    {
+     "key": "B51",
+     "doi-asserted-by": "publisher",
+     "first-page": "216",
+     "DOI": "10.1097/01.hjr.0000131677.96762.0c",
+     "article-title": "High intensity aerobic interval exercise is superior to moderate intensity exercise for increasing aerobic capacity in patients with coronary artery disease.",
+     "volume": "11",
+     "author": "Rognmo",
+     "year": "2004",
+     "journal-title": "Eur. J. Cardiovasc. Prev. Rehabil."
+    },
+    {
+     "key": "B52",
+     "doi-asserted-by": "publisher",
+     "first-page": "1424",
+     "DOI": "10.1093/brain/awv070",
+     "article-title": "Shared dimensions of performance and activation dysfunction in cognitive control in females with mood disorders.",
+     "volume": "138(Pt 5)",
+     "author": "Ryan",
+     "year": "2015",
+     "journal-title": "Brain"
+    },
+    {
+     "key": "B53",
+     "doi-asserted-by": "publisher",
+     "first-page": "31",
+     "DOI": "10.1016/j.dr.2005.09.001",
+     "article-title": "Organization of cognitive abilities and neuropsychological variables across the lifespan.",
+     "volume": "26",
+     "author": "Salthouse",
+     "year": "2006",
+     "journal-title": "Dev. Rev."
+    },
+    {
+     "key": "B54",
+     "doi-asserted-by": "publisher",
+     "first-page": "517",
+     "DOI": "10.1176/appi.ajp.2015.15060725",
+     "article-title": "Common and dissociable mechanisms of executive system dysfunction across psychiatric disorders in youth.",
+     "volume": "173",
+     "author": "Shanmugan",
+     "year": "2016",
+     "journal-title": "Am. J. Psychiatry"
+    },
+    {
+     "issue": "13",
+     "key": "B55",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1123/pes.15.3.243",
+     "article-title": "The relationship between physical activity and cognition in children: a meta-analysis.",
+     "volume": "15",
+     "author": "Sibley",
+     "year": "2003",
+     "journal-title": "Pediatr. Exerc. Sci."
+    },
+    {
+     "issue": "e0140383",
+     "key": "B56",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pone.0140383",
+     "article-title": "Proactive and reactive response inhibition across the lifespan.",
+     "volume": "10",
+     "author": "Smittenaar",
+     "year": "2015",
+     "journal-title": "PLoS ONE"
+    },
+    {
+     "key": "B57",
+     "doi-asserted-by": "publisher",
+     "first-page": "62",
+     "DOI": "10.1080/09084280701280502",
+     "article-title": "A compendium of neuropsychological tests: administration, norms and commentary.",
+     "volume": "14",
+     "author": "Strauss",
+     "year": "2007",
+     "journal-title": "Appl. Neuropsychol."
+    },
+    {
+     "key": "B58",
+     "doi-asserted-by": "publisher",
+     "first-page": "297",
+     "DOI": "10.1016/S0001-6918(02)00134-8",
+     "article-title": "Effects of acute bouts of exercise on cognition.",
+     "volume": "112",
+     "author": "Tomporowski",
+     "year": "2003",
+     "journal-title": "Acta Psychol."
+    },
+    {
+     "key": "B59",
+     "doi-asserted-by": "publisher",
+     "first-page": "699",
+     "DOI": "10.1002/jnr.20979",
+     "article-title": "Revenge of the \u201csit\u201d: how lifestyle impacts neuronal and cognitive health through molecular systems that interface energy metabolism with neuronal plasticity.",
+     "volume": "84",
+     "author": "Vaynman",
+     "year": "2006",
+     "journal-title": "J. Neurosci. Res."
+    },
+    {
+     "key": "B60",
+     "doi-asserted-by": "publisher",
+     "first-page": "801",
+     "DOI": "10.1503/cmaj.051351",
+     "article-title": "Health benefits of physical activity: the evidence.",
+     "volume": "174",
+     "author": "Warburton",
+     "year": "2006",
+     "journal-title": "CMAJ"
+    },
+    {
+     "key": "B61",
+     "doi-asserted-by": "publisher",
+     "first-page": "1063",
+     "DOI": "10.1037/0022-3514.54.6.1063",
+     "article-title": "Development and validation of brief measures of positive and negative affect: the PANAS scales.",
+     "volume": "54",
+     "author": "Watson",
+     "year": "1988",
+     "journal-title": "J. Pers. Soc. Psychol."
+    },
+    {
+     "key": "B62",
+     "doi-asserted-by": "publisher",
+     "first-page": "123",
+     "DOI": "10.1016/0022-3999(95)00554-4",
+     "article-title": "The acute effects of exercise on mood state.",
+     "volume": "40",
+     "author": "Yeung",
+     "year": "1996",
+     "journal-title": "J. Psychosom. Res."
+    }
+   ],
+   "container-title": [
+    "Frontiers in Psychology"
+   ],
+   "original-title": [],
+   "link": [
+    {
+     "URL": "http://journal.frontiersin.org/article/10.3389/fpsyg.2017.00406/full",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2017,
+      3,
+      20
+     ]
+    ],
+    "date-time": "2017-03-20T23:36:48Z",
+    "timestamp": 1490053008000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "http://journal.frontiersin.org/article/10.3389/fpsyg.2017.00406/full"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2017,
+      3,
+      21
+     ]
+    ]
+   },
+   "references-count": 62,
+   "URL": "https://doi.org/10.3389/fpsyg.2017.00406",
+   "relation": {},
+   "ISSN": [
+    "1664-1078"
+   ],
+   "issn-type": [
+    {
+     "value": "1664-1078",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2017,
+      3,
+      21
+     ]
+    ]
+   }
+  }
+ }
+}

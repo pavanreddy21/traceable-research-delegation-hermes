@@ -1,0 +1,3558 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 419,
+   "db_response_time_ms": 148,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (spacing effect absent reversed complex materials classroom no advantage over massed) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (spacing effect absent reversed complex materials classroom no advantage over massed) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "spacing effect absent reversed complex materials classroom no advantage over massed",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:spacing effect absent reversed complex materials classroom no advantage over massed,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4313325439",
+    "doi": "https://doi.org/10.1002/rrq.492",
+    "title": "The Effect of Spacing Versus Massing on Orthographic Learning",
+    "display_name": "The Effect of Spacing Versus Massing on Orthographic Learning",
+    "publication_year": 2022,
+    "cited_by_count": 5,
+    "abstract_inverted_index": {
+     "Distributing": [
+      0
+     ],
+     "study": [
+      1,
+      15
+     ],
+     "opportunities": [
+      2
+     ],
+     "over": [
+      3
+     ],
+     "time": [
+      4
+     ],
+     "typically": [
+      5
+     ],
+     "improves": [
+      6
+     ],
+     "the": [
+      7,
+      22,
+      41,
+      44,
+      81,
+      143,
+      146,
+      191,
+      198
+     ],
+     "retention": [
+      8
+     ],
+     "of": [
+      9,
+      24,
+      40,
+      43,
+      76,
+      80,
+      90,
+      114,
+      132,
+      145,
+      193,
+      197
+     ],
+     "verbal": [
+      10
+     ],
+     "material": [
+      11
+     ],
+     "compared": [
+      12,
+      150
+     ],
+     "to": [
+      13,
+      35,
+      121,
+      166
+     ],
+     "consecutive": [
+      14,
+      100
+     ],
+     "trials,": [
+      16
+     ],
+     "yet": [
+      17
+     ],
+     "little": [
+      18
+     ],
+     "is": [
+      19
+     ],
+     "known": [
+      20
+     ],
+     "about": [
+      21
+     ],
+     "influence": [
+      23
+     ],
+     "temporal": [
+      25,
+      188
+     ],
+     "spacing": [
+      26,
+      45,
+      133,
+      147,
+      162,
+      189
+     ],
+     "on": [
+      27,
+      47,
+      98
+     ],
+     "orthographic": [
+      28,
+      172,
+      194
+     ],
+     "form": [
+      29,
+      50
+     ],
+     "learning": [
+      30,
+      51,
+      109,
+      192
+     ],
+     "specifically.": [
+      31
+     ],
+     "This": [
+      32
+     ],
+     "experiment": [
+      33
+     ],
+     "sought": [
+      34
+     ],
+     "obtain": [
+      36
+     ],
+     "and": [
+      37
+     ],
+     "compare": [
+      38
+     ],
+     "estimates": [
+      39
+     ],
+     "magnitude": [
+      42,
+      144
+     ],
+     "effect": [
+      46,
+      131,
+      148,
+      163
+     ],
+     "written": [
+      48
+     ],
+     "word": [
+      49
+     ],
+     "across": [
+      52,
+      134,
+      151
+     ],
+     "three": [
+      53,
+      153
+     ],
+     "different": [
+      54
+     ],
+     "outcome": [
+      55,
+      136,
+      199
+     ],
+     "measures,": [
+      56,
+      154
+     ],
+     "administered": [
+      57
+     ],
+     "between": [
+      58
+     ],
+     "participants.": [
+      59
+     ],
+     "Skilled": [
+      60
+     ],
+     "adult": [
+      61
+     ],
+     "readers": [
+      62
+     ],
+     "(N": [
+      63
+     ],
+     "=": [
+      64,
+      169
+     ],
+     "120)": [
+      65
+     ],
+     "read": [
+      66
+     ],
+     "aloud": [
+      67
+     ],
+     "16": [
+      68
+     ],
+     "sentences": [
+      69
+     ],
+     "containing": [
+      70
+     ],
+     "an": [
+      71
+     ],
+     "embedded": [
+      72
+     ],
+     "pseudoword": [
+      73
+     ],
+     "a": [
+      74,
+      103,
+      106,
+      129,
+      159
+     ],
+     "total": [
+      75
+     ],
+     "four": [
+      77,
+      91,
+      99
+     ],
+     "times.": [
+      78
+     ],
+     "Half": [
+      79
+     ],
+     "items": [
+      82
+     ],
+     "were": [
+      83,
+      95
+     ],
+     "temporally": [
+      84
+     ],
+     "distributed": [
+      85
+     ],
+     "(appearing": [
+      86
+     ],
+     "once": [
+      87
+     ],
+     "in": [
+      88
+     ],
+     "each": [
+      89
+     ],
+     "blocks),": [
+      92
+     ],
+     "while": [
+      93,
+      171
+     ],
+     "half": [
+      94
+     ],
+     "massed": [
+      96
+     ],
+     "(read": [
+      97
+     ],
+     "trials": [
+      101
+     ],
+     "within": [
+      102
+     ],
+     "block).": [
+      104
+     ],
+     "After": [
+      105
+     ],
+     "short": [
+      107
+     ],
+     "delay,": [
+      108
+     ],
+     "was": [
+      110,
+      128,
+      149
+     ],
+     "assessed": [
+      111
+     ],
+     "using": [
+      112
+     ],
+     "tests": [
+      113
+     ],
+     "recognition": [
+      115
+     ],
+     "(orthographic": [
+      116
+     ],
+     "choice)": [
+      117
+     ],
+     "or": [
+      118,
+      123
+     ],
+     "recall": [
+      119
+     ],
+     "(spelling": [
+      120
+     ],
+     "dictation": [
+      122,
+      167
+     ],
+     "letter": [
+      124,
+      155
+     ],
+     "cue": [
+      125,
+      156
+     ],
+     "spelling).": [
+      126
+     ],
+     "There": [
+      127
+     ],
+     "significant": [
+      130
+     ],
+     "all": [
+      135
+     ],
+     "measures": [
+      137
+     ],
+     "(all": [
+      138
+     ],
+     "p": [
+      139,
+      181
+     ],
+     "<": [
+      140
+     ],
+     ".001).": [
+      141
+     ],
+     "When": [
+      142
+     ],
+     "these": [
+      152
+     ],
+     "spelling": [
+      157,
+      165
+     ],
+     "showed": [
+      158
+     ],
+     "significantly": [
+      160,
+      176
+     ],
+     "larger": [
+      161
+     ],
+     "than": [
+      164
+     ],
+     "(p": [
+      168
+     ],
+     ".039)": [
+      170
+     ],
+     "choice": [
+      173
+     ],
+     "did": [
+      174
+     ],
+     "not": [
+      175
+     ],
+     "differ": [
+      177
+     ],
+     "from": [
+      178
+     ],
+     "either": [
+      179
+     ],
+     "(both": [
+      180
+     ],
+     ">": [
+      182
+     ],
+     ".05).": [
+      183
+     ],
+     "These": [
+      184
+     ],
+     "findings": [
+      185
+     ],
+     "indicate": [
+      186
+     ],
+     "that": [
+      187
+     ],
+     "influences": [
+      190
+     ],
+     "form,": [
+      195
+     ],
+     "regardless": [
+      196
+     ],
+     "measure": [
+      200
+     ],
+     "used.": [
+      201
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5082072271",
+       "display_name": "Signy V. Wegener",
+       "orcid": "https://orcid.org/0000-0001-5364-0202",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5364-0202"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99043593",
+        "display_name": "Macquarie University",
+        "ror": "https://ror.org/01sf06y89",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I99043593"
+        ]
+       }
+      ],
+      "countries": [
+       "AU"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Signy Wegener",
+      "raw_affiliation_strings": [
+       "Macquarie University Centre for Reading, Macquarie University, Sydney, New South Wales, Australia",
+       "School of Psychological Sciences, Macquarie University, Sydney, New South Wales, Australia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Macquarie University Centre for Reading, Macquarie University, Sydney, New South Wales, Australia",
+        "institution_ids": [
+         "https://openalex.org/I99043593"
+        ]
+       },
+       {
+        "raw_affiliation_string": "School of Psychological Sciences, Macquarie University, Sydney, New South Wales, Australia",
+        "institution_ids": [
+         "https://openalex.org/I99043593"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5067028541",
+       "display_name": "Hua\u2010Chen Wang",
+       "orcid": "https://orcid.org/0000-0002-9845-147X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9845-147X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99043593",
+        "display_name": "Macquarie University",
+        "ror": "https://ror.org/01sf06y89",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I99043593"
+        ]
+       }
+      ],
+      "countries": [
+       "AU"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Hua\u2010Chen Wang",
+      "raw_affiliation_strings": [
+       "Macquarie University Centre for Reading, Macquarie University, Sydney, New South Wales, Australia",
+       "School of Education, Macquarie University, Sydney, New South Wales, Australia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Macquarie University Centre for Reading, Macquarie University, Sydney, New South Wales, Australia",
+        "institution_ids": [
+         "https://openalex.org/I99043593"
+        ]
+       },
+       {
+        "raw_affiliation_string": "School of Education, Macquarie University, Sydney, New South Wales, Australia",
+        "institution_ids": [
+         "https://openalex.org/I99043593"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5006103708",
+       "display_name": "Elisabeth Beyersmann",
+       "orcid": "https://orcid.org/0000-0001-9653-6106",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9653-6106"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99043593",
+        "display_name": "Macquarie University",
+        "ror": "https://ror.org/01sf06y89",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I99043593"
+        ]
+       }
+      ],
+      "countries": [
+       "AU"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Elisabeth Beyersmann",
+      "raw_affiliation_strings": [
+       "Macquarie University Centre for Reading, Macquarie University, Sydney, New South Wales, Australia",
+       "School of Psychological Sciences, Macquarie University, Sydney, New South Wales, Australia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Macquarie University Centre for Reading, Macquarie University, Sydney, New South Wales, Australia",
+        "institution_ids": [
+         "https://openalex.org/I99043593"
+        ]
+       },
+       {
+        "raw_affiliation_string": "School of Psychological Sciences, Macquarie University, Sydney, New South Wales, Australia",
+        "institution_ids": [
+         "https://openalex.org/I99043593"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5050687235",
+       "display_name": "Erik D. Reichle",
+       "orcid": "https://orcid.org/0000-0003-3754-7619",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3754-7619"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99043593",
+        "display_name": "Macquarie University",
+        "ror": "https://ror.org/01sf06y89",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I99043593"
+        ]
+       }
+      ],
+      "countries": [
+       "AU"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Erik D. Reichle",
+      "raw_affiliation_strings": [
+       "Macquarie University Centre for Reading, Macquarie University, Sydney, New South Wales, Australia",
+       "School of Psychological Sciences, Macquarie University, Sydney, New South Wales, Australia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Macquarie University Centre for Reading, Macquarie University, Sydney, New South Wales, Australia",
+        "institution_ids": [
+         "https://openalex.org/I99043593"
+        ]
+       },
+       {
+        "raw_affiliation_string": "School of Psychological Sciences, Macquarie University, Sydney, New South Wales, Australia",
+        "institution_ids": [
+         "https://openalex.org/I99043593"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5049815500",
+       "display_name": "Kate Nation",
+       "orcid": "https://orcid.org/0000-0001-5048-6107",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5048-6107"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I40120149",
+        "display_name": "University of Oxford",
+        "ror": "https://ror.org/052gg0110",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I40120149"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Kate Nation",
+      "raw_affiliation_strings": [
+       "Department of Experimental Psychology, University of Oxford, Oxford, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Experimental Psychology, University of Oxford, Oxford, UK",
+        "institution_ids": [
+         "https://openalex.org/I40120149"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5026802345",
+       "display_name": "Anne E. Castles",
+       "orcid": "https://orcid.org/0000-0001-8228-8260",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8228-8260"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99043593",
+        "display_name": "Macquarie University",
+        "ror": "https://ror.org/01sf06y89",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I99043593"
+        ]
+       }
+      ],
+      "countries": [
+       "AU"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Anne Castles",
+      "raw_affiliation_strings": [
+       "Macquarie University Centre for Reading, Macquarie University, Sydney, New South Wales, Australia",
+       "School of Psychological Sciences, Macquarie University, Sydney, New South Wales, Australia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Macquarie University Centre for Reading, Macquarie University, Sydney, New South Wales, Australia",
+        "institution_ids": [
+         "https://openalex.org/I99043593"
+        ]
+       },
+       {
+        "raw_affiliation_string": "School of Psychological Sciences, Macquarie University, Sydney, New South Wales, Australia",
+        "institution_ids": [
+         "https://openalex.org/I99043593"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1002/rrq.492",
+     "doi": "https://doi.org/10.1002/rrq.492",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1002/rrq.492",
+     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/rrq.492",
+     "source": {
+      "id": "https://openalex.org/S102860129",
+      "display_name": "Reading Research Quarterly",
+      "issn_l": "0034-0553",
+      "issn": [
+       "0034-0553",
+       "1936-2722"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-b",
+       "erih-plus",
+       "jufo-3",
+       "ki-jl-1",
+       "norway-2",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Reading Research Quarterly",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4407231697",
+    "doi": "https://doi.org/10.1002/acp.70032",
+    "title": "Initial Practice Performance Moderates the Distributed Practice Effect in Complex Procedural Knowledge",
+    "display_name": "Initial Practice Performance Moderates the Distributed Practice Effect in Complex Procedural Knowledge",
+    "publication_year": 2025,
+    "cited_by_count": 6,
+    "abstract_inverted_index": {
+     "Successful": [
+      0
+     ],
+     "adoption": [
+      1
+     ],
+     "of": [
+      2,
+      34,
+      99
+     ],
+     "proven": [
+      3
+     ],
+     "effective": [
+      4
+     ],
+     "practice": [
+      5,
+      10,
+      28,
+      44,
+      107,
+      114,
+      131
+     ],
+     "strategies": [
+      6
+     ],
+     "such": [
+      7
+     ],
+     "as": [
+      8,
+      75,
+      79,
+      92
+     ],
+     "distributed": [
+      9,
+      27,
+      113
+     ],
+     "may": [
+      11
+     ],
+     "contribute": [
+      12
+     ],
+     "to": [
+      13,
+      116
+     ],
+     "much\u2010needed": [
+      14
+     ],
+     "improvement": [
+      15
+     ],
+     "in": [
+      16
+     ],
+     "mathematics": [
+      17
+     ],
+     "performance.": [
+      18,
+      89,
+      108
+     ],
+     "However,": [
+      19
+     ],
+     "it": [
+      20
+     ],
+     "is": [
+      21,
+      29
+     ],
+     "not": [
+      22,
+      135
+     ],
+     "yet": [
+      23,
+      136
+     ],
+     "fully": [
+      24
+     ],
+     "understood": [
+      25
+     ],
+     "if": [
+      26,
+      39
+     ],
+     "beneficial": [
+      30
+     ],
+     "for": [
+      31,
+      41,
+      126
+     ],
+     "long\u2010term": [
+      32,
+      118
+     ],
+     "retention": [
+      33
+     ],
+     "complex": [
+      35
+     ],
+     "procedural": [
+      36
+     ],
+     "knowledge": [
+      37
+     ],
+     "and,": [
+      38
+     ],
+     "so,": [
+      40
+     ],
+     "which": [
+      42
+     ],
+     "initial": [
+      43,
+      106,
+      130
+     ],
+     "performance": [
+      45,
+      74,
+      120,
+      132
+     ],
+     "level": [
+      46
+     ],
+     "this": [
+      47,
+      100
+     ],
+     "spacing": [
+      48,
+      84,
+      101
+     ],
+     "effect": [
+      49,
+      85,
+      102
+     ],
+     "occurs.": [
+      50
+     ],
+     "To": [
+      51
+     ],
+     "investigate": [
+      52
+     ],
+     "these": [
+      53
+     ],
+     "two": [
+      54
+     ],
+     "questions,": [
+      55
+     ],
+     "we": [
+      56,
+      81,
+      94
+     ],
+     "used": [
+      57
+     ],
+     "a": [
+      58,
+      83
+     ],
+     "randomised": [
+      59
+     ],
+     "between\u2010subjects": [
+      60
+     ],
+     "design": [
+      61
+     ],
+     "(Practice": [
+      62
+     ],
+     "Strategy:": [
+      63
+     ],
+     "massed": [
+      64,
+      122
+     ],
+     "vs.": [
+      65
+     ],
+     "distributed)": [
+      66
+     ],
+     "with": [
+      67,
+      128
+     ],
+     "61": [
+      68
+     ],
+     "primary": [
+      69
+     ],
+     "school": [
+      70
+     ],
+     "students'": [
+      71,
+      87
+     ],
+     "mathematical": [
+      72
+     ],
+     "problem\u2010solving": [
+      73,
+      88,
+      119
+     ],
+     "dependent": [
+      76
+     ],
+     "variable.": [
+      77
+     ],
+     "First,": [
+      78
+     ],
+     "hypothesised,": [
+      80,
+      93
+     ],
+     "found": [
+      82,
+      95
+     ],
+     "on": [
+      86,
+      104
+     ],
+     "Second,": [
+      90
+     ],
+     "again": [
+      91
+     ],
+     "that": [
+      96,
+      112
+     ],
+     "the": [
+      97,
+      139
+     ],
+     "magnitude": [
+      98
+     ],
+     "depended": [
+      103
+     ],
+     "their": [
+      105
+     ],
+     "Our": [
+      109
+     ],
+     "findings": [
+      110
+     ],
+     "imply": [
+      111
+     ],
+     "leads": [
+      115
+     ],
+     "better": [
+      117
+     ],
+     "than": [
+      121
+     ],
+     "practice,": [
+      123
+     ],
+     "but": [
+      124
+     ],
+     "only": [
+      125
+     ],
+     "students": [
+      127
+     ],
+     "medium": [
+      129
+     ],
+     "who": [
+      133
+     ],
+     "have": [
+      134
+     ],
+     "completely": [
+      137
+     ],
+     "mastered": [
+      138
+     ],
+     "task.": [
+      140
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5083115494",
+       "display_name": "Sterre K. Ruitenburg",
+       "orcid": "https://orcid.org/0000-0002-3926-1297",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3926-1297"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I7876267",
+        "display_name": "Open University of the Netherlands",
+        "ror": "https://ror.org/018dfmf50",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Sterre K. Ruitenburg",
+      "raw_affiliation_strings": [
+       "Department of Online Learning and Instruction, Faculty of Educational Sciences Open University of the Netherlands  Heerlen the Netherlands"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-3926-1297",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Online Learning and Instruction, Faculty of Educational Sciences Open University of the Netherlands  Heerlen the Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5116182737",
+       "display_name": "Pieter Guldemont",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I7876267",
+        "display_name": "Open University of the Netherlands",
+        "ror": "https://ror.org/018dfmf50",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Pieter Guldemont",
+      "raw_affiliation_strings": [
+       "Department of Online Learning and Instruction, Faculty of Educational Sciences Open University of the Netherlands  Heerlen the Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Online Learning and Instruction, Faculty of Educational Sciences Open University of the Netherlands  Heerlen the Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5069373510",
+       "display_name": "Paul A. Kirschner",
+       "orcid": "https://orcid.org/0000-0002-8743-0462",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8743-0462"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210149079",
+        "display_name": "Thomas More Kempen",
+        "ror": "https://ror.org/04e7kpf57",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210149079"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I7876267",
+        "display_name": "Open University of the Netherlands",
+        "ror": "https://ror.org/018dfmf50",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ],
+      "countries": [
+       "BE",
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Paul A. Kirschner",
+      "raw_affiliation_strings": [
+       "Centre of Expertise Education and Learning Thomas More University of Applied Sciences  Antwerpen Belgium",
+       "Department of Online Learning and Instruction, Faculty of Educational Sciences Open University of the Netherlands  Heerlen the Netherlands"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-8743-0462",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Centre of Expertise Education and Learning Thomas More University of Applied Sciences  Antwerpen Belgium",
+        "institution_ids": [
+         "https://openalex.org/I4210149079"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Online Learning and Instruction, Faculty of Educational Sciences Open University of the Netherlands  Heerlen the Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5014202257",
+       "display_name": "Halszka Jarodzka",
+       "orcid": "https://orcid.org/0000-0003-2312-4703",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2312-4703"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I7876267",
+        "display_name": "Open University of the Netherlands",
+        "ror": "https://ror.org/018dfmf50",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Halszka Jarodzka",
+      "raw_affiliation_strings": [
+       "Department of Online Learning and Instruction, Faculty of Educational Sciences Open University of the Netherlands  Heerlen the Netherlands"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-2312-4703",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Online Learning and Instruction, Faculty of Educational Sciences Open University of the Netherlands  Heerlen the Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5006845054",
+       "display_name": "Gino Camp",
+       "orcid": "https://orcid.org/0000-0002-5272-150X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5272-150X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I7876267",
+        "display_name": "Open University of the Netherlands",
+        "ror": "https://ror.org/018dfmf50",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Gino Camp",
+      "raw_affiliation_strings": [
+       "Department of Online Learning and Instruction, Faculty of Educational Sciences Open University of the Netherlands  Heerlen the Netherlands"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-5272-150X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Online Learning and Instruction, Faculty of Educational Sciences Open University of the Netherlands  Heerlen the Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1002/acp.70032",
+     "doi": "https://doi.org/10.1002/acp.70032",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1002/acp.70032",
+     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/acp.70032",
+     "source": {
+      "id": "https://openalex.org/S91386000",
+      "display_name": "Applied Cognitive Psychology",
+      "issn_l": "0888-4080",
+      "issn": [
+       "0888-4080",
+       "1099-0720"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-b",
+       "cwts-core",
+       "dongbi-c",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Applied Cognitive Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3142100603",
+    "doi": "https://doi.org/10.1007/s10648-021-09613-w",
+    "title": "Spacing and Interleaving Effects Require Distinct Theoretical Bases: a Systematic Review Testing the Cognitive Load and Discriminative-Contrast Hypotheses",
+    "display_name": "Spacing and Interleaving Effects Require Distinct Theoretical Bases: a Systematic Review Testing the Cognitive Load and Discriminative-Contrast Hypotheses",
+    "publication_year": 2021,
+    "cited_by_count": 85,
+    "abstract_inverted_index": {
+     "Spaced": [
+      0
+     ],
+     "and": [
+      1,
+      19,
+      130
+     ],
+     "interleaved": [
+      2,
+      100,
+      131,
+      160
+     ],
+     "practices": [
+      3
+     ],
+     "have": [
+      4
+     ],
+     "been": [
+      5
+     ],
+     "identified": [
+      6
+     ],
+     "as": [
+      7,
+      15,
+      24
+     ],
+     "effective": [
+      8,
+      104
+     ],
+     "learning": [
+      9,
+      48,
+      81,
+      106
+     ],
+     "strategies": [
+      10
+     ],
+     "which": [
+      11,
+      29,
+      79
+     ],
+     "sometimes": [
+      12,
+      111
+     ],
+     "are": [
+      13,
+      35
+     ],
+     "conflated": [
+      14
+     ],
+     "a": [
+      16,
+      86,
+      139
+     ],
+     "single": [
+      17,
+      87
+     ],
+     "strategy": [
+      18
+     ],
+     "at": [
+      20
+     ],
+     "other": [
+      21
+     ],
+     "times": [
+      22
+     ],
+     "treated": [
+      23
+     ],
+     "distinct.": [
+      25
+     ],
+     "Learning": [
+      26
+     ],
+     "sessions": [
+      27,
+      43
+     ],
+     "in": [
+      28,
+      37,
+      46,
+      78,
+      85
+     ],
+     "studying": [
+      30
+     ],
+     "information": [
+      31
+     ],
+     "or": [
+      32
+     ],
+     "practicing": [
+      33
+     ],
+     "problems": [
+      34
+     ],
+     "spaced": [
+      36,
+      61,
+      129,
+      136
+     ],
+     "time": [
+      38
+     ],
+     "with": [
+      39,
+      76,
+      155
+     ],
+     "rest-from-deliberate-learning": [
+      40,
+      54,
+      70,
+      122
+     ],
+     "periods": [
+      41,
+      123
+     ],
+     "between": [
+      42,
+      128,
+      176
+     ],
+     "generally": [
+      44
+     ],
+     "result": [
+      45
+     ],
+     "better": [
+      47
+     ],
+     "outcomes": [
+      49
+     ],
+     "than": [
+      50,
+      68,
+      107
+     ],
+     "massed": [
+      51,
+      94
+     ],
+     "practice": [
+      52,
+      57,
+      101,
+      109,
+      137,
+      161
+     ],
+     "without": [
+      53
+     ],
+     "periods.": [
+      55,
+      71
+     ],
+     "Interleaved": [
+      56
+     ],
+     "also": [
+      58
+     ],
+     "consists": [
+      59
+     ],
+     "of": [
+      60,
+      93,
+      121,
+      182
+     ],
+     "sessions,": [
+      62
+     ],
+     "but": [
+      63
+     ],
+     "by": [
+      64,
+      147,
+      165
+     ],
+     "interleaving": [
+      65,
+      171
+     ],
+     "topics": [
+      66
+     ],
+     "rather": [
+      67
+     ],
+     "having": [
+      69
+     ],
+     "Interleaving": [
+      72
+     ],
+     "is": [
+      73,
+      83,
+      102,
+      110,
+      124,
+      138
+     ],
+     "usually": [
+      74
+     ],
+     "contrasted": [
+      75
+     ],
+     "blocking": [
+      77
+     ],
+     "each": [
+      80
+     ],
+     "topic": [
+      82,
+      177
+     ],
+     "taught": [
+      84
+     ],
+     "block": [
+      88
+     ],
+     "that": [
+      89,
+      99,
+      135,
+      143,
+      170
+     ],
+     "provides": [
+      90,
+      185
+     ],
+     "an": [
+      91
+     ],
+     "example": [
+      92
+     ],
+     "practice.": [
+      95,
+      132
+     ],
+     "The": [
+      96
+     ],
+     "general": [
+      97
+     ],
+     "finding": [
+      98
+     ],
+     "more": [
+      103
+     ],
+     "for": [
+      105,
+      187
+     ],
+     "blocked": [
+      108
+     ],
+     "attributed": [
+      112
+     ],
+     "to": [
+      113,
+      126,
+      174
+     ],
+     "spacing.": [
+      114
+     ],
+     "In": [
+      115
+     ],
+     "the": [
+      116,
+      119,
+      166,
+      183
+     ],
+     "current": [
+      117
+     ],
+     "paper,": [
+      118
+     ],
+     "presence": [
+      120
+     ],
+     "used": [
+      125
+     ],
+     "distinguish": [
+      127
+     ],
+     "We": [
+      133
+     ],
+     "suggest": [
+      134
+     ],
+     "cognitive": [
+      140,
+      153
+     ],
+     "load": [
+      141
+     ],
+     "effect": [
+      142
+     ],
+     "can": [
+      144,
+      162
+     ],
+     "be": [
+      145,
+      163
+     ],
+     "explained": [
+      146,
+      164
+     ],
+     "working": [
+      148
+     ],
+     "memory": [
+      149
+     ],
+     "resource": [
+      150
+     ],
+     "depletion": [
+      151
+     ],
+     "during": [
+      152,
+      157
+     ],
+     "effort": [
+      154
+     ],
+     "recovery": [
+      156
+     ],
+     "rest-from-deliberate-learning,": [
+      158
+     ],
+     "while": [
+      159
+     ],
+     "discriminative-contrast": [
+      167
+     ],
+     "hypothesis": [
+      168
+     ],
+     "positing": [
+      169
+     ],
+     "assists": [
+      172
+     ],
+     "learners": [
+      173
+     ],
+     "discriminate": [
+      175
+     ],
+     "areas.": [
+      178
+     ],
+     "A": [
+      179
+     ],
+     "systematic": [
+      180
+     ],
+     "review": [
+      181
+     ],
+     "literature": [
+      184
+     ],
+     "evidence": [
+      186
+     ],
+     "this": [
+      188
+     ],
+     "suggestion.": [
+      189
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5049974756",
+       "display_name": "Ouhao Chen",
+       "orcid": "https://orcid.org/0000-0001-9645-1946",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9645-1946"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I143804889",
+        "display_name": "Loughborough University",
+        "ror": "https://ror.org/04vg4w365",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I143804889"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Ouhao Chen",
+      "raw_affiliation_strings": [
+       "Mathematics Education Centre, Loughborough University, Loughborough, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Mathematics Education Centre, Loughborough University, Loughborough, UK",
+        "institution_ids": [
+         "https://openalex.org/I143804889"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5028053852",
+       "display_name": "FRED G. W. C. PAAS",
+       "orcid": "https://orcid.org/0000-0002-1647-5305",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1647-5305"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204824540",
+        "display_name": "University of Wollongong",
+        "ror": "https://ror.org/00jtmb277",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204824540"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I913958620",
+        "display_name": "Erasmus University Rotterdam",
+        "ror": "https://ror.org/057w15z03",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I913958620"
+        ]
+       }
+      ],
+      "countries": [
+       "AU",
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Fred Paas",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Education and Child Studies, Erasmus University Rotterdam, Rotterdam, the Netherlands",
+       "School of Education/Early Start, University of Wollongong, Wollongong, Australia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Education and Child Studies, Erasmus University Rotterdam, Rotterdam, the Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I913958620"
+        ]
+       },
+       {
+        "raw_affiliation_string": "School of Education/Early Start, University of Wollongong, Wollongong, Australia",
+        "institution_ids": [
+         "https://openalex.org/I204824540"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5006640853",
+       "display_name": "John Sweller",
+       "orcid": "https://orcid.org/0000-0001-7855-9160",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7855-9160"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I31746571",
+        "display_name": "UNSW Sydney",
+        "ror": "https://ror.org/03r8z3t63",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I31746571"
+        ]
+       }
+      ],
+      "countries": [
+       "AU"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "John Sweller",
+      "raw_affiliation_strings": [
+       "School of Education, University of New South Wales, Sydney, Australia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Education, University of New South Wales, Sydney, Australia",
+        "institution_ids": [
+         "https://openalex.org/I31746571"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1007/s10648-021-09613-w",
+     "doi": "https://doi.org/10.1007/s10648-021-09613-w",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1007/s10648-021-09613-w",
+     "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10648-021-09613-w.pdf",
+     "source": {
+      "id": "https://openalex.org/S187318745",
+      "display_name": "Educational Psychology Review",
+      "issn_l": "1040-726X",
+      "issn": [
+       "1040-726X",
+       "1573-336X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-a",
+       "erih-plus",
+       "jufo-2",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319900",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer Science+Business Media",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Educational Psychology Review",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W7223152238",
+    "doi": "https://doi.org/10.3389/fpsyg.2026.1869060",
+    "title": "The Interpersonal ELIZA Effect: a dyadic account of persistent over-attribution of understanding",
+    "display_name": "The Interpersonal ELIZA Effect: a dyadic account of persistent over-attribution of understanding",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "Weizenbaum\u2019s": [
+      0
+     ],
+     "ELIZA": [
+      1,
+      22,
+      138
+     ],
+     "returned": [
+      2
+     ],
+     "users\u2019": [
+      3
+     ],
+     "own": [
+      4,
+      63,
+      97
+     ],
+     "words": [
+      5
+     ],
+     "as": [
+      6,
+      25,
+      67,
+      92,
+      94,
+      197
+     ],
+     "questions": [
+      7
+     ],
+     "and": [
+      8,
+      32,
+      114,
+      165,
+      199,
+      227,
+      270,
+      295
+     ],
+     "was": [
+      9,
+      339
+     ],
+     "credited": [
+      10
+     ],
+     "with": [
+      11,
+      33,
+      78
+     ],
+     "an": [
+      12,
+      111,
+      257
+     ],
+     "understanding": [
+      13,
+      212
+     ],
+     "it": [
+      14,
+      159,
+      274
+     ],
+     "did": [
+      15
+     ],
+     "not": [
+      16,
+      132,
+      176,
+      276,
+      307
+     ],
+     "have.": [
+      17
+     ],
+     "I": [
+      18
+     ],
+     "develop": [
+      19
+     ],
+     "the": [
+      20,
+      50,
+      61,
+      84,
+      95,
+      104,
+      135,
+      144,
+      191,
+      221,
+      231,
+      235,
+      242,
+      260,
+      278,
+      281,
+      285,
+      304,
+      310,
+      317,
+      320,
+      334
+     ],
+     "Interpersonal": [
+      21
+     ],
+     "Effect": [
+      23
+     ],
+     "(IEE)": [
+      24
+     ],
+     "a": [
+      26,
+      44,
+      54,
+      68,
+      107,
+      166,
+      195,
+      314,
+      327,
+      343
+     ],
+     "dyadic": [
+      27,
+      296
+     ],
+     "configuration": [
+      28,
+      282
+     ],
+     "in": [
+      29,
+      53,
+      119,
+      134,
+      250,
+      336
+     ],
+     "close": [
+      30
+     ],
+     "relationships": [
+      31
+     ],
+     "conversational": [
+      34
+     ],
+     "agents.": [
+      35
+     ],
+     "The": [
+      36,
+      72,
+      146,
+      154,
+      264,
+      299
+     ],
+     "responder": [
+      37,
+      45,
+      73,
+      85,
+      155,
+      222,
+      318
+     ],
+     "side": [
+      38
+     ],
+     "rests": [
+      39
+     ],
+     "on": [
+      40,
+      47,
+      90,
+      123,
+      252
+     ],
+     "demonstrated": [
+      41,
+      211
+     ],
+     "understanding,": [
+      42,
+      198
+     ],
+     "what": [
+      43
+     ],
+     "puts": [
+      46
+     ],
+     "record": [
+      48
+     ],
+     "about": [
+      49,
+      103,
+      302
+     ],
+     "perceiver\u2019s": [
+      51,
+      62,
+      96
+     ],
+     "states": [
+      52
+     ],
+     "form": [
+      55,
+      122
+     ],
+     "that": [
+      56,
+      312
+     ],
+     "can": [
+      57,
+      219
+     ],
+     "be": [
+      58
+     ],
+     "checked": [
+      59
+     ],
+     "against": [
+      60
+     ],
+     "account;": [
+      64
+     ],
+     "self-disclosure": [
+      65
+     ],
+     "enters": [
+      66
+     ],
+     "covariate": [
+      69
+     ],
+     "of": [
+      70,
+      81,
+      151,
+      208,
+      259,
+      323
+     ],
+     "discoverability.": [
+      71
+     ],
+     "condition": [
+      74,
+      156,
+      223
+     ],
+     "is": [
+      75,
+      117,
+      128,
+      157,
+      160,
+      175,
+      180,
+      200,
+      213,
+      244,
+      301,
+      326,
+      342
+     ],
+     "one": [
+      76,
+      253
+     ],
+     "criterion": [
+      77
+     ],
+     "two": [
+      79,
+      149
+     ],
+     "ways": [
+      80
+     ],
+     "failing": [
+      82
+     ],
+     "it:": [
+      83
+     ],
+     "produces": [
+      86
+     ],
+     "determinate": [
+      87,
+      101
+     ],
+     "content": [
+      88
+     ],
+     "elsewhere,": [
+      89
+     ],
+     "matters": [
+      91
+     ],
+     "intimate": [
+      93
+     ],
+     "reports,": [
+      98
+     ],
+     "while": [
+      99
+     ],
+     "setting": [
+      100
+     ],
+     "attributions": [
+      102
+     ],
+     "perceiver": [
+      105
+     ],
+     "below": [
+      106
+     ],
+     "specified": [
+      108,
+      290
+     ],
+     "threshold,": [
+      109
+     ],
+     "or": [
+      110,
+      174,
+      186
+     ],
+     "attribution": [
+      112
+     ],
+     "explicitly": [
+      113
+     ],
+     "literally": [
+      115
+     ],
+     "disconfirmed": [
+      116
+     ],
+     "re-asserted": [
+      118
+     ],
+     "its": [
+      120,
+      239
+     ],
+     "uncorrected": [
+      121
+     ],
+     "later,": [
+      124
+     ],
+     "independent": [
+      125
+     ],
+     "occasions.": [
+      126
+     ],
+     "Uptake": [
+      127
+     ],
+     "persistence": [
+      129
+     ],
+     "across": [
+      130,
+      291,
+      309
+     ],
+     "occasions,": [
+      131
+     ],
+     "echo": [
+      133
+     ],
+     "next": [
+      136
+     ],
+     "turn;": [
+      137
+     ],
+     "replayed": [
+      139
+     ],
+     "transformed": [
+      140
+     ],
+     "inputs": [
+      141
+     ],
+     "without": [
+      142
+     ],
+     "modeling": [
+      143
+     ],
+     "user.": [
+      145
+     ],
+     "account": [
+      147,
+      243
+     ],
+     "joins": [
+      148
+     ],
+     "conditions": [
+      150
+     ],
+     "different": [
+      152
+     ],
+     "kinds.": [
+      153
+     ],
+     "decided:": [
+      158
+     ],
+     "coded": [
+      161
+     ],
+     "from": [
+      162,
+      284
+     ],
+     "recorded": [
+      163
+     ],
+     "interaction": [
+      164
+     ],
+     "dyad": [
+      167
+     ],
+     "meets": [
+      168
+     ],
+     "it,": [
+      169,
+      173
+     ],
+     "fails": [
+      170
+     ],
+     "to": [
+      171,
+      229
+     ],
+     "meet": [
+      172,
+      220
+     ],
+     "classified.": [
+      177
+     ],
+     "Perceiver": [
+      178
+     ],
+     "readiness": [
+      179,
+      226,
+      269
+     ],
+     "graded,": [
+      181
+     ],
+     "elevated": [
+      182
+     ],
+     "where": [
+      183
+     ],
+     "attachment": [
+      184
+     ],
+     "insecurity": [
+      185
+     ],
+     "complex": [
+      187
+     ],
+     "post-traumatic": [
+      188
+     ],
+     "stress": [
+      189
+     ],
+     "lowers": [
+      190
+     ],
+     "threshold": [
+      192
+     ],
+     "for": [
+      193
+     ],
+     "counting": [
+      194
+     ],
+     "contribution": [
+      196
+     ],
+     "never": [
+      201
+     ],
+     "cut": [
+      202
+     ],
+     "into": [
+      203
+     ],
+     "groups.": [
+      204
+     ],
+     "A": [
+      205
+     ],
+     "standing": [
+      206
+     ],
+     "surplus": [
+      207,
+      305
+     ],
+     "felt": [
+      209
+     ],
+     "over": [
+      210
+     ],
+     "predicted": [
+      214
+     ],
+     "rather": [
+      215
+     ],
+     "than": [
+      216
+     ],
+     "definitional:": [
+      217
+     ],
+     "dyads": [
+      218
+     ],
+     "at": [
+      224
+     ],
+     "high": [
+      225
+     ],
+     "fail": [
+      228
+     ],
+     "show": [
+      230
+     ],
+     "surplus,": [
+      232
+     ],
+     "and,": [
+      233
+     ],
+     "once": [
+      234
+     ],
+     "probe": [
+      236
+     ],
+     "has": [
+      237
+     ],
+     "met": [
+      238
+     ],
+     "evidential": [
+      240
+     ],
+     "standard,": [
+      241
+     ],
+     "then": [
+      245
+     ],
+     "wrong.": [
+      246
+     ],
+     "Both": [
+      247
+     ],
+     "are": [
+      248
+     ],
+     "scored": [
+      249
+     ],
+     "vivo": [
+      251
+     ],
+     "correspondence": [
+      254
+     ],
+     "metric": [
+      255
+     ],
+     "through": [
+      256
+     ],
+     "adaptation": [
+      258
+     ],
+     "empathic": [
+      261
+     ],
+     "accuracy": [
+      262,
+      338
+     ],
+     "paradigm.": [
+      263
+     ],
+     "proposed": [
+      265
+     ],
+     "self-report": [
+      266
+     ],
+     "instrument": [
+      267
+     ],
+     "measures": [
+      268
+     ],
+     "records": [
+      271
+     ],
+     "current": [
+      272
+     ],
+     "appraisal;": [
+      273
+     ],
+     "does": [
+      275,
+      306
+     ],
+     "measure": [
+      277
+     ],
+     "discrepancy,": [
+      279
+     ],
+     "which": [
+      280,
+      337
+     ],
+     "conceals": [
+      283
+     ],
+     "perceiver.": [
+      286
+     ],
+     "Five": [
+      287
+     ],
+     "predictions": [
+      288
+     ],
+     "follow,": [
+      289
+     ],
+     "short-term": [
+      292
+     ],
+     "analog": [
+      293
+     ],
+     "designs": [
+      294
+     ],
+     "longitudinal": [
+      297
+     ],
+     "data.": [
+      298
+     ],
+     "claim": [
+      300
+     ],
+     "maintenance:": [
+      303
+     ],
+     "decline": [
+      308
+     ],
+     "waves": [
+      311
+     ],
+     "follow": [
+      313
+     ],
+     "dyad\u2019s": [
+      315
+     ],
+     "meeting": [
+      316
+     ],
+     "condition;": [
+      319
+     ],
+     "growing": [
+      321
+     ],
+     "share": [
+      322
+     ],
+     "recycled": [
+      324
+     ],
+     "material": [
+      325
+     ],
+     "secondary": [
+      328
+     ],
+     "prediction.": [
+      329
+     ],
+     "Path": [
+      330
+     ],
+     "dependence,": [
+      331
+     ],
+     "divergence": [
+      332
+     ],
+     "by": [
+      333
+     ],
+     "order": [
+      335
+     ],
+     "first": [
+      340
+     ],
+     "demanded,": [
+      341
+     ],
+     "further": [
+      344
+     ],
+     "conjecture.": [
+      345
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5138402082",
+       "display_name": "Ashok Riehm",
+       "orcid": "https://orcid.org/0009-0005-7336-2656",
+       "observed_orcids": [
+        "https://orcid.org/0009-0005-7336-2656"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Ashok Riehm",
+      "raw_affiliation_strings": [
+       "Independent Researcher, Hasenmoor, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Independent Researcher, Hasenmoor, Germany",
+        "institution_ids": []
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2026.1869060",
+     "doi": "https://doi.org/10.3389/fpsyg.2026.1869060",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2026.1869060",
+     "pdf_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1869060/pdf",
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2266392144",
+    "doi": "https://doi.org/10.21273/hortsci.41.4.1055d",
+    "title": "(311) Teaching Assistants as a Source of Continuity and Improvement in the Classroom",
+    "display_name": "(311) Teaching Assistants as a Source of Continuity and Improvement in the Classroom",
+    "publication_year": 2006,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "It": [
+      0
+     ],
+     "may": [
+      1,
+      15,
+      67,
+      120
+     ],
+     "seem": [
+      2
+     ],
+     "paradoxical": [
+      3
+     ],
+     "that": [
+      4,
+      119
+     ],
+     "a": [
+      5,
+      12,
+      19,
+      79,
+      138,
+      178
+     ],
+     "teaching": [
+      6,
+      144
+     ],
+     "assistant": [
+      7
+     ],
+     "(TA),": [
+      8
+     ],
+     "whose": [
+      9
+     ],
+     "involvement": [
+      10
+     ],
+     "in": [
+      11,
+      25,
+      33,
+      70,
+      78,
+      94,
+      128,
+      153,
+      169
+     ],
+     "particular": [
+      13
+     ],
+     "class": [
+      14
+     ],
+     "be": [
+      16,
+      68,
+      121
+     ],
+     "limited": [
+      17
+     ],
+     "to": [
+      18,
+      30,
+      39,
+      45,
+      55,
+      88,
+      114,
+      123,
+      134,
+      150,
+      186
+     ],
+     "single": [
+      20
+     ],
+     "semester,": [
+      21
+     ],
+     "can": [
+      22,
+      98,
+      112,
+      163
+     ],
+     "provide": [
+      23,
+      164
+     ],
+     "continuity": [
+      24,
+      165
+     ],
+     "the": [
+      26,
+      40,
+      84,
+      89,
+      104,
+      129,
+      135,
+      148,
+      190
+     ],
+     "classroom": [
+      27,
+      57,
+      81
+     ],
+     "from": [
+      28,
+      36
+     ],
+     "year": [
+      29,
+      38
+     ],
+     "year.": [
+      31
+     ],
+     "Improvement": [
+      32
+     ],
+     "TA": [
+      34,
+      60,
+      74,
+      132
+     ],
+     "performance": [
+      35
+     ],
+     "one": [
+      37
+     ],
+     "next": [
+      41
+     ],
+     "also": [
+      42
+     ],
+     "seems": [
+      43
+     ],
+     "difficult": [
+      44
+     ],
+     "achieve": [
+      46
+     ],
+     "under": [
+      47
+     ],
+     "such": [
+      48
+     ],
+     "circumstances.": [
+      49
+     ],
+     "However,": [
+      50
+     ],
+     "when": [
+      51
+     ],
+     "TAs": [
+      52,
+      111
+     ],
+     "are": [
+      53
+     ],
+     "encouraged": [
+      54
+     ],
+     "document": [
+      56
+     ],
+     "activities,": [
+      58
+     ],
+     "specific": [
+      59,
+      107
+     ],
+     "responsibilities,": [
+      61
+     ],
+     "and": [
+      62,
+      76,
+      116,
+      143,
+      146,
+      156,
+      166
+     ],
+     "student": [
+      63,
+      126
+     ],
+     "concerns,": [
+      64
+     ],
+     "this": [
+      65
+     ],
+     "documentation": [
+      66,
+      162
+     ],
+     "useful": [
+      69
+     ],
+     "achieving": [
+      71
+     ],
+     "continuity,": [
+      72
+     ],
+     "improved": [
+      73
+     ],
+     "performance,": [
+      75
+     ],
+     "result": [
+      77
+     ],
+     "better": [
+      80
+     ],
+     "experience": [
+      82,
+      174
+     ],
+     "for": [
+      83
+     ],
+     "students.": [
+      85
+     ],
+     "In": [
+      86
+     ],
+     "addition": [
+      87
+     ],
+     "benefit": [
+      90
+     ],
+     "of": [
+      91,
+      106,
+      141,
+      192
+     ],
+     "documentation,": [
+      92
+     ],
+     "TAs,": [
+      93
+     ],
+     "conjunction": [
+      95
+     ],
+     "with": [
+      96,
+      137,
+      175
+     ],
+     "faculty,": [
+      97
+     ],
+     "together": [
+      99
+     ],
+     "reflect": [
+      100
+     ],
+     "upon": [
+      101
+     ],
+     "how": [
+      102,
+      160
+     ],
+     "well": [
+      103
+     ],
+     "objectives": [
+      105
+     ],
+     "laboratories": [
+      108
+     ],
+     "were": [
+      109
+     ],
+     "met.": [
+      110
+     ],
+     "contribute": [
+      113
+     ],
+     "generating": [
+      115
+     ],
+     "documenting": [
+      117
+     ],
+     "ideas": [
+      118
+     ],
+     "implemented": [
+      122
+     ],
+     "help": [
+      124
+     ],
+     "improve": [
+      125
+     ],
+     "learning": [
+      127
+     ],
+     "future.": [
+      130
+     ],
+     "Each": [
+      131
+     ],
+     "comes": [
+      133
+     ],
+     "course": [
+      136,
+      154,
+      183
+     ],
+     "unique": [
+      139
+     ],
+     "collection": [
+      140
+     ],
+     "horticultural": [
+      142
+     ],
+     "experiences": [
+      145
+     ],
+     "has": [
+      147
+     ],
+     "potential": [
+      149
+     ],
+     "aid": [
+      151
+     ],
+     "faculty": [
+      152
+     ],
+     "refinement": [
+      155
+     ],
+     "improvement.": [
+      157
+     ],
+     "We": [
+      158
+     ],
+     "explain": [
+      159
+     ],
+     "TA-directed": [
+      161
+     ],
+     "year-to-year": [
+      167
+     ],
+     "improvement": [
+      168
+     ],
+     "horticulture": [
+      170,
+      187
+     ],
+     "classrooms": [
+      171
+     ],
+     "using": [
+      172
+     ],
+     "our": [
+      173
+     ],
+     "HORT": [
+      176
+     ],
+     "3005,": [
+      177
+     ],
+     "required": [
+      179
+     ],
+     "plant": [
+      180
+     ],
+     "physiology": [
+      181
+     ],
+     "laboratory": [
+      182
+     ],
+     "specifically": [
+      184
+     ],
+     "targeted": [
+      185
+     ],
+     "students": [
+      188
+     ],
+     "at": [
+      189
+     ],
+     "University": [
+      191
+     ],
+     "Minnesota.": [
+      193
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5083404856",
+       "display_name": "Charles L. Rohwer",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Charles L. Rohwer",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5082639114",
+       "display_name": "Lynette Y. Wong",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Lynette Y. Wong",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5019848851",
+       "display_name": "David C. Zlesak",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "David C. Zlesak",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5064865385",
+       "display_name": "Jerry D. Cohen",
+       "orcid": "https://orcid.org/0000-0003-2816-8676",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2816-8676"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jerry D. Cohen",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.21273/hortsci.41.4.1055d",
+     "doi": "https://doi.org/10.21273/hortsci.41.4.1055d",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.21273/hortsci.41.4.1055d",
+     "pdf_url": "https://journals.ashs.org/downloadpdf/journals/hortsci/41/4/article-p1055D.pdf",
+     "source": {
+      "id": "https://openalex.org/S183652945",
+      "display_name": "HortScience",
+      "issn_l": "0018-5345",
+      "issn": [
+       "0018-5345",
+       "2327-9834"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "dongbi-c",
+       "jufo-1",
+       "norway-1",
+       "oarl",
+       "poland-70",
+       "russia-white-list-1"
+      ],
+      "host_organization": "https://openalex.org/P4320800526",
+      "host_organization_name": "American Society for Horticultural Science",
+      "host_organization_lineage": [
+       "https://openalex.org/P4320800526"
+      ],
+      "host_organization_lineage_names": [
+       "American Society for Horticultural Science"
+      ],
+      "type": "journal"
+     },
+     "license": "public-domain",
+     "license_id": "https://openalex.org/licenses/public-domain",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "HortScience",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

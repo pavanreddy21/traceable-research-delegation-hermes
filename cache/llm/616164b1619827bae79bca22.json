@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a2024a-0f2b-7ae6-aa48-b5ac2fe246e2",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795334737,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Broad queries keep returning nothing; I will try one final minimal query on note-taking.\", \"action\": \"search_papers\", \"args\": {\"query\": \"note-taking\"}}",
+    "reasoning_content": "The search tool keeps returning empty results. Let me try one more broader query, maybe \"note-taking\". If nothing, finish with empty list.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 722,
+  "completion_tokens": 71,
+  "total_tokens": 793,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 30
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.27
+}

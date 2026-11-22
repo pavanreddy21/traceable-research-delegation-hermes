@@ -1,0 +1,3338 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 53,
+   "db_response_time_ms": 112,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (testing effect fails to replicate no advantage over rereading restudy) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (testing effect fails to replicate no advantage over rereading restudy) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "testing effect fails to replicate no advantage over rereading restudy",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:testing effect fails to replicate no advantage over rereading restudy,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4411148633",
+    "doi": "https://doi.org/10.3758/s13421-025-01726-9",
+    "title": "Supporting comprehension: The advantages of multiple\u2013choice over true\u2014false practice tests",
+    "display_name": "Supporting comprehension: The advantages of multiple\u2013choice over true\u2014false practice tests",
+    "publication_year": 2025,
+    "cited_by_count": 3,
+    "abstract_inverted_index": {
+     "While": [
+      0
+     ],
+     "work": [
+      1,
+      151
+     ],
+     "on": [
+      2,
+      8,
+      58,
+      75,
+      84,
+      92,
+      129,
+      203
+     ],
+     "improving": [
+      3
+     ],
+     "comprehension": [
+      4,
+      176
+     ],
+     "has": [
+      5
+     ],
+     "primarily": [
+      6
+     ],
+     "focused": [
+      7
+     ],
+     "open-ended": [
+      9
+     ],
+     "generative": [
+      10
+     ],
+     "activities,": [
+      11
+     ],
+     "closed-ended": [
+      12,
+      158
+     ],
+     "practice": [
+      13,
+      31,
+      49,
+      72,
+      85,
+      115,
+      122,
+      136,
+      159,
+      201
+     ],
+     "tests": [
+      14,
+      123
+     ],
+     "using": [
+      15
+     ],
+     "inference-type": [
+      16
+     ],
+     "questions": [
+      17,
+      163
+     ],
+     "may": [
+      18,
+      39
+     ],
+     "also": [
+      19,
+      184
+     ],
+     "benefit": [
+      20,
+      91
+     ],
+     "understanding": [
+      21
+     ],
+     "from": [
+      22,
+      156
+     ],
+     "text.": [
+      23
+     ],
+     "Four": [
+      24
+     ],
+     "experiments": [
+      25
+     ],
+     "were": [
+      26
+     ],
+     "designed": [
+      27
+     ],
+     "to": [
+      28,
+      52,
+      139,
+      171
+     ],
+     "investigate": [
+      29
+     ],
+     "how": [
+      30
+     ],
+     "tests,": [
+      32,
+      86
+     ],
+     "specifically": [
+      33
+     ],
+     "in": [
+      34,
+      63,
+      67,
+      124,
+      188,
+      192
+     ],
+     "multiple-choice": [
+      35,
+      71,
+      106,
+      135,
+      162
+     ],
+     "and": [
+      36,
+      44,
+      169
+     ],
+     "true-false": [
+      37,
+      111
+     ],
+     "formats,": [
+      38
+     ],
+     "support": [
+      40
+     ],
+     "comprehension.": [
+      41
+     ],
+     "Experiments": [
+      42
+     ],
+     "1": [
+      43
+     ],
+     "2": [
+      45
+     ],
+     "compared": [
+      46,
+      108
+     ],
+     "the": [
+      47,
+      93,
+      105,
+      110,
+      114,
+      130,
+      154,
+      179,
+      182,
+      197
+     ],
+     "two": [
+      48
+     ],
+     "test": [
+      50,
+      62,
+      160
+     ],
+     "formats": [
+      51,
+      55
+     ],
+     "rereading.": [
+      53
+     ],
+     "Both": [
+      54
+     ],
+     "improved": [
+      56,
+      127
+     ],
+     "performance": [
+      57,
+      74,
+      128,
+      142
+     ],
+     "a": [
+      59,
+      76,
+      157,
+      167,
+      172
+     ],
+     "final": [
+      60,
+      94,
+      131
+     ],
+     "essay": [
+      61
+     ],
+     "Experiment": [
+      64,
+      68,
+      80,
+      125
+     ],
+     "1,": [
+      65
+     ],
+     "but": [
+      66,
+      87
+     ],
+     "2,": [
+      69
+     ],
+     "only": [
+      70
+     ],
+     "enhanced": [
+      73
+     ],
+     "short-answer": [
+      77
+     ],
+     "(SA)": [
+      78
+     ],
+     "test.": [
+      79,
+      116,
+      133
+     ],
+     "3": [
+      81
+     ],
+     "introduced": [
+      82
+     ],
+     "feedback": [
+      83
+     ],
+     "found": [
+      88
+     ],
+     "no": [
+      89
+     ],
+     "added": [
+      90
+     ],
+     "SA": [
+      95,
+      132,
+      141
+     ],
+     "test,": [
+      96
+     ],
+     "which": [
+      97
+     ],
+     "remained": [
+      98
+     ],
+     "consistently": [
+      99,
+      137
+     ],
+     "better": [
+      100,
+      140
+     ],
+     "for": [
+      101
+     ],
+     "those": [
+      102
+     ],
+     "who": [
+      103
+     ],
+     "completed": [
+      104
+     ],
+     "as": [
+      107
+     ],
+     "with": [
+      109,
+      161
+     ],
+     "version": [
+      112
+     ],
+     "of": [
+      113,
+      146,
+      174,
+      200
+     ],
+     "Finally,": [
+      117
+     ],
+     "manipulating": [
+      118
+     ],
+     "text": [
+      119,
+      147
+     ],
+     "availability": [
+      120
+     ],
+     "during": [
+      121
+     ],
+     "4": [
+      126
+     ],
+     "However,": [
+      134
+     ],
+     "led": [
+      138
+     ],
+     "than": [
+      143
+     ],
+     "true-false,": [
+      144
+     ],
+     "regardless": [
+      145
+     ],
+     "availability.": [
+      148
+     ],
+     "The": [
+      149
+     ],
+     "present": [
+      150
+     ],
+     "illustrates": [
+      152
+     ],
+     "that": [
+      153,
+      189
+     ],
+     "benefits": [
+      155,
+      199
+     ],
+     "can": [
+      164,
+      195
+     ],
+     "persist": [
+      165
+     ],
+     "over": [
+      166
+     ],
+     "delay": [
+      168
+     ],
+     "transfer": [
+      170
+     ],
+     "set": [
+      173
+     ],
+     "new": [
+      175
+     ],
+     "questions.": [
+      177
+     ],
+     "At": [
+      178
+     ],
+     "same": [
+      180
+     ],
+     "time,": [
+      181
+     ],
+     "results": [
+      183
+     ],
+     "highlight": [
+      185
+     ],
+     "important": [
+      186
+     ],
+     "constraints": [
+      187
+     ],
+     "subtle": [
+      190
+     ],
+     "nuances": [
+      191
+     ],
+     "question": [
+      193
+     ],
+     "design": [
+      194
+     ],
+     "impact": [
+      196
+     ],
+     "observed": [
+      198
+     ],
+     "testing": [
+      202
+     ],
+     "learning": [
+      204
+     ],
+     "outcomes.": [
+      205
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5059310358",
+       "display_name": "Lena Hildenbrand",
+       "orcid": "https://orcid.org/0000-0002-6344-4827",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6344-4827"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I39422238",
+        "display_name": "University of Illinois Chicago",
+        "ror": "https://ror.org/02mpq6x41",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I39422238"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Lena Hildenbrand",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of Illinois at Chicago, 1007 W Harrison St MC 285, Chicago, IL, 60607, USA. lhilde3@uic.edu"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-6344-4827",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of Illinois at Chicago, 1007 W Harrison St MC 285, Chicago, IL, 60607, USA. lhilde3@uic.edu",
+        "institution_ids": [
+         "https://openalex.org/I39422238"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5028420397",
+       "display_name": "Jennifer Wiley",
+       "orcid": "https://orcid.org/0000-0002-2590-7392",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2590-7392"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I39422238",
+        "display_name": "University of Illinois Chicago",
+        "ror": "https://ror.org/02mpq6x41",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I39422238"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jennifer Wiley",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of Illinois at Chicago, 1007 W Harrison St MC 285, Chicago, IL, 60607, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-2590-7392",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of Illinois at Chicago, 1007 W Harrison St MC 285, Chicago, IL, 60607, USA",
+        "institution_ids": [
+         "https://openalex.org/I39422238"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3758/s13421-025-01726-9",
+     "doi": "https://doi.org/10.3758/s13421-025-01726-9",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3758/s13421-025-01726-9",
+     "pdf_url": "https://link.springer.com/content/pdf/10.3758/s13421-025-01726-9.pdf",
+     "source": {
+      "id": "https://openalex.org/S114265899",
+      "display_name": "Memory & Cognition",
+      "issn_l": "0090-502X",
+      "issn": [
+       "0090-502X",
+       "1532-5946"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-d",
+       "erih-plus",
+       "jufo-2",
+       "medline",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319900",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer Science+Business Media",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Memory &amp; Cognition",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2071538318",
+    "doi": "https://doi.org/10.1111/sjop.12093",
+    "title": "Strengthening concept learning by repeated testing",
+    "display_name": "Strengthening concept learning by repeated testing",
+    "publication_year": 2013,
+    "cited_by_count": 126,
+    "abstract_inverted_index": {
+     "The": [
+      0,
+      26,
+      51
+     ],
+     "aim": [
+      1
+     ],
+     "of": [
+      2,
+      18,
+      45,
+      88,
+      96
+     ],
+     "this": [
+      3
+     ],
+     "study": [
+      4
+     ],
+     "was": [
+      5,
+      29,
+      91
+     ],
+     "to": [
+      6,
+      16,
+      63,
+      75,
+      111
+     ],
+     "examine": [
+      7
+     ],
+     "whether": [
+      8
+     ],
+     "repeated": [
+      9,
+      55,
+      70,
+      76,
+      89,
+      107
+     ],
+     "testing": [
+      10,
+      27,
+      56,
+      90
+     ],
+     "with": [
+      11,
+      57
+     ],
+     "feedback": [
+      12,
+      58
+     ],
+     "benefits": [
+      13
+     ],
+     "learning": [
+      14,
+      61
+     ],
+     "compared": [
+      15,
+      62,
+      74
+     ],
+     "rereading": [
+      17,
+      64
+     ],
+     "introductory": [
+      19
+     ],
+     "psychology": [
+      20
+     ],
+     "key-concepts": [
+      21
+     ],
+     "in": [
+      22,
+      42,
+      78
+     ],
+     "an": [
+      23
+     ],
+     "educational": [
+      24,
+      115
+     ],
+     "context.": [
+      25
+     ],
+     "effect": [
+      28,
+      87
+     ],
+     "examined": [
+      30
+     ],
+     "immediately": [
+      31
+     ],
+     "after": [
+      32,
+      34
+     ],
+     "practice,": [
+      33
+     ],
+     "18": [
+      35
+     ],
+     "days,": [
+      36
+     ],
+     "and": [
+      37,
+      81
+     ],
+     "at": [
+      38,
+      65
+     ],
+     "a": [
+      39,
+      43
+     ],
+     "five-week": [
+      40
+     ],
+     "delay": [
+      41
+     ],
+     "sample": [
+      44
+     ],
+     "undergraduate": [
+      46
+     ],
+     "students": [
+      47,
+      94
+     ],
+     "(n": [
+      48
+     ],
+     "=": [
+      49
+     ],
+     "83).": [
+      50
+     ],
+     "results": [
+      52
+     ],
+     "revealed": [
+      53
+     ],
+     "that": [
+      54,
+      69,
+      103
+     ],
+     "significantly": [
+      59
+     ],
+     "enhanced": [
+      60
+     ],
+     "all": [
+      66
+     ],
+     "delays,": [
+      67
+     ],
+     "demonstrating": [
+      68
+     ],
+     "retrieval": [
+      71,
+      108
+     ],
+     "enhances": [
+      72
+     ],
+     "retention": [
+      73
+     ],
+     "encoding": [
+      77
+     ],
+     "the": [
+      79,
+      82,
+      86,
+      114
+     ],
+     "short-": [
+      80
+     ],
+     "long-term.": [
+      83
+     ],
+     "In": [
+      84
+     ],
+     "addition,": [
+      85
+     ],
+     "beneficial": [
+      92
+     ],
+     "for": [
+      93
+     ],
+     "irrespectively": [
+      95
+     ],
+     "working": [
+      97
+     ],
+     "memory": [
+      98
+     ],
+     "capacity.": [
+      99
+     ],
+     "It": [
+      100
+     ],
+     "is": [
+      101
+     ],
+     "argued": [
+      102
+     ],
+     "teaching": [
+      104
+     ],
+     "methods": [
+      105
+     ],
+     "involving": [
+      106
+     ],
+     "are": [
+      109
+     ],
+     "important": [
+      110
+     ],
+     "consider": [
+      112
+     ],
+     "by": [
+      113
+     ],
+     "system.": [
+      116
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5016485021",
+       "display_name": "Carola Wiklund\u2010H\u00f6rnqvist",
+       "orcid": "https://orcid.org/0000-0002-5523-490X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5523-490X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I90267481",
+        "display_name": "Ume\u00e5 University",
+        "ror": "https://ror.org/05kb8h459",
+        "country_code": "SE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I90267481"
+        ]
+       }
+      ],
+      "countries": [
+       "SE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Carola Wiklund\u2010H\u00f6rnqvist",
+      "raw_affiliation_strings": [
+       "Department of Psychology Ume\u00e5 University Sweden"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology Ume\u00e5 University Sweden",
+        "institution_ids": [
+         "https://openalex.org/I90267481"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5083304289",
+       "display_name": "Bert Jonsson",
+       "orcid": "https://orcid.org/0000-0002-5884-6469",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5884-6469"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I90267481",
+        "display_name": "Ume\u00e5 University",
+        "ror": "https://ror.org/05kb8h459",
+        "country_code": "SE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I90267481"
+        ]
+       }
+      ],
+      "countries": [
+       "SE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Bert Jonsson",
+      "raw_affiliation_strings": [
+       "Department of Psychology Ume\u00e5 University Sweden"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology Ume\u00e5 University Sweden",
+        "institution_ids": [
+         "https://openalex.org/I90267481"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5068408229",
+       "display_name": "Lars H Nyberg",
+       "orcid": "https://orcid.org/0000-0002-3367-1746",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3367-1746"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I90267481",
+        "display_name": "Ume\u00e5 University",
+        "ror": "https://ror.org/05kb8h459",
+        "country_code": "SE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I90267481"
+        ]
+       }
+      ],
+      "countries": [
+       "SE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Lars Nyberg",
+      "raw_affiliation_strings": [
+       "Departments of Integrative Medical Biology and Radiation Sciences Ume\u00e5 University Sweden"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Departments of Integrative Medical Biology and Radiation Sciences Ume\u00e5 University Sweden",
+        "institution_ids": [
+         "https://openalex.org/I90267481"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1111/sjop.12093",
+     "doi": "https://doi.org/10.1111/sjop.12093",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1111/sjop.12093",
+     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/sjop.12093",
+     "source": {
+      "id": "https://openalex.org/S34816297",
+      "display_name": "Scandinavian Journal of Psychology",
+      "issn_l": "0036-5564",
+      "issn": [
+       "0036-5564",
+       "1467-9450"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-d",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Scandinavian Journal of Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4404233578",
+    "doi": "https://doi.org/10.1007/s11251-024-09686-4",
+    "title": "Comparing the effectiveness of multiple text reading and rereading on knowledge retention and metacognitive accuracy",
+    "display_name": "Comparing the effectiveness of multiple text reading and rereading on knowledge retention and metacognitive accuracy",
+    "publication_year": 2024,
+    "cited_by_count": 12,
+    "abstract_inverted_index": {
+     "Although": [
+      0
+     ],
+     "learning": [
+      1,
+      173,
+      199,
+      227
+     ],
+     "approaches": [
+      2,
+      139
+     ],
+     "are": [
+      3,
+      18
+     ],
+     "designed": [
+      4
+     ],
+     "to": [
+      5,
+      9,
+      28
+     ],
+     "enhance": [
+      6
+     ],
+     "individuals'": [
+      7
+     ],
+     "ability": [
+      8
+     ],
+     "store": [
+      10
+     ],
+     "and": [
+      11,
+      50,
+      90,
+      108,
+      135,
+      164,
+      186,
+      204,
+      229
+     ],
+     "retrieve": [
+      12
+     ],
+     "information,": [
+      13
+     ],
+     "not": [
+      14
+     ],
+     "all": [
+      15
+     ],
+     "of": [
+      16,
+      23,
+      39,
+      42,
+      69,
+      87,
+      94,
+      172,
+      198
+     ],
+     "them": [
+      17
+     ],
+     "considered": [
+      19
+     ],
+     "effective.": [
+      20
+     ],
+     "The": [
+      21
+     ],
+     "goal": [
+      22
+     ],
+     "the": [
+      24,
+      31,
+      37,
+      80,
+      95,
+      101,
+      122,
+      161,
+      175,
+      194,
+      213
+     ],
+     "present": [
+      25
+     ],
+     "study": [
+      26
+     ],
+     "was": [
+      27
+     ],
+     "experimentally": [
+      29
+     ],
+     "compare": [
+      30
+     ],
+     "test": [
+      32,
+      60,
+      97
+     ],
+     "performance": [
+      33
+     ],
+     "as": [
+      34,
+      36
+     ],
+     "well": [
+      35
+     ],
+     "accuracy": [
+      38,
+      86
+     ],
+     "metacognitive": [
+      40,
+      88,
+      169
+     ],
+     "judgements": [
+      41,
+      171,
+      197
+     ],
+     "a": [
+      43,
+      55,
+      155
+     ],
+     "multiple": [
+      44,
+      105,
+      127,
+      144,
+      176
+     ],
+     "text": [
+      45,
+      106,
+      128,
+      145,
+      177
+     ],
+     "reading": [
+      46,
+      52,
+      84,
+      107,
+      129,
+      138,
+      146,
+      178,
+      185,
+      203
+     ],
+     "group,": [
+      47,
+      49,
+      196
+     ],
+     "rereading": [
+      48,
+      109,
+      195
+     ],
+     "single": [
+      51,
+      119,
+      141
+     ],
+     "group": [
+      53,
+      179
+     ],
+     "in": [
+      54,
+      79,
+      100,
+      148,
+      158,
+      174
+     ],
+     "one-day": [
+      56,
+      102,
+      162,
+      214
+     ],
+     "vs.": [
+      57
+     ],
+     "one-week": [
+      58,
+      123,
+      165
+     ],
+     "delayed": [
+      59,
+      103,
+      124,
+      163,
+      166,
+      215
+     ],
+     "(3": [
+      61
+     ],
+     "\u00d7": [
+      62
+     ],
+     "2": [
+      63
+     ],
+     "between": [
+      64,
+      160
+     ],
+     "subject": [
+      65
+     ],
+     "design).": [
+      66
+     ],
+     "A": [
+      67
+     ],
+     "total": [
+      68
+     ],
+     "186": [
+      70
+     ],
+     "psychology": [
+      71
+     ],
+     "students": [
+      72
+     ],
+     "(": [
+      73
+     ],
+     "M": [
+      74
+     ],
+     "age": [
+      75
+     ],
+     "=": [
+      76
+     ],
+     "20.76)": [
+      77
+     ],
+     "participated": [
+      78
+     ],
+     "experiment": [
+      81
+     ],
+     "focused": [
+      82
+     ],
+     "on": [
+      83,
+      212
+     ],
+     "comprehension,": [
+      85
+     ],
+     "judgments": [
+      89
+     ],
+     "knowledge": [
+      91,
+      96,
+      151
+     ],
+     "retention.": [
+      92
+     ],
+     "Results": [
+      93
+     ],
+     "indicate": [
+      98
+     ],
+     "that": [
+      99
+     ],
+     "test,": [
+      104,
+      125
+     ],
+     "yield": [
+      110
+     ],
+     "similar": [
+      111
+     ],
+     "results:": [
+      112
+     ],
+     "both": [
+      113,
+      136
+     ],
+     "deliver": [
+      114
+     ],
+     "slightly": [
+      115
+     ],
+     "better": [
+      116,
+      131
+     ],
+     "results": [
+      117,
+      132,
+      147
+     ],
+     "than": [
+      118,
+      133
+     ],
+     "reading.": [
+      120,
+      142
+     ],
+     "In": [
+      121,
+      193
+     ],
+     "though,": [
+      126
+     ],
+     "yields": [
+      130
+     ],
+     "rereading,": [
+      134
+     ],
+     "these": [
+      137
+     ],
+     "outperform": [
+      140
+     ],
+     "Moreover,": [
+      143
+     ],
+     "fairly": [
+      149
+     ],
+     "robust": [
+      150
+     ],
+     "retention": [
+      152
+     ],
+     "with": [
+      153
+     ],
+     "only": [
+      154
+     ],
+     "slight": [
+      156
+     ],
+     "decrease": [
+      157
+     ],
+     "scores": [
+      159
+     ],
+     "test.": [
+      167,
+      216
+     ],
+     "Regarding": [
+      168
+     ],
+     "monitoring,": [
+      170
+     ],
+     "remained": [
+      180
+     ],
+     "relatively": [
+      181
+     ],
+     "stable": [
+      182
+     ],
+     "after": [
+      183,
+      201
+     ],
+     "each": [
+      184,
+      202
+     ],
+     "participants": [
+      187,
+      205
+     ],
+     "were": [
+      188,
+      206
+     ],
+     "underconfident": [
+      189
+     ],
+     "about": [
+      190,
+      208
+     ],
+     "their": [
+      191,
+      209
+     ],
+     "knowledge.": [
+      192
+     ],
+     "increased": [
+      200
+     ],
+     "overconfident": [
+      207
+     ],
+     "knowledge,": [
+      210
+     ],
+     "especially": [
+      211
+     ],
+     "These": [
+      217
+     ],
+     "findings": [
+      218
+     ],
+     "have": [
+      219
+     ],
+     "implications": [
+      220
+     ],
+     "for": [
+      221
+     ],
+     "educational": [
+      222
+     ],
+     "practices": [
+      223
+     ],
+     "aimed": [
+      224
+     ],
+     "at": [
+      225
+     ],
+     "enhancing": [
+      226
+     ],
+     "outcomes": [
+      228
+     ],
+     "promoting": [
+      230
+     ],
+     "effective": [
+      231
+     ],
+     "learning.": [
+      232
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5104577218",
+       "display_name": "Peter Seban",
+       "orcid": "https://orcid.org/0000-0002-8717-1616",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8717-1616"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I202391551",
+        "display_name": "Czech Academy of Sciences",
+        "ror": "https://ror.org/053avzc18",
+        "country_code": "CZ",
+        "type": "government",
+        "lineage": [
+         "https://openalex.org/I202391551"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210157357",
+        "display_name": "University of Ss. Cyril and Methodius in Trnava",
+        "ror": "https://ror.org/04xdyq509",
+        "country_code": "SK",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210157357"
+        ]
+       }
+      ],
+      "countries": [
+       "CZ",
+       "SK"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Peter Seban",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of Ss. Cyril and Methodius in Trnava, Trnava, Slovakia",
+       "Institute of Psychology, Czech Academy of Sciences, Prague, Czechia",
+       "Department of Psychology, University of Ss. Cyril and Methodius in Trnava, Namestie J. Herdu 2, 917 01, Trnava, Slovakia"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-8717-1616",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of Ss. Cyril and Methodius in Trnava, Trnava, Slovakia",
+        "institution_ids": [
+         "https://openalex.org/I4210157357"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Institute of Psychology, Czech Academy of Sciences, Prague, Czechia",
+        "institution_ids": [
+         "https://openalex.org/I202391551"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, University of Ss. Cyril and Methodius in Trnava, Namestie J. Herdu 2, 917 01, Trnava, Slovakia",
+        "institution_ids": [
+         "https://openalex.org/I4210157357"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5091135832",
+       "display_name": "Kamila Urban",
+       "orcid": "https://orcid.org/0000-0003-4547-9804",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4547-9804"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I207624831",
+        "display_name": "Slovak Academy of Sciences",
+        "ror": "https://ror.org/03h7qq074",
+        "country_code": "SK",
+        "type": "government",
+        "lineage": [
+         "https://openalex.org/I207624831"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210155881",
+        "display_name": "Institute for Research in Social Communication of the Slovak Academy of Sciences",
+        "ror": "https://ror.org/059p10119",
+        "country_code": "SK",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I207624831",
+         "https://openalex.org/I4210155881"
+        ]
+       }
+      ],
+      "countries": [
+       "SK"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Kamila Urban",
+      "raw_affiliation_strings": [
+       "Institute for Research in Social Communication, Slovak Academy of Sciences, Bratislava, Slovakia"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-4547-9804",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute for Research in Social Communication, Slovak Academy of Sciences, Bratislava, Slovakia",
+        "institution_ids": [
+         "https://openalex.org/I207624831",
+         "https://openalex.org/I4210155881"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5009718614",
+       "display_name": "Radovan \u0160ikl",
+       "orcid": "https://orcid.org/0000-0002-7277-8183",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7277-8183"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I202391551",
+        "display_name": "Czech Academy of Sciences",
+        "ror": "https://ror.org/053avzc18",
+        "country_code": "CZ",
+        "type": "government",
+        "lineage": [
+         "https://openalex.org/I202391551"
+        ]
+       }
+      ],
+      "countries": [
+       "CZ"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Radovan Sikl",
+      "raw_affiliation_strings": [
+       "Institute of Psychology, Czech Academy of Sciences, Prague, Czechia"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-7277-8183",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute of Psychology, Czech Academy of Sciences, Prague, Czechia",
+        "institution_ids": [
+         "https://openalex.org/I202391551"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1007/s11251-024-09686-4",
+     "doi": "https://doi.org/10.1007/s11251-024-09686-4",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1007/s11251-024-09686-4",
+     "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11251-024-09686-4.pdf",
+     "source": {
+      "id": "https://openalex.org/S143778727",
+      "display_name": "Instructional Science",
+      "issn_l": "0020-4277",
+      "issn": [
+       "0020-4277",
+       "1573-1952"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-d",
+       "erih-plus",
+       "jufo-3",
+       "ki-jl-1",
+       "norway-2",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319900",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer Science+Business Media",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Instructional Science",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2520536761",
+    "doi": "https://doi.org/10.7936/k7gt5kmv",
+    "title": "The Enhancing Effect of Retrieval on Subsequent Encoding: Understanding Test-Potentiated Learning",
+    "display_name": "The Enhancing Effect of Retrieval on Subsequent Encoding: Understanding Test-Potentiated Learning",
+    "publication_year": 2013,
+    "cited_by_count": 1,
+    "abstract_inverted_index": {
+     "Retrieval": [
+      0,
+      41
+     ],
+     "practice": [
+      1,
+      35,
+      42
+     ],
+     "directly": [
+      2
+     ],
+     "enhances": [
+      3,
+      267
+     ],
+     "later": [
+      4,
+      236,
+      247,
+      342
+     ],
+     "memory": [
+      5
+     ],
+     "of": [
+      6,
+      33,
+      52,
+      90,
+      97,
+      108,
+      150,
+      185,
+      193,
+      203,
+      249,
+      270,
+      280,
+      291,
+      319,
+      339
+     ],
+     "tested": [
+      7,
+      53,
+      217,
+      286
+     ],
+     "material,": [
+      8,
+      54
+     ],
+     "a": [
+      9,
+      300
+     ],
+     "robust": [
+      10
+     ],
+     "effect": [
+      11,
+      16,
+      32,
+      56,
+      184,
+      269,
+      279,
+      326,
+      338
+     ],
+     "known": [
+      12,
+      57,
+      71
+     ],
+     "as": [
+      13,
+      58,
+      233
+     ],
+     "the": [
+      14,
+      143,
+      148,
+      161,
+      164,
+      183,
+      191,
+      194,
+      207,
+      218,
+      268,
+      278,
+      289,
+      317,
+      337,
+      357
+     ],
+     "testing": [
+      15,
+      355
+     ],
+     "(Roediger": [
+      17
+     ],
+     "&": [
+      18,
+      261
+     ],
+     "Karpicke,": [
+      19,
+      260
+     ],
+     "2006b).": [
+      20
+     ],
+     "Numerous": [
+      21
+     ],
+     "experiments": [
+      22,
+      346
+     ],
+     "have": [
+      23
+     ],
+     "provided": [
+      24
+     ],
+     "support": [
+      25
+     ],
+     "for": [
+      26,
+      197,
+      206
+     ],
+     "this": [
+      27,
+      91,
+      204,
+      325
+     ],
+     "effect.": [
+      28
+     ],
+     "However,": [
+      29
+     ],
+     "another": [
+      30
+     ],
+     "important": [
+      31
+     ],
+     "retrieval": [
+      34,
+      154,
+      189,
+      274,
+      330,
+      350
+     ],
+     "has": [
+      36,
+      82,
+      242
+     ],
+     "received": [
+      37
+     ],
+     "far": [
+      38
+     ],
+     "less": [
+      39
+     ],
+     "attention.": [
+      40
+     ],
+     "can": [
+      43,
+      125,
+      227
+     ],
+     "also": [
+      44,
+      228,
+      276
+     ],
+     "indirectly": [
+      45
+     ],
+     "enhance": [
+      46,
+      77,
+      95,
+      246,
+      277,
+      336
+     ],
+     "learning": [
+      47,
+      60,
+      99,
+      137,
+      212,
+      232
+     ],
+     "by": [
+      48,
+      100,
+      146,
+      235,
+      287
+     ],
+     "potentiating": [
+      49
+     ],
+     "subsequent": [
+      50,
+      78,
+      118,
+      281
+     ],
+     "encoding": [
+      51,
+      120
+     ],
+     "an": [
+      55
+     ],
+     "test-potentiated": [
+      59,
+      98,
+      136,
+      211,
+      231,
+      361
+     ],
+     "(Izawa,": [
+      61
+     ],
+     "1966).": [
+      62
+     ],
+     "Although": [
+      63
+     ],
+     "introduced": [
+      64
+     ],
+     "over": [
+      65
+     ],
+     "four": [
+      66
+     ],
+     "decades": [
+      67
+     ],
+     "ago,": [
+      68
+     ],
+     "little": [
+      69
+     ],
+     "is": [
+      70
+     ],
+     "about": [
+      72
+     ],
+     "how": [
+      73
+     ],
+     "and": [
+      74,
+      85,
+      123,
+      152,
+      171,
+      294
+     ],
+     "when": [
+      75
+     ],
+     "tests": [
+      76,
+      110,
+      293,
+      321
+     ],
+     "encoding,": [
+      79
+     ],
+     "information": [
+      80
+     ],
+     "that": [
+      81,
+      127,
+      220,
+      328,
+      348
+     ],
+     "both": [
+      83
+     ],
+     "practical": [
+      84
+     ],
+     "theoretical": [
+      86,
+      208
+     ],
+     "importance.": [
+      87
+     ],
+     "The": [
+      88,
+      201
+     ],
+     "aim": [
+      89
+     ],
+     "dissertation": [
+      92
+     ],
+     "was": [
+      93,
+      285,
+      309
+     ],
+     "to": [
+      94,
+      132,
+      159,
+      173,
+      181,
+      225,
+      245,
+      311,
+      332
+     ],
+     "understanding": [
+      96
+     ],
+     "answering": [
+      101
+     ],
+     "two": [
+      102
+     ],
+     "fundamental": [
+      103
+     ],
+     "questions:": [
+      104
+     ],
+     "First,": [
+      105
+     ],
+     "which": [
+      106
+     ],
+     "aspect(s)": [
+      107
+     ],
+     "prior": [
+      109,
+      131,
+      158,
+      224,
+      271,
+      292,
+      320,
+      331,
+      354
+     ],
+     "(unsuccessful": [
+      111
+     ],
+     "retrieval,": [
+      112,
+      114
+     ],
+     "successful": [
+      113,
+      153
+     ],
+     "and/or": [
+      115
+     ],
+     "spacing)": [
+      116
+     ],
+     "cause": [
+      117
+     ],
+     "enhanced": [
+      119,
+      190,
+      237
+     ],
+     "(Experiment": [
+      121,
+      138
+     ],
+     "1)": [
+      122
+     ],
+     "second,": [
+      124
+     ],
+     "items": [
+      126,
+      175,
+      221,
+      254
+     ],
+     "are": [
+      128,
+      213,
+      356
+     ],
+     "correctly": [
+      129,
+      222
+     ],
+     "retrieved": [
+      130,
+      223,
+      251,
+      255
+     ],
+     "restudying": [
+      133,
+      160,
+      226,
+      266,
+      333,
+      340
+     ],
+     "benefit": [
+      134,
+      192,
+      229,
+      312
+     ],
+     "from": [
+      135,
+      230
+     ],
+     "2)?": [
+      139
+     ],
+     "Experiment": [
+      140,
+      215
+     ],
+     "1": [
+      141
+     ],
+     "answered": [
+      142
+     ],
+     "first": [
+      144
+     ],
+     "question": [
+      145
+     ],
+     "varying": [
+      147,
+      288
+     ],
+     "amount": [
+      149
+     ],
+     "unsuccessful": [
+      151,
+      188,
+      349
+     ],
+     "subjects": [
+      155,
+      298
+     ],
+     "engaged": [
+      156
+     ],
+     "in": [
+      157
+     ],
+     "material.": [
+      162
+     ],
+     "Further,": [
+      163,
+      303
+     ],
+     "lag": [
+      165
+     ],
+     "between": [
+      166
+     ],
+     "study": [
+      167
+     ],
+     "periods,": [
+      168
+     ],
+     "task": [
+      169
+     ],
+     "engagement,": [
+      170
+     ],
+     "exposure": [
+      172
+     ],
+     "recallable": [
+      174
+     ],
+     "were": [
+      176,
+      306
+     ],
+     "held": [
+      177
+     ],
+     "constant": [
+      178
+     ],
+     "across": [
+      179
+     ],
+     "conditions": [
+      180
+     ],
+     "equate": [
+      182
+     ],
+     "spacing.": [
+      186
+     ],
+     "Repeated": [
+      187
+     ],
+     "restudy": [
+      195,
+      240,
+      301
+     ],
+     "trial": [
+      196
+     ],
+     "initially": [
+      198
+     ],
+     "incorrect": [
+      199
+     ],
+     "items.": [
+      200
+     ],
+     "implications": [
+      202
+     ],
+     "finding": [
+      205
+     ],
+     "processe(s)": [
+      209
+     ],
+     "driving": [
+      210,
+      358
+     ],
+     "discussed.": [
+      214
+     ],
+     "2": [
+      216
+     ],
+     "hypothesis": [
+      219,
+      284
+     ],
+     "evidenced": [
+      234
+     ],
+     "recall.": [
+      238,
+      343
+     ],
+     "A": [
+      239
+     ],
+     "opportunity": [
+      241
+     ],
+     "been": [
+      243
+     ],
+     "shown": [
+      244
+     ],
+     "recall": [
+      248
+     ],
+     "previously": [
+      250
+     ],
+     "items,": [
+      252,
+      315
+     ],
+     "especially": [
+      253
+     ],
+     "with": [
+      256
+     ],
+     "low": [
+      257
+     ],
+     "confidence": [
+      258,
+      304
+     ],
+     "(Butler,": [
+      259
+     ],
+     "Roediger,": [
+      262
+     ],
+     "2008).": [
+      263
+     ],
+     "That": [
+      264
+     ],
+     "is,": [
+      265
+     ],
+     "retrieval.": [
+      272
+     ],
+     "Prior": [
+      273
+     ],
+     "may": [
+      275
+     ],
+     "restudy.": [
+      282
+     ],
+     "This": [
+      283
+     ],
+     "number": [
+      290,
+      318
+     ],
+     "whether": [
+      295
+     ],
+     "or": [
+      296
+     ],
+     "not": [
+      297,
+      323,
+      335
+     ],
+     "had": [
+      299
+     ],
+     "opportunity.": [
+      302
+     ],
+     "ratings": [
+      305
+     ],
+     "collected.": [
+      307
+     ],
+     "Restudying": [
+      308
+     ],
+     "found": [
+      310
+     ],
+     "low-confident": [
+      313
+     ],
+     "correct": [
+      314,
+      329
+     ],
+     "but": [
+      316
+     ],
+     "did": [
+      322
+     ],
+     "modify": [
+      324
+     ],
+     "suggesting": [
+      327
+     ],
+     "does": [
+      334
+     ],
+     "on": [
+      341
+     ],
+     "Together,": [
+      344
+     ],
+     "these": [
+      345
+     ],
+     "indicate": [
+      347
+     ],
+     "attempts": [
+      351
+     ],
+     "made": [
+      352
+     ],
+     "during": [
+      353
+     ],
+     "force": [
+      359
+     ],
+     "behind": [
+      360
+     ],
+     "learning.": [
+      362
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5067239341",
+       "display_name": "Kathleen M. Arnold",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204465549",
+        "display_name": "Washington University in St. Louis",
+        "ror": "https://ror.org/01yc7t268",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Arnold, Kathleen Marie",
+      "raw_affiliation_strings": [
+       "Washington University in St. Louis"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Washington University in St. Louis",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "pmh:oai:openscholarship.wustl.edu:art_sci_etds-2043",
+     "doi": null,
+     "is_oa": true,
+     "landing_page_url": "https://openscholarship.wustl.edu/art_sci_etds/1027",
+     "pdf_url": "https://openscholarship.wustl.edu/context/art_sci_etds/article/2043/viewcontent/Arnold_wustl_0252D_11114.pdf",
+     "source": {
+      "id": "https://openalex.org/S4377196400",
+      "display_name": "Open Scholarship Institutional Repository (Washington University in St. Louis)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I204465549",
+      "host_organization_name": "Washington University in St. Louis",
+      "host_organization_lineage": [
+       "https://openalex.org/I204465549"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "Arts & Sciences Theses and Dissertations",
+     "raw_type": "text"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4416979420",
+    "doi": "https://doi.org/10.1007/s11251-025-09758-z",
+    "title": "Testing the testing effect with advanced materials while accounting for individual differences",
+    "display_name": "Testing the testing effect with advanced materials while accounting for individual differences",
+    "publication_year": 2025,
+    "cited_by_count": 2,
+    "abstract_inverted_index": {
+     "Retrieval": [
+      0
+     ],
+     "practice": [
+      1,
+      80,
+      111,
+      139,
+      174
+     ],
+     "benefits": [
+      2,
+      171
+     ],
+     "long-term": [
+      3
+     ],
+     "memory": [
+      4,
+      104
+     ],
+     "performance": [
+      5,
+      118
+     ],
+     "in": [
+      6,
+      31
+     ],
+     "a": [
+      7,
+      50,
+      63,
+      90,
+      129
+     ],
+     "variety": [
+      8
+     ],
+     "of": [
+      9,
+      16,
+      25,
+      28,
+      45,
+      52,
+      59,
+      65,
+      89,
+      123,
+      131,
+      172
+     ],
+     "contexts,": [
+      10
+     ],
+     "but": [
+      11
+     ],
+     "its": [
+      12
+     ],
+     "usefulness": [
+      13,
+      44
+     ],
+     "for": [
+      14
+     ],
+     "retention": [
+      15
+     ],
+     "more": [
+      17
+     ],
+     "advanced": [
+      18
+     ],
+     "material": [
+      19
+     ],
+     "is": [
+      20,
+      35,
+      39
+     ],
+     "less": [
+      21
+     ],
+     "clear.": [
+      22
+     ],
+     "Additionally,": [
+      23
+     ],
+     "evidence": [
+      24,
+      38
+     ],
+     "the": [
+      26,
+      43,
+      121,
+      147,
+      169
+     ],
+     "role": [
+      27,
+      122
+     ],
+     "individual": [
+      29,
+      125
+     ],
+     "differences": [
+      30,
+      126
+     ],
+     "retrieval": [
+      32,
+      47,
+      110,
+      138,
+      153,
+      173
+     ],
+     "strategy": [
+      33,
+      151
+     ],
+     "use": [
+      34
+     ],
+     "mixed.": [
+      36
+     ],
+     "Such": [
+      37
+     ],
+     "important": [
+      40
+     ],
+     "to": [
+      41,
+      95,
+      135
+     ],
+     "determine": [
+      42
+     ],
+     "particular": [
+      46
+     ],
+     "strategies": [
+      48,
+      77
+     ],
+     "as": [
+      49,
+      128
+     ],
+     "function": [
+      51,
+      130
+     ],
+     "cognitive": [
+      53,
+      99,
+      141,
+      157,
+      179
+     ],
+     "processes,": [
+      54
+     ],
+     "affective": [
+      55
+     ],
+     "characteristics,": [
+      56
+     ],
+     "and": [
+      57,
+      82,
+      97,
+      102,
+      152
+     ],
+     "aspects": [
+      58
+     ],
+     "to-be-learned": [
+      60
+     ],
+     "material.": [
+      61
+     ],
+     "With": [
+      62
+     ],
+     "sample": [
+      64
+     ],
+     "undergraduate": [
+      66
+     ],
+     "participants": [
+      67
+     ],
+     "(": [
+      68
+     ],
+     "n": [
+      69
+     ],
+     "=": [
+      70
+     ],
+     "213),": [
+      71
+     ],
+     "we": [
+      72
+     ],
+     "examined": [
+      73
+     ],
+     "how": [
+      74,
+      98
+     ],
+     "combining": [
+      75
+     ],
+     "testing": [
+      76
+     ],
+     "(free": [
+      78
+     ],
+     "recall,": [
+      79
+     ],
+     "quizzing,": [
+      81
+     ],
+     "test": [
+      83,
+      117,
+      163
+     ],
+     "question": [
+      84
+     ],
+     "generation)": [
+      85
+     ],
+     "could": [
+      86
+     ],
+     "impact": [
+      87
+     ],
+     "learning": [
+      88
+     ],
+     "published": [
+      91
+     ],
+     "research": [
+      92
+     ],
+     "article": [
+      93
+     ],
+     "compared": [
+      94
+     ],
+     "rereading,": [
+      96,
+      120,
+      136
+     ],
+     "load,": [
+      100
+     ],
+     "self-efficacy,": [
+      101
+     ],
+     "working": [
+      103
+     ],
+     "capacity": [
+      105
+     ],
+     "influenced": [
+      106
+     ],
+     "these": [
+      107
+     ],
+     "relationships.": [
+      108
+     ],
+     "Although": [
+      109
+     ],
+     "activities": [
+      112
+     ],
+     "did": [
+      113
+     ],
+     "not": [
+      114
+     ],
+     "improve": [
+      115
+     ],
+     "final": [
+      116,
+      162
+     ],
+     "over": [
+      119
+     ],
+     "some": [
+      124
+     ],
+     "varied": [
+      127
+     ],
+     "assigned": [
+      132,
+      150
+     ],
+     "strategy.": [
+      133
+     ],
+     "Compared": [
+      134
+     ],
+     "using": [
+      137
+     ],
+     "increased": [
+      140
+     ],
+     "load.": [
+      142
+     ],
+     "Cognitive": [
+      143
+     ],
+     "load": [
+      144,
+      158,
+      180
+     ],
+     "then": [
+      145
+     ],
+     "mediated": [
+      146
+     ],
+     "relationship": [
+      148
+     ],
+     "between": [
+      149
+     ],
+     "performance,": [
+      154
+     ],
+     "with": [
+      155,
+      160
+     ],
+     "higher": [
+      156
+     ],
+     "associated": [
+      159
+     ],
+     "lower": [
+      161
+     ],
+     "scores.": [
+      164
+     ],
+     "These": [
+      165
+     ],
+     "results": [
+      166
+     ],
+     "suggest": [
+      167
+     ],
+     "that": [
+      168
+     ],
+     "memorial": [
+      170
+     ],
+     "might": [
+      175
+     ],
+     "be": [
+      176
+     ],
+     "limited": [
+      177
+     ],
+     "by": [
+      178
+     ],
+     "requirements.": [
+      181
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5036701721",
+       "display_name": "Jenni L. Redifer",
+       "orcid": "https://orcid.org/0000-0002-9338-6381",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9338-6381"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94339441",
+        "display_name": "Western Kentucky University",
+        "ror": "https://ror.org/0446vnd56",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94339441"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Jenni L. Redifer",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Western Kentucky University, 1906 College Heights Blvd, Bowling Green, KY, 42101, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-9338-6381",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Western Kentucky University, 1906 College Heights Blvd, Bowling Green, KY, 42101, USA",
+        "institution_ids": [
+         "https://openalex.org/I94339441"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5046190168",
+       "display_name": "Sarah J. Myers",
+       "orcid": "https://orcid.org/0000-0003-0939-4571",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0939-4571"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I152014189",
+        "display_name": "Minnesota State University, Mankato",
+        "ror": "https://ror.org/04att9732",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I152014189",
+         "https://openalex.org/I91221267"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Sarah J. Myers",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Minnesota State University, Mankato, Mankato, Minnesota, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Minnesota State University, Mankato, Mankato, Minnesota, USA",
+        "institution_ids": [
+         "https://openalex.org/I152014189"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5037072529",
+       "display_name": "Christine L. Lee Bae",
+       "orcid": "https://orcid.org/0000-0002-3492-7598",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3492-7598"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I184840846",
+        "display_name": "Virginia Commonwealth University",
+        "ror": "https://ror.org/02nkdxk79",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I184840846"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Christine Lee Bae",
+      "raw_affiliation_strings": [
+       "Department of Foundations of Education, Virginia Commonwealth University, Richmond, Virginia, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-3492-7598",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Foundations of Education, Virginia Commonwealth University, Richmond, Virginia, USA",
+        "institution_ids": [
+         "https://openalex.org/I184840846"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5120712317",
+       "display_name": "Alexa Naas",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94339441",
+        "display_name": "Western Kentucky University",
+        "ror": "https://ror.org/0446vnd56",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94339441"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Alexa Naas",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Western Kentucky University, 1906 College Heights Blvd, Bowling Green, KY, 42101, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Western Kentucky University, 1906 College Heights Blvd, Bowling Green, KY, 42101, USA",
+        "institution_ids": [
+         "https://openalex.org/I94339441"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": null,
+       "display_name": "Aimee Scott",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94339441",
+        "display_name": "Western Kentucky University",
+        "ror": "https://ror.org/0446vnd56",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94339441"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Aimee Scott",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Western Kentucky University, 1906 College Heights Blvd, Bowling Green, KY, 42101, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Western Kentucky University, 1906 College Heights Blvd, Bowling Green, KY, 42101, USA",
+        "institution_ids": [
+         "https://openalex.org/I94339441"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1007/s11251-025-09758-z",
+     "doi": "https://doi.org/10.1007/s11251-025-09758-z",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1007/s11251-025-09758-z",
+     "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11251-025-09758-z.pdf",
+     "source": {
+      "id": "https://openalex.org/S143778727",
+      "display_name": "Instructional Science",
+      "issn_l": "0020-4277",
+      "issn": [
+       "0020-4277",
+       "1573-1952"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-d",
+       "erih-plus",
+       "jufo-3",
+       "ki-jl-1",
+       "norway-2",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319900",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer Science+Business Media",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Instructional Science",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

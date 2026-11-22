@@ -1,0 +1,1769 @@
+{
+ "status": 200,
+ "json": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      10,
+      29
+     ]
+    ],
+    "date-time": "2026-10-29T13:37:39Z",
+    "timestamp": 1793281059388,
+    "version": "4.5.0"
+   },
+   "reference-count": 151,
+   "publisher": "Springer Science and Business Media LLC",
+   "issue": "1",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2026,
+        10,
+        29
+       ]
+      ],
+      "date-time": "2026-10-29T00:00:00Z",
+      "timestamp": 1793232000000
+     },
+     "content-version": "tdm",
+     "delay-in-days": 0,
+     "URL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2026,
+        10,
+        29
+       ]
+      ],
+      "date-time": "2026-10-29T00:00:00Z",
+      "timestamp": 1793232000000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ],
+   "funder": [
+    {
+     "name": "Dutch educational publisher ThiemeMeulenhoff"
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "link.springer.com"
+    ],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Educ Psychol Rev"
+   ],
+   "published-print": {
+    "date-parts": [
+     [
+      2026,
+      12
+     ]
+    ]
+   },
+   "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    While retrieval practice, distributed practice, and interleaved practice are considered three promising strategies for how, when, and in what sequence to practice after initial instruction or self-study, little is known about the average effects of these strategies in authentic classrooms in primary and secondary education and their moderators. Therefore, in the present study, we investigated the effectiveness and boundary conditions of retrieval, distributed, and interleaved practice in such classrooms. We did this using a three-level meta-analysis comprising 233 effect sizes from 53 studies (published 2006\u20132024) including 7,303 participants. We found (a) an average\n                    <jats:italic>testing</jats:italic>\n                    effect of\n                    <jats:italic>g</jats:italic>\n                    \u2009=\u20090.37, moderated by type of knowledge, posttest format, format matching between practice and test phase, and type of learning outcome, (b) an average\n                    <jats:italic>spacing</jats:italic>\n                    effect of\n                    <jats:italic>g</jats:italic>\n                    \u2009=\u20090.20, moderated by type of comparison condition, retention interval, the ISI/RI ratio (i.e., the interstudy interval expressed as proportion of the retention interval), and posttest format, and (c) an average\n                    <jats:italic>interleaving</jats:italic>\n                    effect of\n                    <jats:italic>g</jats:italic>\n                    \u2009=\u20090.40, moderated by provision and timing of feedback. Average effects suggest that the effectiveness of the three strategies extends to authentic school classrooms. Observed moderator patterns suggest that the testing, spacing, and interleaving effects only occur reliably if their underlying cognitive processes are elicited during practice. This, in turn, implies that we need to shift from a one-size-fits-all instructional approach to a context-dependent instructional approach.\n                  </jats:p>",
+   "DOI": "10.1007/s10648-026-10225-5",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2026,
+      10,
+      29
+     ]
+    ],
+    "date-time": "2026-10-29T12:54:54Z",
+    "timestamp": 1793278494000
+   },
+   "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 0,
+   "title": [
+    "A Meta-Analysis of the Effectiveness and Boundary Conditions of Retrieval Practice, Distributed Practice, and Interleaved Practice in Authentic School Classrooms"
+   ],
+   "prefix": "10.1007",
+   "volume": "38",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-3926-1297",
+     "authenticated-orcid": false,
+     "given": "Sterre K.",
+     "family": "Ruitenburg",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-0966-7410",
+     "authenticated-orcid": false,
+     "given": "Mieke",
+     "family": "Goos",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0009-0008-0836-6038",
+     "authenticated-orcid": false,
+     "given": "Guus",
+     "family": "Lambert",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-8743-0462",
+     "authenticated-orcid": false,
+     "given": "Paul A.",
+     "family": "Kirschner",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-2312-4703",
+     "authenticated-orcid": false,
+     "given": "Halszka",
+     "family": "Jarodzka",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-5272-150X",
+     "authenticated-orcid": false,
+     "given": "Gino",
+     "family": "Camp",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "297",
+   "published-online": {
+    "date-parts": [
+     [
+      2026,
+      10,
+      29
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "issue": "3",
+     "key": "10225_CR1",
+     "doi-asserted-by": "publisher",
+     "first-page": "659",
+     "DOI": "10.3102/0034654316689306",
+     "volume": "87",
+     "author": "OO Adesope",
+     "year": "2017",
+     "unstructured": "Adesope, O. O., Trevisan, D. A., & Sundararajan, N. (2017). Rethinking the use of tests: A meta-analysis of practice testing. Review of Educational Research,87(3), 659\u2013701. https://doi.org/10.3102/0034654316689306",
+     "journal-title": "Review of Educational Research"
+    },
+    {
+     "issue": "2",
+     "key": "10225_CR2",
+     "doi-asserted-by": "publisher",
+     "first-page": "189",
+     "DOI": "10.1037/edu0000282",
+     "volume": "111",
+     "author": "PK Agarwal",
+     "year": "2019",
+     "unstructured": "Agarwal, P. K. (2019). Retrieval practice & Bloom\u2019s taxonomy: Do students need fact knowledge before higher order learning? Journal of Educational Psychology,111(2), 189\u2013209. https://doi.org/10.1037/edu0000282",
+     "journal-title": "Journal of Educational Psychology"
+    },
+    {
+     "key": "10225_CR3",
+     "doi-asserted-by": "publisher",
+     "first-page": "1409",
+     "DOI": "10.1007/s10648-021-09595-9",
+     "volume": "33",
+     "author": "PK Agarwal",
+     "year": "2021",
+     "unstructured": "Agarwal, P. K., Nunes, L. D., & Blunt, J. R. (2021). Retrieval practice consistently benefits student learning: A systematic review of applied research in schools and classrooms. Educational Psychology Review,33, 1409\u20131453. https://doi.org/10.1007/s10648-021-09595-9",
+     "journal-title": "Educational Psychology Review"
+    },
+    {
+     "key": "10225_CR4",
+     "volume-title": "A taxonomy for learning, teaching, and assessing: A revision of Bloom\u2019s taxonomy of educational objectives (abridged)",
+     "author": "LW Anderson",
+     "year": "2001",
+     "unstructured": "Anderson, L. W., Krathwohl, D. R., Airasian, P. W., Cruikshank, K. A., Mayer, R. E., Pintrich, P. R., Raths, J., & Wittrock, M. C. (2001). A taxonomy for learning, teaching, and assessing: A revision of Bloom\u2019s taxonomy of educational objectives (abridged). Longman."
+    },
+    {
+     "key": "10225_CR5",
+     "doi-asserted-by": "publisher",
+     "unstructured": "ASReview LAB Developers. (2024). ASReview LAB - A tool for AI-assisted systematic reviews (Version 1.6.5) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.13629181",
+     "DOI": "10.5281/zenodo.13629181"
+    },
+    {
+     "issue": "3",
+     "key": "10225_CR6",
+     "doi-asserted-by": "publisher",
+     "first-page": "700",
+     "DOI": "10.1002/acp.3796",
+     "volume": "35",
+     "author": "J Barenberg",
+     "year": "2021",
+     "unstructured": "* Barenberg, J., Berse, T., Reimann, L., & Dutke, S. (2021). Testing and transfer: Retrieval practice effects across test formats in English vocabulary learning in school. Applied Cognitive Psychology,35(3), 700\u2013710. https://doi.org/10.1002/acp.3796",
+     "journal-title": "Applied Cognitive Psychology"
+    },
+    {
+     "key": "10225_CR7",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.3389/fpsyg.2018.02170",
+     "volume": "9",
+     "author": "K Barzagar Nazari",
+     "year": "2018",
+     "unstructured": "Barzagar Nazari, K., & Ebersbach, M. (2018). Distributed practice: Rarely realized in self-regulated mathematical learning. Frontiers in Psychology,9, 1\u201313. https://doi.org/10.3389/fpsyg.2018.02170",
+     "journal-title": "Frontiers in Psychology"
+    },
+    {
+     "key": "10225_CR8",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Barzagar Nazari, K., & Ebersbach, M. (2019a). Distributed practice in mathematics: Recommendable especially for students on a medium performance level? Trends in Neuroscience and Education, 17, 1\u201310. https://doi.org/10.1016/j.tine.2019.100122",
+     "DOI": "10.1016/j.tine.2019.100122"
+    },
+    {
+     "key": "10225_CR15",
+     "doi-asserted-by": "publisher",
+     "unstructured": "*Barzagar Nazari, K., & Ebersbach, M. (2019b). Distributing mathematical practice of third and seventh graders: Applicability of the spacing effect in the classroom. Applied Cognitive Psychology, 33(2), 288\u2013298. https://doi.org/10.1002/acp.3485",
+     "DOI": "10.1002/acp.3485"
+    },
+    {
+     "issue": "2",
+     "key": "10225_CR10",
+     "doi-asserted-by": "publisher",
+     "first-page": "109",
+     "DOI": "10.1024/1010-0652/a000149",
+     "volume": "29",
+     "author": "T Betsch",
+     "year": "2015",
+     "unstructured": "* Betsch, T., Quittenbaum, N., & L\u00fcders, M. (2015). On the robustness of the quizzing effect under real teaching conditions. Zeitschrift F\u00fcr P\u00e4dagogische Psychologie,29(2), 109\u2013114. . [German Journal of Educational Psychology]. https://doi.org/10.1024/1010-0652/a000149",
+     "journal-title": "Zeitschrift F\u00fcr P\u00e4dagogische Psychologie"
+    },
+    {
+     "key": "10225_CR11",
+     "doi-asserted-by": "publisher",
+     "first-page": "347",
+     "DOI": "10.1007/BF00138871",
+     "volume": "32",
+     "author": "J Biggs",
+     "year": "1996",
+     "unstructured": "Biggs, J. (1996). Enhancing teaching through constructive alignment. Higher Education,32, 347\u2013364. https://doi.org/10.1007/BF00138871",
+     "journal-title": "Higher Education"
+    },
+    {
+     "key": "10225_CR12",
+     "unstructured": "Bjork, E. L., & Bjork, R. A. (2011). Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning. In M. A. Gernsbacher, R. W. Pew, L. M. Hough, & J. R. Pomerantz (Eds.), Psychology and the real world: Essays illustrating fundamental contributions to society (pp. 56\u201364). Worth Publishers."
+    },
+    {
+     "key": "10225_CR13",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1186/s13643-024-02502-7",
+     "author": "J Boetje",
+     "year": "2024",
+     "unstructured": "Boetje, J., & Van de Schoot, R. (2024). The SAFE procedure: A practical stopping heuristic for active learning-based screening in systematic reviews and meta-analyses. Systematic Reviews. https://doi.org/10.1186/s13643-024-02502-7",
+     "journal-title": "Systematic Reviews"
+    },
+    {
+     "key": "10225_CR14",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/9780470743386",
+     "volume-title": "Introduction to meta-analysis",
+     "author": "M Borenstein",
+     "year": "2009",
+     "unstructured": "Borenstein, M., Hedges, L. V., Higgins, J. P. T., & Rothstein, H. R. (2009). Introduction to meta-analysis. John Wiley & Sons, Ltd."
+    },
+    {
+     "issue": "1",
+     "key": "10225_CR152",
+     "doi-asserted-by": "publisher",
+     "first-page": "61",
+     "DOI": "10.1007/s10212-010-0036-3",
+     "volume": "26",
+     "author": "S Bouwmeester",
+     "year": "2011",
+     "unstructured": "*Bouwmeester, S., & Verkoeijen, P. P. J. L. (2011). The effect of instruction method and relearning on Dutch spelling performance of third- through fifth-graders. European Journal of Psychology of Education, 26(1), 61\u201374. https://doi.org/10.1007/s10212-010-0036-3",
+     "journal-title": "European Journal of Psychology of Education"
+    },
+    {
+     "key": "10225_CR16",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Braithwaite, D. W., & Hall, G. J. (2024). Explaining procedures and interleaving practice in fraction arithmetic. Learning and Instruction, 90, 1\u20139. https://doi.org/10.1016/j.learninstruc.2023.101854",
+     "DOI": "10.1016/j.learninstruc.2023.101854"
+    },
+    {
+     "issue": "11",
+     "key": "10225_CR17",
+     "doi-asserted-by": "publisher",
+     "first-page": "1029",
+     "DOI": "10.1037/bul0000209",
+     "volume": "145",
+     "author": "M Brunmair",
+     "year": "2019",
+     "unstructured": "Brunmair, M., & Richter, T. (2019). Similarity matters: A meta-analysis of interleaved learning and its moderators. Psychological Bulletin,145(11), 1029\u20131052. https://doi.org/10.1037/bul0000209",
+     "journal-title": "Psychological Bulletin"
+    },
+    {
+     "key": "10225_CR18",
+     "unstructured": "Busch, B. (n.d.). The dos and don\u2019ts of interleaving. InnerDrive. Retrieved April 17, 2026, from https://www.innerdrive.co.uk/blog/dos-donts-interleaving/"
+    },
+    {
+     "issue": "38",
+     "key": "10225_CR19",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1007/s10212-024-00936-0",
+     "volume": "40",
+     "author": "S Cadavid",
+     "year": "2025",
+     "unstructured": "Cadavid, S., Cort\u00e9s-Albornoz, M. C., G\u00f3mez-Carvajal, A., Mendoza-Ay\u00fas, S. D., Luna, K., Galindo, M. D. O., V\u00e9lez-Van-Meerbeke, A., & Talero-Guti\u00e9rrez, C. (2025). Learning techniques to improve memory in children: A systematic review. European Journal of Psychology of Education,40(38), 1\u201341. https://doi.org/10.1007/s10212-024-00936-0",
+     "journal-title": "European Journal of Psychology of Education"
+    },
+    {
+     "issue": "4",
+     "key": "10225_CR20",
+     "doi-asserted-by": "publisher",
+     "first-page": "1029",
+     "DOI": "10.1007/s10648-020-09562-w",
+     "volume": "32",
+     "author": "SK Carpenter",
+     "year": "2020",
+     "unstructured": "Carpenter, S. K., Endres, T., & Hui, L. (2020). Students\u2019 use of retrieval in self-regulated learning: Implications for monitoring and regulating effortful learning experiences. Educational Psychology Review,32(4), 1029\u20131054. https://doi.org/10.1007/s10648-020-09562-w",
+     "journal-title": "Educational Psychology Review"
+    },
+    {
+     "key": "10225_CR21",
+     "doi-asserted-by": "publisher",
+     "unstructured": "Carpenter, S. K., & Pan, S. C. (2024). Spacing effects in learning and memory. In: J. T. Wixted (Ed.), Learning and Memory: A Comprehensive Reference (3rd ed.). Academic Press. https://doi.org/10.1016/B978-0-443-15754-7.00020-1",
+     "DOI": "10.1016/B978-0-443-15754-7.00020-1"
+    },
+    {
+     "key": "10225_CR22",
+     "doi-asserted-by": "publisher",
+     "first-page": "760",
+     "DOI": "10.1002/acp.1507",
+     "volume": "23",
+     "author": "SK Carpenter",
+     "year": "2009",
+     "unstructured": "Carpenter, S. K., Pashler, H., & Cepeda, N. J. (2009). Using tests to enhance 8th grade students\u2019 retention of U.S. history facts. Applied Cognitive Psychology,23, 760\u2013771. https://doi.org/10.1002/acp.1507",
+     "journal-title": "Applied Cognitive Psychology"
+    },
+    {
+     "issue": "3",
+     "key": "10225_CR23",
+     "doi-asserted-by": "publisher",
+     "first-page": "354",
+     "DOI": "10.1037/0033-2909.132.3.354",
+     "volume": "132",
+     "author": "NJ Cepeda",
+     "year": "2006",
+     "unstructured": "Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. Psychological Bulletin,132(3), 354\u2013380. https://doi.org/10.1037/0033-2909.132.3.354",
+     "journal-title": "Psychological Bulletin"
+    },
+    {
+     "issue": "11",
+     "key": "10225_CR24",
+     "doi-asserted-by": "publisher",
+     "first-page": "1095",
+     "DOI": "10.1111/j.1467-9280.2008.02209.x",
+     "volume": "19",
+     "author": "NJ Cepeda",
+     "year": "2008",
+     "unstructured": "Cepeda, N. J., Vul, E., Rohrer, D., Wixted, J. T., & Pashler, H. (2008). Spacing effects in learning: A temporal ridgeline of optimal retention. Psychological Science,19(11), 1095\u20131102. https://doi.org/10.1111/j.1467-9280.2008.02209.x",
+     "journal-title": "Psychological Science"
+    },
+    {
+     "issue": "11",
+     "key": "10225_CR25",
+     "doi-asserted-by": "publisher",
+     "first-page": "1111",
+     "DOI": "10.1037/bul0000166",
+     "volume": "144",
+     "author": "JCK Chan",
+     "year": "2018",
+     "unstructured": "Chan, J. C. K., Meissner, C. A., & Davis, S. D. (2018). Retrieval potentiates new learning: A theoretical and meta-analytic review. Psychological Bulletin,144(11), 1111\u20131146. https://doi.org/10.1037/bul0000166",
+     "journal-title": "Psychological Bulletin"
+    },
+    {
+     "issue": "3",
+     "key": "10225_CR26",
+     "doi-asserted-by": "publisher",
+     "first-page": "689",
+     "DOI": "10.1037/edu0000018",
+     "volume": "107",
+     "author": "O Chen",
+     "year": "2015",
+     "unstructured": "* Chen, O., Kalyuga, S., & Sweller, J. (2015). The worked example effect, the generation effect, and element interactivity. Journal of Educational Psychology,107(3), 689\u2013704. https://doi.org/10.1037/edu0000018",
+     "journal-title": "Journal of Educational Psychology"
+    },
+    {
+     "key": "10225_CR27",
+     "doi-asserted-by": "publisher",
+     "first-page": "20",
+     "DOI": "10.1016/j.learninstruc.2016.06.007",
+     "volume": "45",
+     "author": "O Chen",
+     "year": "2016",
+     "unstructured": "* Chen, O., Kalyuga, S., & Sweller, J. (2016a). Relations between the worked example and generation effects on immediate and delayed tests. Learning and Instruction,45, 20\u201330. https://doi.org/10.1016/j.learninstruc.2016.06.007",
+     "journal-title": "Learning and Instruction"
+    },
+    {
+     "key": "10225_CR28",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Chen, O., Kalyuga, S., & Sweller, J. (2016b). When instructional guidance is needed. Educational and Developmental Psychologist, 33(2), 149\u2013162. https://doi.org/10.1017/edp.2016.16",
+     "DOI": "10.1017/edp.2016.16"
+    },
+    {
+     "key": "10225_CR29",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Chen, O., Retnowati, E., Castro-Alonso, J. C., Paas, F., & Sweller, J. (2023). The relationship between interleaving and variability effects: A Cognitive Load Theory perspective. Education Sciences, 13(1138), 1\u201315. https://doi.org/10.3390/educsci13111138",
+     "DOI": "10.3390/educsci13111138"
+    },
+    {
+     "key": "10225_CR30",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Chen, O., Retnowati, E., & Kalyuga, S. (2019). Effects of worked examples on step performance in solving complex problems. Educational Psychology, 39(2), 188\u2013202. https://doi.org/10.1080/01443410.2018.1515891",
+     "DOI": "10.1080/01443410.2018.1515891"
+    },
+    {
+     "key": "10225_CR31",
+     "unstructured": "Christina, R. W., & Bjork, R. A. (1991). Optimizing long-term retention and transfer. In D. Druckman & R. A. Bjork (Eds.), In the mind\u2019s eye: Enhancing human performance (pp. 23\u201356). National Academy Press."
+    },
+    {
+     "key": "10225_CR32",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Codding, R. S., Volpe, R. J., Martin, R. J., & Krebs, G. (2019). Enhancing mathematics fluency: Comparing the spacing of practice sessions with the number of opportunities to respond. School Psychology Review, 48(1), 88\u201397. https://doi.org/10.17105/SPR-2018-0010.V48-1",
+     "DOI": "10.17105/SPR-2018-0010.V48-1"
+    },
+    {
+     "key": "10225_CR33",
+     "volume-title": "Statistical power analysis for the behavioral sciences",
+     "author": "J Cohen",
+     "year": "1988",
+     "unstructured": "Cohen, J. (1988). Statistical power analysis for the behavioral sciences (2nd ed.). Lawrence Erlbaum Associates.",
+     "edition": "2nd ed."
+    },
+    {
+     "key": "10225_CR34",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* da Silva, F. V., Ekuni, R., & Jaeger, A. (2023). Retrieval practice benefits for spelling performance in fifth-grade children. Memory, 31(9), 1197\u20131204. https://doi.org/10.1080/09658211.2023.2248420",
+     "DOI": "10.1080/09658211.2023.2248420"
+    },
+    {
+     "issue": "4",
+     "key": "10225_CR35",
+     "doi-asserted-by": "publisher",
+     "first-page": "555",
+     "DOI": "10.1016/j.jarmac.2020.08.005",
+     "volume": "9",
+     "author": "NK de Lima",
+     "year": "2020",
+     "unstructured": "* de Lima, N. K., & Jaeger, A. (2020). The effects of prequestions versus postquestions on memory retention in children. Journal of Applied Research in Memory and Cognition,9(4), 555\u2013563. https://doi.org/10.1016/j.jarmac.2020.08.005",
+     "journal-title": "Journal of Applied Research in Memory and Cognition"
+    },
+    {
+     "key": "10225_CR36",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Deeks, J. J., Higgins, J. P. T., & Altman, D. G. (2019). Analysing data and undertaking meta-analyses. In J. P. T. Higgins, J. Thomas, J. Chandler, M. Cumpston, T. Li, M. J. Page, & V. A. Welch (Eds.), Cochrane handbook for systematic reviews of interventions (2nd ed., pp. 241\u2013284). John Wiley & Sons.",
+     "DOI": "10.1002/9781119536604.ch10"
+    },
+    {
+     "issue": "5",
+     "key": "10225_CR37",
+     "doi-asserted-by": "publisher",
+     "first-page": "357",
+     "DOI": "10.1080/00220671.2013.823370",
+     "volume": "107",
+     "author": "KJH Dirkx",
+     "year": "2014",
+     "unstructured": "* Dirkx, K. J. H., Kester, L., & Kirschner, P. A. (2014). The testing effect for learning principles and procedures from texts. Journal of Educational Research,107(5), 357\u2013364. https://doi.org/10.1080/00220671.2013.823370",
+     "journal-title": "Journal of Educational Research"
+    },
+    {
+     "issue": "March",
+     "key": "10225_CR38",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.3389/feduc.2021.581216",
+     "volume": "6",
+     "author": "GM Donoghue",
+     "year": "2021",
+     "unstructured": "Donoghue, G. M., & Hattie, J. A. C. (2021). A meta-analysis of ten learning techniques. Frontiers in Education,6(March), 1\u20139. https://doi.org/10.3389/feduc.2021.581216",
+     "journal-title": "Frontiers in Education"
+    },
+    {
+     "issue": "1",
+     "key": "10225_CR39",
+     "doi-asserted-by": "publisher",
+     "first-page": "4",
+     "DOI": "10.1177/1529",
+     "volume": "14",
+     "author": "J Dunlosky",
+     "year": "2013",
+     "unstructured": "Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students\u2019 learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest,14(1), 4\u201358. https://doi.org/10.1177/1529",
+     "journal-title": "Psychological Science in the Public Interest"
+    },
+    {
+     "issue": "4",
+     "key": "10225_CR40",
+     "doi-asserted-by": "publisher",
+     "first-page": "151",
+     "DOI": "10.1026/0049-8637/a000259",
+     "volume": "54",
+     "author": "M Ebersbach",
+     "year": "2022",
+     "unstructured": "Ebersbach, M., Lachner, A., Scheiter, K., & Richter, T. (2022). Using spacing to promote lasting learning in educational contexts: Promises and challenges. Zeitschrift F\u00fcr Entwicklungspsychologie und P\u00e4dagogische Psychologie,54(4), 151\u2013163. https://doi.org/10.1026/0049-8637/a000259",
+     "journal-title": "Zeitschrift F\u00fcr Entwicklungspsychologie und P\u00e4dagogische Psychologie"
+    },
+    {
+     "issue": "7109",
+     "key": "10225_CR41",
+     "doi-asserted-by": "publisher",
+     "first-page": "629",
+     "DOI": "10.1136/bmj.315.7109.629",
+     "volume": "315",
+     "author": "M Egger",
+     "year": "1997",
+     "unstructured": "Egger, M., Smith, G. D., Schneider, M., & Minder, C. (1997). Bias in meta-analysis detected by a simple, graphical test. British Medical Journal,315(7109), 629\u2013634. https://doi.org/10.1136/bmj.315.7109.629",
+     "journal-title": "British Medical Journal"
+    },
+    {
+     "issue": "15",
+     "key": "10225_CR42",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1038/s41539-020-00074-4",
+     "volume": "5",
+     "author": "LG Eglington",
+     "year": "2020",
+     "unstructured": "Eglington, L. G., & Pavlik, P. I., Jr. (2020). Optimizing practice scheduling requires quantitative tracking of individual item performance. NPJ Science of Learning,5(15), 1\u201310. https://doi.org/10.1038/s41539-020-00074-4",
+     "journal-title": "NPJ Science of Learning"
+    },
+    {
+     "issue": "5",
+     "key": "10225_CR43",
+     "doi-asserted-by": "publisher",
+     "first-page": "2021",
+     "DOI": "10.1007/s11423-020-09776-3",
+     "volume": "68",
+     "author": "J Elen",
+     "year": "2020",
+     "unstructured": "Elen, J. (2020). \u201cInstructional disobedience\u201d: A largely neglected phenomenon deserving more systematic research attention. Educational Technology Research and Development,68(5), 2021\u20132032. https://doi.org/10.1007/s11423-020-09776-3",
+     "journal-title": "Educational Technology Research and Development"
+    },
+    {
+     "issue": "4",
+     "key": "10225_CR44",
+     "doi-asserted-by": "publisher",
+     "first-page": "1082",
+     "DOI": "10.1002/acp.3814",
+     "volume": "35",
+     "author": "WG Emeny",
+     "year": "2021",
+     "unstructured": "* Emeny, W. G., Hartwig, M. K., & Rohrer, D. (2021). Spaced mathematics practice improves test scores and reduces overconfidence. Applied Cognitive Psychology,35(4), 1082\u20131089. https://doi.org/10.1002/acp.3814",
+     "journal-title": "Applied Cognitive Psychology"
+    },
+    {
+     "key": "10225_CR45",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1016/j.learninstruc.2024.101974",
+     "volume": "94",
+     "author": "T Endres",
+     "year": "2024",
+     "unstructured": "Endres, T., Carpenter, S., & Renkl, A. (2024). Constructive retrieval: Benefits for learning, motivation, and metacognitive monitoring. Learning and Instruction,94, 1\u201315. https://doi.org/10.1016/j.learninstruc.2024.101974",
+     "journal-title": "Learning and Instruction"
+    },
+    {
+     "issue": "4",
+     "key": "10225_CR46",
+     "doi-asserted-by": "publisher",
+     "first-page": "299",
+     "DOI": "10.5964/meth.4013",
+     "volume": "16",
+     "author": "B Fern\u00e1ndez-Castilla",
+     "year": "2020",
+     "unstructured": "Fern\u00e1ndez-Castilla, B., Declercq, L., Jamshidi, L., Beretvas, S. N., Onghena, P., & van den Noortgate, W. (2020). Visual representations of meta-analyses of multiple outcomes: Extensions to forest plots, funnel plots, and caterpillar plots. Methodology,16(4), 299\u2013315. https://doi.org/10.5964/meth.4013",
+     "journal-title": "Methodology"
+    },
+    {
+     "issue": "1",
+     "key": "10225_CR47",
+     "doi-asserted-by": "publisher",
+     "first-page": "125",
+     "DOI": "10.1080/00220973.2019.1582470",
+     "volume": "89",
+     "author": "B Fern\u00e1ndez-Castilla",
+     "year": "2021",
+     "unstructured": "Fern\u00e1ndez-Castilla, B., Declercq, L., Jamshidi, L., Beretvas, S. N., Onghena, P., & Van den Noortgate, W. (2021). Detecting selection bias in meta-analyses with multiple outcomes: A simulation study. Journal of Experimental Education,89(1), 125\u2013144. https://doi.org/10.1080/00220973.2019.1582470",
+     "journal-title": "Journal of Experimental Education"
+    },
+    {
+     "key": "10225_CR48",
+     "volume-title": "Discovering statistics using IBM SPSS Statistics",
+     "author": "A Field",
+     "year": "2018",
+     "unstructured": "Field, A. (2018). Discovering statistics using IBM SPSS Statistics (5th ed.). SAGE.",
+     "edition": "5th ed."
+    },
+    {
+     "issue": "4",
+     "key": "10225_CR49",
+     "doi-asserted-by": "publisher",
+     "first-page": "717",
+     "DOI": "10.1007/s10648-015-9348-9",
+     "volume": "28",
+     "author": "L Fiorella",
+     "year": "2016",
+     "unstructured": "Fiorella, L., & Mayer, R. E. (2016). Eight ways to promote generative learning. Educational Psychology Review,28(4), 717\u2013741. https://doi.org/10.1007/s10648-015-9348-9",
+     "journal-title": "Educational Psychology Review"
+    },
+    {
+     "issue": "2",
+     "key": "10225_CR50",
+     "doi-asserted-by": "publisher",
+     "first-page": "642",
+     "DOI": "10.1002/rev3.3266",
+     "volume": "9",
+     "author": "J Firth",
+     "year": "2021",
+     "unstructured": "Firth, J., Rivers, I., & Boyle, J. (2021). A systematic review of interleaving as a concept learning strategy. Review of Education,9(2), 642\u2013684. https://doi.org/10.1002/rev3.3266",
+     "journal-title": "Review of Education"
+    },
+    {
+     "issue": "6",
+     "key": "10225_CR51",
+     "doi-asserted-by": "publisher",
+     "first-page": "1032",
+     "DOI": "10.1002/acp.3539",
+     "volume": "33",
+     "author": "V Foot-Seymour",
+     "year": "2019",
+     "unstructured": "* Foot-Seymour, V., Foot, J., & Wiseheart, M. (2019). Judging credibility: Can spaced lessons help students think more critically online? Applied Cognitive Psychology,33(6), 1032\u20131043. https://doi.org/10.1002/acp.3539",
+     "journal-title": "Applied Cognitive Psychology"
+    },
+    {
+     "key": "10225_CR52",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Foot-Seymour, V., & Wiseheart, M. (2022). Judging the credibility of websites: An effectiveness trial of the spacing effect in the elementary classroom. Cognitive Research: Principles and Implications, 7(5), 1\u201320. https://doi.org/10.1186/s41235-022-00358-w",
+     "DOI": "10.1186/s41235-022-00358-w"
+    },
+    {
+     "key": "10225_CR53",
+     "doi-asserted-by": "publisher",
+     "unstructured": "Gon\u00e7alves, A. de O., Muniz, B. F. B., & Jaeger, A. (2025). Retrieval practice versus elaborative encoding: A systematic and meta-analytic review. Educational Psychology Review, 37(100). https://doi.org/10.1007/s10648-025-10076-6",
+     "DOI": "10.1007/s10648-025-10076-6"
+    },
+    {
+     "issue": "November 2021",
+     "key": "10225_CR54",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1016/j.edurev.2021.100401",
+     "volume": "34",
+     "author": "M Goos",
+     "year": "2021",
+     "unstructured": "Goos, M., Pipa, J., & Peixoto, F. (2021). Effectiveness of grade retention: A systematic review and meta-analysis. Educational Research Review,34(November 2021), 1\u201314. https://doi.org/10.1016/j.edurev.2021.100401",
+     "journal-title": "Educational Research Review"
+    },
+    {
+     "key": "10225_CR55",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Goossens, N. A. M. C., Camp, G., Verkoeijen, P. P. J. L., & Tabbers, H. K. (2014). The effect of retrieval practice in primary school vocabulary learning. Applied Cognitive Psychology, 28(1), 135\u2013142. https://doi.org/10.1002/acp.2956",
+     "DOI": "10.1002/acp.2956"
+    },
+    {
+     "key": "10225_CR56",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Goossens, N. A. M. C., Camp, G., Verkoeijen, P. P. J. L., Tabbers, H. K., Bouwmeester, S., & Zwaan, R. A. (2016). Distributed practice and retrieval practice in primary school vocabulary learning: A multi-classroom study. Applied Cognitive Psychology, 30(5), 700\u2013712. https://doi.org/10.1002/acp.3245",
+     "DOI": "10.1002/acp.3245"
+    },
+    {
+     "key": "10225_CR57",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Goossens, N. A. M. C., Camp, G., Verkoeijen, P. P. J. L., Tabbers, H. K., & Zwaan, R. A. (2012). Spreading the words: A spacing effect in vocabulary learning. Journal of Cognitive Psychology, 24(8), 965\u2013971. https://doi.org/10.1080/20445911.2012.722617",
+     "DOI": "10.1080/20445911.2012.722617"
+    },
+    {
+     "key": "10225_CR58",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Goossens, N. A. M. C., Camp, G., Verkoeijen, P. P. J. L., Tabbers, H. K., & Zwaan, R. A. (2014). The benefit of retrieval practice over elaborative restudy in primary school vocabulary learning. Journal of Applied Research in Memory and Cognition, 3(3), 177\u2013182. https://doi.org/10.1016/j.jarmac.2014.05.003",
+     "DOI": "10.1016/j.jarmac.2014.05.003"
+    },
+    {
+     "key": "10225_CR59",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.3389/fpsyg.2018.02517",
+     "volume": "9",
+     "author": "CE Greving",
+     "year": "2019",
+     "unstructured": "Greving, C. E., & Richter, T. (2019). Distributed learning in the classroom: Effects of rereading schedules depend on time of test. Frontiers in Psychology,9, 1\u201315. https://doi.org/10.3389/fpsyg.2018.02517",
+     "journal-title": "Frontiers in Psychology"
+    },
+    {
+     "key": "10225_CR60",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1201/9781003107347",
+     "volume-title": "Doing meta-analysis with R: A hands-on guide",
+     "author": "M Harrer",
+     "year": "2021",
+     "unstructured": "Harrer, M., Cuijpers, P., Furukawa, T. A., & Ebert, D. D. (2021). Doing meta-analysis with R: A hands-on guide. Chapman & Hall/CRC Press."
+    },
+    {
+     "key": "10225_CR61",
+     "doi-asserted-by": "publisher",
+     "unstructured": "Hattie, J. (2009). Visible learning: A synthesis of over 800 meta-analyses relating to achievement. In: Visible Learning: A Synthesis of Over 800 Meta-Analyses Relating to Achievement. Routledge. https://doi.org/10.4324/9780203887332",
+     "DOI": "10.4324/9780203887332"
+    },
+    {
+     "issue": "107",
+     "key": "10225_CR62",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1186/2046-4053-2-107",
+     "volume": "2",
+     "author": "S Hempel",
+     "year": "2013",
+     "unstructured": "Hempel, S., Miles, J. N. V., Booth, M. J., Wang, Z., Morton, S. C., & Shekelle, P. G. (2013). Risk of bias: A simulation study of power to detect study-level moderator effects in meta-analysis. Systematic Reviews,2(107), 1\u201310. https://doi.org/10.1186/2046-4053-2-107",
+     "journal-title": "Systematic Reviews"
+    },
+    {
+     "issue": "1",
+     "key": "10225_CR63",
+     "doi-asserted-by": "publisher",
+     "first-page": "5",
+     "DOI": "10.1111/lang.12659",
+     "volume": "75",
+     "author": "H-B Hwang",
+     "year": "2025",
+     "unstructured": "* Hwang, H.-B. (2025). Undesirable difficulty of interleaved practice: The importance of initial blocked practice for declarative knowledge development in low-achieving adolescents. Language Learning,75(1), 5\u201341. https://doi.org/10.1111/lang.12659",
+     "journal-title": "Language Learning"
+    },
+    {
+     "key": "10225_CR64",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Jaeger, A., Eisenkraemer, R. E., & Stein, L. M. (2015). Test-enhanced learning in third-grade children. Educational Psychology, 35(4), 513\u2013521. https://doi.org/10.1080/01443410.2014.963030",
+     "DOI": "10.1080/01443410.2014.963030"
+    },
+    {
+     "key": "10225_CR65",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Jones, A. C., Wardlow, L., Pan, S. C., Zepeda, C., Heyman, G. D., Dunlosky, J., & Rickard, T. C. (2016). Beyond the rainbow: Retrieval practice leads to better spelling than does rainbow writing. Educational Psychology Review, 28(2), 385\u2013400. https://doi.org/10.1007/s10648-015-9330-6",
+     "DOI": "10.1007/s10648-015-9330-6"
+    },
+    {
+     "issue": "3",
+     "key": "10225_CR66",
+     "doi-asserted-by": "publisher",
+     "first-page": "183",
+     "DOI": "10.1016/j.jarmac.2014.05.006",
+     "volume": "3",
+     "author": "SHK Kang",
+     "year": "2014",
+     "unstructured": "Kang, S. H. K., & Pashler, H. (2014). Is the benefit of retrieval practice modulated by motivation? Journal of Applied Research in Memory and Cognition,3(3), 183\u2013188. https://doi.org/10.1016/j.jarmac.2014.05.006",
+     "journal-title": "Journal of Applied Research in Memory and Cognition"
+    },
+    {
+     "key": "10225_CR67",
+     "doi-asserted-by": "publisher",
+     "unstructured": "Karpicke, J. D. (2017). Retrieval-based learning: A decade of progress. In J. H. Byrne (Ed.), Learning and memory: A comprehensive reference (2nd ed., Vol. Vol. 2, pp. 487\u2013514). Academic Press. https://doi.org/10.1016/B978-0-12-809324-5.21055-9",
+     "DOI": "10.1016/B978-0-12-809324-5.21055-9"
+    },
+    {
+     "issue": "2",
+     "key": "10225_CR68",
+     "doi-asserted-by": "publisher",
+     "first-page": "317",
+     "DOI": "10.1007/s10648-015-9309-3",
+     "volume": "27",
+     "author": "JD Karpicke",
+     "year": "2015",
+     "unstructured": "Karpicke, J. D., & Aue, W. R. (2015). The testing effect is alive and well with complex materials. Educational Psychology Review,27(2), 317\u2013326. https://doi.org/10.1007/s10648-015-9309-3",
+     "journal-title": "Educational Psychology Review"
+    },
+    {
+     "key": "10225_CR69",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Karpicke, J. D., Blunt, J. R., Smith, M. A., & Karpicke, S. S. (2014). Retrieval-based learning: The need for guided retrieval in elementary school children. Journal of Applied Research in Memory and Cognition, 3(3), 198\u2013206. https://doi.org/10.1016/j.jarmac.2014.07.008",
+     "DOI": "10.1016/j.jarmac.2014.07.008"
+    },
+    {
+     "key": "10225_CR70",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1016/j.learninstruc.2025.102143",
+     "volume": "98",
+     "author": "S Kim",
+     "year": "2025",
+     "unstructured": "Kim, S., Abel, R., Leutner, D., Schmiemann, P., & Roelle, J. (2025). Can the effects of generative drawing on lasting learning be optimized through integration of retrieval practice? Learning and Instruction,98, 1\u201311. https://doi.org/10.1016/j.learninstruc.2025.102143",
+     "journal-title": "Learning and Instruction"
+    },
+    {
+     "issue": "1",
+     "key": "10225_CR71",
+     "doi-asserted-by": "publisher",
+     "first-page": "269",
+     "DOI": "10.1111/lang.12479",
+     "volume": "72",
+     "author": "SK Kim",
+     "year": "2022",
+     "unstructured": "Kim, S. K., & Webb, S. (2022). The effects of spaced practice on second language learning: A meta-analysis. Language Learning,72(1), 269\u2013319. https://doi.org/10.1111/lang.12479",
+     "journal-title": "Language Learning"
+    },
+    {
+     "key": "10225_CR72",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Kirschner, F., Paas, F., Kirschner, P. A., & Janssen, J. (2011). Differential effects of problem-solving demands on individual and collaborative learning outcomes. Learning and Instruction, 21(4), 587\u2013599. https://doi.org/10.1016/j.learninstruc.2011.01.001",
+     "DOI": "10.1016/j.learninstruc.2011.01.001"
+    },
+    {
+     "issue": "5",
+     "key": "10225_CR73",
+     "doi-asserted-by": "publisher",
+     "first-page": "757",
+     "DOI": "10.1111/j.1551-6709.2012.01245.x",
+     "volume": "36",
+     "author": "KR Koedinger",
+     "year": "2012",
+     "unstructured": "Koedinger, K. R., Corbett, A. T., & Perfetti, C. (2012). The knowledge-learning-instruction framework: Bridging the science-practice chasm to enhance robust student learning. Cognitive Science,36(5), 757\u2013798. https://doi.org/10.1111/j.1551-6709.2012.01245.x",
+     "journal-title": "Cognitive Science"
+    },
+    {
+     "issue": "6",
+     "key": "10225_CR74",
+     "doi-asserted-by": "publisher",
+     "first-page": "585",
+     "DOI": "10.1111/j.1467-9280.2008.02127.x",
+     "volume": "19",
+     "author": "N Kornell",
+     "year": "2008",
+     "unstructured": "Kornell, N., & Bjork, R. A. (2008). Learning concepts and categories: Is spacing the \u201cenemy of induction\u201d? Psychological Science,19(6), 585\u2013592. https://doi.org/10.1111/j.1467-9280.2008.02127.x",
+     "journal-title": "Psychological Science"
+    },
+    {
+     "issue": "4",
+     "key": "10225_CR75",
+     "doi-asserted-by": "publisher",
+     "first-page": "241",
+     "DOI": "10.3102/0013189X20912798",
+     "volume": "49",
+     "author": "MA Kraft",
+     "year": "2020",
+     "unstructured": "Kraft, M. A. (2020). Interpreting effect sizes of education interventions. Educational Researcher,49(4), 241\u2013253. https://doi.org/10.3102/0013189X20912798",
+     "journal-title": "Educational Researcher"
+    },
+    {
+     "key": "10225_CR76",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Kranz, J., M\u00f6ller, A., Kaufmann, K., & Tempel, T. (2024). Retrieval practice: A tool for teaching the control-of-variables strategy in science classrooms? The Journal of Experimental Education, 1\u201326. https://doi.org/10.1080/00220973.2024.2392684",
+     "DOI": "10.1080/00220973.2024.2392684"
+    },
+    {
+     "issue": "3",
+     "key": "10225_CR77",
+     "doi-asserted-by": "publisher",
+     "first-page": "373",
+     "DOI": "10.1007/s11251-013-9285-2",
+     "volume": "42",
+     "author": "CE K\u00fcpper-Tetzel",
+     "year": "2014",
+     "unstructured": "* K\u00fcpper-Tetzel, C. E., Erdfelder, E., & Dickh\u00e4user, O. (2014). The lag effect in secondary school classrooms: Enhancing students\u2019 memory for vocabulary. Instructional Science,42(3), 373\u2013388. https://doi.org/10.1007/s11251-013-9285-2",
+     "journal-title": "Instructional Science"
+    },
+    {
+     "key": "10225_CR78",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3389/feduc.2024.1340120",
+     "author": "S Langbroek",
+     "year": "2024",
+     "unstructured": "Langbroek, S., Duchatelet, D., Joosten-ten Brinke, D., & Camp, G. (2024). Enhancing teachers\u2019 instruction on how to study: An exploration of the effectiveness of learning strategies for particular secondary school subjects. Frontiers in Education. https://doi.org/10.3389/feduc.2024.1340120",
+     "journal-title": "Frontiers in Education"
+    },
+    {
+     "key": "10225_CR79",
+     "doi-asserted-by": "publisher",
+     "first-page": "959",
+     "DOI": "10.1007/s10648-020-09572-8",
+     "volume": "33",
+     "author": "A Latimier",
+     "year": "2021",
+     "unstructured": "Latimier, A., Peyre, H., & Ramus, F. (2021). A meta-analytic review of the benefit of spacing out retrieval practice episodes on retention. Educational Psychology Review,33, 959\u2013987. https://doi.org/10.1007/s10648-020-09572-8",
+     "journal-title": "Educational Psychology Review"
+    },
+    {
+     "key": "10225_CR80",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Leahy, W., Hanham, J., & Sweller, J. (2015). High element interactivity information during problem solving may lead to failure to obtain the testing effect. Educational Psychology Review, 27(2), 291\u2013304. https://doi.org/10.1007/s10648-015-9296-4",
+     "DOI": "10.1007/s10648-015-9296-4"
+    },
+    {
+     "key": "10225_CR81",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Leggett, J. M. I., Burt, J. S., & Carroll, A. (2019). Retrieval practice can improve classroom review despite low practice test performance. Applied Cognitive Psychology, 33(5), 759\u2013770. https://doi.org/10.1002/acp.3517",
+     "DOI": "10.1002/acp.3517"
+    },
+    {
+     "key": "10225_CR82",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.4159/9780674040243",
+     "volume-title": "Summing up: The science of reviewing research",
+     "author": "RJ Light",
+     "year": "1984",
+     "unstructured": "Light, R. J., & Pillemer, D. B. (1984). Summing up: The science of reviewing research. Harvard University Press."
+    },
+    {
+     "issue": "3",
+     "key": "10225_CR83",
+     "doi-asserted-by": "publisher",
+     "first-page": "639",
+     "DOI": "10.1177/0956797613504302",
+     "volume": "25",
+     "author": "RV Lindsey",
+     "year": "2014",
+     "unstructured": "Lindsey, R. V., Shroyer, J. D., Pashler, H., & Mozer, M. C. (2014). Improving students\u2019 long-term knowledge retention through personalized review. Psychological Science,25(3), 639\u2013647. https://doi.org/10.1177/0956797613504302",
+     "journal-title": "Psychological Science"
+    },
+    {
+     "key": "10225_CR84",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Lipko-Speed, A., Dunlosky, J., & Rawson, K. A. (2014). Does testing with feedback help grade-school children learn key concepts in science? Journal of Applied Research in Memory and Cognition, 3(3, SI), 171\u2013176. https://doi.org/10.1016/j.jarmac.2014.04.002",
+     "DOI": "10.1016/j.jarmac.2014.04.002"
+    },
+    {
+     "key": "10225_CR85",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3390/bs15060771",
+     "author": "RD Mawson",
+     "year": "2025",
+     "unstructured": "Mawson, R. D., & Kang, S. H. K. (2025). The distributed practice effect on classroom learning: A meta-analytic review of applied research. Behavioral Sciences. https://doi.org/10.3390/bs15060771",
+     "journal-title": "Behavioral Sciences"
+    },
+    {
+     "issue": "75",
+     "key": "10225_CR86",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1007/s10648-023-09784-8",
+     "volume": "35",
+     "author": "MA McDaniel",
+     "year": "2023",
+     "unstructured": "McDaniel, M. A. (2023). Combining retrieval practice with elaborative encoding: Complementary or redundant? Educational Psychology Review,35(75), 1\u201330. https://doi.org/10.1007/s10648-023-09784-8",
+     "journal-title": "Educational Psychology Review"
+    },
+    {
+     "key": "10225_CR87",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* McDermott, K. B., Agarwal, P. K., D\u2019Antonio, L., Roediger III, H. L., & McDaniel, M. A. (2014). Both multiple-choice and short-answer quizzes enhance later exam performance in middle and high school classes. Journal of Experimental Psychology: Applied, 20(1), 3\u201321. https://doi.org/10.1037/xap0000004",
+     "DOI": "10.1037/xap0000004"
+    },
+    {
+     "key": "10225_CR88",
+     "doi-asserted-by": "publisher",
+     "first-page": "87",
+     "DOI": "10.1016/j.chb.2015.08.038",
+     "volume": "55",
+     "author": "BM McLaren",
+     "year": "2016",
+     "unstructured": "McLaren, B. M., Van Gog, T., Ganoe, C., Karabinos, M., & Yaron, D. (2016). The efficiency of worked examples compared to erroneous examples, tutored problem solving, and problem solving in computer-based learning environments. Computers in Human Behavior,55, 87\u201399. https://doi.org/10.1016/j.chb.2015.08.038",
+     "journal-title": "Computers in Human Behavior"
+    },
+    {
+     "issue": "7",
+     "key": "10225_CR89",
+     "doi-asserted-by": "publisher",
+     "first-page": "897",
+     "DOI": "10.1037/xge0000170",
+     "volume": "145",
+     "author": "E Mettler",
+     "year": "2016",
+     "unstructured": "Mettler, E., Massey, C. M., & Kellman, P. J. (2016). A comparison of adaptive and fixed schedules of practice. Journal of Experimental Psychology: General,145(7), 897\u2013917. https://doi.org/10.1037/xge0000170",
+     "journal-title": "Journal of Experimental Psychology: General"
+    },
+    {
+     "key": "10225_CR90",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Moreira, B. F. T., Pinto, T. S. da S., Justi, F. R. R., & Jaeger, A. (2019). Retrieval practice improves learning in children with diverse visual word recognition skills. Memory, 27(10), 1423\u20131437. https://doi.org/10.1080/09658211.2019.1668017",
+     "DOI": "10.1080/09658211.2019.1668017"
+    },
+    {
+     "issue": "5",
+     "key": "10225_CR91",
+     "doi-asserted-by": "publisher",
+     "first-page": "519",
+     "DOI": "10.1016/S0022-5371(77)80016-9",
+     "volume": "16",
+     "author": "CD Morris",
+     "year": "1977",
+     "unstructured": "Morris, C. D., Bransford, J. D., & Franks, J. J. (1977). Levels of processing versus transfer appropriate processing. Journal of Verbal Learning and Verbal Behavior,16(5), 519\u2013533. https://doi.org/10.1016/S0022-5371(77)80016-9",
+     "journal-title": "Journal of Verbal Learning and Verbal Behavior"
+    },
+    {
+     "key": "10225_CR92",
+     "doi-asserted-by": "publisher",
+     "unstructured": "Murray, E., Horner, A. J., & G\u00f6bel, S. M. (2025). A meta-analytic review of the effectiveness of spacing and retrieval practice for mathematics learning. Educational Psychology Review, 37(75). https://doi.org/10.1007/s10648-025-10035-1",
+     "DOI": "10.1007/s10648-025-10035-1"
+    },
+    {
+     "key": "10225_CR93",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1016/j.learninstruc.2020.101354",
+     "volume": "71",
+     "author": "L Nemeth",
+     "year": "2021",
+     "unstructured": "Nemeth, L., Werker, K., Arend, J., & Lipowsky, F. (2021). Fostering the acquisition of subtraction strategies with interleaved practice: An intervention study with German third graders. Learning and Instruction,71, 1\u201311. https://doi.org/10.1016/j.learninstruc.2020.101354",
+     "journal-title": "Learning and Instruction"
+    },
+    {
+     "key": "10225_CR94",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1037/edu0000949",
+     "author": "N Obergassel",
+     "year": "2025",
+     "unstructured": "Obergassel, N., Renkl, A., Endres, T., N\u00fcckles, M., Carpenter, S. K., & Roelle, J. (2025). Combining generative tasks and retrieval tasks. Journal of Educational Psychology. https://doi.org/10.1037/edu0000949",
+     "journal-title": "Journal of Educational Psychology"
+    },
+    {
+     "issue": "6",
+     "key": "10225_CR95",
+     "doi-asserted-by": "publisher",
+     "first-page": "1463",
+     "DOI": "10.1002/acp.4141",
+     "volume": "37",
+     "author": "FHA Ophuis-Cox",
+     "year": "2023",
+     "unstructured": "* Ophuis-Cox, F. H. A., Catrysse, L., & Camp, G. (2023). The effect of retrieval practice on fluently retrieving multiplication facts in an authentic elementary school setting. Applied Cognitive Psychology,37(6), 1463\u20131469. https://doi.org/10.1002/acp.4141",
+     "journal-title": "Applied Cognitive Psychology"
+    },
+    {
+     "issue": "2",
+     "key": "10225_CR96",
+     "doi-asserted-by": "publisher",
+     "first-page": "258",
+     "DOI": "10.1037/xap0000507",
+     "volume": "30",
+     "author": "FHA Ophuis-Cox",
+     "year": "2023",
+     "unstructured": "* Ophuis-Cox, F. H. A., Rozendal, L., Catrysse, L., Joosten-ten Brinke, D., & Camp, G. (2023). The effects of summarization and factual retrieval practice on text comprehension and text retention in elementary education. Journal of Experimental Psychology: Applied,30(2), 258\u2013267. https://doi.org/10.1037/xap0000507",
+     "journal-title": "Journal of Experimental Psychology: Applied"
+    },
+    {
+     "key": "10225_CR97",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Ortega-Tudela, J. M., Lechuga, M.-T., Berm\u00fadez-Sierra, M., & G\u00f3mez-Ariza, C. J. (2021). Testing the effectiveness of retrieval-based learning in naturalistic school settings. SAGE Open, 11(4), 1\u20137. https://doi.org/10.1177/21582440211061569",
+     "DOI": "10.1177/21582440211061569"
+    },
+    {
+     "key": "10225_CR98",
+     "doi-asserted-by": "publisher",
+     "unstructured": "Page, M., McKenzie, J., Bossuyt, P., Boutron, I., Hoffman, T., Mulrow, C., Shamseer, L., Tetzlaff, J., Akl, E., Brennan, S., Chou, R., Glanville, J., Grimshaw, J., Hr\u00f3bjartsson, A., Lalu, M., Li, T., Loder, E., Mayo-Wilson, E., McDonald, S., \u2026 Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. BMJ, 372(71), 1\u20139. https://doi.org/10.1136/bmj.n71",
+     "DOI": "10.1136/bmj.n71"
+    },
+    {
+     "issue": "20",
+     "key": "10225_CR99",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1007/s10648-024-09857-2",
+     "volume": "36",
+     "author": "SC Pan",
+     "year": "2024",
+     "unstructured": "Pan, S. C., Dunlosky, J., Xu, K. M., & Ouwehand, K. (2024). Emerging and future directions in test-enhanced learning research. Educational Psychology Review,36(20), 1\u201315. https://doi.org/10.1007/s10648-024-09857-2",
+     "journal-title": "Educational Psychology Review"
+    },
+    {
+     "issue": "7",
+     "key": "10225_CR100",
+     "doi-asserted-by": "publisher",
+     "first-page": "710",
+     "DOI": "10.1037/bul0000151",
+     "volume": "144",
+     "author": "SC Pan",
+     "year": "2018",
+     "unstructured": "Pan, S. C., & Rickard, T. C. (2018). Transfer of test-enhanced learning: Meta-analytic review and synthesis. Psychological Bulletin,144(7), 710\u2013756. https://doi.org/10.1037/bul0000151",
+     "journal-title": "Psychological Bulletin"
+    },
+    {
+     "key": "10225_CR101",
+     "unstructured": "Perry, T., Lea, R., J\u00f8rgensen, C. R., Cordingley, P., Shapiro, K., & Youdell, D. (2021). Cognitive science in the classroom: Evidence and practice review. https://educationendowmentfoundation.org.uk/education-evidence/evidence-reviews/cognitive-science-approaches-in-the-classroom/"
+    },
+    {
+     "key": "10225_CR102",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Petersen-Brown, S., Lundberg, A. R., Ray, J. E., Dela Paz, I. N., Riss, C. L., & Panahon, C. J. (2019). Applying spaced practice in the schools to teach math vocabulary. Psychology in the Schools, 56(6), 977\u2013991. https://doi.org/10.1002/pits.22248",
+     "DOI": "10.1002/pits.22248"
+    },
+    {
+     "issue": "9",
+     "key": "10225_CR103",
+     "doi-asserted-by": "publisher",
+     "first-page": "3486",
+     "DOI": "10.1002/pits.22943",
+     "volume": "60",
+     "author": "S Petersen-Brown",
+     "year": "2023",
+     "unstructured": "* Petersen-Brown, S., Riese, A. M., Schneider, M. M., Ray, J. E., & Clonkey, H. R. (2023). Applying distributed practice in the schools to enhance retention of spelling words. Psychology in the Schools,60(9), 3486\u20133503. https://doi.org/10.1002/pits.22943",
+     "journal-title": "Psychology in the Schools"
+    },
+    {
+     "issue": "1",
+     "key": "10225_CR104",
+     "doi-asserted-by": "publisher",
+     "first-page": "21",
+     "DOI": "10.1080/15305058.2011.602920",
+     "volume": "12",
+     "author": "RP Phelps",
+     "year": "2012",
+     "unstructured": "Phelps, R. P. (2012). The effect of testing on student achievement, 1910\u20132010. International Journal of Testing,12(1), 21\u201343. https://doi.org/10.1080/15305058.2011.602920",
+     "journal-title": "International Journal of Testing"
+    },
+    {
+     "key": "10225_CR105",
+     "doi-asserted-by": "publisher",
+     "first-page": "98",
+     "DOI": "10.1016/j.learninstruc.2012.07.003",
+     "volume": "23",
+     "author": "MA Rau",
+     "year": "2013",
+     "unstructured": "Rau, M. A., Aleven, V., & Rummel, N. (2013). Interleaved practice in multi-dimensional learning tasks: Which dimension should we interleave? Learning and Instruction,23, 98\u2013114. https://doi.org/10.1016/j.learninstruc.2012.07.003",
+     "journal-title": "Learning and Instruction"
+    },
+    {
+     "issue": "2",
+     "key": "10225_CR106",
+     "doi-asserted-by": "publisher",
+     "first-page": "327",
+     "DOI": "10.1007/s10648-015-9308-4",
+     "volume": "27",
+     "author": "KA Rawson",
+     "year": "2015",
+     "unstructured": "Rawson, K. A. (2015). The status of the testing effect for complex materials: Still a winner. Educational Psychology Review,27(2), 327\u2013331. https://doi.org/10.1007/s10648-015-9308-4",
+     "journal-title": "Educational Psychology Review"
+    },
+    {
+     "key": "10225_CR107",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Renkl, A. (2021). The worked example principle in multimedia learning. In R. E. Mayer & L. Fiorella (Eds.), The Cambridge handbook of multimedia learning (3rd ed., pp. 231\u2013240). Cambridge University Press.",
+     "DOI": "10.1017/9781108894333.023"
+    },
+    {
+     "issue": "4",
+     "key": "10225_CR108",
+     "doi-asserted-by": "publisher",
+     "first-page": "135",
+     "DOI": "10.1026/0049-8637/a000258",
+     "volume": "54",
+     "author": "T Richter",
+     "year": "2022",
+     "unstructured": "Richter, T., Berger, R., Ebersbach, M., Eitel, A., Endres, T., Borromeo Ferri, R., H\u00e4nze, M., Lachner, A., Leutner, D., Lipowsky, F., Nemeth, L., Renkl, A., Roelle, J., Rummer, R., Scheiter, K., Schweppe, J., Von Aufschnaiter, C., & Vorholzer, A. (2022). How to promote lasting learning in schools: Theoretical approaches and an agenda for research. Zeitschrift F\u00fcr Entwicklungspsychologie und P\u00e4dagogische Psychologie [journal of Developmental Psychology and Educational Psychology],54(4), 135\u2013141. https://doi.org/10.1026/0049-8637/a000258",
+     "journal-title": "Zeitschrift F\u00fcr Entwicklungspsychologie und P\u00e4dagogische Psychologie [journal of Developmental Psychology and Educational Psychology]"
+    },
+    {
+     "key": "10225_CR109",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Ritchie, S. J., Della Sala, S., & McIntosh, R. D. (2013). Retrieval practice, with or without mind mapping, boosts fact learning in primary school children. PLOS ONE, 8(11), 1\u20138. https://doi.org/10.1371/journal.pone.0078976",
+     "DOI": "10.1371/journal.pone.0078976"
+    },
+    {
+     "issue": "1",
+     "key": "10225_CR110",
+     "doi-asserted-by": "publisher",
+     "first-page": "75",
+     "DOI": "10.1016/j.jecp.2008.03.001",
+     "volume": "101",
+     "author": "B Rittle-Johnson",
+     "year": "2008",
+     "unstructured": "* Rittle-Johnson, B., & Kmicikewycz, A. O. (2008). When generating answers benefits arithmetic skill: The importance of prior knowledge. Journal of Experimental Child Psychology,101(1), 75\u201381. https://doi.org/10.1016/j.jecp.2008.03.001",
+     "journal-title": "Journal of Experimental Child Psychology"
+    },
+    {
+     "key": "10225_CR111",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Roediger III, H. L., Agarwal, P. K., McDaniel, M. A., & McDermott, K. B. (2011). Test-enhanced learning in the classroom: Long-term improvements from quizzing. Journal of Experimental Psychology: Applied, 17(4), 382\u2013395. https://doi.org/10.1037/a0026252",
+     "DOI": "10.1037/a0026252"
+    },
+    {
+     "key": "10225_CR112",
+     "doi-asserted-by": "publisher",
+     "unstructured": "Roediger III, H. L., & Karpicke, J. D. (2006a). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249\u2013255. https://doi.org/10.1111/j.1467-9280.2006.01693.x",
+     "DOI": "10.1111/j.1467-9280.2006.01693.x"
+    },
+    {
+     "issue": "3",
+     "key": "10225_CR113",
+     "doi-asserted-by": "publisher",
+     "first-page": "181",
+     "DOI": "10.1111/j.1745-6916.2006.00012.x",
+     "volume": "1",
+     "author": "HL Roediger III",
+     "year": "2006",
+     "unstructured": "Roediger, H. L., III., & Karpicke, J. D. (2006b). The power of testing memory: Basic research and implications for educational practice. Perspectives on Psychological Science,1(3), 181\u2013210. https://doi.org/10.1111/j.1745-6916.2006.00012.x",
+     "journal-title": "Perspectives on Psychological Science"
+    },
+    {
+     "issue": "102",
+     "key": "10225_CR114",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1007/s10648-023-09810-9",
+     "volume": "35",
+     "author": "J Roelle",
+     "year": "2023",
+     "unstructured": "Roelle, J., Endres, T., Abel, R., Obergassel, N., N\u00fcckles, M., & Renkl, A. (2023). Happy together? On the relationship between research on retrieval practice and generative learning using the case of follow-up learning tasks. Educational Psychology Review,35(102), 1\u201327. https://doi.org/10.1007/s10648-023-09810-9",
+     "journal-title": "Educational Psychology Review"
+    },
+    {
+     "key": "10225_CR115",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1016/j.learninstruc.2022.101634",
+     "volume": "80",
+     "author": "J Roelle",
+     "year": "2022",
+     "unstructured": "Roelle, J., Froese, L., Krebs, R., Obergassel, N., & Waldeyer, J. (2022a). Sequence matters! Retrieval practice before generative learning is more effective than the reverse order. Learning and Instruction,80, 1\u201312. https://doi.org/10.1016/j.learninstruc.2022.101634",
+     "journal-title": "Learning and Instruction"
+    },
+    {
+     "issue": "4",
+     "key": "10225_CR116",
+     "doi-asserted-by": "publisher",
+     "first-page": "142",
+     "DOI": "10.1026/0049-8637/a000261",
+     "volume": "54",
+     "author": "J Roelle",
+     "year": "2022",
+     "unstructured": "Roelle, J., Schweppe, J., Endres, T., Lachner, A., Aufschnaiter, C. V., Renkl, A., Eitel, A., Leutner, D., Rummer, R., Scheiter, K., & Vorholzer, A. (2022b). Combining retrieval practice and generative learning in educational contexts: Promises and challenges. Zeitschrift F\u00fcr Entwicklungspsychologie und P\u00e4dagogische Psychologie [journal of Developmental Psychology and Educational Psychology],54(4), 142\u2013150. https://doi.org/10.1026/0049-8637/a000261",
+     "journal-title": "Zeitschrift F\u00fcr Entwicklungspsychologie und P\u00e4dagogische Psychologie [journal of Developmental Psychology and Educational Psychology]"
+    },
+    {
+     "issue": "5",
+     "key": "10225_CR117",
+     "doi-asserted-by": "publisher",
+     "first-page": "616",
+     "DOI": "10.1177/1362168818805251",
+     "volume": "24",
+     "author": "J Rogers",
+     "year": "2020",
+     "unstructured": "* Rogers, J., & Cheung, A. (2020). Input spacing and the learning of L2 vocabulary in a classroom context. Language Teaching Research,24(5), 616\u2013641. https://doi.org/10.1177/1362168818805251",
+     "journal-title": "Language Teaching Research"
+    },
+    {
+     "key": "10225_CR118",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Rogers, J., & Cheung, A. (2021). Does it matter when you review? Input spacing, ecological validity, and the learning of L2 vocabulary. Studies in Second Language Acquisition, 43(5), 1138\u20131156. https://doi.org/10.1017/S0272263120000236",
+     "DOI": "10.1017/S0272263120000236"
+    },
+    {
+     "issue": "3",
+     "key": "10225_CR119",
+     "doi-asserted-by": "publisher",
+     "first-page": "355",
+     "DOI": "10.1007/s10648-012-9201-3",
+     "volume": "24",
+     "author": "D Rohrer",
+     "year": "2012",
+     "unstructured": "Rohrer, D. (2012). Interleaving helps students distinguish among similar concepts. Educational Psychology Review,24(3), 355\u2013367. https://doi.org/10.1007/s10648-012-9201-3",
+     "journal-title": "Educational Psychology Review"
+    },
+    {
+     "issue": "5",
+     "key": "10225_CR120",
+     "doi-asserted-by": "publisher",
+     "first-page": "1323",
+     "DOI": "10.3758/s13423-014-0588-3",
+     "volume": "21",
+     "author": "D Rohrer",
+     "year": "2014",
+     "unstructured": "* Rohrer, D., Dedrick, R. F., & Burgess, K. (2014). The benefit of interleaved mathematics practice is not limited to superficially similar kinds of problems. Psychonomic Bulletin & Review,21(5), 1323\u20131330. https://doi.org/10.3758/s13423-014-0588-3",
+     "journal-title": "Psychonomic Bulletin &amp; Review"
+    },
+    {
+     "key": "10225_CR121",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Rohrer, D., Dedrick, R. F., Hartwig, M. K., & Cheung, C.-N. (2020). A randomized controlled trial of interleaved mathematics practice. Journal of Educational Psychology, 112(1), 40\u201352. https://doi.org/10.1037/edu0000367",
+     "DOI": "10.1037/edu0000367"
+    },
+    {
+     "key": "10225_CR122",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Rohrer, D., Dedrick, R. F., & Stershic, S. (2015). Interleaved practice improves mathematics learning. Journal of Educational Psychology, 107(3), 900\u2013908. https://doi.org/10.1037/edu0000001",
+     "DOI": "10.1037/edu0000001"
+    },
+    {
+     "issue": "5",
+     "key": "10225_CR123",
+     "doi-asserted-by": "publisher",
+     "first-page": "406",
+     "DOI": "10.3102/0013189X10374770",
+     "volume": "39",
+     "author": "D Rohrer",
+     "year": "2010",
+     "unstructured": "Rohrer, D., & Pashler, H. (2010). Recent research on human learning challenges conventional instructional strategies. Educational Researcher,39(5), 406\u2013412. https://doi.org/10.3102/0013189X10374770",
+     "journal-title": "Educational Researcher"
+    },
+    {
+     "issue": "6",
+     "key": "10225_CR124",
+     "doi-asserted-by": "publisher",
+     "first-page": "1432",
+     "DOI": "10.1037/a0037559",
+     "volume": "140",
+     "author": "CA Rowland",
+     "year": "2014",
+     "unstructured": "Rowland, C. A. (2014). The effect of testing versus restudy on retention: A meta-analytic review of the testing effect. Psychological Bulletin,140(6), 1432\u20131463. https://doi.org/10.1037/a0037559",
+     "journal-title": "Psychological Bulletin"
+    },
+    {
+     "key": "10225_CR125",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Rowley, T., & McCrudden, M. T. (2020). Retrieval practice and retention of course content in a middle school science classroom. Applied Cognitive Psychology, 34(6), 1510\u20131515. https://doi.org/10.1002/acp.3710",
+     "DOI": "10.1002/acp.3710"
+    },
+    {
+     "key": "10225_CR126",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Ruitenburg, S. K., Ackermans, K., Kirschner, P. A., Jarodzka, H., & Camp, G. (2025). After initial acquisition, problem-solving leads to better long-term performance than example study, even for complex tasks. Learning and Instruction, 95, 1\u201316. https://doi.org/10.1016/j.learninstruc.2024.102027",
+     "DOI": "10.1016/j.learninstruc.2024.102027"
+    },
+    {
+     "issue": "1",
+     "key": "10225_CR127",
+     "doi-asserted-by": "publisher",
+     "first-page": "37",
+     "DOI": "10.1007/s42010-021-00137-4",
+     "volume": "50",
+     "author": "R Rummer",
+     "year": "2022",
+     "unstructured": "Rummer, R., & Schweppe, J. (2022). Complexity and the testing effect: The potential importance of securing understanding for the benefits of retrieval practice with complex learning materials. Unterrichtswissenschaft,50(1), 37\u201352. https://doi.org/10.1007/s42010-021-00137-4",
+     "journal-title": "Unterrichtswissenschaft"
+    },
+    {
+     "key": "10225_CR128",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Sana, F., & Yan, V. X. (2022). Interleaving retrieval practice promotes science learning. Psychological Science, 33(5), 782\u2013788. https://doi.org/10.1177/09567976211057507",
+     "DOI": "10.1177/09567976211057507"
+    },
+    {
+     "issue": "2",
+     "key": "10225_CR129",
+     "doi-asserted-by": "publisher",
+     "first-page": "149",
+     "DOI": "10.1016/j.jsp.2014.12.003",
+     "volume": "53",
+     "author": "GM Schutte",
+     "year": "2015",
+     "unstructured": "Schutte, G. M., Duhon, G. J., Solomon, B. G., Poncy, B. C., Moore, K., & Story, B. (2015). A comparative analysis of massed vs. distributed practice on basic math fact fluency growth rates. Journal of School Psychology,53(2), 149\u2013159. https://doi.org/10.1016/j.jsp.2014.12.003",
+     "journal-title": "Journal of School Psychology"
+    },
+    {
+     "issue": "2",
+     "key": "10225_CR130",
+     "doi-asserted-by": "publisher",
+     "first-page": "179",
+     "DOI": "10.1177/1475725717695149",
+     "volume": "16",
+     "author": "J Schwieren",
+     "year": "2017",
+     "unstructured": "Schwieren, J., Barenberg, J., & Dutke, S. (2017). The testing effect in the psychology classroom: A meta-analytic perspective. Psychology Learning & Teaching,16(2), 179\u2013196. https://doi.org/10.1177/1475725717695149",
+     "journal-title": "Psychology Learning & Teaching"
+    },
+    {
+     "key": "10225_CR131",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Sobel, H. S., Cepeda, N. J., & Kapler, I. V. (2011). Spacing effects in real-world classroom vocabulary learning. Applied Cognitive Psychology, 25(5), 763\u2013767. https://doi.org/10.1002/acp.1747",
+     "DOI": "10.1002/acp.1747"
+    },
+    {
+     "issue": "2",
+     "key": "10225_CR132",
+     "doi-asserted-by": "publisher",
+     "first-page": "407",
+     "DOI": "10.1007/s10648-020-09563-9",
+     "volume": "33",
+     "author": "LK Sotola",
+     "year": "2021",
+     "unstructured": "Sotola, L. K., & Crede, M. (2021). Regarding class quizzes: A meta-analytic synthesis of studies on the relationship between frequent low-stakes testing and class performance. Educational Psychology Review,33(2), 407\u2013426. https://doi.org/10.1007/s10648-020-09563-9",
+     "journal-title": "Educational Psychology Review"
+    },
+    {
+     "issue": "2",
+     "key": "10225_CR133",
+     "doi-asserted-by": "publisher",
+     "first-page": "180",
+     "DOI": "10.1080/23735082.2017.1371321",
+     "volume": "4",
+     "author": "V Svihla",
+     "year": "2017",
+     "unstructured": "Svihla, V., Wester, M. J., & Linn, M. C. (2017). Distributed practice in classroom inquiry science learning. Learning: Research and Practice,4(2), 180\u2013202. https://doi.org/10.1080/23735082.2017.1371321",
+     "journal-title": "Learning: Research and Practice"
+    },
+    {
+     "issue": "10",
+     "key": "10225_CR134",
+     "doi-asserted-by": "publisher",
+     "first-page": "3988",
+     "DOI": "10.1073/pnas.1815156116",
+     "volume": "116",
+     "author": "B Tabibian",
+     "year": "2019",
+     "unstructured": "Tabibian, B., Upadhyay, U., De, A., Zarezade, A., Sch\u00f6lkopf, B., & Gomez-Rodriguez, M. (2019). Enhancing human learning via spaced repetition optimization. Proceedings of the National Academy of Sciences of the United States of America,116(10), 3988\u20133993. https://doi.org/10.1073/pnas.1815156116",
+     "journal-title": "Proceedings of the National Academy of Sciences of the United States of America"
+    },
+    {
+     "key": "10225_CR135",
+     "doi-asserted-by": "publisher",
+     "unstructured": "* Taylor, K., & Rohrer, D. (2010). The effects of interleaved practice. Applied Cognitive Psychology, 24(6), 837\u2013848. https://doi.org/10.1002/acp.1598",
+     "DOI": "10.1002/acp.1598"
+    },
+    {
+     "key": "10225_CR136",
+     "unstructured": "* Todaro, R. D. (2019). Investigating the role of example type in interleaved practice [Doctoral dissertation, Kent State University]. http://rave.ohiolink.edu/etdc/view?acc_num=kent1553608483262968"
+    },
+    {
+     "issue": "26",
+     "key": "10225_CR137",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1038/s41539-021-00105-8",
+     "volume": "6",
+     "author": "U Upadhyay",
+     "year": "2021",
+     "unstructured": "Upadhyay, U., Lancashire, G., Moser, C., & Gomez-Rodriguez, M. (2021). Large-scale randomized experiments reveals that machine learning-based instruction helps people memorize more effectively. Npj Science of Learning,6(26), 1\u20133. https://doi.org/10.1038/s41539-021-00105-8",
+     "journal-title": "Npj Science of Learning"
+    },
+    {
+     "key": "10225_CR138",
+     "unstructured": "Utrecht University Library. (n.d.). Search engines by discipline | Education. Retrieved January 14, 2025, from https://databases.library.uu.nl/az/databases?s=137446&p=1"
+    },
+    {
+     "key": "10225_CR139",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.1016/j.edurev.2019.05.003",
+     "volume": "28",
+     "author": "DCD Van Alten",
+     "year": "2019",
+     "unstructured": "Van Alten, D. C. D., Phielix, C., Janssen, J., & Kester, L. (2019). Effects of flipping the classroom on learning outcomes and satisfaction: A meta-analysis. Educational Research Review,28, 1\u201318. https://doi.org/10.1016/j.edurev.2019.05.003",
+     "journal-title": "Educational Research Review"
+    },
+    {
+     "issue": "2",
+     "key": "10225_CR140",
+     "doi-asserted-by": "publisher",
+     "first-page": "125",
+     "DOI": "10.1038/s42256-020-00287-7",
+     "volume": "3",
+     "author": "R Van de Schoot",
+     "year": "2021",
+     "unstructured": "Van de Schoot, R., De Bruin, J., Schram, R., Zahedi, P., De Boer, J., Weijdema, F., Kramer, B., Huijts, M., Hoogerwerf, M., Ferdinands, G., Harkema, A., Willemsen, J., Ma, Y., Fang, Q., Hindriks, S., Tummers, L., & Oberski, D. L. (2021). An open source machine learning framework for efficient and transparent systematic reviews. Nature Machine Intelligence,3(2), 125\u2013133. https://doi.org/10.1038/s42256-020-00287-7",
+     "journal-title": "Nature Machine Intelligence"
+    },
+    {
+     "issue": "2",
+     "key": "10225_CR141",
+     "doi-asserted-by": "publisher",
+     "first-page": "247",
+     "DOI": "10.1007/s10648-015-9310-x",
+     "volume": "27",
+     "author": "T Van Gog",
+     "year": "2015",
+     "unstructured": "Van Gog, T., & Sweller, J. (2015). Not new, but nearly forgotten: The testing effect decreases or even disappears as the complexity of learning materials increases. Educational Psychology Review,27(2), 247\u2013264. https://doi.org/10.1007/s10648-015-9310-x",
+     "journal-title": "Educational Psychology Review"
+    },
+    {
+     "issue": "4",
+     "key": "10225_CR142",
+     "doi-asserted-by": "publisher",
+     "first-page": "257",
+     "DOI": "10.1027/1618-3169.52.4.257",
+     "volume": "52",
+     "author": "PPJL Verkoeijen",
+     "year": "2005",
+     "unstructured": "Verkoeijen, P. P. J. L., Rikers, R. M. J. P., & Schmidt, H. G. (2005). Limitations to the spacing effect: Demonstration of an inverted u-shaped relationship between interrepetition spacing and free recall. Experimental Psychology,52(4), 257\u2013263. https://doi.org/10.1027/1618-3169.52.4.257",
+     "journal-title": "Experimental Psychology"
+    },
+    {
+     "issue": "3",
+     "key": "10225_CR143",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.18637/jss.v036.i03",
+     "volume": "36",
+     "author": "W Viechtbauer",
+     "year": "2010",
+     "unstructured": "Viechtbauer, W. (2010). Conducting meta-analyses in R with the metafor package. Journal of Statistical Software,36(3), 1\u201348. https://doi.org/10.18637/jss.v036.i03",
+     "journal-title": "Journal of Statistical Software"
+    },
+    {
+     "key": "10225_CR144",
+     "unstructured": "Viechtbauer, W. (2024). Difference between the omnibus test and tests of individual predictors. The Metafor Package: A Meta-Analysis Package for R. https://www.metafor-project.org/doku.php/tips:diff_omnibus_vs_individual_tests#variance_inflation_factors"
+    },
+    {
+     "issue": "2",
+     "key": "10225_CR145",
+     "doi-asserted-by": "publisher",
+     "first-page": "112",
+     "DOI": "10.1002/jrsm.11",
+     "volume": "1",
+     "author": "W Viechtbauer",
+     "year": "2010",
+     "unstructured": "Viechtbauer, W., & Cheung, M.W.-L. (2010). Outlier and influence diagnostics for meta-analysis. Research Synthesis Methods,1(2), 112\u2013125. https://doi.org/10.1002/jrsm.11",
+     "journal-title": "Research Synthesis Methods"
+    },
+    {
+     "key": "10225_CR146",
+     "doi-asserted-by": "publisher",
+     "first-page": "1",
+     "DOI": "10.3389/fpsyg.2019.03087",
+     "volume": "10",
+     "author": "B Wisniewski",
+     "year": "2020",
+     "unstructured": "Wisniewski, B., Zierer, K., & Hattie, J. (2020). The power of feedback revisited: A meta-analysis of educational feedback research. Frontiers in Psychology,10, 1\u201314. https://doi.org/10.3389/fpsyg.2019.03087",
+     "journal-title": "Frontiers in Psychology"
+    },
+    {
+     "issue": "1",
+     "key": "10225_CR147",
+     "doi-asserted-by": "publisher",
+     "first-page": "59",
+     "DOI": "10.1177/23727322231218906",
+     "volume": "11",
+     "author": "VX Yan",
+     "year": "2024",
+     "unstructured": "Yan, V. X., Sana, F., & Carvalho, P. F. (2024). No simple solutions to complex problems: Cognitive science principles can guide but not prescribe educational decisions. Policy Insights from the Behavioral and Brain Sciences,11(1), 59\u201366. https://doi.org/10.1177/23727322231218906",
+     "journal-title": "Policy Insights from the Behavioral and Brain Sciences"
+    },
+    {
+     "issue": "2",
+     "key": "10225_CR148",
+     "doi-asserted-by": "publisher",
+     "first-page": "218",
+     "DOI": "10.1016/j.jarmac.2021.09.004",
+     "volume": "11",
+     "author": "VX Yan",
+     "year": "2022",
+     "unstructured": "Yan, V. X., & Schuetze, B. A. (2022). Not just stimuli structure: Sequencing effects in category learning vary by task demands. Journal of Applied Research in Memory and Cognition,11(2), 218\u2013228. https://doi.org/10.1016/j.jarmac.2021.09.004",
+     "journal-title": "Journal of Applied Research in Memory and Cognition"
+    },
+    {
+     "key": "10225_CR149",
+     "doi-asserted-by": "publisher",
+     "unstructured": "Yan, V. X., Schuetze, B. A., & Eglington, L. G. (2020). A review of the interleaving effect: Theories and lessons for future research. PsyArXiv. https://doi.org/10.31234/osf.io/ur6g7",
+     "DOI": "10.31234/osf.io/ur6g7"
+    },
+    {
+     "issue": "4",
+     "key": "10225_CR150",
+     "doi-asserted-by": "publisher",
+     "first-page": "399",
+     "DOI": "10.1037/bul0000309",
+     "volume": "147",
+     "author": "C Yang",
+     "year": "2021",
+     "unstructured": "Yang, C., Luo, L., Vadillo, M. A., Yu, R., & Shanks, D. R. (2021). Testing (quizzing) boosts classroom learning: A systematic and meta-analytic review. Psychological Bulletin,147(4), 399\u2013435. https://doi.org/10.1037/bul0000309",
+     "journal-title": "Psychological Bulletin"
+    },
+    {
+     "issue": "1",
+     "key": "10225_CR151",
+     "doi-asserted-by": "publisher",
+     "first-page": "73",
+     "DOI": "10.1037/edu0000268",
+     "volume": "111",
+     "author": "DJ Yeo",
+     "year": "2019",
+     "unstructured": "Yeo, D. J., & Fazio, L. K. (2019). The optimal learning strategy depends on learning goals and processes: Retrieval practice versus worked examples. Journal of Educational Psychology,111(1), 73\u201390. https://doi.org/10.1037/edu0000268",
+     "journal-title": "Journal of Educational Psychology"
+    }
+   ],
+   "container-title": [
+    "Educational Psychology Review"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://link.springer.com/content/pdf/10.1007/s10648-026-10225-5.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://link.springer.com/article/10.1007/s10648-026-10225-5",
+     "content-type": "text/html",
+     "content-version": "vor",
+     "intended-application": "text-mining"
+    },
+    {
+     "URL": "https://link.springer.com/content/pdf/10.1007/s10648-026-10225-5.pdf",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2026,
+      10,
+      29
+     ]
+    ],
+    "date-time": "2026-10-29T12:54:57Z",
+    "timestamp": 1793278497000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://link.springer.com/article/10.1007/s10648-026-10225-5"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2026,
+      10,
+      29
+     ]
+    ]
+   },
+   "references-count": 151,
+   "journal-issue": {
+    "issue": "1",
+    "published-print": {
+     "date-parts": [
+      [
+       2026,
+       12
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "10225"
+   ],
+   "URL": "https://doi.org/10.1007/s10648-026-10225-5",
+   "relation": {},
+   "ISSN": [
+    "1040-726X",
+    "1573-336X"
+   ],
+   "issn-type": [
+    {
+     "value": "1040-726X",
+     "type": "print"
+    },
+    {
+     "value": "1573-336X",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2026,
+      10,
+      29
+     ]
+    ]
+   },
+   "assertion": [
+    {
+     "value": "10 March 2026",
+     "order": 1,
+     "name": "received",
+     "label": "Received",
+     "group": {
+      "name": "ArticleHistory",
+      "label": "Article History"
+     }
+    },
+    {
+     "value": "28 September 2026",
+     "order": 2,
+     "name": "accepted",
+     "label": "Accepted",
+     "group": {
+      "name": "ArticleHistory",
+      "label": "Article History"
+     }
+    },
+    {
+     "value": "29 October 2026",
+     "order": 3,
+     "name": "first_online",
+     "label": "First Online",
+     "group": {
+      "name": "ArticleHistory",
+      "label": "Article History"
+     }
+    },
+    {
+     "value": "We have no known conflict of interest to disclose.",
+     "order": 1,
+     "name": "Ethics",
+     "label": "Conflict of Interest",
+     "group": {
+      "name": "EthicsHeading",
+      "label": "Declarations"
+     }
+    }
+   ],
+   "article-number": "137"
+  }
+ }
+}

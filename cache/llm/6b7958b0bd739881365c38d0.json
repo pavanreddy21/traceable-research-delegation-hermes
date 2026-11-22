@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a2020e-d9fc-7933-a6bf-f5b474435ad0",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330857,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"not_supported\", \"passage\": 2, \"reason\": \"The source explicitly states that across the three experiments, there was no evidence of retrieval practice affecting delayed test results, contradicting the claim that it reliably improved problem-solving.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 282,
+  "completion_tokens": 55,
+  "total_tokens": 337,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 1.22
+}

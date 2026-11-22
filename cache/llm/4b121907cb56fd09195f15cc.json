@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201b0-d96b-7e6c-970a-ff5b30963a0a",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795324696,
+ "model": "google/gemma-4-12B-it",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "```json\n{\"verdict\": \"supported\", \"passage\": 3, \"reason\": \"The passage explicitly states that a global analysis shows a null effect.\"}\n```",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 315,
+  "completion_tokens": 37,
+  "total_tokens": 352,
+  "prompt_tokens_details": {
+   "cached_tokens": 16
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 1.24
+}

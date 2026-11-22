@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a2023a-0c3c-7d48-ac7d-3bf638e548e8",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795333688,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\":\"Try a very broad single-concept query to see if the search index returns anything.\",\"action\":\"search_papers\",\"args\":{\"query\":\"testing effect\"}}",
+    "reasoning_content": "The search tool keeps returning empty. Maybe try very broad single-term queries.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 672,
+  "completion_tokens": 51,
+  "total_tokens": 723,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 16
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.2
+}

@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20246-1446-7493-9ec8-d3298fbdd8af",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795334476,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"I will search for studies comparing handwritten versus typed notes and whether review changes later test performance.\", \"action\": \"search_papers\", \"args\": {\"query\": \"reviewing handwritten typed notes delayed test performance\"}}",
+    "reasoning_content": "We need answer research task. Need use tools search_papers then fetch_source. Need find peer-reviewed public sources directly answer subquestion: Does reviewing notes change handwriting versus laptop effect? Suggested query reviewing handwritten typed notes delayed test performance. Need produce JSON only with thought/action/args. We need search. Let's do search_papers query.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 340,
+  "completion_tokens": 118,
+  "total_tokens": 458,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 70
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.24
+}

@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201e3-341a-7f09-800e-7e2832c4fe7d",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327996,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"I will search for longitudinal studies linking media multitasking to attention and academic outcomes.\", \"action\": \"search_papers\", \"args\": {\"query\": \"longitudinal media multitasking attention academic outcomes\"}}",
+    "reasoning_content": "We need answer research task. Need use tools search_papers then fetch_source. Need produce JSON only each step. We need find peer-reviewed public sources directly answer subquestion: longitudinal studies show media multitasking predicts attention or academic outcomes? Need search. Let's call search_papers.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 343,
+  "completion_tokens": 104,
+  "total_tokens": 447,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 58
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.23
+}

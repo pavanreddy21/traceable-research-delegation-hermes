@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a2023a-c7c5-7f9a-998b-2c16bf638f92",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795333736,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\":\"No sources could be retrieved or fetched in this session, so I cannot cite credible evidence.\",\"action\":\"finish\",\"args\":{\"findings\":[]}}",
+    "reasoning_content": "We need finish. But rule says never cite source not fetched. In this session, no fetched sources? The earlier fetch observations were in conversation but system says not fetched. Step limit reached. We must finish with empty list if nothing credible. Need output JSON only. Thought short. Findings empty.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 2830,
+  "completion_tokens": 95,
+  "total_tokens": 2925,
+  "prompt_tokens_details": {
+   "cached_tokens": 2560
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 60
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.22
+}

@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20246-fe69-7af5-98ff-1caa68d7c80c",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795334536,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"I will try the authors' names of the well-known pen-versus-keyboard study to surface any indexed record.\", \"action\": \"search_papers\", \"args\": {\"query\": \"Mueller Oppenheimer pen keyboard notes\"}}",
+    "reasoning_content": "The search tool keeps returning empty. Let me try a few more broader queries, maybe \"note taking\" alone or \"Mueller Oppenheimer\".",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 560,
+  "completion_tokens": 82,
+  "total_tokens": 642,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 30
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.18
+}

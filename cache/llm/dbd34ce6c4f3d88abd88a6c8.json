@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201da-d4ff-7be7-a7bd-f827597c3b88",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327448,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"decision\": \"allow\", \"reason\": \"general research question\"}",
+    "reasoning_content": "We need answer JSON only. Need classify. Request general question about public research shows. Allow. Reason few words. Ensure JSON only.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 169,
+  "completion_tokens": 43,
+  "total_tokens": 212,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 28
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 1.24
+}

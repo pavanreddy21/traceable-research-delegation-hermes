@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20244-c74c-7def-bcde-f6a5e320ee86",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795334391,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"One final broad attempt with the single core term 'note taking' before concluding the search index yields nothing.\", \"action\": \"search_papers\", \"args\": {\"query\": \"note taking\"}}",
+    "reasoning_content": "The search tool keeps returning empty results. I've tried multiple queries. Per rules, if nothing credible turns up, finish with an empty list. But maybe try one more broad query like \"note taking\".",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 854,
+  "completion_tokens": 87,
+  "total_tokens": 941,
+  "prompt_tokens_details": {
+   "cached_tokens": 768
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 42
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.26
+}

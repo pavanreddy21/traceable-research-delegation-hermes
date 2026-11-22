@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20208-cf23-74fb-9827-55e7d233b9e6",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330461,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 states that compared with restudying examples, example-problem pairs did not promote delayed test performance.\"}",
+    "reasoning_content": "We need answer JSON only. Need evaluate claim against passages. Claim: Compared with restudying worked examples, example-problem pairs did not promote delayed test performance on math word problems. Passage [1] exactly: compared with restudying examples (SSSS), example-problem pairs (STST) did not promote delayed test performance. Context math word problem? Source title and passage [3] says worked examples from math word problem tasks. Passage [1] states claim same direction. Need verdict supported, passage 1, reason one sentence. Ensure JSON only.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 359,
+  "completion_tokens": 159,
+  "total_tokens": 518,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 115
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.21
+}

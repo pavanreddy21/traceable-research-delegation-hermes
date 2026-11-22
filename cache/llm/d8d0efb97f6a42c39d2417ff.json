@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201dc-2498-7027-b1a8-c36f0f990371",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327534,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"I will search for peer-reviewed studies on post-learning sleep and procedural memory consolidation.\", \"action\": \"search_papers\", \"args\": {\"query\": \"sleep procedural memory consolidation\"}}",
+    "reasoning_content": "We need answer with JSON only. Need research. Need search papers then fetch. Let's search.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 335,
+  "completion_tokens": 63,
+  "total_tokens": 398,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 21
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.56
+}

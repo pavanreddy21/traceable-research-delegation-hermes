@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201d4-553c-718e-9d4f-3a8de65f40ec",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327022,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"I need to search for peer-reviewed literature on growth mindset interventions and K-12 academic achievement.\", \"action\": \"search_papers\", \"args\": {\"query\": \"growth mindset intervention K-12 achievement\"}}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 343,
+  "completion_tokens": 49,
+  "total_tokens": 392,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.25
+}

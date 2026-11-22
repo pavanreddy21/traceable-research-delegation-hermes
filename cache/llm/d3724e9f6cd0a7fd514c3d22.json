@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201fe-3076-7b01-9d48-5e919b909c53",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795329765,
+ "model": "zai-org/GLM-5.3-Flash",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 states verbatim that students who took notes on laptops performed worse on conceptual questions than students who took notes longhand, matching the claim's population, task, and outcome exactly.\"}",
+    "reasoning_content": "The claim: \"Students who took notes on laptops performed worse on conceptual questions than students who took notes longhand.\"\n\nPassage [1] states exactly: \"In three studies, we found that students who took notes on laptops performed worse on conceptual questions than students who took notes longhand.\"\n\nThis is a direct match \u2014 same direction, population, task, and outcome. Verdict: supported, passage 1.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 327,
+  "completion_tokens": 143,
+  "total_tokens": 470,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 84
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.23
+}

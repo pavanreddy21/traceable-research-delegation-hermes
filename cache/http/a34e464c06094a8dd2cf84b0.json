@@ -1,0 +1,1393 @@
+{
+ "status": 200,
+ "json": {
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      10,
+      16
+     ]
+    ],
+    "date-time": "2026-10-16T19:11:23Z",
+    "timestamp": 1792177883192,
+    "version": "4.4.0"
+   },
+   "update-to": [
+    {
+     "DOI": "10.1371/journal.pcbi.1006322",
+     "type": "new_version",
+     "label": "New version",
+     "source": "publisher",
+     "updated": {
+      "date-parts": [
+       [
+        2018,
+        7,
+        19
+       ]
+      ],
+      "date-time": "2018-07-19T00:00:00Z",
+      "timestamp": 1531958400000
+     }
+    }
+   ],
+   "reference-count": 93,
+   "publisher": "Public Library of Science (PLoS)",
+   "issue": "7",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2018,
+        7,
+        9
+       ]
+      ],
+      "date-time": "2018-07-09T00:00:00Z",
+      "timestamp": 1531094400000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+   ],
+   "funder": [
+    {
+     "name": "Office of Naval Research Multidisciplinary University Research Initiative Grant",
+     "award": [
+      "N000141612829"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "N000141612829"
+       ]
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/100000002",
+     "name": "National Institutes of Health",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "R01 EB009282 and R01 MH099645"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "R01 EB009282 and R01 MH099645"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/100000002",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/100000001",
+     "name": "National Science Foundation",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "IIS-1724405"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "IIS-1724405"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/100000001",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    }
+   ],
+   "content-domain": {
+    "domain": [
+     "www.ploscompbiol.org"
+    ],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "PLoS Comput Biol"
+   ],
+   "DOI": "10.1371/journal.pcbi.1006322",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2018,
+      7,
+      9
+     ]
+    ],
+    "date-time": "2018-07-09T13:23:00Z",
+    "timestamp": 1531142580000
+   },
+   "page": "e1006322",
+   "update-policy": "https://doi.org/10.1371/journal.pcbi.corrections_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 89,
+   "title": [
+    "Differential roles of sleep spindles and sleep slow oscillations in memory consolidation"
+   ],
+   "prefix": "10.1371",
+   "volume": "14",
+   "author": [
+    {
+     "given": "Yina",
+     "family": "Wei",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Giri P.",
+     "family": "Krishnan",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Maxim",
+     "family": "Komarov",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-1936-0570",
+     "authenticated-orcid": true,
+     "given": "Maxim",
+     "family": "Bazhenov",
+     "sequence": "additional",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "340",
+   "published-online": {
+    "date-parts": [
+     [
+      2018,
+      7,
+      9
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "issue": "2",
+     "key": "ref1",
+     "doi-asserted-by": "crossref",
+     "first-page": "681",
+     "DOI": "10.1152/physrev.00032.2012",
+     "article-title": "About sleep&apos;s role in memory",
+     "volume": "93",
+     "author": "B Rasch",
+     "year": "2013",
+     "journal-title": "Physiological reviews"
+    },
+    {
+     "issue": "2",
+     "key": "ref2",
+     "doi-asserted-by": "crossref",
+     "first-page": "192",
+     "DOI": "10.1007/s00426-011-0335-6",
+     "article-title": "System consolidation of memory during sleep",
+     "volume": "76",
+     "author": "J Born",
+     "year": "2012",
+     "journal-title": "Psychological Research"
+    },
+    {
+     "issue": "2",
+     "key": "ref3",
+     "doi-asserted-by": "crossref",
+     "first-page": "114",
+     "DOI": "10.1038/nrn2762",
+     "article-title": "The memory function of sleep",
+     "volume": "11",
+     "author": "S Diekelmann",
+     "year": "2010",
+     "journal-title": "Nat Rev Neurosci"
+    },
+    {
+     "issue": "1",
+     "key": "ref4",
+     "doi-asserted-by": "crossref",
+     "first-page": "121",
+     "DOI": "10.1016/j.neuron.2004.08.031",
+     "article-title": "Sleep-dependent learning and memory consolidation",
+     "volume": "44",
+     "author": "MP Walker",
+     "year": "2004",
+     "journal-title": "Neuron"
+    },
+    {
+     "issue": "5451",
+     "key": "ref5",
+     "doi-asserted-by": "crossref",
+     "first-page": "248",
+     "DOI": "10.1126/science.287.5451.248",
+     "article-title": "Memory\u2014a century of consolidation",
+     "volume": "287",
+     "author": "JL McGaugh",
+     "year": "2000",
+     "journal-title": "Science"
+    },
+    {
+     "issue": "1",
+     "key": "ref6",
+     "doi-asserted-by": "crossref",
+     "first-page": "100",
+     "DOI": "10.1038/nn1825",
+     "article-title": "Coordinated memory replay in the visual cortex and hippocampus during sleep",
+     "volume": "10",
+     "author": "D Ji",
+     "year": "2007",
+     "journal-title": "Nat Neurosci"
+    },
+    {
+     "issue": "5853",
+     "key": "ref7",
+     "doi-asserted-by": "crossref",
+     "first-page": "1147",
+     "DOI": "10.1126/science.1148979",
+     "article-title": "Fast-forward playback of recent memory sequences in prefrontal cortex during sleep",
+     "volume": "318",
+     "author": "DR Euston",
+     "year": "2007",
+     "journal-title": "Science"
+    },
+    {
+     "issue": "7",
+     "key": "ref8",
+     "doi-asserted-by": "crossref",
+     "first-page": "919",
+     "DOI": "10.1038/nn.2337",
+     "article-title": "Replay of rule-learning related neural patterns in the prefrontal cortex during sleep",
+     "volume": "12",
+     "author": "A Peyrache",
+     "year": "2009",
+     "journal-title": "Nat Neurosci"
+    },
+    {
+     "issue": "9",
+     "key": "ref9",
+     "doi-asserted-by": "crossref",
+     "first-page": "e1002263",
+     "DOI": "10.1371/journal.pbio.1002263",
+     "article-title": "Sleep-Dependent Reactivation of Ensembles in Motor Cortex Promotes Skill Consolidation",
+     "volume": "13",
+     "author": "DS Ramanathan",
+     "year": "2015",
+     "journal-title": "PLOS Biology"
+    },
+    {
+     "issue": "15",
+     "key": "ref10",
+     "doi-asserted-by": "crossref",
+     "first-page": "5134",
+     "DOI": "10.1523/JNEUROSCI.5274-13.2014",
+     "article-title": "Slow-Wave Sleep-Imposed Replay Modulates Both Strength and Precision of Memory",
+     "volume": "34",
+     "author": "DC Barnes",
+     "year": "2014",
+     "journal-title": "The Journal of Neuroscience"
+    },
+    {
+     "key": "ref11",
+     "article-title": "A manual of standardized terminology, techniques and scoring system of sleep stages in human subjects",
+     "author": "A Rechtschaffen",
+     "year": "1968"
+    },
+    {
+     "issue": "2",
+     "key": "ref12",
+     "doi-asserted-by": "crossref",
+     "first-page": "121",
+     "DOI": "10.5664/jcsm.26814",
+     "article-title": "The visual scoring of sleep in adults",
+     "volume": "3",
+     "author": "MH Silber",
+     "year": "2007",
+     "journal-title": "J Clin Sleep Med"
+    },
+    {
+     "key": "ref13",
+     "unstructured": "Iber C, Medicine AAoS. The AASM Manual for the Scoring of Sleep and Associated Events: Rules, Terminology and Technical Specifications: American Academy of Sleep Medicine; 2007."
+    },
+    {
+     "issue": "8",
+     "key": "ref14",
+     "doi-asserted-by": "crossref",
+     "first-page": "3266",
+     "DOI": "10.1523/JNEUROSCI.13-08-03266.1993",
+     "article-title": "Intracellular analysis of relations between the slow (&amp; 1 Hz) neocortical oscillation and other sleep rhythms of the electroencephalogram",
+     "volume": "13",
+     "author": "M Steriade",
+     "year": "1993",
+     "journal-title": "J Neurosci"
+    },
+    {
+     "issue": "49",
+     "key": "ref15",
+     "doi-asserted-by": "crossref",
+     "first-page": "17821",
+     "DOI": "10.1523/JNEUROSCI.2604-11.2011",
+     "article-title": "Sleep Spindles in Humans: Insights from Intracranial EEG and Unit Recordings",
+     "volume": "31",
+     "author": "T Andrillon",
+     "year": "2011",
+     "journal-title": "The Journal of Neuroscience"
+    },
+    {
+     "issue": "2111",
+     "key": "ref16",
+     "doi-asserted-by": "crossref",
+     "first-page": "597",
+     "DOI": "10.1126/science.81.2111.597",
+     "article-title": "Potential rhythms of the cerebral cortex during sleep",
+     "volume": "81",
+     "author": "AL Loomis",
+     "year": "1935",
+     "journal-title": "Science"
+    },
+    {
+     "key": "ref17",
+     "doi-asserted-by": "crossref",
+     "first-page": "692",
+     "DOI": "10.1152/ajplegacy.1937.119.4.692",
+     "article-title": "Brain potentials during sleep",
+     "volume": "119",
+     "author": "H Blake",
+     "year": "1937",
+     "journal-title": "American Journal of Physiology"
+    },
+    {
+     "key": "ref18",
+     "article-title": "Natural Waking and Sleep States: A View From Inside Neocortical Neurons",
+     "author": "M Steriade",
+     "year": "2001",
+     "journal-title": "Natural Waking and Sleep States: A View From Inside Neocortical Neurons"
+    },
+    {
+     "issue": "7119",
+     "key": "ref19",
+     "doi-asserted-by": "crossref",
+     "first-page": "610",
+     "DOI": "10.1038/nature05278",
+     "article-title": "Boosting slow oscillations during sleep potentiates memory",
+     "volume": "444",
+     "author": "L Marshall",
+     "year": "2006",
+     "journal-title": "Nature"
+    },
+    {
+     "issue": "10",
+     "key": "ref20",
+     "doi-asserted-by": "crossref",
+     "first-page": "4494",
+     "DOI": "10.1523/JNEUROSCI.3127-12.2013",
+     "article-title": "The critical role of sleep spindles in hippocampal-dependent memory: a pharmacology study",
+     "volume": "33",
+     "author": "SC Mednick",
+     "year": "2013",
+     "journal-title": "J Neurosci"
+    },
+    {
+     "issue": "3",
+     "key": "ref21",
+     "doi-asserted-by": "crossref",
+     "first-page": "250",
+     "DOI": "10.1111/j.1365-2869.2006.00522.x",
+     "article-title": "Learning-dependent changes in sleep spindles and Stage 2 sleep",
+     "volume": "15",
+     "author": "SM Fogel",
+     "year": "2006",
+     "journal-title": "J Sleep Res"
+    },
+    {
+     "issue": "1",
+     "key": "ref22",
+     "doi-asserted-by": "crossref",
+     "first-page": "205",
+     "DOI": "10.1016/S0896-6273(02)00746-8",
+     "article-title": "Practice with sleep makes perfect: sleep-dependent motor skill learning",
+     "volume": "35",
+     "author": "MP Walker",
+     "year": "2002",
+     "journal-title": "Neuron"
+    },
+    {
+     "issue": "3",
+     "key": "ref23",
+     "doi-asserted-by": "crossref",
+     "first-page": "e1002429",
+     "DOI": "10.1371/journal.pbio.1002429",
+     "article-title": "NREM2 and Sleep Spindles Are Instrumental to the Consolidation of Motor Sequence Memories",
+     "volume": "14",
+     "author": "S Laventure",
+     "year": "2016",
+     "journal-title": "PLoS Biol"
+    },
+    {
+     "issue": "4",
+     "key": "ref24",
+     "doi-asserted-by": "crossref",
+     "first-page": "206",
+     "DOI": "10.1111/j.1365-2869.1994.tb00133.x",
+     "article-title": "Impaired motor memory for a pursuit rotor task following Stage 2 sleep loss in college students",
+     "volume": "3",
+     "author": "C Smith",
+     "year": "1994",
+     "journal-title": "J Sleep Res"
+    },
+    {
+     "issue": "8",
+     "key": "ref25",
+     "first-page": "1149",
+     "article-title": "Motor sequence learning increases sleep spindles and fast frequencies in post-training sleep",
+     "volume": "31",
+     "author": "A Morin",
+     "year": "2008",
+     "journal-title": "Sleep"
+    },
+    {
+     "issue": "4",
+     "key": "ref26",
+     "doi-asserted-by": "crossref",
+     "first-page": "e341",
+     "DOI": "10.1371/journal.pone.0000341",
+     "article-title": "Daytime naps, motor memory consolidation and regionally specific sleep spindles",
+     "volume": "2",
+     "author": "M Nishida",
+     "year": "2007",
+     "journal-title": "PLoS One"
+    },
+    {
+     "issue": "34",
+     "key": "ref27",
+     "doi-asserted-by": "crossref",
+     "first-page": "13894",
+     "DOI": "10.1523/JNEUROSCI.1198-13.2013",
+     "article-title": "Enhanced spontaneous oscillations in the supplementary motor area are associated with sleep-dependent offline learning of finger-tapping motor-sequence task",
+     "volume": "33",
+     "author": "M Tamaki",
+     "year": "2013",
+     "journal-title": "Journal of Neuroscience"
+    },
+    {
+     "issue": "4",
+     "key": "ref28",
+     "doi-asserted-by": "crossref",
+     "first-page": "534",
+     "DOI": "10.1162/jocn.1997.9.4.534",
+     "article-title": "Effects of early and late nocturnal sleep on declarative and procedural memory",
+     "volume": "9",
+     "author": "W Plihal",
+     "year": "1997",
+     "journal-title": "Journal of cognitive neuroscience"
+    },
+    {
+     "issue": "6291",
+     "key": "ref29",
+     "doi-asserted-by": "crossref",
+     "first-page": "1315",
+     "DOI": "10.1126/science.aaf0902",
+     "article-title": "Top-down cortical input during NREM sleep consolidates perceptual memory",
+     "volume": "352",
+     "author": "D Miyamoto",
+     "year": "2016",
+     "journal-title": "Science"
+    },
+    {
+     "issue": "39",
+     "key": "ref30",
+     "doi-asserted-by": "crossref",
+     "first-page": "10485",
+     "DOI": "10.1073/pnas.1710613114",
+     "article-title": "Cortically coordinated NREM thalamocortical oscillations play an essential, instructive role in visual system plasticity",
+     "volume": "114",
+     "author": "J Durkin",
+     "year": "2017",
+     "journal-title": "Proc Natl Acad Sci U S A"
+    },
+    {
+     "issue": "15",
+     "key": "ref31",
+     "doi-asserted-by": "crossref",
+     "first-page": "4231",
+     "DOI": "10.1523/JNEUROSCI.3648-15.2016",
+     "article-title": "Synaptic Mechanisms of Memory Consolidation during Sleep Slow Oscillations",
+     "volume": "36",
+     "author": "Y Wei",
+     "year": "2016",
+     "journal-title": "The Journal of Neuroscience"
+    },
+    {
+     "key": "ref32",
+     "doi-asserted-by": "crossref",
+     "first-page": "e18607",
+     "DOI": "10.7554/eLife.18607",
+     "article-title": "Cellular and neurochemical basis of sleep stages in the thalamocortical network",
+     "volume": "5",
+     "author": "GP Krishnan",
+     "year": "2016",
+     "journal-title": "eLife"
+    },
+    {
+     "issue": "19",
+     "key": "ref33",
+     "doi-asserted-by": "crossref",
+     "first-page": "8691",
+     "DOI": "10.1523/JNEUROSCI.22-19-08691.2002",
+     "article-title": "Model of Thalamocortical Slow-Wave Sleep Oscillations and Transitions to Activated States",
+     "volume": "22",
+     "author": "M Bazhenov",
+     "year": "2002",
+     "journal-title": "The Journal of Neuroscience"
+    },
+    {
+     "issue": "2",
+     "key": "ref34",
+     "doi-asserted-by": "crossref",
+     "first-page": "154",
+     "DOI": "10.1016/j.biopsych.2011.08.008",
+     "article-title": "Reduced sleep spindles and spindle coherence in schizophrenia: mechanisms of impaired memory consolidation?",
+     "volume": "71",
+     "author": "EJ Wamsley",
+     "year": "2012",
+     "journal-title": "Biol Psychiatry"
+    },
+    {
+     "issue": "3",
+     "key": "ref35",
+     "doi-asserted-by": "crossref",
+     "first-page": "483",
+     "DOI": "10.1176/ajp.2007.164.3.483",
+     "article-title": "Reduced sleep spindle activity in schizophrenia patients",
+     "volume": "164",
+     "author": "F Ferrarelli",
+     "year": "2007",
+     "journal-title": "Am J Psychiatry"
+    },
+    {
+     "issue": "2",
+     "key": "ref36",
+     "doi-asserted-by": "crossref",
+     "first-page": "253",
+     "DOI": "10.1007/s00221-009-1845-y",
+     "article-title": "Interference during the implicit learning of two different motor sequences",
+     "volume": "196",
+     "author": "MA Stephan",
+     "year": "2009",
+     "journal-title": "Exp Brain Res"
+    },
+    {
+     "issue": "1",
+     "key": "ref37",
+     "doi-asserted-by": "crossref",
+     "first-page": "15",
+     "DOI": "10.1007/s00221-009-1748-y",
+     "article-title": "Contribution of night and day sleep vs. simple passage of time to the consolidation of motor sequence and visuomotor adaptation learning",
+     "volume": "195",
+     "author": "J Doyon",
+     "year": "2009",
+     "journal-title": "Exp Brain Res"
+    },
+    {
+     "issue": "18",
+     "key": "ref38",
+     "doi-asserted-by": "crossref",
+     "first-page": "11987",
+     "DOI": "10.1073/pnas.182178199",
+     "article-title": "Sleep forms memory for finger skills",
+     "volume": "99",
+     "author": "S Fischer",
+     "year": "2002",
+     "journal-title": "Proc Natl Acad Sci U S A"
+    },
+    {
+     "issue": "7",
+     "key": "ref39",
+     "doi-asserted-by": "crossref",
+     "first-page": "e0159608",
+     "DOI": "10.1371/journal.pone.0159608",
+     "article-title": "Experience Playing a Musical Instrument and Overnight Sleep Enhance Performance on a Sequential Typing Task",
+     "volume": "11",
+     "author": "MA Tucker",
+     "year": "2016",
+     "journal-title": "PLoS One"
+    },
+    {
+     "issue": "2\u20133",
+     "key": "ref40",
+     "doi-asserted-by": "crossref",
+     "first-page": "169",
+     "DOI": "10.1016/S0165-0173(98)00056-3",
+     "article-title": "EEG alpha and theta oscillations reflect cognitive and memory performance: a review and analysis",
+     "volume": "29",
+     "author": "W Klimesch",
+     "year": "1999",
+     "journal-title": "Brain Res Brain Res Rev"
+    },
+    {
+     "issue": "12",
+     "key": "ref41",
+     "doi-asserted-by": "crossref",
+     "first-page": "1617",
+     "DOI": "10.1093/sleep/30.12.1617",
+     "article-title": "Sleep Homeostasis and Cortical Synchronization: I. Modeling the Effects of Synaptic Strength on Sleep Slow Waves",
+     "volume": "30",
+     "author": "SK Esser",
+     "year": "2007",
+     "journal-title": "Sleep"
+    },
+    {
+     "key": "ref42",
+     "doi-asserted-by": "crossref",
+     "first-page": "3476",
+     "DOI": "10.1152/jn.00593.2010",
+     "article-title": "Sleep and Synaptic Renormalization: A Computational Study",
+     "volume": "104",
+     "author": "U Olcese",
+     "year": "2010",
+     "journal-title": "J Neurophysiol"
+    },
+    {
+     "issue": "1",
+     "key": "ref43",
+     "doi-asserted-by": "crossref",
+     "first-page": "12",
+     "DOI": "10.1016/j.neuron.2013.12.025",
+     "article-title": "Sleep and the price of plasticity: from synaptic and cellular homeostasis to memory consolidation and integration",
+     "volume": "81",
+     "author": "G Tononi",
+     "year": "2014",
+     "journal-title": "Neuron"
+    },
+    {
+     "issue": "2",
+     "key": "ref44",
+     "doi-asserted-by": "crossref",
+     "first-page": "143",
+     "DOI": "10.1016/j.brainresbull.2003.09.004",
+     "article-title": "Sleep and synaptic homeostasis: a hypothesis",
+     "volume": "62",
+     "author": "G Tononi",
+     "year": "2003",
+     "journal-title": "Brain Res Bull"
+    },
+    {
+     "key": "ref45",
+     "doi-asserted-by": "crossref",
+     "first-page": "116",
+     "DOI": "10.1016/j.conb.2017.03.019",
+     "article-title": "Sleep slow oscillation and plasticity",
+     "volume": "44",
+     "author": "I Timofeev",
+     "year": "2017",
+     "journal-title": "Curr Opin Neurobiol"
+    },
+    {
+     "key": "ref46",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.3389/fnsyn.2010.00146",
+     "article-title": "Timing is not Everything: Neuromodulation Opens the STDP Gate",
+     "volume": "2",
+     "author": "V Pawlak",
+     "year": "2010",
+     "journal-title": "Front Synaptic Neurosci"
+    },
+    {
+     "issue": "6",
+     "key": "ref47",
+     "doi-asserted-by": "crossref",
+     "first-page": "919",
+     "DOI": "10.1016/j.neuron.2007.08.013",
+     "article-title": "Neuromodulators control the polarity of spike-timing-dependent synaptic plasticity",
+     "volume": "55",
+     "author": "GH Seol",
+     "year": "2007",
+     "journal-title": "Neuron"
+    },
+    {
+     "issue": "5172",
+     "key": "ref48",
+     "doi-asserted-by": "crossref",
+     "first-page": "676",
+     "DOI": "10.1126/science.8036517",
+     "article-title": "Reactivation of hippocampal ensemble memories during sleep",
+     "volume": "265",
+     "author": "MA Wilson",
+     "year": "1994",
+     "journal-title": "Science"
+    },
+    {
+     "issue": "5257",
+     "key": "ref49",
+     "doi-asserted-by": "crossref",
+     "first-page": "1870",
+     "DOI": "10.1126/science.271.5257.1870",
+     "article-title": "Replay of neuronal firing sequences in rat hippocampus during sleep following spatial experience",
+     "volume": "271",
+     "author": "WE Skaggs",
+     "year": "1996",
+     "journal-title": "Science"
+    },
+    {
+     "issue": "7084",
+     "key": "ref50",
+     "doi-asserted-by": "crossref",
+     "first-page": "680",
+     "DOI": "10.1038/nature04587",
+     "article-title": "Reverse replay of behavioural sequences in hippocampal place cells during the awake state",
+     "volume": "440",
+     "author": "DJ Foster",
+     "year": "2006",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "ref51",
+     "doi-asserted-by": "crossref",
+     "first-page": "6459",
+     "DOI": "10.1523/JNEUROSCI.3414-13.2014",
+     "article-title": "Hippocampal Replay Captures the Unique Topological Structure of a Novel Environment",
+     "volume": "34",
+     "author": "X Wu",
+     "year": "2014",
+     "journal-title": "J Neurosci"
+    },
+    {
+     "key": "ref52",
+     "doi-asserted-by": "crossref",
+     "first-page": "163",
+     "DOI": "10.1016/B978-0-444-53839-0.00011-9",
+     "article-title": "Hippocampal-cortical interactions and the dynamics of memory trace reactivation",
+     "volume": "193",
+     "author": "CD Schwindel",
+     "year": "2011",
+     "journal-title": "Prog Brain Res"
+    },
+    {
+     "key": "ref53",
+     "doi-asserted-by": "crossref",
+     "first-page": "697",
+     "DOI": "10.1101/lm.73504",
+     "article-title": "Hippocampal sharp wave bursts coincide with neocortical \u201cup-state\u201d transitions",
+     "volume": "11",
+     "author": "FP Battaglia",
+     "year": "2004",
+     "journal-title": "Learn Mem"
+    },
+    {
+     "key": "ref54",
+     "doi-asserted-by": "crossref",
+     "first-page": "51",
+     "DOI": "10.1016/j.nlm.2014.11.015",
+     "article-title": "REM sleep rescues learning from interference",
+     "volume": "122",
+     "author": "EA McDevitt",
+     "year": "2015",
+     "journal-title": "Neurobiol Learn Mem"
+    },
+    {
+     "issue": "3",
+     "key": "ref55",
+     "doi-asserted-by": "crossref",
+     "first-page": "427",
+     "DOI": "10.1038/nn.4479",
+     "article-title": "REM sleep selectively prunes and maintains new synapses in development and learning",
+     "volume": "20",
+     "author": "W Li",
+     "year": "2017",
+     "journal-title": "Nat Neurosci"
+    },
+    {
+     "issue": "41",
+     "key": "ref56",
+     "doi-asserted-by": "crossref",
+     "first-page": "9398",
+     "DOI": "10.1523/JNEUROSCI.2149-05.2005",
+     "article-title": "Pattern-specific associative long-term potentiation induced by a sleep spindle-related spike train",
+     "volume": "25",
+     "author": "M Rosanova",
+     "year": "2005",
+     "journal-title": "J Neurosci"
+    },
+    {
+     "key": "ref57",
+     "doi-asserted-by": "crossref",
+     "first-page": "910",
+     "DOI": "10.3389/fnhum.2014.00910",
+     "article-title": "Sleep spindle and slow wave frequency reflect motor skill performance in primary school-age children",
+     "volume": "8",
+     "author": "RG Astill",
+     "year": "2014",
+     "journal-title": "Front Hum Neurosci"
+    },
+    {
+     "issue": "6995",
+     "key": "ref58",
+     "doi-asserted-by": "crossref",
+     "first-page": "78",
+     "DOI": "10.1038/nature02663",
+     "article-title": "Local sleep and learning",
+     "volume": "430",
+     "author": "R Huber",
+     "year": "2004",
+     "journal-title": "Nature"
+    },
+    {
+     "issue": "10",
+     "key": "ref59",
+     "doi-asserted-by": "crossref",
+     "first-page": "1273",
+     "DOI": "10.1093/sleep/32.10.1273",
+     "article-title": "Sleep-dependent improvement in visuomotor learning: a causal role for slow waves",
+     "volume": "32",
+     "author": "EC Landsness",
+     "year": "2009",
+     "journal-title": "Sleep"
+    },
+    {
+     "key": "ref60",
+     "doi-asserted-by": "crossref",
+     "DOI": "10.7554/eLife.17267",
+     "article-title": "Rotating waves during human sleep spindles organize global patterns of activity that repeat precisely through the night",
+     "volume": "5",
+     "author": "L Muller",
+     "year": "2016",
+     "journal-title": "Elife"
+    },
+    {
+     "issue": "31",
+     "key": "ref61",
+     "doi-asserted-by": "crossref",
+     "first-page": "6862",
+     "DOI": "10.1523/JNEUROSCI.1318-04.2004",
+     "article-title": "The sleep slow oscillation as a traveling wave",
+     "volume": "24",
+     "author": "M Massimini",
+     "year": "2004",
+     "journal-title": "J Neurosci"
+    },
+    {
+     "issue": "1",
+     "key": "ref62",
+     "doi-asserted-by": "crossref",
+     "first-page": "347",
+     "DOI": "10.1073/pnas.0605643104",
+     "article-title": "Sequential structure of neocortical spontaneous activity in vivo",
+     "volume": "104",
+     "author": "A Luczak",
+     "year": "2007",
+     "journal-title": "Proc Natl Acad Sci U S A"
+    },
+    {
+     "issue": "1",
+     "key": "ref63",
+     "doi-asserted-by": "crossref",
+     "first-page": "153",
+     "DOI": "10.1016/j.neuron.2011.02.043",
+     "article-title": "Regional Slow Waves and Spindles in Human Sleep",
+     "volume": "70",
+     "author": "Y Nir",
+     "year": "2011",
+     "journal-title": "Neuron"
+    },
+    {
+     "issue": "5",
+     "key": "ref64",
+     "doi-asserted-by": "crossref",
+     "first-page": "878",
+     "DOI": "10.1016/j.clinph.2009.03.006",
+     "article-title": "Activation of fast sleep spindles at the premotor cortex and parietal areas contributes to motor learning: A study using sLORETA",
+     "volume": "120",
+     "author": "M Tamaki",
+     "year": "2009",
+     "journal-title": "Clinical Neurophysiology"
+    },
+    {
+     "key": "ref65",
+     "doi-asserted-by": "crossref",
+     "first-page": "236",
+     "DOI": "10.1016/j.neuroimage.2016.11.010",
+     "article-title": "Spatiotemporal characteristics of sleep spindles depend on cortical location",
+     "volume": "146",
+     "author": "G Piantoni",
+     "year": "2017",
+     "journal-title": "Neuroimage"
+    },
+    {
+     "issue": "15",
+     "key": "ref66",
+     "doi-asserted-by": "crossref",
+     "first-page": "5250",
+     "DOI": "10.1523/JNEUROSCI.6141-11.2012",
+     "article-title": "Interactions between core and matrix thalamocortical projections in human sleep spindle synchronization",
+     "volume": "32",
+     "author": "M Bonjean",
+     "year": "2012",
+     "journal-title": "J Neurosci"
+    },
+    {
+     "issue": "8",
+     "key": "ref67",
+     "doi-asserted-by": "crossref",
+     "first-page": "3284",
+     "DOI": "10.1523/JNEUROSCI.13-08-03284.1993",
+     "article-title": "The slow (&lt; 1 Hz) oscillation in reticular thalamic and thalamocortical neurons: scenario of sleep rhythm generation in interacting thalamic and neocortical networks",
+     "volume": "13",
+     "author": "M Steriade",
+     "year": "1993",
+     "journal-title": "J Neurosci"
+    },
+    {
+     "issue": "10",
+     "key": "ref68",
+     "doi-asserted-by": "crossref",
+     "first-page": "1411",
+     "DOI": "10.5665/SLEEP.1290",
+     "article-title": "Fast and slow spindles during the sleep slow oscillation: disparate coalescence and engagement in memory processing",
+     "volume": "34",
+     "author": "M Molle",
+     "year": "2011",
+     "journal-title": "Sleep"
+    },
+    {
+     "issue": "2",
+     "key": "ref69",
+     "doi-asserted-by": "crossref",
+     "first-page": "R66",
+     "DOI": "10.1016/j.cub.2011.11.051",
+     "article-title": "New insights in human memory interference and consolidation",
+     "volume": "22",
+     "author": "EM Robertson",
+     "year": "2012",
+     "journal-title": "Curr Biol"
+    },
+    {
+     "issue": "2",
+     "key": "ref70",
+     "doi-asserted-by": "crossref",
+     "first-page": "224",
+     "DOI": "10.1016/j.neuron.2011.06.037",
+     "article-title": "Consolidation and reconsolidation: two lives of memories?",
+     "volume": "71",
+     "author": "S McKenzie",
+     "year": "2011",
+     "journal-title": "Neuron"
+    },
+    {
+     "issue": "6588",
+     "key": "ref71",
+     "doi-asserted-by": "crossref",
+     "first-page": "252",
+     "DOI": "10.1038/382252a0",
+     "article-title": "Consolidation in human motor memory",
+     "volume": "382",
+     "author": "T Brashers-Krug",
+     "year": "1996",
+     "journal-title": "Nature"
+    },
+    {
+     "issue": "39",
+     "key": "ref72",
+     "doi-asserted-by": "crossref",
+     "first-page": "10468",
+     "DOI": "10.1523/JNEUROSCI.2799-07.2007",
+     "article-title": "Off-line processing: reciprocal interactions between declarative and procedural memories",
+     "volume": "27",
+     "author": "RM Brown",
+     "year": "2007",
+     "journal-title": "J Neurosci"
+    },
+    {
+     "issue": "4",
+     "key": "ref73",
+     "doi-asserted-by": "crossref",
+     "first-page": "439",
+     "DOI": "10.1177/0956797612457391",
+     "article-title": "Sleep consolidation of interfering auditory memories in starlings",
+     "volume": "24",
+     "author": "TP Brawn",
+     "year": "2013",
+     "journal-title": "Psychol Sci"
+    },
+    {
+     "issue": "17",
+     "key": "ref74",
+     "doi-asserted-by": "crossref",
+     "first-page": "6696",
+     "DOI": "10.1523/JNEUROSCI.1236-14.2015",
+     "article-title": "The role of sleep in motor sequence consolidation: stabilization rather than enhancement",
+     "volume": "35",
+     "author": "A Nettersheim",
+     "year": "2015",
+     "journal-title": "J Neurosci"
+    },
+    {
+     "issue": "2",
+     "key": "ref75",
+     "doi-asserted-by": "crossref",
+     "first-page": "471",
+     "DOI": "10.1007/s00221-010-2242-2",
+     "article-title": "REM-dependent repair of competitive memory suppression",
+     "volume": "203",
+     "author": "B Baran",
+     "year": "2010",
+     "journal-title": "Exp Brain Res"
+    },
+    {
+     "issue": "41",
+     "key": "ref76",
+     "doi-asserted-by": "crossref",
+     "first-page": "14895",
+     "DOI": "10.1073/pnas.0505765102",
+     "article-title": "Task-specific disruption of perceptual learning",
+     "volume": "102",
+     "author": "AR Seitz",
+     "year": "2005",
+     "journal-title": "Proceedings of the National Academy of Sciences of the United States of America"
+    },
+    {
+     "issue": "21",
+     "key": "ref77",
+     "doi-asserted-by": "crossref",
+     "first-page": "2611",
+     "DOI": "10.1016/j.visres.2009.08.001",
+     "article-title": "Interference and feature specificity in visual perceptual learning",
+     "volume": "49",
+     "author": "Y Yotsumoto",
+     "year": "2009",
+     "journal-title": "Vision research"
+    },
+    {
+     "issue": "13",
+     "key": "ref78",
+     "doi-asserted-by": "crossref",
+     "first-page": "1290",
+     "DOI": "10.1016/j.cub.2006.05.024",
+     "article-title": "Interfering with Theories of Sleep and Memory: Sleep, Declarative Memory, and Associative Interference",
+     "volume": "16",
+     "author": "JM Ellenbogen",
+     "year": "2006",
+     "journal-title": "Current Biology"
+    },
+    {
+     "issue": "12",
+     "key": "ref79",
+     "doi-asserted-by": "crossref",
+     "first-page": "1138",
+     "DOI": "10.1167/15.12.1138",
+     "article-title": "Sleep rescues perceptual learning from interference",
+     "volume": "15",
+     "author": "E McDevitt",
+     "year": "2015",
+     "journal-title": "Journal of Vision"
+    },
+    {
+     "issue": "6285",
+     "key": "ref80",
+     "doi-asserted-by": "crossref",
+     "first-page": "590",
+     "DOI": "10.1126/science.aaf3621",
+     "article-title": "Slow waves, sharp waves, ripples, and REM in sleeping dragons",
+     "volume": "352",
+     "author": "M Shein-Idelson",
+     "year": "2016",
+     "journal-title": "Science"
+    },
+    {
+     "issue": "4",
+     "key": "ref81",
+     "doi-asserted-by": "crossref",
+     "first-page": "337",
+     "DOI": "10.1016/0301-0082(92)90012-4",
+     "article-title": "Neurotransmitter actions in the thalamus and cerebral cortex and their role in neuromodulation of thalamocortical activity",
+     "volume": "39",
+     "author": "DA McCormick",
+     "year": "1992",
+     "journal-title": "Prog Neurobiol"
+    },
+    {
+     "issue": "10",
+     "key": "ref82",
+     "doi-asserted-by": "crossref",
+     "first-page": "3597",
+     "DOI": "10.1046/j.1460-9568.1999.00779.x",
+     "article-title": "Acetylcholine suppresses the spread of excitation in the visual cortex revealed by optical recording: possible differential effect depending on the source of input",
+     "volume": "11",
+     "author": "F Kimura",
+     "year": "1999",
+     "journal-title": "Eur J Neurosci"
+    },
+    {
+     "issue": "10",
+     "key": "ref83",
+     "doi-asserted-by": "crossref",
+     "first-page": "3188",
+     "DOI": "10.1523/JNEUROSCI.11-10-03188.1991",
+     "article-title": "Modulation of neuronal firing mode in cat and guinea pig LGNd by histamine: possible cellular mechanisms of histaminergic control of arousal",
+     "volume": "11",
+     "author": "DA McCormick",
+     "year": "1991",
+     "journal-title": "J Neurosci"
+    },
+    {
+     "issue": "12",
+     "key": "ref84",
+     "doi-asserted-by": "crossref",
+     "first-page": "1185",
+     "DOI": "10.1093/cercor/10.12.1185",
+     "article-title": "Origin of Slow Cortical Oscillations in Deafferented Cortical Slabs",
+     "volume": "10",
+     "author": "I Timofeev",
+     "year": "2000",
+     "journal-title": "Cerebral Cortex"
+    },
+    {
+     "issue": "Pt 16",
+     "key": "ref85",
+     "first-page": "3987",
+     "article-title": "Interneuron-mediated inhibition synchronizes neuronal activity during slow oscillation",
+     "volume": "590",
+     "author": "Y Chen J-",
+     "year": "2012",
+     "journal-title": "The Journal of Physiology"
+    },
+    {
+     "issue": "6589",
+     "key": "ref86",
+     "doi-asserted-by": "crossref",
+     "first-page": "363",
+     "DOI": "10.1038/382363a0",
+     "article-title": "Influence of dendritic structure on firing pattern in model neocortical neurons",
+     "volume": "382",
+     "author": "ZF Mainen",
+     "year": "1996",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "ref87",
+     "article-title": "Elements of Applied Bifurcation Theory",
+     "volume": "xv",
+     "author": "YA Kuznetsov",
+     "year": "1995"
+    },
+    {
+     "issue": "3",
+     "key": "ref88",
+     "doi-asserted-by": "crossref",
+     "first-page": "2049",
+     "DOI": "10.1152/jn.1996.76.3.2049",
+     "article-title": "Ionic mechanisms underlying synchronized oscillations and propagating waves in a model of ferret thalamic slices",
+     "volume": "76",
+     "author": "A Destexhe",
+     "year": "1996",
+     "journal-title": "J Neurophysiol"
+    },
+    {
+     "issue": "72",
+     "key": "ref89",
+     "doi-asserted-by": "crossref",
+     "first-page": "55",
+     "DOI": "10.1016/S0092-8674(05)80028-5",
+     "article-title": "Quantal release of neurotransmitter and long-term potentiation",
+     "author": "CF Stevens",
+     "year": "1993",
+     "journal-title": "Cell"
+    },
+    {
+     "issue": "9",
+     "key": "ref90",
+     "doi-asserted-by": "crossref",
+     "first-page": "919",
+     "DOI": "10.1038/78829",
+     "article-title": "Competitive Hebbian learning through spike-timing-dependent synaptic plasticity",
+     "volume": "3",
+     "author": "S Song",
+     "year": "2000",
+     "journal-title": "Nat Neurosci"
+    },
+    {
+     "key": "ref91",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Sugisaki E, Fukushima Y, Tsukada M, Aihara T. Contribution of Endogeus Acetylcholine to STDP Induction. In: Liljenstr\u00f6m H, editor. Advances in Cognitive Neurodynamics (IV): Proceedings of the Fourth International Conference on Cognitive Neurodynamics\u20142013. Dordrecht: Springer Netherlands; 2015. p. 271\u20136.",
+     "DOI": "10.1007/978-94-017-9548-7_38"
+    },
+    {
+     "issue": "6",
+     "key": "ref92",
+     "doi-asserted-by": "crossref",
+     "first-page": "1105",
+     "DOI": "10.1016/j.neuron.2012.08.034",
+     "article-title": "Sleep oscillations in the thalamocortical system induce long-term neuronal plasticity",
+     "volume": "75",
+     "author": "S Chauvette",
+     "year": "2012",
+     "journal-title": "Neuron"
+    },
+    {
+     "key": "ref93",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Sivagnanam S, Majumdar A, Yoshimoto K, Astakhov V, Bandrowski A, Martone M, et al., editors. Introducing the Neuroscience Gateway. Proceedings of the 5th International Workshop on Science Gateways; 2013; Zurich,Switzerland.",
+     "DOI": "10.1145/2484762.2484816"
+    }
+   ],
+   "updated-by": [
+    {
+     "DOI": "10.1371/journal.pcbi.1006322",
+     "type": "new_version",
+     "label": "New version",
+     "source": "publisher",
+     "updated": {
+      "date-parts": [
+       [
+        2018,
+        7,
+        19
+       ]
+      ],
+      "date-time": "2018-07-19T00:00:00Z",
+      "timestamp": 1531958400000
+     }
+    }
+   ],
+   "container-title": [
+    "PLOS Computational Biology"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "http://dx.plos.org/10.1371/journal.pcbi.1006322",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2020,
+      11,
+      5
+     ]
+    ],
+    "date-time": "2020-11-05T06:18:45Z",
+    "timestamp": 1604557125000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://dx.plos.org/10.1371/journal.pcbi.1006322"
+    }
+   },
+   "subtitle": [],
+   "editor": [
+    {
+     "given": "Francesco P.",
+     "family": "Battaglia",
+     "sequence": "first",
+     "affiliation": [],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "editor"
+      }
+     ]
+    }
+   ],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2018,
+      7,
+      9
+     ]
+    ]
+   },
+   "references-count": 93,
+   "journal-issue": {
+    "issue": "7",
+    "published-online": {
+     "date-parts": [
+      [
+       2018,
+       7,
+       9
+      ]
+     ]
+    }
+   },
+   "URL": "https://doi.org/10.1371/journal.pcbi.1006322",
+   "relation": {
+    "has-preprint": [
+     {
+      "id-type": "doi",
+      "id": "10.1101/153007",
+      "asserted-by": "object"
+     }
+    ]
+   },
+   "ISSN": [
+    "1553-7358"
+   ],
+   "issn-type": [
+    {
+     "value": "1553-7358",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2018,
+      7,
+      9
+     ]
+    ]
+   }
+  }
+ }
+}

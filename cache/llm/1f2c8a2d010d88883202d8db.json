@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20232-d4c5-7a34-a1be-b2fea31dbe79",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795333215,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Search for evidence that practice testing does not outperform restudying or has boundary conditions.\", \"action\": \"search_papers\", \"args\": {\"query\": \"practice testing no benefit compared to restudying delayed exam performance boundary conditions\"}}",
+    "reasoning_content": "We need answer only JSON. Need search contrary evidence. Need use tools. Start search query.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 380,
+  "completion_tokens": 73,
+  "total_tokens": 453,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 20
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.24
+}

@@ -1,0 +1,1596 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 296741,
+   "db_response_time_ms": 356,
+   "page": 1,
+   "per_page": 2,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (about sleep's role in memory) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (about sleep's role in memory) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "about sleep's role in memory",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:about sleep%27s role in memory,has_abstract:true,language:en,type:article|review&per_page=2",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2102656701",
+    "doi": "https://doi.org/10.1152/physrev.00032.2012",
+    "title": "About Sleep's Role in Memory",
+    "display_name": "About Sleep's Role in Memory",
+    "publication_year": 2013,
+    "cited_by_count": 3478,
+    "abstract_inverted_index": {
+     "Over": [
+      0
+     ],
+     "more": [
+      1,
+      44
+     ],
+     "than": [
+      2
+     ],
+     "a": [
+      3,
+      35,
+      41,
+      52,
+      77,
+      134,
+      234
+     ],
+     "century": [
+      4
+     ],
+     "of": [
+      5,
+      16,
+      28,
+      43,
+      79,
+      91,
+      101,
+      112,
+      150,
+      156,
+      191,
+      195,
+      229,
+      236
+     ],
+     "research": [
+      6,
+      32,
+      86
+     ],
+     "has": [
+      7,
+      97
+     ],
+     "established": [
+      8,
+      240
+     ],
+     "the": [
+      9,
+      14,
+      26,
+      89,
+      99,
+      113,
+      143,
+      189,
+      223,
+      226
+     ],
+     "fact": [
+      10
+     ],
+     "that": [
+      11,
+      225
+     ],
+     "sleep": [
+      12,
+      56,
+      72,
+      103,
+      132,
+      177,
+      232
+     ],
+     "benefits": [
+      13
+     ],
+     "retention": [
+      15
+     ],
+     "memory.": [
+      17,
+      174
+     ],
+     "In": [
+      18
+     ],
+     "this": [
+      19
+     ],
+     "review": [
+      20
+     ],
+     "we": [
+      21
+     ],
+     "aim": [
+      22
+     ],
+     "to": [
+      23,
+      142,
+      186,
+      222
+     ],
+     "comprehensively": [
+      24
+     ],
+     "cover": [
+      25
+     ],
+     "field": [
+      27
+     ],
+     "\"sleep": [
+      29
+     ],
+     "and": [
+      30,
+      40,
+      108,
+      117,
+      166,
+      213
+     ],
+     "memory\"": [
+      31
+     ],
+     "by": [
+      33,
+      59
+     ],
+     "providing": [
+      34
+     ],
+     "historical": [
+      36
+     ],
+     "perspective": [
+      37
+     ],
+     "on": [
+      38,
+      88
+     ],
+     "concepts": [
+      39
+     ],
+     "discussion": [
+      42
+     ],
+     "recent": [
+      45,
+      95
+     ],
+     "key": [
+      46
+     ],
+     "findings.": [
+      47
+     ],
+     "Whereas": [
+      48,
+      84
+     ],
+     "initial": [
+      49
+     ],
+     "theories": [
+      50,
+      66
+     ],
+     "posed": [
+      51
+     ],
+     "passive": [
+      53
+     ],
+     "role": [
+      54,
+      70,
+      90
+     ],
+     "for": [
+      55,
+      71,
+      105,
+      148,
+      170,
+      210,
+      215
+     ],
+     "enhancing": [
+      57
+     ],
+     "memories": [
+      58,
+      75
+     ],
+     "protecting": [
+      60
+     ],
+     "them": [
+      61
+     ],
+     "from": [
+      62,
+      154,
+      198
+     ],
+     "interfering": [
+      63
+     ],
+     "stimuli,": [
+      64
+     ],
+     "current": [
+      65
+     ],
+     "highlight": [
+      67
+     ],
+     "an": [
+      68,
+      192
+     ],
+     "active": [
+      69,
+      193
+     ],
+     "in": [
+      73,
+      125,
+      140,
+      241
+     ],
+     "which": [
+      74,
+      162
+     ],
+     "undergo": [
+      76
+     ],
+     "process": [
+      78
+     ],
+     "system": [
+      80
+     ],
+     "consolidation": [
+      81,
+      107,
+      228
+     ],
+     "during": [
+      82,
+      164,
+      231
+     ],
+     "sleep.": [
+      83
+     ],
+     "older": [
+      85
+     ],
+     "concentrated": [
+      87
+     ],
+     "rapid-eye-movement": [
+      92
+     ],
+     "(REM)": [
+      93
+     ],
+     "sleep,": [
+      94
+     ],
+     "work": [
+      96
+     ],
+     "revealed": [
+      98
+     ],
+     "importance": [
+      100
+     ],
+     "slow-wave": [
+      102
+     ],
+     "(SWS)": [
+      104
+     ],
+     "memory": [
+      106,
+      138,
+      160,
+      196,
+      230,
+      238
+     ],
+     "also": [
+      109,
+      209
+     ],
+     "enlightened": [
+      110
+     ],
+     "some": [
+      111
+     ],
+     "underlying": [
+      114
+     ],
+     "electrophysiological,": [
+      115
+     ],
+     "neurochemical,": [
+      116
+     ],
+     "genetic": [
+      118
+     ],
+     "mechanisms,": [
+      119
+     ],
+     "as": [
+      120,
+      122,
+      133,
+      201
+     ],
+     "well": [
+      121
+     ],
+     "developmental": [
+      123
+     ],
+     "aspects": [
+      124
+     ],
+     "these": [
+      126
+     ],
+     "processes.": [
+      127
+     ],
+     "Specifically,": [
+      128
+     ],
+     "newer": [
+      129
+     ],
+     "findings": [
+      130
+     ],
+     "characterize": [
+      131
+     ],
+     "brain": [
+      135,
+      145
+     ],
+     "state": [
+      136
+     ],
+     "optimizing": [
+      137
+     ],
+     "consolidation,": [
+      139
+     ],
+     "opposition": [
+      141
+     ],
+     "waking": [
+      144
+     ],
+     "being": [
+      146
+     ],
+     "optimized": [
+      147
+     ],
+     "encoding": [
+      149
+     ],
+     "memories.": [
+      151,
+      181
+     ],
+     "Consolidation": [
+      152
+     ],
+     "originates": [
+      153
+     ],
+     "reactivation": [
+      155
+     ],
+     "recently": [
+      157
+     ],
+     "encoded": [
+      158
+     ],
+     "neuronal": [
+      159
+     ],
+     "representations,": [
+      161
+     ],
+     "occur": [
+      163
+     ],
+     "SWS": [
+      165
+     ],
+     "transform": [
+      167
+     ],
+     "respective": [
+      168
+     ],
+     "representations": [
+      169,
+      197
+     ],
+     "integration": [
+      171
+     ],
+     "into": [
+      172,
+      204
+     ],
+     "long-term": [
+      173,
+      205,
+      237
+     ],
+     "Ensuing": [
+      175
+     ],
+     "REM": [
+      176
+     ],
+     "may": [
+      178
+     ],
+     "stabilize": [
+      179
+     ],
+     "transformed": [
+      180
+     ],
+     "While": [
+      182
+     ],
+     "elaborated": [
+      183
+     ],
+     "with": [
+      184
+     ],
+     "respect": [
+      185
+     ],
+     "hippocampus-dependent": [
+      187
+     ],
+     "memories,": [
+      188,
+      219
+     ],
+     "concept": [
+      190
+     ],
+     "redistribution": [
+      194
+     ],
+     "networks": [
+      199
+     ],
+     "serving": [
+      200
+     ],
+     "temporary": [
+      202
+     ],
+     "store": [
+      203
+     ],
+     "stores": [
+      206
+     ],
+     "might": [
+      207
+     ],
+     "hold": [
+      208
+     ],
+     "non-hippocampus-dependent": [
+      211
+     ],
+     "memory,": [
+      212
+     ],
+     "even": [
+      214
+     ],
+     "nonneuronal,": [
+      216
+     ],
+     "i.e.,": [
+      217
+     ],
+     "immunological": [
+      218
+     ],
+     "giving": [
+      220
+     ],
+     "rise": [
+      221
+     ],
+     "idea": [
+      224
+     ],
+     "offline": [
+      227
+     ],
+     "represents": [
+      233
+     ],
+     "principle": [
+      235
+     ],
+     "formation": [
+      239
+     ],
+     "quite": [
+      242
+     ],
+     "different": [
+      243
+     ],
+     "physiological": [
+      244
+     ],
+     "systems.": [
+      245
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5035398717",
+       "display_name": "Bj\u00f6rn Rasch",
+       "orcid": "https://orcid.org/0000-0001-7607-3415",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7607-3415"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I202697423",
+        "display_name": "University of Zurich",
+        "ror": "https://ror.org/02crff812",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I202697423"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I8087733",
+        "display_name": "University of T\u00fcbingen",
+        "ror": "https://ror.org/03a1kwz48",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I8087733"
+        ]
+       }
+      ],
+      "countries": [
+       "CH",
+       "DE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Bj\u00f6rn Rasch",
+      "raw_affiliation_strings": [
+       "Division of Biopsychology, Neuroscience Center Zurich and Zurich Center for Integrative Human Physiology, University of Zurich, Zurich, Switzerland; and Institute of Medical Psychology and Behavioral Neurobiology, and Center for Integrative Neuroscience, University of Tuebingen, Tuebingen, Germany",
+       "Division of Biopsychology, Neuroscience Center Zurich and Zurich Center for Integrative Human Physiology, University of Zurich, Zurich, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Division of Biopsychology, Neuroscience Center Zurich and Zurich Center for Integrative Human Physiology, University of Zurich, Zurich, Switzerland; and Institute of Medical Psychology and Behavioral Neurobiology, and Center for Integrative Neuroscience, University of Tuebingen, Tuebingen, Germany",
+        "institution_ids": [
+         "https://openalex.org/I202697423",
+         "https://openalex.org/I8087733"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Division of Biopsychology, Neuroscience Center Zurich and Zurich Center for Integrative Human Physiology, University of Zurich, Zurich, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I202697423"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5036040037",
+       "display_name": "Jan Born",
+       "orcid": "https://orcid.org/0000-0002-1847-6248",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1847-6248"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I202697423",
+        "display_name": "University of Zurich",
+        "ror": "https://ror.org/02crff812",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I202697423"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I8087733",
+        "display_name": "University of T\u00fcbingen",
+        "ror": "https://ror.org/03a1kwz48",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I8087733"
+        ]
+       }
+      ],
+      "countries": [
+       "CH",
+       "DE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Jan Born",
+      "raw_affiliation_strings": [
+       "Division of Biopsychology, Neuroscience Center Zurich and Zurich Center for Integrative Human Physiology, University of Zurich, Zurich, Switzerland; and Institute of Medical Psychology and Behavioral Neurobiology, and Center for Integrative Neuroscience, University of Tuebingen, Tuebingen, Germany",
+       "Division of Biopsychology, Neuroscience Center Zurich and Zurich Center for Integrative Human Physiology, University of Zurich, Zurich, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Division of Biopsychology, Neuroscience Center Zurich and Zurich Center for Integrative Human Physiology, University of Zurich, Zurich, Switzerland; and Institute of Medical Psychology and Behavioral Neurobiology, and Center for Integrative Neuroscience, University of Tuebingen, Tuebingen, Germany",
+        "institution_ids": [
+         "https://openalex.org/I202697423",
+         "https://openalex.org/I8087733"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Division of Biopsychology, Neuroscience Center Zurich and Zurich Center for Integrative Human Physiology, University of Zurich, Zurich, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I202697423"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1152/physrev.00032.2012",
+     "doi": "https://doi.org/10.1152/physrev.00032.2012",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1152/physrev.00032.2012",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S203035050",
+      "display_name": "Physiological Reviews",
+      "issn_l": "0031-9333",
+      "issn": [
+       "0031-9333",
+       "1522-1210"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-a",
+       "doyens",
+       "jufo-3",
+       "ki-jl-2",
+       "medline",
+       "norway-1",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320155",
+      "host_organization_name": "American Physiological Society",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320155"
+      ],
+      "host_organization_lineage_names": [
+       "American Physiological Society"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Physiological Reviews",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3134323687",
+    "doi": "https://doi.org/10.1016/j.bcp.2021.114493",
+    "title": "The role of clock genes in sleep, stress and memory",
+    "display_name": "The role of clock genes in sleep, stress and memory",
+    "publication_year": 2021,
+    "cited_by_count": 97,
+    "abstract_inverted_index": {
+     "Circadian": [
+      0
+     ],
+     "clock": [
+      1,
+      48,
+      86,
+      106,
+      134
+     ],
+     "genes": [
+      2,
+      87,
+      107,
+      135
+     ],
+     "serve": [
+      3
+     ],
+     "as": [
+      4,
+      98
+     ],
+     "the": [
+      5,
+      20,
+      26,
+      66,
+      76,
+      89,
+      131,
+      144
+     ],
+     "molecular": [
+      6,
+      118
+     ],
+     "basis": [
+      7
+     ],
+     "for": [
+      8
+     ],
+     "animals'": [
+      9
+     ],
+     "~24-h": [
+      10
+     ],
+     "internal": [
+      11
+     ],
+     "timekeeping.": [
+      12
+     ],
+     "Clock": [
+      13
+     ],
+     "gene": [
+      14
+     ],
+     "expression": [
+      15
+     ],
+     "inside": [
+      16
+     ],
+     "and": [
+      17,
+      65,
+      101,
+      114,
+      120,
+      139
+     ],
+     "outside": [
+      18,
+      88
+     ],
+     "of": [
+      19,
+      34,
+      78,
+      105,
+      133,
+      156
+     ],
+     "mammalian": [
+      21
+     ],
+     "brain's": [
+      22
+     ],
+     "circadian": [
+      23,
+      79,
+      158
+     ],
+     "pacemaker": [
+      24
+     ],
+     "(i.e.": [
+      25
+     ],
+     "SCN)": [
+      27
+     ],
+     "integrates": [
+      28
+     ],
+     "temporal": [
+      29
+     ],
+     "information": [
+      30
+     ],
+     "into": [
+      31
+     ],
+     "a": [
+      32
+     ],
+     "wealth": [
+      33
+     ],
+     "physiological": [
+      35
+     ],
+     "processes.": [
+      36
+     ],
+     "Ample": [
+      37
+     ],
+     "data": [
+      38,
+      83
+     ],
+     "suggests": [
+      39,
+      84
+     ],
+     "that": [
+      40,
+      85,
+      147
+     ],
+     "in": [
+      41,
+      55,
+      93,
+      108,
+      136
+     ],
+     "addition": [
+      42
+     ],
+     "to": [
+      43,
+      60,
+      75
+     ],
+     "canonical": [
+      44
+     ],
+     "cellular": [
+      45,
+      56
+     ],
+     "timekeeping": [
+      46,
+      159
+     ],
+     "functions,": [
+      47
+     ],
+     "proteins": [
+      49,
+      53
+     ],
+     "also": [
+      50
+     ],
+     "interact": [
+      51
+     ],
+     "with": [
+      52,
+      68
+     ],
+     "involved": [
+      54,
+      92
+     ],
+     "processes": [
+      57,
+      96,
+      111
+     ],
+     "not": [
+      58,
+      72
+     ],
+     "related": [
+      59
+     ],
+     "timekeeping,": [
+      61
+     ],
+     "including": [
+      62
+     ],
+     "protein": [
+      63
+     ],
+     "regulation": [
+      64,
+      77
+     ],
+     "interaction": [
+      67
+     ],
+     "other": [
+      69
+     ],
+     "signaling": [
+      70
+     ],
+     "mechanisms": [
+      71
+     ],
+     "directly": [
+      73
+     ],
+     "linked": [
+      74
+     ],
+     "rhythms.": [
+      80
+     ],
+     "Indeed,": [
+      81
+     ],
+     "recent": [
+      82,
+      128
+     ],
+     "SCN": [
+      90
+     ],
+     "are": [
+      91,
+      112
+     ],
+     "fundamental": [
+      94
+     ],
+     "brain": [
+      95,
+      110
+     ],
+     "such": [
+      97
+     ],
+     "sleep/wakefulness,": [
+      99
+     ],
+     "stress": [
+      100
+     ],
+     "memory.": [
+      102,
+      140
+     ],
+     "The": [
+      103
+     ],
+     "role": [
+      104
+     ],
+     "these": [
+      109,
+      148
+     ],
+     "complex": [
+      113
+     ],
+     "divers,": [
+      115
+     ],
+     "influencing": [
+      116
+     ],
+     "many": [
+      117
+     ],
+     "pathways": [
+      119
+     ],
+     "phenotypes.": [
+      121
+     ],
+     "In": [
+      122
+     ],
+     "this": [
+      123
+     ],
+     "review,": [
+      124
+     ],
+     "we": [
+      125,
+      142
+     ],
+     "will": [
+      126
+     ],
+     "discuss": [
+      127
+     ],
+     "work": [
+      129
+     ],
+     "on": [
+      130
+     ],
+     "involvement": [
+      132
+     ],
+     "sleep,": [
+      137
+     ],
+     "stress,": [
+      138
+     ],
+     "Moreover,": [
+      141
+     ],
+     "raise": [
+      143
+     ],
+     "controversial": [
+      145
+     ],
+     "possibility": [
+      146
+     ],
+     "functions": [
+      149
+     ],
+     "may": [
+      150
+     ],
+     "be": [
+      151
+     ],
+     "under": [
+      152
+     ],
+     "certain": [
+      153
+     ],
+     "circumstances": [
+      154
+     ],
+     "independent": [
+      155
+     ],
+     "their": [
+      157
+     ],
+     "function.": [
+      160
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5087535475",
+       "display_name": "Youri G. Bolsius",
+       "orcid": "https://orcid.org/0000-0001-6667-8605",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6667-8605"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I169381384",
+        "display_name": "University of Groningen",
+        "ror": "https://ror.org/012p63287",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I169381384"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Youri G. Bolsius",
+      "raw_affiliation_strings": [
+       "Neurobiology Expertise Group, Groningen Institute for Evolutionary Life Sciences (GELIFES), University of Groningen, Groningen, the Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Neurobiology Expertise Group, Groningen Institute for Evolutionary Life Sciences (GELIFES), University of Groningen, Groningen, the Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I169381384"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5033314736",
+       "display_name": "Matias Daniel Zurbriggen",
+       "orcid": "https://orcid.org/0000-0002-3523-2907",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3523-2907"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210126213",
+        "display_name": "Cluster of Excellence on Plant Sciences",
+        "ror": "https://ror.org/034waa237",
+        "country_code": "DE",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I1305996414",
+         "https://openalex.org/I149899117",
+         "https://openalex.org/I171892758",
+         "https://openalex.org/I180923762",
+         "https://openalex.org/I4210126213",
+         "https://openalex.org/I4210141639",
+         "https://openalex.org/I44260953"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I44260953",
+        "display_name": "Heinrich Heine University D\u00fcsseldorf",
+        "ror": "https://ror.org/024z2rq82",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I44260953"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Matias D. Zurbriggen",
+      "raw_affiliation_strings": [
+       "Institute of Synthetic Biology and CEPLAS, University of D\u00fcsseldorf, D\u00fcsseldorf, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute of Synthetic Biology and CEPLAS, University of D\u00fcsseldorf, D\u00fcsseldorf, Germany",
+        "institution_ids": [
+         "https://openalex.org/I4210126213",
+         "https://openalex.org/I44260953"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5067034493",
+       "display_name": "Jae Kyoung Kim",
+       "orcid": "https://orcid.org/0000-0001-7842-2172",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7842-2172"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I157485424",
+        "display_name": "Korea Advanced Institute of Science and Technology",
+        "ror": "https://ror.org/05apxxy63",
+        "country_code": "KR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I157485424"
+        ]
+       }
+      ],
+      "countries": [
+       "KR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Jae Kyoung Kim",
+      "raw_affiliation_strings": [
+       "Department of Mathematical Sciences, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Mathematical Sciences, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea",
+        "institution_ids": [
+         "https://openalex.org/I157485424"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5056480595",
+       "display_name": "Martien J. Kas",
+       "orcid": "https://orcid.org/0000-0002-4471-8618",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4471-8618"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I169381384",
+        "display_name": "University of Groningen",
+        "ror": "https://ror.org/012p63287",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I169381384"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Martien J. Kas",
+      "raw_affiliation_strings": [
+       "Neurobiology Expertise Group, Groningen Institute for Evolutionary Life Sciences (GELIFES), University of Groningen, Groningen, the Netherlands"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-4471-8618",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Neurobiology Expertise Group, Groningen Institute for Evolutionary Life Sciences (GELIFES), University of Groningen, Groningen, the Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I169381384"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5012830746",
+       "display_name": "Peter Meerlo",
+       "orcid": "https://orcid.org/0000-0002-8330-6050",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8330-6050"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I169381384",
+        "display_name": "University of Groningen",
+        "ror": "https://ror.org/012p63287",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I169381384"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Peter Meerlo",
+      "raw_affiliation_strings": [
+       "Neurobiology Expertise Group, Groningen Institute for Evolutionary Life Sciences (GELIFES), University of Groningen, Groningen, the Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Neurobiology Expertise Group, Groningen Institute for Evolutionary Life Sciences (GELIFES), University of Groningen, Groningen, the Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I169381384"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5061970781",
+       "display_name": "Sara J. Aton",
+       "orcid": "https://orcid.org/0000-0002-2921-0509",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2921-0509"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I27837315",
+        "display_name": "University of Michigan",
+        "ror": "https://ror.org/00jmfr291",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I27837315"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Sara J. Aton",
+      "raw_affiliation_strings": [
+       "Molecular, Cellular and Developmental Biology, University of Michigan, Ann Arbor, USA. Electronic address: saton@umich.edu",
+       "Molecular, Cellular and Developmental Biology, University of Michigan, Ann Arbor, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Molecular, Cellular and Developmental Biology, University of Michigan, Ann Arbor, USA. Electronic address: saton@umich.edu",
+        "institution_ids": [
+         "https://openalex.org/I27837315"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Molecular, Cellular and Developmental Biology, University of Michigan, Ann Arbor, USA",
+        "institution_ids": [
+         "https://openalex.org/I27837315"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5035415831",
+       "display_name": "Robbert Havekes",
+       "orcid": "https://orcid.org/0000-0003-0757-4739",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0757-4739"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I169381384",
+        "display_name": "University of Groningen",
+        "ror": "https://ror.org/012p63287",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I169381384"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Robbert Havekes",
+      "raw_affiliation_strings": [
+       "Neurobiology Expertise Group, Groningen Institute for Evolutionary Life Sciences (GELIFES), University of Groningen, Groningen, the Netherlands. Electronic address: r.havekes@rug.nl",
+       "Neurobiology Expertise Group, Groningen Institute for Evolutionary Life Sciences (GELIFES), University of Groningen, Groningen, the Netherlands"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-0757-4739",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Neurobiology Expertise Group, Groningen Institute for Evolutionary Life Sciences (GELIFES), University of Groningen, Groningen, the Netherlands. Electronic address: r.havekes@rug.nl",
+        "institution_ids": [
+         "https://openalex.org/I169381384"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Neurobiology Expertise Group, Groningen Institute for Evolutionary Life Sciences (GELIFES), University of Groningen, Groningen, the Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I169381384"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1016/j.bcp.2021.114493",
+     "doi": "https://doi.org/10.1016/j.bcp.2021.114493",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1016/j.bcp.2021.114493",
+     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0006295221000897/pdf",
+     "source": {
+      "id": "https://openalex.org/S185534594",
+      "display_name": "Biochemical Pharmacology",
+      "issn_l": "0006-2952",
+      "issn": [
+       "0006-2952",
+       "1873-2968"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-c",
+       "doyens",
+       "jufo-2",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+       "Elsevier BV"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Biochemical Pharmacology",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

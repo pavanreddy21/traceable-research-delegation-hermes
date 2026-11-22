@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a2023b-98ab-7e6b-aba4-2ed218b56a9e",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795333789,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Search for null or boundary-condition evidence on retrieval practice versus restudy, focusing on delayed classroom exams and publication bias.\", \"action\": \"search_papers\", \"args\": {\"query\": \"retrieval practice restudy null findings boundary conditions delayed classroom exam publication bias\"}}",
+    "reasoning_content": "We need answer only JSON. Need search contrary evidence. Need use tools. Start search query.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 382,
+  "completion_tokens": 80,
+  "total_tokens": 462,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 20
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.23
+}

@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201b5-a6ff-73cf-8f77-f365589d928b",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795325011,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"This meta-analysis covers spacing moderators but attributes feedback moderation to interleaving, so I need a source specifically testing feedback as a moderator of the testing/retrieval practice effect.\", \"action\": \"search_papers\", \"args\": {\"query\": \"feedback moderates testing effect retrieval practice meta-analysis corrective feedback\"}}",
+    "reasoning_content": "This meta-analysis says interleaving effect moderated by provision and timing of feedback; spacing effect moderated by retention interval etc. It doesn't directly say feedback moderates retrieval practice. Let me search for a meta-analysis on feedback in testing effect, e.g., Rowland 2014, or \"feedback testing effect moderator\".",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 2442,
+  "completion_tokens": 135,
+  "total_tokens": 2577,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 65
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.22
+}

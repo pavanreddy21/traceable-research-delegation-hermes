@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a2020a-a3f0-77b0-9e83-d4611ab115fa",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330581,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 explicitly states that immediate post-test performance showed no significant differences across conditions, directly supporting the claim.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 324,
+  "completion_tokens": 43,
+  "total_tokens": 367,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 1.23
+}

@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20234-4bc3-7816-8985-6f45041428ee",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795333311,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Try a simpler query about retrieval practice versus restudy limits.\", \"action\": \"search_papers\", \"args\": {\"query\": \"retrieval practice versus restudy boundary conditions\"}}",
+    "reasoning_content": "Try different phrasing.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 530,
+  "completion_tokens": 48,
+  "total_tokens": 578,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 5
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 86.29
+}

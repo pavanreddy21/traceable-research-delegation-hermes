@@ -1,0 +1,3488 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 2300,
+   "db_response_time_ms": 163,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (distributed practice spacing effect meta-analysis learning retention) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (distributed practice spacing effect meta-analysis learning retention) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "distributed practice spacing effect meta-analysis learning retention",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:distributed practice spacing effect meta-analysis learning retention,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2049428464",
+    "doi": "https://doi.org/10.1037/0033-2909.132.3.354",
+    "title": "Distributed practice in verbal recall tasks: A review and quantitative synthesis.",
+    "display_name": "Distributed practice in verbal recall tasks: A review and quantitative synthesis.",
+    "publication_year": 2006,
+    "cited_by_count": 2595,
+    "abstract_inverted_index": {
+     "The": [
+      0
+     ],
+     "authors": [
+      1
+     ],
+     "performed": [
+      2
+     ],
+     "a": [
+      3
+     ],
+     "meta-analysis": [
+      4
+     ],
+     "of": [
+      5,
+      14,
+      29,
+      40
+     ],
+     "the": [
+      6,
+      12,
+      81
+     ],
+     "distributed": [
+      7,
+      30
+     ],
+     "practice": [
+      8,
+      31
+     ],
+     "effect": [
+      9
+     ],
+     "to": [
+      10,
+      76
+     ],
+     "illuminate": [
+      11
+     ],
+     "effects": [
+      13
+     ],
+     "temporal": [
+      15
+     ],
+     "variables": [
+      16
+     ],
+     "that": [
+      17,
+      69
+     ],
+     "have": [
+      18
+     ],
+     "been": [
+      19
+     ],
+     "neglected": [
+      20
+     ],
+     "in": [
+      21,
+      32,
+      36
+     ],
+     "previous": [
+      22
+     ],
+     "reviews.": [
+      23
+     ],
+     "This": [
+      24
+     ],
+     "review": [
+      25
+     ],
+     "found": [
+      26
+     ],
+     "839": [
+      27
+     ],
+     "assessments": [
+      28
+     ],
+     "317": [
+      33
+     ],
+     "experiments": [
+      34
+     ],
+     "located": [
+      35
+     ],
+     "184": [
+      37
+     ],
+     "articles.": [
+      38
+     ],
+     "Effects": [
+      39
+     ],
+     "spacing": [
+      41
+     ],
+     "(consecutive": [
+      42
+     ],
+     "massed": [
+      43
+     ],
+     "presentations": [
+      44
+     ],
+     "vs.": [
+      45,
+      53
+     ],
+     "spaced": [
+      46,
+      52,
+      55
+     ],
+     "learning": [
+      47,
+      56
+     ],
+     "episodes)": [
+      48,
+      57
+     ],
+     "and": [
+      49,
+      71,
+      95
+     ],
+     "lag": [
+      50
+     ],
+     "(less": [
+      51
+     ],
+     "more": [
+      54
+     ],
+     "were": [
+      58,
+      61
+     ],
+     "examined,": [
+      59
+     ],
+     "as": [
+      60,
+      87
+     ],
+     "expanding": [
+      62
+     ],
+     "interstudy": [
+      63
+     ],
+     "interval": [
+      64,
+      73,
+      89
+     ],
+     "(ISI)": [
+      65
+     ],
+     "effects.": [
+      66
+     ],
+     "Analyses": [
+      67
+     ],
+     "suggest": [
+      68
+     ],
+     "ISI": [
+      70,
+      82
+     ],
+     "retention": [
+      72,
+      85,
+      88
+     ],
+     "operate": [
+      74
+     ],
+     "jointly": [
+      75
+     ],
+     "affect": [
+      77
+     ],
+     "final-test": [
+      78
+     ],
+     "retention;": [
+      79
+     ],
+     "specifically,": [
+      80
+     ],
+     "producing": [
+      83
+     ],
+     "maximal": [
+      84
+     ],
+     "increased": [
+      86
+     ],
+     "increased.": [
+      90
+     ],
+     "Areas": [
+      91
+     ],
+     "needing": [
+      92
+     ],
+     "future": [
+      93
+     ],
+     "research": [
+      94
+     ],
+     "theoretical": [
+      96
+     ],
+     "implications": [
+      97
+     ],
+     "are": [
+      98
+     ],
+     "discussed.": [
+      99
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5071554223",
+       "display_name": "Nicholas J. Cepeda",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Nicholas J. Cepeda",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of California, San Diego, CA, USA. ncepeda@psy.ucsd.edu",
+       "University of California-San Diego, CA, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California, San Diego, CA, USA. ncepeda@psy.ucsd.edu",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of California-San Diego, CA, US",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5008952472",
+       "display_name": "Harold Pashler",
+       "orcid": "https://orcid.org/0000-0003-3644-4909",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3644-4909"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I188538660",
+        "display_name": "University of Colorado Boulder",
+        "ror": "https://ror.org/02ttsq026",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Harold Pashler",
+      "raw_affiliation_strings": [
+       "Department of Psychology , University of California , San Diego ;",
+       "University of Colorado , Boulder",
+       "Department of Psychology, University of California, San Diego, CA, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology , University of California , San Diego ;",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Colorado , Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California, San Diego, CA, US",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5090905459",
+       "display_name": "Edward Vul",
+       "orcid": "https://orcid.org/0000-0002-6217-1273",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6217-1273"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I188538660",
+        "display_name": "University of Colorado Boulder",
+        "ror": "https://ror.org/02ttsq026",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Edward Vul",
+      "raw_affiliation_strings": [
+       "Department of Psychology , University of California , San Diego ;",
+       "University of Colorado , Boulder",
+       "Department of Psychology, University of California, San Diego, CA, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology , University of California , San Diego ;",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Colorado , Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California, San Diego, CA, US",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5068581901",
+       "display_name": "John Timothy Wixted",
+       "orcid": "https://orcid.org/0000-0001-6282-5479",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6282-5479"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I2613432",
+        "display_name": "University of South Florida",
+        "ror": "https://ror.org/032db5x82",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I2613432"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "John T. Wixted",
+      "raw_affiliation_strings": [
+       "Department of Psychology , University of California , San Diego ;",
+       "University of South Florida University of California , San Diego",
+       "Department of Psychology, University of California, San Diego, CA, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology , University of California , San Diego ;",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of South Florida University of California , San Diego",
+        "institution_ids": [
+         "https://openalex.org/I2613432",
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California, San Diego, CA, US",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5038433616",
+       "display_name": "Doug Rohrer",
+       "orcid": "https://orcid.org/0000-0002-0059-545X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0059-545X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I188538660",
+        "display_name": "University of Colorado Boulder",
+        "ror": "https://ror.org/02ttsq026",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I2613432",
+        "display_name": "University of South Florida",
+        "ror": "https://ror.org/032db5x82",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I2613432"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Doug Rohrer",
+      "raw_affiliation_strings": [
+       "Department of Psychology , University of South Florida",
+       "University of Colorado , Boulder",
+       "Department of Psychology, University of South Florida, Tampa, FL, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology , University of South Florida",
+        "institution_ids": [
+         "https://openalex.org/I2613432"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Colorado , Boulder",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Psychology, University of South Florida, Tampa, FL, US",
+        "institution_ids": [
+         "https://openalex.org/I2613432"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1037/0033-2909.132.3.354",
+     "doi": "https://doi.org/10.1037/0033-2909.132.3.354",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1037/0033-2909.132.3.354",
+     "pdf_url": "https://escholarship.org/content/qt3rr6q10c/qt3rr6q10c.pdf?t=lnr1h0",
+     "source": {
+      "id": "https://openalex.org/S75627607",
+      "display_name": "Psychological Bulletin",
+      "issn_l": "0033-2909",
+      "issn": [
+       "0033-2909",
+       "1939-1455"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-a-star",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-a",
+       "erih-plus",
+       "jufo-3",
+       "ki-jl-2",
+       "medline",
+       "norway-2",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320262",
+      "host_organization_name": "American Psychological Association",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320262"
+      ],
+      "host_organization_lineage_names": [
+       "American Psychological Association"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Psychological Bulletin",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2169419728",
+    "doi": "https://doi.org/10.1111/j.1467-9280.2008.02209.x",
+    "title": "Spacing Effects in Learning: A Temporal Ridgeline of Optimal Retention",
+    "display_name": "Spacing Effects in Learning: A Temporal Ridgeline of Optimal Retention",
+    "publication_year": 2008,
+    "cited_by_count": 829,
+    "abstract_inverted_index": {
+     "To": [
+      0
+     ],
+     "achieve": [
+      1
+     ],
+     "enduring": [
+      2
+     ],
+     "retention,": [
+      3
+     ],
+     "people": [
+      4
+     ],
+     "must": [
+      5
+     ],
+     "usually": [
+      6,
+      32
+     ],
+     "study": [
+      7,
+      17,
+      40
+     ],
+     "information": [
+      8
+     ],
+     "on": [
+      9
+     ],
+     "multiple": [
+      10
+     ],
+     "occasions.": [
+      11
+     ],
+     "How": [
+      12
+     ],
+     "does": [
+      13
+     ],
+     "the": [
+      14,
+      91,
+      121
+     ],
+     "timing": [
+      15
+     ],
+     "of": [
+      16,
+      57,
+      62,
+      78,
+      118,
+      130,
+      140,
+      147
+     ],
+     "events": [
+      18
+     ],
+     "affect": [
+      19
+     ],
+     "retention?": [
+      20
+     ],
+     "Prior": [
+      21
+     ],
+     "research": [
+      22
+     ],
+     "has": [
+      23
+     ],
+     "examined": [
+      24
+     ],
+     "this": [
+      25
+     ],
+     "issue": [
+      26
+     ],
+     "only": [
+      27
+     ],
+     "in": [
+      28,
+      90
+     ],
+     "a": [
+      29,
+      39,
+      55,
+      60,
+      67,
+      75,
+      116,
+      131,
+      141
+     ],
+     "spotty": [
+      30
+     ],
+     "fashion,": [
+      31
+     ],
+     "with": [
+      33
+     ],
+     "very": [
+      34
+     ],
+     "short": [
+      35
+     ],
+     "time": [
+      36
+     ],
+     "intervals.": [
+      37
+     ],
+     "In": [
+      38
+     ],
+     "aimed": [
+      41
+     ],
+     "at": [
+      42,
+      74,
+      94
+     ],
+     "characterizing": [
+      43
+     ],
+     "spacing": [
+      44
+     ],
+     "effects": [
+      45
+     ],
+     "over": [
+      46
+     ],
+     "significant": [
+      47
+     ],
+     "durations,": [
+      48
+     ],
+     "more": [
+      49
+     ],
+     "than": [
+      50
+     ],
+     "1,350": [
+      51
+     ],
+     "individuals": [
+      52
+     ],
+     "were": [
+      53
+     ],
+     "taught": [
+      54
+     ],
+     "set": [
+      56
+     ],
+     "facts": [
+      58
+     ],
+     "and--after": [
+      59
+     ],
+     "gap": [
+      61,
+      93,
+      106,
+      123,
+      148
+     ],
+     "up": [
+      63,
+      79
+     ],
+     "to": [
+      64,
+      80,
+      128,
+      135,
+      138
+     ],
+     "3.5": [
+      65
+     ],
+     "months--given": [
+      66
+     ],
+     "review.": [
+      68
+     ],
+     "A": [
+      69
+     ],
+     "final": [
+      70,
+      101
+     ],
+     "test": [
+      71,
+      86,
+      102,
+      109,
+      119,
+      133,
+      143,
+      150
+     ],
+     "was": [
+      72
+     ],
+     "administered": [
+      73
+     ],
+     "further": [
+      76
+     ],
+     "delay": [
+      77,
+      110,
+      134,
+      151
+     ],
+     "1": [
+      81
+     ],
+     "year.": [
+      82
+     ],
+     "At": [
+      83
+     ],
+     "any": [
+      84
+     ],
+     "given": [
+      85
+     ],
+     "delay,": [
+      87,
+      120
+     ],
+     "an": [
+      88
+     ],
+     "increase": [
+      89
+     ],
+     "interstudy": [
+      92
+     ],
+     "first": [
+      95
+     ],
+     "increased,": [
+      96
+     ],
+     "and": [
+      97,
+      149
+     ],
+     "then": [
+      98
+     ],
+     "gradually": [
+      99
+     ],
+     "reduced,": [
+      100
+     ],
+     "performance.": [
+      103
+     ],
+     "The": [
+      104,
+      145
+     ],
+     "optimal": [
+      105,
+      122
+     ],
+     "increased": [
+      107
+     ],
+     "as": [
+      108,
+      115
+     ],
+     "increased.": [
+      111
+     ],
+     "However,": [
+      112
+     ],
+     "when": [
+      113
+     ],
+     "measured": [
+      114
+     ],
+     "proportion": [
+      117
+     ],
+     "declined": [
+      124
+     ],
+     "from": [
+      125
+     ],
+     "about": [
+      126,
+      136
+     ],
+     "20": [
+      127
+     ],
+     "40%": [
+      129
+     ],
+     "1-week": [
+      132
+     ],
+     "5": [
+      137
+     ],
+     "10%": [
+      139
+     ],
+     "1-year": [
+      142
+     ],
+     "delay.": [
+      144
+     ],
+     "interaction": [
+      146
+     ],
+     "implies": [
+      152
+     ],
+     "that": [
+      153
+     ],
+     "many": [
+      154
+     ],
+     "educational": [
+      155
+     ],
+     "practices": [
+      156
+     ],
+     "are": [
+      157
+     ],
+     "highly": [
+      158
+     ],
+     "inefficient.": [
+      159
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5071554223",
+       "display_name": "Nicholas J. Cepeda",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I192455969",
+        "display_name": "York University",
+        "ror": "https://ror.org/05fq50484",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I192455969"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "CA",
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Nicholas J. Cepeda",
+      "raw_affiliation_strings": [
+       "University of California, San Diego",
+       "York University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of California, San Diego",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "York University",
+        "institution_ids": [
+         "https://openalex.org/I192455969"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5090905459",
+       "display_name": "Edward Vul",
+       "orcid": "https://orcid.org/0000-0002-6217-1273",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6217-1273"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I63966007",
+        "display_name": "Massachusetts Institute of Technology",
+        "ror": "https://ror.org/042nb2s44",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I63966007"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Edward Vul",
+      "raw_affiliation_strings": [
+       "Massachusetts Institute of Technology",
+       "University of California, San Diego"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Massachusetts Institute of Technology",
+        "institution_ids": [
+         "https://openalex.org/I63966007"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of California, San Diego",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5038433616",
+       "display_name": "Doug Rohrer",
+       "orcid": "https://orcid.org/0000-0002-0059-545X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0059-545X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I2613432",
+        "display_name": "University of South Florida",
+        "ror": "https://ror.org/032db5x82",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I2613432"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Doug Rohrer",
+      "raw_affiliation_strings": [
+       "University of South Florida"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of South Florida",
+        "institution_ids": [
+         "https://openalex.org/I2613432"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5068581901",
+       "display_name": "John Timothy Wixted",
+       "orcid": "https://orcid.org/0000-0001-6282-5479",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6282-5479"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "John T. Wixted",
+      "raw_affiliation_strings": [
+       "University of California, San Diego"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of California, San Diego",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5008952472",
+       "display_name": "Harold Pashler",
+       "orcid": "https://orcid.org/0000-0003-3644-4909",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3644-4909"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Harold Pashler",
+      "raw_affiliation_strings": [
+       "University of California, San Diego"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of California, San Diego",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1111/j.1467-9280.2008.02209.x",
+     "doi": "https://doi.org/10.1111/j.1467-9280.2008.02209.x",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1111/j.1467-9280.2008.02209.x",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S58854535",
+      "display_name": "Psychological Science",
+      "issn_l": "0956-7976",
+      "issn": [
+       "0956-7976",
+       "1467-9280"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-a-star",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-a",
+       "erih-plus",
+       "fnege-2",
+       "ft50",
+       "jufo-3",
+       "ki-jl-3",
+       "medline",
+       "norway-2",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320017",
+      "host_organization_name": "SAGE Publishing",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320017"
+      ],
+      "host_organization_lineage_names": [
+       "SAGE Publishing"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Psychological Science",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W7224189015",
+    "doi": "https://doi.org/10.1007/s10648-026-10225-5",
+    "title": "A Meta-Analysis of the Effectiveness and Boundary Conditions of Retrieval Practice, Distributed Practice, and Interleaved Practice in Authentic School Classrooms",
+    "display_name": "A Meta-Analysis of the Effectiveness and Boundary Conditions of Retrieval Practice, Distributed Practice, and Interleaved Practice in Authentic School Classrooms",
+    "publication_year": 2026,
+    "cited_by_count": 1,
+    "abstract_inverted_index": {
+     "While": [
+      0
+     ],
+     "retrieval": [
+      1
+     ],
+     "practice,": [
+      2,
+      4
+     ],
+     "distributed": [
+      3
+     ],
+     "and": [
+      5,
+      16,
+      42,
+      45,
+      57,
+      63,
+      110,
+      113,
+      149,
+      152,
+      165,
+      192
+     ],
+     "interleaved": [
+      6,
+      64
+     ],
+     "practice": [
+      7,
+      21,
+      65,
+      109
+     ],
+     "are": [
+      8,
+      203
+     ],
+     "considered": [
+      9
+     ],
+     "three": [
+      10,
+      177
+     ],
+     "promising": [
+      11
+     ],
+     "strategies": [
+      12,
+      36,
+      178
+     ],
+     "for": [
+      13
+     ],
+     "how,": [
+      14
+     ],
+     "when,": [
+      15
+     ],
+     "in": [
+      17,
+      37,
+      40,
+      49,
+      66,
+      208
+     ],
+     "what": [
+      18
+     ],
+     "sequence": [
+      19
+     ],
+     "to": [
+      20,
+      180,
+      214,
+      221
+     ],
+     "after": [
+      22
+     ],
+     "initial": [
+      23
+     ],
+     "instruction": [
+      24
+     ],
+     "or": [
+      25
+     ],
+     "self-study,": [
+      26
+     ],
+     "little": [
+      27
+     ],
+     "is": [
+      28
+     ],
+     "known": [
+      29
+     ],
+     "about": [
+      30
+     ],
+     "the": [
+      31,
+      50,
+      55,
+      135,
+      139,
+      146,
+      173,
+      176,
+      189
+     ],
+     "average": [
+      32,
+      92,
+      120,
+      155
+     ],
+     "effects": [
+      33,
+      170,
+      194
+     ],
+     "of": [
+      34,
+      60,
+      95,
+      102,
+      115,
+      123,
+      130,
+      145,
+      158,
+      167,
+      175
+     ],
+     "these": [
+      35
+     ],
+     "authentic": [
+      38,
+      181
+     ],
+     "classrooms": [
+      39
+     ],
+     "primary": [
+      41
+     ],
+     "secondary": [
+      43
+     ],
+     "education": [
+      44
+     ],
+     "their": [
+      46,
+      199
+     ],
+     "moderators.": [
+      47
+     ],
+     "Therefore,": [
+      48
+     ],
+     "present": [
+      51
+     ],
+     "study,": [
+      52
+     ],
+     "we": [
+      53,
+      212
+     ],
+     "investigated": [
+      54
+     ],
+     "effectiveness": [
+      56,
+      174
+     ],
+     "boundary": [
+      58
+     ],
+     "conditions": [
+      59
+     ],
+     "retrieval,": [
+      61
+     ],
+     "distributed,": [
+      62
+     ],
+     "such": [
+      67
+     ],
+     "classrooms.": [
+      68,
+      183
+     ],
+     "We": [
+      69,
+      88
+     ],
+     "did": [
+      70
+     ],
+     "this": [
+      71
+     ],
+     "using": [
+      72
+     ],
+     "a": [
+      73,
+      217,
+      222
+     ],
+     "three-level": [
+      74
+     ],
+     "meta-analysis": [
+      75
+     ],
+     "comprising": [
+      76
+     ],
+     "233": [
+      77
+     ],
+     "effect": [
+      78,
+      94,
+      122,
+      157
+     ],
+     "sizes": [
+      79
+     ],
+     "from": [
+      80,
+      216
+     ],
+     "53": [
+      81
+     ],
+     "studies": [
+      82
+     ],
+     "(published": [
+      83
+     ],
+     "2006\u20132024)": [
+      84
+     ],
+     "including": [
+      85
+     ],
+     "7,303": [
+      86
+     ],
+     "participants.": [
+      87
+     ],
+     "found": [
+      89
+     ],
+     "(a)": [
+      90
+     ],
+     "an": [
+      91,
+      119,
+      154
+     ],
+     "testing": [
+      93
+     ],
+     "g": [
+      96,
+      124,
+      159
+     ],
+     "=": [
+      97,
+      125,
+      160
+     ],
+     "0.37,": [
+      98
+     ],
+     "moderated": [
+      99,
+      127,
+      162
+     ],
+     "by": [
+      100,
+      128,
+      163
+     ],
+     "type": [
+      101,
+      114,
+      129
+     ],
+     "knowledge,": [
+      103
+     ],
+     "posttest": [
+      104,
+      150
+     ],
+     "format,": [
+      105,
+      151
+     ],
+     "format": [
+      106
+     ],
+     "matching": [
+      107
+     ],
+     "between": [
+      108
+     ],
+     "test": [
+      111
+     ],
+     "phase,": [
+      112
+     ],
+     "learning": [
+      116
+     ],
+     "outcome,": [
+      117
+     ],
+     "(b)": [
+      118
+     ],
+     "spacing": [
+      121
+     ],
+     "0.20,": [
+      126
+     ],
+     "comparison": [
+      131
+     ],
+     "condition,": [
+      132
+     ],
+     "retention": [
+      133,
+      147
+     ],
+     "interval,": [
+      134
+     ],
+     "ISI/RI": [
+      136
+     ],
+     "ratio": [
+      137
+     ],
+     "(i.e.,": [
+      138
+     ],
+     "interstudy": [
+      140
+     ],
+     "interval": [
+      141
+     ],
+     "expressed": [
+      142
+     ],
+     "as": [
+      143
+     ],
+     "proportion": [
+      144
+     ],
+     "interval),": [
+      148
+     ],
+     "(c)": [
+      153
+     ],
+     "interleaving": [
+      156,
+      193
+     ],
+     "0.40,": [
+      161
+     ],
+     "provision": [
+      164
+     ],
+     "timing": [
+      166
+     ],
+     "feedback.": [
+      168
+     ],
+     "Average": [
+      169
+     ],
+     "suggest": [
+      171,
+      187
+     ],
+     "that": [
+      172,
+      188,
+      211
+     ],
+     "extends": [
+      179
+     ],
+     "school": [
+      182
+     ],
+     "Observed": [
+      184
+     ],
+     "moderator": [
+      185
+     ],
+     "patterns": [
+      186
+     ],
+     "testing,": [
+      190
+     ],
+     "spacing,": [
+      191
+     ],
+     "only": [
+      195
+     ],
+     "occur": [
+      196
+     ],
+     "reliably": [
+      197
+     ],
+     "if": [
+      198
+     ],
+     "underlying": [
+      200
+     ],
+     "cognitive": [
+      201
+     ],
+     "processes": [
+      202
+     ],
+     "elicited": [
+      204
+     ],
+     "during": [
+      205
+     ],
+     "practice.": [
+      206
+     ],
+     "This,": [
+      207
+     ],
+     "turn,": [
+      209
+     ],
+     "implies": [
+      210
+     ],
+     "need": [
+      213
+     ],
+     "shift": [
+      215
+     ],
+     "one-size-fits-all": [
+      218
+     ],
+     "instructional": [
+      219,
+      224
+     ],
+     "approach": [
+      220
+     ],
+     "context-dependent": [
+      223
+     ],
+     "approach.": [
+      225
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5083115494",
+       "display_name": "Sterre K. Ruitenburg",
+       "orcid": "https://orcid.org/0000-0002-3926-1297",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3926-1297"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I7876267",
+        "display_name": "Open University of the Netherlands",
+        "ror": "https://ror.org/018dfmf50",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       }
+      ],
+      "raw_author_name": "Sterre K. Ruitenburg",
+      "raw_affiliation_strings": [
+       "Department of Learning and Instruction, Faculty of Behavioural and Health Sciences, Open University of the Netherlands, Heerlen, Netherlands"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-3926-1297",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Learning and Instruction, Faculty of Behavioural and Health Sciences, Open University of the Netherlands, Heerlen, Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5108429001",
+       "display_name": "Mieke Goos",
+       "orcid": "https://orcid.org/0000-0003-0966-7410",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0966-7410"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I878454856",
+        "display_name": "Hasselt University",
+        "ror": "https://ror.org/04nbhqj75",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I878454856"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/software",
+        "display_name": "Software"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Mieke Goos",
+      "raw_affiliation_strings": [
+       "School of Educational Studies, Hasselt University, Hasselt, Belgium"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-0966-7410",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Educational Studies, Hasselt University, Hasselt, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I878454856"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5073698243",
+       "display_name": "Guus Lambert",
+       "orcid": "https://orcid.org/0009-0008-0836-6038",
+       "observed_orcids": [
+        "https://orcid.org/0009-0008-0836-6038"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I193397943",
+        "display_name": "Zuyd University of Applied Sciences",
+        "ror": "https://ror.org/02m6k0m40",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I193397943"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Guus Lambert",
+      "raw_affiliation_strings": [
+       "Research Centre for Educational Innovation and Continuous Professional Development, Zuyd University of Applied Sciences, Heerlen, Netherlands"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0008-0836-6038",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Research Centre for Educational Innovation and Continuous Professional Development, Zuyd University of Applied Sciences, Heerlen, Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I193397943"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5069373510",
+       "display_name": "Paul A. Kirschner",
+       "orcid": "https://orcid.org/0000-0002-8743-0462",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8743-0462"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210149079",
+        "display_name": "Thomas More Kempen",
+        "ror": "https://ror.org/04e7kpf57",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210149079"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I7876267",
+        "display_name": "Open University of the Netherlands",
+        "ror": "https://ror.org/018dfmf50",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ],
+      "countries": [
+       "BE",
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Paul A. Kirschner",
+      "raw_affiliation_strings": [
+       "Centre of Expertise Education and Learning, Thomas More University of Applied Sciences, Antwerp, Belgium",
+       "Department of Learning and Instruction, Faculty of Behavioural and Health Sciences, Open University of the Netherlands, Heerlen, Netherlands"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-8743-0462",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Centre of Expertise Education and Learning, Thomas More University of Applied Sciences, Antwerp, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I4210149079"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Learning and Instruction, Faculty of Behavioural and Health Sciences, Open University of the Netherlands, Heerlen, Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5014202257",
+       "display_name": "Halszka Jarodzka",
+       "orcid": "https://orcid.org/0000-0003-2312-4703",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2312-4703"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I7876267",
+        "display_name": "Open University of the Netherlands",
+        "ror": "https://ror.org/018dfmf50",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Halszka Jarodzka",
+      "raw_affiliation_strings": [
+       "Research and Innovation in Distance Education Lab, Open University of the Netherlands, Heerlen, Netherlands"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-2312-4703",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Research and Innovation in Distance Education Lab, Open University of the Netherlands, Heerlen, Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5006845054",
+       "display_name": "Gino Camp",
+       "orcid": "https://orcid.org/0000-0002-5272-150X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5272-150X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I7876267",
+        "display_name": "Open University of the Netherlands",
+        "ror": "https://ror.org/018dfmf50",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Gino Camp",
+      "raw_affiliation_strings": [
+       "Department of Learning and Instruction, Faculty of Behavioural and Health Sciences, Open University of the Netherlands, Heerlen, Netherlands"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-5272-150X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Learning and Instruction, Faculty of Behavioural and Health Sciences, Open University of the Netherlands, Heerlen, Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I7876267"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1007/s10648-026-10225-5",
+     "doi": "https://doi.org/10.1007/s10648-026-10225-5",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1007/s10648-026-10225-5",
+     "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10648-026-10225-5.pdf",
+     "source": {
+      "id": "https://openalex.org/S187318745",
+      "display_name": "Educational Psychology Review",
+      "issn_l": "1040-726X",
+      "issn": [
+       "1040-726X",
+       "1573-336X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-a",
+       "erih-plus",
+       "jufo-2",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319900",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer Science+Business Media",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Educational Psychology Review",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4411009548",
+    "doi": "https://doi.org/10.3390/bs15060771",
+    "title": "The Distributed Practice Effect on Classroom Learning: A Meta-Analytic Review of Applied Research",
+    "display_name": "The Distributed Practice Effect on Classroom Learning: A Meta-Analytic Review of Applied Research",
+    "publication_year": 2025,
+    "cited_by_count": 31,
+    "abstract_inverted_index": {
+     "There": [
+      0
+     ],
+     "is": [
+      1
+     ],
+     "extensive": [
+      2
+     ],
+     "evidence": [
+      3
+     ],
+     "that": [
+      4,
+      113
+     ],
+     "distributed": [
+      5,
+      34,
+      79
+     ],
+     "practice": [
+      6,
+      35,
+      82
+     ],
+     "produces": [
+      7
+     ],
+     "superior": [
+      8
+     ],
+     "learning": [
+      9,
+      45
+     ],
+     "to": [
+      10,
+      29,
+      50,
+      100,
+      128
+     ],
+     "massed": [
+      11,
+      81
+     ],
+     "practice,": [
+      12
+     ],
+     "predominantly": [
+      13
+     ],
+     "from": [
+      14
+     ],
+     "laboratory": [
+      15
+     ],
+     "studies": [
+      16,
+      43,
+      112
+     ],
+     "often": [
+      17
+     ],
+     "featuring": [
+      18
+     ],
+     "decontextualized": [
+      19
+     ],
+     "learning.": [
+      20,
+      38,
+      52
+     ],
+     "A": [
+      21,
+      70
+     ],
+     "systematic": [
+      22
+     ],
+     "review": [
+      23
+     ],
+     "of": [
+      24,
+      33,
+      55,
+      78,
+      103
+     ],
+     "applied": [
+      25
+     ],
+     "research": [
+      26
+     ],
+     "was": [
+      27,
+      96
+     ],
+     "undertaken": [
+      28
+     ],
+     "assess": [
+      30
+     ],
+     "the": [
+      31,
+      101,
+      129
+     ],
+     "impact": [
+      32
+     ],
+     "on": [
+      36
+     ],
+     "classroom": [
+      37,
+      42
+     ],
+     "Inclusion": [
+      39
+     ],
+     "criteria": [
+      40
+     ],
+     "were": [
+      41,
+      109
+     ],
+     "with": [
+      44,
+      111
+     ],
+     "materials": [
+      46
+     ],
+     "and": [
+      47,
+      124
+     ],
+     "timescales": [
+      48
+     ],
+     "relevant": [
+      49
+     ],
+     "curriculum-based": [
+      51
+     ],
+     "The": [
+      53
+     ],
+     "screening": [
+      54
+     ],
+     "over": [
+      56,
+      80
+     ],
+     "3000": [
+      57
+     ],
+     "articles": [
+      58
+     ],
+     "resulted": [
+      59
+     ],
+     "in": [
+      60,
+      76
+     ],
+     "22": [
+      61
+     ],
+     "reports": [
+      62
+     ],
+     "containing": [
+      63
+     ],
+     "31": [
+      64
+     ],
+     "effect": [
+      65,
+      75,
+      107
+     ],
+     "sizes": [
+      66,
+      108
+     ],
+     "(N": [
+      67
+     ],
+     ">": [
+      68
+     ],
+     "3000).": [
+      69
+     ],
+     "meta-analysis": [
+      71
+     ],
+     "found": [
+      72
+     ],
+     "a": [
+      73,
+      91
+     ],
+     "moderate": [
+      74
+     ],
+     "favor": [
+      77
+     ],
+     "(d": [
+      83
+     ],
+     "=": [
+      84
+     ],
+     "0.54,": [
+      85
+     ],
+     "95%": [
+      86
+     ],
+     "CI": [
+      87
+     ],
+     "[0.31,": [
+      88
+     ],
+     "0.77]).": [
+      89
+     ],
+     "Although": [
+      90
+     ],
+     "comprehensive": [
+      92
+     ],
+     "quantitative": [
+      93
+     ],
+     "moderator": [
+      94
+     ],
+     "analysis": [
+      95
+     ],
+     "not": [
+      97
+     ],
+     "possible": [
+      98
+     ],
+     "due": [
+      99
+     ],
+     "number": [
+      102
+     ],
+     "studies,": [
+      104
+     ],
+     "generally": [
+      105
+     ],
+     "larger": [
+      106
+     ],
+     "associated": [
+      110
+     ],
+     "featured": [
+      114
+     ],
+     "longer": [
+      115
+     ],
+     "retention": [
+      116
+     ],
+     "intervals,": [
+      117
+     ],
+     "had": [
+      118,
+      125
+     ],
+     "learners": [
+      119
+     ],
+     "at": [
+      120
+     ],
+     "higher": [
+      121
+     ],
+     "education": [
+      122
+     ],
+     "levels,": [
+      123
+     ],
+     "fewer": [
+      126
+     ],
+     "re-exposures": [
+      127
+     ],
+     "materials.": [
+      130
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5117822088",
+       "display_name": "Rhys D. Mawson",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165779595",
+        "display_name": "The University of Melbourne",
+        "ror": "https://ror.org/01ej9dk98",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165779595"
+        ]
+       }
+      ],
+      "countries": [
+       "AU"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/project-administration",
+        "display_name": "Project administration"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/software",
+        "display_name": "Software"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/visualization",
+        "display_name": "Visualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       }
+      ],
+      "raw_author_name": "Rhys D. Mawson",
+      "raw_affiliation_strings": [
+       "Faculty of Education, The University of Melbourne, Parkville, VIC 3010, Australia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Education, The University of Melbourne, Parkville, VIC 3010, Australia",
+        "institution_ids": [
+         "https://openalex.org/I165779595"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5047408218",
+       "display_name": "Sean H. K. Kang",
+       "orcid": "https://orcid.org/0000-0001-9017-3615",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9017-3615"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165779595",
+        "display_name": "The University of Melbourne",
+        "ror": "https://ror.org/01ej9dk98",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165779595"
+        ]
+       }
+      ],
+      "countries": [
+       "AU"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Sean H. K. Kang",
+      "raw_affiliation_strings": [
+       "Faculty of Education, The University of Melbourne, Parkville, VIC 3010, Australia"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-9017-3615",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Education, The University of Melbourne, Parkville, VIC 3010, Australia",
+        "institution_ids": [
+         "https://openalex.org/I165779595"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3390/bs15060771",
+     "doi": "https://doi.org/10.3390/bs15060771",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3390/bs15060771",
+     "pdf_url": "https://www.mdpi.com/2076-328X/15/6/771/pdf?version=1748943286",
+     "source": {
+      "id": "https://openalex.org/S4210194710",
+      "display_name": "Behavioral Sciences",
+      "issn_l": "2076-328X",
+      "issn": [
+       "2076-328X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-40",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310310987",
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310310987"
+      ],
+      "host_organization_lineage_names": [
+       "Multidisciplinary Digital Publishing Institute"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Behavioral Sciences",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W1527475029",
+    "doi": "https://doi.org/10.1027/1618-3169.56.4.236",
+    "title": "Optimizing Distributed Practice: Theoretical Analysis and Practical Implications",
+    "display_name": "Optimizing Distributed Practice: Theoretical Analysis and Practical Implications",
+    "publication_year": 2009,
+    "cited_by_count": 362,
+    "abstract_inverted_index": {
+     "More": [
+      0
+     ],
+     "than": [
+      1
+     ],
+     "a": [
+      2
+     ],
+     "century": [
+      3
+     ],
+     "of": [
+      4,
+      45,
+      49,
+      55,
+      102,
+      108
+     ],
+     "research": [
+      5
+     ],
+     "shows": [
+      6
+     ],
+     "that": [
+      7
+     ],
+     "increasing": [
+      8
+     ],
+     "the": [
+      9,
+      15,
+      43,
+      106
+     ],
+     "gap": [
+      10,
+      46,
+      67,
+      79,
+      83
+     ],
+     "between": [
+      11
+     ],
+     "study": [
+      12
+     ],
+     "episodes": [
+      13
+     ],
+     "using": [
+      14
+     ],
+     "same": [
+      16
+     ],
+     "material": [
+      17
+     ],
+     "can": [
+      18
+     ],
+     "enhance": [
+      19
+     ],
+     "retention,": [
+      20
+     ],
+     "yet": [
+      21
+     ],
+     "little": [
+      22
+     ],
+     "is": [
+      23
+     ],
+     "known": [
+      24
+     ],
+     "about": [
+      25
+     ],
+     "how": [
+      26
+     ],
+     "this": [
+      27
+     ],
+     "so-called": [
+      28
+     ],
+     "distributed": [
+      29
+     ],
+     "practice": [
+      30
+     ],
+     "effect": [
+      31
+     ],
+     "unfolds": [
+      32
+     ],
+     "over": [
+      33,
+      114
+     ],
+     "nontrivial": [
+      34
+     ],
+     "periods.": [
+      35,
+      117
+     ],
+     "In": [
+      36
+     ],
+     "two": [
+      37
+     ],
+     "three-session": [
+      38
+     ],
+     "laboratory": [
+      39
+     ],
+     "studies,": [
+      40
+     ],
+     "we": [
+      41
+     ],
+     "examined": [
+      42
+     ],
+     "effects": [
+      44
+     ],
+     "on": [
+      47,
+      100
+     ],
+     "retention": [
+      48,
+      113
+     ],
+     "foreign": [
+      50
+     ],
+     "vocabulary,": [
+      51
+     ],
+     "facts,": [
+      52
+     ],
+     "and": [
+      53,
+      91,
+      104
+     ],
+     "names": [
+      54
+     ],
+     "visual": [
+      56
+     ],
+     "objects,": [
+      57
+     ],
+     "with": [
+      58
+     ],
+     "test": [
+      59,
+      85
+     ],
+     "delays": [
+      60
+     ],
+     "up": [
+      61,
+      72
+     ],
+     "to": [
+      62,
+      73,
+      87,
+      111
+     ],
+     "6": [
+      63
+     ],
+     "months.": [
+      64
+     ],
+     "An": [
+      65
+     ],
+     "optimal": [
+      66
+     ],
+     "improved": [
+      68
+     ],
+     "final": [
+      69
+     ],
+     "recall": [
+      70
+     ],
+     "by": [
+      71
+     ],
+     "150%.": [
+      74
+     ],
+     "Both": [
+      75
+     ],
+     "studies": [
+      76
+     ],
+     "demonstrated": [
+      77
+     ],
+     "nonmonotonic": [
+      78
+     ],
+     "effects:": [
+      80
+     ],
+     "Increases": [
+      81
+     ],
+     "in": [
+      82
+     ],
+     "caused": [
+      84
+     ],
+     "accuracy": [
+      86
+     ],
+     "initially": [
+      88
+     ],
+     "sharply": [
+      89
+     ],
+     "increase": [
+      90
+     ],
+     "then": [
+      92
+     ],
+     "gradually": [
+      93
+     ],
+     "decline.": [
+      94
+     ],
+     "These": [
+      95
+     ],
+     "results": [
+      96
+     ],
+     "provide": [
+      97
+     ],
+     "new": [
+      98
+     ],
+     "constraints": [
+      99
+     ],
+     "theories": [
+      101
+     ],
+     "spacing": [
+      103
+     ],
+     "confirm": [
+      105
+     ],
+     "importance": [
+      107
+     ],
+     "cumulative": [
+      109
+     ],
+     "reviews": [
+      110
+     ],
+     "promote": [
+      112
+     ],
+     "meaningful": [
+      115
+     ],
+     "time": [
+      116
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5071554223",
+       "display_name": "Nicholas J. Cepeda",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I192455969",
+        "display_name": "York University",
+        "ror": "https://ror.org/05fq50484",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I192455969"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "CA",
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Nicholas J. Cepeda",
+      "raw_affiliation_strings": [
+       "University of California, San Diego, CA",
+       "York University, Toronto, ON, Canada",
+       "York University, Toronto, ON, Canada. University of California, San Diego, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of California, San Diego, CA",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "York University, Toronto, ON, Canada",
+        "institution_ids": [
+         "https://openalex.org/I192455969"
+        ]
+       },
+       {
+        "raw_affiliation_string": "York University, Toronto, ON, Canada. University of California, San Diego, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I192455969",
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5053581805",
+       "display_name": "Noriko Coburn",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Noriko Coburn",
+      "raw_affiliation_strings": [
+       "University of California, San Diego, CA",
+       "University of California-San Diego, CA, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of California, San Diego, CA",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of California-San Diego, CA, US",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5038433616",
+       "display_name": "Doug Rohrer",
+       "orcid": "https://orcid.org/0000-0002-0059-545X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0059-545X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I2613432",
+        "display_name": "University of South Florida",
+        "ror": "https://ror.org/032db5x82",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I2613432"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Doug Rohrer",
+      "raw_affiliation_strings": [
+       "University of South Florida, FL",
+       "University of South Florida, FL, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of South Florida, FL",
+        "institution_ids": [
+         "https://openalex.org/I2613432"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of South Florida, FL, US",
+        "institution_ids": [
+         "https://openalex.org/I2613432"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5068581901",
+       "display_name": "John Timothy Wixted",
+       "orcid": "https://orcid.org/0000-0001-6282-5479",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6282-5479"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "John T. Wixted",
+      "raw_affiliation_strings": [
+       "University of California, San Diego, CA",
+       "University of California-San Diego, CA, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of California, San Diego, CA",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of California-San Diego, CA, US",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5047726287",
+       "display_name": "Michael Curtis Mozer",
+       "orcid": "https://orcid.org/0000-0002-9654-0575",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9654-0575"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I188538660",
+        "display_name": "University of Colorado Boulder",
+        "ror": "https://ror.org/02ttsq026",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I188538660"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Michael C. Mozer",
+      "raw_affiliation_strings": [
+       "University of Colorado, Boulder, CO",
+       "University of Colorado (Boulder, CO, US)"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Colorado, Boulder, CO",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Colorado (Boulder, CO, US)",
+        "institution_ids": [
+         "https://openalex.org/I188538660"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5008952472",
+       "display_name": "Harold Pashler",
+       "orcid": "https://orcid.org/0000-0003-3644-4909",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3644-4909"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Harold Pashler",
+      "raw_affiliation_strings": [
+       "University of California, San Diego, CA",
+       "University of California-San Diego, CA, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of California, San Diego, CA",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of California-San Diego, CA, US",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1027/1618-3169.56.4.236",
+     "doi": "https://doi.org/10.1027/1618-3169.56.4.236",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1027/1618-3169.56.4.236",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4210199869",
+      "display_name": "Experimental Psychology (formerly Zeitschrift f\u00fcr Experimentelle Psychologie)",
+      "issn_l": "0949-3964",
+      "issn": [
+       "0949-3964",
+       "1618-3169",
+       "2190-5142"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-d",
+       "erih-plus",
+       "jufo-1",
+       "medline",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-3",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319871",
+      "host_organization_name": "Hogrefe Verlag",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319871"
+      ],
+      "host_organization_lineage_names": [
+       "Hogrefe Verlag"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Experimental Psychology",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

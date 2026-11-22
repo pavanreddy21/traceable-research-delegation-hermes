@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201eb-2e2c-723f-9f4a-58993121f511",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795328519,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"The first result directly addresses intensity-dependent effects on cognitive control in young adults; I'll fetch it plus the HIIE vs MICE study.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W2602807878\"}}",
+    "reasoning_content": "Let me fetch the most relevant sources: W2602807878 (intensity-dependent effects), W4288040913 (HIIE vs MICE), W4409740445.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1004,
+  "completion_tokens": 95,
+  "total_tokens": 1099,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 39
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.21
+}

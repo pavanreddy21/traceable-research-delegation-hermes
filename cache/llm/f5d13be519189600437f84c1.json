@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20207-8741-795e-b45a-db211944a527",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330377,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 directly states that recent work has revealed the importance of slow-wave sleep for memory consolidation.\"}",
+    "reasoning_content": "We need answer JSON only. Need evaluate claim: \"Recent work has revealed the importance of slow-wave sleep for memory consolidation.\" Passage [1] exactly states: \"Whereas older research concentrated on the role of REM sleep, recent work has revealed the importance of slow-wave sleep (SWS) for memory consolidation...\" So supported, passage 1. Need JSON only. Ensure one sentence reason.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 336,
+  "completion_tokens": 120,
+  "total_tokens": 456,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 79
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.29
+}

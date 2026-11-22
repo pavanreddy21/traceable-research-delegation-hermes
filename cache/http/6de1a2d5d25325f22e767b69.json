@@ -1,0 +1,2898 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 11339,
+   "db_response_time_ms": 155,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (university students media multitasking academic performance) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (university students media multitasking academic performance) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "university students media multitasking academic performance",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:university students media multitasking academic performance,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2791604381",
+    "doi": "https://doi.org/10.1186/s41239-018-0096-z",
+    "title": "Efficient, helpful, or distracting? A literature review of media multitasking in relation to academic performance",
+    "display_name": "Efficient, helpful, or distracting? A literature review of media multitasking in relation to academic performance",
+    "publication_year": 2018,
+    "cited_by_count": 437,
+    "abstract_inverted_index": {
+     "Media": [
+      0
+     ],
+     "multitasking,": [
+      1
+     ],
+     "using": [
+      2
+     ],
+     "two": [
+      3
+     ],
+     "or": [
+      4
+     ],
+     "more": [
+      5,
+      125
+     ],
+     "medias": [
+      6
+     ],
+     "concurrently,": [
+      7
+     ],
+     "prevails": [
+      8
+     ],
+     "among": [
+      9
+     ],
+     "adolescents": [
+      10
+     ],
+     "and": [
+      11,
+      24,
+      33,
+      66,
+      79,
+      92,
+      129
+     ],
+     "emerging": [
+      12
+     ],
+     "adults.": [
+      13
+     ],
+     "The": [
+      14,
+      39,
+      57
+     ],
+     "inherent": [
+      15
+     ],
+     "mental": [
+      16
+     ],
+     "habits": [
+      17
+     ],
+     "of": [
+      18,
+      28,
+      41,
+      51,
+      121,
+      151
+     ],
+     "media": [
+      19,
+      52,
+      61,
+      106,
+      122,
+      138
+     ],
+     "multitasking\u2014dividing": [
+      20
+     ],
+     "attention,": [
+      21,
+      23
+     ],
+     "switching": [
+      22
+     ],
+     "maintaining": [
+      25
+     ],
+     "multiple": [
+      26
+     ],
+     "trains": [
+      27
+     ],
+     "thought\u2014": [
+      29
+     ],
+     "have": [
+      30,
+      83,
+      109
+     ],
+     "significant": [
+      31
+     ],
+     "implications": [
+      32
+     ],
+     "consequences": [
+      34
+     ],
+     "for": [
+      35,
+      130,
+      144
+     ],
+     "students\u2019": [
+      36,
+      135
+     ],
+     "academic": [
+      37,
+      55,
+      112,
+      132,
+      149
+     ],
+     "performance.": [
+      38,
+      56,
+      113
+     ],
+     "goal": [
+      40
+     ],
+     "this": [
+      42
+     ],
+     "review": [
+      43
+     ],
+     "is": [
+      44,
+      140
+     ],
+     "to": [
+      45,
+      101,
+      118
+     ],
+     "synthesize": [
+      46
+     ],
+     "research": [
+      47,
+      58,
+      115
+     ],
+     "on": [
+      48,
+      54,
+      110
+     ],
+     "the": [
+      49,
+      104
+     ],
+     "impacts": [
+      50
+     ],
+     "multitasking": [
+      53,
+      62,
+      107,
+      123,
+      139
+     ],
+     "indicates": [
+      59
+     ],
+     "that": [
+      60
+     ],
+     "interferes": [
+      63
+     ],
+     "with": [
+      64
+     ],
+     "attention": [
+      65
+     ],
+     "working": [
+      67
+     ],
+     "memory,": [
+      68
+     ],
+     "negatively": [
+      69
+     ],
+     "affecting": [
+      70
+     ],
+     "GPA,": [
+      71
+     ],
+     "test": [
+      72
+     ],
+     "performance,": [
+      73
+     ],
+     "recall,": [
+      74
+     ],
+     "reading": [
+      75
+     ],
+     "comprehension,": [
+      76
+     ],
+     "note-taking,": [
+      77
+     ],
+     "self-regulation,": [
+      78
+     ],
+     "efficiency.": [
+      80
+     ],
+     "These": [
+      81
+     ],
+     "effects": [
+      82,
+      120
+     ],
+     "been": [
+      84
+     ],
+     "demonstrated": [
+      85
+     ],
+     "during": [
+      86
+     ],
+     "in-": [
+      87
+     ],
+     "class": [
+      88
+     ],
+     "activities": [
+      89
+     ],
+     "(largely": [
+      90
+     ],
+     "lectures)": [
+      91
+     ],
+     "while": [
+      93
+     ],
+     "students": [
+      94,
+      99
+     ],
+     "are": [
+      95
+     ],
+     "studying.": [
+      96
+     ],
+     "In": [
+      97
+     ],
+     "addition,": [
+      98
+     ],
+     "struggle": [
+      100
+     ],
+     "accurately": [
+      102
+     ],
+     "assess": [
+      103
+     ],
+     "impact": [
+      105
+     ],
+     "will": [
+      108
+     ],
+     "their": [
+      111
+     ],
+     "Further": [
+      114
+     ],
+     "should": [
+      116
+     ],
+     "attend": [
+      117
+     ],
+     "understanding": [
+      119
+     ],
+     "in": [
+      124
+     ],
+     "diverse": [
+      126
+     ],
+     "instructional": [
+      127
+     ],
+     "contexts": [
+      128
+     ],
+     "varied": [
+      131
+     ],
+     "tasks.": [
+      133
+     ],
+     "Fostering": [
+      134
+     ],
+     "self-regulation": [
+      136
+     ],
+     "around": [
+      137
+     ],
+     "a": [
+      141
+     ],
+     "promising": [
+      142
+     ],
+     "area": [
+      143
+     ],
+     "future": [
+      145
+     ],
+     "efforts": [
+      146
+     ],
+     "towards": [
+      147
+     ],
+     "improving": [
+      148
+     ],
+     "performance": [
+      150
+     ],
+     "college": [
+      152
+     ],
+     "students.": [
+      153
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5084354902",
+       "display_name": "Kaitlyn E. May",
+       "orcid": "https://orcid.org/0000-0001-6364-4952",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6364-4952"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I17301866",
+        "display_name": "University of Alabama",
+        "ror": "https://ror.org/03xrrjk67",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I17301866"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Kaitlyn E. May",
+      "raw_affiliation_strings": [
+       "Department of Educational Studies in Psychology, Research Methodology, and Counseling, University of Alabama, Tuscaloosa, AL, 07203, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Educational Studies in Psychology, Research Methodology, and Counseling, University of Alabama, Tuscaloosa, AL, 07203, USA",
+        "institution_ids": [
+         "https://openalex.org/I17301866"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5091621995",
+       "display_name": "Anastasia D. Elder",
+       "orcid": "https://orcid.org/0000-0002-9274-1572",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9274-1572"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99041443",
+        "display_name": "Mississippi State University",
+        "ror": "https://ror.org/0432jq872",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210141039",
+         "https://openalex.org/I99041443"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Anastasia D. Elder",
+      "raw_affiliation_strings": [
+       "Department of Counseling, Educational Psychology, and Foundations, Mississippi State University, Starkville, MS, 39762, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Counseling, Educational Psychology, and Foundations, Mississippi State University, Starkville, MS, 39762, USA",
+        "institution_ids": [
+         "https://openalex.org/I99041443"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1186/s41239-018-0096-z",
+     "doi": "https://doi.org/10.1186/s41239-018-0096-z",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1186/s41239-018-0096-z",
+     "pdf_url": "https://educationaltechnologyjournal.springeropen.com/track/pdf/10.1186/s41239-018-0096-z",
+     "source": {
+      "id": "https://openalex.org/S4210201537",
+      "display_name": "International Journal of Educational Technology in Higher Education",
+      "issn_l": "2365-9440",
+      "issn": [
+       "2365-9440"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "ddh",
+       "doaj",
+       "erih-plus",
+       "fecyt-seal",
+       "jufo-2",
+       "ki-jl-1",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "International Journal of Educational Technology in Higher Education",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2914428890",
+    "doi": "https://doi.org/10.12928/jehcp.v7i3.10336",
+    "title": "CYBERSLACKING : A LITERATURE REVIEW OF NON-ACADEMIC MEDIA MULTITASKING OF UNIVERSITY STUDENTS",
+    "display_name": "CYBERSLACKING : A LITERATURE REVIEW OF NON-ACADEMIC MEDIA MULTITASKING OF UNIVERSITY STUDENTS",
+    "publication_year": 2018,
+    "cited_by_count": 3,
+    "abstract_inverted_index": {
+     "University": [
+      0
+     ],
+     "students": [
+      1,
+      199
+     ],
+     "use": [
+      2
+     ],
+     "internet": [
+      3,
+      52,
+      90
+     ],
+     "in": [
+      4,
+      15,
+      47,
+      69,
+      85,
+      121,
+      175
+     ],
+     "daily": [
+      5
+     ],
+     "life": [
+      6
+     ],
+     "ranging": [
+      7
+     ],
+     "from": [
+      8
+     ],
+     "learning,": [
+      9
+     ],
+     "socializing": [
+      10
+     ],
+     "and": [
+      11,
+      40,
+      65,
+      103,
+      107,
+      136,
+      149,
+      159
+     ],
+     "recreation": [
+      12
+     ],
+     "purposes.": [
+      13
+     ],
+     "Cyberslacking": [
+      14
+     ],
+     "the": [
+      16,
+      20,
+      48,
+      70,
+      86,
+      132,
+      176,
+      182
+     ],
+     "campus": [
+      17
+     ],
+     "relates": [
+      18
+     ],
+     "to": [
+      19,
+      34,
+      139,
+      157
+     ],
+     "topic": [
+      21
+     ],
+     "of": [
+      22,
+      50,
+      72,
+      88,
+      134,
+      173,
+      184
+     ],
+     "non-academic": [
+      23,
+      51,
+      66,
+      89,
+      160,
+      195
+     ],
+     "media": [
+      24,
+      38,
+      45,
+      67,
+      83,
+      126,
+      161,
+      196
+     ],
+     "multitasking": [
+      25,
+      30,
+      46,
+      68,
+      84,
+      95,
+      127,
+      138
+     ],
+     "among": [
+      26
+     ],
+     "university": [
+      27,
+      73,
+      198
+     ],
+     "students.": [
+      28,
+      74
+     ],
+     "Media": [
+      29,
+      94
+     ],
+     "defines": [
+      31
+     ],
+     "as": [
+      32,
+      111,
+      152,
+      179,
+      181
+     ],
+     "connecting": [
+      33
+     ],
+     "more": [
+      35
+     ],
+     "than": [
+      36
+     ],
+     "one": [
+      37
+     ],
+     "simultaneously": [
+      39
+     ],
+     "cyberslacking": [
+      41,
+      64,
+      80,
+      108,
+      118,
+      135,
+      158,
+      166,
+      174,
+      189
+     ],
+     "is": [
+      42,
+      81,
+      109
+     ],
+     "activities": [
+      43,
+      102,
+      106
+     ],
+     "with": [
+      44
+     ],
+     "context": [
+      49,
+      71,
+      87
+     ],
+     "access": [
+      53,
+      91
+     ],
+     "during": [
+      54,
+      92,
+      125
+     ],
+     "lectures.": [
+      55,
+      93
+     ],
+     "This": [
+      56
+     ],
+     "present": [
+      57
+     ],
+     "study": [
+      58
+     ],
+     "will": [
+      59
+     ],
+     "review": [
+      60,
+      76
+     ],
+     "some": [
+      61
+     ],
+     "researches": [
+      62,
+      164
+     ],
+     "on": [
+      63,
+      165
+     ],
+     "The": [
+      75
+     ],
+     "findings": [
+      77
+     ],
+     "conclude": [
+      78
+     ],
+     "that": [
+      79,
+      155
+     ],
+     "also": [
+      82,
+      144
+     ],
+     "could": [
+      96
+     ],
+     "be": [
+      97,
+      168
+     ],
+     "distinguished": [
+      98
+     ],
+     "between": [
+      99
+     ],
+     "learning": [
+      100
+     ],
+     "related": [
+      101,
+      105,
+      113
+     ],
+     "unlearning": [
+      104,
+      112
+     ],
+     "regarded": [
+      110
+     ],
+     "activities.": [
+      114
+     ],
+     "Students": [
+      115
+     ],
+     "who": [
+      116
+     ],
+     "do": [
+      117
+     ],
+     "mostly": [
+      119
+     ],
+     "engage": [
+      120
+     ],
+     "social": [
+      122
+     ],
+     "networking": [
+      123
+     ],
+     "sites": [
+      124
+     ],
+     "behaviors.": [
+      128,
+      190
+     ],
+     "Some": [
+      129
+     ],
+     "studies": [
+      130,
+      143
+     ],
+     "discuss": [
+      131
+     ],
+     "impact": [
+      133
+     ],
+     "non-media": [
+      137
+     ],
+     "academic": [
+      140,
+      188
+     ],
+     "performance.": [
+      141
+     ],
+     "Other": [
+      142
+     ],
+     "mentioned": [
+      145
+     ],
+     "about": [
+      146
+     ],
+     "self": [
+      147,
+      150
+     ],
+     "regulation": [
+      148
+     ],
+     "efficacy": [
+      151
+     ],
+     "important": [
+      153
+     ],
+     "variables": [
+      154
+     ],
+     "relate": [
+      156
+     ],
+     "multitasking.": [
+      162
+     ],
+     "Further": [
+      163
+     ],
+     "should": [
+      167
+     ],
+     "considered": [
+      169
+     ],
+     "building": [
+      170
+     ],
+     "theoretical": [
+      171
+     ],
+     "model": [
+      172
+     ],
+     "educational": [
+      177
+     ],
+     "setting": [
+      178
+     ],
+     "well": [
+      180
+     ],
+     "development": [
+      183
+     ],
+     "measurement": [
+      185
+     ],
+     "tools": [
+      186
+     ],
+     "for": [
+      187
+     ],
+     "\u00c2": [
+      191,
+      200
+     ],
+     "Keywords": [
+      192
+     ],
+     ":": [
+      193
+     ],
+     "cyberslacking,": [
+      194
+     ],
+     "multitasking,": [
+      197
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5029323860",
+       "display_name": "Ermida Simanjuntak",
+       "orcid": "https://orcid.org/0000-0001-5402-3257",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5402-3257",
+        "https://orcid.org/0000-0002-4540-0644"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1325598122",
+        "display_name": "Universitas Katolik Widya Mandala Surabaya",
+        "ror": "https://ror.org/00efxp054",
+        "country_code": "ID",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I1325598122"
+        ]
+       }
+      ],
+      "countries": [
+       "ID"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Ermida Simanjuntak",
+      "raw_affiliation_strings": [
+       "Universitas Katolik Widya Mandala Surabaya"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Universitas Katolik Widya Mandala Surabaya",
+        "institution_ids": [
+         "https://openalex.org/I1325598122"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5017646694",
+       "display_name": "Nur Ainy Fardana Nawangsari",
+       "orcid": "https://orcid.org/0000-0001-8584-3506",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8584-3506"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I205133468",
+        "display_name": "Universitas Airlangga",
+        "ror": "https://ror.org/04ctejd88",
+        "country_code": "ID",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I205133468"
+        ]
+       }
+      ],
+      "countries": [
+       "ID"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Nur Ainy Fardana Nawangsari",
+      "raw_affiliation_strings": [
+       "Faculty of Psychology,Universitas Airlangga"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Psychology,Universitas Airlangga",
+        "institution_ids": [
+         "https://openalex.org/I205133468"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5052503490",
+       "display_name": "Rahkman Ardi",
+       "orcid": "https://orcid.org/0000-0002-2261-2417",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2261-2417"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I205133468",
+        "display_name": "Universitas Airlangga",
+        "ror": "https://ror.org/04ctejd88",
+        "country_code": "ID",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I205133468"
+        ]
+       }
+      ],
+      "countries": [
+       "ID"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Rahkman Ardi",
+      "raw_affiliation_strings": [
+       "Faculty of Psychology,Universitas Airlangga"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Psychology,Universitas Airlangga",
+        "institution_ids": [
+         "https://openalex.org/I205133468"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.12928/jehcp.v7i3.10336",
+     "doi": "https://doi.org/10.12928/jehcp.v7i3.10336",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.12928/jehcp.v7i3.10336",
+     "pdf_url": "http://journal.uad.ac.id/index.php/Psychology/article/download/10336/pdf_17",
+     "source": {
+      "id": "https://openalex.org/S4393918671",
+      "display_name": "Journal of Educational Health and Community Psychology",
+      "issn_l": "2088-3129",
+      "issn": [
+       "2088-3129",
+       "2460-8467"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [
+       "sinta-s2"
+      ],
+      "host_organization": "https://openalex.org/P4310319805",
+      "host_organization_name": "Ahmad Dahlan University",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319805"
+      ],
+      "host_organization_lineage_names": [
+       "Ahmad Dahlan University"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc",
+     "license_id": "https://openalex.org/licenses/cc-by-nc",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Educational, Health and Community Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W7131296010",
+    "doi": "https://doi.org/10.63646/j.ijirm.2020.080104",
+    "title": "CONCEPTUAL FRAMEWORK FOR THE INFLUENCE OF SOCIAL MEDIA USAGE AND SOCIAL MEDIA MULTITASKING ON THE ACADEMIC PERFORMANCE OF THE UNDERGRADUATE STUDENTS",
+    "display_name": "CONCEPTUAL FRAMEWORK FOR THE INFLUENCE OF SOCIAL MEDIA USAGE AND SOCIAL MEDIA MULTITASKING ON THE ACADEMIC PERFORMANCE OF THE UNDERGRADUATE STUDENTS",
+    "publication_year": 2020,
+    "cited_by_count": 2,
+    "abstract_inverted_index": {
+     "Social": [
+      0
+     ],
+     "media": [
+      1,
+      22,
+      50,
+      68,
+      72,
+      94
+     ],
+     "has": [
+      2
+     ],
+     "become": [
+      3
+     ],
+     "an": [
+      4
+     ],
+     "almost": [
+      5
+     ],
+     "crucial": [
+      6
+     ],
+     "part": [
+      7
+     ],
+     "of": [
+      8,
+      44,
+      47,
+      66,
+      79,
+      92,
+      99
+     ],
+     "our": [
+      9
+     ],
+     "regular": [
+      10
+     ],
+     "life,": [
+      11
+     ],
+     "especially": [
+      12
+     ],
+     "among": [
+      13
+     ],
+     "university": [
+      14,
+      101
+     ],
+     "students": [
+      15,
+      102
+     ],
+     "as": [
+      16,
+      107
+     ],
+     "they": [
+      17
+     ],
+     "are": [
+      18
+     ],
+     "generally": [
+      19
+     ],
+     "using": [
+      20
+     ],
+     "social": [
+      21,
+      49,
+      67,
+      71,
+      93
+     ],
+     "excessively": [
+      23
+     ],
+     "in": [
+      24,
+      86,
+      114
+     ],
+     "their": [
+      25
+     ],
+     "daily": [
+      26
+     ],
+     "activities": [
+      27
+     ],
+     "like": [
+      28
+     ],
+     "attending": [
+      29
+     ],
+     "classes,": [
+      30
+     ],
+     "doing": [
+      31
+     ],
+     "homework": [
+      32
+     ],
+     "or": [
+      33
+     ],
+     "solving": [
+      34
+     ],
+     "assignments.": [
+      35
+     ],
+     "This": [
+      36
+     ],
+     "study": [
+      37
+     ],
+     "was": [
+      38
+     ],
+     "aimed": [
+      39
+     ],
+     "at": [
+      40
+     ],
+     "investigating": [
+      41
+     ],
+     "the": [
+      42,
+      45,
+      48,
+      61,
+      64,
+      76,
+      90,
+      96
+     ],
+     "impact": [
+      43
+     ],
+     "multitasking": [
+      46,
+      73
+     ],
+     "on": [
+      51,
+      75
+     ],
+     "students\u2019": [
+      52
+     ],
+     "academic": [
+      53,
+      77,
+      97
+     ],
+     "performance.": [
+      54
+     ],
+     "A": [
+      55
+     ],
+     "conceptual": [
+      56,
+      83
+     ],
+     "framework": [
+      57,
+      84
+     ],
+     "is": [
+      58
+     ],
+     "proposed": [
+      59
+     ],
+     "for": [
+      60,
+      110
+     ],
+     "investigation": [
+      62
+     ],
+     "into": [
+      63
+     ],
+     "influence": [
+      65
+     ],
+     "usage": [
+      69
+     ],
+     "and": [
+      70,
+      103
+     ],
+     "behavior": [
+      74
+     ],
+     "performance": [
+      78
+     ],
+     "undergraduate": [
+      80
+     ],
+     "students.": [
+      81
+     ],
+     "The": [
+      82
+     ],
+     "discussed": [
+      85
+     ],
+     "this": [
+      87,
+      115
+     ],
+     "paper": [
+      88
+     ],
+     "examined": [
+      89
+     ],
+     "contribution": [
+      91
+     ],
+     "to": [
+      95
+     ],
+     "outcomes": [
+      98
+     ],
+     "Malaysian": [
+      100
+     ],
+     "it": [
+      104
+     ],
+     "will": [
+      105
+     ],
+     "act": [
+      106
+     ],
+     "a": [
+      108
+     ],
+     "baseline": [
+      109
+     ],
+     "future": [
+      111
+     ],
+     "empirical": [
+      112
+     ],
+     "research": [
+      113
+     ],
+     "area.": [
+      116
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5014625254",
+       "display_name": "Mahir Tahrir Salih Mohammed",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Mahir Tahrir Salih Mohammed",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5126744745",
+       "display_name": "Faridah Ibrahim",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Faridah Ibrahim",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5045363690",
+       "display_name": "Norzita Yunus",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210125267",
+        "display_name": "Kuala Lumpur University of Science & Technology",
+        "ror": "https://ror.org/038aqt498",
+        "country_code": "MY",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210125267"
+        ]
+       }
+      ],
+      "countries": [
+       "MY"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Norzita Yunus",
+      "raw_affiliation_strings": [
+       "Infrastructure University Kuala Lumpur"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Infrastructure University Kuala Lumpur",
+        "institution_ids": [
+         "https://openalex.org/I4210125267"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.63646/j.ijirm.2020.080104",
+     "doi": "https://doi.org/10.63646/j.ijirm.2020.080104",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.63646/j.ijirm.2020.080104",
+     "pdf_url": "https://inatgi.in/index.php/ijirm/article/download/274/351",
+     "source": {
+      "id": "https://openalex.org/S7407053973",
+      "display_name": "International Journal of Infrastructure Research and Management",
+      "issn_l": "2811-3608",
+      "issn": [
+       "2811-3608",
+       "2811-3705"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/P4404684593",
+      "host_organization_name": "Institute of Advanced Technology and Green Innovation LLC",
+      "host_organization_lineage": [
+       "https://openalex.org/P4404684593"
+      ],
+      "host_organization_lineage_names": [
+       "Institute of Advanced Technology and Green Innovation LLC"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "International Journal of Infrastructure Research and Management",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4410942417",
+    "doi": "https://doi.org/10.1016/j.ssaho.2025.101623",
+    "title": "The academic implications of social media use and multitasking: Evidence from university students in a developing nation",
+    "display_name": "The academic implications of social media use and multitasking: Evidence from university students in a developing nation",
+    "publication_year": 2025,
+    "cited_by_count": 16,
+    "abstract_inverted_index": {
+     "This": [
+      0
+     ],
+     "study": [
+      1
+     ],
+     "investigates": [
+      2
+     ],
+     "the": [
+      3,
+      30,
+      98,
+      130
+     ],
+     "correlation": [
+      4,
+      91
+     ],
+     "between": [
+      5,
+      32
+     ],
+     "social": [
+      6,
+      45,
+      103
+     ],
+     "media": [
+      7,
+      46,
+      52,
+      104
+     ],
+     "usage,": [
+      8
+     ],
+     "multitasking,": [
+      9
+     ],
+     "and": [
+      10,
+      25,
+      38,
+      54,
+      71,
+      106,
+      125
+     ],
+     "academic": [
+      11,
+      61,
+      93,
+      110,
+      138
+     ],
+     "performance": [
+      12
+     ],
+     "among": [
+      13
+     ],
+     "Bangladeshi": [
+      14
+     ],
+     "university": [
+      15
+     ],
+     "students.": [
+      16
+     ],
+     "Applying": [
+      17
+     ],
+     "primary": [
+      18
+     ],
+     "data": [
+      19
+     ],
+     "from": [
+      20
+     ],
+     "251": [
+      21
+     ],
+     "students": [
+      22,
+      126
+     ],
+     "at": [
+      23
+     ],
+     "public": [
+      24
+     ],
+     "private": [
+      26
+     ],
+     "institutions,": [
+      27,
+      121
+     ],
+     "we": [
+      28
+     ],
+     "analyzed": [
+      29
+     ],
+     "relationship": [
+      31
+     ],
+     "these": [
+      33
+     ],
+     "variables": [
+      34
+     ],
+     "using": [
+      35,
+      86
+     ],
+     "factor": [
+      36
+     ],
+     "analysis": [
+      37
+     ],
+     "regression": [
+      39
+     ],
+     "models.": [
+      40
+     ],
+     "Our": [
+      41,
+      112
+     ],
+     "findings": [
+      42
+     ],
+     "indicate": [
+      43
+     ],
+     "that": [
+      44
+     ],
+     "activities": [
+      47,
+      78
+     ],
+     "such": [
+      48
+     ],
+     "as": [
+      49
+     ],
+     "video": [
+      50
+     ],
+     "streaming,": [
+      51
+     ],
+     "sharing,": [
+      53
+     ],
+     "gaming": [
+      55
+     ],
+     "have": [
+      56
+     ],
+     "a": [
+      57,
+      89
+     ],
+     "positive": [
+      58,
+      90
+     ],
+     "impact": [
+      59
+     ],
+     "on": [
+      60,
+      75
+     ],
+     "performance.": [
+      62,
+      82
+     ],
+     "Conversely,": [
+      63
+     ],
+     "general": [
+      64
+     ],
+     "internet": [
+      65
+     ],
+     "browsing": [
+      66
+     ],
+     "shows": [
+      67
+     ],
+     "no": [
+      68
+     ],
+     "significant": [
+      69
+     ],
+     "effect,": [
+      70
+     ],
+     "excessive": [
+      72
+     ],
+     "time": [
+      73
+     ],
+     "spent": [
+      74
+     ],
+     "specific": [
+      76
+     ],
+     "learning": [
+      77
+     ],
+     "may": [
+      79
+     ],
+     "slightly": [
+      80
+     ],
+     "hinder": [
+      81
+     ],
+     "Surprisingly,": [
+      83
+     ],
+     "multitasking": [
+      84,
+      107
+     ],
+     "while": [
+      85
+     ],
+     "technology": [
+      87,
+      134
+     ],
+     "demonstrates": [
+      88
+     ],
+     "with": [
+      92
+     ],
+     "outcomes.": [
+      94
+     ],
+     "These": [
+      95
+     ],
+     "results": [
+      96
+     ],
+     "highlight": [
+      97
+     ],
+     "potential": [
+      99
+     ],
+     "benefits": [
+      100
+     ],
+     "of": [
+      101,
+      132
+     ],
+     "strategic": [
+      102
+     ],
+     "use": [
+      105
+     ],
+     "for": [
+      108,
+      117
+     ],
+     "enhancing": [
+      109
+     ],
+     "achievement.": [
+      111
+     ],
+     "research": [
+      113
+     ],
+     "offers": [
+      114
+     ],
+     "valuable": [
+      115
+     ],
+     "insights": [
+      116
+     ],
+     "government": [
+      118
+     ],
+     "agencies,": [
+      119
+     ],
+     "educational": [
+      120
+     ],
+     "policymakers,": [
+      122
+     ],
+     "guardians,": [
+      123
+     ],
+     "parents,": [
+      124
+     ],
+     "in": [
+      127
+     ],
+     "Bangladesh,": [
+      128
+     ],
+     "emphasizing": [
+      129
+     ],
+     "importance": [
+      131
+     ],
+     "optimizing": [
+      133
+     ],
+     "usage": [
+      135
+     ],
+     "to": [
+      136
+     ],
+     "support": [
+      137
+     ],
+     "success.": [
+      139
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5019415422",
+       "display_name": "Emon Kalyan Chowdhury",
+       "orcid": "https://orcid.org/0000-0002-7600-6826",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7600-6826"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4405261541",
+        "display_name": "Chittagong Independent University",
+        "ror": "https://ror.org/05fcm5569",
+        "country_code": "BD",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4405261541"
+        ]
+       }
+      ],
+      "countries": [
+       "BD"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Emon Kalyan Chowdhury",
+      "raw_affiliation_strings": [
+       "CIU Business School, Chittagong Independent University, 12, Jamal Khan Road, Kotwali, Chattogram, 4000, Bangladesh"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-7600-6826",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "CIU Business School, Chittagong Independent University, 12, Jamal Khan Road, Kotwali, Chattogram, 4000, Bangladesh",
+        "institution_ids": [
+         "https://openalex.org/I4405261541"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5110380291",
+       "display_name": "Rahima Begum",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I76129166",
+        "display_name": "Premier University",
+        "ror": "https://ror.org/02j96nm37",
+        "country_code": "BD",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I76129166"
+        ]
+       }
+      ],
+      "countries": [
+       "BD"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Rahima Begum",
+      "raw_affiliation_strings": [
+       "Department of Business Administration, Premier University, Chattogram, Bangladesh"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Business Administration, Premier University, Chattogram, Bangladesh",
+        "institution_ids": [
+         "https://openalex.org/I76129166"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1016/j.ssaho.2025.101623",
+     "doi": "https://doi.org/10.1016/j.ssaho.2025.101623",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1016/j.ssaho.2025.101623",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4210179183",
+      "display_name": "Social Sciences & Humanities Open",
+      "issn_l": "2590-2911",
+      "issn": [
+       "2590-2911"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "jufo-1",
+       "norway-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+       "Elsevier BV"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Social Sciences &amp; Humanities Open",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W7127625897",
+    "doi": "https://doi.org/10.64268/jllm.v1i02.6",
+    "title": "Media multitasking and students\u2019 verbal processing efficiency: the impact of digital media consumption on academic cognitive performance",
+    "display_name": "Media multitasking and students\u2019 verbal processing efficiency: the impact of digital media consumption on academic cognitive performance",
+    "publication_year": 2025,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "Background:": [
+      0
+     ],
+     "The": [
+      1,
+      151,
+      185,
+      230,
+      303
+     ],
+     "increasing": [
+      2
+     ],
+     "consumption": [
+      3
+     ],
+     "of": [
+      4,
+      14,
+      62,
+      71,
+      100,
+      148,
+      192,
+      311,
+      326
+     ],
+     "digital": [
+      5,
+      31,
+      300,
+      315
+     ],
+     "media": [
+      6,
+      15,
+      29,
+      72,
+      90,
+      133,
+      193,
+      216,
+      236,
+      261,
+      286
+     ],
+     "among": [
+      7,
+      272
+     ],
+     "university": [
+      8,
+      273
+     ],
+     "students": [
+      9,
+      130
+     ],
+     "has": [
+      10,
+      44
+     ],
+     "encouraged": [
+      11
+     ],
+     "the": [
+      12,
+      45,
+      69,
+      87,
+      98,
+      223,
+      309,
+      324
+     ],
+     "practice": [
+      13,
+      293
+     ],
+     "multitasking": [
+      16,
+      73,
+      91,
+      134,
+      194,
+      217,
+      237,
+      262,
+      287
+     ],
+     "during": [
+      17
+     ],
+     "academic": [
+      18,
+      76,
+      110,
+      149,
+      254,
+      327
+     ],
+     "activities,": [
+      19
+     ],
+     "such": [
+      20
+     ],
+     "as": [
+      21,
+      104,
+      106
+     ],
+     "reading": [
+      22,
+      143
+     ],
+     "course": [
+      23
+     ],
+     "materials": [
+      24
+     ],
+     "while": [
+      25,
+      200
+     ],
+     "simultaneously": [
+      26
+     ],
+     "accessing": [
+      27
+     ],
+     "social": [
+      28
+     ],
+     "or": [
+      30
+     ],
+     "video": [
+      32
+     ],
+     "platforms.": [
+      33
+     ],
+     "This": [
+      34,
+      82,
+      114,
+      257
+     ],
+     "condition": [
+      35
+     ],
+     "creates": [
+      36
+     ],
+     "a": [
+      37,
+      117,
+      121,
+      132,
+      137,
+      155,
+      206,
+      212,
+      290
+     ],
+     "learning": [
+      38,
+      301
+     ],
+     "environment": [
+      39
+     ],
+     "rich": [
+      40
+     ],
+     "in": [
+      41,
+      97
+     ],
+     "distractions": [
+      42
+     ],
+     "and": [
+      43,
+      59,
+      92,
+      136,
+      145,
+      160,
+      165,
+      176,
+      218,
+      294,
+      314,
+      323
+     ],
+     "potential": [
+      46
+     ],
+     "to": [
+      47,
+      85,
+      163,
+      198,
+      242,
+      264
+     ],
+     "affect": [
+      48
+     ],
+     "cognitive": [
+      49,
+      77,
+      111,
+      250
+     ],
+     "processes,": [
+      50
+     ],
+     "particularly": [
+      51
+     ],
+     "verbal": [
+      52,
+      94,
+      138,
+      201,
+      219,
+      244,
+      269
+     ],
+     "processing": [
+      53,
+      95,
+      139,
+      202,
+      220,
+      245,
+      270
+     ],
+     "efficiency,": [
+      54,
+      221
+     ],
+     "which": [
+      55
+     ],
+     "requires": [
+      56
+     ],
+     "sustained": [
+      57
+     ],
+     "attention": [
+      58
+     ],
+     "deep": [
+      60
+     ],
+     "integration": [
+      61
+     ],
+     "linguistic": [
+      63
+     ],
+     "information.": [
+      64
+     ],
+     "However,": [
+      65
+     ],
+     "empirical": [
+      66
+     ],
+     "evidence": [
+      67
+     ],
+     "regarding": [
+      68
+     ],
+     "impact": [
+      70,
+      108
+     ],
+     "on": [
+      74,
+      109
+     ],
+     "students\u2019": [
+      75,
+      93,
+      190,
+      243
+     ],
+     "performance": [
+      78
+     ],
+     "remains": [
+      79
+     ],
+     "mixed.": [
+      80
+     ],
+     "Aim:": [
+      81
+     ],
+     "study": [
+      83,
+      115,
+      258
+     ],
+     "aims": [
+      84
+     ],
+     "examine": [
+      86
+     ],
+     "relationship": [
+      88,
+      214,
+      224
+     ],
+     "between": [
+      89,
+      215
+     ],
+     "efficiency": [
+      96,
+      203,
+      271
+     ],
+     "context": [
+      99
+     ],
+     "higher": [
+      101
+     ],
+     "education": [
+      102
+     ],
+     "learning,": [
+      103
+     ],
+     "well": [
+      105
+     ],
+     "its": [
+      107,
+      276
+     ],
+     "performance.": [
+      112,
+      255
+     ],
+     "Method:": [
+      113
+     ],
+     "employed": [
+      116
+     ],
+     "quantitative": [
+      118
+     ],
+     "approach": [
+      119
+     ],
+     "with": [
+      120,
+      180,
+      267
+     ],
+     "descriptive": [
+      122,
+      172,
+      186
+     ],
+     "correlational": [
+      123
+     ],
+     "design.": [
+      124
+     ],
+     "Data": [
+      125,
+      168
+     ],
+     "were": [
+      126,
+      161,
+      169
+     ],
+     "collected": [
+      127
+     ],
+     "from": [
+      128,
+      196
+     ],
+     "undergraduate": [
+      129
+     ],
+     "through": [
+      131
+     ],
+     "questionnaire": [
+      135
+     ],
+     "test": [
+      140
+     ],
+     "measuring": [
+      141
+     ],
+     "both": [
+      142
+     ],
+     "speed": [
+      144
+     ],
+     "comprehension": [
+      146
+     ],
+     "accuracy": [
+      147
+     ],
+     "texts.": [
+      150
+     ],
+     "research": [
+      152
+     ],
+     "instruments": [
+      153
+     ],
+     "used": [
+      154
+     ],
+     "five-point": [
+      156
+     ],
+     "Likert": [
+      157
+     ],
+     "scale": [
+      158
+     ],
+     "(1\u20135)": [
+      159
+     ],
+     "subjected": [
+      162
+     ],
+     "validity": [
+      164
+     ],
+     "reliability": [
+      166
+     ],
+     "testing.": [
+      167
+     ],
+     "analyzed": [
+      170
+     ],
+     "using": [
+      171
+     ],
+     "statistics,": [
+      173
+     ],
+     "Pearson": [
+      174
+     ],
+     "correlation,": [
+      175
+     ],
+     "simple": [
+      177
+     ],
+     "linear": [
+      178,
+      231
+     ],
+     "regression": [
+      179,
+      232
+     ],
+     "SPSS": [
+      181
+     ],
+     "version": [
+      182
+     ],
+     "26.": [
+      183
+     ],
+     "Result:": [
+      184
+     ],
+     "analysis": [
+      187,
+      210
+     ],
+     "indicated": [
+      188
+     ],
+     "that": [
+      189,
+      235,
+      248,
+      260,
+      285
+     ],
+     "levels": [
+      191
+     ],
+     "ranged": [
+      195
+     ],
+     "moderate": [
+      197,
+      207
+     ],
+     "high,": [
+      199
+     ],
+     "was": [
+      204,
+      225
+     ],
+     "at": [
+      205,
+      319
+     ],
+     "level.": [
+      208
+     ],
+     "Correlational": [
+      209
+     ],
+     "revealed": [
+      211
+     ],
+     "negative": [
+      213
+     ],
+     "although": [
+      222,
+      275
+     ],
+     "not": [
+      226,
+      289
+     ],
+     "entirely": [
+      227
+     ],
+     "statistically": [
+      228
+     ],
+     "significant.": [
+      229
+     ],
+     "results": [
+      233,
+      304
+     ],
+     "showed": [
+      234
+     ],
+     "contributed": [
+      238
+     ],
+     "only": [
+      239
+     ],
+     "limited": [
+      240
+     ],
+     "variance": [
+      241
+     ],
+     "performance,": [
+      246
+     ],
+     "suggesting": [
+      247
+     ],
+     "other": [
+      249
+     ],
+     "factors": [
+      251
+     ],
+     "also": [
+      252
+     ],
+     "influence": [
+      253
+     ],
+     "Conclusion:": [
+      256
+     ],
+     "demonstrates": [
+      259
+     ],
+     "tends": [
+      263
+     ],
+     "be": [
+      265,
+      296
+     ],
+     "associated": [
+      266
+     ],
+     "reduced": [
+      268
+     ],
+     "students,": [
+      274
+     ],
+     "overall": [
+      277
+     ],
+     "effect": [
+      278
+     ],
+     "is": [
+      279,
+      288
+     ],
+     "relatively": [
+      280
+     ],
+     "limited.": [
+      281
+     ],
+     "These": [
+      282
+     ],
+     "findings": [
+      283
+     ],
+     "indicate": [
+      284
+     ],
+     "cognitively": [
+      291
+     ],
+     "neutral": [
+      292
+     ],
+     "should": [
+      295
+     ],
+     "managed": [
+      297
+     ],
+     "thoughtfully": [
+      298
+     ],
+     "within": [
+      299
+     ],
+     "contexts.": [
+      302
+     ],
+     "provide": [
+      305
+     ],
+     "important": [
+      306
+     ],
+     "implications": [
+      307
+     ],
+     "for": [
+      308
+     ],
+     "development": [
+      310
+     ],
+     "pedagogical": [
+      312
+     ],
+     "strategies": [
+      313
+     ],
+     "literacy": [
+      316
+     ],
+     "initiatives": [
+      317
+     ],
+     "aimed": [
+      318
+     ],
+     "strengthening": [
+      320
+     ],
+     "attentional": [
+      321
+     ],
+     "focus": [
+      322
+     ],
+     "quality": [
+      325
+     ],
+     "information": [
+      328
+     ],
+     "processing.": [
+      329
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5036302066",
+       "display_name": "Habibi Ratu Perwira Negara",
+       "orcid": "https://orcid.org/0000-0002-7573-8961",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7573-8961"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4405268537",
+        "display_name": "Universitas Islam Negeri Mataram",
+        "ror": "https://ror.org/018nzvx86",
+        "country_code": "ID",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4405268537"
+        ]
+       }
+      ],
+      "countries": [
+       "ID"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Habibi Negara",
+      "raw_affiliation_strings": [
+       "Universitas Islam Negeri Mataram"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Universitas Islam Negeri Mataram",
+        "institution_ids": [
+         "https://openalex.org/I4405268537"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5048443273",
+       "display_name": "Kiki Riska Ayu Kurniawati",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4405268537",
+        "display_name": "Universitas Islam Negeri Mataram",
+        "ror": "https://ror.org/018nzvx86",
+        "country_code": "ID",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4405268537"
+        ]
+       }
+      ],
+      "countries": [
+       "ID"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Kiki Riska Ayu",
+      "raw_affiliation_strings": [
+       "Universitas Islam Negeri Mataram"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Universitas Islam Negeri Mataram",
+        "institution_ids": [
+         "https://openalex.org/I4405268537"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.64268/jllm.v1i02.6",
+     "doi": "https://doi.org/10.64268/jllm.v1i02.6",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.64268/jllm.v1i02.6",
+     "pdf_url": "https://www.jllm.spdfharmony.com/index.php/jllm/article/download/6/6",
+     "source": {
+      "id": "https://openalex.org/S5407051278",
+      "display_name": "Journal of Life-Span Psychology Linguistics and Media Studies",
+      "issn_l": "3109-7197",
+      "issn": [
+       "3109-7197"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": false,
+      "listed_in": [
+       "doaj"
+      ],
+      "host_organization": "https://openalex.org/P4404681124",
+      "host_organization_name": "CV. SPDF Harmony",
+      "host_organization_lineage": [
+       "https://openalex.org/P4404681124"
+      ],
+      "host_organization_lineage_names": [
+       "CV. SPDF Harmony"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-sa",
+     "license_id": "https://openalex.org/licenses/cc-by-sa",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Life-Span Psychology, Linguistics, and Media Studies",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

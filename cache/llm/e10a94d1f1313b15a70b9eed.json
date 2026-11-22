@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201e4-4d67-7e90-9817-4dc364812b86",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795328068,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"I need additional adolescent-specific evidence, so I will fetch the study on attention control and academic performance.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W3157487421\"}}",
+    "reasoning_content": "Let me fetch the other two.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1289,
+  "completion_tokens": 55,
+  "total_tokens": 1344,
+  "prompt_tokens_details": {
+   "cached_tokens": 1024
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 8
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.26
+}

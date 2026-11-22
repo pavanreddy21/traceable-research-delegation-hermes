@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201d6-29f7-7425-9ab1-8cf4dab70f39",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327142,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"The national experiment abstract mentions peer norms as a moderator but not detailed mediators; I'll fetch the Chinese mediation studies that explicitly test mediating mechanisms.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W4404722018\"}}",
+    "reasoning_content": "The abstract doesn't detail mediation mechanisms explicitly beyond peer norms. Let me fetch the other mediation papers.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1327,
+  "completion_tokens": 76,
+  "total_tokens": 1403,
+  "prompt_tokens_details": {
+   "cached_tokens": 1024
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 21
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.23
+}

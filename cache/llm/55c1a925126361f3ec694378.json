@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20247-5c3f-7349-b569-4e4a4c361ab5",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795334560,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"I will try one more broad query on note-taking modality and memory before concluding nothing is indexed.\", \"action\": \"search_papers\", \"args\": {\"query\": \"note taking modality memory recall\"}}",
+    "reasoning_content": "Search keeps returning empty. Try one more broad query, maybe \"note taking modality memory\".",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 638,
+  "completion_tokens": 65,
+  "total_tokens": 703,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 19
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.2
+}

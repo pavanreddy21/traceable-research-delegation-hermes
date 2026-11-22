@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a2020a-1731-7536-952a-24d2c4aeb0bc",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330545,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"not_supported\", \"passage\": 1, \"reason\": \"The source explicitly says the present research suggests laptops impair learning even when used solely to take notes, due to shallower processing, not mainly because of distraction or multitasking.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 326,
+  "completion_tokens": 56,
+  "total_tokens": 382,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 1.19
+}

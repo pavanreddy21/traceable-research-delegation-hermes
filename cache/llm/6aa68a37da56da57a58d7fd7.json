@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201f6-493f-776b-9a2c-3d00f50e207c",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795329247,
+ "model": "google/gemma-4-12B-it",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "```json\n{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"The passage explicitly states that the beneficial after-effects of acute aerobic exercise on cognitive performance were greater in participants with lower cognitive performance at pre-test.\"}\n```",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 345,
+  "completion_tokens": 54,
+  "total_tokens": 399,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 25.23
+}

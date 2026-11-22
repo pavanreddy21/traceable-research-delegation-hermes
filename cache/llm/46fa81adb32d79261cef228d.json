@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a20209-8a91-751e-b054-9e4fceb2cb77",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330509,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 directly states that when the final test was given after 5 minutes, repeated studying improved recall relative to repeated testing.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 295,
+  "completion_tokens": 47,
+  "total_tokens": 342,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 1.19
+}

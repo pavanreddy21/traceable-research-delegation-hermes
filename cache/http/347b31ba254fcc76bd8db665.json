@@ -1,0 +1,3262 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 138,
+   "db_response_time_ms": 140,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (low-stakes quizzes versus rereading exam performance) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (low-stakes quizzes versus rereading exam performance) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "low-stakes quizzes versus rereading exam performance",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:low-stakes quizzes versus rereading exam performance,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W3176543106",
+    "doi": "https://doi.org/10.14434/josotl.v21i2.28650",
+    "title": "Low-Stakes Quizzes Improve Learning and Reduce Overconfidence in College Students",
+    "display_name": "Low-Stakes Quizzes Improve Learning and Reduce Overconfidence in College Students",
+    "publication_year": 2021,
+    "cited_by_count": 32,
+    "abstract_inverted_index": {
+     "Retrieval": [
+      0
+     ],
+     "practice": [
+      1,
+      33,
+      71,
+      117,
+      193
+     ],
+     "is": [
+      2
+     ],
+     "a": [
+      3,
+      48,
+      53,
+      90,
+      101,
+      104,
+      137,
+      154,
+      157,
+      181,
+      203
+     ],
+     "straightforward": [
+      4
+     ],
+     "and": [
+      5,
+      12,
+      22,
+      140,
+      168,
+      184,
+      205
+     ],
+     "effective": [
+      6
+     ],
+     "way": [
+      7
+     ],
+     "to": [
+      8,
+      70,
+      210
+     ],
+     "improve": [
+      9
+     ],
+     "student": [
+      10,
+      144
+     ],
+     "learning,": [
+      11
+     ],
+     "its": [
+      13
+     ],
+     "efficacy": [
+      14
+     ],
+     "has": [
+      15
+     ],
+     "been": [
+      16,
+      133
+     ],
+     "demonstrated": [
+      17
+     ],
+     "repeatedly": [
+      18
+     ],
+     "in": [
+      19,
+      23,
+      34,
+      40,
+      47,
+      75
+     ],
+     "the": [
+      20,
+      24,
+      27,
+      35,
+      41,
+      57,
+      78,
+      83,
+      86,
+      200,
+      216
+     ],
+     "laboratory": [
+      21
+     ],
+     "classroom.": [
+      25,
+      42
+     ],
+     "In": [
+      26
+     ],
+     "current": [
+      28,
+      188
+     ],
+     "study,": [
+      29
+     ],
+     "we": [
+      30,
+      121,
+      164
+     ],
+     "implemented": [
+      31
+     ],
+     "retrieval": [
+      32,
+      116,
+      192
+     ],
+     "form": [
+      36
+     ],
+     "of": [
+      37,
+      59,
+      64,
+      85,
+      95,
+      202,
+      215
+     ],
+     "daily": [
+      38,
+      54,
+      102,
+      138,
+      155,
+      182
+     ],
+     "reviews": [
+      39
+     ],
+     "Students": [
+      43
+     ],
+     "(N": [
+      44
+     ],
+     "=": [
+      45
+     ],
+     "47)": [
+      46
+     ],
+     "cognitive": [
+      49
+     ],
+     "psychology": [
+      50
+     ],
+     "course": [
+      51,
+      201
+     ],
+     "completed": [
+      52
+     ],
+     "review": [
+      55,
+      139,
+      183
+     ],
+     "at": [
+      56,
+      82
+     ],
+     "beginning": [
+      58
+     ],
+     "each": [
+      60
+     ],
+     "class.": [
+      61
+     ],
+     "These": [
+      62
+     ],
+     "consisted": [
+      63
+     ],
+     "2-4": [
+      65
+     ],
+     "questions": [
+      66,
+      129
+     ],
+     "that": [
+      67,
+      97,
+      115,
+      123,
+      170,
+      191
+     ],
+     "encouraged": [
+      68
+     ],
+     "students": [
+      69,
+      88,
+      124,
+      171,
+      196
+     ],
+     "retrieving": [
+      72
+     ],
+     "material": [
+      73,
+      198
+     ],
+     "covered": [
+      74,
+      134,
+      151,
+      178
+     ],
+     "lectures": [
+      76
+     ],
+     "from": [
+      77
+     ],
+     "previous": [
+      79,
+      112,
+      166
+     ],
+     "week.": [
+      80
+     ],
+     "Then": [
+      81
+     ],
+     "end": [
+      84
+     ],
+     "semester,": [
+      87
+     ],
+     "took": [
+      89
+     ],
+     "comprehensive": [
+      91
+     ],
+     "final": [
+      92
+     ],
+     "exam": [
+      93
+     ],
+     "consisting": [
+      94
+     ],
+     "content": [
+      96
+     ],
+     "was": [
+      98
+     ],
+     "either": [
+      99
+     ],
+     "on": [
+      100,
+      128,
+      135,
+      153,
+      161,
+      179
+     ],
+     "review,": [
+      103,
+      156
+     ],
+     "unit": [
+      105,
+      141,
+      158,
+      185
+     ],
+     "exam,": [
+      106,
+      159
+     ],
+     "both": [
+      107,
+      136,
+      180
+     ],
+     "or": [
+      108,
+      160
+     ],
+     "neither.": [
+      109,
+      162
+     ],
+     "We": [
+      110
+     ],
+     "replicated": [
+      111
+     ],
+     "work": [
+      113,
+      167
+     ],
+     "such": [
+      114
+     ],
+     "improved": [
+      118
+     ],
+     "memory.": [
+      119
+     ],
+     "Specifically,": [
+      120
+     ],
+     "found": [
+      122,
+      169
+     ],
+     "performed": [
+      125
+     ],
+     "significantly": [
+      126,
+      173
+     ],
+     "better": [
+      127
+     ],
+     "whose": [
+      130
+     ],
+     "information": [
+      131,
+      177
+     ],
+     "had": [
+      132
+     ],
+     "exam.": [
+      142,
+      186
+     ],
+     "However,": [
+      143
+     ],
+     "performance": [
+      145
+     ],
+     "did": [
+      146
+     ],
+     "not": [
+      147
+     ],
+     "differ": [
+      148
+     ],
+     "amongst": [
+      149
+     ],
+     "items": [
+      150
+     ],
+     "only": [
+      152
+     ],
+     "Additionally,": [
+      163
+     ],
+     "extended": [
+      165
+     ],
+     "were": [
+      172
+     ],
+     "less": [
+      174
+     ],
+     "overconfident": [
+      175
+     ],
+     "for": [
+      176
+     ],
+     "The": [
+      187
+     ],
+     "results": [
+      189
+     ],
+     "indicate": [
+      190
+     ],
+     "helps": [
+      194
+     ],
+     "college": [
+      195
+     ],
+     "remember": [
+      197
+     ],
+     "over": [
+      199
+     ],
+     "semester": [
+      204
+     ],
+     "also": [
+      206
+     ],
+     "improves": [
+      207
+     ],
+     "their": [
+      208,
+      212
+     ],
+     "ability": [
+      209
+     ],
+     "evaluate": [
+      211
+     ],
+     "own": [
+      213
+     ],
+     "knowledge": [
+      214
+     ],
+     "material.": [
+      217
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": null,
+       "display_name": "Kevin L Kenney",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I189590672",
+        "display_name": "Kansas State University",
+        "ror": "https://ror.org/05p1j8758",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I189590672"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Kevin L Kenney",
+      "raw_affiliation_strings": [
+       "Kansas State University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Kansas State University",
+        "institution_ids": [
+         "https://openalex.org/I189590672"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5019140662",
+       "display_name": "Heather R. Bailey",
+       "orcid": "https://orcid.org/0000-0002-0953-3212",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0953-3212"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I189590672",
+        "display_name": "Kansas State University",
+        "ror": "https://ror.org/05p1j8758",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I189590672"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Heather Bailey",
+      "raw_affiliation_strings": [
+       "Kansas State University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Kansas State University",
+        "institution_ids": [
+         "https://openalex.org/I189590672"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.14434/josotl.v21i2.28650",
+     "doi": "https://doi.org/10.14434/josotl.v21i2.28650",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.14434/josotl.v21i2.28650",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S2764481657",
+      "display_name": "Journal of the Scholarship of Teaching and Learning",
+      "issn_l": "1527-9316",
+      "issn": [
+       "1527-9316"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj"
+      ],
+      "host_organization": "https://openalex.org/P4310319732",
+      "host_organization_name": "Indiana University Press",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319732"
+      ],
+      "host_organization_lineage_names": [
+       "Indiana University Press"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of the Scholarship of Teaching and Learning",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3040701386",
+    "doi": "https://doi.org/10.53300/001c.9461",
+    "title": "Use of E-exams in High Stakes Law School Examinations: Student and Staff Reactions",
+    "display_name": "Use of E-exams in High Stakes Law School Examinations: Student and Staff Reactions",
+    "publication_year": 2019,
+    "cited_by_count": 6,
+    "abstract_inverted_index": {
+     "Australian": [
+      0,
+      17
+     ],
+     "law": [
+      1,
+      173
+     ],
+     "schools": [
+      2
+     ],
+     "have": [
+      3,
+      169
+     ],
+     "just": [
+      4
+     ],
+     "begun": [
+      5
+     ],
+     "to": [
+      6,
+      19,
+      27,
+      33,
+      103,
+      135,
+      180,
+      212,
+      245
+     ],
+     "move": [
+      7
+     ],
+     "towards": [
+      8
+     ],
+     "e-exams.": [
+      9
+     ],
+     "There": [
+      10
+     ],
+     "are": [
+      11,
+      153
+     ],
+     "a": [
+      12,
+      25,
+      98,
+      162,
+      186,
+      200
+     ],
+     "number": [
+      13,
+      163
+     ],
+     "of": [
+      14,
+      52,
+      68,
+      90,
+      100,
+      123,
+      132,
+      161,
+      164,
+      215
+     ],
+     "drivers": [
+      15
+     ],
+     "encouraging": [
+      16
+     ],
+     "universities": [
+      18
+     ],
+     "introduce": [
+      20
+     ],
+     "e-exams,": [
+      21
+     ],
+     "including": [
+      22
+     ],
+     "economic": [
+      23
+     ],
+     "pressures,": [
+      24
+     ],
+     "desire": [
+      26
+     ],
+     "reduce": [
+      28
+     ],
+     "administrative": [
+      29
+     ],
+     "burdens,": [
+      30
+     ],
+     "and": [
+      31,
+      44,
+      64,
+      183,
+      196,
+      209,
+      242
+     ],
+     "changes": [
+      32
+     ],
+     "workplaces.": [
+      34
+     ],
+     "Logistically,": [
+      35
+     ],
+     "e-exams": [
+      36,
+      53,
+      124,
+      152
+     ],
+     "may": [
+      37
+     ],
+     "assist": [
+      38
+     ],
+     "with": [
+      39,
+      238
+     ],
+     "paper": [
+      40
+     ],
+     "distribution,": [
+      41
+     ],
+     "script": [
+      42
+     ],
+     "legibility": [
+      43
+     ],
+     "shorter": [
+      45
+     ],
+     "marking": [
+      46
+     ],
+     "times.": [
+      47
+     ],
+     "Pedagogical": [
+      48
+     ],
+     "arguments": [
+      49
+     ],
+     "in": [
+      50,
+      92,
+      111,
+      146
+     ],
+     "favour": [
+      51
+     ],
+     "rely": [
+      54
+     ],
+     "on": [
+      55,
+      72,
+      139,
+      172
+     ],
+     "the": [
+      56,
+      66,
+      104,
+      121,
+      133,
+      159,
+      194,
+      213,
+      216,
+      226,
+      233,
+      246
+     ],
+     "fact": [
+      57
+     ],
+     "that": [
+      58
+     ],
+     "students": [
+      59
+     ],
+     "already": [
+      60
+     ],
+     "use": [
+      61
+     ],
+     "technology": [
+      62
+     ],
+     "daily": [
+      63
+     ],
+     "complete": [
+      65
+     ],
+     "bulk": [
+      67
+     ],
+     "their": [
+      69
+     ],
+     "university": [
+      70
+     ],
+     "work": [
+      71
+     ],
+     "computers.": [
+      73
+     ],
+     "In": [
+      74,
+      175
+     ],
+     "this": [
+      75,
+      182
+     ],
+     "context,": [
+      76
+     ],
+     "handwriting": [
+      77,
+      89
+     ],
+     "an": [
+      78,
+      84
+     ],
+     "exam": [
+      79
+     ],
+     "has": [
+      80,
+      137,
+      157
+     ],
+     "been": [
+      81,
+      158
+     ],
+     "described": [
+      82
+     ],
+     "as": [
+      83,
+      97,
+      219,
+      221
+     ],
+     "\u2018anachronism\u2019.": [
+      85
+     ],
+     "More": [
+      86
+     ],
+     "specifically,": [
+      87
+     ],
+     "traditional": [
+      88
+     ],
+     "examinations": [
+      91
+     ],
+     "contemporary": [
+      93
+     ],
+     "contexts": [
+      94
+     ],
+     "is": [
+      95,
+      117
+     ],
+     "seen": [
+      96
+     ],
+     "\u2018misalignment": [
+      99
+     ],
+     "assessment": [
+      101
+     ],
+     "practice": [
+      102
+     ],
+     "learning": [
+      105,
+      113
+     ],
+     "environment\u2019.": [
+      106
+     ],
+     "Such": [
+      107
+     ],
+     "misalignment": [
+      108
+     ],
+     "can": [
+      109
+     ],
+     "result": [
+      110
+     ],
+     "diminished": [
+      112
+     ],
+     "outcomes.": [
+      114
+     ],
+     "However,": [
+      115
+     ],
+     "there": [
+      116
+     ],
+     "little": [
+      118
+     ],
+     "literature": [
+      119
+     ],
+     "addressing": [
+      120
+     ],
+     "adoption": [
+      122
+     ],
+     "for": [
+      125,
+      199
+     ],
+     "formal": [
+      126
+     ],
+     "high": [
+      127,
+      201,
+      239
+     ],
+     "stakes": [
+      128,
+      144,
+      202,
+      240
+     ],
+     "summative": [
+      129,
+      203
+     ],
+     "exams.": [
+      130
+     ],
+     "Much": [
+      131
+     ],
+     "research": [
+      134
+     ],
+     "date": [
+      136
+     ],
+     "focused": [
+      138
+     ],
+     "small": [
+      140
+     ],
+     "scale,": [
+      141
+     ],
+     "informal": [
+      142
+     ],
+     "low": [
+      143
+     ],
+     "tests": [
+      145
+     ],
+     "non-law": [
+      147
+     ],
+     "disciplines.": [
+      148
+     ],
+     "Within": [
+      149
+     ],
+     "Australia,": [
+      150
+     ],
+     "whether": [
+      151
+     ],
+     "appropriate": [
+      154
+     ],
+     "or": [
+      155
+     ],
+     "effective": [
+      156
+     ],
+     "subject": [
+      160
+     ],
+     "reported": [
+      165,
+      171,
+      251
+     ],
+     "trials,": [
+      166
+     ],
+     "but": [
+      167
+     ],
+     "none": [
+      168
+     ],
+     "specifically": [
+      170
+     ],
+     "students.": [
+      174
+     ],
+     "2016": [
+      176
+     ],
+     "UNSW": [
+      177
+     ],
+     "Law": [
+      178
+     ],
+     "sought": [
+      179
+     ],
+     "rectify": [
+      181
+     ],
+     "undertook": [
+      184
+     ],
+     "such": [
+      185
+     ],
+     "trial.": [
+      187
+     ],
+     "This": [
+      188
+     ],
+     "article": [
+      189
+     ],
+     "provides": [
+      190
+     ],
+     "empirical": [
+      191
+     ],
+     "insight": [
+      192
+     ],
+     "into": [
+      193,
+      232
+     ],
+     "process": [
+      195
+     ],
+     "student": [
+      197
+     ],
+     "perceptions": [
+      198
+     ],
+     "e-exam.": [
+      204
+     ],
+     "It": [
+      205
+     ],
+     "analyses": [
+      206
+     ],
+     "students\u2019": [
+      207
+     ],
+     "attitudes": [
+      208
+     ],
+     "concerns": [
+      210
+     ],
+     "prior": [
+      211
+     ],
+     "introduction": [
+      214
+     ],
+     "e-exam": [
+      217
+     ],
+     "platform,": [
+      218
+     ],
+     "well": [
+      220
+     ],
+     "after": [
+      222
+     ],
+     "they": [
+      223
+     ],
+     "had": [
+      224
+     ],
+     "completed": [
+      225
+     ],
+     "exam.": [
+      227
+     ],
+     "We": [
+      228
+     ],
+     "also": [
+      229
+     ],
+     "provide": [
+      230
+     ],
+     "insights": [
+      231
+     ],
+     "important": [
+      234
+     ],
+     "procedural": [
+      235
+     ],
+     "aspects": [
+      236
+     ],
+     "associated": [
+      237
+     ],
+     "exams": [
+      241
+     ],
+     "staff": [
+      243
+     ],
+     "responses": [
+      244
+     ],
+     "process,": [
+      247
+     ],
+     "issues": [
+      248
+     ],
+     "not": [
+      249
+     ],
+     "previously": [
+      250
+     ],
+     "on.": [
+      252
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5026693842",
+       "display_name": "Alex Steel",
+       "orcid": "https://orcid.org/0000-0001-7442-6352",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7442-6352"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I31746571",
+        "display_name": "UNSW Sydney",
+        "ror": "https://ror.org/03r8z3t63",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I31746571"
+        ]
+       }
+      ],
+      "countries": [
+       "AU"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Alex Steel",
+      "raw_affiliation_strings": [
+       "University of New South Wales"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of New South Wales",
+        "institution_ids": [
+         "https://openalex.org/I31746571"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5024572646",
+       "display_name": "Lyria Bennett Moses",
+       "orcid": "https://orcid.org/0000-0003-2571-1469",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2571-1469"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I31746571",
+        "display_name": "UNSW Sydney",
+        "ror": "https://ror.org/03r8z3t63",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I31746571"
+        ]
+       }
+      ],
+      "countries": [
+       "AU"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Lyria Bennett Moses",
+      "raw_affiliation_strings": [
+       "University of New South Wales"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of New South Wales",
+        "institution_ids": [
+         "https://openalex.org/I31746571"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5023969085",
+       "display_name": "Julian Laurens",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I31746571",
+        "display_name": "UNSW Sydney",
+        "ror": "https://ror.org/03r8z3t63",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I31746571"
+        ]
+       }
+      ],
+      "countries": [
+       "AU"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Julian Laurens",
+      "raw_affiliation_strings": [
+       "University of New South Wales"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of New South Wales",
+        "institution_ids": [
+         "https://openalex.org/I31746571"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5030413055",
+       "display_name": "Charlotte Brady",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I31746571",
+        "display_name": "UNSW Sydney",
+        "ror": "https://ror.org/03r8z3t63",
+        "country_code": "AU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I31746571"
+        ]
+       }
+      ],
+      "countries": [
+       "AU"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Charlotte Brady",
+      "raw_affiliation_strings": [
+       "University of New South Wales"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of New South Wales",
+        "institution_ids": [
+         "https://openalex.org/I31746571"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.53300/001c.9461",
+     "doi": "https://doi.org/10.53300/001c.9461",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.53300/001c.9461",
+     "pdf_url": "https://ler.scholasticahq.com/article/9461.pdf",
+     "source": {
+      "id": "https://openalex.org/S2764675040",
+      "display_name": "Legal Education Review",
+      "issn_l": "1033-2839",
+      "issn": [
+       "1033-2839",
+       "1839-3713"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": false,
+      "listed_in": [
+       "abdc-c",
+       "doaj",
+       "jufo-1",
+       "poland-20",
+       "russia-white-list-3"
+      ],
+      "host_organization": "https://openalex.org/P4310317956",
+      "host_organization_name": "Bond University",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310317956"
+      ],
+      "host_organization_lineage_names": [
+       "Bond University"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Legal Education Review",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4367179505",
+    "doi": "https://doi.org/10.1103/physrevphyseducres.19.010130",
+    "title": "Impact of more realistic and earlier practice exams on student metacognition, study behaviors, and exam performance",
+    "display_name": "Impact of more realistic and earlier practice exams on student metacognition, study behaviors, and exam performance",
+    "publication_year": 2023,
+    "cited_by_count": 18,
+    "abstract_inverted_index": {
+     "Preparing": [
+      0
+     ],
+     "for": [
+      1,
+      118,
+      147
+     ],
+     "high-stakes": [
+      2
+     ],
+     "exams": [
+      3,
+      20,
+      62,
+      101,
+      119
+     ],
+     "in": [
+      4,
+      29,
+      71
+     ],
+     "introductory": [
+      5
+     ],
+     "physics": [
+      6
+     ],
+     "courses": [
+      7
+     ],
+     "is": [
+      8
+     ],
+     "generally": [
+      9
+     ],
+     "a": [
+      10,
+      67,
+      95
+     ],
+     "self-regulated": [
+      11
+     ],
+     "activity.Compared": [
+      12
+     ],
+     "to": [
+      13,
+      24,
+      164,
+      170
+     ],
+     "other": [
+      14
+     ],
+     "exam": [
+      15,
+      91,
+      129,
+      137,
+      143,
+      166
+     ],
+     "reviewing": [
+      16
+     ],
+     "strategies,": [
+      17
+     ],
+     "doing": [
+      18
+     ],
+     "practice": [
+      19,
+      61,
+      100
+     ],
+     "has": [
+      21
+     ],
+     "been": [
+      22
+     ],
+     "shown": [
+      23
+     ],
+     "help": [
+      25
+     ],
+     "students": [
+      26,
+      42
+     ],
+     "recognize": [
+      27
+     ],
+     "gaps": [
+      28
+     ],
+     "their": [
+      30,
+      127
+     ],
+     "knowledge,": [
+      31
+     ],
+     "encourage": [
+      32
+     ],
+     "active": [
+      33
+     ],
+     "practicing,": [
+      34
+     ],
+     "and": [
+      35,
+      57,
+      86,
+      107,
+      177
+     ],
+     "produce": [
+      36
+     ],
+     "long-term": [
+      37
+     ],
+     "retention.However,": [
+      38
+     ],
+     "many": [
+      39
+     ],
+     "students,": [
+      40
+     ],
+     "particularly": [
+      41
+     ],
+     "who": [
+      43
+     ],
+     "are": [
+      44,
+      50
+     ],
+     "struggling": [
+      45
+     ],
+     "with": [
+      46,
+      102
+     ],
+     "the": [
+      47,
+      111,
+      124,
+      141
+     ],
+     "course": [
+      48,
+      70
+     ],
+     "material,": [
+      49
+     ],
+     "not": [
+      51,
+      59,
+      122,
+      151
+     ],
+     "guided": [
+      52
+     ],
+     "by": [
+      53
+     ],
+     "research-based": [
+      54
+     ],
+     "study": [
+      55,
+      75,
+      154,
+      175
+     ],
+     "strategies": [
+      56,
+      176
+     ],
+     "do": [
+      58
+     ],
+     "use": [
+      60
+     ],
+     "effectively.Using": [
+      63
+     ],
+     "data": [
+      64
+     ],
+     "collected": [
+      65
+     ],
+     "from": [
+      66
+     ],
+     "fully": [
+      68
+     ],
+     "online": [
+      69,
+      99
+     ],
+     "Spring": [
+      72
+     ],
+     "2021,": [
+      73
+     ],
+     "this": [
+      74
+     ],
+     "examines": [
+      76
+     ],
+     "two": [
+      77
+     ],
+     "interventions": [
+      78,
+      162
+     ],
+     "aimed": [
+      79
+     ],
+     "at": [
+      80
+     ],
+     "improving": [
+      81
+     ],
+     "student": [
+      82,
+      88,
+      116,
+      178
+     ],
+     "selfregulated": [
+      83
+     ],
+     "studying": [
+      84,
+      132,
+      148
+     ],
+     "behaviors": [
+      85,
+      155
+     ],
+     "enhancing": [
+      87
+     ],
+     "metacognition": [
+      89
+     ],
+     "during": [
+      90
+     ],
+     "preparation.We": [
+      92
+     ],
+     "found": [
+      93
+     ],
+     "that": [
+      94,
+      161
+     ],
+     "modified": [
+      96
+     ],
+     "format": [
+      97
+     ],
+     "of": [
+      98,
+      113,
+      126
+     ],
+     "one": [
+      103,
+      138
+     ],
+     "attempt": [
+      104
+     ],
+     "per": [
+      105
+     ],
+     "question": [
+      106
+     ],
+     "delayed": [
+      108
+     ],
+     "feedback,": [
+      109
+     ],
+     "increases": [
+      110
+     ],
+     "accuracy": [
+      112,
+      125
+     ],
+     "feedback": [
+      114
+     ],
+     "about": [
+      115,
+      180
+     ],
+     "readiness": [
+      117
+     ],
+     "but": [
+      120,
+      149
+     ],
+     "does": [
+      121,
+      150
+     ],
+     "change": [
+      123
+     ],
+     "predicted": [
+      128
+     ],
+     "scores": [
+      130
+     ],
+     "or": [
+      131,
+      156
+     ],
+     "behaviors.Additionally,": [
+      133
+     ],
+     "an": [
+      134
+     ],
+     "added": [
+      135
+     ],
+     "mock": [
+      136
+     ],
+     "week": [
+      139
+     ],
+     "before": [
+      140
+     ],
+     "actual": [
+      142,
+      153
+     ],
+     "impacts": [
+      144
+     ],
+     "students'": [
+      145
+     ],
+     "intentions": [
+      146
+     ],
+     "impact": [
+      152
+     ],
+     "facilitate": [
+      157
+     ],
+     "metacognition.These": [
+      158
+     ],
+     "results": [
+      159
+     ],
+     "suggest": [
+      160
+     ],
+     "designed": [
+      163
+     ],
+     "improve": [
+      165
+     ],
+     "preparation": [
+      167
+     ],
+     "likely": [
+      168
+     ],
+     "need": [
+      169
+     ],
+     "include": [
+      171
+     ],
+     "explicit": [
+      172
+     ],
+     "instruction": [
+      173
+     ],
+     "on": [
+      174
+     ],
+     "beliefs": [
+      179
+     ],
+     "learning.": [
+      181
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5064655211",
+       "display_name": "Muxin Zhang",
+       "orcid": "https://orcid.org/0000-0002-4803-693X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4803-693X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I157725225",
+        "display_name": "University of Illinois Urbana-Champaign",
+        "ror": "https://ror.org/047426m28",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I157725225"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Muxin Zhang",
+      "raw_affiliation_strings": [
+       "Department of Physics, University of Illinois Urbana-Champaign, Urbana, Illinois 61801, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-4803-693X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physics, University of Illinois Urbana-Champaign, Urbana, Illinois 61801, USA",
+        "institution_ids": [
+         "https://openalex.org/I157725225"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5013553274",
+       "display_name": "Jason Morphew",
+       "orcid": "https://orcid.org/0000-0001-5971-214X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5971-214X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I219193219",
+        "display_name": "Purdue University West Lafayette",
+        "ror": "https://ror.org/02dqehb95",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I219193219"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jason Morphew",
+      "raw_affiliation_strings": [
+       "School of Engineering Education, Purdue University, West Lafayette, Indiana 47907, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-5971-214X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Engineering Education, Purdue University, West Lafayette, Indiana 47907, USA",
+        "institution_ids": [
+         "https://openalex.org/I219193219"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5068351570",
+       "display_name": "Timothy J. Stelzer",
+       "orcid": "https://orcid.org/0000-0001-6863-2045",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6863-2045"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I157725225",
+        "display_name": "University of Illinois Urbana-Champaign",
+        "ror": "https://ror.org/047426m28",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I157725225"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Tim Stelzer",
+      "raw_affiliation_strings": [
+       "Department of Physics, University of Illinois Urbana-Champaign, Urbana, Illinois 61801, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-6863-2045",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physics, University of Illinois Urbana-Champaign, Urbana, Illinois 61801, USA",
+        "institution_ids": [
+         "https://openalex.org/I157725225"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1103/physrevphyseducres.19.010130",
+     "doi": "https://doi.org/10.1103/physrevphyseducres.19.010130",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1103/physrevphyseducres.19.010130",
+     "pdf_url": "http://link.aps.org/pdf/10.1103/PhysRevPhysEducRes.19.010130",
+     "source": {
+      "id": "https://openalex.org/S4210190682",
+      "display_name": "Physical Review Physics Education Research",
+      "issn_l": "2469-9896",
+      "issn": [
+       "2469-9896"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "jufo-2",
+       "norway-1",
+       "oarl",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+       "American Physical Society"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Physical Review Physics Education Research",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2793032716",
+    "doi": "https://doi.org/10.14434/josotl.v18i1.22508",
+    "title": "Reflections versus Extended Quizzes: Which is Better for Student Learning and Self-Regulation?",
+    "display_name": "Reflections versus Extended Quizzes: Which is Better for Student Learning and Self-Regulation?",
+    "publication_year": 2018,
+    "cited_by_count": 9,
+    "abstract_inverted_index": {
+     "Both": [
+      0
+     ],
+     "quizzes": [
+      1,
+      34,
+      63
+     ],
+     "and": [
+      2,
+      64,
+      66,
+      90
+     ],
+     "reflections": [
+      3,
+      37,
+      65
+     ],
+     "have": [
+      4,
+      12
+     ],
+     "been": [
+      5,
+      13
+     ],
+     "found": [
+      6
+     ],
+     "to": [
+      7,
+      16,
+      27,
+      39
+     ],
+     "benefit": [
+      8
+     ],
+     "student": [
+      9
+     ],
+     "learning,": [
+      10
+     ],
+     "but": [
+      11
+     ],
+     "typically": [
+      14
+     ],
+     "compared": [
+      15,
+      38
+     ],
+     "passive": [
+      17
+     ],
+     "or": [
+      18
+     ],
+     "superficial": [
+      19
+     ],
+     "controls.": [
+      20
+     ],
+     "The": [
+      21
+     ],
+     "purpose": [
+      22
+     ],
+     "of": [
+      23,
+      32,
+      88,
+      92
+     ],
+     "this": [
+      24
+     ],
+     "quasi-experiment": [
+      25
+     ],
+     "is": [
+      26
+     ],
+     "test": [
+      28
+     ],
+     "the": [
+      29,
+      79
+     ],
+     "relative": [
+      30
+     ],
+     "effectiveness": [
+      31,
+      85
+     ],
+     "brief": [
+      33,
+      62
+     ],
+     "followed": [
+      35
+     ],
+     "by": [
+      36
+     ],
+     "longer": [
+      40,
+      74
+     ],
+     "quizzes.": [
+      41,
+      75
+     ],
+     "Participants": [
+      42
+     ],
+     "(N": [
+      43
+     ],
+     "=": [
+      44
+     ],
+     "218)": [
+      45
+     ],
+     "were": [
+      46,
+      82
+     ],
+     "introductory": [
+      47
+     ],
+     "psychology": [
+      48
+     ],
+     "students": [
+      49,
+      58,
+      71
+     ],
+     "enrolled": [
+      50
+     ],
+     "in": [
+      51,
+      56,
+      60,
+      69,
+      73,
+      84,
+      86
+     ],
+     "two": [
+      52,
+      80
+     ],
+     "different": [
+      53
+     ],
+     "courses,": [
+      54
+     ],
+     "one": [
+      55
+     ],
+     "which": [
+      57,
+      70
+     ],
+     "engaged": [
+      59,
+      72
+     ],
+     "weekly": [
+      61
+     ],
+     "a": [
+      67
+     ],
+     "second": [
+      68
+     ],
+     "Results": [
+      76
+     ],
+     "indicated": [
+      77
+     ],
+     "that": [
+      78
+     ],
+     "conditions": [
+      81
+     ],
+     "similar": [
+      83
+     ],
+     "terms": [
+      87
+     ],
+     "learning": [
+      89
+     ],
+     "self-reports": [
+      91
+     ],
+     "self-regulation.": [
+      93
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5032117968",
+       "display_name": "Virginia Clinton\u2010Lisell",
+       "orcid": "https://orcid.org/0000-0002-4705-2217",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4705-2217"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I24571045",
+        "display_name": "University of North Dakota",
+        "ror": "https://ror.org/04a5szx83",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I24571045"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Virginia Clinton",
+      "raw_affiliation_strings": [
+       "University of North Dakota"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-4705-2217",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of North Dakota",
+        "institution_ids": [
+         "https://openalex.org/I24571045"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.14434/josotl.v18i1.22508",
+     "doi": "https://doi.org/10.14434/josotl.v18i1.22508",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.14434/josotl.v18i1.22508",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S2764481657",
+      "display_name": "Journal of the Scholarship of Teaching and Learning",
+      "issn_l": "1527-9316",
+      "issn": [
+       "1527-9316"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj"
+      ],
+      "host_organization": "https://openalex.org/P4310319732",
+      "host_organization_name": "Indiana University Press",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319732"
+      ],
+      "host_organization_lineage_names": [
+       "Indiana University Press"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of the Scholarship of Teaching and Learning",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3045702727",
+    "doi": "https://doi.org/10.1177/2382120520941822",
+    "title": "Table Quizzes as an Assessment Tool in the Gross Anatomy Laboratory",
+    "display_name": "Table Quizzes as an Assessment Tool in the Gross Anatomy Laboratory",
+    "publication_year": 2020,
+    "cited_by_count": 11,
+    "abstract_inverted_index": {
+     "Using": [
+      0
+     ],
+     "cadaveric": [
+      1,
+      39,
+      60
+     ],
+     "instruction": [
+      2
+     ],
+     "in": [
+      3,
+      26,
+      37,
+      58,
+      87,
+      109,
+      142,
+      162,
+      193,
+      287
+     ],
+     "a": [
+      4,
+      17,
+      110,
+      130,
+      174,
+      202,
+      252,
+      288
+     ],
+     "graduate-level": [
+      5
+     ],
+     "anatomy": [
+      6
+     ],
+     "course": [
+      7
+     ],
+     "is": [
+      8,
+      16,
+      69
+     ],
+     "an": [
+      9,
+      259
+     ],
+     "expensive": [
+      10
+     ],
+     "and": [
+      11,
+      24,
+      41,
+      79,
+      104,
+      122,
+      138,
+      166,
+      182,
+      197,
+      210,
+      240,
+      258
+     ],
+     "time-consuming": [
+      12
+     ],
+     "undertaking.": [
+      13
+     ],
+     "While": [
+      14
+     ],
+     "this": [
+      15,
+      93,
+      125,
+      128,
+      271
+     ],
+     "worthwhile": [
+      18
+     ],
+     "endeavor,": [
+      19
+     ],
+     "most": [
+      20
+     ],
+     "first-year": [
+      21
+     ],
+     "medical": [
+      22
+     ],
+     "students": [
+      23,
+      25,
+      223
+     ],
+     "the": [
+      27,
+      32,
+      38,
+      47,
+      59,
+      88,
+      98,
+      105,
+      120,
+      158,
+      163,
+      168,
+      179,
+      183,
+      187,
+      218,
+      222,
+      225,
+      229,
+      276,
+      282
+     ],
+     "health": [
+      28
+     ],
+     "fields": [
+      29
+     ],
+     "struggle": [
+      30
+     ],
+     "with": [
+      31,
+      224
+     ],
+     "independent,": [
+      33
+     ],
+     "self-directed": [
+      34
+     ],
+     "learning": [
+      35,
+      57
+     ],
+     "approach": [
+      36
+     ],
+     "laboratory,": [
+      40
+     ],
+     "going": [
+      42
+     ],
+     "beyond": [
+      43
+     ],
+     "rote": [
+      44
+     ],
+     "memorization": [
+      45
+     ],
+     "of": [
+      46,
+      92,
+      124,
+      151,
+      189,
+      217,
+      231,
+      270,
+      284
+     ],
+     "material.": [
+      48
+     ],
+     "As": [
+      49
+     ],
+     "such,": [
+      50
+     ],
+     "effective": [
+      51
+     ],
+     "assessment": [
+      52,
+      165,
+      248,
+      285
+     ],
+     "tools": [
+      53,
+      286
+     ],
+     "that": [
+      54
+     ],
+     "maximize": [
+      55
+     ],
+     "student": [
+      56,
+      75,
+      107,
+      140,
+      184,
+      256
+     ],
+     "laboratory": [
+      61
+     ],
+     "are": [
+      62
+     ],
+     "critical,": [
+      63
+     ],
+     "especially": [
+      64
+     ],
+     "if": [
+      65
+     ],
+     "no": [
+      66
+     ],
+     "lecture": [
+      67
+     ],
+     "component": [
+      68
+     ],
+     "present.": [
+      70
+     ],
+     "Dissection": [
+      71
+     ],
+     "quality": [
+      72,
+      137
+     ],
+     "often": [
+      73
+     ],
+     "reflects": [
+      74
+     ],
+     "attention": [
+      76
+     ],
+     "to": [
+      77,
+      84,
+      96,
+      156,
+      227,
+      254,
+      264,
+      275
+     ],
+     "detail": [
+      78
+     ],
+     "therefore": [
+      80
+     ],
+     "may": [
+      81
+     ],
+     "be": [
+      82
+     ],
+     "tied": [
+      83
+     ],
+     "overall": [
+      85,
+      106
+     ],
+     "performance": [
+      86,
+      161,
+      206
+     ],
+     "course.": [
+      89
+     ],
+     "The": [
+      90,
+      171,
+      199,
+      214,
+      268
+     ],
+     "aim": [
+      91
+     ],
+     "study": [
+      94,
+      273
+     ],
+     "was": [
+      95
+     ],
+     "investigate": [
+      97
+     ],
+     "relationship": [
+      99,
+      159,
+      177
+     ],
+     "between": [
+      100,
+      160,
+      178,
+      205
+     ],
+     "weekly": [
+      101,
+      133,
+      164,
+      180,
+      208
+     ],
+     "table": [
+      102,
+      219
+     ],
+     "quizzes": [
+      103,
+      181,
+      209,
+      220
+     ],
+     "outcomes": [
+      108,
+      257
+     ],
+     "graduate": [
+      111,
+      289
+     ],
+     "biomedical": [
+      112
+     ],
+     "human": [
+      113,
+      143,
+      290
+     ],
+     "dissection": [
+      114,
+      136,
+      152,
+      191,
+      291
+     ],
+     "class": [
+      115
+     ],
+     "as": [
+      116,
+      118
+     ],
+     "well": [
+      117
+     ],
+     "examining": [
+      119
+     ],
+     "benefits": [
+      121
+     ],
+     "implications": [
+      123
+     ],
+     "approach.": [
+      126
+     ],
+     "In": [
+      127
+     ],
+     "course,": [
+      129
+     ],
+     "uniquely": [
+      131
+     ],
+     "structured": [
+      132
+     ],
+     "quiz": [
+      134
+     ],
+     "assessed": [
+      135
+     ],
+     "probed": [
+      139
+     ],
+     "understanding": [
+      141
+     ],
+     "anatomy.": [
+      144
+     ],
+     "Student": [
+      145
+     ],
+     "data": [
+      146,
+      200,
+      280
+     ],
+     "compiled": [
+      147
+     ],
+     "from": [
+      148
+     ],
+     "5": [
+      149
+     ],
+     "years": [
+      150
+     ],
+     "courses": [
+      153
+     ],
+     "were": [
+      154
+     ],
+     "analyzed": [
+      155
+     ],
+     "evaluate": [
+      157
+     ],
+     "on": [
+      167,
+      207,
+      211,
+      244,
+      281
+     ],
+     "unit": [
+      169,
+      212
+     ],
+     "examinations.": [
+      170,
+      213
+     ],
+     "results": [
+      172
+     ],
+     "showed": [
+      173
+     ],
+     "statistically": [
+      175
+     ],
+     "significant": [
+      176
+     ],
+     "examinations": [
+      185
+     ],
+     "at": [
+      186
+     ],
+     "end": [
+      188
+     ],
+     "each": [
+      190
+     ],
+     "block": [
+      192
+     ],
+     "2013,": [
+      194
+     ],
+     "2015,": [
+      195
+     ],
+     "2016,": [
+      196
+     ],
+     "2017.": [
+      198
+     ],
+     "suggest": [
+      201
+     ],
+     "potential": [
+      203
+     ],
+     "correlation": [
+      204
+     ],
+     "unique": [
+      215
+     ],
+     "nature": [
+      216
+     ],
+     "provides": [
+      221,
+      251
+     ],
+     "opportunity": [
+      226,
+      260
+     ],
+     "practice": [
+      228
+     ],
+     "retrieval": [
+      230
+     ],
+     "their": [
+      232,
+      238,
+      245
+     ],
+     "knowledge,": [
+      233
+     ],
+     "feel": [
+      234
+     ],
+     "more": [
+      235,
+      279
+     ],
+     "guided": [
+      236
+     ],
+     "throughout": [
+      237
+     ],
+     "dissection,": [
+      239
+     ],
+     "receive": [
+      241
+     ],
+     "immediate": [
+      242
+     ],
+     "feedback": [
+      243
+     ],
+     "performance.": [
+      246
+     ],
+     "This": [
+      247
+     ],
+     "tool": [
+      249
+     ],
+     "also": [
+      250
+     ],
+     "way": [
+      253
+     ],
+     "predict": [
+      255
+     ],
+     "for": [
+      261,
+      278
+     ],
+     "early": [
+      262
+     ],
+     "intervention": [
+      263
+     ],
+     "help": [
+      265
+     ],
+     "at-risk": [
+      266
+     ],
+     "students.": [
+      267
+     ],
+     "analysis": [
+      269
+     ],
+     "research": [
+      272
+     ],
+     "contributes": [
+      274
+     ],
+     "need": [
+      277
+     ],
+     "usage": [
+      283
+     ],
+     "class.": [
+      292
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5008734399",
+       "display_name": "Natascha Heise",
+       "orcid": "https://orcid.org/0000-0003-4459-814X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4459-814X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I92446798",
+        "display_name": "Colorado State University",
+        "ror": "https://ror.org/03k1gpj17",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I92446798"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Natascha Heise",
+      "raw_affiliation_strings": [
+       "Department of Biomedical Sciences, Colorado State University, Fort Collins, CO, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-4459-814X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Biomedical Sciences, Colorado State University, Fort Collins, CO, USA",
+        "institution_ids": [
+         "https://openalex.org/I92446798"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5078847150",
+       "display_name": "Carolyn A. Meyer",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I92446798",
+        "display_name": "Colorado State University",
+        "ror": "https://ror.org/03k1gpj17",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I92446798"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Carolyn A Meyer",
+      "raw_affiliation_strings": [
+       "Department of Biomedical Sciences, Colorado State University, Fort Collins, CO, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Biomedical Sciences, Colorado State University, Fort Collins, CO, USA",
+        "institution_ids": [
+         "https://openalex.org/I92446798"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5042212578",
+       "display_name": "Brendan A. Garbe",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I33213144",
+        "display_name": "University of Florida",
+        "ror": "https://ror.org/02y3ad647",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I33213144"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Brendan A Garbe",
+      "raw_affiliation_strings": [
+       "College of Medicine, University of Florida, Gainesville, FL, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "College of Medicine, University of Florida, Gainesville, FL, USA",
+        "institution_ids": [
+         "https://openalex.org/I33213144"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5108752886",
+       "display_name": "Heather A. Hall",
+       "orcid": "https://orcid.org/0009-0009-5022-6204",
+       "observed_orcids": [
+        "https://orcid.org/0009-0009-5022-6204"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I92446798",
+        "display_name": "Colorado State University",
+        "ror": "https://ror.org/03k1gpj17",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I92446798"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Heather A Hall",
+      "raw_affiliation_strings": [
+       "Department of Biomedical Sciences, Colorado State University, Fort Collins, CO, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Biomedical Sciences, Colorado State University, Fort Collins, CO, USA",
+        "institution_ids": [
+         "https://openalex.org/I92446798"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5082964505",
+       "display_name": "Tod R. Clapp",
+       "orcid": "https://orcid.org/0009-0008-9102-7896",
+       "observed_orcids": [
+        "https://orcid.org/0009-0008-9102-7896"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I92446798",
+        "display_name": "Colorado State University",
+        "ror": "https://ror.org/03k1gpj17",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I92446798"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Tod R Clapp",
+      "raw_affiliation_strings": [
+       "Department of Biomedical Sciences, Colorado State University, Fort Collins, CO, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Biomedical Sciences, Colorado State University, Fort Collins, CO, USA",
+        "institution_ids": [
+         "https://openalex.org/I92446798"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1177/2382120520941822",
+     "doi": "https://doi.org/10.1177/2382120520941822",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1177/2382120520941822",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4210239328",
+      "display_name": "Journal of Medical Education and Curricular Development",
+      "issn_l": "2382-1205",
+      "issn": [
+       "2382-1205"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-20",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320017",
+      "host_organization_name": "SAGE Publishing",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320017"
+      ],
+      "host_organization_lineage_names": [
+       "SAGE Publishing"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc",
+     "license_id": "https://openalex.org/licenses/cc-by-nc",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Medical Education and Curricular Development",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

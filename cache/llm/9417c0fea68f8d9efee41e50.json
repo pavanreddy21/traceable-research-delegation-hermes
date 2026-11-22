@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a2020b-01be-7359-9a84-b3089d1c32b6",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330605,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 directly states that the ISI producing maximal retention increased as retention interval increased.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 292,
+  "completion_tokens": 38,
+  "total_tokens": 330,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 1.24
+}

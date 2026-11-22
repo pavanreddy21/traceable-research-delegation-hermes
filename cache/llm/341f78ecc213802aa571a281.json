@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a2024d-128a-7d62-900d-d722b9931a04",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795334935,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Repeated empty results suggest the search index needs a very broad query, so I will try just 'note taking'.\", \"action\": \"search_papers\", \"args\": {\"query\": \"note taking\"}}",
+    "reasoning_content": "Search keeps returning empty. Try even broader: \"note taking learning\".",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 581,
+  "completion_tokens": 63,
+  "total_tokens": 644,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 15
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.21
+}

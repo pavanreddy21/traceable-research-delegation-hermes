@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20205-2595-701d-9a67-2d2fdf9bacbb",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330221,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 states that the ISI producing maximal retention increased as retention interval increased, matching the claim.\"}",
+    "reasoning_content": "We need answer JSON only. Need evaluate claim. Passage [1] exactly states \"specifically, the ISI producing maximal retention increased as retention interval increased.\" Claim: \"The interstudy interval that produced maximal retention increased as the retention interval increased.\" Same. Supported passage 1. Need JSON only. Ensure one sentence reason.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 318,
+  "completion_tokens": 107,
+  "total_tokens": 425,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 66
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.21
+}

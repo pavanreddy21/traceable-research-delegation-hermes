@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201dd-0e01-768f-b53f-1819b1b2224c",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327593,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"Results are mostly supportive; I need targeted searches for null results and boundary conditions.\", \"action\": \"search_papers\", \"args\": {\"query\": \"nap does not improve memory retention null result sleep deprivation no effect declarative\"}}",
+    "reasoning_content": "These are mostly pro-sleep. I need contrary evidence. Let me search more specific: \"sleep deprivation memory no effect\", \"nap does not benefit\", \"sleep memory consolidation replication failure\", \"sleep does not benefit procedural memory\".",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1003,
+  "completion_tokens": 99,
+  "total_tokens": 1102,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 47
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.31
+}

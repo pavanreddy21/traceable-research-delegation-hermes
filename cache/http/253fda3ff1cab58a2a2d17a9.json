@@ -1,0 +1,3966 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 16867,
+   "db_response_time_ms": 172,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (acute aerobic exercise no benefit cognitive performance young adults) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (acute aerobic exercise no benefit cognitive performance young adults) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "acute aerobic exercise no benefit cognitive performance young adults",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:acute aerobic exercise no benefit cognitive performance young adults,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2483062838",
+    "doi": "https://doi.org/10.1113/ep085682",
+    "title": "Effects of acute aerobic exercise on a task\u2010switching protocol and brain\u2010derived neurotrophic factor concentrations in young adults with different levels of cardiorespiratory fitness",
+    "display_name": "Effects of acute aerobic exercise on a task\u2010switching protocol and brain\u2010derived neurotrophic factor concentrations in young adults with different levels of cardiorespiratory fitness",
+    "publication_year": 2016,
+    "cited_by_count": 97,
+    "abstract_inverted_index": {
+     "What": [
+      0,
+      56
+     ],
+     "is": [
+      1,
+      57
+     ],
+     "the": [
+      2,
+      58,
+      105,
+      110,
+      119,
+      145,
+      224,
+      236,
+      275,
+      291,
+      294,
+      301,
+      331,
+      353,
+      358
+     ],
+     "central": [
+      3
+     ],
+     "question": [
+      4
+     ],
+     "of": [
+      5,
+      49,
+      121,
+      213,
+      216,
+      296,
+      303
+     ],
+     "this": [
+      6
+     ],
+     "study?": [
+      7
+     ],
+     "Neurocognitive": [
+      8
+     ],
+     "functions": [
+      9
+     ],
+     "can": [
+      10
+     ],
+     "be": [
+      11,
+      19,
+      85,
+      104,
+      307,
+      352
+     ],
+     "enhanced": [
+      12
+     ],
+     "by": [
+      13
+     ],
+     "acute": [
+      14,
+      34,
+      79,
+      89,
+      122,
+      149,
+      211,
+      256,
+      288,
+      318,
+      371
+     ],
+     "aerobic": [
+      15,
+      80,
+      90,
+      123,
+      150,
+      218,
+      257,
+      372
+     ],
+     "exercise,": [
+      16,
+      289
+     ],
+     "which": [
+      17
+     ],
+     "could": [
+      18,
+      71,
+      92,
+      102,
+      350
+     ],
+     "associated": [
+      20
+     ],
+     "with": [
+      21,
+      46,
+      67,
+      133
+     ],
+     "changes": [
+      22,
+      36,
+      97,
+      152,
+      332,
+      337
+     ],
+     "in": [
+      23,
+      37,
+      98,
+      109,
+      130,
+      153,
+      270,
+      333,
+      338,
+      357,
+      367
+     ],
+     "serum": [
+      24,
+      94,
+      154,
+      230,
+      312,
+      348
+     ],
+     "brain-derived": [
+      25,
+      155
+     ],
+     "neurotrophic": [
+      26,
+      156
+     ],
+     "factor": [
+      27,
+      107,
+      157,
+      355
+     ],
+     "(BDNF)": [
+      28,
+      158
+     ],
+     "concentrations.": [
+      29
+     ],
+     "We": [
+      30
+     ],
+     "aimed": [
+      31
+     ],
+     "to": [
+      32,
+      200
+     ],
+     "explore": [
+      33
+     ],
+     "exercise-induced": [
+      35,
+      151
+     ],
+     "BDNF": [
+      38,
+      95,
+      100,
+      231,
+      313,
+      334,
+      349
+     ],
+     "concentrations,": [
+      39,
+      96
+     ],
+     "neuropsychological": [
+      40,
+      126,
+      225,
+      339,
+      362
+     ],
+     "and": [
+      41,
+      61,
+      75,
+      127,
+      143,
+      160,
+      178,
+      190,
+      207,
+      226,
+      229,
+      245,
+      267,
+      283,
+      336,
+      340,
+      363
+     ],
+     "neurophysiological": [
+      42,
+      76,
+      128,
+      227,
+      341,
+      364
+     ],
+     "performances": [
+      43,
+      129,
+      228,
+      342,
+      365
+     ],
+     "when": [
+      44,
+      138,
+      235
+     ],
+     "individuals": [
+      45
+     ],
+     "different": [
+      47,
+      134
+     ],
+     "levels": [
+      48,
+      137
+     ],
+     "cardiorespiratory": [
+      50,
+      69,
+      135,
+      197
+     ],
+     "fitness": [
+      51,
+      70,
+      86,
+      136,
+      308
+     ],
+     "performed": [
+      52,
+      238
+     ],
+     "a": [
+      53,
+      140,
+      221,
+      239,
+      279
+     ],
+     "cognitive": [
+      54
+     ],
+     "task.": [
+      55
+     ],
+     "main": [
+      59
+     ],
+     "finding": [
+      60
+     ],
+     "its": [
+      62
+     ],
+     "importance?": [
+      63
+     ],
+     "Only": [
+      64
+     ],
+     "young": [
+      65,
+      131,
+      165,
+      368
+     ],
+     "adults": [
+      66,
+      132,
+      166,
+      369
+     ],
+     "higher": [
+      68,
+      184
+     ],
+     "attain": [
+      72
+     ],
+     "switching": [
+      73,
+      266,
+      281
+     ],
+     "cost": [
+      74,
+      282
+     ],
+     "benefits": [
+      77
+     ],
+     "via": [
+      78
+     ],
+     "exercise.": [
+      81,
+      373
+     ],
+     "The": [
+      82,
+      251
+     ],
+     "mechanisms": [
+      83,
+      295
+     ],
+     "might": [
+      84
+     ],
+     "dependent.": [
+      87,
+      309
+     ],
+     "Although": [
+      88
+     ],
+     "exercise": [
+      91,
+      124,
+      219,
+      258,
+      305,
+      319
+     ],
+     "enhance": [
+      93
+     ],
+     "peripheral": [
+      99
+     ],
+     "concentrations": [
+      101,
+      159,
+      232,
+      314,
+      335
+     ],
+     "not": [
+      103,
+      351
+     ],
+     "potential": [
+      106,
+      146,
+      354
+     ],
+     "involved": [
+      108,
+      356
+     ],
+     "beneficial": [
+      111,
+      359
+     ],
+     "effects": [
+      112,
+      120,
+      302,
+      360
+     ],
+     "on": [
+      113,
+      125,
+      248,
+      361
+     ],
+     "neurocognitive": [
+      114,
+      162
+     ],
+     "performance.": [
+      115
+     ],
+     "This": [
+      116
+     ],
+     "study": [
+      117
+     ],
+     "investigated": [
+      118
+     ],
+     "performing": [
+      139
+     ],
+     "task-switching": [
+      141,
+      240
+     ],
+     "protocol": [
+      142,
+      241
+     ],
+     "explored": [
+      144
+     ],
+     "associations": [
+      147
+     ],
+     "between": [
+      148,
+      330
+     ],
+     "various": [
+      161
+     ],
+     "outcomes.": [
+      163
+     ],
+     "Sixty": [
+      164
+     ],
+     "were": [
+      167,
+      233,
+      315,
+      326
+     ],
+     "categorized": [
+      168
+     ],
+     "into": [
+      169
+     ],
+     "one": [
+      170
+     ],
+     "control": [
+      171,
+      222,
+      244
+     ],
+     "group": [
+      172,
+      277
+     ],
+     "(i.e.": [
+      173,
+      264
+     ],
+     "non-exercise-intervention;": [
+      174
+     ],
+     "n": [
+      175,
+      187,
+      194
+     ],
+     "=": [
+      176,
+      188,
+      195
+     ],
+     "20)": [
+      177,
+      189,
+      196
+     ],
+     "two": [
+      179
+     ],
+     "exercise-intervention": [
+      180
+     ],
+     "(EI)": [
+      181
+     ],
+     "groups": [
+      182
+     ],
+     "[i.e.": [
+      183
+     ],
+     "(EIH": [
+      185
+     ],
+     ",": [
+      186,
+      193
+     ],
+     "lower": [
+      191
+     ],
+     "(EIL": [
+      192
+     ],
+     "fitness]": [
+      198
+     ],
+     "according": [
+      199
+     ],
+     "their": [
+      201
+     ],
+     "maximal": [
+      202
+     ],
+     "oxygen": [
+      203
+     ],
+     "consumption.": [
+      204
+     ],
+     "At": [
+      205
+     ],
+     "baseline": [
+      206
+     ],
+     "after": [
+      208,
+      287,
+      317,
+      370
+     ],
+     "either": [
+      209,
+      344
+     ],
+     "an": [
+      210
+     ],
+     "bout": [
+      212
+     ],
+     "30": [
+      214
+     ],
+     "min": [
+      215
+     ],
+     "moderate-intensity": [
+      217
+     ],
+     "or": [
+      220
+     ],
+     "period,": [
+      223
+     ],
+     "measured": [
+      234
+     ],
+     "participants": [
+      237
+     ],
+     "involving": [
+      242
+     ],
+     "executive": [
+      243
+     ],
+     "greater": [
+      246
+     ],
+     "demands": [
+      247
+     ],
+     "working": [
+      249
+     ],
+     "memory.": [
+      250
+     ],
+     "results": [
+      252
+     ],
+     "revealed": [
+      253
+     ],
+     "that": [
+      254,
+      293,
+      299,
+      347
+     ],
+     "although": [
+      255
+     ],
+     "decreased": [
+      259
+     ],
+     "reaction": [
+      260
+     ],
+     "times": [
+      261
+     ],
+     "across": [
+      262
+     ],
+     "three": [
+      263
+     ],
+     "pure,": [
+      265
+     ],
+     "non-switching)": [
+      268
+     ],
+     "conditions": [
+      269
+     ],
+     "both": [
+      271,
+      321
+     ],
+     "EI": [
+      272,
+      322
+     ],
+     "groups,": [
+      273,
+      323
+     ],
+     "only": [
+      274
+     ],
+     "EIH": [
+      276
+     ],
+     "showed": [
+      278
+     ],
+     "smaller": [
+      280
+     ],
+     "larger": [
+      284
+     ],
+     "P3": [
+      285
+     ],
+     "amplitudes": [
+      286
+     ],
+     "supporting": [
+      290
+     ],
+     "view": [
+      292
+     ],
+     "neural": [
+      297
+     ],
+     "functioning": [
+      298
+     ],
+     "underlie": [
+      300
+     ],
+     "such": [
+      304
+     ],
+     "may": [
+      306
+     ],
+     "In": [
+      310
+     ],
+     "addition,": [
+      311
+     ],
+     "elevated": [
+      316
+     ],
+     "for": [
+      320,
+      343
+     ],
+     "but": [
+      324
+     ],
+     "there": [
+      325
+     ],
+     "no": [
+      327
+     ],
+     "significant": [
+      328
+     ],
+     "correlations": [
+      329
+     ],
+     "group,": [
+      345
+     ],
+     "suggesting": [
+      346
+     ],
+     "seen": [
+      366
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5026200247",
+       "display_name": "Chia\u2010Liang Tsai",
+       "orcid": "https://orcid.org/0000-0001-6173-2879",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6173-2879"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I91807558",
+        "display_name": "National Cheng Kung University",
+        "ror": "https://ror.org/01b8kcc49",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I91807558"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Chia\u2010Liang Tsai",
+      "raw_affiliation_strings": [
+       "Institute of Physical Education, Health and Leisure Studies, National Cheng Kung University, Taiwan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute of Physical Education, Health and Leisure Studies, National Cheng Kung University, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I91807558"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5087333808",
+       "display_name": "Chien\u2010Yu Pan",
+       "orcid": "https://orcid.org/0000-0001-8113-5350",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8113-5350"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I135551196",
+        "display_name": "National Kaohsiung Normal University",
+        "ror": "https://ror.org/04tsc8g87",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I135551196"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Chien\u2010Yu Pan",
+      "raw_affiliation_strings": [
+       "Department of Physical Education, National Kaohsiung Normal University, Taiwan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Education, National Kaohsiung Normal University, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I135551196"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5033662114",
+       "display_name": "Fu\u2010Chen Chen",
+       "orcid": "https://orcid.org/0000-0002-6396-2798",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6396-2798"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I16566446",
+        "display_name": "National Pingtung University of Science and Technology",
+        "ror": "https://ror.org/01y6ccj36",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I16566446"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Fu\u2010Chen Chen",
+      "raw_affiliation_strings": [
+       "Department of Recreational Sport and Health Promotion, National Pingtung University of Science and Technology, Taiwan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Recreational Sport and Health Promotion, National Pingtung University of Science and Technology, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I16566446"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5080607070",
+       "display_name": "Chun\u2010Hao Wang",
+       "orcid": "https://orcid.org/0000-0002-0180-7207",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0180-7207"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I91807558",
+        "display_name": "National Cheng Kung University",
+        "ror": "https://ror.org/01b8kcc49",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I91807558"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Chun\u2010Hao Wang",
+      "raw_affiliation_strings": [
+       "Institute of Physical Education, Health and Leisure Studies, National Cheng Kung University, Taiwan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute of Physical Education, Health and Leisure Studies, National Cheng Kung University, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I91807558"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5005644919",
+       "display_name": "Feng-Ying Chou",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210136334",
+        "display_name": "Chi Mei Medical Center",
+        "ror": "https://ror.org/02y2htg06",
+        "country_code": "TW",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210136334"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I91807558",
+        "display_name": "National Cheng Kung University",
+        "ror": "https://ror.org/01b8kcc49",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I91807558"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Feng\u2010Ying Chou",
+      "raw_affiliation_strings": [
+       "Chi Mei Medical Center, Tainan, Taiwan",
+       "Institute of Physical Education, Health and Leisure Studies, National Cheng Kung University, Taiwan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Chi Mei Medical Center, Tainan, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I4210136334"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Institute of Physical Education, Health and Leisure Studies, National Cheng Kung University, Taiwan",
+        "institution_ids": [
+         "https://openalex.org/I91807558"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1113/ep085682",
+     "doi": "https://doi.org/10.1113/ep085682",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1113/ep085682",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S65894173",
+      "display_name": "Experimental Physiology",
+      "issn_l": "0958-0670",
+      "issn": [
+       "0958-0670",
+       "1469-445X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "dongbi-d",
+       "doyens",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Experimental Physiology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2790298500",
+    "doi": "https://doi.org/10.1080/02701367.2018.1438575",
+    "title": "Effects of Aerobic Exercise on Cognitive Performance Among Young Adults in a Higher Education Setting",
+    "display_name": "Effects of Aerobic Exercise on Cognitive Performance Among Young Adults in a Higher Education Setting",
+    "publication_year": 2018,
+    "cited_by_count": 49,
+    "abstract_inverted_index": {
+     "Purpose:": [
+      0
+     ],
+     "Acute": [
+      1
+     ],
+     "benefits": [
+      2,
+      163
+     ],
+     "of": [
+      3,
+      43,
+      52,
+      73,
+      160
+     ],
+     "aerobic": [
+      4,
+      53,
+      161
+     ],
+     "exercise": [
+      5,
+      54,
+      162
+     ],
+     "on": [
+      6,
+      22,
+      55,
+      116
+     ],
+     "executive": [
+      7
+     ],
+     "functioning": [
+      8,
+      57
+     ],
+     "have": [
+      9
+     ],
+     "been": [
+      10,
+      26
+     ],
+     "reported": [
+      11
+     ],
+     "frequently": [
+      12
+     ],
+     "under": [
+      13
+     ],
+     "laboratory": [
+      14
+     ],
+     "conditions.": [
+      15
+     ],
+     "However,": [
+      16
+     ],
+     "to": [
+      17,
+      48
+     ],
+     "date,": [
+      18
+     ],
+     "a": [
+      19,
+      59,
+      65,
+      71,
+      92,
+      156,
+      177
+     ],
+     "beneficial": [
+      20
+     ],
+     "effect": [
+      21
+     ],
+     "long-term": [
+      23,
+      167
+     ],
+     "memory": [
+      24,
+      168
+     ],
+     "has": [
+      25
+     ],
+     "less": [
+      27
+     ],
+     "well": [
+      28,
+      170
+     ],
+     "supported": [
+      29
+     ],
+     "and": [
+      30,
+      78,
+      95,
+      130,
+      137,
+      166
+     ],
+     "no": [
+      31
+     ],
+     "data": [
+      32
+     ],
+     "are": [
+      33
+     ],
+     "available": [
+      34
+     ],
+     "regarding": [
+      35
+     ],
+     "nonlaboratory": [
+      36
+     ],
+     "conditions": [
+      37
+     ],
+     "in": [
+      38,
+      58,
+      101,
+      108,
+      134,
+      176
+     ],
+     "young": [
+      39
+     ],
+     "adults.": [
+      40
+     ],
+     "The": [
+      41,
+      151
+     ],
+     "aim": [
+      42
+     ],
+     "the": [
+      44,
+      102,
+      109,
+      117,
+      135
+     ],
+     "current": [
+      45
+     ],
+     "study": [
+      46
+     ],
+     "was": [
+      47
+     ],
+     "investigate": [
+      49
+     ],
+     "acute": [
+      50
+     ],
+     "effects": [
+      51
+     ],
+     "cognitive": [
+      56
+     ],
+     "university": [
+      60
+     ],
+     "classroom": [
+      61,
+      178
+     ],
+     "setting.": [
+      62,
+      179
+     ],
+     "Method:": [
+      63
+     ],
+     "Using": [
+      64
+     ],
+     "cross-over": [
+      66
+     ],
+     "design,": [
+      67
+     ],
+     "51": [
+      68
+     ],
+     "participants": [
+      69
+     ],
+     "performed": [
+      70
+     ],
+     "bout": [
+      72,
+      159
+     ],
+     "moderately": [
+      74,
+      157
+     ],
+     "intense": [
+      75,
+      158
+     ],
+     "running": [
+      76
+     ],
+     "(RUN)": [
+      77
+     ],
+     "read": [
+      79
+     ],
+     "an": [
+      80,
+      96
+     ],
+     "article": [
+      81
+     ],
+     "while": [
+      82
+     ],
+     "seated": [
+      83
+     ],
+     "(CON).": [
+      84
+     ],
+     "Afterwards,": [
+      85
+     ],
+     "they": [
+      86
+     ],
+     "completed": [
+      87
+     ],
+     "free-recall": [
+      88
+     ],
+     "tests,": [
+      89,
+      139
+     ],
+     "followed": [
+      90
+     ],
+     "by": [
+      91
+     ],
+     "Flanker": [
+      93
+     ],
+     "task": [
+      94
+     ],
+     "n-back": [
+      97
+     ],
+     "task.": [
+      98
+     ],
+     "Results:": [
+      99
+     ],
+     "Participants": [
+      100
+     ],
+     "RUN": [
+      103
+     ],
+     "condition": [
+      104,
+      111
+     ],
+     "compared": [
+      105
+     ],
+     "with": [
+      106
+     ],
+     "those": [
+      107
+     ],
+     "CON": [
+      110
+     ],
+     "showed": [
+      112
+     ],
+     "shorter": [
+      113
+     ],
+     "reaction": [
+      114
+     ],
+     "time": [
+      115
+     ],
+     "inhibition": [
+      118
+     ],
+     "task,": [
+      119
+     ],
+     "F(1,": [
+      120,
+      140
+     ],
+     "50)": [
+      121,
+      141
+     ],
+     "=": [
+      122,
+      125,
+      128,
+      142,
+      145,
+      148
+     ],
+     "5.59,": [
+      123
+     ],
+     "p": [
+      124,
+      144
+     ],
+     ".022,": [
+      126
+     ],
+     "\u03b72": [
+      127,
+      147
+     ],
+     ".101,": [
+      129
+     ],
+     "recalled": [
+      131
+     ],
+     "more": [
+      132
+     ],
+     "words": [
+      133
+     ],
+     "immediate-": [
+      136
+     ],
+     "delayed-recall": [
+      138
+     ],
+     "8.40,": [
+      143
+     ],
+     ".006,": [
+      146
+     ],
+     ".144.": [
+      149
+     ],
+     "Conclusion:": [
+      150
+     ],
+     "present": [
+      152
+     ],
+     "findings": [
+      153
+     ],
+     "suggest": [
+      154
+     ],
+     "that": [
+      155
+     ],
+     "verbal": [
+      164
+     ],
+     "short-term": [
+      165
+     ],
+     "as": [
+      169,
+      171
+     ],
+     "inhibitory": [
+      172
+     ],
+     "control": [
+      173
+     ],
+     "among": [
+      174
+     ],
+     "students": [
+      175
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5040977889",
+       "display_name": "Sebastian Ludyga",
+       "orcid": "https://orcid.org/0000-0002-3905-7894",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3905-7894"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1850255",
+        "display_name": "University of Basel",
+        "ror": "https://ror.org/02s6k3f65",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I1850255"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Sebastian Ludyga",
+      "raw_affiliation_strings": [
+       "University of Basel"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-3905-7894",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Basel",
+        "institution_ids": [
+         "https://openalex.org/I1850255"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5036072749",
+       "display_name": "Markus Gerber",
+       "orcid": "https://orcid.org/0000-0001-6140-8948",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6140-8948"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1850255",
+        "display_name": "University of Basel",
+        "ror": "https://ror.org/02s6k3f65",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I1850255"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Markus Gerber",
+      "raw_affiliation_strings": [
+       "University of Basel"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-6140-8948",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Basel",
+        "institution_ids": [
+         "https://openalex.org/I1850255"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5016889478",
+       "display_name": "Serge Brand",
+       "orcid": "https://orcid.org/0000-0003-2175-2765",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2175-2765"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1850255",
+        "display_name": "University of Basel",
+        "ror": "https://ror.org/02s6k3f65",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I1850255"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Serge Brand",
+      "raw_affiliation_strings": [
+       "University of Basel"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Basel",
+        "institution_ids": [
+         "https://openalex.org/I1850255"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5006772284",
+       "display_name": "Uwe P\u00fchse",
+       "orcid": "https://orcid.org/0000-0003-1228-316X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1228-316X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1850255",
+        "display_name": "University of Basel",
+        "ror": "https://ror.org/02s6k3f65",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I1850255"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Uwe P\u00fchse",
+      "raw_affiliation_strings": [
+       "University of Basel"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Basel",
+        "institution_ids": [
+         "https://openalex.org/I1850255"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5086144349",
+       "display_name": "Flora Colledge",
+       "orcid": "https://orcid.org/0000-0001-5406-7276",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5406-7276"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1850255",
+        "display_name": "University of Basel",
+        "ror": "https://ror.org/02s6k3f65",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I1850255"
+        ]
+       }
+      ],
+      "countries": [
+       "CH"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Flora Colledge",
+      "raw_affiliation_strings": [
+       "University of Basel"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Basel",
+        "institution_ids": [
+         "https://openalex.org/I1850255"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1080/02701367.2018.1438575",
+     "doi": "https://doi.org/10.1080/02701367.2018.1438575",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1080/02701367.2018.1438575",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S128968821",
+      "display_name": "Research Quarterly for Exercise and Sport",
+      "issn_l": "0034-5377",
+      "issn": [
+       "0034-5377",
+       "0270-1367",
+       "1067-1315",
+       "2168-3824",
+       "2326-7399",
+       "2326-7402",
+       "2576-2583",
+       "2576-2591"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-b",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320547",
+      "host_organization_name": "Taylor & Francis",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320547",
+       "https://openalex.org/P4310320449"
+      ],
+      "host_organization_lineage_names": [
+       "Taylor & Francis",
+       "Informa"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Research Quarterly for Exercise and Sport",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W7165120957",
+    "doi": "https://doi.org/10.1177/00315125261461628",
+    "title": "Effects of Acute Exercise on Cognitive Performance in Active Young Adults: A Randomized Trial Using Online Measures",
+    "display_name": "Effects of Acute Exercise on Cognitive Performance in Active Young Adults: A Randomized Trial Using Online Measures",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "While": [
+      0
+     ],
+     "acute": [
+      1,
+      173
+     ],
+     "exercise": [
+      2,
+      11,
+      30,
+      88,
+      120,
+      164,
+      170,
+      180
+     ],
+     "enhances": [
+      3
+     ],
+     "cognitive": [
+      4,
+      22,
+      174
+     ],
+     "performance,": [
+      5
+     ],
+     "comparative": [
+      6
+     ],
+     "effects": [
+      7
+     ],
+     "of": [
+      8,
+      24,
+      162
+     ],
+     "different": [
+      9
+     ],
+     "maximal-effort": [
+      10
+     ],
+     "modalities": [
+      12
+     ],
+     "remain": [
+      13
+     ],
+     "unclear.": [
+      14
+     ],
+     "This": [
+      15
+     ],
+     "randomised": [
+      16
+     ],
+     "crossover": [
+      17
+     ],
+     "trial": [
+      18
+     ],
+     "examined": [
+      19
+     ],
+     "the": [
+      20,
+      159
+     ],
+     "differential": [
+      21
+     ],
+     "impacts": [
+      23
+     ],
+     "graded": [
+      25,
+      132,
+      145,
+      178
+     ],
+     "maximal": [
+      26,
+      179
+     ],
+     "aerobic": [
+      27,
+      163
+     ],
+     "versus": [
+      28,
+      128,
+      141
+     ],
+     "supramaximal": [
+      29,
+      87,
+      169
+     ],
+     "in": [
+      31,
+      125,
+      138,
+      181
+     ],
+     "active": [
+      32,
+      183
+     ],
+     "young": [
+      33,
+      184
+     ],
+     "adults.": [
+      34,
+      185
+     ],
+     "Forty-two": [
+      35
+     ],
+     "participants": [
+      36
+     ],
+     "(mean": [
+      37
+     ],
+     "age": [
+      38
+     ],
+     "=": [
+      39,
+      95,
+      98,
+      102,
+      110,
+      113,
+      117
+     ],
+     "24": [
+      40
+     ],
+     "\u00b1": [
+      41
+     ],
+     "2": [
+      42,
+      101,
+      116
+     ],
+     "years)": [
+      43
+     ],
+     "completed": [
+      44
+     ],
+     "a": [
+      45,
+      53
+     ],
+     "progressive": [
+      46
+     ],
+     "treadmill": [
+      47
+     ],
+     "test": [
+      48
+     ],
+     "to": [
+      49
+     ],
+     "volitional": [
+      50
+     ],
+     "exhaustion": [
+      51
+     ],
+     "and": [
+      52,
+      67,
+      75,
+      104,
+      134,
+      149,
+      165
+     ],
+     "30-s": [
+      54
+     ],
+     "Wingate": [
+      55
+     ],
+     "test,": [
+      56
+     ],
+     "separated": [
+      57
+     ],
+     "by": [
+      58
+     ],
+     "\u2265": [
+      59
+     ],
+     "24-h": [
+      60
+     ],
+     "washout.": [
+      61
+     ],
+     "Cognition": [
+      62
+     ],
+     "was": [
+      63
+     ],
+     "assessed": [
+      64
+     ],
+     "immediately": [
+      65
+     ],
+     "before": [
+      66
+     ],
+     "5": [
+      68
+     ],
+     "minutes": [
+      69
+     ],
+     "post-exercise": [
+      70
+     ],
+     "using": [
+      71
+     ],
+     "computerized": [
+      72
+     ],
+     "reaction": [
+      73,
+      91,
+      126
+     ],
+     "time": [
+      74,
+      92,
+      127
+     ],
+     "Stroop": [
+      76,
+      106,
+      140
+     ],
+     "tasks.": [
+      77
+     ],
+     "Significant": [
+      78
+     ],
+     "Time": [
+      79
+     ],
+     "\u00d7": [
+      80
+     ],
+     "Condition": [
+      81
+     ],
+     "interactions": [
+      82
+     ],
+     "revealed": [
+      83
+     ],
+     "superior": [
+      84
+     ],
+     "improvements": [
+      85
+     ],
+     "following": [
+      86
+     ],
+     "for": [
+      89,
+      131,
+      144
+     ],
+     "simple": [
+      90
+     ],
+     "(F": [
+      93,
+      108
+     ],
+     "(1,41)": [
+      94,
+      109
+     ],
+     "5.04,": [
+      96
+     ],
+     "p": [
+      97,
+      112
+     ],
+     ".030,": [
+      99
+     ],
+     "\u03b7p": [
+      100,
+      115
+     ],
+     "0.11)": [
+      103
+     ],
+     "incongruent": [
+      105,
+      139
+     ],
+     "performance": [
+      107
+     ],
+     "5.75,": [
+      111
+     ],
+     ".021,": [
+      114
+     ],
+     "0.12).": [
+      118
+     ],
+     "Supramaximal": [
+      119
+     ],
+     "produced": [
+      121
+     ],
+     "12.4": [
+      122
+     ],
+     "%": [
+      123,
+      130,
+      136,
+      143
+     ],
+     "improvement": [
+      124,
+      137
+     ],
+     "7.2": [
+      129
+     ],
+     "aerobic,": [
+      133
+     ],
+     "12.8": [
+      135
+     ],
+     "7.6": [
+      142
+     ],
+     "aerobic.": [
+      146
+     ],
+     "Congruent": [
+      147
+     ],
+     "trials": [
+      148
+     ],
+     "interference": [
+      150
+     ],
+     "scores": [
+      151
+     ],
+     "showed": [
+      152
+     ],
+     "no": [
+      153
+     ],
+     "significant": [
+      154
+     ],
+     "differences.": [
+      155
+     ],
+     "These": [
+      156
+     ],
+     "findings": [
+      157
+     ],
+     "challenge": [
+      158
+     ],
+     "assumed": [
+      160
+     ],
+     "superiority": [
+      161
+     ],
+     "demonstrate": [
+      166
+     ],
+     "that": [
+      167
+     ],
+     "brief": [
+      168
+     ],
+     "elicits": [
+      171
+     ],
+     "greater": [
+      172
+     ],
+     "benefits": [
+      175
+     ],
+     "than": [
+      176
+     ],
+     "prolonged": [
+      177
+     ],
+     "physically": [
+      182
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5117776018",
+       "display_name": "Simran Obhrai",
+       "orcid": "https://orcid.org/0009-0007-5227-9364",
+       "observed_orcids": [
+        "https://orcid.org/0009-0007-5227-9364"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165682329",
+        "display_name": "Guru Nanak Dev University",
+        "ror": "https://ror.org/05ghzpa93",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165682329"
+        ]
+       }
+      ],
+      "countries": [
+       "IN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Simran Obhrai",
+      "raw_affiliation_strings": [
+       "Guru Nanak Dev University"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0007-5227-9364",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Guru Nanak Dev University",
+        "institution_ids": [
+         "https://openalex.org/I165682329"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5013902806",
+       "display_name": "Anilendu Pramanik",
+       "orcid": "https://orcid.org/0000-0003-2001-9385",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2001-9385"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165682329",
+        "display_name": "Guru Nanak Dev University",
+        "ror": "https://ror.org/05ghzpa93",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165682329"
+        ]
+       }
+      ],
+      "countries": [
+       "IN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Anilendu Pramanik",
+      "raw_affiliation_strings": [
+       "Guru Nanak Dev University"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-2001-9385",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Guru Nanak Dev University",
+        "institution_ids": [
+         "https://openalex.org/I165682329"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5101250728",
+       "display_name": "Sohom Saha",
+       "orcid": "https://orcid.org/0009-0006-9438-1554",
+       "observed_orcids": [
+        "https://orcid.org/0009-0006-9438-1554"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1324220350",
+        "display_name": "Lakshmibai National Institute of Physical Education",
+        "ror": "https://ror.org/0272csn50",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I1324220350"
+        ]
+       }
+      ],
+      "countries": [
+       "IN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Sohom Saha",
+      "raw_affiliation_strings": [
+       "Lakshmibai National Institute of Physical Education"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0006-9438-1554",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Lakshmibai National Institute of Physical Education",
+        "institution_ids": [
+         "https://openalex.org/I1324220350"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5064609757",
+       "display_name": "Shweta Shenoy",
+       "orcid": "https://orcid.org/0000-0001-5091-5784",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5091-5784"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165682329",
+        "display_name": "Guru Nanak Dev University",
+        "ror": "https://ror.org/05ghzpa93",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165682329"
+        ]
+       }
+      ],
+      "countries": [
+       "IN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Shweta Shenoy",
+      "raw_affiliation_strings": [
+       "Guru Nanak Dev University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Guru Nanak Dev University",
+        "institution_ids": [
+         "https://openalex.org/I165682329"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5138909225",
+       "display_name": "Nishchay Sadhoo",
+       "orcid": "https://orcid.org/0009-0002-9046-613X",
+       "observed_orcids": [
+        "https://orcid.org/0009-0002-9046-613X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I165682329",
+        "display_name": "Guru Nanak Dev University",
+        "ror": "https://ror.org/05ghzpa93",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I165682329"
+        ]
+       }
+      ],
+      "countries": [
+       "IN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Nishchay Sadhoo",
+      "raw_affiliation_strings": [
+       "Guru Nanak Dev University"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0002-9046-613X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Guru Nanak Dev University",
+        "institution_ids": [
+         "https://openalex.org/I165682329"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5138915566",
+       "display_name": "S. Srinivas",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I172917736",
+        "display_name": "Christian Medical College, Vellore",
+        "ror": "https://ror.org/00c7kvd80",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I172917736"
+        ]
+       }
+      ],
+      "countries": [
+       "IN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "S. Srinivas",
+      "raw_affiliation_strings": [
+       "Department of Biostatistics, Christian Medical College Vellore"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Biostatistics, Christian Medical College Vellore",
+        "institution_ids": [
+         "https://openalex.org/I172917736"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1177/00315125261461628",
+     "doi": "https://doi.org/10.1177/00315125261461628",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1177/00315125261461628",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S110965136",
+      "display_name": "Perceptual and Motor Skills",
+      "issn_l": "0031-5125",
+      "issn": [
+       "0031-5125",
+       "1558-688X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-c",
+       "jufo-1",
+       "medline",
+       "norway-1",
+       "poland-40",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320017",
+      "host_organization_name": "SAGE Publishing",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320017"
+      ],
+      "host_organization_lineage_names": [
+       "SAGE Publishing"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Perceptual and Motor Skills",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2963991764",
+    "doi": "https://doi.org/10.1016/j.jsams.2019.07.009",
+    "title": "Effects of acute aerobic and resistance exercise on executive function: An ERP study",
+    "display_name": "Effects of acute aerobic and resistance exercise on executive function: An ERP study",
+    "publication_year": 2019,
+    "cited_by_count": 81,
+    "abstract_inverted_index": {
+     "Objectives": [
+      0
+     ],
+     "This": [
+      1
+     ],
+     "study": [
+      2
+     ],
+     "addressed": [
+      3
+     ],
+     "the": [
+      4,
+      14,
+      27,
+      32,
+      41,
+      99,
+      130,
+      135,
+      224
+     ],
+     "effects": [
+      5,
+      217
+     ],
+     "of": [
+      6,
+      17,
+      43,
+      48,
+      78,
+      91,
+      109,
+      114,
+      204,
+      227,
+      242,
+      246
+     ],
+     "acute,": [
+      7
+     ],
+     "moderate-intensity": [
+      8
+     ],
+     "aerobic": [
+      9,
+      68
+     ],
+     "and": [
+      10,
+      37,
+      45,
+      71,
+      80,
+      141,
+      157,
+      193
+     ],
+     "resistance": [
+      11,
+      72
+     ],
+     "exercise": [
+      12,
+      36,
+      69,
+      73,
+      205,
+      214,
+      247
+     ],
+     "on": [
+      13,
+      218
+     ],
+     "shifting": [
+      15
+     ],
+     "aspect": [
+      16
+     ],
+     "cognition": [
+      18
+     ],
+     "following": [
+      19
+     ],
+     "a": [
+      20
+     ],
+     "30-min": [
+      21,
+      136
+     ],
+     "recovery": [
+      22,
+      137
+     ],
+     "period.": [
+      23
+     ],
+     "It": [
+      24
+     ],
+     "also": [
+      25
+     ],
+     "explored": [
+      26
+     ],
+     "neuro-electrical": [
+      28,
+      119
+     ],
+     "activation": [
+      29,
+      120
+     ],
+     "that": [
+      30,
+      212
+     ],
+     "underlies": [
+      31
+     ],
+     "relationship": [
+      33
+     ],
+     "between": [
+      34
+     ],
+     "acute": [
+      35,
+      67,
+      213
+     ],
+     "cognitive": [
+      38,
+      219
+     ],
+     "function": [
+      39,
+      244
+     ],
+     "through": [
+      40
+     ],
+     "examination": [
+      42
+     ],
+     "P3b": [
+      44,
+      175
+     ],
+     "N1": [
+      46,
+      179
+     ],
+     "components": [
+      47
+     ],
+     "event-related": [
+      49
+     ],
+     "potentials.": [
+      50
+     ],
+     "Design": [
+      51
+     ],
+     "A": [
+      52
+     ],
+     "counterbalanced,": [
+      53
+     ],
+     "repeated-measures": [
+      54
+     ],
+     "experimental": [
+      55,
+      64
+     ],
+     "design.": [
+      56
+     ],
+     "Methods": [
+      57
+     ],
+     "Thirty-five": [
+      58
+     ],
+     "volunteer": [
+      59
+     ],
+     "young": [
+      60
+     ],
+     "adults": [
+      61
+     ],
+     "completed": [
+      62,
+      129
+     ],
+     "two": [
+      63,
+      107
+     ],
+     "sessions": [
+      65
+     ],
+     "(i.e.,": [
+      66
+     ],
+     "(AE)": [
+      70
+     ],
+     "(RE),": [
+      74
+     ],
+     "matched": [
+      75
+     ],
+     "in": [
+      76,
+      147,
+      183,
+      232,
+      240
+     ],
+     "terms": [
+      77,
+      241
+     ],
+     "intensity,": [
+      79
+     ],
+     "one": [
+      81
+     ],
+     "reading": [
+      82
+     ],
+     "session": [
+      83,
+      126
+     ],
+     "(control).": [
+      84
+     ],
+     "The": [
+      85,
+      208
+     ],
+     "AE": [
+      86,
+      140
+     ],
+     "entailed": [
+      87
+     ],
+     "cycling": [
+      88
+     ],
+     "at": [
+      89,
+      112
+     ],
+     "60\u201370%": [
+      90
+     ],
+     "maximal": [
+      92
+     ],
+     "heart": [
+      93
+     ],
+     "rate": [
+      94
+     ],
+     "reserve": [
+      95
+     ],
+     "for": [
+      96
+     ],
+     "30min.": [
+      97
+     ],
+     "In": [
+      98
+     ],
+     "RE": [
+      100,
+      142
+     ],
+     "session,": [
+      101
+     ],
+     "participants": [
+      102
+     ],
+     "performed": [
+      103
+     ],
+     "seven": [
+      104
+     ],
+     "exercises": [
+      105
+     ],
+     "with": [
+      106
+     ],
+     "sets": [
+      108
+     ],
+     "8\u201312": [
+      110
+     ],
+     "repetitions": [
+      111
+     ],
+     "70%": [
+      113
+     ],
+     "10-repetition": [
+      115
+     ],
+     "maximum.": [
+      116
+     ],
+     "Each": [
+      117
+     ],
+     "participant's": [
+      118
+     ],
+     "was": [
+      121
+     ],
+     "recorded": [
+      122
+     ],
+     "30min": [
+      123
+     ],
+     "after": [
+      124
+     ],
+     "each": [
+      125
+     ],
+     "while": [
+      127
+     ],
+     "s/he": [
+      128
+     ],
+     "task-switching": [
+      131
+     ],
+     "test.": [
+      132
+     ],
+     "Results": [
+      133
+     ],
+     "After": [
+      134
+     ],
+     "period,": [
+      138
+     ],
+     "both": [
+      139
+     ],
+     "elicited": [
+      143
+     ],
+     "shorter": [
+      144
+     ],
+     "response": [
+      145
+     ],
+     "times": [
+      146
+     ],
+     "global": [
+      148,
+      184
+     ],
+     "switching": [
+      149,
+      159,
+      185,
+      195
+     ],
+     "(": [
+      150,
+      160,
+      186,
+      196
+     ],
+     "\u03b7": [
+      151,
+      161,
+      187,
+      197
+     ],
+     "p": [
+      152,
+      162,
+      188,
+      198
+     ],
+     "2": [
+      153,
+      163,
+      189,
+      199
+     ],
+     "=": [
+      154,
+      164,
+      190,
+      200
+     ],
+     "0.24": [
+      155
+     ],
+     ")": [
+      156,
+      166,
+      192
+     ],
+     "local": [
+      158,
+      194
+     ],
+     "0.16": [
+      165,
+      201
+     ],
+     "were": [
+      167,
+      181,
+      236
+     ],
+     "observed": [
+      168
+     ],
+     "when": [
+      169
+     ],
+     "compared": [
+      170
+     ],
+     "to": [
+      171
+     ],
+     "control.": [
+      172
+     ],
+     "Additionally,": [
+      173
+     ],
+     "larger": [
+      174
+     ],
+     "amplitudes": [
+      176
+     ],
+     "(but": [
+      177
+     ],
+     "not": [
+      178
+     ],
+     "amplitudes)": [
+      180
+     ],
+     "evident": [
+      182
+     ],
+     "0.15": [
+      191
+     ],
+     "),": [
+      202
+     ],
+     "regardless": [
+      203,
+      245
+     ],
+     "modality.": [
+      206,
+      248
+     ],
+     "Conclusions": [
+      207
+     ],
+     "present": [
+      209
+     ],
+     "findings": [
+      210
+     ],
+     "suggest": [
+      211
+     ],
+     "has": [
+      215
+     ],
+     "positive": [
+      216
+     ],
+     "function.": [
+      220
+     ],
+     "Exercise-induced": [
+      221
+     ],
+     "alterations": [
+      222
+     ],
+     "during": [
+      223
+     ],
+     "later": [
+      225
+     ],
+     "stages": [
+      226
+     ],
+     "mental": [
+      228
+     ],
+     "processing": [
+      229
+     ],
+     "might": [
+      230
+     ],
+     "result": [
+      231
+     ],
+     "superior": [
+      233
+     ],
+     "performance.": [
+      234
+     ],
+     "There": [
+      235
+     ],
+     "significant": [
+      237
+     ],
+     "selective": [
+      238
+     ],
+     "benefits": [
+      239
+     ],
+     "brain": [
+      243
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5009525073",
+       "display_name": "Chih\u2010Han Wu",
+       "orcid": "https://orcid.org/0000-0002-5161-6468",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5161-6468"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I77199428",
+        "display_name": "National Taiwan Sport University",
+        "ror": "https://ror.org/01zjvhn75",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I77199428"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Chih-Han Wu",
+      "raw_affiliation_strings": [
+       "Graduate Institute of Athletics and Coaching Science, National Taiwan Sport University, Taoyuan County, Taiwan, Republic of China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Graduate Institute of Athletics and Coaching Science, National Taiwan Sport University, Taoyuan County, Taiwan, Republic of China",
+        "institution_ids": [
+         "https://openalex.org/I77199428"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5054637927",
+       "display_name": "Costas I. Karageorghis",
+       "orcid": "https://orcid.org/0000-0002-9368-0759",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9368-0759"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I59433898",
+        "display_name": "Brunel University of London",
+        "ror": "https://ror.org/00dn4t376",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I124357947",
+         "https://openalex.org/I59433898"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Costas I. Karageorghis",
+      "raw_affiliation_strings": [
+       "Department of Life Sciences, Brunel University London, Middlesex, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Life Sciences, Brunel University London, Middlesex, UK",
+        "institution_ids": [
+         "https://openalex.org/I59433898"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5027752946",
+       "display_name": "Chun-Chih Wang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I134161618",
+        "display_name": "National Taiwan Normal University",
+        "ror": "https://ror.org/059dkdx38",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I134161618"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Chun-Chih Wang",
+      "raw_affiliation_strings": [
+       "Department of Physical Education, National Taiwan Normal University, Taipei, Taiwan, Republic of China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Education, National Taiwan Normal University, Taipei, Taiwan, Republic of China",
+        "institution_ids": [
+         "https://openalex.org/I134161618"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5090858359",
+       "display_name": "Chien\u2010Heng Chu",
+       "orcid": "https://orcid.org/0000-0003-4138-1439",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4138-1439"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I134161618",
+        "display_name": "National Taiwan Normal University",
+        "ror": "https://ror.org/059dkdx38",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I134161618"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Chien-Heng Chu",
+      "raw_affiliation_strings": [
+       "Department of Physical Education, National Taiwan Normal University, Taipei, Taiwan, Republic of China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Education, National Taiwan Normal University, Taipei, Taiwan, Republic of China",
+        "institution_ids": [
+         "https://openalex.org/I134161618"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5016152082",
+       "display_name": "Shih\u2010Chun Kao",
+       "orcid": "https://orcid.org/0000-0001-8880-0851",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8880-0851"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I219193219",
+        "display_name": "Purdue University West Lafayette",
+        "ror": "https://ror.org/02dqehb95",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I219193219"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Shih-Chun Kao",
+      "raw_affiliation_strings": [
+       "Department of Health and Kinesiology, Purdue University, IN, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Health and Kinesiology, Purdue University, IN, USA",
+        "institution_ids": [
+         "https://openalex.org/I219193219"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5109372632",
+       "display_name": "Tsung\u2010Min Hung",
+       "orcid": "https://orcid.org/0000-0002-8118-0837",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8118-0837"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I134161618",
+        "display_name": "National Taiwan Normal University",
+        "ror": "https://ror.org/059dkdx38",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I134161618"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Tsung-Min Hung",
+      "raw_affiliation_strings": [
+       "Department of Physical Education, National Taiwan Normal University, Taipei, Taiwan, Republic of China; Institute for Research Excellence in Learning Science, National Taiwan Normal University, Taipei, Taiwan, Republic of China",
+       "Department of Physical Education, National Taiwan Normal University, Taipei, Taiwan, Republic of China",
+       "Institute for Research Excellence in Learning Science, National Taiwan Normal University, Taipei, Taiwan, Republic of China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Education, National Taiwan Normal University, Taipei, Taiwan, Republic of China; Institute for Research Excellence in Learning Science, National Taiwan Normal University, Taipei, Taiwan, Republic of China",
+        "institution_ids": [
+         "https://openalex.org/I134161618"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Physical Education, National Taiwan Normal University, Taipei, Taiwan, Republic of China",
+        "institution_ids": [
+         "https://openalex.org/I134161618"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Institute for Research Excellence in Learning Science, National Taiwan Normal University, Taipei, Taiwan, Republic of China",
+        "institution_ids": [
+         "https://openalex.org/I134161618"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5071488718",
+       "display_name": "Yu\u2010Kai Chang",
+       "orcid": "https://orcid.org/0000-0002-2675-5706",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2675-5706"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I134161618",
+        "display_name": "National Taiwan Normal University",
+        "ror": "https://ror.org/059dkdx38",
+        "country_code": "TW",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I134161618"
+        ]
+       }
+      ],
+      "countries": [
+       "TW"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Yu-Kai Chang",
+      "raw_affiliation_strings": [
+       "Department of Physical Education, National Taiwan Normal University, Taipei, Taiwan, Republic of China; Institute for Research Excellence in Learning Science, National Taiwan Normal University, Taipei, Taiwan, Republic of China. Electronic address: yukaichangnew@gmail.com",
+       "Department of Physical Education, National Taiwan Normal University, Taipei, Taiwan, Republic of China",
+       "Institute for Research Excellence in Learning Science, National Taiwan Normal University, Taipei, Taiwan, Republic of China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Physical Education, National Taiwan Normal University, Taipei, Taiwan, Republic of China; Institute for Research Excellence in Learning Science, National Taiwan Normal University, Taipei, Taiwan, Republic of China. Electronic address: yukaichangnew@gmail.com",
+        "institution_ids": [
+         "https://openalex.org/I134161618"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Physical Education, National Taiwan Normal University, Taipei, Taiwan, Republic of China",
+        "institution_ids": [
+         "https://openalex.org/I134161618"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Institute for Research Excellence in Learning Science, National Taiwan Normal University, Taipei, Taiwan, Republic of China",
+        "institution_ids": [
+         "https://openalex.org/I134161618"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1016/j.jsams.2019.07.009",
+     "doi": "https://doi.org/10.1016/j.jsams.2019.07.009",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1016/j.jsams.2019.07.009",
+     "pdf_url": "http://www.jsams.org/article/S1440244019304177/pdf",
+     "source": {
+      "id": "https://openalex.org/S150894996",
+      "display_name": "Journal of science and medicine in sport",
+      "issn_l": "1878-1861",
+      "issn": [
+       "1878-1861",
+       "1440-2440"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-b",
+       "doyens",
+       "jufo-2",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+       "Elsevier BV"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Science and Medicine in Sport",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2293391519",
+    "doi": "https://doi.org/10.1123/japa.2015-0097",
+    "title": "An Acute Bout of Exercise Improves the Cognitive Performance of Older Adults",
+    "display_name": "An Acute Bout of Exercise Improves the Cognitive Performance of Older Adults",
+    "publication_year": 2016,
+    "cited_by_count": 83,
+    "abstract_inverted_index": {
+     "There": [
+      0
+     ],
+     "is": [
+      1,
+      14,
+      25
+     ],
+     "evidence": [
+      2
+     ],
+     "that": [
+      3,
+      106,
+      123
+     ],
+     "an": [
+      4,
+      124
+     ],
+     "acute": [
+      5,
+      125
+     ],
+     "bout": [
+      6,
+      126
+     ],
+     "of": [
+      7,
+      23,
+      40,
+      72,
+      86,
+      90,
+      111,
+      127,
+      141
+     ],
+     "exercise": [
+      8,
+      24,
+      66,
+      107,
+      128
+     ],
+     "confers": [
+      9
+     ],
+     "cognitive": [
+      10,
+      28,
+      38,
+      131
+     ],
+     "benefits,": [
+      11
+     ],
+     "but": [
+      12
+     ],
+     "it": [
+      13
+     ],
+     "largely": [
+      15
+     ],
+     "unknown": [
+      16
+     ],
+     "what": [
+      17
+     ],
+     "the": [
+      18,
+      37,
+      45,
+      92,
+      96,
+      109,
+      112,
+      136
+     ],
+     "optimal": [
+      19
+     ],
+     "mode": [
+      20,
+      87
+     ],
+     "and": [
+      21,
+      26,
+      51,
+      54,
+      60,
+      70,
+      79
+     ],
+     "duration": [
+      22,
+      89
+     ],
+     "how": [
+      27
+     ],
+     "performance": [
+      29,
+      39,
+      110,
+      132
+     ],
+     "changes": [
+      30
+     ],
+     "over": [
+      31
+     ],
+     "time": [
+      32
+     ],
+     "after": [
+      33,
+      57,
+      80
+     ],
+     "exercise.": [
+      34,
+      81
+     ],
+     "We": [
+      35,
+      82,
+      102
+     ],
+     "compared": [
+      36
+     ],
+     "31": [
+      41
+     ],
+     "older": [
+      42,
+      142
+     ],
+     "adults": [
+      43
+     ],
+     "using": [
+      44
+     ],
+     "Stroop": [
+      46,
+      97,
+      113,
+      116
+     ],
+     "test": [
+      47
+     ],
+     "before,": [
+      48,
+      77
+     ],
+     "immediately": [
+      49,
+      100
+     ],
+     "after,": [
+      50
+     ],
+     "at": [
+      52
+     ],
+     "30": [
+      53,
+      61
+     ],
+     "60": [
+      55
+     ],
+     "min": [
+      56,
+      62
+     ],
+     "a": [
+      58
+     ],
+     "10": [
+      59
+     ],
+     "aerobic": [
+      63
+     ],
+     "or": [
+      64,
+      88,
+      115
+     ],
+     "resistance": [
+      65
+     ],
+     "session.": [
+      67
+     ],
+     "Heart": [
+      68
+     ],
+     "rate": [
+      69
+     ],
+     "feelings": [
+      71
+     ],
+     "arousal": [
+      73
+     ],
+     "were": [
+      74
+     ],
+     "also": [
+      75
+     ],
+     "measured": [
+      76
+     ],
+     "during,": [
+      78
+     ],
+     "found": [
+      83
+     ],
+     "that,": [
+      84
+     ],
+     "independent": [
+      85
+     ],
+     "exercise,": [
+      91
+     ],
+     "participants": [
+      93
+     ],
+     "improved": [
+      94
+     ],
+     "in": [
+      95,
+      134
+     ],
+     "Inhibition": [
+      98
+     ],
+     "task": [
+      99
+     ],
+     "postexercise.": [
+      101
+     ],
+     "did": [
+      103
+     ],
+     "not": [
+      104
+     ],
+     "find": [
+      105
+     ],
+     "influenced": [
+      108
+     ],
+     "Color": [
+      114
+     ],
+     "Word": [
+      117
+     ],
+     "Interference": [
+      118
+     ],
+     "tasks.": [
+      119
+     ],
+     "Our": [
+      120
+     ],
+     "findings": [
+      121
+     ],
+     "suggest": [
+      122
+     ],
+     "can": [
+      129
+     ],
+     "improve": [
+      130
+     ],
+     "and,": [
+      133
+     ],
+     "particular,": [
+      135
+     ],
+     "more": [
+      137
+     ],
+     "complex": [
+      138
+     ],
+     "executive": [
+      139
+     ],
+     "functioning": [
+      140
+     ],
+     "adults.": [
+      143
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5036943109",
+       "display_name": "Liam G Johnson",
+       "orcid": "https://orcid.org/0000-0002-4916-049X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4916-049X"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Liam Johnson",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5047454264",
+       "display_name": "Patricia K. Addamo",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Patricia K. Addamo",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5025815177",
+       "display_name": "Isaac Selva Raj",
+       "orcid": "https://orcid.org/0000-0002-8448-9936",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8448-9936"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Isaac Selva Raj",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5014045351",
+       "display_name": "Erika Borkoles",
+       "orcid": "https://orcid.org/0000-0002-7807-8890",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-7807-8890"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Erika Borkoles",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5064060067",
+       "display_name": "Victoria L. Wyckelsma",
+       "orcid": "https://orcid.org/0000-0001-6921-4638",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6921-4638"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Victoria Wyckelsma",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5050776389",
+       "display_name": "Elizabeth Cyarto",
+       "orcid": "https://orcid.org/0000-0001-9327-1763",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9327-1763"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Elizabeth Cyarto",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5019897192",
+       "display_name": "Remco C. J. Polman",
+       "orcid": "https://orcid.org/0000-0003-2951-0904",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2951-0904"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Remco C. Polman",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1123/japa.2015-0097",
+     "doi": "https://doi.org/10.1123/japa.2015-0097",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1123/japa.2015-0097",
+     "pdf_url": "https://journals.humankinetics.com/downloadpdf/journals/japa/24/4/article-p591.pdf",
+     "source": {
+      "id": "https://openalex.org/S49185410",
+      "display_name": "Journal of Aging and Physical Activity",
+      "issn_l": "1063-8652",
+      "issn": [
+       "1063-8652",
+       "1543-267X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-d",
+       "doyens",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310322142",
+      "host_organization_name": "Human Kinetics",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310322142"
+      ],
+      "host_organization_lineage_names": [
+       "Human Kinetics"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Aging and Physical Activity",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

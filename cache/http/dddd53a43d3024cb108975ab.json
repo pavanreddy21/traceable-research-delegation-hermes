@@ -1,0 +1,4897 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 2147,
+   "db_response_time_ms": 100,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (feedback spacing retrieval practice retention) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (feedback spacing retrieval practice retention) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "feedback spacing retrieval practice retention",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:feedback spacing retrieval practice retention,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2888571438",
+    "doi": "https://doi.org/10.1055/s-0038-1666983",
+    "title": "Planning Education for Long-Term Retention: The Cognitive Science and Implementation of Retrieval Practice",
+    "display_name": "Planning Education for Long-Term Retention: The Cognitive Science and Implementation of Retrieval Practice",
+    "publication_year": 2018,
+    "cited_by_count": 68,
+    "abstract_inverted_index": {
+     "Educational": [
+      0
+     ],
+     "systems": [
+      1
+     ],
+     "are": [
+      2,
+      48,
+      54,
+      62,
+      68
+     ],
+     "rarely": [
+      3
+     ],
+     "designed": [
+      4
+     ],
+     "for": [
+      5,
+      97,
+      150
+     ],
+     "long-term": [
+      6
+     ],
+     "retention": [
+      7,
+      28
+     ],
+     "of": [
+      8,
+      24,
+      40,
+      88,
+      93,
+      105,
+      137,
+      153
+     ],
+     "information.": [
+      9
+     ],
+     "Strong": [
+      10
+     ],
+     "evidence": [
+      11
+     ],
+     "has": [
+      12
+     ],
+     "emerged": [
+      13
+     ],
+     "from": [
+      14,
+      37,
+      127
+     ],
+     "cognitive": [
+      15
+     ],
+     "psychology": [
+      16
+     ],
+     "and": [
+      17,
+      43,
+      46,
+      64,
+      70,
+      102,
+      122
+     ],
+     "applied": [
+      18
+     ],
+     "education": [
+      19
+     ],
+     "studies": [
+      20
+     ],
+     "that": [
+      21,
+      61,
+      145
+     ],
+     "repeated": [
+      22,
+      31
+     ],
+     "retrieval": [
+      23,
+      75,
+      94,
+      106,
+      120,
+      131,
+      138
+     ],
+     "information": [
+      25,
+      149
+     ],
+     "significantly": [
+      26
+     ],
+     "improves": [
+      27
+     ],
+     "compared": [
+      29
+     ],
+     "to": [
+      30,
+      85,
+      99,
+      111,
+      118,
+      125,
+      129
+     ],
+     "studying.": [
+      32
+     ],
+     "This": [
+      33
+     ],
+     "effect": [
+      34
+     ],
+     "likely": [
+      35
+     ],
+     "emerges": [
+      36
+     ],
+     "the": [
+      38,
+      49,
+      135,
+      143
+     ],
+     "processes": [
+      39
+     ],
+     "memory": [
+      41
+     ],
+     "consolidation": [
+      42
+     ],
+     "reconsolidation.": [
+      44
+     ],
+     "Consolidation": [
+      45
+     ],
+     "reconsolidation": [
+      47
+     ],
+     "means": [
+      50
+     ],
+     "by": [
+      51
+     ],
+     "which": [
+      52
+     ],
+     "memories": [
+      53,
+      67
+     ],
+     "organized": [
+      55
+     ],
+     "into": [
+      56
+     ],
+     "associational": [
+      57
+     ],
+     "networks": [
+      58
+     ],
+     "or": [
+      59
+     ],
+     "schemas": [
+      60,
+      98,
+      110
+     ],
+     "created": [
+      63
+     ],
+     "recreated": [
+      65
+     ],
+     "as": [
+      66
+     ],
+     "formed": [
+      69
+     ],
+     "recalled.": [
+      71
+     ],
+     "As": [
+      72
+     ],
+     "educators": [
+      73,
+      140
+     ],
+     "implement": [
+      74
+     ],
+     "practice,": [
+      76,
+      139
+     ],
+     "they": [
+      77
+     ],
+     "should": [
+      78
+     ],
+     "consider": [
+      79
+     ],
+     "how": [
+      80
+     ],
+     "various": [
+      81
+     ],
+     "test": [
+      82
+     ],
+     "formats": [
+      83
+     ],
+     "lead": [
+      84,
+      124
+     ],
+     "different": [
+      86
+     ],
+     "degrees": [
+      87
+     ],
+     "schema": [
+      89
+     ],
+     "activation.": [
+      90
+     ],
+     "Repeated": [
+      91
+     ],
+     "acts": [
+      92
+     ],
+     "provide": [
+      95
+     ],
+     "opportunities": [
+      96
+     ],
+     "be": [
+      100,
+      112
+     ],
+     "updated": [
+      101
+     ],
+     "strengthened.": [
+      103
+     ],
+     "Spacing": [
+      104
+     ],
+     "allows": [
+      107
+     ],
+     "more": [
+      108
+     ],
+     "consolidated": [
+      109
+     ],
+     "reactivated.": [
+      113
+     ],
+     "Feedback": [
+      114
+     ],
+     "provides": [
+      115
+     ],
+     "metacognitive": [
+      116
+     ],
+     "monitoring": [
+      117
+     ],
+     "ensure": [
+      119
+     ],
+     "accuracy": [
+      121
+     ],
+     "can": [
+      123,
+      141
+     ],
+     "shifts": [
+      126
+     ],
+     "ineffective": [
+      128
+     ],
+     "effective": [
+      130
+     ],
+     "strategies.": [
+      132
+     ],
+     "By": [
+      133
+     ],
+     "using": [
+      134
+     ],
+     "principles": [
+      136
+     ],
+     "improve": [
+      142
+     ],
+     "likelihood": [
+      144
+     ],
+     "learners": [
+      146
+     ],
+     "will": [
+      147
+     ],
+     "retain": [
+      148
+     ],
+     "longer": [
+      151
+     ],
+     "periods": [
+      152
+     ],
+     "time.": [
+      154
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5052187797",
+       "display_name": "Douglas P. Larsen",
+       "orcid": "https://orcid.org/0000-0003-1392-0626",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1392-0626"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204465549",
+        "display_name": "Washington University in St. Louis",
+        "ror": "https://ror.org/01yc7t268",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Douglas Larsen",
+      "raw_affiliation_strings": [
+       "Department of Neurology, Washington University School of Medicine, Washington University in St. Louis, St. Louis, Missouri"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neurology, Washington University School of Medicine, Washington University in St. Louis, St. Louis, Missouri",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1055/s-0038-1666983",
+     "doi": "https://doi.org/10.1055/s-0038-1666983",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1055/s-0038-1666983",
+     "pdf_url": "http://www.thieme-connect.de/products/ejournals/pdf/10.1055/s-0038-1666983.pdf",
+     "source": {
+      "id": "https://openalex.org/S144243704",
+      "display_name": "Seminars in Neurology",
+      "issn_l": "0271-8235",
+      "issn": [
+       "0271-8235",
+       "1098-9021"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doyens",
+       "jufo-1",
+       "medline",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2"
+      ],
+      "host_organization": "https://openalex.org/P4310320000",
+      "host_organization_name": "Thieme Medical Publishers (Germany)",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320000"
+      ],
+      "host_organization_lineage_names": [
+       "Thieme Medical Publishers (Germany)"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Seminars in Neurology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2620662646",
+    "doi": "https://doi.org/10.3389/conf.fpsyg.2015.65.00083",
+    "title": "Towards a Theory of Learning for Naming Rehabilitation: Retrieval Practice, Retrieval Effort, and Spacing Effects",
+    "display_name": "Towards a Theory of Learning for Naming Rehabilitation: Retrieval Practice, Retrieval Effort, and Spacing Effects",
+    "publication_year": 2015,
+    "cited_by_count": 1,
+    "abstract_inverted_index": {
+     "Background.": [
+      0
+     ],
+     "Rehabilitation": [
+      1
+     ],
+     "practices": [
+      2
+     ],
+     "can": [
+      3
+     ],
+     "benefit": [
+      4
+     ],
+     "from": [
+      5,
+      57,
+      163
+     ],
+     "learning": [
+      6,
+      32,
+      79,
+      189,
+      455
+     ],
+     "theories": [
+      7
+     ],
+     "that": [
+      8,
+      36,
+      50,
+      101,
+      297,
+      380,
+      437
+     ],
+     "have": [
+      9
+     ],
+     "the": [
+      10,
+      13,
+      75,
+      117,
+      120,
+      127,
+      154,
+      159,
+      223,
+      235,
+      289,
+      315,
+      321,
+      324,
+      334,
+      344,
+      371,
+      381,
+      394,
+      429,
+      433,
+      466
+     ],
+     "potential": [
+      11
+     ],
+     "illuminate": [
+      12
+     ],
+     "mechanism": [
+      14
+     ],
+     "of": [
+      15,
+      17,
+      31,
+      55,
+      119,
+      129,
+      153,
+      180,
+      206,
+      209,
+      240,
+      254,
+      256,
+      268,
+      291,
+      302,
+      370,
+      428,
+      465,
+      468
+     ],
+     "action": [
+      16
+     ],
+     "conventional": [
+      18
+     ],
+     "treatments.": [
+      19
+     ],
+     "This": [
+      20
+     ],
+     "study": [
+      21,
+      122,
+      461
+     ],
+     "sought": [
+      22
+     ],
+     "to": [
+      23,
+      74,
+      78,
+      147,
+      203,
+      288,
+      367,
+      412
+     ],
+     "establish": [
+      24
+     ],
+     "an": [
+      25,
+      148,
+      303
+     ],
+     "empirical": [
+      26
+     ],
+     "foundation": [
+      27
+     ],
+     "for": [
+      28,
+      33,
+      84,
+      156,
+      161,
+      232,
+      294,
+      305,
+      475
+     ],
+     "a": [
+      29,
+      133,
+      204,
+      238,
+      251,
+      266,
+      272,
+      312,
+      330,
+      354,
+      362
+     ],
+     "theory": [
+      30
+     ],
+     "naming": [
+      34,
+      107,
+      196,
+      331,
+      351,
+      382,
+      434
+     ],
+     "rehabilitation": [
+      35
+     ],
+     "is": [
+      37,
+      68,
+      175
+     ],
+     "centered": [
+      38
+     ],
+     "on": [
+      39,
+      115,
+      353
+     ],
+     "retrieval": [
+      40,
+      42,
+      51,
+      56,
+      67,
+      102,
+      130,
+      144,
+      162,
+      170,
+      173,
+      306,
+      442,
+      469,
+      471
+     ],
+     "practice,": [
+      41,
+      470
+     ],
+     "effort,": [
+      43,
+      472
+     ],
+     "and": [
+      44,
+      62,
+      199,
+      265,
+      277,
+      284,
+      320,
+      398,
+      419,
+      473,
+      482
+     ],
+     "spacing.": [
+      45
+     ],
+     "Psychological": [
+      46
+     ],
+     "research": [
+      47
+     ],
+     "has": [
+      48
+     ],
+     "shown": [
+      49
+     ],
+     "practice": [
+      52,
+      103,
+      131,
+      145,
+      174,
+      259,
+      307,
+      443
+     ],
+     "(the": [
+      53
+     ],
+     "act": [
+      54
+     ],
+     "long-term": [
+      58,
+      164
+     ],
+     "memory)": [
+      59
+     ],
+     "confers": [
+      60,
+      187
+     ],
+     "powerful": [
+      61,
+      454
+     ],
+     "persistent": [
+      63
+     ],
+     "learning,": [
+      64,
+      262
+     ],
+     "particularly": [
+      65
+     ],
+     "when": [
+      66,
+      80
+     ],
+     "effortful.": [
+      69
+     ],
+     "The": [
+      70,
+      248,
+      459
+     ],
+     "spacing": [
+      71,
+      186,
+      474
+     ],
+     "effect": [
+      72
+     ],
+     "refers": [
+      73
+     ],
+     "ubiquitous": [
+      76
+     ],
+     "advantage": [
+      77
+     ],
+     "repeated": [
+      81,
+      323
+     ],
+     "training": [
+      82,
+      146,
+      181,
+      257,
+      292,
+      407
+     ],
+     "opportunities": [
+      83
+     ],
+     "individual": [
+      85
+     ],
+     "items": [
+      86,
+      222,
+      243,
+      296
+     ],
+     "are": [
+      87
+     ],
+     "distributed": [
+      88
+     ],
+     "over": [
+      89,
+      214,
+      389
+     ],
+     "time,": [
+      90
+     ],
+     "rather": [
+      91
+     ],
+     "than": [
+      92,
+      190
+     ],
+     "massed.": [
+      93
+     ],
+     "In": [
+      94
+     ],
+     "our": [
+      95
+     ],
+     "prior": [
+      96
+     ],
+     "work": [
+      97
+     ],
+     "[1],": [
+      98
+     ],
+     "we": [
+      99,
+      220
+     ],
+     "found": [
+      100
+     ],
+     "improved": [
+      104
+     ],
+     "common": [
+      105
+     ],
+     "object": [
+      106
+     ],
+     "in": [
+      108,
+      132,
+      140,
+      341,
+      432,
+      485
+     ],
+     "people": [
+      109
+     ],
+     "with": [
+      110,
+      177,
+      195,
+      237,
+      361,
+      386
+     ],
+     "chronic": [
+      111
+     ],
+     "aphasia": [
+      112
+     ],
+     "(PWA).": [
+      113
+     ],
+     "Building": [
+      114
+     ],
+     "this,": [
+      116
+     ],
+     "goals": [
+      118
+     ],
+     "present": [
+      121,
+      460
+     ],
+     "were": [
+      123
+     ],
+     "to:": [
+      124
+     ],
+     "(1)": [
+      125
+     ],
+     "investigate": [
+      126
+     ],
+     "impact": [
+      128
+     ],
+     "new": [
+      134
+     ],
+     "performance": [
+      135,
+      352,
+      388
+     ],
+     "domain": [
+      136
+     ],
+     "(proper": [
+      137
+     ],
+     "noun": [
+      138,
+      211
+     ],
+     "naming)": [
+      139
+     ],
+     "PWA": [
+      141,
+      194
+     ],
+     "by": [
+      142
+     ],
+     "comparing": [
+      143
+     ],
+     "\u201cerrorless\u201d": [
+      149
+     ],
+     "condition": [
+      150,
+      245,
+      274,
+      383,
+      435
+     ],
+     "where": [
+      151
+     ],
+     "presentation": [
+      152
+     ],
+     "name": [
+      155,
+      231,
+      316,
+      325,
+      345
+     ],
+     "repetition": [
+      157,
+      309,
+      313
+     ],
+     "averted": [
+      158
+     ],
+     "need": [
+      160
+     ],
+     "memory;": [
+      165
+     ],
+     "(2)": [
+      166
+     ],
+     "determine": [
+      167,
+      184
+     ],
+     "whether": [
+      168,
+      185
+     ],
+     "greater": [
+      169,
+      178
+     ],
+     "effort": [
+      171
+     ],
+     "during": [
+      172,
+      448
+     ],
+     "associated": [
+      176,
+      385
+     ],
+     "retention": [
+      179,
+      355,
+      395,
+      416,
+      457
+     ],
+     "benefits;": [
+      182
+     ],
+     "(3)": [
+      183
+     ],
+     "longer-lasting": [
+      188
+     ],
+     "massing.": [
+      191
+     ],
+     "Methods.": [
+      192
+     ],
+     "Four": [
+      193
+     ],
+     "impairment": [
+      197
+     ],
+     "named": [
+      198
+     ],
+     "gave": [
+      200
+     ],
+     "familiarity": [
+      201
+     ],
+     "ratings": [
+      202
+     ],
+     "corpus": [
+      205
+     ],
+     "700": [
+      207
+     ],
+     "pictures": [
+      208
+     ],
+     "proper": [
+      210
+     ],
+     "entities": [
+      212
+     ],
+     "twice": [
+      213
+     ],
+     "two": [
+      215
+     ],
+     "weeks.": [
+      216
+     ],
+     "For": [
+      217
+     ],
+     "each": [
+      218
+     ],
+     "participant,": [
+      219
+     ],
+     "selected": [
+      221
+     ],
+     "participant": [
+      224,
+      322
+     ],
+     "knew": [
+      225
+     ],
+     "recognized": [
+      226
+     ],
+     "but": [
+      227
+     ],
+     "could": [
+      228
+     ],
+     "not": [
+      229
+     ],
+     "consistently": [
+      230
+     ],
+     "assignment": [
+      233
+     ],
+     "into": [
+      234
+     ],
+     "conditions,": [
+      236
+     ],
+     "minimum": [
+      239
+     ],
+     "36": [
+      241
+     ],
+     "(max=72)": [
+      242
+     ],
+     "per": [
+      244
+     ],
+     "across": [
+      246
+     ],
+     "participants.": [
+      247
+     ],
+     "design": [
+      249
+     ],
+     "involved": [
+      250
+     ],
+     "2-level": [
+      252
+     ],
+     "factor": [
+      253,
+      267
+     ],
+     "type": [
+      255
+     ],
+     "(retrieval": [
+      258
+     ],
+     "versus": [
+      260
+     ],
+     "errorless": [
+      261
+     ],
+     "i.e.,": [
+      263
+     ],
+     "repetition)": [
+      264
+     ],
+     "spacing,": [
+      269
+     ],
+     "which": [
+      270
+     ],
+     "included": [
+      271
+     ],
+     "massed": [
+      273
+     ],
+     "(lag": [
+      275
+     ],
+     "1)": [
+      276
+     ],
+     "three": [
+      278,
+      300
+     ],
+     "spaced": [
+      279,
+      406,
+      430
+     ],
+     "conditions": [
+      280
+     ],
+     "(lags": [
+      281
+     ],
+     "5,": [
+      282
+     ],
+     "15,": [
+      283
+     ],
+     "30).": [
+      285
+     ],
+     "Lag": [
+      286
+     ],
+     "corresponded": [
+      287
+     ],
+     "number": [
+      290
+     ],
+     "trials": [
+      293,
+      339
+     ],
+     "other": [
+      295
+     ],
+     "intervened": [
+      298
+     ],
+     "between": [
+      299
+     ],
+     "presentations": [
+      301
+     ],
+     "item": [
+      304
+     ],
+     "or": [
+      308
+     ],
+     "training.": [
+      310
+     ],
+     "On": [
+      311,
+      329
+     ],
+     "trial,": [
+      314,
+      332
+     ],
+     "was": [
+      317,
+      336,
+      346,
+      350,
+      384
+     ],
+     "presented": [
+      318
+     ],
+     "(seen/heard)": [
+      319
+     ],
+     "at": [
+      326,
+      393,
+      415,
+      456
+     ],
+     "picture": [
+      327,
+      335
+     ],
+     "onset.": [
+      328
+     ],
+     "only": [
+      333
+     ],
+     "presented.": [
+      337
+     ],
+     "All": [
+      338
+     ],
+     "ended": [
+      340
+     ],
+     "feedback": [
+      342
+     ],
+     "(i.e.,": [
+      343,
+      446
+     ],
+     "presented).": [
+      347
+     ],
+     "Primary": [
+      348
+     ],
+     "outcome": [
+      349
+     ],
+     "test": [
+      356,
+      365,
+      396,
+      417
+     ],
+     "administered": [
+      357,
+      366
+     ],
+     "1-day": [
+      358
+     ],
+     "following": [
+      359
+     ],
+     "training,": [
+      360,
+      449
+     ],
+     "1-week": [
+      363
+     ],
+     "follow-up": [
+      364,
+      399,
+      420
+     ],
+     "measure": [
+      368
+     ],
+     "persistence": [
+      369
+     ],
+     "effects.": [
+      372
+     ],
+     "Results": [
+      373
+     ],
+     "&": [
+      374
+     ],
+     "Conclusions.": [
+      375
+     ],
+     "Mixed": [
+      376
+     ],
+     "regression": [
+      377
+     ],
+     "analyses": [
+      378
+     ],
+     "revealed": [
+      379,
+      436
+     ],
+     "superior": [
+      387,
+      409
+     ],
+     "repetition,": [
+      390
+     ],
+     "observed": [
+      391
+     ],
+     "both": [
+      392,
+      414
+     ],
+     "(p=.001)": [
+      397
+     ],
+     "(p=.01;": [
+      400
+     ],
+     "Figure": [
+      401,
+      422
+     ],
+     "1,": [
+      402,
+      423
+     ],
+     "left": [
+      403
+     ],
+     "panel).": [
+      404,
+      425
+     ],
+     "Also,": [
+      405
+     ],
+     "conferred": [
+      408,
+      452
+     ],
+     "benefits": [
+      410
+     ],
+     "compared": [
+      411
+     ],
+     "massed,": [
+      413
+     ],
+     "(p<.001)": [
+      418
+     ],
+     "(p=.006;": [
+      421
+     ],
+     "right": [
+      424
+     ],
+     "An": [
+      426
+     ],
+     "analysis": [
+      427
+     ],
+     "lags": [
+      431
+     ],
+     "though": [
+      438
+     ],
+     "increasing": [
+      439,
+      450
+     ],
+     "lag": [
+      440,
+      451
+     ],
+     "made": [
+      441
+     ],
+     "more": [
+      444,
+      453
+     ],
+     "effortful": [
+      445
+     ],
+     "error-prone)": [
+      447
+     ],
+     "test.": [
+      458
+     ],
+     "provides": [
+      462
+     ],
+     "definitive": [
+      463
+     ],
+     "evidence": [
+      464
+     ],
+     "relevance": [
+      467
+     ],
+     "optimizing": [
+      476
+     ],
+     "existing": [
+      477
+     ],
+     "treatments,": [
+      478
+     ],
+     "their": [
+      479,
+      483
+     ],
+     "explanatory": [
+      480
+     ],
+     "power,": [
+      481
+     ],
+     "importance": [
+      484
+     ],
+     "driving": [
+      486
+     ],
+     "future": [
+      487
+     ],
+     "research.": [
+      488
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": null,
+       "display_name": "Middleton Erica",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210130007",
+        "display_name": "Moss Rehabilitation Hospital",
+        "ror": "https://ror.org/039q6xk02",
+        "country_code": "US",
+        "type": "healthcare",
+        "lineage": [
+         "https://openalex.org/I4210111876",
+         "https://openalex.org/I4210130007"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Middleton Erica",
+      "raw_affiliation_strings": [
+       "Moss Rehabilitation Research Institute"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Moss Rehabilitation Research Institute",
+        "institution_ids": [
+         "https://openalex.org/I4210130007"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": null,
+       "display_name": "Traut Hilary",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Traut Hilary",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/conf.fpsyg.2015.65.00083",
+     "doi": "https://doi.org/10.3389/conf.fpsyg.2015.65.00083",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/conf.fpsyg.2015.65.00083",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2169419728",
+    "doi": "https://doi.org/10.1111/j.1467-9280.2008.02209.x",
+    "title": "Spacing Effects in Learning: A Temporal Ridgeline of Optimal Retention",
+    "display_name": "Spacing Effects in Learning: A Temporal Ridgeline of Optimal Retention",
+    "publication_year": 2008,
+    "cited_by_count": 829,
+    "abstract_inverted_index": {
+     "To": [
+      0
+     ],
+     "achieve": [
+      1
+     ],
+     "enduring": [
+      2
+     ],
+     "retention,": [
+      3
+     ],
+     "people": [
+      4
+     ],
+     "must": [
+      5
+     ],
+     "usually": [
+      6,
+      32
+     ],
+     "study": [
+      7,
+      17,
+      40
+     ],
+     "information": [
+      8
+     ],
+     "on": [
+      9
+     ],
+     "multiple": [
+      10
+     ],
+     "occasions.": [
+      11
+     ],
+     "How": [
+      12
+     ],
+     "does": [
+      13
+     ],
+     "the": [
+      14,
+      91,
+      121
+     ],
+     "timing": [
+      15
+     ],
+     "of": [
+      16,
+      57,
+      62,
+      78,
+      118,
+      130,
+      140,
+      147
+     ],
+     "events": [
+      18
+     ],
+     "affect": [
+      19
+     ],
+     "retention?": [
+      20
+     ],
+     "Prior": [
+      21
+     ],
+     "research": [
+      22
+     ],
+     "has": [
+      23
+     ],
+     "examined": [
+      24
+     ],
+     "this": [
+      25
+     ],
+     "issue": [
+      26
+     ],
+     "only": [
+      27
+     ],
+     "in": [
+      28,
+      90
+     ],
+     "a": [
+      29,
+      39,
+      55,
+      60,
+      67,
+      75,
+      116,
+      131,
+      141
+     ],
+     "spotty": [
+      30
+     ],
+     "fashion,": [
+      31
+     ],
+     "with": [
+      33
+     ],
+     "very": [
+      34
+     ],
+     "short": [
+      35
+     ],
+     "time": [
+      36
+     ],
+     "intervals.": [
+      37
+     ],
+     "In": [
+      38
+     ],
+     "aimed": [
+      41
+     ],
+     "at": [
+      42,
+      74,
+      94
+     ],
+     "characterizing": [
+      43
+     ],
+     "spacing": [
+      44
+     ],
+     "effects": [
+      45
+     ],
+     "over": [
+      46
+     ],
+     "significant": [
+      47
+     ],
+     "durations,": [
+      48
+     ],
+     "more": [
+      49
+     ],
+     "than": [
+      50
+     ],
+     "1,350": [
+      51
+     ],
+     "individuals": [
+      52
+     ],
+     "were": [
+      53
+     ],
+     "taught": [
+      54
+     ],
+     "set": [
+      56
+     ],
+     "facts": [
+      58
+     ],
+     "and--after": [
+      59
+     ],
+     "gap": [
+      61,
+      93,
+      106,
+      123,
+      148
+     ],
+     "up": [
+      63,
+      79
+     ],
+     "to": [
+      64,
+      80,
+      128,
+      135,
+      138
+     ],
+     "3.5": [
+      65
+     ],
+     "months--given": [
+      66
+     ],
+     "review.": [
+      68
+     ],
+     "A": [
+      69
+     ],
+     "final": [
+      70,
+      101
+     ],
+     "test": [
+      71,
+      86,
+      102,
+      109,
+      119,
+      133,
+      143,
+      150
+     ],
+     "was": [
+      72
+     ],
+     "administered": [
+      73
+     ],
+     "further": [
+      76
+     ],
+     "delay": [
+      77,
+      110,
+      134,
+      151
+     ],
+     "1": [
+      81
+     ],
+     "year.": [
+      82
+     ],
+     "At": [
+      83
+     ],
+     "any": [
+      84
+     ],
+     "given": [
+      85
+     ],
+     "delay,": [
+      87,
+      120
+     ],
+     "an": [
+      88
+     ],
+     "increase": [
+      89
+     ],
+     "interstudy": [
+      92
+     ],
+     "first": [
+      95
+     ],
+     "increased,": [
+      96
+     ],
+     "and": [
+      97,
+      149
+     ],
+     "then": [
+      98
+     ],
+     "gradually": [
+      99
+     ],
+     "reduced,": [
+      100
+     ],
+     "performance.": [
+      103
+     ],
+     "The": [
+      104,
+      145
+     ],
+     "optimal": [
+      105,
+      122
+     ],
+     "increased": [
+      107
+     ],
+     "as": [
+      108,
+      115
+     ],
+     "increased.": [
+      111
+     ],
+     "However,": [
+      112
+     ],
+     "when": [
+      113
+     ],
+     "measured": [
+      114
+     ],
+     "proportion": [
+      117
+     ],
+     "declined": [
+      124
+     ],
+     "from": [
+      125
+     ],
+     "about": [
+      126,
+      136
+     ],
+     "20": [
+      127
+     ],
+     "40%": [
+      129
+     ],
+     "1-week": [
+      132
+     ],
+     "5": [
+      137
+     ],
+     "10%": [
+      139
+     ],
+     "1-year": [
+      142
+     ],
+     "delay.": [
+      144
+     ],
+     "interaction": [
+      146
+     ],
+     "implies": [
+      152
+     ],
+     "that": [
+      153
+     ],
+     "many": [
+      154
+     ],
+     "educational": [
+      155
+     ],
+     "practices": [
+      156
+     ],
+     "are": [
+      157
+     ],
+     "highly": [
+      158
+     ],
+     "inefficient.": [
+      159
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5071554223",
+       "display_name": "Nicholas J. Cepeda",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I192455969",
+        "display_name": "York University",
+        "ror": "https://ror.org/05fq50484",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I192455969"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "CA",
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Nicholas J. Cepeda",
+      "raw_affiliation_strings": [
+       "University of California, San Diego",
+       "York University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of California, San Diego",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "raw_affiliation_string": "York University",
+        "institution_ids": [
+         "https://openalex.org/I192455969"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5090905459",
+       "display_name": "Edward Vul",
+       "orcid": "https://orcid.org/0000-0002-6217-1273",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6217-1273"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I63966007",
+        "display_name": "Massachusetts Institute of Technology",
+        "ror": "https://ror.org/042nb2s44",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I63966007"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Edward Vul",
+      "raw_affiliation_strings": [
+       "Massachusetts Institute of Technology",
+       "University of California, San Diego"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Massachusetts Institute of Technology",
+        "institution_ids": [
+         "https://openalex.org/I63966007"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of California, San Diego",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5038433616",
+       "display_name": "Doug Rohrer",
+       "orcid": "https://orcid.org/0000-0002-0059-545X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0059-545X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I2613432",
+        "display_name": "University of South Florida",
+        "ror": "https://ror.org/032db5x82",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I2613432"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Doug Rohrer",
+      "raw_affiliation_strings": [
+       "University of South Florida"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of South Florida",
+        "institution_ids": [
+         "https://openalex.org/I2613432"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5068581901",
+       "display_name": "John Timothy Wixted",
+       "orcid": "https://orcid.org/0000-0001-6282-5479",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6282-5479"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "John T. Wixted",
+      "raw_affiliation_strings": [
+       "University of California, San Diego"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of California, San Diego",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5008952472",
+       "display_name": "Harold Pashler",
+       "orcid": "https://orcid.org/0000-0003-3644-4909",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3644-4909"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I36258959",
+        "display_name": "University of California San Diego",
+        "ror": "https://ror.org/0168r3w48",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Harold Pashler",
+      "raw_affiliation_strings": [
+       "University of California, San Diego"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of California, San Diego",
+        "institution_ids": [
+         "https://openalex.org/I36258959"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1111/j.1467-9280.2008.02209.x",
+     "doi": "https://doi.org/10.1111/j.1467-9280.2008.02209.x",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1111/j.1467-9280.2008.02209.x",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S58854535",
+      "display_name": "Psychological Science",
+      "issn_l": "0956-7976",
+      "issn": [
+       "0956-7976",
+       "1467-9280"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-a-star",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-a",
+       "erih-plus",
+       "fnege-2",
+       "ft50",
+       "jufo-3",
+       "ki-jl-3",
+       "medline",
+       "norway-2",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320017",
+      "host_organization_name": "SAGE Publishing",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320017"
+      ],
+      "host_organization_lineage_names": [
+       "SAGE Publishing"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Psychological Science",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2516030866",
+    "doi": "https://doi.org/10.3389/conf.fpsyg.2016.68.00040",
+    "title": "Retrieval Practice and Spacing Effects in Naming Rehabilitation: A Theory of Learning",
+    "display_name": "Retrieval Practice and Spacing Effects in Naming Rehabilitation: A Theory of Learning",
+    "publication_year": 2016,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "Event": [
+      0,
+      4
+     ],
+     "Abstract": [
+      1,
+      817,
+      819,
+      843
+     ],
+     "Back": [
+      2,
+      845
+     ],
+     "to": [
+      3,
+      73,
+      150,
+      174,
+      291,
+      379,
+      675,
+      700,
+      803,
+      846,
+      860
+     ],
+     "Retrieval": [
+      5,
+      501,
+      589,
+      641
+     ],
+     "Practice": [
+      6,
+      642
+     ],
+     "and": [
+      7,
+      186,
+      246,
+      253,
+      262,
+      281,
+      359,
+      375,
+      431,
+      451,
+      473,
+      503,
+      560,
+      591,
+      598,
+      603,
+      643,
+      682,
+      703,
+      745,
+      752,
+      762,
+      769,
+      808
+     ],
+     "Spacing": [
+      8,
+      481,
+      607,
+      644
+     ],
+     "Effects": [
+      9,
+      645
+     ],
+     "in": [
+      10,
+      42,
+      60,
+      125,
+      228,
+      236,
+      243,
+      270,
+      278,
+      386,
+      410,
+      428,
+      436,
+      547,
+      646,
+      668,
+      707,
+      822,
+      838,
+      854,
+      858
+     ],
+     "Naming": [
+      11,
+      609,
+      647
+     ],
+     "Rehabilitation:": [
+      12,
+      648
+     ],
+     "A": [
+      13,
+      649
+     ],
+     "Theory": [
+      14,
+      650
+     ],
+     "of": [
+      15,
+      34,
+      37,
+      50,
+      57,
+      122,
+      274,
+      286,
+      345,
+      447,
+      514,
+      555,
+      584,
+      595,
+      617,
+      635,
+      651,
+      660,
+      716,
+      732,
+      756
+     ],
+     "Learning": [
+      16
+     ],
+     "Erica": [
+      17,
+      786,
+      824,
+      827,
+      831,
+      834
+     ],
+     "Middleton1*": [
+      18
+     ],
+     "1": [
+      19,
+      420,
+      525
+     ],
+     "Moss": [
+      20,
+      788
+     ],
+     "Rehabilitation": [
+      21,
+      789
+     ],
+     "Research": [
+      22,
+      790
+     ],
+     "Institute,": [
+      23,
+      791
+     ],
+     "United": [
+      24,
+      621,
+      794
+     ],
+     "States": [
+      25
+     ],
+     "BACKGROUND.": [
+      26
+     ],
+     "The": [
+      27,
+      44,
+      70,
+      255,
+      309,
+      439,
+      666,
+      705,
+      820
+     ],
+     "current": [
+      28,
+      256
+     ],
+     "study": [
+      29,
+      257
+     ],
+     "reports": [
+      30
+     ],
+     "progress": [
+      31
+     ],
+     "on": [
+      32,
+      47,
+      93,
+      444,
+      865
+     ],
+     "development": [
+      33
+     ],
+     "a": [
+      35,
+      54,
+      199,
+      229,
+      232,
+      283,
+      319,
+      329,
+      338,
+      366,
+      429,
+      519,
+      582,
+      698,
+      737
+     ],
+     "theory": [
+      36,
+      45,
+      156,
+      583
+     ],
+     "learning": [
+      38,
+      98,
+      134,
+      176,
+      350,
+      468,
+      543,
+      546,
+      585,
+      602
+     ],
+     "for": [
+      39,
+      68,
+      85,
+      141,
+      192,
+      223,
+      318,
+      406,
+      508,
+      586
+     ],
+     "naming": [
+      40,
+      58,
+      80,
+      160,
+      177,
+      300,
+      316,
+      448,
+      587
+     ],
+     "rehabilitation": [
+      41
+     ],
+     "aphasia.": [
+      43
+     ],
+     "focuses": [
+      46
+     ],
+     "the": [
+      48,
+      90,
+      106,
+      120,
+      126,
+      155,
+      182,
+      187,
+      190,
+      193,
+      212,
+      307,
+      352,
+      360,
+      363,
+      371,
+      376,
+      381,
+      389,
+      394,
+      411,
+      454,
+      471,
+      485,
+      488,
+      493,
+      693,
+      708,
+      714,
+      730,
+      754,
+      760,
+      863
+     ],
+     "treatment": [
+      49,
+      95,
+      161,
+      205,
+      215,
+      515,
+      611
+     ],
+     "lexical": [
+      51,
+      303
+     ],
+     "access": [
+      52,
+      304
+     ],
+     "deficit,": [
+      53
+     ],
+     "common": [
+      55,
+      79
+     ],
+     "cause": [
+      56
+     ],
+     "impairment": [
+      59,
+      301
+     ],
+     "aphasia": [
+      61,
+      298,
+      548
+     ],
+     "involving": [
+      62
+     ],
+     "difficulty": [
+      63
+     ],
+     "consistently": [
+      64
+     ],
+     "retrieving": [
+      65,
+      110
+     ],
+     "known": [
+      66
+     ],
+     "words": [
+      67
+     ],
+     "production.": [
+      69
+     ],
+     "goal": [
+      71
+     ],
+     "is": [
+      72,
+      92,
+      131,
+      135,
+      184,
+      711,
+      849
+     ],
+     "explicate": [
+      74
+     ],
+     "which": [
+      75
+     ],
+     "experiences": [
+      76
+     ],
+     "provided": [
+      77,
+      185,
+      759
+     ],
+     "by": [
+      78,
+      327,
+      403,
+      419,
+      686,
+      713
+     ],
+     "treatments": [
+      81
+     ],
+     "are": [
+      82,
+      144,
+      268,
+      683,
+      689,
+      734,
+      764
+     ],
+     "most": [
+      83
+     ],
+     "potent": [
+      84
+     ],
+     "treating": [
+      86
+     ],
+     "affected": [
+      87
+     ],
+     "vocabulary,": [
+      88
+     ],
+     "(i.e.,": [
+      89,
+      115,
+      166,
+      195,
+      277,
+      388
+     ],
+     "focus": [
+      91
+     ],
+     "item-specific": [
+      94
+     ],
+     "effects).": [
+      96
+     ],
+     "Fundamental": [
+      97
+     ],
+     "principles": [
+      99,
+      264,
+      505
+     ],
+     "derived": [
+      100
+     ],
+     "from": [
+      101,
+      112,
+      214
+     ],
+     "basic": [
+      102
+     ],
+     "psychological": [
+      103,
+      552
+     ],
+     "research": [
+      104
+     ],
+     "provide": [
+      105
+     ],
+     "theory's": [
+      107
+     ],
+     "foundation:": [
+      108
+     ],
+     "(1)": [
+      109
+     ],
+     "information": [
+      111,
+      124
+     ],
+     "long-term": [
+      113
+     ],
+     "memory": [
+      114
+     ],
+     "retrieval": [
+      116,
+      121,
+      130,
+      164,
+      209,
+      260,
+      367,
+      464,
+      605
+     ],
+     "practice)": [
+      117
+     ],
+     "powerfully": [
+      118
+     ],
+     "bolsters": [
+      119
+     ],
+     "that": [
+      123,
+      159,
+      162,
+      201,
+      314,
+      463
+     ],
+     "future,": [
+      127
+     ],
+     "especially": [
+      128
+     ],
+     "when": [
+      129,
+      137,
+      219,
+      266,
+      516
+     ],
+     "effortful;": [
+      132
+     ],
+     "(2)": [
+      133
+     ],
+     "superior": [
+      136,
+      170
+     ],
+     "repeated": [
+      138,
+      362
+     ],
+     "training": [
+      139,
+      221,
+      330,
+      399,
+      456
+     ],
+     "opportunities": [
+      140
+     ],
+     "an": [
+      142,
+      224,
+      348,
+      397,
+      414
+     ],
+     "item": [
+      143,
+      225,
+      424
+     ],
+     "spaced": [
+      145,
+      230,
+      395
+     ],
+     "over": [
+      146
+     ],
+     "time": [
+      147
+     ],
+     "as": [
+      148,
+      697,
+      727,
+      729
+     ],
+     "opposed": [
+      149
+     ],
+     "massed.": [
+      151
+     ],
+     "Initial": [
+      152
+     ],
+     "studies": [
+      153
+     ],
+     "supporting": [
+      154
+     ],
+     "[1-2]": [
+      157
+     ],
+     "found": [
+      158
+     ],
+     "emphasized": [
+      163
+     ],
+     "practice": [
+      165,
+      261,
+      276,
+      333,
+      368,
+      465,
+      502,
+      590
+     ],
+     "confrontation": [
+      167
+     ],
+     "naming)": [
+      168
+     ],
+     "conferred": [
+      169
+     ],
+     "persistent": [
+      171
+     ],
+     "benefit": [
+      172
+     ],
+     "compared": [
+      173
+     ],
+     "errorless": [
+      175,
+      180,
+      335,
+      349,
+      467,
+      545
+     ],
+     "treatment.": [
+      178
+     ],
+     "In": [
+      179,
+      393
+     ],
+     "learning,": [
+      181
+     ],
+     "name": [
+      183,
+      191,
+      353,
+      380,
+      390
+     ],
+     "PWA": [
+      188,
+      377
+     ],
+     "repeats": [
+      189
+     ],
+     "object": [
+      194
+     ],
+     "word": [
+      196
+     ],
+     "repetition": [
+      197
+     ],
+     "task),": [
+      198
+     ],
+     "procedure": [
+      200
+     ],
+     "eliminates": [
+      202
+     ],
+     "errors": [
+      203
+     ],
+     "during": [
+      204
+     ],
+     "but": [
+      206
+     ],
+     "also": [
+      207
+     ],
+     "bypasses": [
+      208
+     ],
+     "practice.": [
+      210,
+      523
+     ],
+     "Also,": [
+      211
+     ],
+     "benefits": [
+      213
+     ],
+     "were": [
+      216,
+      226,
+      240,
+      249,
+      321,
+      401,
+      417,
+      434
+     ],
+     "retained": [
+      217
+     ],
+     "longer": [
+      218
+     ],
+     "multiple": [
+      220,
+      279
+     ],
+     "trials": [
+      222,
+      384,
+      400,
+      405,
+      416
+     ],
+     "presented": [
+      227,
+      374
+     ],
+     "versus": [
+      231,
+      334,
+      342,
+      544
+     ],
+     "massed": [
+      233,
+      343,
+      412
+     ],
+     "schedule.": [
+      234
+     ],
+     "However,": [
+      235
+     ],
+     "these": [
+      237
+     ],
+     "studies,": [
+      238
+     ],
+     "items": [
+      239,
+      267,
+      433
+     ],
+     "only": [
+      241,
+      370
+     ],
+     "trained": [
+      242,
+      269,
+      435
+     ],
+     "one": [
+      244
+     ],
+     "session": [
+      245
+     ],
+     "major": [
+      247
+     ],
+     "outcomes": [
+      248
+     ],
+     "assessed": [
+      250
+     ],
+     "at": [
+      251,
+      282,
+      356,
+      469,
+      484,
+      492,
+      518
+     ],
+     "1-day": [
+      252
+     ],
+     "1-week.": [
+      254
+     ],
+     "examines": [
+      258
+     ],
+     "whether": [
+      259
+     ],
+     "spacing": [
+      263,
+      339,
+      504,
+      592
+     ],
+     "apply": [
+      265
+     ],
+     "dosages": [
+      271
+     ],
+     "more": [
+      272
+     ],
+     "representative": [
+      273
+     ],
+     "clinical": [
+      275,
+      522
+     ],
+     "sessions)": [
+      280
+     ],
+     "retention": [
+      284,
+      445,
+      475
+     ],
+     "interval": [
+      285
+     ],
+     "greater": [
+      287
+     ],
+     "functional": [
+      288
+     ],
+     "significance": [
+      289
+     ],
+     "(up": [
+      290
+     ],
+     "1-month).": [
+      292
+     ],
+     "METHODS.": [
+      293
+     ],
+     "Four": [
+      294
+     ],
+     "people": [
+      295
+     ],
+     "with": [
+      296,
+      337,
+      806
+     ],
+     "chronic": [
+      297
+     ],
+     "whose": [
+      299
+     ],
+     "implicated": [
+      302
+     ],
+     "deficit": [
+      305
+     ],
+     "completed": [
+      306
+     ],
+     "study.": [
+      308
+     ],
+     "design": [
+      310
+     ],
+     "was": [
+      311,
+      354,
+      373,
+      391,
+      442
+     ],
+     "within-subjects.": [
+      312
+     ],
+     "Items": [
+      313
+     ],
+     "elicited": [
+      315
+     ],
+     "error": [
+      317
+     ],
+     "participant": [
+      320,
+      361
+     ],
+     "matched": [
+      322
+     ],
+     "into": [
+      323
+     ],
+     "four": [
+      324,
+      437
+     ],
+     "conditions": [
+      325,
+      770
+     ],
+     "formed": [
+      326
+     ],
+     "crossing": [
+      328
+     ],
+     "factor": [
+      331,
+      340
+     ],
+     "(retrieval": [
+      332
+     ],
+     "learning)": [
+      336
+     ],
+     "(spaced": [
+      341
+     ],
+     "schedule": [
+      344
+     ],
+     "learning).": [
+      346
+     ],
+     "On": [
+      347,
+      365
+     ],
+     "trial,": [
+      351,
+      369
+     ],
+     "seen/heard": [
+      355
+     ],
+     "picture": [
+      357,
+      372
+     ],
+     "onset": [
+      358
+     ],
+     "name.": [
+      364
+     ],
+     "attempted": [
+      378
+     ],
+     "object.": [
+      382
+     ],
+     "All": [
+      383
+     ],
+     "ended": [
+      385
+     ],
+     "feedback": [
+      387
+     ],
+     "presented).": [
+      392
+     ],
+     "schedule,": [
+      396,
+      413
+     ],
+     "item\u2019s": [
+      398,
+      415
+     ],
+     "separated": [
+      402,
+      418
+     ],
+     "24": [
+      404
+     ],
+     "other": [
+      407
+     ],
+     "(unrelated)": [
+      408
+     ],
+     "items;": [
+      409
+     ],
+     "unrelated": [
+      421
+     ],
+     "trial.": [
+      422
+     ],
+     "Each": [
+      423,
+      725
+     ],
+     "appeared": [
+      425
+     ],
+     "three": [
+      426
+     ],
+     "times": [
+      427
+     ],
+     "session,": [
+      430
+     ],
+     "all": [
+      432,
+      862
+     ],
+     "sessions.": [
+      438
+     ],
+     "primary": [
+      440
+     ],
+     "outcome": [
+      441
+     ],
+     "performance": [
+      443
+     ],
+     "tests": [
+      446
+     ],
+     "administered": [
+      449,
+      517
+     ],
+     "1-week": [
+      450,
+      472,
+      486
+     ],
+     "1-month": [
+      452,
+      474,
+      494
+     ],
+     "following": [
+      453
+     ],
+     "final": [
+      455
+     ],
+     "session.": [
+      457
+     ],
+     "RESULTS.": [
+      458
+     ],
+     "Mixed": [
+      459
+     ],
+     "regression": [
+      460
+     ],
+     "analyses": [
+      461
+     ],
+     "revealed": [
+      462
+     ],
+     "outperformed": [
+      466,
+      482
+     ],
+     "both": [
+      470
+     ],
+     "test": [
+      476,
+      495
+     ],
+     "(Figure": [
+      477,
+      496
+     ],
+     "1,": [
+      478,
+      497
+     ],
+     "left": [
+      479
+     ],
+     "panel).": [
+      480,
+      499
+     ],
+     "massing": [
+      483
+     ],
+     "interval;": [
+      487
+     ],
+     "effect": [
+      489
+     ],
+     "persisted": [
+      490
+     ],
+     "(marginally)": [
+      491
+     ],
+     "right": [
+      498
+     ],
+     "CONCLUSION.": [
+      500
+     ],
+     "hold": [
+      506
+     ],
+     "promise": [
+      507
+     ],
+     "\u2018scaling": [
+      509
+     ],
+     "up\u2019,": [
+      510
+     ],
+     "i.e.,": [
+      511
+     ],
+     "impact": [
+      512
+     ],
+     "efficacy": [
+      513,
+      612
+     ],
+     "scope": [
+      520
+     ],
+     "resembling": [
+      521
+     ],
+     "Figure": [
+      524
+     ],
+     "References": [
+      526
+     ],
+     "[1]": [
+      527
+     ],
+     "Middleton,": [
+      528,
+      565,
+      787
+     ],
+     "E.": [
+      529,
+      566
+     ],
+     "L.,": [
+      530,
+      567
+     ],
+     "Schwartz,": [
+      531,
+      568
+     ],
+     "M.": [
+      532,
+      569
+     ],
+     "F.,": [
+      533,
+      570
+     ],
+     "Rawson,": [
+      534,
+      571
+     ],
+     "K.": [
+      535,
+      539,
+      572
+     ],
+     "A.,": [
+      536,
+      573
+     ],
+     "&": [
+      537,
+      576
+     ],
+     "Garvey,": [
+      538
+     ],
+     "(2015).": [
+      540
+     ],
+     "Test": [
+      541
+     ],
+     "enhanced": [
+      542
+     ],
+     "rehabilitation:": [
+      549,
+      588
+     ],
+     "Testing": [
+      550
+     ],
+     "competing": [
+      551
+     ],
+     "principles.": [
+      553
+     ],
+     "Journal": [
+      554,
+      594
+     ],
+     "Experimental": [
+      556
+     ],
+     "Psychology:": [
+      557
+     ],
+     "Learning,": [
+      558
+     ],
+     "Memory,": [
+      559
+     ],
+     "Cognition,": [
+      561
+     ],
+     "41(4),": [
+      562
+     ],
+     "1253-1261.": [
+      563
+     ],
+     "[2]": [
+      564
+     ],
+     "Traut,": [
+      574
+     ],
+     "H.,": [
+      575
+     ],
+     "Verkuilen,": [
+      577
+     ],
+     "J.": [
+      578
+     ],
+     "(in": [
+      579
+     ],
+     "press).": [
+      580
+     ],
+     "Towards": [
+      581
+     ],
+     "effects.": [
+      593
+     ],
+     "Speech,": [
+      596
+     ],
+     "Language,": [
+      597
+     ],
+     "Hearing": [
+      599
+     ],
+     "Research.": [
+      600
+     ],
+     "Keywords:": [
+      601
+     ],
+     "memory,": [
+      604
+     ],
+     "practice,": [
+      606
+     ],
+     "Effect,": [
+      608
+     ],
+     "deficits,": [
+      610
+     ],
+     "Conference:": [
+      613
+     ],
+     "54th": [
+      614,
+      657
+     ],
+     "Annual": [
+      615,
+      658
+     ],
+     "Academy": [
+      616,
+      634,
+      659
+     ],
+     "Aphasia": [
+      618,
+      636,
+      661
+     ],
+     "Meeting,": [
+      619
+     ],
+     "Llandudno,": [
+      620
+     ],
+     "Kingdom,": [
+      622
+     ],
+     "16": [
+      623
+     ],
+     "Oct": [
+      624
+     ],
+     "-": [
+      625
+     ],
+     "18": [
+      626
+     ],
+     "Oct,": [
+      627
+     ],
+     "2016.": [
+      628,
+      782
+     ],
+     "Presentation": [
+      629
+     ],
+     "Type:": [
+      630
+     ],
+     "Platform": [
+      631
+     ],
+     "Sessions": [
+      632
+     ],
+     "Topic:": [
+      633
+     ],
+     "Citation:": [
+      637
+     ],
+     "Middleton": [
+      638,
+      825,
+      828,
+      832,
+      835
+     ],
+     "E": [
+      639
+     ],
+     "(2016).": [
+      640
+     ],
+     "Learning.": [
+      652
+     ],
+     "Front.": [
+      653
+     ],
+     "Psychol.": [
+      654
+     ],
+     "Conference": [
+      655
+     ],
+     "Abstract:": [
+      656
+     ],
+     "Meeting.": [
+      662
+     ],
+     "doi:": [
+      663
+     ],
+     "10.3389/conf.fpsyg.2016.68.00040": [
+      664
+     ],
+     "Copyright:": [
+      665
+     ],
+     "abstracts": [
+      667,
+      710
+     ],
+     "this": [
+      669,
+      866
+     ],
+     "collection": [
+      670,
+      731
+     ],
+     "have": [
+      671
+     ],
+     "not": [
+      672,
+      684
+     ],
+     "been": [
+      673
+     ],
+     "subject": [
+      674,
+      755
+     ],
+     "any": [
+      676
+     ],
+     "Frontiers": [
+      677,
+      694,
+      763,
+      807,
+      823,
+      839
+     ],
+     "peer": [
+      678
+     ],
+     "review": [
+      679
+     ],
+     "or": [
+      680,
+      719,
+      813
+     ],
+     "checks,": [
+      681
+     ],
+     "endorsed": [
+      685
+     ],
+     "Frontiers.": [
+      687
+     ],
+     "They": [
+      688
+     ],
+     "made": [
+      690
+     ],
+     "available": [
+      691
+     ],
+     "through": [
+      692
+     ],
+     "publishing": [
+      695
+     ],
+     "platform": [
+      696
+     ],
+     "service": [
+      699
+     ],
+     "conference": [
+      701
+     ],
+     "organizers": [
+      702
+     ],
+     "presenters.": [
+      704
+     ],
+     "copyright": [
+      706
+     ],
+     "individual": [
+      709
+     ],
+     "owned": [
+      712
+     ],
+     "author": [
+      715
+     ],
+     "each": [
+      717
+     ],
+     "abstract": [
+      718
+     ],
+     "his/her": [
+      720
+     ],
+     "employer": [
+      721
+     ],
+     "unless": [
+      722
+     ],
+     "otherwise": [
+      723
+     ],
+     "stated.": [
+      724
+     ],
+     "abstract,": [
+      726
+     ],
+     "well": [
+      728
+     ],
+     "abstracts,": [
+      733
+     ],
+     "published": [
+      735
+     ],
+     "under": [
+      736
+     ],
+     "Creative": [
+      738
+     ],
+     "Commons": [
+      739
+     ],
+     "CC-BY": [
+      740
+     ],
+     "4.0": [
+      741
+     ],
+     "(attribution)": [
+      742
+     ],
+     "licence": [
+      743
+     ],
+     "(https://creativecommons.org/licenses/by/4.0/)": [
+      744
+     ],
+     "may": [
+      746
+     ],
+     "thus": [
+      747
+     ],
+     "be": [
+      748,
+      753,
+      804
+     ],
+     "reproduced,": [
+      749
+     ],
+     "translated,": [
+      750
+     ],
+     "adapted": [
+      751
+     ],
+     "derivative": [
+      757
+     ],
+     "works": [
+      758
+     ],
+     "authors": [
+      761
+     ],
+     "attributed.": [
+      765
+     ],
+     "For": [
+      766
+     ],
+     "Frontiers\u2019": [
+      767
+     ],
+     "terms": [
+      768
+     ],
+     "please": [
+      771
+     ],
+     "see": [
+      772,
+      861
+     ],
+     "https://www.frontiersin.org/legal/terms-and-conditions.": [
+      773
+     ],
+     "Received:": [
+      774
+     ],
+     "22": [
+      775
+     ],
+     "Apr": [
+      776
+     ],
+     "2016;": [
+      777
+     ],
+     "Published": [
+      778
+     ],
+     "Online:": [
+      779
+     ],
+     "15": [
+      780
+     ],
+     "Aug": [
+      781
+     ],
+     "*": [
+      783
+     ],
+     "Correspondence:": [
+      784
+     ],
+     "Dr.": [
+      785
+     ],
+     "Elkins": [
+      792
+     ],
+     "Park,": [
+      793
+     ],
+     "States,": [
+      795
+     ],
+     "middleer@gmail.com": [
+      796
+     ],
+     "Login": [
+      797
+     ],
+     "Required": [
+      798
+     ],
+     "This": [
+      799
+     ],
+     "action": [
+      800
+     ],
+     "requires": [
+      801
+     ],
+     "you": [
+      802
+     ],
+     "registered": [
+      805
+     ],
+     "logged": [
+      809
+     ],
+     "in.": [
+      810
+     ],
+     "To": [
+      811
+     ],
+     "register": [
+      812
+     ],
+     "login": [
+      814
+     ],
+     "click": [
+      815
+     ],
+     "here.": [
+      816
+     ],
+     "Info": [
+      818
+     ],
+     "Authors": [
+      821
+     ],
+     "Google": [
+      826,
+      829,
+      840
+     ],
+     "Scholar": [
+      830,
+      841
+     ],
+     "PubMed": [
+      833,
+      842
+     ],
+     "Related": [
+      836
+     ],
+     "Article": [
+      837
+     ],
+     "Close": [
+      844
+     ],
+     "top": [
+      847
+     ],
+     "Javascript": [
+      848,
+      853
+     ],
+     "disabled.": [
+      850
+     ],
+     "Please": [
+      851
+     ],
+     "enable": [
+      852
+     ],
+     "your": [
+      855
+     ],
+     "browser": [
+      856
+     ],
+     "settings": [
+      857
+     ],
+     "order": [
+      859
+     ],
+     "content": [
+      864
+     ],
+     "page.": [
+      867
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5089788027",
+       "display_name": "Erica L. Middleton",
+       "orcid": "https://orcid.org/0000-0002-2507-1273",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2507-1273"
+       ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Middleton Erica",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/conf.fpsyg.2016.68.00040",
+     "doi": "https://doi.org/10.3389/conf.fpsyg.2016.68.00040",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/conf.fpsyg.2016.68.00040",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3138295549",
+    "doi": "https://doi.org/10.1007/s10648-021-09604-x",
+    "title": "Does Individual Performance Feedback Increase the Use of Retrieval Practice?",
+    "display_name": "Does Individual Performance Feedback Increase the Use of Retrieval Practice?",
+    "publication_year": 2021,
+    "cited_by_count": 43,
+    "abstract_inverted_index": {
+     "The": [
+      0
+     ],
+     "testing": [
+      1,
+      152
+     ],
+     "effect\u2014the": [
+      2
+     ],
+     "power": [
+      3
+     ],
+     "of": [
+      4,
+      34,
+      46,
+      114,
+      143,
+      187,
+      193
+     ],
+     "retrieval": [
+      5,
+      22,
+      66,
+      97,
+      115,
+      140,
+      198
+     ],
+     "practice": [
+      6,
+      23,
+      48,
+      67,
+      98,
+      116,
+      141,
+      199
+     ],
+     "to": [
+      7,
+      61,
+      89,
+      169,
+      196
+     ],
+     "enhance": [
+      8
+     ],
+     "long-term": [
+      9,
+      137
+     ],
+     "knowledge": [
+      10
+     ],
+     "retention": [
+      11
+     ],
+     "more": [
+      12,
+      68,
+      120,
+      124
+     ],
+     "than": [
+      13
+     ],
+     "restudying": [
+      14
+     ],
+     "does\u2014is": [
+      15
+     ],
+     "a": [
+      16,
+      54
+     ],
+     "well-known": [
+      17
+     ],
+     "phenomenon": [
+      18
+     ],
+     "in": [
+      19,
+      160,
+      172,
+      191
+     ],
+     "learning.": [
+      20
+     ],
+     "However,": [
+      21
+     ],
+     "is": [
+      24,
+      37
+     ],
+     "hardly": [
+      25
+     ],
+     "appreciated": [
+      26,
+      117
+     ],
+     "by": [
+      27,
+      176
+     ],
+     "students": [
+      28,
+      64,
+      82,
+      107
+     ],
+     "and": [
+      29,
+      121,
+      136,
+      147
+     ],
+     "underutilized": [
+      30
+     ],
+     "when": [
+      31
+     ],
+     "studying.": [
+      32
+     ],
+     "One": [
+      33
+     ],
+     "the": [
+      35,
+      87,
+      112,
+      118,
+      134,
+      151,
+      161,
+      165,
+      173,
+      185,
+      188
+     ],
+     "reasons": [
+      36
+     ],
+     "that": [
+      38
+     ],
+     "learners": [
+      39
+     ],
+     "usually": [
+      40
+     ],
+     "do": [
+      41
+     ],
+     "not": [
+      42
+     ],
+     "experience": [
+      43
+     ],
+     "immediate": [
+      44
+     ],
+     "benefits": [
+      45,
+      113
+     ],
+     "such": [
+      47
+     ],
+     "which": [
+      49,
+      90
+     ],
+     "often": [
+      50,
+      69,
+      125
+     ],
+     "present": [
+      51
+     ],
+     "only": [
+      52,
+      164
+     ],
+     "after": [
+      53,
+      74,
+      96,
+      104,
+      126
+     ],
+     "delay.": [
+      55
+     ],
+     "We": [
+      56
+     ],
+     "therefore": [
+      57
+     ],
+     "conducted": [
+      58
+     ],
+     "2": [
+      59
+     ],
+     "experiments": [
+      60
+     ],
+     "examine": [
+      62
+     ],
+     "whether": [
+      63
+     ],
+     "choose": [
+      65
+     ],
+     "as": [
+      70
+     ],
+     "their": [
+      71,
+      91,
+      101
+     ],
+     "learning": [
+      72
+     ],
+     "strategy": [
+      73,
+      119
+     ],
+     "having": [
+      75
+     ],
+     "experienced": [
+      76,
+      111,
+      181
+     ],
+     "its": [
+      77,
+      158,
+      182,
+      194
+     ],
+     "benefits.": [
+      78
+     ],
+     "In": [
+      79,
+      129
+     ],
+     "Experiment": [
+      80,
+      130
+     ],
+     "1,": [
+      81
+     ],
+     "received": [
+      83
+     ],
+     "individual": [
+      84,
+      144,
+      166,
+      189
+     ],
+     "feedback": [
+      85,
+      146,
+      167,
+      190
+     ],
+     "about": [
+      86,
+      150
+     ],
+     "extent": [
+      88
+     ],
+     "7-day": [
+      92
+     ],
+     "delayed": [
+      93
+     ],
+     "test": [
+      94,
+      102
+     ],
+     "scores": [
+      95,
+      103
+     ],
+     "differed": [
+      99
+     ],
+     "from": [
+      100
+     ],
+     "restudy.": [
+      105
+     ],
+     "Those": [
+      106
+     ],
+     "who": [
+      108,
+      178
+     ],
+     "had": [
+      109,
+      179
+     ],
+     "actually": [
+      110,
+      180
+     ],
+     "used": [
+      122
+     ],
+     "it": [
+      123
+     ],
+     "receiving": [
+      127
+     ],
+     "feedback.": [
+      128
+     ],
+     "2,": [
+      131
+     ],
+     "we": [
+      132
+     ],
+     "compared": [
+      133
+     ],
+     "short-term": [
+      135
+     ],
+     "effects": [
+      138
+     ],
+     "on": [
+      139
+     ],
+     "use": [
+      142,
+      159,
+      171
+     ],
+     "performance": [
+      145
+     ],
+     "general": [
+      148
+     ],
+     "instruction": [
+      149
+     ],
+     "effect.": [
+      153
+     ],
+     "Although": [
+      154
+     ],
+     "both": [
+      155
+     ],
+     "interventions": [
+      156
+     ],
+     "enhanced": [
+      157,
+      170
+     ],
+     "short": [
+      162
+     ],
+     "term,": [
+      163
+     ],
+     "led": [
+      168
+     ],
+     "long": [
+      174
+     ],
+     "term": [
+      175
+     ],
+     "those": [
+      177
+     ],
+     "benefits,": [
+      183
+     ],
+     "demonstrating": [
+      184
+     ],
+     "superiority": [
+      186
+     ],
+     "terms": [
+      192
+     ],
+     "ability": [
+      195
+     ],
+     "promote": [
+      197
+     ],
+     "use.": [
+      200
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5071240865",
+       "display_name": "Luotong Hui",
+       "orcid": "https://orcid.org/0000-0003-2226-2688",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2226-2688"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I34352273",
+        "display_name": "Maastricht University",
+        "ror": "https://ror.org/02jz4aj89",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I34352273"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Luotong Hui",
+      "raw_affiliation_strings": [
+       "Department of Educational Development & Research, School of Health Professions Education, Faculty of Health, Medicine and Life Sciences (FHML), Maastricht University, P.O. Box 616, 6200, MD, Maastricht, the Netherlands"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-2226-2688",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Educational Development & Research, School of Health Professions Education, Faculty of Health, Medicine and Life Sciences (FHML), Maastricht University, P.O. Box 616, 6200, MD, Maastricht, the Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I34352273"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5069192964",
+       "display_name": "Anique B. H. de Bruin",
+       "orcid": "https://orcid.org/0000-0001-5178-0287",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5178-0287"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I34352273",
+        "display_name": "Maastricht University",
+        "ror": "https://ror.org/02jz4aj89",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I34352273"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Anique B. H. de Bruin",
+      "raw_affiliation_strings": [
+       "Department of Educational Development & Research, School of Health Professions Education, Faculty of Health, Medicine and Life Sciences (FHML), Maastricht University, P.O. Box 616, 6200, MD, Maastricht, the Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Educational Development & Research, School of Health Professions Education, Faculty of Health, Medicine and Life Sciences (FHML), Maastricht University, P.O. Box 616, 6200, MD, Maastricht, the Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I34352273"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5073491433",
+       "display_name": "Jeroen H. H. L. M. Donkers",
+       "orcid": "https://orcid.org/0000-0002-6769-0355",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6769-0355"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I34352273",
+        "display_name": "Maastricht University",
+        "ror": "https://ror.org/02jz4aj89",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I34352273"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jeroen Donkers",
+      "raw_affiliation_strings": [
+       "Department of Educational Development & Research, School of Health Professions Education, Faculty of Health, Medicine and Life Sciences (FHML), Maastricht University, P.O. Box 616, 6200, MD, Maastricht, the Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Educational Development & Research, School of Health Professions Education, Faculty of Health, Medicine and Life Sciences (FHML), Maastricht University, P.O. Box 616, 6200, MD, Maastricht, the Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I34352273"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5023940180",
+       "display_name": "Jeroen J. G. van Merri\u00ebnboer",
+       "orcid": "https://orcid.org/0000-0002-5868-7031",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5868-7031"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I34352273",
+        "display_name": "Maastricht University",
+        "ror": "https://ror.org/02jz4aj89",
+        "country_code": "NL",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I34352273"
+        ]
+       }
+      ],
+      "countries": [
+       "NL"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jeroen J. G. van Merri\u00ebnboer",
+      "raw_affiliation_strings": [
+       "Department of Educational Development & Research, School of Health Professions Education, Faculty of Health, Medicine and Life Sciences (FHML), Maastricht University, P.O. Box 616, 6200, MD, Maastricht, the Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Educational Development & Research, School of Health Professions Education, Faculty of Health, Medicine and Life Sciences (FHML), Maastricht University, P.O. Box 616, 6200, MD, Maastricht, the Netherlands",
+        "institution_ids": [
+         "https://openalex.org/I34352273"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1007/s10648-021-09604-x",
+     "doi": "https://doi.org/10.1007/s10648-021-09604-x",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1007/s10648-021-09604-x",
+     "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10648-021-09604-x.pdf",
+     "source": {
+      "id": "https://openalex.org/S187318745",
+      "display_name": "Educational Psychology Review",
+      "issn_l": "1040-726X",
+      "issn": [
+       "1040-726X",
+       "1573-336X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-a",
+       "erih-plus",
+       "jufo-2",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319900",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer Science+Business Media",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Educational Psychology Review",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

@@ -1,0 +1,3397 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 2536,
+   "db_response_time_ms": 107,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (note review handwritten laptop learning) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (note review handwritten laptop learning) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "note review handwritten laptop learning",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:note review handwritten laptop learning,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2123222302",
+    "doi": "https://doi.org/10.1016/j.compedu.2012.10.003",
+    "title": "Laptop multitasking hinders classroom learning for both users and nearby peers",
+    "display_name": "Laptop multitasking hinders classroom learning for both users and nearby peers",
+    "publication_year": 2012,
+    "cited_by_count": 944,
+    "abstract_inverted_index": {
+     "Laptops": [
+      0
+     ],
+     "are": [
+      1
+     ],
+     "commonplace": [
+      2
+     ],
+     "in": [
+      3,
+      28,
+      60
+     ],
+     "university": [
+      4
+     ],
+     "classrooms.": [
+      5
+     ],
+     "In": [
+      6
+     ],
+     "light": [
+      7
+     ],
+     "of": [
+      8,
+      21,
+      63,
+      102
+     ],
+     "cognitive": [
+      9
+     ],
+     "psychology": [
+      10
+     ],
+     "theory": [
+      11
+     ],
+     "on": [
+      12,
+      25,
+      38,
+      46,
+      69,
+      83
+     ],
+     "costs": [
+      13
+     ],
+     "associated": [
+      14
+     ],
+     "with": [
+      15
+     ],
+     "multitasking,": [
+      16
+     ],
+     "we": [
+      17
+     ],
+     "examined": [
+      18
+     ],
+     "the": [
+      19
+     ],
+     "effects": [
+      20
+     ],
+     "in-class": [
+      22
+     ],
+     "laptop": [
+      23,
+      40,
+      85
+     ],
+     "use": [
+      24
+     ],
+     "student": [
+      26
+     ],
+     "learning": [
+      27
+     ],
+     "a": [
+      29,
+      39,
+      42,
+      47,
+      64,
+      70,
+      84,
+      87
+     ],
+     "simulated": [
+      30
+     ],
+     "classroom.": [
+      31
+     ],
+     "We": [
+      32
+     ],
+     "found": [
+      33
+     ],
+     "that": [
+      34,
+      81
+     ],
+     "participants": [
+      35,
+      57
+     ],
+     "who": [
+      36,
+      52,
+      58,
+      75
+     ],
+     "multitasked": [
+      37
+     ],
+     "during": [
+      41
+     ],
+     "lecture": [
+      43,
+      103
+     ],
+     "scored": [
+      44,
+      67
+     ],
+     "lower": [
+      45,
+      68
+     ],
+     "test": [
+      48,
+      71
+     ],
+     "compared": [
+      49,
+      72
+     ],
+     "to": [
+      50,
+      73,
+      90,
+      100
+     ],
+     "those": [
+      51,
+      74
+     ],
+     "did": [
+      53
+     ],
+     "not": [
+      54
+     ],
+     "multitask,": [
+      55
+     ],
+     "and": [
+      56,
+      93,
+      96
+     ],
+     "were": [
+      59,
+      76
+     ],
+     "direct": [
+      61
+     ],
+     "view": [
+      62
+     ],
+     "multitasking": [
+      65,
+      82
+     ],
+     "peer": [
+      66
+     ],
+     "not.": [
+      77
+     ],
+     "The": [
+      78
+     ],
+     "results": [
+      79
+     ],
+     "demonstrate": [
+      80
+     ],
+     "poses": [
+      86
+     ],
+     "significant": [
+      88
+     ],
+     "distraction": [
+      89
+     ],
+     "both": [
+      91
+     ],
+     "users": [
+      92
+     ],
+     "fellow": [
+      94
+     ],
+     "students": [
+      95
+     ],
+     "can": [
+      97
+     ],
+     "be": [
+      98
+     ],
+     "detrimental": [
+      99
+     ],
+     "comprehension": [
+      101
+     ],
+     "content.": [
+      104
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5080571054",
+       "display_name": "Faria Sana",
+       "orcid": "https://orcid.org/0000-0002-2202-7592",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2202-7592"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I98251732",
+        "display_name": "McMaster University",
+        "ror": "https://ror.org/02fa3aq29",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I98251732"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Faria Sana",
+      "raw_affiliation_strings": [
+       "McMaster University, Department of Psychology, Neuroscience, & Behaviour, 1280 Main Street West, Hamilton, ON L8S 4K1, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "McMaster University, Department of Psychology, Neuroscience, & Behaviour, 1280 Main Street West, Hamilton, ON L8S 4K1, Canada",
+        "institution_ids": [
+         "https://openalex.org/I98251732"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5014807645",
+       "display_name": "Tina Weston",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I192455969",
+        "display_name": "York University",
+        "ror": "https://ror.org/05fq50484",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I192455969"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Tina Weston",
+      "raw_affiliation_strings": [
+       "York University, Department of Psychology, 4700 Keele Street, Toronto, ON M3J 1P3, Canada",
+       "York University, LaMarsh Centre for Child and Youth Research, 4700 Keele Street, Toronto, ON M3J 1P3, Canada",
+       "York University, Department of Psychology, 4700 Keele Street, Toronto, ON M3J 1P3, Canada and York University, LaMarsh Centre for Child and Youth Research, 4700 Keele Street, Toronto, ON M3J 1P3, ...#TAB#"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "York University, Department of Psychology, 4700 Keele Street, Toronto, ON M3J 1P3, Canada",
+        "institution_ids": [
+         "https://openalex.org/I192455969"
+        ]
+       },
+       {
+        "raw_affiliation_string": "York University, LaMarsh Centre for Child and Youth Research, 4700 Keele Street, Toronto, ON M3J 1P3, Canada",
+        "institution_ids": [
+         "https://openalex.org/I192455969"
+        ]
+       },
+       {
+        "raw_affiliation_string": "York University, Department of Psychology, 4700 Keele Street, Toronto, ON M3J 1P3, Canada and York University, LaMarsh Centre for Child and Youth Research, 4700 Keele Street, Toronto, ON M3J 1P3, ...#TAB#",
+        "institution_ids": [
+         "https://openalex.org/I192455969"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5071554223",
+       "display_name": "Nicholas J. Cepeda",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I192455969",
+        "display_name": "York University",
+        "ror": "https://ror.org/05fq50484",
+        "country_code": "CA",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I192455969"
+        ]
+       }
+      ],
+      "countries": [
+       "CA"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Nicholas J. Cepeda",
+      "raw_affiliation_strings": [
+       "York University, Department of Psychology, 4700 Keele Street, Toronto, ON M3J 1P3, Canada",
+       "York University, LaMarsh Centre for Child and Youth Research, 4700 Keele Street, Toronto, ON M3J 1P3, Canada",
+       "York University, Department of Psychology, 4700 Keele Street, Toronto, ON M3J 1P3, Canada and York University, LaMarsh Centre for Child and Youth Research, 4700 Keele Street, Toronto, ON M3J 1P3, ...#TAB#"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "York University, Department of Psychology, 4700 Keele Street, Toronto, ON M3J 1P3, Canada",
+        "institution_ids": [
+         "https://openalex.org/I192455969"
+        ]
+       },
+       {
+        "raw_affiliation_string": "York University, LaMarsh Centre for Child and Youth Research, 4700 Keele Street, Toronto, ON M3J 1P3, Canada",
+        "institution_ids": [
+         "https://openalex.org/I192455969"
+        ]
+       },
+       {
+        "raw_affiliation_string": "York University, Department of Psychology, 4700 Keele Street, Toronto, ON M3J 1P3, Canada and York University, LaMarsh Centre for Child and Youth Research, 4700 Keele Street, Toronto, ON M3J 1P3, ...#TAB#",
+        "institution_ids": [
+         "https://openalex.org/I192455969"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1016/j.compedu.2012.10.003",
+     "doi": "https://doi.org/10.1016/j.compedu.2012.10.003",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1016/j.compedu.2012.10.003",
+     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0360131512002254/pdf",
+     "source": {
+      "id": "https://openalex.org/S4210172634",
+      "display_name": "Computers & Education",
+      "issn_l": "0360-1315",
+      "issn": [
+       "0360-1315",
+       "1873-782X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-b",
+       "erih-plus",
+       "jufo-3",
+       "ki-jl-2",
+       "norway-2",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+       "Elsevier BV"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Computers &amp; Education",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4392938786",
+    "doi": "https://doi.org/10.34190/ejel.22.1.3396",
+    "title": "The Effect of Laptop Note-Taking on Students\u2019 Learning Performance, Strategies, and Satisfaction",
+    "display_name": "The Effect of Laptop Note-Taking on Students\u2019 Learning Performance, Strategies, and Satisfaction",
+    "publication_year": 2024,
+    "cited_by_count": 8,
+    "abstract_inverted_index": {
+     "With": [
+      0
+     ],
+     "the": [
+      1,
+      6,
+      9,
+      45,
+      51,
+      58,
+      79,
+      85,
+      101,
+      111,
+      127,
+      138,
+      148,
+      178,
+      198,
+      205,
+      223,
+      227,
+      236,
+      267,
+      281,
+      287
+     ],
+     "pervasiveness": [
+      2
+     ],
+     "of": [
+      3,
+      11,
+      47,
+      93,
+      114,
+      130,
+      172,
+      207,
+      239,
+      269,
+      283,
+      294
+     ],
+     "laptops": [
+      4,
+      242,
+      250
+     ],
+     "in": [
+      5,
+      21,
+      108,
+      243,
+      272,
+      286
+     ],
+     "classroom": [
+      7
+     ],
+     "setting,": [
+      8
+     ],
+     "effectiveness": [
+      10,
+      282
+     ],
+     "laptop-assisted": [
+      12
+     ],
+     "note-taking": [
+      13,
+      49,
+      95,
+      200,
+      209,
+      271,
+      285
+     ],
+     "has": [
+      14
+     ],
+     "not": [
+      15,
+      125
+     ],
+     "been": [
+      16
+     ],
+     "comprehensively": [
+      17,
+      203
+     ],
+     "investigated.": [
+      18
+     ],
+     "Many": [
+      19
+     ],
+     "inconsistencies": [
+      20
+     ],
+     "this": [
+      22,
+      39,
+      42,
+      118,
+      151,
+      192,
+      194
+     ],
+     "area": [
+      23
+     ],
+     "still": [
+      24
+     ],
+     "existed": [
+      25
+     ],
+     "with": [
+      26,
+      70,
+      155,
+      177,
+      274
+     ],
+     "intense": [
+      27
+     ],
+     "debate": [
+      28
+     ],
+     "towards": [
+      29
+     ],
+     "academic": [
+      30
+     ],
+     "performance,": [
+      31,
+      132
+     ],
+     "learning": [
+      32,
+      75,
+      97,
+      168,
+      211
+     ],
+     "strategies,": [
+      33
+     ],
+     "and": [
+      34,
+      77,
+      104,
+      116,
+      135,
+      166,
+      188,
+      213,
+      230,
+      245,
+      277
+     ],
+     "student": [
+      35,
+      167,
+      295
+     ],
+     "satisfaction.": [
+      36
+     ],
+     "To": [
+      37
+     ],
+     "fill": [
+      38
+     ],
+     "missing": [
+      40
+     ],
+     "gap,": [
+      41
+     ],
+     "study": [
+      43,
+      56,
+      83,
+      119,
+      152,
+      195,
+      225
+     ],
+     "probed": [
+      44,
+      175
+     ],
+     "effect": [
+      46,
+      206,
+      268
+     ],
+     "laptop": [
+      48,
+      94,
+      199,
+      208,
+      270,
+      284
+     ],
+     "on": [
+      50,
+      74,
+      96,
+      147,
+      158,
+      210
+     ],
+     "above": [
+      52,
+      149
+     ],
+     "constructs.": [
+      53
+     ],
+     "The": [
+      54,
+      170
+     ],
+     "present": [
+      55,
+      224
+     ],
+     "applied": [
+      57
+     ],
+     "comprehensive": [
+      59
+     ],
+     "review": [
+      60
+     ],
+     "by": [
+      61,
+      202,
+      219,
+      234,
+      289
+     ],
+     "objectively": [
+      62
+     ],
+     "selecting": [
+      63
+     ],
+     "all": [
+      64,
+      291
+     ],
+     "relative": [
+      65,
+      185
+     ],
+     "literature": [
+      66
+     ],
+     "from": [
+      67
+     ],
+     "online": [
+      68
+     ],
+     "database,": [
+      69
+     ],
+     "a": [
+      71
+     ],
+     "main": [
+      72,
+      128
+     ],
+     "focus": [
+      73
+     ],
+     "areas": [
+      76,
+      201
+     ],
+     "conducting": [
+      78
+     ],
+     "objective": [
+      80
+     ],
+     "procedure.": [
+      81
+     ],
+     "This": [
+      82
+     ],
+     "covered": [
+      84
+     ],
+     "positive,": [
+      86
+     ],
+     "negative,": [
+      87
+     ],
+     "as": [
+      88,
+      90,
+      255,
+      257
+     ],
+     "well": [
+      89,
+      256
+     ],
+     "neutral": [
+      91
+     ],
+     "effects": [
+      92,
+      238
+     ],
+     "performance.": [
+      98
+     ],
+     "Reasons": [
+      99
+     ],
+     "behind": [
+      100
+     ],
+     "negative": [
+      102
+     ],
+     "impact": [
+      103
+     ],
+     "worries": [
+      105
+     ],
+     "were": [
+      106,
+      216
+     ],
+     "investigated": [
+      107
+     ],
+     "caution.": [
+      109
+     ],
+     "Tackling": [
+      110
+     ],
+     "major": [
+      112
+     ],
+     "concerns": [
+      113,
+      123
+     ],
+     "distraction": [
+      115
+     ],
+     "multitasking,": [
+      117
+     ],
+     "argued": [
+      120
+     ],
+     "that": [
+      121
+     ],
+     "these": [
+      122
+     ],
+     "might": [
+      124
+     ],
+     "be": [
+      126,
+      142
+     ],
+     "cause": [
+      129
+     ],
+     "low": [
+      131,
+      181
+     ],
+     "individual\u2019s": [
+      133
+     ],
+     "characteristics": [
+      134
+     ],
+     "preference": [
+      136
+     ],
+     "for": [
+      137,
+      180
+     ],
+     "teaching": [
+      139,
+      164,
+      186,
+      261
+     ],
+     "styles": [
+      140
+     ],
+     "shall": [
+      141
+     ],
+     "taken": [
+      143
+     ],
+     "into": [
+      144,
+      251
+     ],
+     "consideration.": [
+      145
+     ],
+     "Based": [
+      146
+     ],
+     "arguments,": [
+      150
+     ],
+     "provided": [
+      153
+     ],
+     "educators": [
+      154,
+      247
+     ],
+     "multiple": [
+      156
+     ],
+     "suggestions": [
+      157
+     ],
+     "alternative": [
+      159
+     ],
+     "pedagogical": [
+      160,
+      253
+     ],
+     "approaches": [
+      161
+     ],
+     "to": [
+      162,
+      197,
+      248,
+      279
+     ],
+     "improve": [
+      163
+     ],
+     "practice": [
+      165,
+      233
+     ],
+     "experience.": [
+      169
+     ],
+     "satisfaction": [
+      171,
+      182
+     ],
+     "courses": [
+      173
+     ],
+     "was": [
+      174
+     ],
+     "together": [
+      176
+     ],
+     "reasons": [
+      179
+     ],
+     "which": [
+      183,
+      215
+     ],
+     "promoted": [
+      184
+     ],
+     "instruction": [
+      187
+     ],
+     "teacher": [
+      189
+     ],
+     "training.": [
+      190
+     ],
+     "In": [
+      191
+     ],
+     "vein,": [
+      193
+     ],
+     "contributed": [
+      196
+     ],
+     "analyzing": [
+      204
+     ],
+     "strategies": [
+      212
+     ],
+     "satisfaction,": [
+      214
+     ],
+     "unfortunately": [
+      217
+     ],
+     "ignored": [
+      218
+     ],
+     "previous": [
+      220
+     ],
+     "studies.": [
+      221
+     ],
+     "Moreover,": [
+      222
+     ],
+     "enriches": [
+      226
+     ],
+     "e-learning": [
+      228
+     ],
+     "knowledge": [
+      229
+     ],
+     "supports": [
+      231
+     ],
+     "its": [
+      232
+     ],
+     "proving": [
+      235
+     ],
+     "side": [
+      237
+     ],
+     "simply": [
+      240
+     ],
+     "banning": [
+      241
+     ],
+     "class": [
+      244,
+      273,
+      288
+     ],
+     "suggests": [
+      246
+     ],
+     "integrate": [
+      249
+     ],
+     "their": [
+      252
+     ],
+     "designs": [
+      254
+     ],
+     "learn": [
+      258
+     ],
+     "more": [
+      259,
+      275
+     ],
+     "technology-based": [
+      260
+     ],
+     "strategies.": [
+      262
+     ],
+     "Future": [
+      263
+     ],
+     "research": [
+      264
+     ],
+     "should": [
+      265
+     ],
+     "reinvestigate": [
+      266
+     ],
+     "caution": [
+      276
+     ],
+     "endeavor": [
+      278
+     ],
+     "enhance": [
+      280
+     ],
+     "capturing": [
+      290
+     ],
+     "possible": [
+      292
+     ],
+     "variables": [
+      293
+     ],
+     "learning,": [
+      296
+     ],
+     "especially": [
+      297
+     ],
+     "technology-relative": [
+      298
+     ],
+     "variables.": [
+      299
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5103099650",
+       "display_name": "Yuxia Shi",
+       "orcid": "https://orcid.org/0009-0005-5910-4554",
+       "observed_orcids": [
+        "https://orcid.org/0009-0005-5910-4554"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I115212828",
+        "display_name": "Beijing Language and Culture University",
+        "ror": "https://ror.org/03te2zs36",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I115212828"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Yuxia Shi",
+      "raw_affiliation_strings": [
+       "Beijing Language and Culture University, Beijing, China"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0005-5910-4554",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Beijing Language and Culture University, Beijing, China",
+        "institution_ids": [
+         "https://openalex.org/I115212828"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5078693556",
+       "display_name": "Zhonggen Yu",
+       "orcid": "https://orcid.org/0000-0002-3873-980X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3873-980X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I115212828",
+        "display_name": "Beijing Language and Culture University",
+        "ror": "https://ror.org/03te2zs36",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I115212828"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Zhonggen Yu",
+      "raw_affiliation_strings": [
+       "Beijing Language and Culture University, Beijing, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Beijing Language and Culture University, Beijing, China",
+        "institution_ids": [
+         "https://openalex.org/I115212828"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.34190/ejel.22.1.3396",
+     "doi": "https://doi.org/10.34190/ejel.22.1.3396",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.34190/ejel.22.1.3396",
+     "pdf_url": "https://academic-publishing.org/index.php/ejel/article/download/3396/2211",
+     "source": {
+      "id": "https://openalex.org/S2737697848",
+      "display_name": "The Electronic Journal of e-Learning",
+      "issn_l": "1479-4403",
+      "issn": [
+       "1479-4403"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320329",
+      "host_organization_name": "Academic Conferences and Publishing International",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320329"
+      ],
+      "host_organization_lineage_names": [
+       "Academic Conferences and Publishing International"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Electronic Journal of e-Learning",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4224781631",
+    "doi": "https://doi.org/10.3352/jeehp.2022.19.8",
+    "title": "No difference in factual or conceptual recall comprehension for tablet, laptop, and handwritten note-taking by medical students in the United States: a survey-based observational study",
+    "display_name": "No difference in factual or conceptual recall comprehension for tablet, laptop, and handwritten note-taking by medical students in the United States: a survey-based observational study",
+    "publication_year": 2022,
+    "cited_by_count": 21,
+    "abstract_inverted_index": {
+     "PURPOSE:": [
+      0
+     ],
+     "Technological": [
+      1
+     ],
+     "advances": [
+      2
+     ],
+     "are": [
+      3
+     ],
+     "changing": [
+      4
+     ],
+     "how": [
+      5
+     ],
+     "students": [
+      6,
+      93,
+      234
+     ],
+     "approach": [
+      7
+     ],
+     "learning.": [
+      8
+     ],
+     "The": [
+      9,
+      178,
+      194
+     ],
+     "traditional": [
+      10,
+      251
+     ],
+     "note-taking": [
+      11,
+      76,
+      99,
+      176,
+      216,
+      223,
+      241,
+      252
+     ],
+     "methods": [
+      12
+     ],
+     "of": [
+      13,
+      54,
+      61,
+      135,
+      201,
+      210
+     ],
+     "longhand": [
+      14,
+      222
+     ],
+     "writing": [
+      15,
+      32
+     ],
+     "have": [
+      16,
+      50
+     ],
+     "been": [
+      17,
+      29
+     ],
+     "supplemented": [
+      18,
+      257
+     ],
+     "and": [
+      19,
+      24,
+      41,
+      65,
+      101,
+      104,
+      117,
+      154,
+      174,
+      189,
+      204
+     ],
+     "replaced": [
+      20,
+      255
+     ],
+     "by": [
+      21,
+      34,
+      128
+     ],
+     "tablets,": [
+      22,
+      185
+     ],
+     "smartphones,": [
+      23
+     ],
+     "laptop": [
+      25,
+      230
+     ],
+     "note-taking.": [
+      26,
+      88,
+      231
+     ],
+     "It": [
+      27
+     ],
+     "has": [
+      28
+     ],
+     "theorized": [
+      30
+     ],
+     "that": [
+      31,
+      74,
+      221,
+      243,
+      261
+     ],
+     "notes": [
+      33,
+      106
+     ],
+     "hand": [
+      35
+     ],
+     "requires": [
+      36
+     ],
+     "more": [
+      37,
+      266
+     ],
+     "complex": [
+      38
+     ],
+     "cognitive": [
+      39
+     ],
+     "processes": [
+      40
+     ],
+     "may": [
+      42,
+      253
+     ],
+     "lead": [
+      43,
+      78
+     ],
+     "to": [
+      44,
+      70,
+      79,
+      86,
+      227,
+      238,
+      246
+     ],
+     "better": [
+      45,
+      82
+     ],
+     "retention.": [
+      46
+     ],
+     "However,": [
+      47
+     ],
+     "few": [
+      48
+     ],
+     "studies": [
+      49
+     ],
+     "investigated": [
+      51
+     ],
+     "the": [
+      52,
+      59,
+      72,
+      133,
+      165,
+      198,
+      214,
+      240,
+      249
+     ],
+     "use": [
+      53
+     ],
+     "tablet-based": [
+      55,
+      75
+     ],
+     "note-taking,": [
+      56
+     ],
+     "which": [
+      57,
+      111
+     ],
+     "allows": [
+      58
+     ],
+     "incorporation": [
+      60
+     ],
+     "typing,": [
+      62
+     ],
+     "drawing,": [
+      63,
+      202
+     ],
+     "highlights,": [
+      64
+     ],
+     "media.": [
+      66
+     ],
+     "We": [
+      67,
+      90
+     ],
+     "therefore": [
+      68
+     ],
+     "sought": [
+      69
+     ],
+     "confirm": [
+      71
+     ],
+     "hypothesis": [
+      73
+     ],
+     "would": [
+      77
+     ],
+     "equivalent": [
+      80
+     ],
+     "or": [
+      81,
+      97,
+      167,
+      229,
+      256
+     ],
+     "recall": [
+      83,
+      169
+     ],
+     "as": [
+      84
+     ],
+     "compared": [
+      85
+     ],
+     "written": [
+      87
+     ],
+     "METHODS:": [
+      89
+     ],
+     "allocated": [
+      91
+     ],
+     "68": [
+      92
+     ],
+     "into": [
+      94
+     ],
+     "longhand,": [
+      95
+     ],
+     "laptop,": [
+      96,
+      173
+     ],
+     "tablet": [
+      98,
+      195,
+      228
+     ],
+     "groups,": [
+      100
+     ],
+     "they": [
+      102,
+      112
+     ],
+     "watched": [
+      103
+     ],
+     "took": [
+      105
+     ],
+     "on": [
+      107,
+      110
+     ],
+     "a": [
+      108,
+      129,
+      140
+     ],
+     "presentation": [
+      109
+     ],
+     "were": [
+      113,
+      148
+     ],
+     "assessed": [
+      114
+     ],
+     "for": [
+      115,
+      150,
+      171,
+      184,
+      187,
+      191
+     ],
+     "factual": [
+      116,
+      166
+     ],
+     "conceptual": [
+      118,
+      168
+     ],
+     "recall.": [
+      119
+     ],
+     "A": [
+      120
+     ],
+     "second": [
+      121
+     ],
+     "short": [
+      122
+     ],
+     "distractor": [
+      123
+     ],
+     "video": [
+      124
+     ],
+     "was": [
+      125,
+      162,
+      182
+     ],
+     "shown,": [
+      126
+     ],
+     "followed": [
+      127
+     ],
+     "30-minute": [
+      130
+     ],
+     "assessment": [
+      131
+     ],
+     "at": [
+      132
+     ],
+     "University": [
+      134
+     ],
+     "California,": [
+      136
+     ],
+     "Irvine": [
+      137
+     ],
+     "campus,": [
+      138
+     ],
+     "over": [
+      139
+     ],
+     "single": [
+      141
+     ],
+     "day": [
+      142
+     ],
+     "period": [
+      143
+     ],
+     "in": [
+      144,
+      164
+     ],
+     "August": [
+      145
+     ],
+     "2018.": [
+      146
+     ],
+     "Notes": [
+      147
+     ],
+     "analyzed": [
+      149
+     ],
+     "content,": [
+      151
+     ],
+     "supplemental": [
+      152
+     ],
+     "drawings,": [
+      153
+     ],
+     "other": [
+      155,
+      205
+     ],
+     "media": [
+      156
+     ],
+     "sources.": [
+      157
+     ],
+     "RESULTS:": [
+      158
+     ],
+     "No": [
+      159
+     ],
+     "significant": [
+      160
+     ],
+     "difference": [
+      161
+     ],
+     "found": [
+      163
+     ],
+     "scores": [
+      170
+     ],
+     "tablet,": [
+      172
+     ],
+     "handwritten": [
+      175
+     ],
+     "(P=0.61).": [
+      177
+     ],
+     "median": [
+      179
+     ],
+     "word": [
+      180
+     ],
+     "count": [
+      181
+     ],
+     "131.5": [
+      183
+     ],
+     "121.0": [
+      186
+     ],
+     "handwriting,": [
+      188
+     ],
+     "297.0": [
+      190
+     ],
+     "laptops": [
+      192
+     ],
+     "(P=0.01).": [
+      193
+     ],
+     "group": [
+      196
+     ],
+     "had": [
+      197
+     ],
+     "highest": [
+      199
+     ],
+     "presence": [
+      200
+     ],
+     "highlighting,": [
+      203
+     ],
+     "media/tools.": [
+      206
+     ],
+     "CONCLUSION:": [
+      207
+     ],
+     "In": [
+      208,
+      248
+     ],
+     "light": [
+      209
+     ],
+     "conflicting": [
+      211
+     ],
+     "research": [
+      212
+     ],
+     "regarding": [
+      213
+     ],
+     "best": [
+      215
+     ],
+     "method,": [
+      217
+     ],
+     "our": [
+      218
+     ],
+     "study": [
+      219
+     ],
+     "showed": [
+      220
+     ],
+     "is": [
+      224
+     ],
+     "not": [
+      225
+     ],
+     "superior": [
+      226
+     ],
+     "This": [
+      232
+     ],
+     "suggests": [
+      233
+     ],
+     "should": [
+      235
+     ],
+     "be": [
+      236,
+      254
+     ],
+     "encouraged": [
+      237
+     ],
+     "pick": [
+      239
+     ],
+     "method": [
+      242
+     ],
+     "appeals": [
+      244
+     ],
+     "most": [
+      245
+     ],
+     "them.": [
+      247
+     ],
+     "future,": [
+      250
+     ],
+     "with": [
+      258,
+      265
+     ],
+     "digital": [
+      259
+     ],
+     "technologies": [
+      260
+     ],
+     "provide": [
+      262
+     ],
+     "similar": [
+      263
+     ],
+     "efficacy": [
+      264
+     ],
+     "convenience.": [
+      267
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5068632202",
+       "display_name": "Warren F. Wiechmann",
+       "orcid": "https://orcid.org/0000-0002-3701-4356",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3701-4356"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/project-administration",
+        "display_name": "Project administration"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Warren Wiechmann",
+      "raw_affiliation_strings": [
+       "Department of Emergency Medicine, University of California Irvine, Orange, CA, USA",
+       "Departments of Emergency Medicine, University of California Irvine, Orange, CA, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-3701-4356",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Emergency Medicine, University of California Irvine, Orange, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Departments of Emergency Medicine, University of California Irvine, Orange, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5036845354",
+       "display_name": "Robert A. Edwards",
+       "orcid": "https://orcid.org/0000-0001-9145-382X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9145-382X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/project-administration",
+        "display_name": "Project administration"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Robert Edwards",
+      "raw_affiliation_strings": [
+       "Department of Pathology and Lab Medicine, University of California Irvine, Orange, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Pathology and Lab Medicine, University of California Irvine, Orange, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5018981242",
+       "display_name": "Cheyenne Low",
+       "orcid": "https://orcid.org/0000-0001-9591-0848",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9591-0848"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Cheyenne Low",
+      "raw_affiliation_strings": [
+       "Department of Emergency Medicine, University of California Irvine, Orange, CA, USA",
+       "Departments of Emergency Medicine, University of California Irvine, Orange, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Emergency Medicine, University of California Irvine, Orange, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Departments of Emergency Medicine, University of California Irvine, Orange, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5033391414",
+       "display_name": "Alisa Wray",
+       "orcid": "https://orcid.org/0000-0002-0059-4895",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0059-4895"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/project-administration",
+        "display_name": "Project administration"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Alisa Wray",
+      "raw_affiliation_strings": [
+       "Department of Emergency Medicine, University of California Irvine, Orange, CA, USA",
+       "Departments of Emergency Medicine, University of California Irvine, Orange, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Emergency Medicine, University of California Irvine, Orange, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Departments of Emergency Medicine, University of California Irvine, Orange, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5088750613",
+       "display_name": "Megan Boysen\u2010Osborn",
+       "orcid": "https://orcid.org/0000-0001-6676-6429",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6676-6429"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/project-administration",
+        "display_name": "Project administration"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Megan Boysen-Osborn",
+      "raw_affiliation_strings": [
+       "Department of Emergency Medicine, University of California Irvine, Orange, CA, USA",
+       "Departments of Emergency Medicine, University of California Irvine, Orange, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Emergency Medicine, University of California Irvine, Orange, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Departments of Emergency Medicine, University of California Irvine, Orange, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5059802474",
+       "display_name": "Shannon Toohey",
+       "orcid": "https://orcid.org/0000-0002-1887-633X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1887-633X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204250578",
+        "display_name": "University of California, Irvine",
+        "ror": "https://ror.org/04gyf1771",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/project-administration",
+        "display_name": "Project administration"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Shannon Toohey",
+      "raw_affiliation_strings": [
+       "Department of Emergency Medicine, University of California Irvine, Orange, CA, USA",
+       "Departments of Emergency Medicine, University of California Irvine, Orange, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Emergency Medicine, University of California Irvine, Orange, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Departments of Emergency Medicine, University of California Irvine, Orange, CA, USA",
+        "institution_ids": [
+         "https://openalex.org/I204250578"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3352/jeehp.2022.19.8",
+     "doi": "https://doi.org/10.3352/jeehp.2022.19.8",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3352/jeehp.2022.19.8",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S30317932",
+      "display_name": "Journal of Educational Evaluation for Health Professions",
+      "issn_l": "1738-1339",
+      "issn": [
+       "1738-1339",
+       "1975-5937"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "doyens",
+       "jufo-1",
+       "kci-registered",
+       "ki-jl-1",
+       "medline",
+       "poland-20",
+       "russia-white-list-2"
+      ],
+      "host_organization": "https://openalex.org/P4310319416",
+      "host_organization_name": "Korea Health Insurance Licensing Examination Institute",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319416"
+      ],
+      "host_organization_lineage_names": [
+       "Korea Health Insurance Licensing Examination Institute"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Educational Evaluation for Health Professions",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4391214194",
+    "doi": "https://doi.org/10.12785/ijcds/150124",
+    "title": "A Comprehensive Literature Review on Air-written Online Handwritten Recognition",
+    "display_name": "A Comprehensive Literature Review on Air-written Online Handwritten Recognition",
+    "publication_year": 2024,
+    "cited_by_count": 11,
+    "abstract_inverted_index": {
+     "The": [
+      0
+     ],
+     "COVID-19": [
+      1
+     ],
+     "pandemic": [
+      2
+     ],
+     "has": [
+      3,
+      174
+     ],
+     "shifted": [
+      4
+     ],
+     "ordinary": [
+      5
+     ],
+     "life": [
+      6
+     ],
+     "into": [
+      7
+     ],
+     "a": [
+      8,
+      134
+     ],
+     "digital": [
+      9,
+      13
+     ],
+     "platform.Individuals": [
+      10
+     ],
+     "rapidly": [
+      11
+     ],
+     "use": [
+      12
+     ],
+     "or": [
+      14,
+      43,
+      139,
+      159
+     ],
+     "online": [
+      15,
+      34,
+      41,
+      70,
+      107,
+      120
+     ],
+     "media": [
+      16
+     ],
+     "to": [
+      17,
+      51,
+      55
+     ],
+     "avoid": [
+      18
+     ],
+     "the": [
+      19,
+      40,
+      47,
+      56,
+      62,
+      87,
+      91,
+      119,
+      144,
+      176
+     ],
+     "impact": [
+      20
+     ],
+     "of": [
+      21,
+      59,
+      94
+     ],
+     "touch-based": [
+      22
+     ],
+     "platforms.In": [
+      23
+     ],
+     "this": [
+      24
+     ],
+     "case,": [
+      25
+     ],
+     "touchless": [
+      26
+     ],
+     "technology": [
+      27
+     ],
+     "is": [
+      28,
+      97,
+      103,
+      125,
+      146
+     ],
+     "primarily": [
+      29
+     ],
+     "used": [
+      30
+     ],
+     "in": [
+      31,
+      46,
+      143
+     ],
+     "operation": [
+      32
+     ],
+     "theatres,": [
+      33
+     ],
+     "education": [
+      35
+     ],
+     "systems,": [
+      36
+     ],
+     "ticket": [
+      37
+     ],
+     "counters,": [
+      38
+     ],
+     "etc.However,": [
+      39
+     ],
+     "numerals": [
+      42,
+      156
+     ],
+     "characters": [
+      44
+     ],
+     "written": [
+      45,
+      142
+     ],
+     "air": [
+      48,
+      145
+     ],
+     "are": [
+      49,
+      84,
+      113
+     ],
+     "challenging": [
+      50
+     ],
+     "recognize": [
+      52
+     ],
+     "efficiently": [
+      53
+     ],
+     "due": [
+      54
+     ],
+     "writing": [
+      57
+     ],
+     "styles": [
+      58
+     ],
+     "every": [
+      60
+     ],
+     "individual.Therefore,": [
+      61
+     ],
+     "present": [
+      63
+     ],
+     "research": [
+      64,
+      117
+     ],
+     "focuses": [
+      65
+     ],
+     "on": [
+      66,
+      69,
+      77,
+      153
+     ],
+     "recent": [
+      67
+     ],
+     "work": [
+      68
+     ],
+     "air-written": [
+      71,
+      122
+     ],
+     "handwritten": [
+      72,
+      108
+     ],
+     "recognition.Almost": [
+      73
+     ],
+     "eighty-plus": [
+      74
+     ],
+     "standard": [
+      75,
+      135
+     ],
+     "articles": [
+      76
+     ],
+     "handwriting": [
+      78,
+      95
+     ],
+     "recognition": [
+      79,
+      96,
+      141
+     ],
+     "from": [
+      80
+     ],
+     "various": [
+      81
+     ],
+     "journal/conference": [
+      82
+     ],
+     "databases": [
+      83,
+      109
+     ],
+     "considered": [
+      85
+     ],
+     "for": [
+      86,
+      100,
+      110,
+      116,
+      127,
+      137,
+      179
+     ],
+     "current": [
+      88
+     ],
+     "review.In": [
+      89
+     ],
+     "addition,": [
+      90
+     ],
+     "generalized": [
+      92
+     ],
+     "methodology": [
+      93
+     ],
+     "also": [
+      98
+     ],
+     "provided": [
+      99,
+      175
+     ],
+     "new": [
+      101
+     ],
+     "research.It": [
+      102
+     ],
+     "observed": [
+      104
+     ],
+     "that": [
+      105
+     ],
+     "some": [
+      106,
+      111
+     ],
+     "languages": [
+      112
+     ],
+     "freely": [
+      114
+     ],
+     "available": [
+      115
+     ],
+     "purposes.However,": [
+      118
+     ],
+     "real-time": [
+      121
+     ],
+     "numeral": [
+      123,
+      140
+     ],
+     "dataset": [
+      124,
+      136
+     ],
+     "private": [
+      126
+     ],
+     "Devanagari": [
+      128
+     ],
+     "and": [
+      129,
+      132,
+      166
+     ],
+     "English.Therefore,": [
+      130
+     ],
+     "designing": [
+      131
+     ],
+     "developing": [
+      133
+     ],
+     "character": [
+      138
+     ],
+     "suggested.The": [
+      147
+     ],
+     "earlier": [
+      148
+     ],
+     "studies": [
+      149
+     ],
+     "achieved": [
+      150
+     ],
+     "satisfactory": [
+      151
+     ],
+     "results": [
+      152
+     ],
+     "air-writing": [
+      154
+     ],
+     "multilingual": [
+      155
+     ],
+     "collected": [
+      157
+     ],
+     "via": [
+      158
+     ],
+     "without": [
+      160
+     ],
+     "sensors": [
+      161
+     ],
+     "using": [
+      162
+     ],
+     "advanced": [
+      163
+     ],
+     "machine": [
+      164
+     ],
+     "learning": [
+      165,
+      168
+     ],
+     "deep": [
+      167
+     ],
+     "methods.The": [
+      169
+     ],
+     "convolutional": [
+      170
+     ],
+     "neural": [
+      171
+     ],
+     "network": [
+      172
+     ],
+     "(CNN)": [
+      173
+     ],
+     "best": [
+      177
+     ],
+     "accuracy": [
+      178
+     ],
+     "several": [
+      180
+     ],
+     "languages,": [
+      181
+     ],
+     "excluding": [
+      182
+     ],
+     "Devanagari.": [
+      183
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5027860662",
+       "display_name": "Meenal K. Jabde",
+       "orcid": "https://orcid.org/0000-0003-1100-2987",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1100-2987"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210088227",
+        "display_name": "MIT World Peace University",
+        "ror": "https://ror.org/004ymxd45",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210088227"
+        ]
+       }
+      ],
+      "countries": [
+       "IN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Meenal K. Jabde",
+      "raw_affiliation_strings": [
+       "School of Computer Science, Dr. Vishwanath Karad MIT World Peace University, Pune, MH, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Computer Science, Dr. Vishwanath Karad MIT World Peace University, Pune, MH, India",
+        "institution_ids": [
+         "https://openalex.org/I4210088227"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5016857498",
+       "display_name": "Chandrashekhar Himmatrao Patil",
+       "orcid": "https://orcid.org/0000-0002-6699-1279",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-6699-1279"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210088227",
+        "display_name": "MIT World Peace University",
+        "ror": "https://ror.org/004ymxd45",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210088227"
+        ]
+       }
+      ],
+      "countries": [
+       "IN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Chandrashekhar H. Patil",
+      "raw_affiliation_strings": [
+       "School of Computer Science, Dr. Vishwanath Karad MIT World Peace University, Pune, MH, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Computer Science, Dr. Vishwanath Karad MIT World Peace University, Pune, MH, India",
+        "institution_ids": [
+         "https://openalex.org/I4210088227"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5009181701",
+       "display_name": "Amol Dattatraya Vibhute",
+       "orcid": "https://orcid.org/0000-0002-3605-7450",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3605-7450"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I244572783",
+        "display_name": "Symbiosis International University",
+        "ror": "https://ror.org/005r2ww51",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I244572783"
+        ]
+       }
+      ],
+      "countries": [
+       "IN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Amol D. Vibhute",
+      "raw_affiliation_strings": [
+       "Symbiosis Institute of Computer Studies and Research (SICSR), Symbiosis International (Deemed University), Pune-411016, MH, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Symbiosis Institute of Computer Studies and Research (SICSR), Symbiosis International (Deemed University), Pune-411016, MH, India",
+        "institution_ids": [
+         "https://openalex.org/I244572783"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5062335985",
+       "display_name": "Shankar M. Mali",
+       "orcid": "https://orcid.org/0000-0001-9341-949X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9341-949X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4210088227",
+        "display_name": "MIT World Peace University",
+        "ror": "https://ror.org/004ymxd45",
+        "country_code": "IN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210088227"
+        ]
+       }
+      ],
+      "countries": [
+       "IN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Shankar Mali",
+      "raw_affiliation_strings": [
+       "School of Computer Science, Dr. Vishwanath Karad MIT World Peace University, Pune, MH, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Computer Science, Dr. Vishwanath Karad MIT World Peace University, Pune, MH, India",
+        "institution_ids": [
+         "https://openalex.org/I4210088227"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.12785/ijcds/150124",
+     "doi": "https://doi.org/10.12785/ijcds/150124",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.12785/ijcds/150124",
+     "pdf_url": "https://journal.uob.edu.bh:443/bitstream/123456789/5339/1/IJCDS150124_1570897366.pdf",
+     "source": {
+      "id": "https://openalex.org/S2765015152",
+      "display_name": "International Journal of Computing and Digital Systems",
+      "issn_l": "2210-142X",
+      "issn": [
+       "2210-142X",
+       "2535-9886"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doaj",
+       "norway-1",
+       "poland-20",
+       "russia-white-list-3"
+      ],
+      "host_organization": "https://openalex.org/P4404685347",
+      "host_organization_name": "Deanship of Scientific Research",
+      "host_organization_lineage": [
+       "https://openalex.org/P4404685347"
+      ],
+      "host_organization_lineage_names": [
+       "Deanship of Scientific Research"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "International Journal of Computing and Digital Systems",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4206904060",
+    "doi": "https://doi.org/10.47760/ijcsmc.2022.v11i01.007",
+    "title": "HANDWRITTEN DIGIT RECOGNITION",
+    "display_name": "HANDWRITTEN DIGIT RECOGNITION",
+    "publication_year": 2022,
+    "cited_by_count": 1,
+    "abstract_inverted_index": {
+     "This": [
+      0
+     ],
+     "project": [
+      1
+     ],
+     "dives": [
+      2
+     ],
+     "into": [
+      3
+     ],
+     "the": [
+      4,
+      31,
+      41
+     ],
+     "fundamentals": [
+      5
+     ],
+     "of": [
+      6,
+      33,
+      50
+     ],
+     "machine": [
+      7
+     ],
+     "learning": [
+      8,
+      29,
+      52
+     ],
+     "victimization": [
+      9
+     ],
+     "associate": [
+      10
+     ],
+     "degree": [
+      11
+     ],
+     "approachable": [
+      12
+     ],
+     "and": [
+      13,
+      36,
+      59
+     ],
+     "well-known": [
+      14
+     ],
+     "artificial": [
+      15
+     ],
+     "language,": [
+      16
+     ],
+     "Python.": [
+      17
+     ],
+     "And": [
+      18
+     ],
+     "here": [
+      19
+     ],
+     "we'll": [
+      20,
+      27,
+      45
+     ],
+     "be": [
+      21,
+      28
+     ],
+     "reviewing": [
+      22
+     ],
+     "2": [
+      23
+     ],
+     "main": [
+      24
+     ],
+     "components:": [
+      25
+     ],
+     "1st,": [
+      26
+     ],
+     "regarding": [
+      30
+     ],
+     "aim": [
+      32
+     ],
+     "Machine": [
+      34,
+      51,
+      60
+     ],
+     "Learning": [
+      35,
+      61
+     ],
+     "wherever": [
+      37
+     ],
+     "it": [
+      38
+     ],
+     "applies": [
+      39
+     ],
+     "to": [
+      40
+     ],
+     "important": [
+      42
+     ],
+     "world.": [
+      43
+     ],
+     "Second,": [
+      44
+     ],
+     "get": [
+      46
+     ],
+     "a": [
+      47
+     ],
+     "general": [
+      48
+     ],
+     "summary": [
+      49
+     ],
+     "topics": [
+      53
+     ],
+     "like": [
+      54
+     ],
+     "supervised": [
+      55
+     ],
+     "learning,": [
+      56
+     ],
+     "model": [
+      57
+     ],
+     "analysis,": [
+      58
+     ],
+     "algorithms.": [
+      62
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5049492176",
+       "display_name": "Jeisetti Saiteja",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4399598377",
+        "display_name": "Institute of Science and Technology",
+        "ror": "https://ror.org/02wxm3f24",
+        "country_code": "NP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I155028946",
+         "https://openalex.org/I4399598377"
+        ]
+       }
+      ],
+      "countries": [
+       "NP"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jeisetti Saiteja",
+      "raw_affiliation_strings": [
+       "Associate Professor, Department of Electronics and Communication Engineering, Sreenidhi Institute of Science and Technology 2,"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Associate Professor, Department of Electronics and Communication Engineering, Sreenidhi Institute of Science and Technology 2,",
+        "institution_ids": [
+         "https://openalex.org/I4399598377"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5056663337",
+       "display_name": "Podila Srivally Rao",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4399598377",
+        "display_name": "Institute of Science and Technology",
+        "ror": "https://ror.org/02wxm3f24",
+        "country_code": "NP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I155028946",
+         "https://openalex.org/I4399598377"
+        ]
+       }
+      ],
+      "countries": [
+       "NP"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Podila Srivally Rao",
+      "raw_affiliation_strings": [
+       "Associate Professor, Department of Electronics and Communication Engineering , Sreenidhi Institute of Science and Technology 2 , ,",
+       "UG Students, Department of Electronics and Communication Engineering, Sreenidhi Institute of Science and Technology"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Associate Professor, Department of Electronics and Communication Engineering , Sreenidhi Institute of Science and Technology 2 , ,",
+        "institution_ids": [
+         "https://openalex.org/I4399598377"
+        ]
+       },
+       {
+        "raw_affiliation_string": "UG Students, Department of Electronics and Communication Engineering, Sreenidhi Institute of Science and Technology",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5108777784",
+       "display_name": "Prabhupad Bharadwaj",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I4399598377",
+        "display_name": "Institute of Science and Technology",
+        "ror": "https://ror.org/02wxm3f24",
+        "country_code": "NP",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I155028946",
+         "https://openalex.org/I4399598377"
+        ]
+       }
+      ],
+      "countries": [
+       "NP"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "P. Mani Bharadwaj",
+      "raw_affiliation_strings": [
+       "UG Students , Department of Electronics and Communication Engineering , Sreenidhi Institute of Science and Technology",
+       "Associate Professor, Department of Electronics and Communication Engineering, Sreenidhi Institute of Science and Technology 2,"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "UG Students , Department of Electronics and Communication Engineering , Sreenidhi Institute of Science and Technology",
+        "institution_ids": [
+         "https://openalex.org/I4399598377"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Associate Professor, Department of Electronics and Communication Engineering, Sreenidhi Institute of Science and Technology 2,",
+        "institution_ids": []
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.47760/ijcsmc.2022.v11i01.007",
+     "doi": "https://doi.org/10.47760/ijcsmc.2022.v11i01.007",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.47760/ijcsmc.2022.v11i01.007",
+     "pdf_url": "https://doi.org/10.47760/ijcsmc.2022.v11i01.007",
+     "source": {
+      "id": "https://openalex.org/S4210226879",
+      "display_name": "International Journal of Computer Science and Mobile Computing",
+      "issn_l": "2320-088X",
+      "issn": [
+       "2320-088X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core"
+      ],
+      "host_organization": "https://openalex.org/P4404682076",
+      "host_organization_name": "Zain Publications",
+      "host_organization_lineage": [
+       "https://openalex.org/P4404682076"
+      ],
+      "host_organization_lineage_names": [
+       "Zain Publications"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "International Journal of Computer Science and Mobile Computing",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

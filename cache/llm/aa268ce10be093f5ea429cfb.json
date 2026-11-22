@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201ea-72c7-7052-83a9-bb4c9271aac6",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795328471,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"I need to search for peer-reviewed literature on exercise intensity and acute cognitive effects in young adults.\", \"action\": \"search_papers\", \"args\": {\"query\": \"exercise intensity acute cognitive effects young adults\"}}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 341,
+  "completion_tokens": 49,
+  "total_tokens": 390,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.23
+}

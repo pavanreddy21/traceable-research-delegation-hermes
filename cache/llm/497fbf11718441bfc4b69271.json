@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201d5-6e84-7ab8-b9bc-8fbac2c585cc",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327094,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"The Yeager et al. 2019 national experiment is the key mediation study; I'll fetch it along with the two mediation-focused papers.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W2964722401\"}}",
+    "reasoning_content": "Let me fetch the most relevant sources: W2964722401 (Yeager et al. 2019 national experiment - mediation), W4404722018 (mediating roles of academic buoyancy and adaptability), W4361225460.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 994,
+  "completion_tokens": 106,
+  "total_tokens": 1100,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 50
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 7.25
+}

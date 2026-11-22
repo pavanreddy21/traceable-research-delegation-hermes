@@ -1,0 +1,3578 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 159,
+   "db_response_time_ms": 129,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (pen versus laptop note taking Mueller Oppenheimer longhand laptop encoding) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (pen versus laptop note taking Mueller Oppenheimer longhand laptop encoding) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "pen versus laptop note taking Mueller Oppenheimer longhand laptop encoding",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:pen versus laptop note taking Mueller Oppenheimer longhand laptop encoding,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4392938786",
+    "doi": "https://doi.org/10.34190/ejel.22.1.3396",
+    "title": "The Effect of Laptop Note-Taking on Students\u2019 Learning Performance, Strategies, and Satisfaction",
+    "display_name": "The Effect of Laptop Note-Taking on Students\u2019 Learning Performance, Strategies, and Satisfaction",
+    "publication_year": 2024,
+    "cited_by_count": 8,
+    "abstract_inverted_index": {
+     "With": [
+      0
+     ],
+     "the": [
+      1,
+      6,
+      9,
+      45,
+      51,
+      58,
+      79,
+      85,
+      101,
+      111,
+      127,
+      138,
+      148,
+      178,
+      198,
+      205,
+      223,
+      227,
+      236,
+      267,
+      281,
+      287
+     ],
+     "pervasiveness": [
+      2
+     ],
+     "of": [
+      3,
+      11,
+      47,
+      93,
+      114,
+      130,
+      172,
+      207,
+      239,
+      269,
+      283,
+      294
+     ],
+     "laptops": [
+      4,
+      242,
+      250
+     ],
+     "in": [
+      5,
+      21,
+      108,
+      243,
+      272,
+      286
+     ],
+     "classroom": [
+      7
+     ],
+     "setting,": [
+      8
+     ],
+     "effectiveness": [
+      10,
+      282
+     ],
+     "laptop-assisted": [
+      12
+     ],
+     "note-taking": [
+      13,
+      49,
+      95,
+      200,
+      209,
+      271,
+      285
+     ],
+     "has": [
+      14
+     ],
+     "not": [
+      15,
+      125
+     ],
+     "been": [
+      16
+     ],
+     "comprehensively": [
+      17,
+      203
+     ],
+     "investigated.": [
+      18
+     ],
+     "Many": [
+      19
+     ],
+     "inconsistencies": [
+      20
+     ],
+     "this": [
+      22,
+      39,
+      42,
+      118,
+      151,
+      192,
+      194
+     ],
+     "area": [
+      23
+     ],
+     "still": [
+      24
+     ],
+     "existed": [
+      25
+     ],
+     "with": [
+      26,
+      70,
+      155,
+      177,
+      274
+     ],
+     "intense": [
+      27
+     ],
+     "debate": [
+      28
+     ],
+     "towards": [
+      29
+     ],
+     "academic": [
+      30
+     ],
+     "performance,": [
+      31,
+      132
+     ],
+     "learning": [
+      32,
+      75,
+      97,
+      168,
+      211
+     ],
+     "strategies,": [
+      33
+     ],
+     "and": [
+      34,
+      77,
+      104,
+      116,
+      135,
+      166,
+      188,
+      213,
+      230,
+      245,
+      277
+     ],
+     "student": [
+      35,
+      167,
+      295
+     ],
+     "satisfaction.": [
+      36
+     ],
+     "To": [
+      37
+     ],
+     "fill": [
+      38
+     ],
+     "missing": [
+      40
+     ],
+     "gap,": [
+      41
+     ],
+     "study": [
+      43,
+      56,
+      83,
+      119,
+      152,
+      195,
+      225
+     ],
+     "probed": [
+      44,
+      175
+     ],
+     "effect": [
+      46,
+      206,
+      268
+     ],
+     "laptop": [
+      48,
+      94,
+      199,
+      208,
+      270,
+      284
+     ],
+     "on": [
+      50,
+      74,
+      96,
+      147,
+      158,
+      210
+     ],
+     "above": [
+      52,
+      149
+     ],
+     "constructs.": [
+      53
+     ],
+     "The": [
+      54,
+      170
+     ],
+     "present": [
+      55,
+      224
+     ],
+     "applied": [
+      57
+     ],
+     "comprehensive": [
+      59
+     ],
+     "review": [
+      60
+     ],
+     "by": [
+      61,
+      202,
+      219,
+      234,
+      289
+     ],
+     "objectively": [
+      62
+     ],
+     "selecting": [
+      63
+     ],
+     "all": [
+      64,
+      291
+     ],
+     "relative": [
+      65,
+      185
+     ],
+     "literature": [
+      66
+     ],
+     "from": [
+      67
+     ],
+     "online": [
+      68
+     ],
+     "database,": [
+      69
+     ],
+     "a": [
+      71
+     ],
+     "main": [
+      72,
+      128
+     ],
+     "focus": [
+      73
+     ],
+     "areas": [
+      76,
+      201
+     ],
+     "conducting": [
+      78
+     ],
+     "objective": [
+      80
+     ],
+     "procedure.": [
+      81
+     ],
+     "This": [
+      82
+     ],
+     "covered": [
+      84
+     ],
+     "positive,": [
+      86
+     ],
+     "negative,": [
+      87
+     ],
+     "as": [
+      88,
+      90,
+      255,
+      257
+     ],
+     "well": [
+      89,
+      256
+     ],
+     "neutral": [
+      91
+     ],
+     "effects": [
+      92,
+      238
+     ],
+     "performance.": [
+      98
+     ],
+     "Reasons": [
+      99
+     ],
+     "behind": [
+      100
+     ],
+     "negative": [
+      102
+     ],
+     "impact": [
+      103
+     ],
+     "worries": [
+      105
+     ],
+     "were": [
+      106,
+      216
+     ],
+     "investigated": [
+      107
+     ],
+     "caution.": [
+      109
+     ],
+     "Tackling": [
+      110
+     ],
+     "major": [
+      112
+     ],
+     "concerns": [
+      113,
+      123
+     ],
+     "distraction": [
+      115
+     ],
+     "multitasking,": [
+      117
+     ],
+     "argued": [
+      120
+     ],
+     "that": [
+      121
+     ],
+     "these": [
+      122
+     ],
+     "might": [
+      124
+     ],
+     "be": [
+      126,
+      142
+     ],
+     "cause": [
+      129
+     ],
+     "low": [
+      131,
+      181
+     ],
+     "individual\u2019s": [
+      133
+     ],
+     "characteristics": [
+      134
+     ],
+     "preference": [
+      136
+     ],
+     "for": [
+      137,
+      180
+     ],
+     "teaching": [
+      139,
+      164,
+      186,
+      261
+     ],
+     "styles": [
+      140
+     ],
+     "shall": [
+      141
+     ],
+     "taken": [
+      143
+     ],
+     "into": [
+      144,
+      251
+     ],
+     "consideration.": [
+      145
+     ],
+     "Based": [
+      146
+     ],
+     "arguments,": [
+      150
+     ],
+     "provided": [
+      153
+     ],
+     "educators": [
+      154,
+      247
+     ],
+     "multiple": [
+      156
+     ],
+     "suggestions": [
+      157
+     ],
+     "alternative": [
+      159
+     ],
+     "pedagogical": [
+      160,
+      253
+     ],
+     "approaches": [
+      161
+     ],
+     "to": [
+      162,
+      197,
+      248,
+      279
+     ],
+     "improve": [
+      163
+     ],
+     "practice": [
+      165,
+      233
+     ],
+     "experience.": [
+      169
+     ],
+     "satisfaction": [
+      171,
+      182
+     ],
+     "courses": [
+      173
+     ],
+     "was": [
+      174
+     ],
+     "together": [
+      176
+     ],
+     "reasons": [
+      179
+     ],
+     "which": [
+      183,
+      215
+     ],
+     "promoted": [
+      184
+     ],
+     "instruction": [
+      187
+     ],
+     "teacher": [
+      189
+     ],
+     "training.": [
+      190
+     ],
+     "In": [
+      191
+     ],
+     "vein,": [
+      193
+     ],
+     "contributed": [
+      196
+     ],
+     "analyzing": [
+      204
+     ],
+     "strategies": [
+      212
+     ],
+     "satisfaction,": [
+      214
+     ],
+     "unfortunately": [
+      217
+     ],
+     "ignored": [
+      218
+     ],
+     "previous": [
+      220
+     ],
+     "studies.": [
+      221
+     ],
+     "Moreover,": [
+      222
+     ],
+     "enriches": [
+      226
+     ],
+     "e-learning": [
+      228
+     ],
+     "knowledge": [
+      229
+     ],
+     "supports": [
+      231
+     ],
+     "its": [
+      232
+     ],
+     "proving": [
+      235
+     ],
+     "side": [
+      237
+     ],
+     "simply": [
+      240
+     ],
+     "banning": [
+      241
+     ],
+     "class": [
+      244,
+      273,
+      288
+     ],
+     "suggests": [
+      246
+     ],
+     "integrate": [
+      249
+     ],
+     "their": [
+      252
+     ],
+     "designs": [
+      254
+     ],
+     "learn": [
+      258
+     ],
+     "more": [
+      259,
+      275
+     ],
+     "technology-based": [
+      260
+     ],
+     "strategies.": [
+      262
+     ],
+     "Future": [
+      263
+     ],
+     "research": [
+      264
+     ],
+     "should": [
+      265
+     ],
+     "reinvestigate": [
+      266
+     ],
+     "caution": [
+      276
+     ],
+     "endeavor": [
+      278
+     ],
+     "enhance": [
+      280
+     ],
+     "capturing": [
+      290
+     ],
+     "possible": [
+      292
+     ],
+     "variables": [
+      293
+     ],
+     "learning,": [
+      296
+     ],
+     "especially": [
+      297
+     ],
+     "technology-relative": [
+      298
+     ],
+     "variables.": [
+      299
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5103099650",
+       "display_name": "Yuxia Shi",
+       "orcid": "https://orcid.org/0009-0005-5910-4554",
+       "observed_orcids": [
+        "https://orcid.org/0009-0005-5910-4554"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I115212828",
+        "display_name": "Beijing Language and Culture University",
+        "ror": "https://ror.org/03te2zs36",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I115212828"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Yuxia Shi",
+      "raw_affiliation_strings": [
+       "Beijing Language and Culture University, Beijing, China"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0005-5910-4554",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Beijing Language and Culture University, Beijing, China",
+        "institution_ids": [
+         "https://openalex.org/I115212828"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5078693556",
+       "display_name": "Zhonggen Yu",
+       "orcid": "https://orcid.org/0000-0002-3873-980X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3873-980X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I115212828",
+        "display_name": "Beijing Language and Culture University",
+        "ror": "https://ror.org/03te2zs36",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I115212828"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Zhonggen Yu",
+      "raw_affiliation_strings": [
+       "Beijing Language and Culture University, Beijing, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Beijing Language and Culture University, Beijing, China",
+        "institution_ids": [
+         "https://openalex.org/I115212828"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.34190/ejel.22.1.3396",
+     "doi": "https://doi.org/10.34190/ejel.22.1.3396",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.34190/ejel.22.1.3396",
+     "pdf_url": "https://academic-publishing.org/index.php/ejel/article/download/3396/2211",
+     "source": {
+      "id": "https://openalex.org/S2737697848",
+      "display_name": "The Electronic Journal of e-Learning",
+      "issn_l": "1479-4403",
+      "issn": [
+       "1479-4403"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-scientific",
+       "cwts-core",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320329",
+      "host_organization_name": "Academic Conferences and Publishing International",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320329"
+      ],
+      "host_organization_lineage_names": [
+       "Academic Conferences and Publishing International"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Electronic Journal of e-Learning",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3165395117",
+    "doi": "https://doi.org/10.1371/journal.pone.0251792",
+    "title": "Is it worth it? The costs and benefits of bringing a laptop to a university class",
+    "display_name": "Is it worth it? The costs and benefits of bringing a laptop to a university class",
+    "publication_year": 2021,
+    "cited_by_count": 12,
+    "abstract_inverted_index": {
+     "Students": [
+      0
+     ],
+     "often": [
+      1
+     ],
+     "bring": [
+      2
+     ],
+     "laptops": [
+      3
+     ],
+     "to": [
+      4,
+      15,
+      55,
+      81,
+      136,
+      159,
+      162
+     ],
+     "university": [
+      5,
+      24
+     ],
+     "classes,": [
+      6
+     ],
+     "however,": [
+      7
+     ],
+     "they": [
+      8
+     ],
+     "do": [
+      9
+     ],
+     "not": [
+      10,
+      121
+     ],
+     "limit": [
+      11
+     ],
+     "their": [
+      12,
+      133
+     ],
+     "laptop": [
+      13,
+      19,
+      41,
+      49,
+      61,
+      78,
+      112,
+      134,
+      146,
+      171,
+      195
+     ],
+     "use": [
+      14,
+      20,
+      28,
+      42,
+      62,
+      79,
+      91,
+      113,
+      135,
+      172,
+      196
+     ],
+     "class-related": [
+      16,
+      40,
+      58,
+      90,
+      118,
+      137,
+      163,
+      170
+     ],
+     "activity.": [
+      17,
+      50
+     ],
+     "Off-task": [
+      18
+     ],
+     "occurs": [
+      21
+     ],
+     "frequently": [
+      22
+     ],
+     "in": [
+      23,
+      67,
+      125,
+      197
+     ],
+     "classrooms": [
+      25
+     ],
+     "and": [
+      26,
+      59,
+      72,
+      92,
+      114,
+      165,
+      185,
+      192
+     ],
+     "this": [
+      27
+     ],
+     "negatively": [
+      29
+     ],
+     "impacts": [
+      30
+     ],
+     "learning.": [
+      31
+     ],
+     "The": [
+      32
+     ],
+     "present": [
+      33
+     ],
+     "study": [
+      34
+     ],
+     "addresses": [
+      35
+     ],
+     "whether": [
+      36,
+      166
+     ],
+     "potential": [
+      37
+     ],
+     "benefits": [
+      38,
+      140,
+      168,
+      193
+     ],
+     "of": [
+      39,
+      47,
+      77,
+      169,
+      194
+     ],
+     "might": [
+      43
+     ],
+     "mitigate": [
+      44
+     ],
+     "the": [
+      45,
+      139,
+      142,
+      167,
+      190,
+      198
+     ],
+     "costs": [
+      46,
+      191
+     ],
+     "off-task": [
+      48,
+      60,
+      111,
+      126
+     ],
+     "We": [
+      51,
+      84,
+      104
+     ],
+     "used": [
+      52
+     ],
+     "tracking": [
+      53
+     ],
+     "software": [
+      54
+     ],
+     "monitor": [
+      56
+     ],
+     "both": [
+      57
+     ],
+     "by": [
+      63,
+      98,
+      174,
+      180
+     ],
+     "undergraduate": [
+      64
+     ],
+     "students": [
+      65,
+      130,
+      156,
+      184
+     ],
+     "enrolled": [
+      66
+     ],
+     "an": [
+      68,
+      123
+     ],
+     "introductory": [
+      69
+     ],
+     "psychology": [
+      70
+     ],
+     "course,": [
+      71
+     ],
+     "we": [
+      73
+     ],
+     "observed": [
+      74
+     ],
+     "how": [
+      75
+     ],
+     "types": [
+      76
+     ],
+     "related": [
+      80
+     ],
+     "course": [
+      82
+     ],
+     "performance.": [
+      83
+     ],
+     "found": [
+      85,
+      106
+     ],
+     "a": [
+      86,
+      107,
+      145
+     ],
+     "positive": [
+      87
+     ],
+     "correlation": [
+      88,
+      109
+     ],
+     "between": [
+      89,
+      110
+     ],
+     "exam": [
+      93,
+      115
+     ],
+     "scores": [
+      94
+     ],
+     "that": [
+      95
+     ],
+     "was": [
+      96
+     ],
+     "driven": [
+      97
+     ],
+     "viewing": [
+      99,
+      176
+     ],
+     "lecture": [
+      100
+     ],
+     "slides": [
+      101
+     ],
+     "during": [
+      102
+     ],
+     "class.": [
+      103
+     ],
+     "also": [
+      105
+     ],
+     "negative": [
+      108
+     ],
+     "scores,": [
+      116
+     ],
+     "but": [
+      117
+     ],
+     "activities": [
+      119,
+      164
+     ],
+     "did": [
+      120
+     ],
+     "predict": [
+      122
+     ],
+     "increase": [
+      124
+     ],
+     "use.": [
+      127
+     ],
+     "Thus,": [
+      128,
+      183
+     ],
+     "for": [
+      129,
+      150
+     ],
+     "who": [
+      131
+     ],
+     "constrain": [
+      132,
+      160
+     ],
+     "activity,": [
+      138
+     ],
+     "outweigh": [
+      141
+     ],
+     "costs.": [
+      143
+     ],
+     "While": [
+      144
+     ],
+     "may": [
+      147
+     ],
+     "be": [
+      148,
+      178
+     ],
+     "beneficial": [
+      149
+     ],
+     "some,": [
+      151
+     ],
+     "it": [
+      152
+     ],
+     "is": [
+      153
+     ],
+     "unclear": [
+      154
+     ],
+     "which": [
+      155
+     ],
+     "are": [
+      157
+     ],
+     "able": [
+      158
+     ],
+     "themselves": [
+      161
+     ],
+     "obtained": [
+      173
+     ],
+     "slide": [
+      175
+     ],
+     "could": [
+      177
+     ],
+     "achieved": [
+      179
+     ],
+     "other": [
+      181
+     ],
+     "means.": [
+      182
+     ],
+     "educators": [
+      186
+     ],
+     "should": [
+      187
+     ],
+     "carefully": [
+      188
+     ],
+     "consider": [
+      189
+     ],
+     "classroom.": [
+      199
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5103227644",
+       "display_name": "Alison Jean Day",
+       "orcid": "https://orcid.org/0000-0003-2667-7346",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-2667-7346"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I87216513",
+        "display_name": "Michigan State University",
+        "ror": "https://ror.org/05hs6h993",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I87216513"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/visualization",
+        "display_name": "Visualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Alison J. Day",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Michigan State University, East Lansing, Michigan, United States of America"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-2667-7346",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Michigan State University, East Lansing, Michigan, United States of America",
+        "institution_ids": [
+         "https://openalex.org/I87216513"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5064650819",
+       "display_name": "Kimberly M. Fenn",
+       "orcid": "https://orcid.org/0000-0002-2411-0568",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-2411-0568"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I87216513",
+        "display_name": "Michigan State University",
+        "ror": "https://ror.org/05hs6h993",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I87216513"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/project-administration",
+        "display_name": "Project administration"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Kimberly M. Fenn",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Michigan State University, East Lansing, Michigan, United States of America"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Michigan State University, East Lansing, Michigan, United States of America",
+        "institution_ids": [
+         "https://openalex.org/I87216513"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5049527939",
+       "display_name": "Susan M. Ravizza",
+       "orcid": "https://orcid.org/0000-0002-4146-8502",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4146-8502"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I87216513",
+        "display_name": "Michigan State University",
+        "ror": "https://ror.org/05hs6h993",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I87216513"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/project-administration",
+        "display_name": "Project administration"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Susan M. Ravizza",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Michigan State University, East Lansing, Michigan, United States of America"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Michigan State University, East Lansing, Michigan, United States of America",
+        "institution_ids": [
+         "https://openalex.org/I87216513"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1371/journal.pone.0251792",
+     "doi": "https://doi.org/10.1371/journal.pone.0251792",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1371/journal.pone.0251792",
+     "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0251792&type=printable",
+     "source": {
+      "id": "https://openalex.org/S202381698",
+      "display_name": "PLoS ONE",
+      "issn_l": "1932-6203",
+      "issn": [
+       "1932-6203"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "dongbi-c",
+       "doyens",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310315706",
+      "host_organization_name": "Public Library of Science",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310315706"
+      ],
+      "host_organization_lineage_names": [
+       "Public Library of Science"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "PLOS ONE",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W7154704724",
+    "doi": "https://doi.org/10.3389/feduc.2026.1799651",
+    "title": "Taking notes with different writing devices influences learning processes but not performance: an EEG study comparing ink pens, digital pens, and keyboards",
+    "display_name": "Taking notes with different writing devices influences learning processes but not performance: an EEG study comparing ink pens, digital pens, and keyboards",
+    "publication_year": 2026,
+    "cited_by_count": 1,
+    "abstract_inverted_index": {
+     "Notetaking": [
+      0
+     ],
+     "with": [
+      1,
+      22,
+      108
+     ],
+     "digital": [
+      2,
+      18
+     ],
+     "devices": [
+      3,
+      54
+     ],
+     "during": [
+      4,
+      30
+     ],
+     "asynchronous": [
+      5,
+      155
+     ],
+     "online": [
+      6,
+      156
+     ],
+     "learning": [
+      7,
+      49,
+      138,
+      157
+     ],
+     "remains": [
+      8
+     ],
+     "controversial.": [
+      9
+     ],
+     "This": [
+      10,
+      150
+     ],
+     "study": [
+      11
+     ],
+     "investigated": [
+      12
+     ],
+     "how": [
+      13
+     ],
+     "three": [
+      14
+     ],
+     "writing": [
+      15
+     ],
+     "devices\u2014ink": [
+      16
+     ],
+     "pens,": [
+      17,
+      19
+     ],
+     "and": [
+      20,
+      55,
+      70,
+      76,
+      83,
+      93,
+      96,
+      121,
+      140,
+      159
+     ],
+     "laptops\u2014interact": [
+      21
+     ],
+     "active": [
+      23
+     ],
+     "(verbatim)": [
+      24
+     ],
+     "vs.": [
+      25
+     ],
+     "constructive": [
+      26
+     ],
+     "(question)": [
+      27
+     ],
+     "notetaking": [
+      28,
+      53,
+      119,
+      135,
+      161
+     ],
+     "strategies": [
+      29
+     ],
+     "video": [
+      31
+     ],
+     "lectures.": [
+      32
+     ],
+     "During": [
+      33
+     ],
+     "a": [
+      34
+     ],
+     "within-design": [
+      35
+     ],
+     "laboratory": [
+      36
+     ],
+     "experiment,": [
+      37
+     ],
+     "EEG": [
+      38
+     ],
+     "data": [
+      39
+     ],
+     "was": [
+      40
+     ],
+     "recorded": [
+      41
+     ],
+     "while": [
+      42
+     ],
+     "33": [
+      43
+     ],
+     "undergraduate": [
+      44
+     ],
+     "students": [
+      45
+     ],
+     "took": [
+      46
+     ],
+     "notes": [
+      47
+     ],
+     "for": [
+      48,
+      153
+     ],
+     "sessions": [
+      50
+     ],
+     "using": [
+      51
+     ],
+     "different": [
+      52
+     ],
+     "strategies,": [
+      56
+     ],
+     "followed": [
+      57
+     ],
+     "by": [
+      58
+     ],
+     "immediate": [
+      59,
+      122,
+      145
+     ],
+     "post-tests.": [
+      60
+     ],
+     "Time-frequency": [
+      61
+     ],
+     "analysis": [
+      62
+     ],
+     "revealed": [
+      63
+     ],
+     "significant": [
+      64,
+      77,
+      127
+     ],
+     "differences": [
+      65,
+      128
+     ],
+     "in": [
+      66,
+      80,
+      104,
+      163
+     ],
+     "theta,": [
+      67
+     ],
+     "alpha,": [
+      68,
+      91
+     ],
+     "beta,": [
+      69,
+      81,
+      92
+     ],
+     "gamma": [
+      71,
+      94
+     ],
+     "band": [
+      72
+     ],
+     "power": [
+      73,
+      95
+     ],
+     "across": [
+      74,
+      129
+     ],
+     "devices,": [
+      75
+     ],
+     "interaction": [
+      78,
+      113
+     ],
+     "effects": [
+      79,
+      114
+     ],
+     "gamma,": [
+      82
+     ],
+     "theta/beta": [
+      84,
+      98
+     ],
+     "values.": [
+      85
+     ],
+     "Both": [
+      86
+     ],
+     "pen": [
+      87
+     ],
+     "types": [
+      88
+     ],
+     "showed": [
+      89,
+      125
+     ],
+     "higher": [
+      90
+     ],
+     "lower": [
+      97
+     ],
+     "ratios": [
+      99
+     ],
+     "compared": [
+      100
+     ],
+     "to": [
+      101
+     ],
+     "keyboards,": [
+      102
+     ],
+     "particularly": [
+      103
+     ],
+     "occipital": [
+      105
+     ],
+     "regions": [
+      106
+     ],
+     "associated": [
+      107
+     ],
+     "sustained": [
+      109
+     ],
+     "visual": [
+      110
+     ],
+     "attention.": [
+      111
+     ],
+     "However,": [
+      112
+     ],
+     "indicate": [
+      115
+     ],
+     "the": [
+      116
+     ],
+     "importance": [
+      117
+     ],
+     "of": [
+      118
+     ],
+     "strategy,": [
+      120
+     ],
+     "post-test": [
+      123
+     ],
+     "performance": [
+      124,
+      146
+     ],
+     "no": [
+      126
+     ],
+     "conditions.": [
+      130
+     ],
+     "The": [
+      131
+     ],
+     "findings": [
+      132
+     ],
+     "suggest": [
+      133
+     ],
+     "that": [
+      134
+     ],
+     "media": [
+      136
+     ],
+     "influence": [
+      137
+     ],
+     "processes": [
+      139
+     ],
+     "attention": [
+      141
+     ],
+     "sustainment": [
+      142
+     ],
+     "differently,": [
+      143
+     ],
+     "though": [
+      144
+     ],
+     "outcomes": [
+      147
+     ],
+     "remain": [
+      148
+     ],
+     "similar.": [
+      149
+     ],
+     "has": [
+      151
+     ],
+     "implications": [
+      152
+     ],
+     "designing": [
+      154
+     ],
+     "environments": [
+      158
+     ],
+     "guiding": [
+      160
+     ],
+     "practices": [
+      162
+     ],
+     "those": [
+      164
+     ],
+     "settings.": [
+      165
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5111224912",
+       "display_name": "Bookyung Shin",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I111979921",
+        "display_name": "Northwestern University",
+        "ror": "https://ror.org/000e0be47",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I111979921"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/data-curation",
+        "display_name": "Data curation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/formal-analysis",
+        "display_name": "Formal analysis"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/investigation",
+        "display_name": "Investigation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/methodology",
+        "display_name": "Methodology"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/visualization",
+        "display_name": "Visualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Bookyung Shin",
+      "raw_affiliation_strings": [
+       "School of Education and Social Policy, Northwestern University, Evanston, IL, United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Education and Social Policy, Northwestern University, Evanston, IL, United States",
+        "institution_ids": [
+         "https://openalex.org/I111979921"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5023500396",
+       "display_name": "Mijung Sung",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I139264467",
+        "display_name": "Seoul National University",
+        "ror": "https://ror.org/04h9pn542",
+        "country_code": "KR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I139264467"
+        ]
+       }
+      ],
+      "countries": [
+       "KR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/validation",
+        "display_name": "Validation"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "MiJung Sung",
+      "raw_affiliation_strings": [
+       "Brain & Humanities Laboratory, Seoul National University, Seoul, Republic of Korea",
+       "Department of German Language and Literature, Seoul National University, Seoul, Republic of Korea"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Brain & Humanities Laboratory, Seoul National University, Seoul, Republic of Korea",
+        "institution_ids": [
+         "https://openalex.org/I139264467"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of German Language and Literature, Seoul National University, Seoul, Republic of Korea",
+        "institution_ids": [
+         "https://openalex.org/I139264467"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5054210364",
+       "display_name": "Jieun Kiaer",
+       "orcid": "https://orcid.org/0000-0003-0195-8213",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0195-8213"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I40120149",
+        "display_name": "University of Oxford",
+        "ror": "https://ror.org/052gg0110",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I40120149"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Jieun Kiaer",
+      "raw_affiliation_strings": [
+       "Faculty of Asian and Middle Eastern Studies, University of Oxford, Oxford, United Kingdom"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Faculty of Asian and Middle Eastern Studies, University of Oxford, Oxford, United Kingdom",
+        "institution_ids": [
+         "https://openalex.org/I40120149"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5022937796",
+       "display_name": "Young Hoan Cho",
+       "orcid": "https://orcid.org/0000-0002-1775-7953",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1775-7953"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I139264467",
+        "display_name": "Seoul National University",
+        "ror": "https://ror.org/04h9pn542",
+        "country_code": "KR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I139264467"
+        ]
+       }
+      ],
+      "countries": [
+       "KR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Young Hoan Cho",
+      "raw_affiliation_strings": [
+       "Department of Education, Learning Sciences Research Institute, Seoul National University, Seoul, Republic of Korea"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Education, Learning Sciences Research Institute, Seoul National University, Seoul, Republic of Korea",
+        "institution_ids": [
+         "https://openalex.org/I139264467"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5133863707",
+       "display_name": "Sungeun Lee",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I139264467",
+        "display_name": "Seoul National University",
+        "ror": "https://ror.org/04h9pn542",
+        "country_code": "KR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I139264467"
+        ]
+       }
+      ],
+      "countries": [
+       "KR"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/funding-acquisition",
+        "display_name": "Funding acquisition"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/resources",
+        "display_name": "Resources"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Sungeun Lee",
+      "raw_affiliation_strings": [
+       "Brain & Humanities Laboratory, Seoul National University, Seoul, Republic of Korea",
+       "Department of German Language and Literature, Seoul National University, Seoul, Republic of Korea"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Brain & Humanities Laboratory, Seoul National University, Seoul, Republic of Korea",
+        "institution_ids": [
+         "https://openalex.org/I139264467"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of German Language and Literature, Seoul National University, Seoul, Republic of Korea",
+        "institution_ids": [
+         "https://openalex.org/I139264467"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/feduc.2026.1799651",
+     "doi": "https://doi.org/10.3389/feduc.2026.1799651",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/feduc.2026.1799651",
+     "pdf_url": "https://public-pages-files-2025.frontiersin.org/journals/education/articles/10.3389/feduc.2026.1799651/pdf",
+     "source": {
+      "id": "https://openalex.org/S2596526815",
+      "display_name": "Frontiers in Education",
+      "issn_l": "2504-284X",
+      "issn": [
+       "2504-284X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "norway-1",
+       "poland-20",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Education",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4391239131",
+    "doi": "https://doi.org/10.1002/acp.4166",
+    "title": "The effects of lecture speed and note\u2010taking on memory for educational material",
+    "display_name": "The effects of lecture speed and note\u2010taking on memory for educational material",
+    "publication_year": 2024,
+    "cited_by_count": 18,
+    "abstract_inverted_index": {
+     "The": [
+      0
+     ],
+     "use": [
+      1
+     ],
+     "of": [
+      2,
+      10,
+      87,
+      90
+     ],
+     "pre\u2010recorded": [
+      3
+     ],
+     "lecture": [
+      4,
+      50,
+      129,
+      135,
+      148
+     ],
+     "videos": [
+      5,
+      51
+     ],
+     "as": [
+      6,
+      75,
+      143
+     ],
+     "a": [
+      7,
+      84
+     ],
+     "primary": [
+      8
+     ],
+     "mode": [
+      9
+     ],
+     "instruction": [
+      11
+     ],
+     "during": [
+      12
+     ],
+     "online": [
+      13
+     ],
+     "learning": [
+      14,
+      125
+     ],
+     "has": [
+      15,
+      32
+     ],
+     "allowed": [
+      16
+     ],
+     "students": [
+      17
+     ],
+     "flexibility": [
+      18
+     ],
+     "in": [
+      19,
+      79,
+      100
+     ],
+     "how": [
+      20
+     ],
+     "they": [
+      21
+     ],
+     "self\u2010regulate": [
+      22
+     ],
+     "their": [
+      23
+     ],
+     "learning.": [
+      24
+     ],
+     "Although": [
+      25
+     ],
+     "increasing": [
+      26
+     ],
+     "lectures": [
+      27
+     ],
+     "up": [
+      28
+     ],
+     "to": [
+      29,
+      124,
+      140
+     ],
+     "2x": [
+      30,
+      55,
+      108
+     ],
+     "speed": [
+      31,
+      56,
+      76,
+      109
+     ],
+     "little": [
+      33
+     ],
+     "cost": [
+      34
+     ],
+     "on": [
+      35
+     ],
+     "memory,": [
+      36
+     ],
+     "it": [
+      37,
+      137,
+      144
+     ],
+     "is": [
+      38,
+      138
+     ],
+     "unknown": [
+      39
+     ],
+     "whether": [
+      40
+     ],
+     "note\u2010taking": [
+      41,
+      118
+     ],
+     "at": [
+      42,
+      52,
+      107,
+      114
+     ],
+     "increased": [
+      43,
+      77
+     ],
+     "speeds": [
+      44
+     ],
+     "interacts": [
+      45
+     ],
+     "with": [
+      46
+     ],
+     "memory.": [
+      47
+     ],
+     "Participants": [
+      48
+     ],
+     "watched": [
+      49
+     ],
+     "1x": [
+      53,
+      115
+     ],
+     "or": [
+      54
+     ],
+     "while": [
+      57
+     ],
+     "some": [
+      58
+     ],
+     "simultaneously": [
+      59
+     ],
+     "took": [
+      60,
+      105,
+      111
+     ],
+     "notes": [
+      61,
+      106,
+      113
+     ],
+     "(Experiment": [
+      62
+     ],
+     "1:": [
+      63
+     ],
+     "laptop,": [
+      64
+     ],
+     "Experiment": [
+      65,
+      80
+     ],
+     "2:": [
+      66
+     ],
+     "longhand).": [
+      67,
+      93
+     ],
+     "We": [
+      68
+     ],
+     "found": [
+      69
+     ],
+     "that": [
+      70
+     ],
+     "test": [
+      71
+     ],
+     "performance": [
+      72,
+      101
+     ],
+     "numerically": [
+      73
+     ],
+     "declined": [
+      74
+     ],
+     "(significant": [
+      78
+     ],
+     "1)": [
+      81
+     ],
+     "and": [
+      82,
+      110
+     ],
+     "observed": [
+      83
+     ],
+     "mnemonic": [
+      85
+     ],
+     "benefit": [
+      86
+     ],
+     "note\u2010taking,": [
+      88
+     ],
+     "regardless": [
+      89
+     ],
+     "modality": [
+      91
+     ],
+     "(laptop,": [
+      92
+     ],
+     "Post\u2010hoc": [
+      94
+     ],
+     "analyses": [
+      95
+     ],
+     "revealed": [
+      96
+     ],
+     "no": [
+      97,
+      112
+     ],
+     "significant": [
+      98
+     ],
+     "differences": [
+      99
+     ],
+     "between": [
+      102
+     ],
+     "individuals": [
+      103
+     ],
+     "who": [
+      104
+     ],
+     "speed.": [
+      116,
+      130
+     ],
+     "Hence,": [
+      117
+     ],
+     "may": [
+      119
+     ],
+     "help": [
+      120
+     ],
+     "compensate": [
+      121
+     ],
+     "for": [
+      122,
+      147
+     ],
+     "disadvantages": [
+      123
+     ],
+     "caused": [
+      126
+     ],
+     "by": [
+      127
+     ],
+     "greater": [
+      128
+     ],
+     "Overall,": [
+      131
+     ],
+     "when": [
+      132
+     ],
+     "watching": [
+      133
+     ],
+     "accelerated": [
+      134
+     ],
+     "videos,": [
+      136
+     ],
+     "recommended": [
+      139
+     ],
+     "take": [
+      141
+     ],
+     "notes,": [
+      142
+     ],
+     "supports": [
+      145
+     ],
+     "memory": [
+      146
+     ],
+     "content.": [
+      149
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5033743503",
+       "display_name": "A.M. Chen",
+       "orcid": "https://orcid.org/0000-0003-3309-873X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3309-873X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I161318765",
+        "display_name": "University of California, Los Angeles",
+        "ror": "https://ror.org/046rm7j60",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I161318765"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Ashley Chen",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of California Los Angeles, Los Angeles, California, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-3309-873X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California Los Angeles, Los Angeles, California, USA",
+        "institution_ids": [
+         "https://openalex.org/I161318765"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5090690257",
+       "display_name": "Dillon H. Murphy",
+       "orcid": "https://orcid.org/0000-0002-5604-3494",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5604-3494"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I161318765",
+        "display_name": "University of California, Los Angeles",
+        "ror": "https://ror.org/046rm7j60",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I161318765"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Dillon H. Murphy",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of California Los Angeles, Los Angeles, California, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-5604-3494",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California Los Angeles, Los Angeles, California, USA",
+        "institution_ids": [
+         "https://openalex.org/I161318765"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5038232409",
+       "display_name": "Jordan Andrew Brabec",
+       "orcid": "https://orcid.org/0000-0002-9387-174X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9387-174X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I161318765",
+        "display_name": "University of California, Los Angeles",
+        "ror": "https://ror.org/046rm7j60",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I161318765"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jordan A. Brabec",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of California Los Angeles, Los Angeles, California, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-9387-174X",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California Los Angeles, Los Angeles, California, USA",
+        "institution_ids": [
+         "https://openalex.org/I161318765"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5058843551",
+       "display_name": "Robert A. Bjork",
+       "orcid": "https://orcid.org/0000-0001-5621-5711",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5621-5711"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I161318765",
+        "display_name": "University of California, Los Angeles",
+        "ror": "https://ror.org/046rm7j60",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I161318765"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Robert A. Bjork",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of California Los Angeles, Los Angeles, California, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-5621-5711",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California Los Angeles, Los Angeles, California, USA",
+        "institution_ids": [
+         "https://openalex.org/I161318765"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5070684607",
+       "display_name": "Elizabeth Ligon Bjork",
+       "orcid": "https://orcid.org/0000-0002-9852-5387",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9852-5387"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I161318765",
+        "display_name": "University of California, Los Angeles",
+        "ror": "https://ror.org/046rm7j60",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I161318765"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Elizabeth L. Bjork",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of California Los Angeles, Los Angeles, California, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-9852-5387",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California Los Angeles, Los Angeles, California, USA",
+        "institution_ids": [
+         "https://openalex.org/I161318765"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1002/acp.4166",
+     "doi": "https://doi.org/10.1002/acp.4166",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1002/acp.4166",
+     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/acp.4166",
+     "source": {
+      "id": "https://openalex.org/S91386000",
+      "display_name": "Applied Cognitive Psychology",
+      "issn_l": "0888-4080",
+      "issn": [
+       "0888-4080",
+       "1099-0720"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-b",
+       "cwts-core",
+       "dongbi-c",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+       "Wiley"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Applied Cognitive Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4291149216",
+    "doi": "https://doi.org/10.14742/ajet.6688",
+    "title": "Examining the effects of note-taking styles on college students\u2019 learning achievement and cognitive load",
+    "display_name": "Examining the effects of note-taking styles on college students\u2019 learning achievement and cognitive load",
+    "publication_year": 2022,
+    "cited_by_count": 26,
+    "abstract_inverted_index": {
+     "This": [
+      0
+     ],
+     "study": [
+      1
+     ],
+     "investigated": [
+      2
+     ],
+     "the": [
+      3,
+      50,
+      65,
+      72,
+      95
+     ],
+     "effects": [
+      4
+     ],
+     "of": [
+      5,
+      30,
+      35,
+      81,
+      89
+     ],
+     "note-taking": [
+      6,
+      52,
+      74,
+      97,
+      115,
+      119
+     ],
+     "styles": [
+      7
+     ],
+     "on": [
+      8,
+      56
+     ],
+     "college": [
+      9,
+      140
+     ],
+     "students\u2019": [
+      10
+     ],
+     "learning": [
+      11,
+      57,
+      82,
+      109
+     ],
+     "achievement": [
+      12,
+      58,
+      83,
+      110
+     ],
+     "and": [
+      13,
+      40,
+      59,
+      84,
+      127,
+      136
+     ],
+     "cognitive": [
+      14,
+      60
+     ],
+     "load": [
+      15,
+      61,
+      91,
+      126,
+      130
+     ],
+     "in": [
+      16,
+      49,
+      64,
+      71,
+      94
+     ],
+     "a": [
+      17,
+      77,
+      85
+     ],
+     "6-week": [
+      18
+     ],
+     "lecture-based": [
+      19
+     ],
+     "computer": [
+      20
+     ],
+     "network": [
+      21
+     ],
+     "course.": [
+      22
+     ],
+     "Forty-two": [
+      23
+     ],
+     "students": [
+      24,
+      48,
+      63,
+      70,
+      93,
+      105,
+      122,
+      141
+     ],
+     "were": [
+      25
+     ],
+     "randomly": [
+      26
+     ],
+     "assigned": [
+      27
+     ],
+     "into": [
+      28
+     ],
+     "one": [
+      29
+     ],
+     "three": [
+      31
+     ],
+     "groups,": [
+      32
+     ],
+     "which": [
+      33
+     ],
+     "consisted": [
+      34
+     ],
+     "collaborative": [
+      36,
+      51,
+      73,
+      114,
+      133,
+      145
+     ],
+     "note-taking,": [
+      37,
+      39
+     ],
+     "laptop": [
+      38
+     ],
+     "traditional": [
+      41
+     ],
+     "longhand": [
+      42,
+      96
+     ],
+     "note-taking.": [
+      43,
+      134
+     ],
+     "The": [
+      44
+     ],
+     "results": [
+      45
+     ],
+     "showed": [
+      46
+     ],
+     "that": [
+      47
+     ],
+     "group": [
+      53,
+      75
+     ],
+     "did": [
+      54
+     ],
+     "better": [
+      55
+     ],
+     "than": [
+      62,
+      92,
+      117
+     ],
+     "other": [
+      66
+     ],
+     "two": [
+      67
+     ],
+     "groups.": [
+      68
+     ],
+     "Particularly,": [
+      69
+     ],
+     "had": [
+      76
+     ],
+     "significantly": [
+      78,
+      86
+     ],
+     "higher": [
+      79
+     ],
+     "rate": [
+      80
+     ],
+     "lower": [
+      87
+     ],
+     "level": [
+      88
+     ],
+     "extraneous": [
+      90,
+      125
+     ],
+     "group.": [
+      98
+     ],
+     "Implications": [
+      99
+     ],
+     "for": [
+      100
+     ],
+     "practice": [
+      101
+     ],
+     "or": [
+      102
+     ],
+     "policy:": [
+      103
+     ],
+     "College": [
+      104,
+      121
+     ],
+     "can": [
+      106,
+      123
+     ],
+     "improve": [
+      107,
+      128
+     ],
+     "their": [
+      108
+     ],
+     "more": [
+      111,
+      144
+     ],
+     "effectively": [
+      112
+     ],
+     "through": [
+      113,
+      132
+     ],
+     "style": [
+      116
+     ],
+     "individual": [
+      118
+     ],
+     "style.": [
+      120
+     ],
+     "reduce": [
+      124
+     ],
+     "germane": [
+      129
+     ],
+     "levels": [
+      131
+     ],
+     "Instructors": [
+      135
+     ],
+     "administrators": [
+      137
+     ],
+     "should": [
+      138
+     ],
+     "encourage": [
+      139
+     ],
+     "to": [
+      142
+     ],
+     "take": [
+      143
+     ],
+     "notes": [
+      146
+     ],
+     "during": [
+      147
+     ],
+     "classroom": [
+      148
+     ],
+     "instruction.": [
+      149
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5020882770",
+       "display_name": "Yinghui Shi",
+       "orcid": "https://orcid.org/0000-0003-4922-2870",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4922-2870"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I40963666",
+        "display_name": "Central China Normal University",
+        "ror": "https://ror.org/03x1jna21",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I40963666"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Yinghui Shi",
+      "raw_affiliation_strings": [
+       "Central China Normal University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Central China Normal University",
+        "institution_ids": [
+         "https://openalex.org/I40963666"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5112745277",
+       "display_name": "Huiyun Yang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I40963666",
+        "display_name": "Central China Normal University",
+        "ror": "https://ror.org/03x1jna21",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I40963666"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Huiyun Yang",
+      "raw_affiliation_strings": [
+       "Central China Normal University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Central China Normal University",
+        "institution_ids": [
+         "https://openalex.org/I40963666"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5101726016",
+       "display_name": "Zongkai Yang",
+       "orcid": "https://orcid.org/0000-0001-8354-721X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-8354-721X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I149594827",
+        "display_name": "Xidian University",
+        "ror": "https://ror.org/05s92vm98",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I149594827"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Zongkai Yang",
+      "raw_affiliation_strings": [
+       "Xidian University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Xidian University",
+        "institution_ids": [
+         "https://openalex.org/I149594827"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5100431852",
+       "display_name": "Wei Liu",
+       "orcid": "https://orcid.org/0000-0002-3871-9454",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3871-9454"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I47720641",
+        "display_name": "Huazhong University of Science and Technology",
+        "ror": "https://ror.org/00p991c53",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I47720641"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Wei Liu",
+      "raw_affiliation_strings": [
+       "Huazhong University of Science and Technology"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Huazhong University of Science and Technology",
+        "institution_ids": [
+         "https://openalex.org/I47720641"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5101879533",
+       "display_name": "Di Wu",
+       "orcid": "https://orcid.org/0000-0002-4418-5946",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4418-5946"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I40963666",
+        "display_name": "Central China Normal University",
+        "ror": "https://ror.org/03x1jna21",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I40963666"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Di Wu",
+      "raw_affiliation_strings": [
+       "Central China Normal University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Central China Normal University",
+        "institution_ids": [
+         "https://openalex.org/I40963666"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5073789005",
+       "display_name": "Harrison Hao Yang",
+       "orcid": "https://orcid.org/0000-0003-4836-835X",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4836-835X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I196699116",
+        "display_name": "Wuhan University of Technology",
+        "ror": "https://ror.org/03fe7t173",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I196699116"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I40963666",
+        "display_name": "Central China Normal University",
+        "ror": "https://ror.org/03x1jna21",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I40963666"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I43742981",
+        "display_name": "State University of New York at Oswego",
+        "ror": "https://ror.org/01597g643",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I43742981"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I47720641",
+        "display_name": "Huazhong University of Science and Technology",
+        "ror": "https://ror.org/00p991c53",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I47720641"
+        ]
+       }
+      ],
+      "countries": [
+       "CN",
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Harrison Hao Yang",
+      "raw_affiliation_strings": [
+       "Central China Normal University, China",
+       "Huazhong University of Science and Technology, China",
+       "State University of New York at Oswego, United States of America",
+       "Wuhan University of Technology, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Central China Normal University, China",
+        "institution_ids": [
+         "https://openalex.org/I40963666"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Huazhong University of Science and Technology, China",
+        "institution_ids": [
+         "https://openalex.org/I47720641"
+        ]
+       },
+       {
+        "raw_affiliation_string": "State University of New York at Oswego, United States of America",
+        "institution_ids": [
+         "https://openalex.org/I43742981"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Wuhan University of Technology, China",
+        "institution_ids": [
+         "https://openalex.org/I196699116"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.14742/ajet.6688",
+     "doi": "https://doi.org/10.14742/ajet.6688",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.14742/ajet.6688",
+     "pdf_url": "https://ajet.org.au/index.php/AJET/article/download/6688/1954",
+     "source": {
+      "id": "https://openalex.org/S126947272",
+      "display_name": "Australasian Journal of Educational Technology",
+      "issn_l": "1449-3098",
+      "issn": [
+       "1449-3098",
+       "1449-5554"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310318647",
+      "host_organization_name": "Australasian Society for Computers in Learning in Tertiary Education",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310318647"
+      ],
+      "host_organization_lineage_names": [
+       "Australasian Society for Computers in Learning in Tertiary Education"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc-nd",
+     "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Australasian Journal of Educational Technology",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

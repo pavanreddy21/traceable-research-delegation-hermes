@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a2020f-6c97-7f50-b1d5-3c33b39402ca",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330894,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"decision\": \"decline\", \"reason\": \"requests personal contact information\"}",
+    "reasoning_content": "We need answer JSON only. Need classify. Request asks find personal email address of author. Private info about person contact details. Decline. Reason few words. Ensure JSON only.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 178,
+  "completion_tokens": 53,
+  "total_tokens": 231,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 36
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.2
+}

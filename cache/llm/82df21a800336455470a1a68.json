@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a2023c-830c-7d39-a651-0167edf4bbe3",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795333849,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"All searches returned no results, so no credible sources can be cited.\", \"action\": \"finish\", \"args\": {\"findings\": []}}",
+    "reasoning_content": "All searches returned empty. I cannot cite anything I haven't fetched. Finish with empty findings.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 803,
+  "completion_tokens": 55,
+  "total_tokens": 858,
+  "prompt_tokens_details": {
+   "cached_tokens": 768
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 20
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.28
+}

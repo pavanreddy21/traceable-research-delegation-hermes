@@ -1,0 +1,2281 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 57377,
+   "db_response_time_ms": 221,
+   "page": 1,
+   "per_page": 3,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (retrieval practice mathematics problem solving) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (retrieval practice mathematics problem solving) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "retrieval practice mathematics problem solving",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:retrieval practice mathematics problem solving,has_abstract:true,language:en,type:article|review&per_page=3",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4321369342",
+    "doi": "https://doi.org/10.3389/fpsyg.2023.1093653",
+    "title": "Retrieval practice may not benefit mathematical word-problem solving",
+    "display_name": "Retrieval practice may not benefit mathematical word-problem solving",
+    "publication_year": 2023,
+    "cited_by_count": 6,
+    "abstract_inverted_index": {
+     "The": [
+      0
+     ],
+     "retrieval": [
+      1,
+      46,
+      69,
+      81,
+      107,
+      128,
+      165,
+      185,
+      208,
+      222
+     ],
+     "practice": [
+      2,
+      47,
+      82,
+      108,
+      129,
+      166,
+      186,
+      209,
+      223
+     ],
+     "effect": [
+      3,
+      79,
+      105,
+      130,
+      224
+     ],
+     "refers": [
+      4
+     ],
+     "to": [
+      5,
+      27,
+      102,
+      122
+     ],
+     "the": [
+      6,
+      18,
+      68,
+      72,
+      78,
+      95,
+      104,
+      124,
+      127,
+      133,
+      152,
+      164,
+      176,
+      181,
+      184,
+      190,
+      195,
+      200
+     ],
+     "fact": [
+      7
+     ],
+     "that": [
+      8,
+      45
+     ],
+     "one": [
+      9
+     ],
+     "or": [
+      10,
+      171
+     ],
+     "even": [
+      11
+     ],
+     "multiple": [
+      12
+     ],
+     "retrievals": [
+      13
+     ],
+     "of": [
+      14,
+      80,
+      97,
+      106,
+      126,
+      135,
+      207
+     ],
+     "memory": [
+      15,
+      30
+     ],
+     "content": [
+      16
+     ],
+     "during": [
+      17,
+      212
+     ],
+     "same": [
+      19
+     ],
+     "period": [
+      20
+     ],
+     "are": [
+      21
+     ],
+     "more": [
+      22
+     ],
+     "effective": [
+      23,
+      34
+     ],
+     "than": [
+      24
+     ],
+     "repeated": [
+      25,
+      177,
+      191
+     ],
+     "studying": [
+      26
+     ],
+     "promote": [
+      28,
+      158
+     ],
+     "future": [
+      29
+     ],
+     "retention.": [
+      31
+     ],
+     "It": [
+      32
+     ],
+     "is": [
+      33
+     ],
+     "for": [
+      35,
+      163
+     ],
+     "numerous": [
+      36
+     ],
+     "declarative": [
+      37
+     ],
+     "knowledge": [
+      38
+     ],
+     "learning": [
+      39,
+      65
+     ],
+     "materials.": [
+      40
+     ],
+     "However,": [
+      41,
+      198
+     ],
+     "studies": [
+      42
+     ],
+     "have": [
+      43
+     ],
+     "demonstrated": [
+      44
+     ],
+     "does": [
+      48
+     ],
+     "not": [
+      49,
+      157
+     ],
+     "benefit": [
+      50
+     ],
+     "problem-solving": [
+      51,
+      85,
+      110,
+      141,
+      227
+     ],
+     "skill": [
+      52
+     ],
+     "learning.": [
+      53,
+      143
+     ],
+     "This": [
+      54
+     ],
+     "study": [
+      55,
+      178,
+      192
+     ],
+     "used": [
+      56
+     ],
+     "worked": [
+      57,
+      230
+     ],
+     "examples": [
+      58,
+      150
+     ],
+     "from": [
+      59,
+      229
+     ],
+     "math": [
+      60
+     ],
+     "word": [
+      61
+     ],
+     "problem": [
+      62
+     ],
+     "tasks": [
+      63
+     ],
+     "as": [
+      64,
+      71,
+      99,
+      168
+     ],
+     "materials,": [
+      66
+     ],
+     "considering": [
+      67
+     ],
+     "difficulty": [
+      70,
+      96,
+      115,
+      137
+     ],
+     "main": [
+      73
+     ],
+     "factor.": [
+      74
+     ],
+     "Experiment": [
+      75,
+      92,
+      117
+     ],
+     "1": [
+      76
+     ],
+     "explored": [
+      77
+     ],
+     "on": [
+      83,
+      109,
+      140,
+      180,
+      194,
+      225
+     ],
+     "acquiring": [
+      84,
+      226
+     ],
+     "skills": [
+      86,
+      111,
+      142,
+      228
+     ],
+     "under": [
+      87,
+      112
+     ],
+     "different": [
+      88,
+      113
+     ],
+     "initial": [
+      89
+     ],
+     "testing": [
+      90
+     ],
+     "difficulties.": [
+      91
+     ],
+     "2": [
+      93
+     ],
+     "manipulated": [
+      94
+     ],
+     "materials": [
+      98
+     ],
+     "a": [
+      100
+     ],
+     "variable": [
+      101
+     ],
+     "ascertain": [
+      103
+     ],
+     "material": [
+      114
+     ],
+     "levels.": [
+      116
+     ],
+     "3": [
+      118
+     ],
+     "introduced": [
+      119
+     ],
+     "feedback": [
+      120,
+      138
+     ],
+     "variables": [
+      121
+     ],
+     "facilitate": [
+      123
+     ],
+     "generation": [
+      125
+     ],
+     "and": [
+      131
+     ],
+     "examined": [
+      132
+     ],
+     "effects": [
+      134
+     ],
+     "various": [
+      136
+     ],
+     "levels": [
+      139
+     ],
+     "Results": [
+      144
+     ],
+     "showed": [
+      145
+     ],
+     "that,": [
+      146
+     ],
+     "compared": [
+      147
+     ],
+     "with": [
+      148
+     ],
+     "restudying": [
+      149
+     ],
+     "(SSSS),": [
+      151
+     ],
+     "example-problem": [
+      153
+     ],
+     "pairs": [
+      154
+     ],
+     "(STST)": [
+      155
+     ],
+     "did": [
+      156
+     ],
+     "delayed": [
+      159,
+      196,
+      215
+     ],
+     "test": [
+      160
+     ],
+     "performance.": [
+      161
+     ],
+     "As": [
+      162
+     ],
+     "effect,": [
+      167
+     ],
+     "no": [
+      169,
+      205,
+      221
+     ],
+     "differences": [
+      170
+     ],
+     "advantages": [
+      172
+     ],
+     "were": [
+      173
+     ],
+     "found": [
+      174,
+      204
+     ],
+     "in": [
+      175
+     ],
+     "group": [
+      179,
+      187,
+      193
+     ],
+     "immediate": [
+      182
+     ],
+     "test,": [
+      183
+     ],
+     "generally": [
+      188
+     ],
+     "outperformed": [
+      189
+     ],
+     "test.": [
+      197,
+      216
+     ],
+     "across": [
+      199
+     ],
+     "three": [
+      201
+     ],
+     "experiments,": [
+      202
+     ],
+     "we": [
+      203
+     ],
+     "evidence": [
+      206
+     ],
+     "affecting": [
+      210
+     ],
+     "results": [
+      211
+     ],
+     "an": [
+      213
+     ],
+     "enhanced": [
+      214
+     ],
+     "Therefore,": [
+      217
+     ],
+     "there": [
+      218
+     ],
+     "may": [
+      219
+     ],
+     "be": [
+      220
+     ],
+     "examples.": [
+      231
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5083616293",
+       "display_name": "Xiaoxue Huang",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I9356336",
+        "display_name": "Minnan Normal University",
+        "ror": "https://ror.org/02vj1vm13",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I9356336"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Xiaoxue Huang",
+      "raw_affiliation_strings": [
+       "Fujian Key Laboratory of Applied Cognition and Personality, School of Educational Science, Minnan Normal University, Zhangzhou, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Fujian Key Laboratory of Applied Cognition and Personality, School of Educational Science, Minnan Normal University, Zhangzhou, China",
+        "institution_ids": [
+         "https://openalex.org/I9356336"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5111048063",
+       "display_name": "Sining Zheng",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I111753288",
+        "display_name": "Fujian Normal University",
+        "ror": "https://ror.org/020azk594",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I111753288"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Sining Zheng",
+      "raw_affiliation_strings": [
+       "School of Psychology, Fujian Normal University, Fuzhou, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Psychology, Fujian Normal University, Fuzhou, China",
+        "institution_ids": [
+         "https://openalex.org/I111753288"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": null,
+       "display_name": "Zhiyun Yu",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I61057504",
+        "display_name": "Fujian Agriculture and Forestry University",
+        "ror": "https://ror.org/04kx2sy84",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I61057504"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Zhiyun Yu",
+      "raw_affiliation_strings": [
+       "Institute of Marxism, Fujian Agriculture and Forestry University, Fuzhou, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute of Marxism, Fujian Agriculture and Forestry University, Fuzhou, China",
+        "institution_ids": [
+         "https://openalex.org/I61057504"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5079882082",
+       "display_name": "Shunsen Chen",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I9356336",
+        "display_name": "Minnan Normal University",
+        "ror": "https://ror.org/02vj1vm13",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I9356336"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Shunsen Chen",
+      "raw_affiliation_strings": [
+       "Fujian Key Laboratory of Applied Cognition and Personality, School of Educational Science, Minnan Normal University, Zhangzhou, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Fujian Key Laboratory of Applied Cognition and Personality, School of Educational Science, Minnan Normal University, Zhangzhou, China",
+        "institution_ids": [
+         "https://openalex.org/I9356336"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2023.1093653",
+     "doi": "https://doi.org/10.3389/fpsyg.2023.1093653",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2023.1093653",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4396863040",
+    "doi": "https://doi.org/10.33039/ami.2024.05.002",
+    "title": "Retrieval practice \u2013 a tool to be able to retain higher mathematics even 3 months after the exam",
+    "display_name": "Retrieval practice \u2013 a tool to be able to retain higher mathematics even 3 months after the exam",
+    "publication_year": 2024,
+    "cited_by_count": 5,
+    "abstract_inverted_index": {
+     "It": [
+      0
+     ],
+     "is": [
+      1
+     ],
+     "a": [
+      2,
+      12,
+      38,
+      48,
+      121,
+      169
+     ],
+     "common": [
+      3
+     ],
+     "phenomenon": [
+      4
+     ],
+     "that": [
+      5,
+      164
+     ],
+     "students": [
+      6,
+      23,
+      119
+     ],
+     "forget": [
+      7
+     ],
+     "the": [
+      8,
+      64,
+      77,
+      89,
+      93,
+      102,
+      124,
+      129,
+      158
+     ],
+     "learned": [
+      9,
+      127,
+      144,
+      156
+     ],
+     "material": [
+      10,
+      125
+     ],
+     "within": [
+      11
+     ],
+     "few": [
+      13
+     ],
+     "days": [
+      14
+     ],
+     "after": [
+      15,
+      135
+     ],
+     "their": [
+      16,
+      55,
+      136
+     ],
+     "exam.": [
+      17,
+      137
+     ],
+     "A": [
+      18
+     ],
+     "considerable": [
+      19
+     ],
+     "part": [
+      20
+     ],
+     "of": [
+      21,
+      51,
+      60,
+      67,
+      92
+     ],
+     "university": [
+      22,
+      82,
+      103
+     ],
+     "do": [
+      24
+     ],
+     "not": [
+      25
+     ],
+     "gain": [
+      26
+     ],
+     "long-term": [
+      27
+     ],
+     "knowledge.": [
+      28
+     ],
+     "Aiming": [
+      29
+     ],
+     "to": [
+      30,
+      69,
+      139
+     ],
+     "reduce": [
+      31
+     ],
+     "forgetting": [
+      32
+     ],
+     "and": [
+      33,
+      175
+     ],
+     "increase": [
+      34
+     ],
+     "further": [
+      35
+     ],
+     "retention": [
+      36
+     ],
+     "in": [
+      37,
+      54,
+      76,
+      80,
+      97,
+      128
+     ],
+     "first-year": [
+      39,
+      115
+     ],
+     "mathematics": [
+      40,
+      43,
+      117
+     ],
+     "course": [
+      41,
+      130
+     ],
+     "for": [
+      42,
+      109
+     ],
+     "pre-service": [
+      44,
+      116
+     ],
+     "teachers,": [
+      45
+     ],
+     "we": [
+      46,
+      87
+     ],
+     "applied": [
+      47,
+      94
+     ],
+     "special": [
+      49
+     ],
+     "kind": [
+      50
+     ],
+     "retrieval": [
+      52,
+      61,
+      68,
+      95,
+      148,
+      165
+     ],
+     "practice": [
+      53,
+      62,
+      96,
+      166
+     ],
+     "lessons.": [
+      56
+     ],
+     "The": [
+      57
+     ],
+     "positive": [
+      58
+     ],
+     "effects": [
+      59
+     ],
+     "\u2013": [
+      63,
+      72
+     ],
+     "strategic": [
+      65
+     ],
+     "use": [
+      66
+     ],
+     "enhance": [
+      70
+     ],
+     "memory": [
+      71
+     ],
+     "have": [
+      73,
+      168
+     ],
+     "been": [
+      74
+     ],
+     "shown": [
+      75
+     ],
+     "medium": [
+      78
+     ],
+     "term": [
+      79
+     ],
+     "learning": [
+      81,
+      98,
+      174
+     ],
+     "mathematics.": [
+      83
+     ],
+     "In": [
+      84
+     ],
+     "this": [
+      85
+     ],
+     "paper,": [
+      86
+     ],
+     "investigate": [
+      88
+     ],
+     "potential": [
+      90
+     ],
+     "benefit": [
+      91
+     ],
+     "Number": [
+      99,
+      131,
+      145
+     ],
+     "Theory": [
+      100,
+      132,
+      146
+     ],
+     "at": [
+      101
+     ],
+     "level,": [
+      104
+     ],
+     "focusing": [
+      105
+     ],
+     "on": [
+      106,
+      123,
+      157,
+      173
+     ],
+     "knowledge": [
+      107
+     ],
+     "lasting": [
+      108
+     ],
+     "3": [
+      110
+     ],
+     "months.": [
+      111
+     ],
+     "N": [
+      112
+     ],
+     "=": [
+      113
+     ],
+     "42": [
+      114
+     ],
+     "teacher": [
+      118
+     ],
+     "wrote": [
+      120
+     ],
+     "post-test": [
+      122
+     ],
+     "they": [
+      126
+     ],
+     "three": [
+      133
+     ],
+     "months": [
+      134
+     ],
+     "According": [
+      138
+     ],
+     "our": [
+      140
+     ],
+     "results,": [
+      141
+     ],
+     "those,": [
+      142
+     ],
+     "who": [
+      143,
+      155
+     ],
+     "by": [
+      147
+     ],
+     "practice,": [
+      149
+     ],
+     "performed": [
+      150
+     ],
+     "significantly": [
+      151
+     ],
+     "better": [
+      152
+     ],
+     "than": [
+      153
+     ],
+     "those": [
+      154
+     ],
+     "traditional": [
+      159
+     ],
+     "way.": [
+      160
+     ],
+     "Our": [
+      161
+     ],
+     "findings": [
+      162
+     ],
+     "suggest": [
+      163
+     ],
+     "can": [
+      167
+     ],
+     "powerful,": [
+      170
+     ],
+     "long-lasting": [
+      171
+     ],
+     "effect": [
+      172
+     ],
+     "solving": [
+      176
+     ],
+     "complex": [
+      177
+     ],
+     "mathematical": [
+      178
+     ],
+     "problems.": [
+      179
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5001820689",
+       "display_name": "Anna Muzsnay",
+       "orcid": "https://orcid.org/0000-0003-4045-0527",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-4045-0527"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I106118109",
+        "display_name": "E\u00f6tv\u00f6s Lor\u00e1nd University",
+        "ror": "https://ror.org/01jsq2704",
+        "country_code": "HU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I106118109"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I132735039",
+        "display_name": "University of Debrecen",
+        "ror": "https://ror.org/02xf66n48",
+        "country_code": "HU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I132735039"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210122451",
+        "display_name": "Edutus University",
+        "ror": "https://ror.org/02jkgvx03",
+        "country_code": "HU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210122451"
+        ]
+       }
+      ],
+      "countries": [
+       "HU"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Anna Muzsnay",
+      "raw_affiliation_strings": [
+       "University of Debrecen",
+       "Edutus University e MTA-ELTE Theory of Learning Mathematics Research Group",
+       "E\u00f6tv\u00f6s Lor\u00e1nd University, Faculty of Primary and Pre-School Education",
+       "E\u00f6tv\u00f6s Lor\u00e1nd University, Faculty of Science",
+       "-KK-2022-00003"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Debrecen",
+        "institution_ids": [
+         "https://openalex.org/I132735039"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Edutus University e MTA-ELTE Theory of Learning Mathematics Research Group",
+        "institution_ids": [
+         "https://openalex.org/I106118109",
+         "https://openalex.org/I4210122451"
+        ]
+       },
+       {
+        "raw_affiliation_string": "E\u00f6tv\u00f6s Lor\u00e1nd University, Faculty of Primary and Pre-School Education",
+        "institution_ids": [
+         "https://openalex.org/I106118109"
+        ]
+       },
+       {
+        "raw_affiliation_string": "E\u00f6tv\u00f6s Lor\u00e1nd University, Faculty of Science",
+        "institution_ids": [
+         "https://openalex.org/I106118109"
+        ]
+       },
+       {
+        "raw_affiliation_string": "-KK-2022-00003",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": null,
+       "display_name": "Csaba Szab\u00f3",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I106118109",
+        "display_name": "E\u00f6tv\u00f6s Lor\u00e1nd University",
+        "ror": "https://ror.org/01jsq2704",
+        "country_code": "HU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I106118109"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I132735039",
+        "display_name": "University of Debrecen",
+        "ror": "https://ror.org/02xf66n48",
+        "country_code": "HU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I132735039"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210122451",
+        "display_name": "Edutus University",
+        "ror": "https://ror.org/02jkgvx03",
+        "country_code": "HU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210122451"
+        ]
+       }
+      ],
+      "countries": [
+       "HU"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Csaba Szab\u00f3",
+      "raw_affiliation_strings": [
+       "Edutus University e MTA-ELTE Theory of Learning Mathematics Research Group",
+       "E\u00f6tv\u00f6s Lor\u00e1nd University, Faculty of Primary and Pre-School Education",
+       "E\u00f6tv\u00f6s Lor\u00e1nd University, Faculty of Science",
+       "University of Debrecen",
+       "-KK-2022-00003"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Edutus University e MTA-ELTE Theory of Learning Mathematics Research Group",
+        "institution_ids": [
+         "https://openalex.org/I106118109",
+         "https://openalex.org/I4210122451"
+        ]
+       },
+       {
+        "raw_affiliation_string": "E\u00f6tv\u00f6s Lor\u00e1nd University, Faculty of Primary and Pre-School Education",
+        "institution_ids": [
+         "https://openalex.org/I106118109"
+        ]
+       },
+       {
+        "raw_affiliation_string": "E\u00f6tv\u00f6s Lor\u00e1nd University, Faculty of Science",
+        "institution_ids": [
+         "https://openalex.org/I106118109"
+        ]
+       },
+       {
+        "raw_affiliation_string": "University of Debrecen",
+        "institution_ids": [
+         "https://openalex.org/I132735039"
+        ]
+       },
+       {
+        "raw_affiliation_string": "-KK-2022-00003",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5027132056",
+       "display_name": "Janka Szeibert",
+       "orcid": "https://orcid.org/0000-0002-4267-9360",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4267-9360"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I106118109",
+        "display_name": "E\u00f6tv\u00f6s Lor\u00e1nd University",
+        "ror": "https://ror.org/01jsq2704",
+        "country_code": "HU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I106118109"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I132735039",
+        "display_name": "University of Debrecen",
+        "ror": "https://ror.org/02xf66n48",
+        "country_code": "HU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I132735039"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210122451",
+        "display_name": "Edutus University",
+        "ror": "https://ror.org/02jkgvx03",
+        "country_code": "HU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210122451"
+        ]
+       }
+      ],
+      "countries": [
+       "HU"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Janka Szeibert",
+      "raw_affiliation_strings": [
+       "University of Debrecen",
+       "Edutus University e MTA-ELTE Theory of Learning Mathematics Research Group",
+       "E\u00f6tv\u00f6s Lor\u00e1nd University, Faculty of Primary and Pre-School Education",
+       "E\u00f6tv\u00f6s Lor\u00e1nd University, Faculty of Science",
+       "-KK-2022-00003"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of Debrecen",
+        "institution_ids": [
+         "https://openalex.org/I132735039"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Edutus University e MTA-ELTE Theory of Learning Mathematics Research Group",
+        "institution_ids": [
+         "https://openalex.org/I106118109",
+         "https://openalex.org/I4210122451"
+        ]
+       },
+       {
+        "raw_affiliation_string": "E\u00f6tv\u00f6s Lor\u00e1nd University, Faculty of Primary and Pre-School Education",
+        "institution_ids": [
+         "https://openalex.org/I106118109"
+        ]
+       },
+       {
+        "raw_affiliation_string": "E\u00f6tv\u00f6s Lor\u00e1nd University, Faculty of Science",
+        "institution_ids": [
+         "https://openalex.org/I106118109"
+        ]
+       },
+       {
+        "raw_affiliation_string": "-KK-2022-00003",
+        "institution_ids": []
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.33039/ami.2024.05.002",
+     "doi": "https://doi.org/10.33039/ami.2024.05.002",
+     "is_oa": true,
+     "landing_page_url": "http://dx.doi.org/10.33039/ami.2024.05.002",
+     "pdf_url": "http://publikacio.uni-eszterhazy.hu/8111/1/AMI_60_from218to227.pdf",
+     "source": {
+      "id": "https://openalex.org/S4210231701",
+      "display_name": "Az Eszterh\u00e1zy K\u00e1roly Tan\u00e1rk\u00e9pz\u0151 F\u0151iskola tudom\u00e1nyos k\u00f6zlem\u00e9nyei. Tanulm\u00e1nyok a matematikai tudom\u00e1nyok k\u00f6r\u00e9b\u0151l/Az Eszterh\u00e1zy K\u00e1roly F\u0151iskola tudom\u00e1nyos k\u00f6zlem\u00e9nyei. Tanulm\u00e1nyok a matematikai tudom\u00e1nyok k\u00f6r\u00e9b\u0151l/Annales mathematicae et informaticae",
+      "issn_l": "1216-6014",
+      "issn": [
+       "1216-6014",
+       "1589-6498",
+       "1787-5021",
+       "1787-6117"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [
+       "dongbi-c",
+       "jufo-1",
+       "norway-1",
+       "poland-20",
+       "russia-white-list-4"
+      ],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Annales Mathematicae et Informaticae",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4393176835",
+    "doi": "https://doi.org/10.29333/ejmste/14404",
+    "title": "Unlocking the secrets of students\u2019 mathematical literacy to solve mathematical problems: A systematic literature review",
+    "display_name": "Unlocking the secrets of students\u2019 mathematical literacy to solve mathematical problems: A systematic literature review",
+    "publication_year": 2024,
+    "cited_by_count": 91,
+    "abstract_inverted_index": {
+     "Mathematical": [
+      0,
+      27
+     ],
+     "literacy": [
+      1,
+      28,
+      60,
+      178
+     ],
+     "is": [
+      2,
+      29
+     ],
+     "the": [
+      3,
+      33,
+      44,
+      47,
+      55,
+      71,
+      115,
+      118,
+      170,
+      180
+     ],
+     "ability": [
+      4,
+      63
+     ],
+     "to": [
+      5,
+      64,
+      90,
+      138,
+      174
+     ],
+     "use": [
+      6
+     ],
+     "mathematical": [
+      7,
+      59,
+      66,
+      144,
+      163,
+      177
+     ],
+     "knowledge": [
+      8
+     ],
+     "in": [
+      9,
+      23,
+      114,
+      129,
+      149,
+      179
+     ],
+     "real-life": [
+      10
+     ],
+     "situations,": [
+      11
+     ],
+     "making": [
+      12
+     ],
+     "it": [
+      13
+     ],
+     "an": [
+      14
+     ],
+     "essential": [
+      15
+     ],
+     "component": [
+      16
+     ],
+     "of": [
+      17,
+      20,
+      32,
+      43,
+      46,
+      109,
+      133,
+      143
+     ],
+     "education": [
+      18
+     ],
+     "because": [
+      19
+     ],
+     "its": [
+      21
+     ],
+     "importance": [
+      22,
+      45
+     ],
+     "solving": [
+      24
+     ],
+     "everyday": [
+      25
+     ],
+     "problems.": [
+      26,
+      67,
+      151
+     ],
+     "also": [
+      30,
+      155
+     ],
+     "part": [
+      31
+     ],
+     "Program": [
+      34
+     ],
+     "for": [
+      35,
+      75
+     ],
+     "International": [
+      36
+     ],
+     "Student": [
+      37
+     ],
+     "Assessment": [
+      38
+     ],
+     "(PISA)": [
+      39
+     ],
+     "global": [
+      40
+     ],
+     "assessment.": [
+      41
+     ],
+     "Because": [
+      42
+     ],
+     "subject,": [
+      48
+     ],
+     "this": [
+      49
+     ],
+     "Systematic": [
+      50,
+      76
+     ],
+     "Literature": [
+      51
+     ],
+     "Review": [
+      52
+     ],
+     "(SLR)": [
+      53
+     ],
+     "investigated": [
+      54
+     ],
+     "relationship": [
+      56
+     ],
+     "between": [
+      57
+     ],
+     "students\u2019": [
+      58,
+      176
+     ],
+     "and": [
+      61,
+      78,
+      84,
+      102,
+      159
+     ],
+     "their": [
+      62
+     ],
+     "solve": [
+      65
+     ],
+     "This": [
+      68
+     ],
+     "SLR": [
+      69
+     ],
+     "uses": [
+      70
+     ],
+     "Preferred": [
+      72
+     ],
+     "Reporting": [
+      73
+     ],
+     "Items": [
+      74
+     ],
+     "Reviews": [
+      77
+     ],
+     "Meta-Analysis": [
+      79
+     ],
+     "(PRISMA)": [
+      80
+     ],
+     "approach": [
+      81
+     ],
+     "was": [
+      82
+     ],
+     "used,": [
+      83
+     ],
+     "articles": [
+      85,
+      111
+     ],
+     "published": [
+      86
+     ],
+     "from": [
+      87,
+      95
+     ],
+     "January": [
+      88
+     ],
+     "2013": [
+      89
+     ],
+     "August": [
+      91
+     ],
+     "2023": [
+      92
+     ],
+     "were": [
+      93,
+      112,
+      122,
+      169
+     ],
+     "obtained": [
+      94
+     ],
+     "databases": [
+      96
+     ],
+     "including": [
+      97
+     ],
+     "ERIC": [
+      98
+     ],
+     "(342),": [
+      99
+     ],
+     "ProQuest": [
+      100
+     ],
+     "(1,329),": [
+      101
+     ],
+     "Scopus": [
+      103
+     ],
+     "(27).": [
+      104
+     ],
+     "Following": [
+      105
+     ],
+     "PRISMA,": [
+      106
+     ],
+     "a": [
+      107,
+      140
+     ],
+     "total": [
+      108
+     ],
+     "20": [
+      110,
+      119
+     ],
+     "included": [
+      113
+     ],
+     "review.": [
+      116
+     ],
+     "Of": [
+      117
+     ],
+     "articles,": [
+      120
+     ],
+     "most": [
+      121,
+      171
+     ],
+     "conducted": [
+      123
+     ],
+     "on": [
+      124
+     ],
+     "junior": [
+      125
+     ],
+     "high": [
+      126
+     ],
+     "school": [
+      127
+     ],
+     "students": [
+      128,
+      137
+     ],
+     "Turkey.": [
+      130
+     ],
+     "The": [
+      131,
+      152
+     ],
+     "majority": [
+      132
+     ],
+     "reviewed": [
+      134,
+      181
+     ],
+     "studies": [
+      135,
+      154
+     ],
+     "found": [
+      136
+     ],
+     "have": [
+      139
+     ],
+     "low": [
+      141
+     ],
+     "level": [
+      142
+     ],
+     "literacy,": [
+      145
+     ],
+     "which": [
+      146
+     ],
+     "caused": [
+      147
+     ],
+     "difficulties": [
+      148
+     ],
+     "formulating": [
+      150
+     ],
+     "examined": [
+      153
+     ],
+     "revealed": [
+      156
+     ],
+     "several": [
+      157
+     ],
+     "internal": [
+      158
+     ],
+     "external": [
+      160
+     ],
+     "factors": [
+      161
+     ],
+     "affecting": [
+      162
+     ],
+     "literacy.": [
+      164
+     ],
+     "Problems": [
+      165
+     ],
+     "used": [
+      166
+     ],
+     "by": [
+      167
+     ],
+     "PISA": [
+      168
+     ],
+     "frequently": [
+      172
+     ],
+     "employed": [
+      173
+     ],
+     "measure": [
+      175
+     ],
+     "studies.": [
+      182
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5074139418",
+       "display_name": "Lukman Hakim Muhaimin",
+       "orcid": "https://orcid.org/0000-0003-0129-8278",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0129-8278"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I130218214",
+        "display_name": "Indonesia University of Education",
+        "ror": "https://ror.org/044b0xj37",
+        "country_code": "ID",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I130218214"
+        ]
+       }
+      ],
+      "countries": [
+       "ID"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Lukman Hakim Muhaimin",
+      "raw_affiliation_strings": [
+       "Department of Mathematics Education, Faculty of Mathematics and Science Education, Universitas Pendidikan Indonesia, Bandung, INDONESIA",
+       "Indonesian DDR Development Center (PUSBANGDDRINDO), PUI-PT Universitas Pendidikan Indonesia, Bandung, INDONESIA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-0129-8278",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Mathematics Education, Faculty of Mathematics and Science Education, Universitas Pendidikan Indonesia, Bandung, INDONESIA",
+        "institution_ids": [
+         "https://openalex.org/I130218214"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Indonesian DDR Development Center (PUSBANGDDRINDO), PUI-PT Universitas Pendidikan Indonesia, Bandung, INDONESIA",
+        "institution_ids": [
+         "https://openalex.org/I130218214"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5023560270",
+       "display_name": "Rizqi Amaliyakh Sholikhakh",
+       "orcid": "https://orcid.org/0000-0002-0543-8007",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0543-8007"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I130218214",
+        "display_name": "Indonesia University of Education",
+        "ror": "https://ror.org/044b0xj37",
+        "country_code": "ID",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I130218214"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210164876",
+        "display_name": "Universitas Pancasakti Tegal",
+        "ror": "https://ror.org/05999pw96",
+        "country_code": "ID",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210164876"
+        ]
+       }
+      ],
+      "countries": [
+       "ID"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Rizqi Amaliyakh Sholikhakh",
+      "raw_affiliation_strings": [
+       "Department of Mathematics Education, Faculty of Mathematics and Science Education, Universitas Pendidikan Indonesia, Bandung, INDONESIA",
+       "Department of Mathematics Education, Universitas Pancasakti Tegal, Tegal, INDONESIA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-0543-8007",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Mathematics Education, Faculty of Mathematics and Science Education, Universitas Pendidikan Indonesia, Bandung, INDONESIA",
+        "institution_ids": [
+         "https://openalex.org/I130218214"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Mathematics Education, Universitas Pancasakti Tegal, Tegal, INDONESIA",
+        "institution_ids": [
+         "https://openalex.org/I4210164876"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5002570654",
+       "display_name": "Sri Yulianti",
+       "orcid": "https://orcid.org/0009-0004-9520-7430",
+       "observed_orcids": [
+        "https://orcid.org/0009-0004-9520-7430"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I130218214",
+        "display_name": "Indonesia University of Education",
+        "ror": "https://ror.org/044b0xj37",
+        "country_code": "ID",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I130218214"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210154667",
+        "display_name": "Universitas Islam Ogan Komering Ilir",
+        "ror": "https://ror.org/02ctmwv42",
+        "country_code": "ID",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210154667"
+        ]
+       }
+      ],
+      "countries": [
+       "ID"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Sri Yulianti",
+      "raw_affiliation_strings": [
+       "Department of Mathematics Education, Faculty of Mathematics and Science Education, Universitas Pendidikan Indonesia, Bandung, INDONESIA",
+       "Universitas Islam Ogan Komering Ilir Kayuagung, Kayuagung, INDONESIA"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0004-9520-7430",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Mathematics Education, Faculty of Mathematics and Science Education, Universitas Pendidikan Indonesia, Bandung, INDONESIA",
+        "institution_ids": [
+         "https://openalex.org/I130218214"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Universitas Islam Ogan Komering Ilir Kayuagung, Kayuagung, INDONESIA",
+        "institution_ids": [
+         "https://openalex.org/I4210154667"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5048656172",
+       "display_name": "Ardani Ardani",
+       "orcid": "https://orcid.org/0000-0003-3436-2782",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3436-2782"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I127859547",
+        "display_name": "Yogyakarta State University",
+        "ror": "https://ror.org/05fryw881",
+        "country_code": "ID",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I127859547"
+        ]
+       }
+      ],
+      "countries": [
+       "ID"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Ardani Ardani",
+      "raw_affiliation_strings": [
+       "Department of Mathematics Education, Faculty of Mathematics and Natural Science, Yogyakarta State University, Yogyakarta, INDONESIA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-3436-2782",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Mathematics Education, Faculty of Mathematics and Natural Science, Yogyakarta State University, Yogyakarta, INDONESIA",
+        "institution_ids": [
+         "https://openalex.org/I127859547"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5048711264",
+       "display_name": "Agus Hendriyanto",
+       "orcid": "https://orcid.org/0000-0001-6473-8379",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6473-8379"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I130218214",
+        "display_name": "Indonesia University of Education",
+        "ror": "https://ror.org/044b0xj37",
+        "country_code": "ID",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I130218214"
+        ]
+       }
+      ],
+      "countries": [
+       "ID"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Agus Hendriyanto",
+      "raw_affiliation_strings": [
+       "Department of Mathematics Education, Faculty of Mathematics and Science Education, Universitas Pendidikan Indonesia, Bandung, INDONESIA",
+       "Indonesian DDR Development Center (PUSBANGDDRINDO), PUI-PT Universitas Pendidikan Indonesia, Bandung, INDONESIA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-6473-8379",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Mathematics Education, Faculty of Mathematics and Science Education, Universitas Pendidikan Indonesia, Bandung, INDONESIA",
+        "institution_ids": [
+         "https://openalex.org/I130218214"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Indonesian DDR Development Center (PUSBANGDDRINDO), PUI-PT Universitas Pendidikan Indonesia, Bandung, INDONESIA",
+        "institution_ids": [
+         "https://openalex.org/I130218214"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5016173336",
+       "display_name": "Sani Sahara",
+       "orcid": "https://orcid.org/0000-0001-5426-4296",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5426-4296"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I130218214",
+        "display_name": "Indonesia University of Education",
+        "ror": "https://ror.org/044b0xj37",
+        "country_code": "ID",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I130218214"
+        ]
+       }
+      ],
+      "countries": [
+       "ID"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Sani Sahara",
+      "raw_affiliation_strings": [
+       "Department of Mathematics Education, Faculty of Mathematics and Science Education, Universitas Pendidikan Indonesia, Bandung, INDONESIA",
+       "Indonesian DDR Development Center (PUSBANGDDRINDO), PUI-PT Universitas Pendidikan Indonesia, Bandung, INDONESIA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-5426-4296",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Mathematics Education, Faculty of Mathematics and Science Education, Universitas Pendidikan Indonesia, Bandung, INDONESIA",
+        "institution_ids": [
+         "https://openalex.org/I130218214"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Indonesian DDR Development Center (PUSBANGDDRINDO), PUI-PT Universitas Pendidikan Indonesia, Bandung, INDONESIA",
+        "institution_ids": [
+         "https://openalex.org/I130218214"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.29333/ejmste/14404",
+     "doi": "https://doi.org/10.29333/ejmste/14404",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.29333/ejmste/14404",
+     "pdf_url": "https://www.ejmste.com/download/unlocking-the-secrets-of-students-mathematical-literacy-to-solve-mathematical-problems-a-systematic-14404.pdf",
+     "source": {
+      "id": "https://openalex.org/S2764699309",
+      "display_name": "Eurasia Journal of Mathematics Science and Technology Education",
+      "issn_l": "1305-8223",
+      "issn": [
+       "1305-8223",
+       "1305-8215"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "erih-plus",
+       "jufo-1",
+       "norway-1",
+       "poland-70",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4328143497",
+      "host_organization_name": "Modestum Limited",
+      "host_organization_lineage": [
+       "https://openalex.org/P4328143497"
+      ],
+      "host_organization_lineage_names": [
+       "Modestum Limited"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Eurasia Journal of Mathematics, Science and Technology Education",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

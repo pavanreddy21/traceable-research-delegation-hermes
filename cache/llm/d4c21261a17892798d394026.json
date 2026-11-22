@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a2020a-461e-77bd-a066-8521c970bc60",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330557,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 explicitly states that laptop note takers tended to transcribe lectures verbatim rather than processing and reframing information in their own words.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 329,
+  "completion_tokens": 51,
+  "total_tokens": 380,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 1.2
+}

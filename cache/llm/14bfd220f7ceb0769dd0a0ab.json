@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201af-cf19-74fa-a94e-319dd39e2ce6",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795324628,
+ "model": "google/gemma-4-12B-it",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "```json\n{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"The passage explicitly states that some results supported the idea that students with low socioeconomic status or who are academically at risk might benefit from mind-set interventions.\"}\n```",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 361,
+  "completion_tokens": 54,
+  "total_tokens": 415,
+  "prompt_tokens_details": {
+   "cached_tokens": 16
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.22
+}

@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201b2-5c4c-731c-9b68-0250a2071c86",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795324795,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"I need to search for peer-reviewed studies comparing retrieval practice and rereading on delayed recall.\", \"action\": \"search_papers\", \"args\": {\"query\": \"retrieval practice versus rereading delayed recall\"}}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 341,
+  "completion_tokens": 50,
+  "total_tokens": 391,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.5
+}

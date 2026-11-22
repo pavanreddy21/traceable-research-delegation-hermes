@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a2021d-bfe3-791d-88b5-036236e262d8",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795331833,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"The replication lacks review manipulation; I will fetch the encoding/storage study and the pharmacy doctorate study for note-access evidence.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W2510835855\"}}\n\n<tool_call>\n{\"thought\": \"The replication lacks review manipulation; I will fetch the encoding/storage study and the pharmacy doctorate study for note-access evidence.\", \"action\": \"fetch_source\", \"args\": {\"source_id\": \"W2510835855\"}}\n</tool_call>",
+    "reasoning_content": "This replication doesn't address review. Let me fetch W2510835855 (encoding vs external storage) and W2900101587.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 2104,
+  "completion_tokens": 138,
+  "total_tokens": 2242,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 29
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.25
+}

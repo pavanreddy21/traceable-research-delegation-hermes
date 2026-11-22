@@ -1,0 +1,3144 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 8564,
+   "db_response_time_ms": 148,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (sleep after learning no benefit memory consolidation fails to improve) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (sleep after learning no benefit memory consolidation fails to improve) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "sleep after learning no benefit memory consolidation fails to improve",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:sleep after learning no benefit memory consolidation fails to improve,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W1549063615",
+    "doi": "https://doi.org/10.3389/fpsyg.2015.00622",
+    "title": "Sleep smart\u2014optimizing sleep for declarative learning and memory",
+    "display_name": "Sleep smart\u2014optimizing sleep for declarative learning and memory",
+    "publication_year": 2015,
+    "cited_by_count": 108,
+    "abstract_inverted_index": {
+     "The": [
+      0,
+      48
+     ],
+     "last": [
+      1
+     ],
+     "decade": [
+      2
+     ],
+     "has": [
+      3,
+      34
+     ],
+     "witnessed": [
+      4
+     ],
+     "a": [
+      5
+     ],
+     "spurt": [
+      6
+     ],
+     "of": [
+      7,
+      42,
+      70,
+      87,
+      100,
+      114,
+      125,
+      166,
+      176,
+      189
+     ],
+     "new": [
+      8,
+      115
+     ],
+     "publications": [
+      9
+     ],
+     "documenting": [
+      10
+     ],
+     "sleep's": [
+      11,
+      190
+     ],
+     "essential": [
+      12
+     ],
+     "contribution": [
+      13
+     ],
+     "to": [
+      14,
+      18,
+      65,
+      75,
+      84,
+      95,
+      183
+     ],
+     "the": [
+      15,
+      23,
+      35,
+      40,
+      60,
+      66,
+      71,
+      76,
+      85,
+      88,
+      93,
+      96,
+      101,
+      112,
+      123,
+      133,
+      160,
+      167,
+      185
+     ],
+     "brains": [
+      16
+     ],
+     "ability": [
+      17
+     ],
+     "form": [
+      19
+     ],
+     "lasting": [
+      20
+     ],
+     "memories.": [
+      21
+     ],
+     "For": [
+      22
+     ],
+     "declarative": [
+      24
+     ],
+     "memory": [
+      25,
+      72,
+      90
+     ],
+     "domain,": [
+      26
+     ],
+     "slow": [
+      27
+     ],
+     "wave": [
+      28
+     ],
+     "sleep": [
+      29,
+      32,
+      58,
+      109,
+      129,
+      170
+     ],
+     "(the": [
+      30
+     ],
+     "deepest": [
+      31
+     ],
+     "stage)": [
+      33
+     ],
+     "greatest": [
+      36
+     ],
+     "beneficial": [
+      37,
+      191
+     ],
+     "effect": [
+      38,
+      192
+     ],
+     "on": [
+      39,
+      122,
+      169,
+      193
+     ],
+     "consolidation": [
+      41,
+      79
+     ],
+     "memories": [
+      43,
+      53,
+      116
+     ],
+     "acquired": [
+      44
+     ],
+     "during": [
+      45,
+      56,
+      128,
+      153
+     ],
+     "preceding": [
+      46
+     ],
+     "wakefulness.": [
+      47
+     ],
+     "finding": [
+      49
+     ],
+     "that": [
+      50,
+      62,
+      147
+     ],
+     "newly": [
+      51
+     ],
+     "encoded": [
+      52
+     ],
+     "become": [
+      54
+     ],
+     "reactivated": [
+      55
+     ],
+     "subsequent": [
+      57,
+      154
+     ],
+     "fostered": [
+      59
+     ],
+     "idea": [
+      61
+     ],
+     "reactivation": [
+      63,
+      82
+     ],
+     "leads": [
+      64,
+      83
+     ],
+     "strengthening": [
+      67
+     ],
+     "and": [
+      68,
+      163,
+      171,
+      173,
+      195
+     ],
+     "transformation": [
+      69
+     ],
+     "trace.": [
+      73
+     ],
+     "According": [
+      74
+     ],
+     "active": [
+      77
+     ],
+     "system": [
+      78
+     ],
+     "account,": [
+      80
+     ],
+     "trace": [
+      81
+     ],
+     "redistribution": [
+      86
+     ],
+     "transient": [
+      89
+     ],
+     "representations": [
+      91
+     ],
+     "from": [
+      92,
+      104
+     ],
+     "hippocampus": [
+      94
+     ],
+     "long-lasting": [
+      97
+     ],
+     "knowledge": [
+      98
+     ],
+     "networks": [
+      99
+     ],
+     "cortex.": [
+      102
+     ],
+     "Apart": [
+      103
+     ],
+     "consolidating": [
+      105
+     ],
+     "previously": [
+      106
+     ],
+     "learned": [
+      107
+     ],
+     "information,": [
+      108
+     ],
+     "also": [
+      110
+     ],
+     "facilitates": [
+      111
+     ],
+     "encoding": [
+      113
+     ],
+     "after": [
+      117
+     ],
+     "sleep,": [
+      118
+     ],
+     "which": [
+      119
+     ],
+     "probably": [
+      120
+     ],
+     "relies": [
+      121
+     ],
+     "renormalization": [
+      124
+     ],
+     "synaptic": [
+      126,
+      134,
+      145,
+      151
+     ],
+     "weights": [
+      127,
+      146
+     ],
+     "as": [
+      130
+     ],
+     "suggested": [
+      131
+     ],
+     "by": [
+      132,
+      150
+     ],
+     "homeostasis": [
+      135
+     ],
+     "theory.": [
+      136
+     ],
+     "During": [
+      137
+     ],
+     "wakefulness": [
+      138
+     ],
+     "overshooting": [
+      139
+     ],
+     "potentiation": [
+      140
+     ],
+     "causes": [
+      141
+     ],
+     "an": [
+      142
+     ],
+     "imbalance": [
+      143
+     ],
+     "in": [
+      144
+     ],
+     "is": [
+      148
+     ],
+     "countered": [
+      149
+     ],
+     "downscaling": [
+      152
+     ],
+     "sleep.": [
+      155
+     ],
+     "This": [
+      156
+     ],
+     "review": [
+      157
+     ],
+     "briefly": [
+      158
+     ],
+     "introduces": [
+      159
+     ],
+     "basic": [
+      161
+     ],
+     "concepts": [
+      162
+     ],
+     "central": [
+      164
+     ],
+     "findings": [
+      165
+     ],
+     "research": [
+      168
+     ],
+     "memory,": [
+      172
+     ],
+     "discusses": [
+      174
+     ],
+     "implications": [
+      175
+     ],
+     "this": [
+      177
+     ],
+     "lab-based": [
+      178
+     ],
+     "work": [
+      179
+     ],
+     "for": [
+      180
+     ],
+     "everyday": [
+      181
+     ],
+     "applications": [
+      182
+     ],
+     "make": [
+      184
+     ],
+     "best": [
+      186
+     ],
+     "possible": [
+      187
+     ],
+     "use": [
+      188
+     ],
+     "learning": [
+      194
+     ],
+     "memory.": [
+      196
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5012687917",
+       "display_name": "Gordon B. Feld",
+       "orcid": "https://orcid.org/0000-0002-1238-9493",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1238-9493"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I8087733",
+        "display_name": "University of T\u00fcbingen",
+        "ror": "https://ror.org/03a1kwz48",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I8087733"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Gordon B. Feld",
+      "raw_affiliation_strings": [
+       "Institute for Medical Psychology and Behavioral Neurobiology, University of T\u00fcbingen T\u00fcbingen, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute for Medical Psychology and Behavioral Neurobiology, University of T\u00fcbingen T\u00fcbingen, Germany",
+        "institution_ids": [
+         "https://openalex.org/I8087733"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5084080568",
+       "display_name": "Susanne Diekelmann",
+       "orcid": "https://orcid.org/0000-0001-9579-7486",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-9579-7486"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I8087733",
+        "display_name": "University of T\u00fcbingen",
+        "ror": "https://ror.org/03a1kwz48",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I8087733"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Susanne Diekelmann",
+      "raw_affiliation_strings": [
+       "Institute for Medical Psychology and Behavioral Neurobiology, University of T\u00fcbingen T\u00fcbingen, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute for Medical Psychology and Behavioral Neurobiology, University of T\u00fcbingen T\u00fcbingen, Germany",
+        "institution_ids": [
+         "https://openalex.org/I8087733"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2015.00622",
+     "doi": "https://doi.org/10.3389/fpsyg.2015.00622",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2015.00622",
+     "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2015.00622/pdf",
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2067944500",
+    "doi": "https://doi.org/10.1007/s00426-011-0335-6",
+    "title": "System consolidation of memory during sleep",
+    "display_name": "System consolidation of memory during sleep",
+    "publication_year": 2011,
+    "cited_by_count": 841,
+    "abstract_inverted_index": {
+     "Over": [
+      0
+     ],
+     "the": [
+      1,
+      13,
+      44,
+      47,
+      63,
+      84,
+      91,
+      144,
+      165,
+      220
+     ],
+     "past": [
+      2
+     ],
+     "two": [
+      3
+     ],
+     "decades,": [
+      4
+     ],
+     "research": [
+      5
+     ],
+     "has": [
+      6,
+      24,
+      181
+     ],
+     "accumulated": [
+      7
+     ],
+     "compelling": [
+      8
+     ],
+     "evidence": [
+      9,
+      172
+     ],
+     "that": [
+      10,
+      23,
+      32,
+      74,
+      133,
+      184,
+      196,
+      210,
+      219
+     ],
+     "sleep": [
+      11,
+      115,
+      131,
+      139,
+      148,
+      197,
+      211
+     ],
+     "supports": [
+      12
+     ],
+     "formation": [
+      14
+     ],
+     "of": [
+      15,
+      80,
+      88,
+      126,
+      186,
+      222
+     ],
+     "long-term": [
+      16,
+      58,
+      107,
+      166
+     ],
+     "memory.": [
+      17
+     ],
+     "The": [
+      18,
+      124
+     ],
+     "standard": [
+      19
+     ],
+     "two-stage": [
+      20
+     ],
+     "memory": [
+      21,
+      30,
+      49,
+      97,
+      216
+     ],
+     "model": [
+      22
+     ],
+     "been": [
+      25,
+      182
+     ],
+     "originally": [
+      26
+     ],
+     "elaborated": [
+      27
+     ],
+     "for": [
+      28,
+      173,
+      194,
+      206
+     ],
+     "declarative": [
+      29,
+      48
+     ],
+     "assumes": [
+      31
+     ],
+     "new": [
+      33
+     ],
+     "memories": [
+      34,
+      135,
+      187,
+      203
+     ],
+     "are": [
+      35,
+      53,
+      66,
+      136
+     ],
+     "transiently": [
+      36
+     ],
+     "encoded": [
+      37,
+      96
+     ],
+     "into": [
+      38,
+      56
+     ],
+     "a": [
+      39,
+      57,
+      191
+     ],
+     "temporary": [
+      40
+     ],
+     "store": [
+      41,
+      59,
+      167
+     ],
+     "(represented": [
+      42
+     ],
+     "by": [
+      43,
+      62
+     ],
+     "hippocampus": [
+      45
+     ],
+     "in": [
+      46,
+      93,
+      215
+     ],
+     "system)": [
+      50
+     ],
+     "before": [
+      51
+     ],
+     "they": [
+      52
+     ],
+     "gradually": [
+      54
+     ],
+     "transferred": [
+      55,
+      163
+     ],
+     "(mainly": [
+      60
+     ],
+     "represented": [
+      61
+     ],
+     "neocortex),": [
+      64
+     ],
+     "or": [
+      65
+     ],
+     "forgotten.": [
+      67
+     ],
+     "Based": [
+      68
+     ],
+     "on": [
+      69
+     ],
+     "this": [
+      70
+     ],
+     "model,": [
+      71
+     ],
+     "we": [
+      72
+     ],
+     "propose": [
+      73
+     ],
+     "sleep,": [
+      75
+     ],
+     "as": [
+      76,
+      106,
+      152
+     ],
+     "an": [
+      77
+     ],
+     "offline": [
+      78
+     ],
+     "mode": [
+      79
+     ],
+     "brain": [
+      81
+     ],
+     "processing,": [
+      82
+     ],
+     "serves": [
+      83
+     ],
+     "'active": [
+      85
+     ],
+     "system": [
+      86,
+      128
+     ],
+     "consolidation'": [
+      87
+     ],
+     "memory,": [
+      89,
+      158
+     ],
+     "i.e.": [
+      90
+     ],
+     "process": [
+      92,
+      146
+     ],
+     "which": [
+      94
+     ],
+     "newly": [
+      95
+     ],
+     "representations": [
+      98,
+      217
+     ],
+     "become": [
+      99
+     ],
+     "redistributed": [
+      100
+     ],
+     "to": [
+      101,
+      140,
+      164
+     ],
+     "other": [
+      102
+     ],
+     "neuron": [
+      103
+     ],
+     "networks": [
+      104
+     ],
+     "serving": [
+      105
+     ],
+     "store.": [
+      108
+     ],
+     "System": [
+      109
+     ],
+     "consolidation": [
+      110,
+      129,
+      145
+     ],
+     "takes": [
+      111
+     ],
+     "place": [
+      112
+     ],
+     "during": [
+      113,
+      130,
+      138,
+      147,
+      188
+     ],
+     "slow-wave": [
+      114
+     ],
+     "(SWS)": [
+      116
+     ],
+     "rather": [
+      117
+     ],
+     "than": [
+      118
+     ],
+     "rapid": [
+      119
+     ],
+     "eye": [
+      120
+     ],
+     "movement": [
+      121
+     ],
+     "(REM)": [
+      122
+     ],
+     "sleep.": [
+      123
+     ],
+     "concept": [
+      125
+     ],
+     "active": [
+      127
+     ],
+     "implicates": [
+      132
+     ],
+     "(a)": [
+      134
+     ],
+     "reactivated": [
+      137
+     ],
+     "be": [
+      141
+     ],
+     "consolidated,": [
+      142
+     ],
+     "(b)": [
+      143
+     ],
+     "is": [
+      149,
+      178,
+      231
+     ],
+     "selective": [
+      150
+     ],
+     "inasmuch": [
+      151
+     ],
+     "it": [
+      153
+     ],
+     "does": [
+      154
+     ],
+     "not": [
+      155
+     ],
+     "enhance": [
+      156
+     ],
+     "every": [
+      157
+     ],
+     "and": [
+      159,
+      198,
+      209,
+      224
+     ],
+     "(c)": [
+      160
+     ],
+     "memories,": [
+      161
+     ],
+     "when": [
+      162
+     ],
+     "undergo": [
+      168
+     ],
+     "qualitative": [
+      169,
+      213
+     ],
+     "changes.": [
+      170
+     ],
+     "Experimental": [
+      171
+     ],
+     "these": [
+      174
+     ],
+     "three": [
+      175
+     ],
+     "central": [
+      176
+     ],
+     "implications": [
+      177
+     ],
+     "provided:": [
+      179
+     ],
+     "It": [
+      180
+     ],
+     "shown": [
+      183
+     ],
+     "reactivation": [
+      185
+     ],
+     "SWS": [
+      189,
+      200
+     ],
+     "plays": [
+      190
+     ],
+     "causal": [
+      192
+     ],
+     "role": [
+      193
+     ],
+     "consolidation,": [
+      195
+     ],
+     "specifically": [
+      199
+     ],
+     "consolidates": [
+      201
+     ],
+     "preferentially": [
+      202
+     ],
+     "with": [
+      204
+     ],
+     "relevance": [
+      205
+     ],
+     "future": [
+      207
+     ],
+     "plans,": [
+      208
+     ],
+     "produces": [
+      212
+     ],
+     "changes": [
+      214
+     ],
+     "such": [
+      218
+     ],
+     "extraction": [
+      221
+     ],
+     "explicit": [
+      223
+     ],
+     "conscious": [
+      225
+     ],
+     "knowledge": [
+      226
+     ],
+     "from": [
+      227
+     ],
+     "implicitly": [
+      228
+     ],
+     "learned": [
+      229
+     ],
+     "materials": [
+      230
+     ],
+     "facilitated.": [
+      232
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5036040037",
+       "display_name": "Jan Born",
+       "orcid": "https://orcid.org/0000-0002-1847-6248",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1847-6248"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I8087733",
+        "display_name": "University of T\u00fcbingen",
+        "ror": "https://ror.org/03a1kwz48",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I8087733"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Jan Born",
+      "raw_affiliation_strings": [
+       "Department of Medical Psychology and Neurobiology, University of T\u00fcbingen, Gartenstr. 29, 72074, T\u00fcbingen, Germany. born@kfg.uni-luebeck.de",
+       "Department of Medical Psychology and Neurobiology, University of T\u00fcbingen, T\u00fcbingen, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Medical Psychology and Neurobiology, University of T\u00fcbingen, Gartenstr. 29, 72074, T\u00fcbingen, Germany. born@kfg.uni-luebeck.de",
+        "institution_ids": [
+         "https://openalex.org/I8087733"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Medical Psychology and Neurobiology, University of T\u00fcbingen, T\u00fcbingen, Germany",
+        "institution_ids": [
+         "https://openalex.org/I8087733"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5103277783",
+       "display_name": "Ines Wilhelm",
+       "orcid": "https://orcid.org/0000-0002-3492-3562",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-3492-3562"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I9341345",
+        "display_name": "University of L\u00fcbeck",
+        "ror": "https://ror.org/00t3r8h32",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I9341345"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Ines Wilhelm",
+      "raw_affiliation_strings": [
+       "Department of Neuroendocrinology, University of L\u00fcbeck, Haus 50, Ratzeburger Allee 160, 23538, L\u00fcbeck, Germany",
+       "Department of Neuroendocrinology University of L\u00fcbeck  L\u00fcbeck Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neuroendocrinology, University of L\u00fcbeck, Haus 50, Ratzeburger Allee 160, 23538, L\u00fcbeck, Germany",
+        "institution_ids": [
+         "https://openalex.org/I9341345"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Neuroendocrinology University of L\u00fcbeck  L\u00fcbeck Germany",
+        "institution_ids": [
+         "https://openalex.org/I9341345"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1007/s00426-011-0335-6",
+     "doi": "https://doi.org/10.1007/s00426-011-0335-6",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1007/s00426-011-0335-6",
+     "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00426-011-0335-6.pdf",
+     "source": {
+      "id": "https://openalex.org/S35819839",
+      "display_name": "Psychological Research",
+      "issn_l": "0033-3026",
+      "issn": [
+       "0033-3026",
+       "0340-0727",
+       "1430-2772"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "abdc-a",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-b",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "medline",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319900",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer Science+Business Media",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc",
+     "license_id": "https://openalex.org/licenses/cc-by-nc",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Psychological Research",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2116888545",
+    "doi": "https://doi.org/10.1101/lm.80504",
+    "title": "Declarative memory consolidation: Mechanisms acting during human sleep",
+    "display_name": "Declarative memory consolidation: Mechanisms acting during human sleep",
+    "publication_year": 2004,
+    "cited_by_count": 653,
+    "abstract_inverted_index": {
+     "Of": [
+      0
+     ],
+     "late,": [
+      1
+     ],
+     "an": [
+      2,
+      156
+     ],
+     "increasing": [
+      3
+     ],
+     "number": [
+      4
+     ],
+     "of": [
+      5,
+      21,
+      31,
+      71,
+      86,
+      96,
+      110,
+      146
+     ],
+     "studies": [
+      6,
+      24
+     ],
+     "have": [
+      7
+     ],
+     "shown": [
+      8
+     ],
+     "a": [
+      9,
+      19,
+      28,
+      106,
+      143
+     ],
+     "strong": [
+      10
+     ],
+     "relationship": [
+      11
+     ],
+     "between": [
+      12
+     ],
+     "sleep": [
+      13,
+      33,
+      60,
+      131,
+      152
+     ],
+     "and": [
+      14,
+      39,
+      108,
+      123,
+      163,
+      169
+     ],
+     "memory.": [
+      15
+     ],
+     "Here": [
+      16
+     ],
+     "we": [
+      17
+     ],
+     "summarize": [
+      18
+     ],
+     "series": [
+      20
+     ],
+     "our": [
+      22
+     ],
+     "own": [
+      23
+     ],
+     "in": [
+      25,
+      77,
+      101,
+      136
+     ],
+     "humans": [
+      26
+     ],
+     "supporting": [
+      27
+     ],
+     "beneficial": [
+      29
+     ],
+     "influence": [
+      30
+     ],
+     "slow-wave": [
+      32
+     ],
+     "(SWS)": [
+      34
+     ],
+     "on": [
+      35
+     ],
+     "declarative": [
+      36,
+      55,
+      87,
+      134,
+      160
+     ],
+     "memory": [
+      37,
+      56,
+      73,
+      88,
+      99,
+      161
+     ],
+     "formation,": [
+      38
+     ],
+     "try": [
+      40
+     ],
+     "to": [
+      41,
+      92,
+      154,
+      173
+     ],
+     "identify": [
+      42
+     ],
+     "some": [
+      43
+     ],
+     "mechanisms": [
+      44
+     ],
+     "that": [
+      45,
+      54,
+      104,
+      139
+     ],
+     "might": [
+      46
+     ],
+     "underlie": [
+      47
+     ],
+     "this": [
+      48,
+      72,
+      119
+     ],
+     "influence.": [
+      49
+     ],
+     "Specifically,": [
+      50
+     ],
+     "these": [
+      51,
+      111
+     ],
+     "experiments": [
+      52
+     ],
+     "show": [
+      53
+     ],
+     "benefits": [
+      57
+     ],
+     "mainly": [
+      58
+     ],
+     "from": [
+      59,
+      74
+     ],
+     "periods": [
+      61,
+      75
+     ],
+     "dominated": [
+      62
+     ],
+     "by": [
+      63,
+      165
+     ],
+     "SWS,": [
+      64
+     ],
+     "whereas": [
+      65
+     ],
+     "there": [
+      66
+     ],
+     "is": [
+      67,
+      90
+     ],
+     "no": [
+      68
+     ],
+     "consistent": [
+      69
+     ],
+     "benefit": [
+      70
+     ],
+     "rich": [
+      76
+     ],
+     "rapid": [
+      78
+     ],
+     "eye": [
+      79
+     ],
+     "movement": [
+      80
+     ],
+     "(REM)": [
+      81
+     ],
+     "sleep.": [
+      82
+     ],
+     "A": [
+      83
+     ],
+     "main": [
+      84
+     ],
+     "mechanism": [
+      85
+     ],
+     "formation": [
+      89
+     ],
+     "believed": [
+      91
+     ],
+     "be": [
+      93
+     ],
+     "the": [
+      94,
+      147,
+      170,
+      174
+     ],
+     "reactivation": [
+      95
+     ],
+     "newly": [
+      97
+     ],
+     "acquired": [
+      98
+     ],
+     "representations": [
+      100,
+      112
+     ],
+     "hippocampal": [
+      102
+     ],
+     "networks": [
+      103
+     ],
+     "stimulates": [
+      105
+     ],
+     "transfer": [
+      107
+     ],
+     "integration": [
+      109
+     ],
+     "into": [
+      113
+     ],
+     "neocortical": [
+      114,
+      144
+     ],
+     "neuronal": [
+      115
+     ],
+     "networks.": [
+      116
+     ],
+     "Consistent": [
+      117
+     ],
+     "with": [
+      118
+     ],
+     "model,": [
+      120
+     ],
+     "spindle": [
+      121
+     ],
+     "activity": [
+      122
+     ],
+     "slow": [
+      124
+     ],
+     "oscillation-related": [
+      125
+     ],
+     "EEG": [
+      126
+     ],
+     "coherence": [
+      127
+     ],
+     "increase": [
+      128
+     ],
+     "during": [
+      129,
+      176
+     ],
+     "early": [
+      130
+     ],
+     "after": [
+      132
+     ],
+     "intense": [
+      133
+     ],
+     "learning": [
+      135
+     ],
+     "humans,": [
+      137
+     ],
+     "signs": [
+      138
+     ],
+     "together": [
+      140
+     ],
+     "point": [
+      141
+     ],
+     "toward": [
+      142
+     ],
+     "reprocessing": [
+      145,
+      162
+     ],
+     "learned": [
+      148
+     ],
+     "material.": [
+      149
+     ],
+     "In": [
+      150
+     ],
+     "addition,": [
+      151
+     ],
+     "seems": [
+      153
+     ],
+     "provide": [
+      155
+     ],
+     "optimal": [
+      157
+     ],
+     "milieu": [
+      158
+     ],
+     "for": [
+      159
+     ],
+     "consolidation": [
+      164
+     ],
+     "reducing": [
+      166
+     ],
+     "cholinergic": [
+      167
+     ],
+     "activation": [
+      168
+     ],
+     "cortisol": [
+      171
+     ],
+     "feedback": [
+      172
+     ],
+     "hippocampus": [
+      175
+     ],
+     "SWS.": [
+      177
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5112758934",
+       "display_name": "Steffen Gais",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I9341345",
+        "display_name": "University of L\u00fcbeck",
+        "ror": "https://ror.org/00t3r8h32",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I9341345"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Steffen Gais",
+      "raw_affiliation_strings": [
+       "Department of Neuroendocrinology, University of L\u00fcbeck, L\u00fcbeck 23538, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neuroendocrinology, University of L\u00fcbeck, L\u00fcbeck 23538, Germany",
+        "institution_ids": [
+         "https://openalex.org/I9341345"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5036040037",
+       "display_name": "Jan Born",
+       "orcid": "https://orcid.org/0000-0002-1847-6248",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1847-6248"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I9341345",
+        "display_name": "University of L\u00fcbeck",
+        "ror": "https://ror.org/00t3r8h32",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I9341345"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Jan Born",
+      "raw_affiliation_strings": [
+       "Department of Neuroendocrinology, University of L\u00fcbeck,\n                              L\u00fcbeck 23538, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neuroendocrinology, University of L\u00fcbeck,\n                              L\u00fcbeck 23538, Germany",
+        "institution_ids": [
+         "https://openalex.org/I9341345"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1101/lm.80504",
+     "doi": "https://doi.org/10.1101/lm.80504",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1101/lm.80504",
+     "pdf_url": "http://learnmem.cshlp.org/content/11/6/679.full.pdf",
+     "source": {
+      "id": "https://openalex.org/S73374563",
+      "display_name": "Learning & Memory",
+      "issn_l": "1072-0502",
+      "issn": [
+       "1072-0502",
+       "1549-5485"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [
+       "dongbi-c",
+       "doyens",
+       "jufo-2",
+       "ki-jl-2",
+       "medline",
+       "norway-2",
+       "poland-140",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310315909",
+      "host_organization_name": "Cold Spring Harbor Laboratory Press",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310315909"
+      ],
+      "host_organization_lineage_names": [
+       "Cold Spring Harbor Laboratory Press"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Learning &amp; Memory",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2102656701",
+    "doi": "https://doi.org/10.1152/physrev.00032.2012",
+    "title": "About Sleep's Role in Memory",
+    "display_name": "About Sleep's Role in Memory",
+    "publication_year": 2013,
+    "cited_by_count": 3478,
+    "abstract_inverted_index": {
+     "Over": [
+      0
+     ],
+     "more": [
+      1,
+      44
+     ],
+     "than": [
+      2
+     ],
+     "a": [
+      3,
+      35,
+      41,
+      52,
+      77,
+      134,
+      234
+     ],
+     "century": [
+      4
+     ],
+     "of": [
+      5,
+      16,
+      28,
+      43,
+      79,
+      91,
+      101,
+      112,
+      150,
+      156,
+      191,
+      195,
+      229,
+      236
+     ],
+     "research": [
+      6,
+      32,
+      86
+     ],
+     "has": [
+      7,
+      97
+     ],
+     "established": [
+      8,
+      240
+     ],
+     "the": [
+      9,
+      14,
+      26,
+      89,
+      99,
+      113,
+      143,
+      189,
+      223,
+      226
+     ],
+     "fact": [
+      10
+     ],
+     "that": [
+      11,
+      225
+     ],
+     "sleep": [
+      12,
+      56,
+      72,
+      103,
+      132,
+      177,
+      232
+     ],
+     "benefits": [
+      13
+     ],
+     "retention": [
+      15
+     ],
+     "memory.": [
+      17,
+      174
+     ],
+     "In": [
+      18
+     ],
+     "this": [
+      19
+     ],
+     "review": [
+      20
+     ],
+     "we": [
+      21
+     ],
+     "aim": [
+      22
+     ],
+     "to": [
+      23,
+      142,
+      186,
+      222
+     ],
+     "comprehensively": [
+      24
+     ],
+     "cover": [
+      25
+     ],
+     "field": [
+      27
+     ],
+     "\"sleep": [
+      29
+     ],
+     "and": [
+      30,
+      40,
+      108,
+      117,
+      166,
+      213
+     ],
+     "memory\"": [
+      31
+     ],
+     "by": [
+      33,
+      59
+     ],
+     "providing": [
+      34
+     ],
+     "historical": [
+      36
+     ],
+     "perspective": [
+      37
+     ],
+     "on": [
+      38,
+      88
+     ],
+     "concepts": [
+      39
+     ],
+     "discussion": [
+      42
+     ],
+     "recent": [
+      45,
+      95
+     ],
+     "key": [
+      46
+     ],
+     "findings.": [
+      47
+     ],
+     "Whereas": [
+      48,
+      84
+     ],
+     "initial": [
+      49
+     ],
+     "theories": [
+      50,
+      66
+     ],
+     "posed": [
+      51
+     ],
+     "passive": [
+      53
+     ],
+     "role": [
+      54,
+      70,
+      90
+     ],
+     "for": [
+      55,
+      71,
+      105,
+      148,
+      170,
+      210,
+      215
+     ],
+     "enhancing": [
+      57
+     ],
+     "memories": [
+      58,
+      75
+     ],
+     "protecting": [
+      60
+     ],
+     "them": [
+      61
+     ],
+     "from": [
+      62,
+      154,
+      198
+     ],
+     "interfering": [
+      63
+     ],
+     "stimuli,": [
+      64
+     ],
+     "current": [
+      65
+     ],
+     "highlight": [
+      67
+     ],
+     "an": [
+      68,
+      192
+     ],
+     "active": [
+      69,
+      193
+     ],
+     "in": [
+      73,
+      125,
+      140,
+      241
+     ],
+     "which": [
+      74,
+      162
+     ],
+     "undergo": [
+      76
+     ],
+     "process": [
+      78
+     ],
+     "system": [
+      80
+     ],
+     "consolidation": [
+      81,
+      107,
+      228
+     ],
+     "during": [
+      82,
+      164,
+      231
+     ],
+     "sleep.": [
+      83
+     ],
+     "older": [
+      85
+     ],
+     "concentrated": [
+      87
+     ],
+     "rapid-eye-movement": [
+      92
+     ],
+     "(REM)": [
+      93
+     ],
+     "sleep,": [
+      94
+     ],
+     "work": [
+      96
+     ],
+     "revealed": [
+      98
+     ],
+     "importance": [
+      100
+     ],
+     "slow-wave": [
+      102
+     ],
+     "(SWS)": [
+      104
+     ],
+     "memory": [
+      106,
+      138,
+      160,
+      196,
+      230,
+      238
+     ],
+     "also": [
+      109,
+      209
+     ],
+     "enlightened": [
+      110
+     ],
+     "some": [
+      111
+     ],
+     "underlying": [
+      114
+     ],
+     "electrophysiological,": [
+      115
+     ],
+     "neurochemical,": [
+      116
+     ],
+     "genetic": [
+      118
+     ],
+     "mechanisms,": [
+      119
+     ],
+     "as": [
+      120,
+      122,
+      133,
+      201
+     ],
+     "well": [
+      121
+     ],
+     "developmental": [
+      123
+     ],
+     "aspects": [
+      124
+     ],
+     "these": [
+      126
+     ],
+     "processes.": [
+      127
+     ],
+     "Specifically,": [
+      128
+     ],
+     "newer": [
+      129
+     ],
+     "findings": [
+      130
+     ],
+     "characterize": [
+      131
+     ],
+     "brain": [
+      135,
+      145
+     ],
+     "state": [
+      136
+     ],
+     "optimizing": [
+      137
+     ],
+     "consolidation,": [
+      139
+     ],
+     "opposition": [
+      141
+     ],
+     "waking": [
+      144
+     ],
+     "being": [
+      146
+     ],
+     "optimized": [
+      147
+     ],
+     "encoding": [
+      149
+     ],
+     "memories.": [
+      151,
+      181
+     ],
+     "Consolidation": [
+      152
+     ],
+     "originates": [
+      153
+     ],
+     "reactivation": [
+      155
+     ],
+     "recently": [
+      157
+     ],
+     "encoded": [
+      158
+     ],
+     "neuronal": [
+      159
+     ],
+     "representations,": [
+      161
+     ],
+     "occur": [
+      163
+     ],
+     "SWS": [
+      165
+     ],
+     "transform": [
+      167
+     ],
+     "respective": [
+      168
+     ],
+     "representations": [
+      169,
+      197
+     ],
+     "integration": [
+      171
+     ],
+     "into": [
+      172,
+      204
+     ],
+     "long-term": [
+      173,
+      205,
+      237
+     ],
+     "Ensuing": [
+      175
+     ],
+     "REM": [
+      176
+     ],
+     "may": [
+      178
+     ],
+     "stabilize": [
+      179
+     ],
+     "transformed": [
+      180
+     ],
+     "While": [
+      182
+     ],
+     "elaborated": [
+      183
+     ],
+     "with": [
+      184
+     ],
+     "respect": [
+      185
+     ],
+     "hippocampus-dependent": [
+      187
+     ],
+     "memories,": [
+      188,
+      219
+     ],
+     "concept": [
+      190
+     ],
+     "redistribution": [
+      194
+     ],
+     "networks": [
+      199
+     ],
+     "serving": [
+      200
+     ],
+     "temporary": [
+      202
+     ],
+     "store": [
+      203
+     ],
+     "stores": [
+      206
+     ],
+     "might": [
+      207
+     ],
+     "hold": [
+      208
+     ],
+     "non-hippocampus-dependent": [
+      211
+     ],
+     "memory,": [
+      212
+     ],
+     "even": [
+      214
+     ],
+     "nonneuronal,": [
+      216
+     ],
+     "i.e.,": [
+      217
+     ],
+     "immunological": [
+      218
+     ],
+     "giving": [
+      220
+     ],
+     "rise": [
+      221
+     ],
+     "idea": [
+      224
+     ],
+     "offline": [
+      227
+     ],
+     "represents": [
+      233
+     ],
+     "principle": [
+      235
+     ],
+     "formation": [
+      239
+     ],
+     "quite": [
+      242
+     ],
+     "different": [
+      243
+     ],
+     "physiological": [
+      244
+     ],
+     "systems.": [
+      245
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5035398717",
+       "display_name": "Bj\u00f6rn Rasch",
+       "orcid": "https://orcid.org/0000-0001-7607-3415",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7607-3415"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I202697423",
+        "display_name": "University of Zurich",
+        "ror": "https://ror.org/02crff812",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I202697423"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I8087733",
+        "display_name": "University of T\u00fcbingen",
+        "ror": "https://ror.org/03a1kwz48",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I8087733"
+        ]
+       }
+      ],
+      "countries": [
+       "CH",
+       "DE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Bj\u00f6rn Rasch",
+      "raw_affiliation_strings": [
+       "Division of Biopsychology, Neuroscience Center Zurich and Zurich Center for Integrative Human Physiology, University of Zurich, Zurich, Switzerland; and Institute of Medical Psychology and Behavioral Neurobiology, and Center for Integrative Neuroscience, University of Tuebingen, Tuebingen, Germany",
+       "Division of Biopsychology, Neuroscience Center Zurich and Zurich Center for Integrative Human Physiology, University of Zurich, Zurich, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Division of Biopsychology, Neuroscience Center Zurich and Zurich Center for Integrative Human Physiology, University of Zurich, Zurich, Switzerland; and Institute of Medical Psychology and Behavioral Neurobiology, and Center for Integrative Neuroscience, University of Tuebingen, Tuebingen, Germany",
+        "institution_ids": [
+         "https://openalex.org/I202697423",
+         "https://openalex.org/I8087733"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Division of Biopsychology, Neuroscience Center Zurich and Zurich Center for Integrative Human Physiology, University of Zurich, Zurich, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I202697423"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5036040037",
+       "display_name": "Jan Born",
+       "orcid": "https://orcid.org/0000-0002-1847-6248",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-1847-6248"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I202697423",
+        "display_name": "University of Zurich",
+        "ror": "https://ror.org/02crff812",
+        "country_code": "CH",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I202697423"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I8087733",
+        "display_name": "University of T\u00fcbingen",
+        "ror": "https://ror.org/03a1kwz48",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I8087733"
+        ]
+       }
+      ],
+      "countries": [
+       "CH",
+       "DE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Jan Born",
+      "raw_affiliation_strings": [
+       "Division of Biopsychology, Neuroscience Center Zurich and Zurich Center for Integrative Human Physiology, University of Zurich, Zurich, Switzerland; and Institute of Medical Psychology and Behavioral Neurobiology, and Center for Integrative Neuroscience, University of Tuebingen, Tuebingen, Germany",
+       "Division of Biopsychology, Neuroscience Center Zurich and Zurich Center for Integrative Human Physiology, University of Zurich, Zurich, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Division of Biopsychology, Neuroscience Center Zurich and Zurich Center for Integrative Human Physiology, University of Zurich, Zurich, Switzerland; and Institute of Medical Psychology and Behavioral Neurobiology, and Center for Integrative Neuroscience, University of Tuebingen, Tuebingen, Germany",
+        "institution_ids": [
+         "https://openalex.org/I202697423",
+         "https://openalex.org/I8087733"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Division of Biopsychology, Neuroscience Center Zurich and Zurich Center for Integrative Human Physiology, University of Zurich, Zurich, Switzerland",
+        "institution_ids": [
+         "https://openalex.org/I202697423"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1152/physrev.00032.2012",
+     "doi": "https://doi.org/10.1152/physrev.00032.2012",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1152/physrev.00032.2012",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S203035050",
+      "display_name": "Physiological Reviews",
+      "issn_l": "0031-9333",
+      "issn": [
+       "0031-9333",
+       "1522-1210"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-a",
+       "doyens",
+       "jufo-3",
+       "ki-jl-2",
+       "medline",
+       "norway-1",
+       "poland-200",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320155",
+      "host_organization_name": "American Physiological Society",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320155"
+      ],
+      "host_organization_lineage_names": [
+       "American Physiological Society"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Physiological Reviews",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2154424458",
+    "doi": "https://doi.org/10.3389/fpsyg.2014.00184",
+    "title": "Goodnight book: sleep consolidation improves word learning via storybooks",
+    "display_name": "Goodnight book: sleep consolidation improves word learning via storybooks",
+    "publication_year": 2014,
+    "cited_by_count": 139,
+    "abstract_inverted_index": {
+     "Reading": [
+      0
+     ],
+     "the": [
+      1,
+      50,
+      61,
+      118,
+      122
+     ],
+     "same": [
+      2,
+      51,
+      123
+     ],
+     "storybooks": [
+      3
+     ],
+     "repeatedly": [
+      4,
+      53
+     ],
+     "helps": [
+      5
+     ],
+     "preschool": [
+      6,
+      38
+     ],
+     "children": [
+      7,
+      25,
+      39,
+      103,
+      115,
+      127
+     ],
+     "learn": [
+      8
+     ],
+     "words.": [
+      9
+     ],
+     "In": [
+      10,
+      125
+     ],
+     "addition,": [
+      11
+     ],
+     "sleeping": [
+      12
+     ],
+     "shortly": [
+      13
+     ],
+     "after": [
+      14,
+      60
+     ],
+     "learning": [
+      15,
+      22,
+      36,
+      144
+     ],
+     "also": [
+      16
+     ],
+     "facilitates": [
+      17
+     ],
+     "memory": [
+      18
+     ],
+     "consolidation": [
+      19,
+      92
+     ],
+     "and": [
+      20,
+      26,
+      57,
+      77,
+      90,
+      132
+     ],
+     "aids": [
+      21
+     ],
+     "in": [
+      23,
+      37
+     ],
+     "older": [
+      24
+     ],
+     "adults.": [
+      27
+     ],
+     "The": [
+      28
+     ],
+     "current": [
+      29
+     ],
+     "study": [
+      30
+     ],
+     "explored": [
+      31
+     ],
+     "how": [
+      32
+     ],
+     "sleep": [
+      33,
+      91
+     ],
+     "promotes": [
+      34
+     ],
+     "word": [
+      35,
+      67,
+      96,
+      143
+     ],
+     "using": [
+      40
+     ],
+     "a": [
+      41
+     ],
+     "shared": [
+      42
+     ],
+     "storybook": [
+      43
+     ],
+     "reading": [
+      44
+     ],
+     "task.": [
+      45
+     ],
+     "Children": [
+      46
+     ],
+     "were": [
+      47,
+      69
+     ],
+     "either": [
+      48,
+      58
+     ],
+     "read": [
+      49,
+      105,
+      129
+     ],
+     "story": [
+      52
+     ],
+     "or": [
+      54,
+      63
+     ],
+     "different": [
+      55,
+      106,
+      130
+     ],
+     "stories": [
+      56,
+      62,
+      107,
+      131
+     ],
+     "napped": [
+      59
+     ],
+     "remained": [
+      64,
+      133
+     ],
+     "awake.": [
+      65
+     ],
+     "Children's": [
+      66
+     ],
+     "retention": [
+      68
+     ],
+     "tested": [
+      70
+     ],
+     "2.5": [
+      71
+     ],
+     "h": [
+      72,
+      75
+     ],
+     "later,": [
+      73,
+      76
+     ],
+     "24": [
+      74
+     ],
+     "7": [
+      78
+     ],
+     "days": [
+      79
+     ],
+     "later.": [
+      80
+     ],
+     "Results": [
+      81
+     ],
+     "demonstrate": [
+      82
+     ],
+     "strong,": [
+      83
+     ],
+     "persistent": [
+      84
+     ],
+     "effects": [
+      85
+     ],
+     "for": [
+      86,
+      147
+     ],
+     "both": [
+      87
+     ],
+     "repeated": [
+      88
+     ],
+     "readings": [
+      89
+     ],
+     "on": [
+      93,
+      141
+     ],
+     "young": [
+      94
+     ],
+     "children's": [
+      95
+     ],
+     "learning.": [
+      97
+     ],
+     "A": [
+      98
+     ],
+     "key": [
+      99
+     ],
+     "finding": [
+      100
+     ],
+     "is": [
+      101
+     ],
+     "that": [
+      102
+     ],
+     "who": [
+      104,
+      116,
+      128
+     ],
+     "before": [
+      108
+     ],
+     "napping": [
+      109
+     ],
+     "learned": [
+      110
+     ],
+     "words": [
+      111
+     ],
+     "as": [
+      112,
+      114
+     ],
+     "well": [
+      113
+     ],
+     "had": [
+      117
+     ],
+     "advantage": [
+      119
+     ],
+     "of": [
+      120
+     ],
+     "hearing": [
+      121
+     ],
+     "story.": [
+      124
+     ],
+     "contrast,": [
+      126
+     ],
+     "awake": [
+      134
+     ],
+     "never": [
+      135
+     ],
+     "caught": [
+      136
+     ],
+     "up": [
+      137
+     ],
+     "to": [
+      138
+     ],
+     "their": [
+      139
+     ],
+     "peers": [
+      140
+     ],
+     "later": [
+      142
+     ],
+     "tests.": [
+      145
+     ],
+     "Implications": [
+      146
+     ],
+     "educational": [
+      148
+     ],
+     "practices": [
+      149
+     ],
+     "are": [
+      150
+     ],
+     "discussed.": [
+      151
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5102241886",
+       "display_name": "Sophie E. Williams",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I162608824",
+        "display_name": "University of Sussex",
+        "ror": "https://ror.org/00ayhx656",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I162608824"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Sophie E. Williams",
+      "raw_affiliation_strings": [
+       "School of Psychology, University of Sussex, Brighton, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Psychology, University of Sussex, Brighton, UK",
+        "institution_ids": [
+         "https://openalex.org/I162608824"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5070574176",
+       "display_name": "Jessica S. Horst",
+       "orcid": "https://orcid.org/0000-0003-3200-5239",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-3200-5239"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I162608824",
+        "display_name": "University of Sussex",
+        "ror": "https://ror.org/00ayhx656",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I162608824"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Jessica S. Horst",
+      "raw_affiliation_strings": [
+       "School of Psychology, University of Sussex, Brighton, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Psychology, University of Sussex, Brighton, UK",
+        "institution_ids": [
+         "https://openalex.org/I162608824"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2014.00184",
+     "doi": "https://doi.org/10.3389/fpsyg.2014.00184",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2014.00184",
+     "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2014.00184/pdf",
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a20202-08c3-7ca5-9fe1-5f8a769e1c06",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330017,
+ "model": "zai-org/GLM-5.3-Flash",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 directly states that the beneficial after-effects of acute aerobic exercise on cognitive performance were greater in participants with lower pre-test cognitive performance, matching the claim's direction, population, and outcome.\"}",
+    "reasoning_content": "The claim: \"The benefits of acute aerobic exercise on cognitive performance were greater in participants with lower pre-test cognitive performance.\"\n\nPassage [1] states exactly: \"Results indicated that the beneficial after-effects of acute aerobic exercise on cognitive performance were greater in participants with lower cognitive performance at pre-test.\"\n\nThis directly supports the claim with the same direction, population/task, and outcome. Verdict: supported, passage 1.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 322,
+  "completion_tokens": 145,
+  "total_tokens": 467,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 85
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.2
+}

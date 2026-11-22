@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a2024a-6cdd-7724-b2cc-0afe2b9e26ea",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795334761,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"thought\": \"All searches returned no results, so no credible source can be fetched or cited.\", \"action\": \"finish\", \"args\": {\"findings\": []}}",
+    "reasoning_content": "The search tool returns no results at all. I cannot fetch any source. So finish with empty findings.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 789,
+  "completion_tokens": 59,
+  "total_tokens": 848,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 22
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.24
+}

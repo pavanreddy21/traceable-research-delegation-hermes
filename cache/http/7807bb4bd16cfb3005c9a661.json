@@ -1,0 +1,3172 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 1381,
+   "db_response_time_ms": 113,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (retrieval success feedback testing effect moderator long-term retention) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (retrieval success feedback testing effect moderator long-term retention) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "retrieval success feedback testing effect moderator long-term retention",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:retrieval success feedback testing effect moderator long-term retention,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2888571438",
+    "doi": "https://doi.org/10.1055/s-0038-1666983",
+    "title": "Planning Education for Long-Term Retention: The Cognitive Science and Implementation of Retrieval Practice",
+    "display_name": "Planning Education for Long-Term Retention: The Cognitive Science and Implementation of Retrieval Practice",
+    "publication_year": 2018,
+    "cited_by_count": 68,
+    "abstract_inverted_index": {
+     "Educational": [
+      0
+     ],
+     "systems": [
+      1
+     ],
+     "are": [
+      2,
+      48,
+      54,
+      62,
+      68
+     ],
+     "rarely": [
+      3
+     ],
+     "designed": [
+      4
+     ],
+     "for": [
+      5,
+      97,
+      150
+     ],
+     "long-term": [
+      6
+     ],
+     "retention": [
+      7,
+      28
+     ],
+     "of": [
+      8,
+      24,
+      40,
+      88,
+      93,
+      105,
+      137,
+      153
+     ],
+     "information.": [
+      9
+     ],
+     "Strong": [
+      10
+     ],
+     "evidence": [
+      11
+     ],
+     "has": [
+      12
+     ],
+     "emerged": [
+      13
+     ],
+     "from": [
+      14,
+      37,
+      127
+     ],
+     "cognitive": [
+      15
+     ],
+     "psychology": [
+      16
+     ],
+     "and": [
+      17,
+      43,
+      46,
+      64,
+      70,
+      102,
+      122
+     ],
+     "applied": [
+      18
+     ],
+     "education": [
+      19
+     ],
+     "studies": [
+      20
+     ],
+     "that": [
+      21,
+      61,
+      145
+     ],
+     "repeated": [
+      22,
+      31
+     ],
+     "retrieval": [
+      23,
+      75,
+      94,
+      106,
+      120,
+      131,
+      138
+     ],
+     "information": [
+      25,
+      149
+     ],
+     "significantly": [
+      26
+     ],
+     "improves": [
+      27
+     ],
+     "compared": [
+      29
+     ],
+     "to": [
+      30,
+      85,
+      99,
+      111,
+      118,
+      125,
+      129
+     ],
+     "studying.": [
+      32
+     ],
+     "This": [
+      33
+     ],
+     "effect": [
+      34
+     ],
+     "likely": [
+      35
+     ],
+     "emerges": [
+      36
+     ],
+     "the": [
+      38,
+      49,
+      135,
+      143
+     ],
+     "processes": [
+      39
+     ],
+     "memory": [
+      41
+     ],
+     "consolidation": [
+      42
+     ],
+     "reconsolidation.": [
+      44
+     ],
+     "Consolidation": [
+      45
+     ],
+     "reconsolidation": [
+      47
+     ],
+     "means": [
+      50
+     ],
+     "by": [
+      51
+     ],
+     "which": [
+      52
+     ],
+     "memories": [
+      53,
+      67
+     ],
+     "organized": [
+      55
+     ],
+     "into": [
+      56
+     ],
+     "associational": [
+      57
+     ],
+     "networks": [
+      58
+     ],
+     "or": [
+      59
+     ],
+     "schemas": [
+      60,
+      98,
+      110
+     ],
+     "created": [
+      63
+     ],
+     "recreated": [
+      65
+     ],
+     "as": [
+      66
+     ],
+     "formed": [
+      69
+     ],
+     "recalled.": [
+      71
+     ],
+     "As": [
+      72
+     ],
+     "educators": [
+      73,
+      140
+     ],
+     "implement": [
+      74
+     ],
+     "practice,": [
+      76,
+      139
+     ],
+     "they": [
+      77
+     ],
+     "should": [
+      78
+     ],
+     "consider": [
+      79
+     ],
+     "how": [
+      80
+     ],
+     "various": [
+      81
+     ],
+     "test": [
+      82
+     ],
+     "formats": [
+      83
+     ],
+     "lead": [
+      84,
+      124
+     ],
+     "different": [
+      86
+     ],
+     "degrees": [
+      87
+     ],
+     "schema": [
+      89
+     ],
+     "activation.": [
+      90
+     ],
+     "Repeated": [
+      91
+     ],
+     "acts": [
+      92
+     ],
+     "provide": [
+      95
+     ],
+     "opportunities": [
+      96
+     ],
+     "be": [
+      100,
+      112
+     ],
+     "updated": [
+      101
+     ],
+     "strengthened.": [
+      103
+     ],
+     "Spacing": [
+      104
+     ],
+     "allows": [
+      107
+     ],
+     "more": [
+      108
+     ],
+     "consolidated": [
+      109
+     ],
+     "reactivated.": [
+      113
+     ],
+     "Feedback": [
+      114
+     ],
+     "provides": [
+      115
+     ],
+     "metacognitive": [
+      116
+     ],
+     "monitoring": [
+      117
+     ],
+     "ensure": [
+      119
+     ],
+     "accuracy": [
+      121
+     ],
+     "can": [
+      123,
+      141
+     ],
+     "shifts": [
+      126
+     ],
+     "ineffective": [
+      128
+     ],
+     "effective": [
+      130
+     ],
+     "strategies.": [
+      132
+     ],
+     "By": [
+      133
+     ],
+     "using": [
+      134
+     ],
+     "principles": [
+      136
+     ],
+     "improve": [
+      142
+     ],
+     "likelihood": [
+      144
+     ],
+     "learners": [
+      146
+     ],
+     "will": [
+      147
+     ],
+     "retain": [
+      148
+     ],
+     "longer": [
+      151
+     ],
+     "periods": [
+      152
+     ],
+     "time.": [
+      154
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5052187797",
+       "display_name": "Douglas P. Larsen",
+       "orcid": "https://orcid.org/0000-0003-1392-0626",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-1392-0626"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I204465549",
+        "display_name": "Washington University in St. Louis",
+        "ror": "https://ror.org/01yc7t268",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Douglas Larsen",
+      "raw_affiliation_strings": [
+       "Department of Neurology, Washington University School of Medicine, Washington University in St. Louis, St. Louis, Missouri"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Neurology, Washington University School of Medicine, Washington University in St. Louis, St. Louis, Missouri",
+        "institution_ids": [
+         "https://openalex.org/I204465549"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1055/s-0038-1666983",
+     "doi": "https://doi.org/10.1055/s-0038-1666983",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1055/s-0038-1666983",
+     "pdf_url": "http://www.thieme-connect.de/products/ejournals/pdf/10.1055/s-0038-1666983.pdf",
+     "source": {
+      "id": "https://openalex.org/S144243704",
+      "display_name": "Seminars in Neurology",
+      "issn_l": "0271-8235",
+      "issn": [
+       "0271-8235",
+       "1098-9021"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "doyens",
+       "jufo-1",
+       "medline",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2"
+      ],
+      "host_organization": "https://openalex.org/P4310320000",
+      "host_organization_name": "Thieme Medical Publishers (Germany)",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320000"
+      ],
+      "host_organization_lineage_names": [
+       "Thieme Medical Publishers (Germany)"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Seminars in Neurology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3025913654",
+    "doi": "https://doi.org/10.3758/s13421-020-01041-5",
+    "title": "Reversing the testing effect by feedback is a matter of performance criterion at practice",
+    "display_name": "Reversing the testing effect by feedback is a matter of performance criterion at practice",
+    "publication_year": 2020,
+    "cited_by_count": 20,
+    "abstract_inverted_index": {
+     "Retrieval": [
+      0
+     ],
+     "practice": [
+      1,
+      114,
+      155,
+      170,
+      219
+     ],
+     "is": [
+      2,
+      16,
+      95
+     ],
+     "generally": [
+      3
+     ],
+     "considered": [
+      4
+     ],
+     "to": [
+      5,
+      18,
+      192
+     ],
+     "be": [
+      6,
+      19,
+      64
+     ],
+     "one": [
+      7
+     ],
+     "of": [
+      8,
+      43,
+      60,
+      89,
+      100,
+      110,
+      187,
+      198,
+      214
+     ],
+     "the": [
+      9,
+      40,
+      57,
+      87,
+      92,
+      98,
+      108,
+      193,
+      196,
+      202,
+      207
+     ],
+     "most": [
+      10
+     ],
+     "effective": [
+      11
+     ],
+     "long-term": [
+      12,
+      41,
+      52
+     ],
+     "learning": [
+      13,
+      62,
+      120,
+      227
+     ],
+     "strategies": [
+      14
+     ],
+     "and": [
+      15,
+      69,
+      122,
+      163,
+      176
+     ],
+     "presumed": [
+      17
+     ],
+     "more": [
+      20
+     ],
+     "favorable": [
+      21
+     ],
+     "than": [
+      22
+     ],
+     "repeated": [
+      23,
+      185
+     ],
+     "study.": [
+      24
+     ],
+     "However,": [
+      25
+     ],
+     "a": [
+      26,
+      130,
+      142,
+      171
+     ],
+     "few": [
+      27
+     ],
+     "recent": [
+      28
+     ],
+     "studies": [
+      29,
+      76
+     ],
+     "have": [
+      30,
+      139
+     ],
+     "demonstrated": [
+      31,
+      140
+     ],
+     "that": [
+      32,
+      49,
+      73,
+      141,
+      195
+     ],
+     "repetitive": [
+      33
+     ],
+     "feedback": [
+      34,
+      50,
+      90,
+      126
+     ],
+     "at": [
+      35,
+      51,
+      81,
+      112,
+      134,
+      150
+     ],
+     "final": [
+      36,
+      135
+     ],
+     "recall": [
+      37
+     ],
+     "can": [
+      38,
+      54,
+      220
+     ],
+     "reverse": [
+      39
+     ],
+     "advantage": [
+      42
+     ],
+     "testing": [
+      44,
+      93,
+      145,
+      173,
+      179,
+      208
+     ],
+     "over": [
+      45
+     ],
+     "restudy.": [
+      46
+     ],
+     "The": [
+      47
+     ],
+     "result": [
+      48
+     ],
+     "tests": [
+      53,
+      124,
+      231
+     ],
+     "dramatically": [
+      55
+     ],
+     "decrease": [
+      56
+     ],
+     "relative": [
+      58
+     ],
+     "effectiveness": [
+      59
+     ],
+     "retrieval-based": [
+      61
+     ],
+     "could": [
+      63
+     ],
+     "important": [
+      65
+     ],
+     "for": [
+      66
+     ],
+     "both": [
+      67
+     ],
+     "theoretical": [
+      68
+     ],
+     "practical": [
+      70
+     ],
+     "reasons.": [
+      71
+     ],
+     "Considering": [
+      72
+     ],
+     "these": [
+      74
+     ],
+     "earlier": [
+      75,
+      211
+     ],
+     "administered": [
+      77
+     ],
+     "low": [
+      78,
+      151
+     ],
+     "retrieval": [
+      79,
+      82,
+      101,
+      113,
+      152,
+      165,
+      199,
+      216
+     ],
+     "success": [
+      80,
+      102,
+      111,
+      153,
+      166,
+      200,
+      217
+     ],
+     "practice,": [
+      83
+     ],
+     "we": [
+      84
+     ],
+     "investigated": [
+      85
+     ],
+     "whether": [
+      86
+     ],
+     "effect": [
+      88,
+      94,
+      146,
+      174,
+      180,
+      209
+     ],
+     "on": [
+      91
+     ],
+     "modulated": [
+      96
+     ],
+     "by": [
+      97,
+      117
+     ],
+     "level": [
+      99,
+      109,
+      197
+     ],
+     "during": [
+      103,
+      154,
+      169,
+      218
+     ],
+     "practice.": [
+      104
+     ],
+     "In": [
+      105
+     ],
+     "three": [
+      106
+     ],
+     "experiments": [
+      107
+     ],
+     "was": [
+      115,
+      147,
+      181,
+      201
+     ],
+     "manipulated": [
+      116
+     ],
+     "multiple": [
+      118,
+      123,
+      230
+     ],
+     "pre-practice": [
+      119
+     ],
+     "trials,": [
+      121
+     ],
+     "with": [
+      125,
+      159,
+      232
+     ],
+     "were": [
+      127
+     ],
+     "applied": [
+      128
+     ],
+     "after": [
+      129,
+      184
+     ],
+     "1-week": [
+      131
+     ],
+     "retention": [
+      132
+     ],
+     "interval": [
+      133
+     ],
+     "recall.": [
+      136
+     ],
+     "Our": [
+      137
+     ],
+     "results": [
+      138,
+      190
+     ],
+     "feedback-induced": [
+      143
+     ],
+     "reversed": [
+      144,
+      178
+     ],
+     "present": [
+      148
+     ],
+     "only": [
+      149
+     ],
+     "(Experiment": [
+      156,
+      161,
+      167
+     ],
+     "1),": [
+      157
+     ],
+     "whereas": [
+      158
+     ],
+     "moderate": [
+      160
+     ],
+     "2)": [
+      162
+     ],
+     "high": [
+      164,
+      215
+     ],
+     "3)": [
+      168
+     ],
+     "significant": [
+      172
+     ],
+     "emerged": [
+      175
+     ],
+     "no": [
+      177
+     ],
+     "found": [
+      182
+     ],
+     "even": [
+      183,
+      225
+     ],
+     "cycles": [
+      186
+     ],
+     "feedback.": [
+      188,
+      233
+     ],
+     "These": [
+      189
+     ],
+     "point": [
+      191
+     ],
+     "conclusion": [
+      194
+     ],
+     "key": [
+      203
+     ],
+     "factor": [
+      204
+     ],
+     "in": [
+      205,
+      210,
+      226
+     ],
+     "reversing": [
+      206
+     ],
+     "studies.": [
+      212
+     ],
+     "Application": [
+      213
+     ],
+     "produce": [
+      221
+     ],
+     "long-lasting": [
+      222
+     ],
+     "accessible": [
+      223
+     ],
+     "memories": [
+      224
+     ],
+     "settings": [
+      228
+     ],
+     "applying": [
+      229
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5061921478",
+       "display_name": "Mih\u00e1ly Racsm\u00e1ny",
+       "orcid": "https://orcid.org/0009-0006-6591-7233",
+       "observed_orcids": [
+        "https://orcid.org/0009-0006-6591-7233"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I29770179",
+        "display_name": "Budapest University of Technology and Economics",
+        "ror": "https://ror.org/02w42ss30",
+        "country_code": "HU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I29770179"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210138738",
+        "display_name": "Institute of Cognitive Neuroscience and Psychology",
+        "ror": "https://ror.org/04q42nz13",
+        "country_code": "HU",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I4210138738",
+         "https://openalex.org/I4387152226",
+         "https://openalex.org/I80251312"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I80251312",
+        "display_name": "HUN-REN Research Centre for Natural Sciences",
+        "ror": "https://ror.org/03zwxja46",
+        "country_code": "HU",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I4387152226",
+         "https://openalex.org/I80251312"
+        ]
+       }
+      ],
+      "countries": [
+       "HU"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Mih\u00e1ly Racsm\u00e1ny",
+      "raw_affiliation_strings": [
+       "Department of Cognitive Science, Budapest University of Technology and Economics, Egry J\u00f3zsef utca 1, Budapest, 1111, Hungary. racsmany@cogsci.bme.hu",
+       "Institute of Cognitive Neuroscience and Psychology, Research Centre for Natural Sciences, Budapest, Hungary. racsmany@cogsci.bme.hu",
+       "Department of Cognitive Science, Budapest University of Technology and Economics, Egry J\u00f3zsef utca 1, Budapest, 1111, Hungary"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Cognitive Science, Budapest University of Technology and Economics, Egry J\u00f3zsef utca 1, Budapest, 1111, Hungary. racsmany@cogsci.bme.hu",
+        "institution_ids": [
+         "https://openalex.org/I29770179"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Institute of Cognitive Neuroscience and Psychology, Research Centre for Natural Sciences, Budapest, Hungary. racsmany@cogsci.bme.hu",
+        "institution_ids": [
+         "https://openalex.org/I4210138738",
+         "https://openalex.org/I80251312"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Cognitive Science, Budapest University of Technology and Economics, Egry J\u00f3zsef utca 1, Budapest, 1111, Hungary",
+        "institution_ids": [
+         "https://openalex.org/I29770179"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5103816717",
+       "display_name": "\u00c1gnes Sz\u00f6ll\u0151si",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I29770179",
+        "display_name": "Budapest University of Technology and Economics",
+        "ror": "https://ror.org/02w42ss30",
+        "country_code": "HU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I29770179"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I4210138738",
+        "display_name": "Institute of Cognitive Neuroscience and Psychology",
+        "ror": "https://ror.org/04q42nz13",
+        "country_code": "HU",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I4210138738",
+         "https://openalex.org/I4387152226",
+         "https://openalex.org/I80251312"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I80251312",
+        "display_name": "HUN-REN Research Centre for Natural Sciences",
+        "ror": "https://ror.org/03zwxja46",
+        "country_code": "HU",
+        "type": "facility",
+        "lineage": [
+         "https://openalex.org/I4387152226",
+         "https://openalex.org/I80251312"
+        ]
+       }
+      ],
+      "countries": [
+       "HU"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "\u00c1gnes Sz\u0151ll\u0151si",
+      "raw_affiliation_strings": [
+       "Department of Cognitive Science, Budapest University of Technology and Economics, Egry J\u00f3zsef utca 1, Budapest, 1111, Hungary",
+       "Institute of Cognitive Neuroscience and Psychology, Research Centre for Natural Sciences, Budapest, Hungary"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Cognitive Science, Budapest University of Technology and Economics, Egry J\u00f3zsef utca 1, Budapest, 1111, Hungary",
+        "institution_ids": [
+         "https://openalex.org/I29770179"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Institute of Cognitive Neuroscience and Psychology, Research Centre for Natural Sciences, Budapest, Hungary",
+        "institution_ids": [
+         "https://openalex.org/I4210138738",
+         "https://openalex.org/I80251312"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5044279120",
+       "display_name": "Mikl\u00f3s Mari\u00e1n",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I29770179",
+        "display_name": "Budapest University of Technology and Economics",
+        "ror": "https://ror.org/02w42ss30",
+        "country_code": "HU",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I29770179"
+        ]
+       }
+      ],
+      "countries": [
+       "HU"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Mikl\u00f3s Mari\u00e1n",
+      "raw_affiliation_strings": [
+       "Department of Cognitive Science, Budapest University of Technology and Economics, Egry J\u00f3zsef utca 1, Budapest, 1111, Hungary"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Cognitive Science, Budapest University of Technology and Economics, Egry J\u00f3zsef utca 1, Budapest, 1111, Hungary",
+        "institution_ids": [
+         "https://openalex.org/I29770179"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3758/s13421-020-01041-5",
+     "doi": "https://doi.org/10.3758/s13421-020-01041-5",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3758/s13421-020-01041-5",
+     "pdf_url": "https://link.springer.com/content/pdf/10.3758/s13421-020-01041-5.pdf",
+     "source": {
+      "id": "https://openalex.org/S114265899",
+      "display_name": "Memory & Cognition",
+      "issn_l": "0090-502X",
+      "issn": [
+       "0090-502X",
+       "1532-5946"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "dongbi-d",
+       "erih-plus",
+       "jufo-2",
+       "medline",
+       "norway-1",
+       "poland-140",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319900",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer Science+Business Media",
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Memory &amp; Cognition",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2965809810",
+    "doi": "https://doi.org/10.3389/fpsyg.2019.01863",
+    "title": "Feedback at Test Can Reverse the Retrieval-Effort Effect",
+    "display_name": "Feedback at Test Can Reverse the Retrieval-Effort Effect",
+    "publication_year": 2019,
+    "cited_by_count": 10,
+    "abstract_inverted_index": {
+     "The": [
+      0,
+      55
+     ],
+     "testing": [
+      1,
+      44
+     ],
+     "effect": [
+      2
+     ],
+     "refers": [
+      3
+     ],
+     "to": [
+      4,
+      48,
+      62
+     ],
+     "the": [
+      5,
+      43,
+      58,
+      73
+     ],
+     "finding": [
+      6
+     ],
+     "that": [
+      7,
+      25,
+      33,
+      86
+     ],
+     "retrieving": [
+      8
+     ],
+     "previously": [
+      9
+     ],
+     "encoded": [
+      10
+     ],
+     "material": [
+      11
+     ],
+     "typically": [
+      12
+     ],
+     "improves": [
+      13
+     ],
+     "subsequent": [
+      14,
+      53
+     ],
+     "recall": [
+      15,
+      92,
+      130
+     ],
+     "performance": [
+      16
+     ],
+     "more": [
+      17
+     ],
+     "on": [
+      18,
+      38,
+      52,
+      87,
+      108
+     ],
+     "a": [
+      19,
+      40,
+      49,
+      67,
+      121
+     ],
+     "later": [
+      20,
+      41
+     ],
+     "test": [
+      21,
+      42,
+      112,
+      128
+     ],
+     "than": [
+      22,
+      100
+     ],
+     "does": [
+      23
+     ],
+     "restudying": [
+      24,
+      50
+     ],
+     "material.": [
+      26
+     ],
+     "Storm": [
+      27
+     ],
+     "et": [
+      28
+     ],
+     "al.": [
+      29
+     ],
+     "(2014)": [
+      30
+     ],
+     "demonstrated,": [
+      31
+     ],
+     "however,": [
+      32,
+      104
+     ],
+     "when": [
+      34,
+      72
+     ],
+     "feedback": [
+      35,
+      71,
+      107,
+      126
+     ],
+     "is": [
+      36,
+      66,
+      79
+     ],
+     "provided": [
+      37
+     ],
+     "such": [
+      39
+     ],
+     "advantage": [
+      45,
+      51
+     ],
+     "then": [
+      46
+     ],
+     "turns": [
+      47
+     ],
+     "tests.": [
+      54
+     ],
+     "goal": [
+      56
+     ],
+     "of": [
+      57,
+      70,
+      75,
+      93,
+      124
+     ],
+     "present": [
+      59
+     ],
+     "research": [
+      60
+     ],
+     "was": [
+      61,
+      96
+     ],
+     "examine": [
+      63
+     ],
+     "whether": [
+      64
+     ],
+     "there": [
+      65
+     ],
+     "similar": [
+      68
+     ],
+     "consequence": [
+      69
+     ],
+     "difficulty": [
+      74
+     ],
+     "initial": [
+      76,
+      89,
+      110
+     ],
+     "retrieval": [
+      77
+     ],
+     "practice": [
+      78
+     ],
+     "modulated.": [
+      80
+     ],
+     "Replicating": [
+      81
+     ],
+     "prior": [
+      82
+     ],
+     "research,": [
+      83
+     ],
+     "we": [
+      84
+     ],
+     "found": [
+      85
+     ],
+     "an": [
+      88,
+      109
+     ],
+     "delayed": [
+      90,
+      111
+     ],
+     "test,": [
+      91
+     ],
+     "to-be-learned": [
+      94
+     ],
+     "items": [
+      95
+     ],
+     "better": [
+      97
+     ],
+     "following": [
+      98
+     ],
+     "difficult": [
+      99
+     ],
+     "easy": [
+      101
+     ],
+     "practice.": [
+      102
+     ],
+     "Critically,": [
+      103
+     ],
+     "providing": [
+      105
+     ],
+     "immediate": [
+      106
+     ],
+     "reversed": [
+      113
+     ],
+     "this": [
+      114
+     ],
+     "pattern.": [
+      115
+     ],
+     "Our": [
+      116
+     ],
+     "findings": [
+      117
+     ],
+     "are": [
+      118
+     ],
+     "consistent": [
+      119
+     ],
+     "with": [
+      120
+     ],
+     "distribution-based": [
+      122
+     ],
+     "interpretation": [
+      123
+     ],
+     "how": [
+      125
+     ],
+     "at": [
+      127
+     ],
+     "modifies": [
+      129
+     ],
+     "performance.": [
+      131
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5037579310",
+       "display_name": "Oliver Kliegl",
+       "orcid": "https://orcid.org/0000-0001-7730-4019",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-7730-4019"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I161318765",
+        "display_name": "University of California, Los Angeles",
+        "ror": "https://ror.org/046rm7j60",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I161318765"
+        ]
+       },
+       {
+        "id": "https://openalex.org/I60668342",
+        "display_name": "University of Regensburg",
+        "ror": "https://ror.org/01eezs655",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I60668342"
+        ]
+       }
+      ],
+      "countries": [
+       "DE",
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Oliver Kliegl",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of California, Los Angeles, Los Angeles, CA, United States",
+       "Institute of Psychology, Universit\u00e4t Regensburg, Regensburg, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California, Los Angeles, Los Angeles, CA, United States",
+        "institution_ids": [
+         "https://openalex.org/I161318765"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Institute of Psychology, Universit\u00e4t Regensburg, Regensburg, Germany",
+        "institution_ids": [
+         "https://openalex.org/I60668342"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5058843551",
+       "display_name": "Robert A. Bjork",
+       "orcid": "https://orcid.org/0000-0001-5621-5711",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5621-5711"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I161318765",
+        "display_name": "University of California, Los Angeles",
+        "ror": "https://ror.org/046rm7j60",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I161318765"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Robert A. Bjork",
+      "raw_affiliation_strings": [
+       "Department of Psychology, University of California, Los Angeles, Los Angeles, CA, United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, University of California, Los Angeles, Los Angeles, CA, United States",
+        "institution_ids": [
+         "https://openalex.org/I161318765"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5025406618",
+       "display_name": "Karl\u2010Heinz T. B\u00e4uml",
+       "orcid": "https://orcid.org/0000-0002-4966-9288",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4966-9288"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I60668342",
+        "display_name": "University of Regensburg",
+        "ror": "https://ror.org/01eezs655",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I60668342"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Karl-Heinz T. B\u00e4uml",
+      "raw_affiliation_strings": [
+       "Institute of Psychology, Universit\u00e4t Regensburg, Regensburg, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Institute of Psychology, Universit\u00e4t Regensburg, Regensburg, Germany",
+        "institution_ids": [
+         "https://openalex.org/I60668342"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2019.01863",
+     "doi": "https://doi.org/10.3389/fpsyg.2019.01863",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2019.01863",
+     "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2019.01863/pdf",
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4212899889",
+    "doi": "https://doi.org/10.1177/00986283211061204",
+    "title": "The Testing Effect in University Teaching: Using Multiple-Choice Testing to Promote Retention of Highly Retrievable Information",
+    "display_name": "The Testing Effect in University Teaching: Using Multiple-Choice Testing to Promote Retention of Highly Retrievable Information",
+    "publication_year": 2022,
+    "cited_by_count": 20,
+    "abstract_inverted_index": {
+     "Background": [
+      0
+     ],
+     "Retrieval": [
+      1
+     ],
+     "practice": [
+      2
+     ],
+     "promotes": [
+      3
+     ],
+     "retention": [
+      4
+     ],
+     "of": [
+      5,
+      15,
+      27,
+      55,
+      70,
+      79,
+      120
+     ],
+     "learned": [
+      6
+     ],
+     "information": [
+      7,
+      151
+     ],
+     "more": [
+      8
+     ],
+     "than": [
+      9
+     ],
+     "restudying": [
+      10,
+      19
+     ],
+     "the": [
+      11,
+      25,
+      53,
+      68,
+      128
+     ],
+     "information.": [
+      12,
+      177
+     ],
+     "However,": [
+      13,
+      164
+     ],
+     "benefits": [
+      14,
+      54
+     ],
+     "multiple-choice": [
+      16,
+      56,
+      90,
+      171,
+      185
+     ],
+     "testing": [
+      17,
+      144,
+      186
+     ],
+     "over": [
+      18
+     ],
+     "in": [
+      20,
+      74,
+      107,
+      140,
+      187,
+      191
+     ],
+     "real-world": [
+      21
+     ],
+     "educational": [
+      22,
+      77
+     ],
+     "contexts": [
+      23
+     ],
+     "and": [
+      24,
+      34,
+      72,
+      96,
+      104
+     ],
+     "role": [
+      26,
+      69
+     ],
+     "practically": [
+      28
+     ],
+     "relevant": [
+      29
+     ],
+     "moderators": [
+      30
+     ],
+     "such": [
+      31
+     ],
+     "as": [
+      32
+     ],
+     "feedback": [
+      33,
+      71,
+      106,
+      117
+     ],
+     "learners\u2019": [
+      35
+     ],
+     "ability": [
+      36
+     ],
+     "to": [
+      37,
+      100,
+      136,
+      196
+     ],
+     "retrieve": [
+      38,
+      156
+     ],
+     "tested": [
+      39
+     ],
+     "content": [
+      40,
+      95,
+      103
+     ],
+     "from": [
+      41,
+      157,
+      170
+     ],
+     "memory": [
+      42
+     ],
+     "(i.e.,": [
+      43
+     ],
+     "retrievability)": [
+      44
+     ],
+     "are": [
+      45,
+      194
+     ],
+     "still": [
+      46
+     ],
+     "underexplored.": [
+      47
+     ],
+     "Objective": [
+      48
+     ],
+     "The": [
+      49
+     ],
+     "present": [
+      50
+     ],
+     "research": [
+      51
+     ],
+     "examines": [
+      52
+     ],
+     "questions": [
+      57,
+      91,
+      148,
+      172
+     ],
+     "with": [
+      58
+     ],
+     "an": [
+      59,
+      75
+     ],
+     "experimental": [
+      60
+     ],
+     "design": [
+      61
+     ],
+     "that": [
+      62,
+      149,
+      152,
+      173
+     ],
+     "maximizes": [
+      63
+     ],
+     "internal": [
+      64
+     ],
+     "validity,": [
+      65
+     ],
+     "while": [
+      66
+     ],
+     "investigating": [
+      67
+     ],
+     "retrievability": [
+      73
+     ],
+     "authentic": [
+      76
+     ],
+     "setting": [
+      78
+     ],
+     "a": [
+      80,
+      108,
+      143
+     ],
+     "university": [
+      81
+     ],
+     "psychology": [
+      82
+     ],
+     "course.": [
+      83
+     ],
+     "Method": [
+      84
+     ],
+     "After": [
+      85
+     ],
+     "course": [
+      86,
+      94,
+      125
+     ],
+     "sessions,": [
+      87
+     ],
+     "students": [
+      88,
+      193
+     ],
+     "answered": [
+      89
+     ],
+     "or": [
+      92
+     ],
+     "restudied": [
+      93
+     ],
+     "afterward": [
+      97
+     ],
+     "could": [
+      98,
+      154
+     ],
+     "choose": [
+      99
+     ],
+     "revisit": [
+      101
+     ],
+     "learning": [
+      102,
+      189
+     ],
+     "obtain": [
+      105,
+      198
+     ],
+     "self-regulated": [
+      109,
+      188
+     ],
+     "way.": [
+      110
+     ],
+     "Results": [
+      111
+     ],
+     "Participants": [
+      112
+     ],
+     "on": [
+      113
+     ],
+     "average": [
+      114
+     ],
+     "obtained": [
+      115
+     ],
+     "corrective": [
+      116
+     ],
+     "for": [
+      118,
+      147
+     ],
+     "9%": [
+      119
+     ],
+     "practiced": [
+      121
+     ],
+     "items": [
+      122
+     ],
+     "when": [
+      123,
+      183
+     ],
+     "practicing": [
+      124,
+      131
+     ],
+     "content.": [
+      126
+     ],
+     "In": [
+      127
+     ],
+     "criterial": [
+      129
+     ],
+     "test,": [
+      130
+     ],
+     "retrieval": [
+      132
+     ],
+     "was": [
+      133,
+      161
+     ],
+     "not": [
+      134
+     ],
+     "superior": [
+      135
+     ],
+     "reading": [
+      137
+     ],
+     "summarizing": [
+      138
+     ],
+     "statements": [
+      139
+     ],
+     "general": [
+      141
+     ],
+     "but": [
+      142
+     ],
+     "effect": [
+      145
+     ],
+     "emerged": [
+      146
+     ],
+     "targeted": [
+      150,
+      174
+     ],
+     "participants": [
+      153,
+      168
+     ],
+     "easily": [
+      155,
+      175
+     ],
+     "memory.": [
+      158
+     ],
+     "Conclusion": [
+      159
+     ],
+     "Feedback": [
+      160
+     ],
+     "rarely": [
+      162
+     ],
+     "sought.": [
+      163
+     ],
+     "even": [
+      165
+     ],
+     "without": [
+      166
+     ],
+     "feedback,": [
+      167
+     ],
+     "profited": [
+      169
+     ],
+     "retrievable": [
+      176
+     ],
+     "Teaching": [
+      178
+     ],
+     "Implications": [
+      179
+     ],
+     "Caution": [
+      180
+     ],
+     "is": [
+      181
+     ],
+     "advised": [
+      182
+     ],
+     "employing": [
+      184
+     ],
+     "environments": [
+      190
+     ],
+     "which": [
+      192
+     ],
+     "required": [
+      195
+     ],
+     "actively": [
+      197
+     ],
+     "feedback.": [
+      199
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5064071161",
+       "display_name": "Sven Greving",
+       "orcid": "https://orcid.org/0000-0002-5072-6307",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5072-6307"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I25974101",
+        "display_name": "University of W\u00fcrzburg",
+        "ror": "https://ror.org/00fbnyb24",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I25974101"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Sven Greving",
+      "raw_affiliation_strings": [
+       "University of W\u00fcrzburg, W\u00fcrzburg, Germany"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-5072-6307",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of W\u00fcrzburg, W\u00fcrzburg, Germany",
+        "institution_ids": [
+         "https://openalex.org/I25974101"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5018320281",
+       "display_name": "Wolfgang Lenhard",
+       "orcid": "https://orcid.org/0000-0002-8184-6889",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-8184-6889"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I25974101",
+        "display_name": "University of W\u00fcrzburg",
+        "ror": "https://ror.org/00fbnyb24",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I25974101"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Wolfgang Lenhard",
+      "raw_affiliation_strings": [
+       "University of W\u00fcrzburg, W\u00fcrzburg, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of W\u00fcrzburg, W\u00fcrzburg, Germany",
+        "institution_ids": [
+         "https://openalex.org/I25974101"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5026637064",
+       "display_name": "Tobias Richter",
+       "orcid": "https://orcid.org/0000-0002-0467-9044",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0467-9044"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I25974101",
+        "display_name": "University of W\u00fcrzburg",
+        "ror": "https://ror.org/00fbnyb24",
+        "country_code": "DE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I25974101"
+        ]
+       }
+      ],
+      "countries": [
+       "DE"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Tobias Richter",
+      "raw_affiliation_strings": [
+       "University of W\u00fcrzburg, W\u00fcrzburg, Germany"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "University of W\u00fcrzburg, W\u00fcrzburg, Germany",
+        "institution_ids": [
+         "https://openalex.org/I25974101"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1177/00986283211061204",
+     "doi": "https://doi.org/10.1177/00986283211061204",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1177/00986283211061204",
+     "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/00986283211061204",
+     "source": {
+      "id": "https://openalex.org/S51499954",
+      "display_name": "Teaching of Psychology",
+      "issn_l": "0098-6283",
+      "issn": [
+       "0098-6283",
+       "1532-8023"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "dongbi-c",
+       "erih-plus",
+       "jufo-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320017",
+      "host_organization_name": "SAGE Publishing",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320017"
+      ],
+      "host_organization_lineage_names": [
+       "SAGE Publishing"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by-nc",
+     "license_id": "https://openalex.org/licenses/cc-by-nc",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Teaching of Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W2913221302",
+    "doi": "https://doi.org/10.3389/feduc.2019.00005",
+    "title": "Retrieval Practice in Classroom Settings: A Review of Applied Research",
+    "display_name": "Retrieval Practice in Classroom Settings: A Review of Applied Research",
+    "publication_year": 2019,
+    "cited_by_count": 120,
+    "abstract_inverted_index": {
+     "Tests": [
+      0
+     ],
+     "have": [
+      1,
+      20
+     ],
+     "been": [
+      2
+     ],
+     "vastly": [
+      3
+     ],
+     "used": [
+      4
+     ],
+     "for": [
+      5,
+      36,
+      183
+     ],
+     "the": [
+      6,
+      23,
+      88,
+      127,
+      145,
+      148,
+      163,
+      188
+     ],
+     "assessment": [
+      7
+     ],
+     "of": [
+      8,
+      18,
+      25,
+      74,
+      90,
+      129,
+      136,
+      147,
+      162,
+      178
+     ],
+     "learning": [
+      9,
+      62,
+      95,
+      198,
+      201,
+      225,
+      247
+     ],
+     "in": [
+      10,
+      63,
+      69,
+      97,
+      132,
+      207,
+      226,
+      251
+     ],
+     "educational": [
+      11,
+      65,
+      99
+     ],
+     "contexts.": [
+      12,
+      100
+     ],
+     "Recently,": [
+      13
+     ],
+     "however,": [
+      14,
+      53,
+      144
+     ],
+     "a": [
+      15,
+      44,
+      94,
+      176,
+      220
+     ],
+     "growing": [
+      16
+     ],
+     "body": [
+      17
+     ],
+     "research": [
+      19
+     ],
+     "shown": [
+      21
+     ],
+     "that": [
+      22,
+      41,
+      86
+     ],
+     "practice": [
+      24,
+      56,
+      92,
+      131,
+      153,
+      167,
+      192,
+      217
+     ],
+     "remembering": [
+      26
+     ],
+     "previously": [
+      27
+     ],
+     "studied": [
+      28
+     ],
+     "information": [
+      29
+     ],
+     "(i.e.,": [
+      30
+     ],
+     "retrieval": [
+      31,
+      91,
+      130,
+      152,
+      166,
+      191,
+      216
+     ],
+     "practice)": [
+      32
+     ],
+     "is": [
+      33,
+      139,
+      193,
+      230,
+      242
+     ],
+     "more": [
+      34,
+      194
+     ],
+     "advantageous": [
+      35
+     ],
+     "long-term": [
+      37
+     ],
+     "retention": [
+      38
+     ],
+     "than": [
+      39,
+      196
+     ],
+     "restudying": [
+      40
+     ],
+     "same": [
+      42
+     ],
+     "information;": [
+      43
+     ],
+     "phenomenon": [
+      45
+     ],
+     "often": [
+      46
+     ],
+     "termed": [
+      47
+     ],
+     "\u201ctesting": [
+      48
+     ],
+     "effect\u201d.": [
+      49
+     ],
+     "The": [
+      50,
+      101,
+      160
+     ],
+     "question": [
+      51,
+      189
+     ],
+     "remains,": [
+      52
+     ],
+     "whether": [
+      54,
+      68,
+      137,
+      190,
+      240
+     ],
+     "such": [
+      55
+     ],
+     "can": [
+      57
+     ],
+     "be": [
+      58
+     ],
+     "useful": [
+      59
+     ],
+     "to": [
+      60,
+      107,
+      116,
+      126,
+      154,
+      158,
+      168,
+      223,
+      238
+     ],
+     "improve": [
+      61,
+      224
+     ],
+     "actual": [
+      64,
+      98
+     ],
+     "contexts,": [
+      66
+     ],
+     "and": [
+      67,
+      110,
+      175,
+      203
+     ],
+     "these": [
+      70,
+      81
+     ],
+     "contexts": [
+      71
+     ],
+     "specific": [
+      72
+     ],
+     "types": [
+      73
+     ],
+     "tests": [
+      75
+     ],
+     "are": [
+      76,
+      124
+     ],
+     "particularly": [
+      77
+     ],
+     "beneficial.": [
+      78
+     ],
+     "We": [
+      79
+     ],
+     "address": [
+      80
+     ],
+     "issues": [
+      82
+     ],
+     "by": [
+      83
+     ],
+     "reviewing": [
+      84
+     ],
+     "studies": [
+      85,
+      103,
+      150,
+      164
+     ],
+     "investigated": [
+      87
+     ],
+     "use": [
+      89,
+      128
+     ],
+     "as": [
+      93,
+      219,
+      243,
+      245
+     ],
+     "strategy": [
+      96,
+      222
+     ],
+     "reviewed": [
+      102,
+      149
+     ],
+     "adopted": [
+      104,
+      206,
+      250
+     ],
+     "from": [
+      105,
+      112
+     ],
+     "free-recall": [
+      106
+     ],
+     "multiple-choice": [
+      108
+     ],
+     "tests,": [
+      109
+     ],
+     "involved": [
+      111
+     ],
+     "elementary": [
+      113
+     ],
+     "school": [
+      114,
+      118
+     ],
+     "children": [
+      115
+     ],
+     "medical": [
+      117
+     ],
+     "students.": [
+      119
+     ],
+     "In": [
+      120
+     ],
+     "general,": [
+      121
+     ],
+     "their": [
+      122
+     ],
+     "results": [
+      123,
+      161
+     ],
+     "favorable": [
+      125
+     ],
+     "classroom": [
+      133,
+      208,
+      227,
+      252
+     ],
+     "settings,": [
+      134
+     ],
+     "regardless": [
+      135
+     ],
+     "feedback": [
+      138
+     ],
+     "provided": [
+      140
+     ],
+     "or": [
+      141,
+      157
+     ],
+     "not.": [
+      142
+     ],
+     "Importantly,": [
+      143
+     ],
+     "majority": [
+      146
+     ],
+     "compared": [
+      151
+     ],
+     "repeated": [
+      155
+     ],
+     "study": [
+      156
+     ],
+     "\u201cno-activity\u201d.": [
+      159
+     ],
+     "comparing": [
+      165
+     ],
+     "alternative": [
+      169,
+      197,
+      246
+     ],
+     "control": [
+      170
+     ],
+     "conditions": [
+      171
+     ],
+     "were": [
+      172
+     ],
+     "less": [
+      173
+     ],
+     "conclusive,": [
+      174
+     ],
+     "subset": [
+      177
+     ],
+     "them": [
+      179
+     ],
+     "found": [
+      180
+     ],
+     "no": [
+      181
+     ],
+     "advantage": [
+      182
+     ],
+     "tests.": [
+      184
+     ],
+     "These": [
+      185
+     ],
+     "findings": [
+      186
+     ],
+     "raise": [
+      187
+     ],
+     "beneficial": [
+      195,
+      244
+     ],
+     "strategies,": [
+      199
+     ],
+     "especially": [
+      200
+     ],
+     "strategies": [
+      202
+     ],
+     "activities": [
+      204,
+      248
+     ],
+     "already": [
+      205
+     ],
+     "settings": [
+      209
+     ],
+     "(e.g.,": [
+      210
+     ],
+     "concept": [
+      211
+     ],
+     "mapping).": [
+      212
+     ],
+     "Thus,": [
+      213
+     ],
+     "even": [
+      214
+     ],
+     "though": [
+      215
+     ],
+     "emerges": [
+      218
+     ],
+     "promising": [
+      221
+     ],
+     "environments,": [
+      228
+     ],
+     "there": [
+      229
+     ],
+     "not": [
+      231
+     ],
+     "enough": [
+      232
+     ],
+     "evidence": [
+      233
+     ],
+     "available": [
+      234
+     ],
+     "at": [
+      235
+     ],
+     "this": [
+      236
+     ],
+     "moment": [
+      237
+     ],
+     "determine": [
+      239
+     ],
+     "it": [
+      241
+     ],
+     "frequently": [
+      249
+     ],
+     "settings.": [
+      253
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5047968859",
+       "display_name": "Bruna Fernanda Tolentino Moreira",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I110200422",
+        "display_name": "Universidade Federal de Minas Gerais",
+        "ror": "https://ror.org/0176yjw32",
+        "country_code": "BR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I110200422"
+        ]
+       }
+      ],
+      "countries": [
+       "BR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Bruna Fernanda Tolentino Moreira",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Universidade Federal de Minas Gerais, Belo Horizonte, Brazil"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Universidade Federal de Minas Gerais, Belo Horizonte, Brazil",
+        "institution_ids": [
+         "https://openalex.org/I110200422"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5013271124",
+       "display_name": "Tatiana Salazar Silva Pinto",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I110200422",
+        "display_name": "Universidade Federal de Minas Gerais",
+        "ror": "https://ror.org/0176yjw32",
+        "country_code": "BR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I110200422"
+        ]
+       }
+      ],
+      "countries": [
+       "BR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Tatiana Salazar Silva Pinto",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Universidade Federal de Minas Gerais, Belo Horizonte, Brazil"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Universidade Federal de Minas Gerais, Belo Horizonte, Brazil",
+        "institution_ids": [
+         "https://openalex.org/I110200422"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5063770521",
+       "display_name": "Daniela Siqueira Veloso Starling",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I110200422",
+        "display_name": "Universidade Federal de Minas Gerais",
+        "ror": "https://ror.org/0176yjw32",
+        "country_code": "BR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I110200422"
+        ]
+       }
+      ],
+      "countries": [
+       "BR"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Daniela Siqueira Veloso Starling",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Universidade Federal de Minas Gerais, Belo Horizonte, Brazil"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Universidade Federal de Minas Gerais, Belo Horizonte, Brazil",
+        "institution_ids": [
+         "https://openalex.org/I110200422"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5067353796",
+       "display_name": "Ant\u00f4nio Jaeger",
+       "orcid": "https://orcid.org/0000-0001-5093-6198",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5093-6198"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I110200422",
+        "display_name": "Universidade Federal de Minas Gerais",
+        "ror": "https://ror.org/0176yjw32",
+        "country_code": "BR",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I110200422"
+        ]
+       }
+      ],
+      "countries": [
+       "BR"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Ant\u00f4nio Jaeger",
+      "raw_affiliation_strings": [
+       "Department of Psychology, Universidade Federal de Minas Gerais, Belo Horizonte, Brazil"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Psychology, Universidade Federal de Minas Gerais, Belo Horizonte, Brazil",
+        "institution_ids": [
+         "https://openalex.org/I110200422"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/feduc.2019.00005",
+     "doi": "https://doi.org/10.3389/feduc.2019.00005",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/feduc.2019.00005",
+     "pdf_url": "https://www.frontiersin.org/articles/10.3389/feduc.2019.00005/pdf",
+     "source": {
+      "id": "https://openalex.org/S2596526815",
+      "display_name": "Frontiers in Education",
+      "issn_l": "2504-284X",
+      "issn": [
+       "2504-284X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "norway-1",
+       "poland-20",
+       "russia-white-list-2",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Education",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a2020c-a773-7e87-96f5-1dfd34e0ec37",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330713,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 explicitly states that the growth mindset intervention increased overall enrolment to advanced mathematics courses.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 292,
+  "completion_tokens": 39,
+  "total_tokens": 331,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.2
+}

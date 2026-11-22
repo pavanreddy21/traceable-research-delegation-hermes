@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a2020a-d2af-75ce-99e1-39017ccba32e",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795330593,
+ "model": "deepseek/deepseek-v4-pro-0813",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"not_supported\", \"passage\": 1, \"reason\": \"The source states that immediate post-test performance showed no significant differences across conditions, directly contradicting the claim that pen users scored significantly higher.\"}",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 306,
+  "completion_tokens": 49,
+  "total_tokens": 355,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.19
+}

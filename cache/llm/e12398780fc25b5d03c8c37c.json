@@ -1,0 +1,32 @@
+{
+ "id": "resp_01a201f6-7822-7739-b639-8930381ff2a7",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795329259,
+ "model": "google/gemma-4-12B-it",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "```json\n{\"verdict\": \"not_supported\", \"passage\": \"[1]\", \"reason\": \"The source states that the beneficial effects were greater in participants with lower cognitive performance at pre-test, which contradicts the claim that it benefited only those with high performance.\"}\n```",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 340,
+  "completion_tokens": 59,
+  "total_tokens": 399,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 13.23
+}

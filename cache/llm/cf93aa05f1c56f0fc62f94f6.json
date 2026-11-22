@@ -1,0 +1,33 @@
+{
+ "id": "resp_01a201d9-d379-759a-b66c-c0b232928971",
+ "object": "chat.completion",
+ "status": "completed",
+ "created": 1795327382,
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"verdict\": \"supported\", \"passage\": 1, \"reason\": \"Passage 1 states it is not advisable for schools, districts, or governments to allocate significant time or resources to growth mindset interventions because anticipated outcomes are likely null or very modest.\"}",
+    "reasoning_content": "We need answer JSON only. Need evaluate claim vs passages. Claim: \"The review concludes schools and governments should not allocate significant resources to growth mindset interventions because expected outcomes are likely null or very modest.\"\n\nPassage [1] exactly: \"It is therefore not advisable for schools, school districts or governments to allocate significant time or resources to the implementation of growth mindset interventions for school\u2010age students, as the anticipated outcomes are likely to be either null or very modest.\" This matches claim. Need verdict supported, passage 1, reason one sentence. JSON only. Ensure valid JSON.",
+    "refusal": null
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 374,
+  "completion_tokens": 173,
+  "total_tokens": 547,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 117
+  }
+ },
+ "service_tier": "balanced",
+ "_seconds": 4.23
+}

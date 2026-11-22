@@ -1,0 +1,3407 @@
+{
+ "status": 200,
+ "json": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 442,
+   "db_response_time_ms": 114,
+   "page": 1,
+   "per_page": 5,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works with (media multitasking GPA university students negative association empirical study) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "x_new_oql": "get works with (media multitasking GPA university students negative association empirical study) in the title, abstract, or full text where it has an abstract and language is [English](en) and type is ([article](article) or [review](review))",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "fulltext.search",
+       "value": "media multitasking GPA university students negative association empirical study",
+       "operator": "has"
+      },
+      {
+       "column_id": "has_abstract",
+       "value": true
+      },
+      {
+       "column_id": "language",
+       "value": "en"
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "type",
+         "value": "article"
+        },
+        {
+         "column_id": "type",
+         "value": "review"
+        }
+       ]
+      }
+     ]
+    },
+    "url": "/works?filter=fulltext.search:media multitasking GPA university students negative association empirical study,has_abstract:true,language:en,type:article|review&per_page=5",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2791604381",
+    "doi": "https://doi.org/10.1186/s41239-018-0096-z",
+    "title": "Efficient, helpful, or distracting? A literature review of media multitasking in relation to academic performance",
+    "display_name": "Efficient, helpful, or distracting? A literature review of media multitasking in relation to academic performance",
+    "publication_year": 2018,
+    "cited_by_count": 437,
+    "abstract_inverted_index": {
+     "Media": [
+      0
+     ],
+     "multitasking,": [
+      1
+     ],
+     "using": [
+      2
+     ],
+     "two": [
+      3
+     ],
+     "or": [
+      4
+     ],
+     "more": [
+      5,
+      125
+     ],
+     "medias": [
+      6
+     ],
+     "concurrently,": [
+      7
+     ],
+     "prevails": [
+      8
+     ],
+     "among": [
+      9
+     ],
+     "adolescents": [
+      10
+     ],
+     "and": [
+      11,
+      24,
+      33,
+      66,
+      79,
+      92,
+      129
+     ],
+     "emerging": [
+      12
+     ],
+     "adults.": [
+      13
+     ],
+     "The": [
+      14,
+      39,
+      57
+     ],
+     "inherent": [
+      15
+     ],
+     "mental": [
+      16
+     ],
+     "habits": [
+      17
+     ],
+     "of": [
+      18,
+      28,
+      41,
+      51,
+      121,
+      151
+     ],
+     "media": [
+      19,
+      52,
+      61,
+      106,
+      122,
+      138
+     ],
+     "multitasking\u2014dividing": [
+      20
+     ],
+     "attention,": [
+      21,
+      23
+     ],
+     "switching": [
+      22
+     ],
+     "maintaining": [
+      25
+     ],
+     "multiple": [
+      26
+     ],
+     "trains": [
+      27
+     ],
+     "thought\u2014": [
+      29
+     ],
+     "have": [
+      30,
+      83,
+      109
+     ],
+     "significant": [
+      31
+     ],
+     "implications": [
+      32
+     ],
+     "consequences": [
+      34
+     ],
+     "for": [
+      35,
+      130,
+      144
+     ],
+     "students\u2019": [
+      36,
+      135
+     ],
+     "academic": [
+      37,
+      55,
+      112,
+      132,
+      149
+     ],
+     "performance.": [
+      38,
+      56,
+      113
+     ],
+     "goal": [
+      40
+     ],
+     "this": [
+      42
+     ],
+     "review": [
+      43
+     ],
+     "is": [
+      44,
+      140
+     ],
+     "to": [
+      45,
+      101,
+      118
+     ],
+     "synthesize": [
+      46
+     ],
+     "research": [
+      47,
+      58,
+      115
+     ],
+     "on": [
+      48,
+      54,
+      110
+     ],
+     "the": [
+      49,
+      104
+     ],
+     "impacts": [
+      50
+     ],
+     "multitasking": [
+      53,
+      62,
+      107,
+      123,
+      139
+     ],
+     "indicates": [
+      59
+     ],
+     "that": [
+      60
+     ],
+     "interferes": [
+      63
+     ],
+     "with": [
+      64
+     ],
+     "attention": [
+      65
+     ],
+     "working": [
+      67
+     ],
+     "memory,": [
+      68
+     ],
+     "negatively": [
+      69
+     ],
+     "affecting": [
+      70
+     ],
+     "GPA,": [
+      71
+     ],
+     "test": [
+      72
+     ],
+     "performance,": [
+      73
+     ],
+     "recall,": [
+      74
+     ],
+     "reading": [
+      75
+     ],
+     "comprehension,": [
+      76
+     ],
+     "note-taking,": [
+      77
+     ],
+     "self-regulation,": [
+      78
+     ],
+     "efficiency.": [
+      80
+     ],
+     "These": [
+      81
+     ],
+     "effects": [
+      82,
+      120
+     ],
+     "been": [
+      84
+     ],
+     "demonstrated": [
+      85
+     ],
+     "during": [
+      86
+     ],
+     "in-": [
+      87
+     ],
+     "class": [
+      88
+     ],
+     "activities": [
+      89
+     ],
+     "(largely": [
+      90
+     ],
+     "lectures)": [
+      91
+     ],
+     "while": [
+      93
+     ],
+     "students": [
+      94,
+      99
+     ],
+     "are": [
+      95
+     ],
+     "studying.": [
+      96
+     ],
+     "In": [
+      97
+     ],
+     "addition,": [
+      98
+     ],
+     "struggle": [
+      100
+     ],
+     "accurately": [
+      102
+     ],
+     "assess": [
+      103
+     ],
+     "impact": [
+      105
+     ],
+     "will": [
+      108
+     ],
+     "their": [
+      111
+     ],
+     "Further": [
+      114
+     ],
+     "should": [
+      116
+     ],
+     "attend": [
+      117
+     ],
+     "understanding": [
+      119
+     ],
+     "in": [
+      124
+     ],
+     "diverse": [
+      126
+     ],
+     "instructional": [
+      127
+     ],
+     "contexts": [
+      128
+     ],
+     "varied": [
+      131
+     ],
+     "tasks.": [
+      133
+     ],
+     "Fostering": [
+      134
+     ],
+     "self-regulation": [
+      136
+     ],
+     "around": [
+      137
+     ],
+     "a": [
+      141
+     ],
+     "promising": [
+      142
+     ],
+     "area": [
+      143
+     ],
+     "future": [
+      145
+     ],
+     "efforts": [
+      146
+     ],
+     "towards": [
+      147
+     ],
+     "improving": [
+      148
+     ],
+     "performance": [
+      150
+     ],
+     "college": [
+      152
+     ],
+     "students.": [
+      153
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5084354902",
+       "display_name": "Kaitlyn E. May",
+       "orcid": "https://orcid.org/0000-0001-6364-4952",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-6364-4952"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I17301866",
+        "display_name": "University of Alabama",
+        "ror": "https://ror.org/03xrrjk67",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I17301866"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Kaitlyn E. May",
+      "raw_affiliation_strings": [
+       "Department of Educational Studies in Psychology, Research Methodology, and Counseling, University of Alabama, Tuscaloosa, AL, 07203, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Educational Studies in Psychology, Research Methodology, and Counseling, University of Alabama, Tuscaloosa, AL, 07203, USA",
+        "institution_ids": [
+         "https://openalex.org/I17301866"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5091621995",
+       "display_name": "Anastasia D. Elder",
+       "orcid": "https://orcid.org/0000-0002-9274-1572",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9274-1572"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I99041443",
+        "display_name": "Mississippi State University",
+        "ror": "https://ror.org/0432jq872",
+        "country_code": "US",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I4210141039",
+         "https://openalex.org/I99041443"
+        ]
+       }
+      ],
+      "countries": [
+       "US"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Anastasia D. Elder",
+      "raw_affiliation_strings": [
+       "Department of Counseling, Educational Psychology, and Foundations, Mississippi State University, Starkville, MS, 39762, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Counseling, Educational Psychology, and Foundations, Mississippi State University, Starkville, MS, 39762, USA",
+        "institution_ids": [
+         "https://openalex.org/I99041443"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.1186/s41239-018-0096-z",
+     "doi": "https://doi.org/10.1186/s41239-018-0096-z",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1186/s41239-018-0096-z",
+     "pdf_url": "https://educationaltechnologyjournal.springeropen.com/track/pdf/10.1186/s41239-018-0096-z",
+     "source": {
+      "id": "https://openalex.org/S4210201537",
+      "display_name": "International Journal of Educational Technology in Higher Education",
+      "issn_l": "2365-9440",
+      "issn": [
+       "2365-9440"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "ddh",
+       "doaj",
+       "erih-plus",
+       "fecyt-seal",
+       "jufo-2",
+       "ki-jl-1",
+       "norway-1",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer Nature"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "International Journal of Educational Technology in Higher Education",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4382402907",
+    "doi": "https://doi.org/10.3390/su151310184",
+    "title": "Exploring Undergraduate Students\u2019 Digital Multitasking in Class: An Empirical Study in China",
+    "display_name": "Exploring Undergraduate Students\u2019 Digital Multitasking in Class: An Empirical Study in China",
+    "publication_year": 2023,
+    "cited_by_count": 36,
+    "abstract_inverted_index": {
+     "UN\u2019s": [
+      0
+     ],
+     "2030": [
+      1
+     ],
+     "Agenda": [
+      2
+     ],
+     "for": [
+      3,
+      17
+     ],
+     "Sustainable": [
+      4
+     ],
+     "Development": [
+      5
+     ],
+     "highlights": [
+      6
+     ],
+     "the": [
+      7,
+      25,
+      71,
+      96,
+      142
+     ],
+     "crucial": [
+      8
+     ],
+     "role": [
+      9
+     ],
+     "of": [
+      10,
+      27,
+      73,
+      98
+     ],
+     "education": [
+      11,
+      46
+     ],
+     "in": [
+      12,
+      20,
+      33,
+      49,
+      104
+     ],
+     "securing": [
+      13
+     ],
+     "a": [
+      14,
+      42,
+      125
+     ],
+     "promising": [
+      15
+     ],
+     "future": [
+      16
+     ],
+     "humanity,": [
+      18
+     ],
+     "especially": [
+      19,
+      48
+     ],
+     "today\u2019s": [
+      21
+     ],
+     "digital": [
+      22,
+      38,
+      75,
+      79,
+      111,
+      134,
+      177
+     ],
+     "era.": [
+      23
+     ],
+     "However,": [
+      24
+     ],
+     "prevalence": [
+      26
+     ],
+     "smartphones": [
+      28
+     ],
+     "has": [
+      29
+     ],
+     "fostered": [
+      30
+     ],
+     "an": [
+      31
+     ],
+     "increase": [
+      32
+     ],
+     "students\u2019": [
+      34,
+      74,
+      176
+     ],
+     "usage": [
+      35
+     ],
+     "and": [
+      36,
+      81,
+      120,
+      183
+     ],
+     "subsequent": [
+      37
+     ],
+     "multitasking": [
+      39,
+      112,
+      178
+     ],
+     "tendencies,": [
+      40
+     ],
+     "posing": [
+      41
+     ],
+     "significant": [
+      43
+     ],
+     "threat": [
+      44
+     ],
+     "to": [
+      45,
+      69,
+      132,
+      140,
+      166,
+      179
+     ],
+     "process,": [
+      47
+     ],
+     "higher": [
+      50
+     ],
+     "education.": [
+      51,
+      185
+     ],
+     "To": [
+      52
+     ],
+     "gain": [
+      53
+     ],
+     "further": [
+      54,
+      173
+     ],
+     "insights": [
+      55,
+      174
+     ],
+     "into": [
+      56,
+      175
+     ],
+     "this": [
+      57,
+      59
+     ],
+     "phenomenon,": [
+      58
+     ],
+     "exploratory": [
+      60
+     ],
+     "descriptive": [
+      61
+     ],
+     "study": [
+      62,
+      88
+     ],
+     "surveyed": [
+      63
+     ],
+     "519": [
+      64
+     ],
+     "students": [
+      65,
+      128
+     ],
+     "from": [
+      66
+     ],
+     "China": [
+      67
+     ],
+     "university": [
+      68
+     ],
+     "investigate": [
+      70
+     ],
+     "magnitude": [
+      72
+     ],
+     "multitasking,": [
+      76,
+      80,
+      135
+     ],
+     "motivation": [
+      77
+     ],
+     "behind": [
+      78
+     ],
+     "beliefs": [
+      82
+     ],
+     "about": [
+      83
+     ],
+     "reducing": [
+      84
+     ],
+     "phone": [
+      85,
+      99,
+      105,
+      118,
+      148
+     ],
+     "use.": [
+      86
+     ],
+     "The": [
+      87
+     ],
+     "found": [
+      89
+     ],
+     "that,": [
+      90
+     ],
+     "(1)": [
+      91
+     ],
+     "despite": [
+      92
+     ],
+     "many": [
+      93
+     ],
+     "respondents": [
+      94
+     ],
+     "reporting": [
+      95
+     ],
+     "existence": [
+      97
+     ],
+     "limits,": [
+      100
+     ],
+     "no": [
+      101,
+      151
+     ],
+     "possible": [
+      102
+     ],
+     "reduction": [
+      103
+     ],
+     "use": [
+      106
+     ],
+     "frequency": [
+      107
+     ],
+     "was": [
+      108,
+      113,
+      154
+     ],
+     "observed;": [
+      109
+     ],
+     "(2)": [
+      110
+     ],
+     "positively": [
+      114
+     ],
+     "correlated": [
+      115
+     ],
+     "with": [
+      116
+     ],
+     "mobile": [
+      117
+     ],
+     "dependence": [
+      119
+     ],
+     "non-study": [
+      121
+     ],
+     "motivation;": [
+      122
+     ],
+     "(3)": [
+      123
+     ],
+     "while": [
+      124
+     ],
+     "majority": [
+      126
+     ],
+     "(86.71%)": [
+      127
+     ],
+     "expressed": [
+      129
+     ],
+     "their": [
+      130
+     ],
+     "intent": [
+      131
+     ],
+     "reduce": [
+      133
+     ],
+     "they": [
+      136
+     ],
+     "were": [
+      137
+     ],
+     "mostly": [
+      138
+     ],
+     "hesitant": [
+      139
+     ],
+     "follow": [
+      141
+     ],
+     "moderate": [
+      143
+     ],
+     "or": [
+      144
+     ],
+     "strict": [
+      145
+     ],
+     "rules": [
+      146
+     ],
+     "on": [
+      147
+     ],
+     "use;": [
+      149
+     ],
+     "(4)": [
+      150
+     ],
+     "clear": [
+      152
+     ],
+     "consensus": [
+      153
+     ],
+     "established": [
+      155
+     ],
+     "(49.90%": [
+      156
+     ],
+     "vs.": [
+      157
+     ],
+     "50.10%)": [
+      158
+     ],
+     "regarding": [
+      159
+     ],
+     "whether": [
+      160
+     ],
+     "schools": [
+      161
+     ],
+     "should": [
+      162
+     ],
+     "pose": [
+      163
+     ],
+     "more": [
+      164
+     ],
+     "restrictions": [
+      165
+     ],
+     "encourage": [
+      167
+     ],
+     "such": [
+      168
+     ],
+     "reduction.": [
+      169
+     ],
+     "Our": [
+      170
+     ],
+     "research": [
+      171
+     ],
+     "provides": [
+      172
+     ],
+     "improve": [
+      180
+     ],
+     "learning": [
+      181
+     ],
+     "quality": [
+      182
+     ],
+     "sustainable": [
+      184
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5047554034",
+       "display_name": "Qikai Wang",
+       "orcid": "https://orcid.org/0009-0006-5120-2448",
+       "observed_orcids": [
+        "https://orcid.org/0009-0006-5120-2448"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I43313876",
+        "display_name": "Dalian Maritime University",
+        "ror": "https://ror.org/002b7nr53",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I43313876"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/conceptualization",
+        "display_name": "Conceptualization"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/software",
+        "display_name": "Software"
+       },
+       {
+        "id": "https://openalex.org/contributor-roles/writing-original-draft",
+        "display_name": "Writing \u2013 original draft"
+       }
+      ],
+      "raw_author_name": "Qikai Wang",
+      "raw_affiliation_strings": [
+       "School of Foreign Languages, Dalian Maritime University, Dalian 116026, China"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0006-5120-2448",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Foreign Languages, Dalian Maritime University, Dalian 116026, China",
+        "institution_ids": [
+         "https://openalex.org/I43313876"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5102102632",
+       "display_name": "Fei Sun",
+       "orcid": "https://orcid.org/0009-0007-3960-453X",
+       "observed_orcids": [
+        "https://orcid.org/0009-0007-3960-453X"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I162868743",
+        "display_name": "Tianjin University",
+        "ror": "https://ror.org/012tb2g32",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I162868743"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Fei Sun",
+      "raw_affiliation_strings": [
+       "School of Foreign Languages, Tianjin University, Tianjin 300072, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Foreign Languages, Tianjin University, Tianjin 300072, China",
+        "institution_ids": [
+         "https://openalex.org/I162868743"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5100401921",
+       "display_name": "Xiaochen Wang",
+       "orcid": "https://orcid.org/0000-0002-4786-8777",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-4786-8777"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I87445476",
+        "display_name": "Xi'an Jiaotong University",
+        "ror": "https://ror.org/017zhmm22",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I87445476"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/writing-review-editing",
+        "display_name": "Writing \u2013 review & editing"
+       }
+      ],
+      "raw_author_name": "Xiaochen Wang",
+      "raw_affiliation_strings": [
+       "School of Foreign Studies, Xi\u2019an Jiaotong University, Xi\u2019an 710049, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-4786-8777",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Foreign Studies, Xi\u2019an Jiaotong University, Xi\u2019an 710049, China",
+        "institution_ids": [
+         "https://openalex.org/I87445476"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5050088429",
+       "display_name": "Yang Gao",
+       "orcid": "https://orcid.org/0000-0001-5888-6033",
+       "observed_orcids": [
+        "https://orcid.org/0000-0001-5888-6033"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I87445476",
+        "display_name": "Xi'an Jiaotong University",
+        "ror": "https://ror.org/017zhmm22",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I87445476"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [
+       {
+        "id": "https://openalex.org/contributor-roles/supervision",
+        "display_name": "Supervision"
+       }
+      ],
+      "raw_author_name": "Yang Gao",
+      "raw_affiliation_strings": [
+       "School of Foreign Studies, Xi\u2019an Jiaotong University, Xi\u2019an 710049, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-5888-6033",
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Foreign Studies, Xi\u2019an Jiaotong University, Xi\u2019an 710049, China",
+        "institution_ids": [
+         "https://openalex.org/I87445476"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3390/su151310184",
+     "doi": "https://doi.org/10.3390/su151310184",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3390/su151310184",
+     "pdf_url": "https://www.mdpi.com/2071-1050/15/13/10184/pdf?version=1687859082",
+     "source": {
+      "id": "https://openalex.org/S10134376",
+      "display_name": "Sustainability",
+      "issn_l": "2071-1050",
+      "issn": [
+       "2071-1050"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "poland-100",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310310987",
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310310987"
+      ],
+      "host_organization_lineage_names": [
+       "Multidisciplinary Digital Publishing Institute"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Sustainability",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W7168352757",
+    "doi": "https://doi.org/10.51316/jst.191.etsd.2026.36.3.15",
+    "title": "Assessing Media Multitasking Behavior in Academic Activities of Students at Hanoi University of Science and Technology: A Study Using the Media Multitasking-Revised (MMT-R) Scale",
+    "display_name": "Assessing Media Multitasking Behavior in Academic Activities of Students at Hanoi University of Science and Technology: A Study Using the Media Multitasking-Revised (MMT-R) Scale",
+    "publication_year": 2026,
+    "cited_by_count": 0,
+    "abstract_inverted_index": {
+     "The": [
+      0,
+      60,
+      74,
+      90,
+      157
+     ],
+     "rapid": [
+      1
+     ],
+     "development": [
+      2
+     ],
+     "of": [
+      3,
+      15,
+      31,
+      47,
+      154,
+      206
+     ],
+     "digital": [
+      4,
+      155,
+      207
+     ],
+     "technology": [
+      5
+     ],
+     "in": [
+      6,
+      23,
+      50,
+      98,
+      124,
+      209
+     ],
+     "modern": [
+      7
+     ],
+     "life": [
+      8
+     ],
+     "has": [
+      9
+     ],
+     "led": [
+      10
+     ],
+     "to": [
+      11,
+      43,
+      96,
+      122,
+      183,
+      196
+     ],
+     "the": [
+      12,
+      38,
+      45,
+      51,
+      120,
+      161
+     ],
+     "widespread": [
+      13
+     ],
+     "emergence": [
+      14
+     ],
+     "media": [
+      16
+     ],
+     "multitasking": [
+      17,
+      48,
+      99,
+      125
+     ],
+     "behaviour": [
+      18,
+      49,
+      112
+     ],
+     "among": [
+      19,
+      53
+     ],
+     "university": [
+      20
+     ],
+     "students,": [
+      21
+     ],
+     "especially": [
+      22
+     ],
+     "high-tech": [
+      24
+     ],
+     "learning": [
+      25,
+      210
+     ],
+     "environments": [
+      26
+     ],
+     "such": [
+      27
+     ],
+     "as": [
+      28,
+      169,
+      176
+     ],
+     "Hanoi": [
+      29
+     ],
+     "University": [
+      30
+     ],
+     "Science": [
+      32
+     ],
+     "and": [
+      33,
+      69,
+      86,
+      141,
+      150,
+      179
+     ],
+     "Technology.": [
+      34
+     ],
+     "This": [
+      35
+     ],
+     "study": [
+      36
+     ],
+     "uses": [
+      37
+     ],
+     "Media": [
+      39,
+      87
+     ],
+     "Multitasking-Revised": [
+      40
+     ],
+     "(MMT-R)": [
+      41
+     ],
+     "scale": [
+      42,
+      163
+     ],
+     "assess": [
+      44
+     ],
+     "level": [
+      46
+     ],
+     "classroom": [
+      52
+     ],
+     "257": [
+      54
+     ],
+     "students": [
+      55,
+      94,
+      192
+     ],
+     "from": [
+      56
+     ],
+     "various": [
+      57
+     ],
+     "academic": [
+      58
+     ],
+     "disciplines.": [
+      59
+     ],
+     "data": [
+      61
+     ],
+     "were": [
+      62
+     ],
+     "analysed": [
+      63
+     ],
+     "using": [
+      64
+     ],
+     "Exploratory": [
+      65
+     ],
+     "Factor": [
+      66,
+      71
+     ],
+     "Analysis": [
+      67,
+      72
+     ],
+     "(EFA)": [
+      68
+     ],
+     "Confirmatory": [
+      70
+     ],
+     "(CFA).": [
+      73
+     ],
+     "theoretical": [
+      75
+     ],
+     "model": [
+      76
+     ],
+     "identifies": [
+      77
+     ],
+     "two": [
+      78
+     ],
+     "core": [
+      79
+     ],
+     "behavioural": [
+      80,
+      171
+     ],
+     "constructs:": [
+      81
+     ],
+     "Compulsive": [
+      82
+     ],
+     "Phone": [
+      83
+     ],
+     "Checking": [
+      84
+     ],
+     "(CPC)": [
+      85
+     ],
+     "Distraction": [
+      88
+     ],
+     "(MD).": [
+      89
+     ],
+     "results": [
+      91
+     ],
+     "indicate": [
+      92,
+      152
+     ],
+     "that": [
+      93,
+      110,
+      160
+     ],
+     "tend": [
+      95
+     ],
+     "engage": [
+      97,
+      123
+     ],
+     "at": [
+      100,
+      201
+     ],
+     "a": [
+      101,
+      147,
+      170,
+      177
+     ],
+     "moderate": [
+      102
+     ],
+     "level,": [
+      103
+     ],
+     "with": [
+      104,
+      129
+     ],
+     "no": [
+      105,
+      145
+     ],
+     "significant": [
+      106,
+      148
+     ],
+     "gender": [
+      107,
+      117
+     ],
+     "differences,": [
+      108
+     ],
+     "suggesting": [
+      109
+     ],
+     "this": [
+      111,
+      190
+     ],
+     "is": [
+      113,
+      126,
+      144
+     ],
+     "generational": [
+      114
+     ],
+     "rather": [
+      115
+     ],
+     "than": [
+      116
+     ],
+     "specific.": [
+      118
+     ],
+     "Furthermore,": [
+      119
+     ],
+     "intention": [
+      121
+     ],
+     "strongly": [
+      127
+     ],
+     "associated": [
+      128
+     ],
+     "CPC": [
+      130
+     ],
+     "-": [
+      131,
+      135
+     ],
+     "controlled": [
+      132
+     ],
+     "device": [
+      133
+     ],
+     "usage": [
+      134
+     ],
+     "while": [
+      136
+     ],
+     "MD,": [
+      137
+     ],
+     "which": [
+      138
+     ],
+     "reflects": [
+      139
+     ],
+     "passive": [
+      140
+     ],
+     "uncontrolled": [
+      142
+     ],
+     "distraction,": [
+      143
+     ],
+     "longer": [
+      146
+     ],
+     "predictor": [
+      149
+     ],
+     "may": [
+      151
+     ],
+     "signs": [
+      153
+     ],
+     "addiction.": [
+      156
+     ],
+     "findings": [
+      158
+     ],
+     "suggest": [
+      159
+     ],
+     "MMT-R": [
+      162
+     ],
+     "can": [
+      164,
+      193
+     ],
+     "be": [
+      165,
+      194
+     ],
+     "used": [
+      166
+     ],
+     "not": [
+      167
+     ],
+     "only": [
+      168
+     ],
+     "measurement": [
+      172
+     ],
+     "tool": [
+      173
+     ],
+     "but": [
+      174
+     ],
+     "also": [
+      175
+     ],
+     "screening": [
+      178
+     ],
+     "early": [
+      180
+     ],
+     "diagnostic": [
+      181
+     ],
+     "instrument": [
+      182
+     ],
+     "identify": [
+      184
+     ],
+     "high-risk": [
+      185
+     ],
+     "student": [
+      186
+     ],
+     "groups.": [
+      187
+     ],
+     "Based": [
+      188
+     ],
+     "on": [
+      189
+     ],
+     "classification,": [
+      191
+     ],
+     "grouped": [
+      195
+     ],
+     "design": [
+      197
+     ],
+     "appropriate": [
+      198
+     ],
+     "interventions": [
+      199
+     ],
+     "aimed": [
+      200
+     ],
+     "promoting": [
+      202
+     ],
+     "more": [
+      203
+     ],
+     "mindful": [
+      204
+     ],
+     "use": [
+      205
+     ],
+     "devices": [
+      208
+     ],
+     "environments.": [
+      211
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5140757878",
+       "display_name": "Thao Nguyen Thi",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94518387",
+        "display_name": "Hanoi University of Science and Technology",
+        "ror": "https://ror.org/04nyv3z04",
+        "country_code": "VN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94518387"
+        ]
+       }
+      ],
+      "countries": [
+       "VN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Thao Nguyen Thi",
+      "raw_affiliation_strings": [
+       "Ha Noi University of Science and Technology, Ha Noi, Vietnam"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Ha Noi University of Science and Technology, Ha Noi, Vietnam",
+        "institution_ids": [
+         "https://openalex.org/I94518387"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5140937496",
+       "display_name": "My Duyen Tran Thi",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94518387",
+        "display_name": "Hanoi University of Science and Technology",
+        "ror": "https://ror.org/04nyv3z04",
+        "country_code": "VN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94518387"
+        ]
+       }
+      ],
+      "countries": [
+       "VN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "My Duyen Tran Thi",
+      "raw_affiliation_strings": [
+       "Ha Noi University of Science and Technology, Ha Noi, Vietnam"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Ha Noi University of Science and Technology, Ha Noi, Vietnam",
+        "institution_ids": [
+         "https://openalex.org/I94518387"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5070928351",
+       "display_name": "Khanh Linh Do",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94518387",
+        "display_name": "Hanoi University of Science and Technology",
+        "ror": "https://ror.org/04nyv3z04",
+        "country_code": "VN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94518387"
+        ]
+       }
+      ],
+      "countries": [
+       "VN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Linh Do Khanh",
+      "raw_affiliation_strings": [
+       "Ha Noi University of Science and Technology, Ha Noi, Vietnam"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Ha Noi University of Science and Technology, Ha Noi, Vietnam",
+        "institution_ids": [
+         "https://openalex.org/I94518387"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5140955946",
+       "display_name": "Kieu Oanh Nguyen Thi",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94518387",
+        "display_name": "Hanoi University of Science and Technology",
+        "ror": "https://ror.org/04nyv3z04",
+        "country_code": "VN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94518387"
+        ]
+       }
+      ],
+      "countries": [
+       "VN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Kieu Oanh Nguyen Thi",
+      "raw_affiliation_strings": [
+       "Ha Noi University of Science and Technology, Ha Noi, Vietnam"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Ha Noi University of Science and Technology, Ha Noi, Vietnam",
+        "institution_ids": [
+         "https://openalex.org/I94518387"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5140952985",
+       "display_name": "Quynh Lan Hoang Thi",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I94518387",
+        "display_name": "Hanoi University of Science and Technology",
+        "ror": "https://ror.org/04nyv3z04",
+        "country_code": "VN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I94518387"
+        ]
+       }
+      ],
+      "countries": [
+       "VN"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Quynh Lan Hoang Thi",
+      "raw_affiliation_strings": [
+       "Ha Noi University of Science and Technology, Ha Noi, Vietnam"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Ha Noi University of Science and Technology, Ha Noi, Vietnam",
+        "institution_ids": [
+         "https://openalex.org/I94518387"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.51316/jst.191.etsd.2026.36.3.15",
+     "doi": "https://doi.org/10.51316/jst.191.etsd.2026.36.3.15",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.51316/jst.191.etsd.2026.36.3.15",
+     "pdf_url": "https://jst.vn/index.php/etsd/article/download/1057/1370",
+     "source": {
+      "id": "https://openalex.org/S5407052890",
+      "display_name": "Engineering and Technology For Sustainable Development",
+      "issn_l": "3093-3242",
+      "issn": [
+       "3093-3242",
+       "3093-3579"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Engineering and Technology For Sustainable Development",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W4414154349",
+    "doi": "https://doi.org/10.59075/rjs.v3i3.230",
+    "title": "The Effect of Multitasking on Memory Retention of University Students",
+    "display_name": "The Effect of Multitasking on Memory Retention of University Students",
+    "publication_year": 2025,
+    "cited_by_count": 2,
+    "abstract_inverted_index": {
+     "Multitasking": [
+      0
+     ],
+     "becomes": [
+      1
+     ],
+     "increasingly": [
+      2
+     ],
+     "common,": [
+      3
+     ],
+     "particularly": [
+      4
+     ],
+     "with": [
+      5,
+      141
+     ],
+     "widespread": [
+      6
+     ],
+     "use": [
+      7
+     ],
+     "of": [
+      8,
+      27,
+      42,
+      136
+     ],
+     "digital": [
+      9
+     ],
+     "devices;": [
+      10
+     ],
+     "its": [
+      11
+     ],
+     "cognitive": [
+      12,
+      138
+     ],
+     "consequences": [
+      13
+     ],
+     "on": [
+      14,
+      29
+     ],
+     "learning": [
+      15
+     ],
+     "and": [
+      16,
+      68,
+      76,
+      82,
+      94,
+      107,
+      133
+     ],
+     "memory": [
+      17,
+      30,
+      70,
+      95,
+      109
+     ],
+     "have": [
+      18
+     ],
+     "raised": [
+      19
+     ],
+     "concern.": [
+      20
+     ],
+     "This": [
+      21
+     ],
+     "quantitative": [
+      22
+     ],
+     "study": [
+      23,
+      131
+     ],
+     "examines": [
+      24
+     ],
+     "the": [
+      25,
+      89,
+      126,
+      137
+     ],
+     "effect": [
+      26
+     ],
+     "multitasking": [
+      28,
+      66,
+      92,
+      105,
+      114
+     ],
+     "retention": [
+      31,
+      71
+     ],
+     "among": [
+      32
+     ],
+     "university": [
+      33
+     ],
+     "students": [
+      34,
+      44
+     ],
+     "using": [
+      35,
+      58
+     ],
+     "a": [
+      36,
+      59,
+      100
+     ],
+     "structured": [
+      37
+     ],
+     "questionnaire": [
+      38,
+      62
+     ],
+     "survey.": [
+      39
+     ],
+     "A": [
+      40
+     ],
+     "sample": [
+      41
+     ],
+     "200": [
+      43
+     ],
+     "was": [
+      45
+     ],
+     "selected": [
+      46
+     ],
+     "through": [
+      47
+     ],
+     "stratified": [
+      48
+     ],
+     "random": [
+      49
+     ],
+     "sampling": [
+      50
+     ],
+     "from": [
+      51
+     ],
+     "various": [
+      52
+     ],
+     "academic": [
+      53
+     ],
+     "departments.": [
+      54
+     ],
+     "Data": [
+      55
+     ],
+     "were": [
+      56,
+      85
+     ],
+     "collected": [
+      57
+     ],
+     "self-developed,": [
+      60
+     ],
+     "validated": [
+      61
+     ],
+     "designed": [
+      63
+     ],
+     "to": [
+      64,
+      87,
+      119,
+      128
+     ],
+     "assess": [
+      65
+     ],
+     "habits": [
+      67
+     ],
+     "perceived": [
+      69
+     ],
+     "in": [
+      72
+     ],
+     "educational": [
+      73
+     ],
+     "tasks.": [
+      74
+     ],
+     "Descriptive": [
+      75
+     ],
+     "inferential": [
+      77
+     ],
+     "statistical": [
+      78
+     ],
+     "techniques,": [
+      79
+     ],
+     "including": [
+      80
+     ],
+     "correlation": [
+      81,
+      103
+     ],
+     "regression": [
+      83
+     ],
+     "analysis,": [
+      84
+     ],
+     "applied": [
+      86
+     ],
+     "explore": [
+      88
+     ],
+     "relationship": [
+      90
+     ],
+     "between": [
+      91,
+      104
+     ],
+     "frequency": [
+      93
+     ],
+     "performance.": [
+      96
+     ],
+     "The": [
+      97
+     ],
+     "findings": [
+      98
+     ],
+     "revealed": [
+      99
+     ],
+     "significant": [
+      101
+     ],
+     "negative": [
+      102
+     ],
+     "behavior": [
+      106
+     ],
+     "self-reported": [
+      108
+     ],
+     "retention,": [
+      110
+     ],
+     "suggesting": [
+      111
+     ],
+     "that": [
+      112
+     ],
+     "frequent": [
+      113
+     ],
+     "may": [
+      115
+     ],
+     "impair": [
+      116
+     ],
+     "students'": [
+      117
+     ],
+     "ability": [
+      118
+     ],
+     "retain": [
+      120
+     ],
+     "information": [
+      121
+     ],
+     "effectively.": [
+      122
+     ],
+     "These": [
+      123
+     ],
+     "results": [
+      124
+     ],
+     "emphasize": [
+      125
+     ],
+     "need": [
+      127
+     ],
+     "promote": [
+      129
+     ],
+     "focused": [
+      130
+     ],
+     "environments": [
+      132
+     ],
+     "raise": [
+      134
+     ],
+     "awareness": [
+      135
+     ],
+     "costs": [
+      139
+     ],
+     "associated": [
+      140
+     ],
+     "multitasking.": [
+      142
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5062744775",
+       "display_name": "Jawaad Ahmed",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I141584323",
+        "display_name": "University of Hertfordshire",
+        "ror": "https://ror.org/0267vjk41",
+        "country_code": "GB",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I141584323"
+        ]
+       }
+      ],
+      "countries": [
+       "GB"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Jawaad Ahmed",
+      "raw_affiliation_strings": [
+       "Master in International Relations with Advanced Research, University of Hertfordshire, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Master in International Relations with Advanced Research, University of Hertfordshire, UK",
+        "institution_ids": [
+         "https://openalex.org/I141584323"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5119603826",
+       "display_name": "Saifullah Pathan",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I1318157472",
+        "display_name": "Liaquat University of Medical & Health Sciences",
+        "ror": "https://ror.org/015jxh185",
+        "country_code": "PK",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I1318157472"
+        ]
+       }
+      ],
+      "countries": [
+       "PK"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Saifullah Pathan",
+      "raw_affiliation_strings": [
+       "Neuropsychologist, Institute of Physical Medicine & Rehabilitation, Liaquat University of Medical & Health Sciences, Jamshoro"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Neuropsychologist, Institute of Physical Medicine & Rehabilitation, Liaquat University of Medical & Health Sciences, Jamshoro",
+        "institution_ids": [
+         "https://openalex.org/I1318157472"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": null,
+       "display_name": "Fatima Ali",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I43879129",
+        "display_name": "Government College University, Lahore",
+        "ror": "https://ror.org/040gec961",
+        "country_code": "PK",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I43879129"
+        ]
+       }
+      ],
+      "countries": [
+       "PK"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Fatima Ali",
+      "raw_affiliation_strings": [
+       "PHD scholar, Clinical Psychology Unit, GCU Lahore, Pakistan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "PHD scholar, Clinical Psychology Unit, GCU Lahore, Pakistan",
+        "institution_ids": [
+         "https://openalex.org/I43879129"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5119603827",
+       "display_name": "Meherwish Deep Naz",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Meherwish Deep Naz",
+      "raw_affiliation_strings": [
+       "Lecturer, Psychology Department, Foundation University School of Science and Technology Rawalpindi, Pakistan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Lecturer, Psychology Department, Foundation University School of Science and Technology Rawalpindi, Pakistan",
+        "institution_ids": []
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5119456441",
+       "display_name": "Francesco Ernesto Alessi Longa",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I301027571",
+        "display_name": "Universidad Azteca",
+        "ror": "https://ror.org/01r98zz61",
+        "country_code": "MX",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I301027571"
+        ]
+       }
+      ],
+      "countries": [
+       "MX"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Francesco Ernesto Alessi Longa",
+      "raw_affiliation_strings": [
+       "Department of International Law, Azteca University- Mexico"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of International Law, Azteca University- Mexico",
+        "institution_ids": [
+         "https://openalex.org/I301027571"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5116298044",
+       "display_name": "Mehreen Faiza",
+       "orcid": null,
+       "observed_orcids": []
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I143719379",
+        "display_name": "Balochistan University of Information Technology, Engineering and Management Sciences",
+        "ror": "https://ror.org/01vf56d70",
+        "country_code": "PK",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I143719379"
+        ]
+       }
+      ],
+      "countries": [
+       "PK"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Mehreen Faiza",
+      "raw_affiliation_strings": [
+       "Department of Sociology, BUITEMS, Quetta"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Department of Sociology, BUITEMS, Quetta",
+        "institution_ids": [
+         "https://openalex.org/I143719379"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.59075/rjs.v3i3.230",
+     "doi": "https://doi.org/10.59075/rjs.v3i3.230",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.59075/rjs.v3i3.230",
+     "pdf_url": "https://ctrjournal.com/index.php/19/article/download/230/223",
+     "source": {
+      "id": "https://openalex.org/S5407043249",
+      "display_name": "Research Journal of Psychology",
+      "issn_l": "3006-7200",
+      "issn": [
+       "3006-7200",
+       "3006-7219"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Research Journal of Psychology",
+     "raw_type": "journal-article"
+    }
+   },
+   {
+    "id": "https://openalex.org/W3177334086",
+    "doi": "https://doi.org/10.3389/fpsyg.2021.623643",
+    "title": "Media Multitasking: A Bibliometric Approach and Literature Review",
+    "display_name": "Media Multitasking: A Bibliometric Approach and Literature Review",
+    "publication_year": 2021,
+    "cited_by_count": 87,
+    "abstract_inverted_index": {
+     "Media": [
+      0
+     ],
+     "multitasking": [
+      1,
+      80,
+      112,
+      133,
+      137,
+      180,
+      210
+     ],
+     "became": [
+      2
+     ],
+     "increasingly": [
+      3
+     ],
+     "popular": [
+      4
+     ],
+     "over": [
+      5
+     ],
+     "the": [
+      6,
+      47,
+      50,
+      76,
+      95,
+      107,
+      130,
+      150,
+      156,
+      176,
+      182,
+      206,
+      226
+     ],
+     "past": [
+      7
+     ],
+     "decade.": [
+      8
+     ],
+     "As": [
+      9
+     ],
+     "this": [
+      10,
+      159
+     ],
+     "behavior": [
+      11,
+      51,
+      162
+     ],
+     "is": [
+      12
+     ],
+     "intensely": [
+      13
+     ],
+     "taxing": [
+      14
+     ],
+     "cognitive": [
+      15,
+      165,
+      220
+     ],
+     "resources,": [
+      16
+     ],
+     "it": [
+      17
+     ],
+     "has": [
+      18,
+      43
+     ],
+     "raised": [
+      19
+     ],
+     "interest": [
+      20
+     ],
+     "and": [
+      21,
+      38,
+      46,
+      86,
+      116,
+      127,
+      145,
+      167,
+      186,
+      219
+     ],
+     "concerns": [
+      22
+     ],
+     "among": [
+      23
+     ],
+     "academics": [
+      24
+     ],
+     "in": [
+      25,
+      31,
+      106,
+      129,
+      155,
+      172
+     ],
+     "a": [
+      26,
+      53,
+      99,
+      212
+     ],
+     "variety": [
+      27,
+      55
+     ],
+     "of": [
+      28,
+      49,
+      56,
+      78,
+      110,
+      158,
+      178,
+      184,
+      208
+     ],
+     "fields.": [
+      29
+     ],
+     "Consequently,": [
+      30
+     ],
+     "recent": [
+      32
+     ],
+     "years,": [
+      33
+     ],
+     "research": [
+      34,
+      81,
+      92,
+      125,
+      138,
+      148,
+      204
+     ],
+     "on": [
+      35,
+      90,
+      163,
+      171,
+      181,
+      192,
+      215,
+      223
+     ],
+     "how,": [
+      36
+     ],
+     "when,": [
+      37
+     ],
+     "why": [
+      39
+     ],
+     "people": [
+      40
+     ],
+     "media": [
+      41,
+      79,
+      111,
+      132,
+      136,
+      160,
+      179,
+      209
+     ],
+     "multitask": [
+      42
+     ],
+     "strongly": [
+      44
+     ],
+     "emerged,": [
+      45
+     ],
+     "consequences": [
+      48
+     ],
+     "for": [
+      52,
+      232
+     ],
+     "great": [
+      54
+     ],
+     "outcomes": [
+      57
+     ],
+     "(such": [
+      58
+     ],
+     "as": [
+      59
+     ],
+     "working": [
+      60
+     ],
+     "memory,": [
+      61
+     ],
+     "task": [
+      62
+     ],
+     "performance,": [
+      63
+     ],
+     "or": [
+      64
+     ],
+     "socioemotional": [
+      65,
+      193
+     ],
+     "outcomes)": [
+      66
+     ],
+     "have": [
+      67
+     ],
+     "been": [
+      68
+     ],
+     "explored.": [
+      69
+     ],
+     "While": [
+      70,
+      135
+     ],
+     "efforts": [
+      71
+     ],
+     "are": [
+      72
+     ],
+     "made": [
+      73
+     ],
+     "to": [
+      74,
+      102
+     ],
+     "summarize": [
+      75
+     ],
+     "findings": [
+      77
+     ],
+     "until": [
+      82
+     ],
+     "date,": [
+      83
+     ],
+     "these": [
+      84,
+      224
+     ],
+     "meta,": [
+      85
+     ],
+     "literature": [
+      87
+     ],
+     "studies": [
+      88,
+      105
+     ],
+     "focused": [
+      89
+     ],
+     "specific": [
+      91
+     ],
+     "subdomains.": [
+      93
+     ],
+     "Therefore,": [
+      94
+     ],
+     "current": [
+      96
+     ],
+     "study": [
+      97
+     ],
+     "adopted": [
+      98
+     ],
+     "quantitative": [
+      100
+     ],
+     "method": [
+      101
+     ],
+     "map": [
+      103
+     ],
+     "all": [
+      104
+     ],
+     "broad": [
+      108
+     ],
+     "field": [
+      109,
+      207
+     ],
+     "research.": [
+      113,
+      234
+     ],
+     "The": [
+      114
+     ],
+     "bibliometric": [
+      115
+     ],
+     "thematic": [
+      117
+     ],
+     "content": [
+      118
+     ],
+     "analyses": [
+      119,
+      201
+     ],
+     "helped": [
+      120
+     ],
+     "us": [
+      121
+     ],
+     "identifying": [
+      122
+     ],
+     "five": [
+      123
+     ],
+     "major": [
+      124
+     ],
+     "topics": [
+      126
+     ],
+     "trends": [
+      128
+     ],
+     "overall": [
+      131
+     ],
+     "domain.": [
+      134
+     ],
+     "started": [
+      139
+     ],
+     "by": [
+      140,
+      229
+     ],
+     "studying": [
+      141
+     ],
+     "its": [
+      142,
+      190
+     ],
+     "prevalence,": [
+      143
+     ],
+     "appearance,": [
+      144
+     ],
+     "predictors,": [
+      146
+     ],
+     "early": [
+      147
+     ],
+     "within": [
+      149,
+      205
+     ],
+     "domain": [
+      151
+     ],
+     "was": [
+      152
+     ],
+     "also": [
+      153
+     ],
+     "interested": [
+      154
+     ],
+     "impact": [
+      157,
+      191
+     ],
+     "consumption": [
+      161
+     ],
+     "individuals'": [
+      164
+     ],
+     "control": [
+      166
+     ],
+     "academic": [
+      168
+     ],
+     "performance.": [
+      169
+     ],
+     "Later": [
+      170
+     ],
+     "2007,": [
+      173
+     ],
+     "scholars": [
+      174
+     ],
+     "investigated": [
+      175
+     ],
+     "implications": [
+      177
+     ],
+     "processing": [
+      183
+     ],
+     "media-": [
+      185
+     ],
+     "persuasive": [
+      187
+     ],
+     "content,": [
+      188
+     ],
+     "while": [
+      189
+     ],
+     "well-being": [
+      194
+     ],
+     "received": [
+      195
+     ],
+     "attention": [
+      196
+     ],
+     "ever": [
+      197
+     ],
+     "since": [
+      198
+     ],
+     "2009.": [
+      199
+     ],
+     "Our": [
+      200
+     ],
+     "indicate": [
+      202
+     ],
+     "that": [
+      203
+     ],
+     "knows": [
+      211
+     ],
+     "dominant": [
+      213
+     ],
+     "focus": [
+      214
+     ],
+     "adolescents,": [
+      216
+     ],
+     "television": [
+      217
+     ],
+     "watching,": [
+      218
+     ],
+     "depletion.": [
+      221
+     ],
+     "Based": [
+      222
+     ],
+     "findings,": [
+      225
+     ],
+     "paper": [
+      227
+     ],
+     "concludes": [
+      228
+     ],
+     "discussing": [
+      230
+     ],
+     "directions": [
+      231
+     ],
+     "future": [
+      233
+     ]
+    },
+    "authorships": [
+     {
+      "author_position": "first",
+      "author": {
+       "id": "https://openalex.org/A5045082282",
+       "display_name": "Emma Beuckels",
+       "orcid": "https://orcid.org/0000-0002-5799-3475",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-5799-3475"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I32597200",
+        "display_name": "Ghent University",
+        "ror": "https://ror.org/00cv9y106",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I32597200"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Emma Beuckels",
+      "raw_affiliation_strings": [
+       "Center of Persuasive Communication, Ghent University, Ghent, Belgium"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center of Persuasive Communication, Ghent University, Ghent, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I32597200"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5024110176",
+       "display_name": "Guoquan Ye",
+       "orcid": "https://orcid.org/0000-0002-0623-9157",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-0623-9157"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I9224756",
+        "display_name": "Northeastern University",
+        "ror": "https://ror.org/03awzbc87",
+        "country_code": "CN",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I9224756"
+        ]
+       }
+      ],
+      "countries": [
+       "CN"
+      ],
+      "is_corresponding": true,
+      "contributor_roles": [],
+      "raw_author_name": "Guoquan Ye",
+      "raw_affiliation_strings": [
+       "School of Business Administration, Northeastern University, Shenyang, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "School of Business Administration, Northeastern University, Shenyang, China",
+        "institution_ids": [
+         "https://openalex.org/I9224756"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "middle",
+      "author": {
+       "id": "https://openalex.org/A5028800885",
+       "display_name": "Liselot Hudders",
+       "orcid": "https://orcid.org/0000-0002-9585-7175",
+       "observed_orcids": [
+        "https://orcid.org/0000-0002-9585-7175"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I32597200",
+        "display_name": "Ghent University",
+        "ror": "https://ror.org/00cv9y106",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I32597200"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Liselot Hudders",
+      "raw_affiliation_strings": [
+       "Center of Persuasive Communication, Ghent University, Ghent, Belgium",
+       "Department of Marketing, Ghent University, Ghent, Belgium"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center of Persuasive Communication, Ghent University, Ghent, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I32597200"
+        ]
+       },
+       {
+        "raw_affiliation_string": "Department of Marketing, Ghent University, Ghent, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I32597200"
+        ]
+       }
+      ]
+     },
+     {
+      "author_position": "last",
+      "author": {
+       "id": "https://openalex.org/A5031050101",
+       "display_name": "Veroline Cauberghe",
+       "orcid": "https://orcid.org/0000-0003-0713-8486",
+       "observed_orcids": [
+        "https://orcid.org/0000-0003-0713-8486"
+       ]
+      },
+      "institutions": [
+       {
+        "id": "https://openalex.org/I32597200",
+        "display_name": "Ghent University",
+        "ror": "https://ror.org/00cv9y106",
+        "country_code": "BE",
+        "type": "education",
+        "lineage": [
+         "https://openalex.org/I32597200"
+        ]
+       }
+      ],
+      "countries": [
+       "BE"
+      ],
+      "is_corresponding": false,
+      "contributor_roles": [],
+      "raw_author_name": "Veroline Cauberghe",
+      "raw_affiliation_strings": [
+       "Center of Persuasive Communication, Ghent University, Ghent, Belgium"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+       {
+        "raw_affiliation_string": "Center of Persuasive Communication, Ghent University, Ghent, Belgium",
+        "institution_ids": [
+         "https://openalex.org/I32597200"
+        ]
+       }
+      ]
+     }
+    ],
+    "primary_location": {
+     "id": "doi:10.3389/fpsyg.2021.623643",
+     "doi": "https://doi.org/10.3389/fpsyg.2021.623643",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.3389/fpsyg.2021.623643",
+     "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2021.623643/pdf",
+     "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+       "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+       "anvur-class-a",
+       "anvur-scientific",
+       "cwts-core",
+       "doaj",
+       "erih-plus",
+       "jufo-1",
+       "ki-jl-1",
+       "norway-1",
+       "poland-70",
+       "russia-white-list-1",
+       "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+       "Frontiers Media"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Frontiers in Psychology",
+     "raw_type": "journal-article"
+    }
+   }
+  ],
+  "group_by": []
+ }
+}
