@@ -12,5 +12,5 @@ TRACE_MODE=replay .venv/bin/python -m unittest discover -s tests
 echo
 echo "Setup done. Next:"
 echo "  source .venv/bin/activate"
-echo "  TRACE_MODE=replay python eval/run_eval.py        # reproduce the saved results, no key needed"
-echo "  python run.py \"your research question\"           # live run: add your Cloudflare keys to .env first"
+echo "  TRACE_MODE=replay ./experiments/run_all.sh       # reproduce every saved result, no key needed"
+echo "  python run.py \"your research question\"           # live run: set LLM_BASE_URL and LLM_API_KEY in .env"

@@ -7,4 +7,4 @@ if (-not (Test-Path .venv)) { python -m venv .venv }
 if (-not (Test-Path .env)) { Copy-Item .env.example .env }
 $env:TRACE_MODE = "replay"
 .\.venv\Scripts\python -m unittest discover -s tests
-Write-Host "Setup done. Next: .\.venv\Scripts\Activate.ps1, then python eval/run_eval.py (replay) or python run.py `"question`""
+Write-Host "Setup done. Next: .\.venv\Scripts\Activate.ps1, then experiments/run_all.sh with TRACE_MODE=replay or python run.py `"question`""
