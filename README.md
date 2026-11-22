@@ -7,7 +7,8 @@ every claim comes from. Final capstone project (Research Assistant option).
 - **Output:** a brief where every factual sentence cites a checked evidence id, plus conflicting evidence,
   disclosed gaps, a source list with verified DOIs, and a "needs human review" flag when warranted.
 - **Report:** [`docs/Final_Capstone_Report_Hermes.pdf`](docs/Final_Capstone_Report_Hermes.pdf) ·
-  **Slides:** [`docs/Capstone_Slides_Hermes.pdf`](docs/Capstone_Slides_Hermes.pdf) · video submitted in Canvas.
+  **Slides:** [`docs/Capstone_Slides_Hermes.pdf`](docs/Capstone_Slides_Hermes.pdf) ·
+  **Video (9.5 min):** [`docs/Capstone_Presentation_Hermes.mp4`](docs/Capstone_Presentation_Hermes.mp4)
 
 ## Quick start
 
